@@ -30,16 +30,9 @@
                         <div class="centrage-enfant">
 
                             <p class="text-center mt-5 mt-md-0 mt-lg-5">
-                                <a href="https://gitlab.com/Radiophonix/Radiophonix-Web" class="btn btn-sidebar mx-5 mt-1 mt-lg-0">
+                                <a href="https://gitlab.com/Radiophonix/Radiophonix" class="btn btn-sidebar mx-5 mt-1 mt-lg-0">
                                     <i class="fa fa-gitlab"></i>
-                                    GitLab du site
-                                </a>
-                            </p>
-
-                            <p class="text-center mt-5">
-                                <a href="https://gitlab.com/Radiophonix/Radiophonix-Api" class="btn btn-sidebar">
-                                    <i class="fa fa-gitlab"></i>
-                                    GitLab de l'API
+                                    Voir le code
                                 </a>
                             </p>
 
