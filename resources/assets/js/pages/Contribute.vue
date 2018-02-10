@@ -27,7 +27,7 @@
                     <br />
                     Il permet d'écouter, de parcourir et de publier des sagas.<br />
                     <br />
-                    Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix-Site" class="lien-paragraphe"><i class="fa fa-gitlab"></i> GitLab</a>
+                    Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe"><i class="fa fa-gitlab"></i> GitLab</a>
                 </p>
 
                 <pre class="mt-5"><code>&lt;<span class="text-success">template</span>&gt;
@@ -56,7 +56,7 @@
                     <br />
                     Elle permet d'intéragir avec les données de Radiophonix (sagas, saisons, épisodes, faiseurs, etc.).<br />
                     <br />
-                    Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix-Api" class="lien-paragraphe"><i class="fa fa-gitlab"></i> GitLab</a>
+                    Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe"><i class="fa fa-gitlab"></i> GitLab</a>
                 </p>
 
                 <pre class="mt-5"><code>&lt;?php
