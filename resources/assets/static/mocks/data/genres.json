@@ -1,0 +1,51 @@
+[
+    {
+        "id": 2147222869,
+        "name": "Espionnage",
+        "image": {
+            "main": "/static/mocks/media/350792372/conversions/main.jpg"
+        }
+    },
+    {
+        "id": 206107536,
+        "name": "Parodie",
+        "image": {
+            "main": "/static/mocks/media/556004678/conversions/main.jpg"
+        }
+    },
+    {
+        "id": 1523884511,
+        "name": "Contemporain",
+        "image": {
+            "main": "/static/mocks/media/861745168/conversions/main.jpg"
+        }
+    },
+    {
+        "id": 1797332506,
+        "name": "Aventure",
+        "image": {
+            "main": "/static/mocks/media/1300788002/conversions/main.jpg"
+        }
+    },
+    {
+        "id": 965594201,
+        "name": "Science-fiction",
+        "image": {
+            "main": "/static/mocks/media/1606664188/conversions/main.jpg"
+        }
+    },
+    {
+        "id": 1176091268,
+        "name": "Médiéval-fantastique",
+        "image": {
+            "main": "/static/mocks/media/1778317966/conversions/main.jpg"
+        }
+    },
+    {
+        "id": 392587459,
+        "name": "Heroic fantasy",
+        "image": {
+            "main": "/static/mocks/media/2049459544/conversions/main.jpg"
+        }
+    }
+]

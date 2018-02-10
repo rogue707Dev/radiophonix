@@ -1,0 +1,121 @@
+/*======================================================================================================================
+$ GLOBAL
+======================================================================================================================*/
+.layout-global {
+
+    display:flex;
+    flex-direction: column;
+    min-width: $largeur-sidebar;
+
+    @include media-breakpoint-down(md) {
+        margin-top: $hauteur-header;
+    }
+
+    @include media-breakpoint-up(lg) {
+        flex-direction: row;
+        height: 100%;
+        min-height:100vh;
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ HEADER
+======================================================================================================================*/
+.layout-global__header {
+
+    @include media-breakpoint-down(md) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        height: $hauteur-header;
+
+        @include degrade-horizontale--orange--fonce-claire;
+
+        z-index: z-index(300);
+    }
+
+    @include media-breakpoint-up(lg) {
+        display: none;
+    }
+
+}
+
+
+
+
+/*======================================================================================================================
+$ MENU
+======================================================================================================================*/
+.layout-global__menu {
+    background: $bleu-fonce linear-gradient(to right, rgba($bleu-moyen,1) 0%,rgba($bleu-moyen,1) 5px,rgba($bleu-moyen,0) 5px);
+
+    @include media-breakpoint-down(md) {
+        display: none;
+
+        &.actif {
+            display: inherit;
+            position: fixed;
+            top: $hauteur-header;
+            left: 0;
+            right: 0;
+            z-index: z-index(300);
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        flex-shrink:0;
+        flex-basis: $largeur-menu;
+    }
+
+}
+
+
+
+
+/*======================================================================================================================
+$ SIDEBAR
+======================================================================================================================*/
+.layout-global__sidebar {
+
+    @include media-breakpoint-up(lg) {
+        flex-shrink:0;
+        flex-basis: $largeur-sidebar;
+    }
+
+}
+
+
+
+
+/*======================================================================================================================
+$ MAIN
+======================================================================================================================*/
+
+
+/*-----------------------------------------------------------------------------
+$ NORMAL
+-----------------------------------------------------------------------------*/
+.layout-global__main {
+
+    @include media-breakpoint-up(lg) {
+        flex-grow: 1;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------
+$ SANS SIDEBAR
+-----------------------------------------------------------------------------*/
+.layout-global__main--no-sidebar {
+
+    @include media-breakpoint-up(lg) {
+        flex-grow: 1;
+        max-width: 1920px;
+    }
+
+}

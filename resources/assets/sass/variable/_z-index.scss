@@ -1,0 +1,34 @@
+/*======================================================================================================================
+$ REPERTORISATION DES Z-INDEX
+======================================================================================================================*/
+$liste-z-index: (
+        0 : 0,
+        // motif bannière
+        // barre-bas navigation
+        // lecteur playlist
+
+        1 : 1,
+        // navigation (dans contenu)
+        // tag dans banniere
+        // lecteur__conteneur
+
+        2 : 2,
+        // bouton lecture
+
+        15 : 15,
+        // bouton pannel (les autres)
+
+        20 : 20,
+        // bouton pannel (le plus gros bouton)
+
+        100 : 100,
+        // menu large
+
+        200 : 200,
+        // cercle du lecteur (il doit être cliquable)
+        // Bouton pannel
+
+        300 : 300
+        // header mobile
+        // menu md down
+);

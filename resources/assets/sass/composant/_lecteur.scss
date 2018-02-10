@@ -1,0 +1,159 @@
+/*======================================================================================================================
+$ CONTENEUR
+======================================================================================================================*/
+.lecteur__conteneur {
+
+    //margin: 0 -15px;
+
+    @include media-breakpoint-down(md){
+        background-color: $bleu-fonce;
+    }
+
+    @include media-breakpoint-up(lg) {
+        position: fixed;
+        z-index: z-index(1);
+    }
+
+}
+
+
+
+
+/*======================================================================================================================
+$ FOND
+======================================================================================================================*/
+
+/*-----------------------------------------------------------------------------
+$ POSITION
+-----------------------------------------------------------------------------*/
+.lecteur {
+    position: relative;
+    margin: 0 auto;
+
+    width: $largeur-sidebar;
+    height: $largeur-sidebar;
+}
+
+/*-----------------------------------------------------------------------------
+$ ESPACE OCCUPER
+-----------------------------------------------------------------------------*/
+.lecteur__fond {
+    width: $largeur-sidebar;
+    height: $largeur-sidebar;
+    overflow: hidden;
+
+    img {
+        position: absolute;
+        top:-10px;
+        left:-10px;
+    }
+}
+
+/*-----------------------------------------------------------------------------
+$ FILTRE et EFFET
+-----------------------------------------------------------------------------*/
+.lecteur__filtre-rouge {
+    @include cover;
+    @include filtre-rouge;
+}
+
+.lecteur__filtre-bleu {
+    @include cover;
+    background: rgba($bleu-fonce, $lecteur-opacite-filtre-couleur);
+    clip-path:circle(105px at 159px 190px);
+}
+
+.lecteur__masque-image {
+    clip-path: circle(105px at (169px) 200px);;
+}
+
+
+
+
+/*======================================================================================================================
+$ INTERFACE
+======================================================================================================================*/
+
+.lecteur__interface {
+    position: absolute;
+    top:0;
+    left:0;
+    height: $largeur-sidebar;
+    width: $largeur-sidebar;
+}
+
+.lecteur__titre {
+    height: 74px;
+    display: flex;
+    align-items: center;
+
+    div {
+        width: 100%;
+    }
+}
+
+.lecteur__info {
+    display: flex;
+    height: $lecteur-taille-progress;
+    align-items: center;
+
+    &__btn {
+        flex-basis: 45px;
+        text-align: center;
+    }
+}
+
+
+.lecteur__temps {
+    text-shadow: 0 0 1px $bleu-fonce;
+}
+
+
+
+
+/*======================================================================================================================
+$ BARRE de progression
+======================================================================================================================*/
+.lecteur__barre-progression {
+    position: absolute;
+    top:0;
+    left: 50%;
+    margin-left: -($lecteur-taille-progress / 2);
+}
+
+
+
+
+/*======================================================================================================================
+$ BOUTON SUIVANT / PRECEDENT
+======================================================================================================================*/
+.lecteur__bouton--btn {
+    @include lecteur__bouton-cercle--blanc();
+
+    .fa-backward {
+        padding-right: 5px;
+    }
+
+    .fa-forward {
+        padding-left: 5px;
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ BOUTON LECTURE
+======================================================================================================================*/
+.lecteur__bouton-lecture {
+    position: absolute;
+    @include lecteur__position-bouton;
+    z-index: z-index(2);
+
+    @include media-breakpoint-only(md){
+        &.lecteur__bouton-recherche{
+            right: -25px;
+            bottom: 30px;
+        }
+    }
+}

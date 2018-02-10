@@ -1,0 +1,66 @@
+/*======================================================================================================================
+$ BASE
+======================================================================================================================*/
+.layout-resultat-recherche {
+    display: flex;
+    flex-direction: column;
+
+    @include media-breakpoint-only(md){
+        flex-direction: row;
+    }
+
+    @media screen and (min-width: 1120px) {
+        flex-direction: row;
+    }
+    @media screen and (min-width: 1347px) {
+        flex-direction: column;
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ LES PLUS RECHERCHÉ
+======================================================================================================================*/
+.layout-resultat-recherche__zoom {
+    max-width: 450px;
+
+    @media screen and (min-width: 1120px) {
+        flex: 0 0 224px;
+    }
+    @media screen and (min-width: 1347px) {
+        max-width: none;
+        padding-right: 0;
+        flex-basis: 100%;
+    }
+
+    .liste-resultat__item-zoom {
+        width: 210px;
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ AUTRES RÉSULTATS
+======================================================================================================================*/
+.layout-resultat-recherche__vrac {
+
+    @media screen and (min-width: 1120px) {
+        padding-left: 50px;
+        flex-grow: 1;
+    }
+    @media screen and (min-width: 1347px) {
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+
+

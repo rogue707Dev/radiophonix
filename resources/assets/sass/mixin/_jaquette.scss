@@ -1,0 +1,14 @@
+/*======================================================================================================================
+$ BASE
+======================================================================================================================*/
+@mixin jaquette($largeur:$largeur-petite-jaquette) {
+    display: inline-block;
+    width: $largeur;
+    height: $largeur;
+    overflow: hidden;
+
+    img {
+        width: $largeur;
+        height: $largeur;
+    }
+}

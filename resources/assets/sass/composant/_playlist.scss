@@ -1,0 +1,60 @@
+/*======================================================================================================================
+$ PLAYLIST
+======================================================================================================================*/
+.lecteur__playlist {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+
+
+/*======================================================================================================================
+$ MORCEAU
+======================================================================================================================*/
+
+/*-----------------------------------------------------------------------------
+$ NORMAL
+-----------------------------------------------------------------------------*/
+.lecteur__playlist__morceau {
+    padding:$espacement-standard--petit 0;
+    border-bottom: 1px solid rgba($bleu-moyen, 0.4);
+
+    @include media-breakpoint-down(sm) {
+        &:first-child {
+            border-top: 1px solid rgba($bleu-moyen, 0.4);
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &:last-child {
+            border-bottom-color: transparent;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        border-bottom: 1px solid rgba($blanc, 0.4);
+
+        &:first-child {
+            padding-top: 30px;
+        }
+    }
+}
+
+
+/*-----------------------------------------------------------------------------
+$ ACTIF
+-----------------------------------------------------------------------------*/
+.lecteur__playlist__morceau.actif {
+
+    @include media-breakpoint-down(md) {
+        background-color: $bleu-moyen;
+        color: $blanc-moyen;
+    }
+
+
+    @include media-breakpoint-up(lg) {
+        background-color: $blanc;
+    }
+}

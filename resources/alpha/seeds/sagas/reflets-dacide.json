@@ -1,0 +1,209 @@
+{
+    "name": "Reflets d'Acide",
+    "synopsis": "Wrandrall cherche désespérément des compagnons de route pour sa quête : ils devront braver vents et marées pour aller explorer une grotte. Nul ne sait ce qui les attend sur cette route, ni ce qu'ils trouveront au fond de cette grotte… Une seule chose est sûre, c'est qu'ils n'ont aucune idée de ce dans quoi ils se sont embarqués.",
+    "creation_date": "2002-12-01T00:00:00+00:00",
+    "licence": "CC BY-NC",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/Reflets_d%27Acide",
+        "site": "http://synopsite.com/",
+        "topic": null,
+        "rss": null,
+        "facebook": null,
+        "twitter": null
+    },
+    "finished": false,
+    "visibility": 0,
+    "images": {
+        "cover": "reflets-d-acide.png"
+    },
+    "genres": [
+        "Heroic fantasy"
+    ],
+    "author": "JBX",
+    "collections": [
+        {
+            "number": "1",
+            "name": "Saison 1",
+            "synopsis": "",
+            "type": "saison",
+            "tracks": [
+                {
+                    "number": "1",
+                    "title": "L'enrôlement",
+                    "synopsis": "Wrandrall recherche des aventuriers dans la taverne de Maender-Alkoor pour l'accompagner dans sa quête : explorer un souterrain.",
+                    "published_at": "2004-02-07T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 823,
+                    "file": "RDA/RDA01.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "2",
+                    "title": "La Forêt des éventrés",
+                    "synopsis": "Le groupe commence son voyage mais il tombe sur un groupe d'orques attaquant un clerc.",
+                    "published_at": "2003-09-07T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 770,
+                    "file": "RDA/RDA02.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "3",
+                    "title": "Le fleuve des glaires tièdes",
+                    "synopsis": "Un ogre garde le passage sur le seul pont du fleuve. Nos aventuriers cherchent un moyen de passer.",
+                    "published_at": "2005-04-07T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 1020,
+                    "file": "RDA/RDA03.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "4",
+                    "title": "La Grotte de l’Herpès écorché",
+                    "synopsis": "Une forte odeur de soufre se fait sentir à l'entrée de cette grotte que les héros doivent traverser.",
+                    "published_at": "2003-01-07T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 616,
+                    "file": "RDA/RDA04.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "5",
+                    "title": "Le Bivouac…tion !",
+                    "synopsis": "Il est l'heure pour nos héros de faire une pause pour la nuit. Mais cette nuit ne sera pas de tout repos.",
+                    "published_at": "2003-06-07T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 783,
+                    "file": "RDA/RDA05.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "6",
+                    "title": "La Colline des Mille Gangrènes",
+                    "synopsis": "En gravissant la colline, le groupe est pris dans le brouillard et se fait attaquer par des goules.",
+                    "published_at": "2003-12-07T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 757,
+                    "file": "RDA/RDA06.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "7",
+                    "title": "Le Mont Mucus",
+                    "synopsis": "Le sommet du Mont Mucus cachait un labyrinthe piégé que les héros doivent traverser pour atteindre enfin l'entrée du souterrain.",
+                    "published_at": "2004-05-07T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 806,
+                    "file": "RDA/RDA07.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "8",
+                    "title": "Au fond du trou...",
+                    "synopsis": "Le groupe s'aventure dans le gouffre en s'encordant puis en descendant un escalier. En parallèle, à Maender-Alkoor, Moumoune cherche un moyen d'annuler le lien d'invocation entre Zarakaï et son mari.",
+                    "published_at": "2004-09-07T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 1003,
+                    "file": "RDA/RDA08.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "9",
+                    "title": "Énigme dans l'abîme !",
+                    "synopsis": "Moumoune ramène un prêtre de Shamrodia pour exorciser Roger. Dans le gouffre, le groupe doit résoudre une énigme pour pouvoir explorer plus en profondeur.",
+                    "published_at": "2005-02-07T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 1290,
+                    "file": "RDA/RDA09.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "10",
+                    "title": "La croisée des chemins",
+                    "synopsis": "Alors que nos aventuriers veulent faire payer à Wrandrall sa vile parenté, ils se font attaquer par leurs reflets inversés. De leur côté, Moumoune, Roger et la dragonne se rendent chez le devin de la cité.",
+                    "published_at": "2005-08-07T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 1593,
+                    "file": "RDA/RDA10.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "11",
+                    "title": "L’elfe et la prison brisée",
+                    "synopsis": "Le groupe tente de prévenir Maender-Alkor que l'armée des ténèbres se dirige vers la ville. Dans la cité, l'espion du roi Mortis est appréhendé par Kyo.",
+                    "published_at": "2006-02-11T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 2123,
+                    "file": "RDA/RDA11.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "12",
+                    "title": "L’infâme alliance des fléaux",
+                    "synopsis": "Wrandrall, sous l'influence de son épée, vient de libérer son père Bélial du miroir où il fut enfermé il y a plus de 1000 ans. Moumoune et Roger tente de soigner Trichelieu, assommé, et suite à une erreur, il se retrouve transformé en oie. En parallèle, Kyo emmène le prêtre de Shamrodia vers le tribunal.",
+                    "published_at": "2007-04-15T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 2574,
+                    "file": "RDA/RDA12.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "13",
+                    "title": "Dies irae, dies illa solvet saeclum in favilla",
+                    "synopsis": "Au pied de l'escalier, le groupe est assommé et à la merci de Bélial. Pour sauver ses compagnons, Wrandrall propose à Bélial de le téléporter hors du gouffre. A Meander-Alkor, le devin veut consulter le Grimoire des Secrets au temple d'Hésindé.",
+                    "published_at": "2008-04-20T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 3248,
+                    "file": "RDA/RDA13.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "14",
+                    "title": "Un peuple qui oublie son passé se condamne à le revivre",
+                    "synopsis": "Nos héros sont pris au piège dans le gouffre où ils doivent tenir tête à la dragonne pendant que Belial rejoint le Roi Mortys. Simultanément, Maender-Alkor se réveille.",
+                    "published_at": "2009-10-04T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": 3704,
+                    "file": "RDA/RDA14.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "15",
+                    "title": "Bien plus que des racines, mieux vaut avoir des ailes... afin de s'élever...",
+                    "synopsis": "",
+                    "published_at": "2012-07-05T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": "1h15m1s",
+                    "file": "RDA/RDA15.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "16",
+                    "title": "Au delà de la Mort, de l’Enfer et du Temps, Il n’est de pire sort que celui du Néant",
+                    "synopsis": "",
+                    "published_at": "2012-07-05T15:21:49+00:00",
+                    "status": 2,
+                    "seconds": "1h52m52s",
+                    "file": "RDA/RDA16-FINAL.mp3",
+                    "percentages": [],
+                    "chapters": []
+                }
+            ]
+        }
+    ]
+}

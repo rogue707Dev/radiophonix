@@ -1,0 +1,119 @@
+/*======================================================================================================================
+$ CONTENEUR
+======================================================================================================================*/
+.layout-conteneur__menu {
+    @include reset-ul;
+
+    @include media-breakpoint-down(md) {
+        z-index: z-index(100);
+        width: 100%;
+    }
+
+    @include media-breakpoint-up(lg) {
+        position: fixed;
+        top:0;
+        left: 0;
+
+        width: $largeur-menu;
+        height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+/*======================================================================================================================
+$ ITEM
+======================================================================================================================*/
+
+/*-----------------------------------------------------------------------------
+$ LIEN NORMAL
+-----------------------------------------------------------------------------*/
+.layout-menu__item {
+    display: flex;
+    align-items: center;
+    color: $blanc-fonce;
+
+    svg {
+        fill: $blanc-fonce;
+    }
+
+    @include media-breakpoint-down(md) {
+        flex-direction: row;
+        padding: $espacement-standard--petit;
+
+        border-bottom: 1px solid $bleu-moyen;
+
+        svg {
+            width: 20px;
+            margin: 0 $espacement-standard--petit;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        flex-direction: column;
+        justify-content: center;
+        min-height: ($largeur-menu - $largeur-bande-menu);
+        font-size: 1rem;
+        text-transform: uppercase;
+
+        svg {
+            margin-bottom: $espacement-standard--petit;
+        }
+    }
+
+}
+
+
+/*-----------------------------------------------------------------------------
+$ LIEN ACTIF
+-----------------------------------------------------------------------------*/
+.layout-menu__item.actif {
+    background-color: $bleu-moyen;
+    color: $blanc;
+
+    @include media-breakpoint-down(md) {
+        @include menu__bande-halo {
+            background-color: $orange-clair;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+
+        @include menu__bande-halo {
+            @include degrade-horizontale--orange--fonce-claire;
+
+        }
+
+    }
+
+    svg {
+        fill: $blanc;
+    }
+
+}
+
+
+/*-----------------------------------------------------------------------------
+$ LIEN HOVER
+-----------------------------------------------------------------------------*/
+.layout-menu__item {
+
+    @include survol(".actif"){
+        color: $blanc;
+
+        @include menu__bande-halo {
+            background-color: $orange-clair;
+        }
+
+        svg {
+            fill: $blanc;
+        }
+    }
+}

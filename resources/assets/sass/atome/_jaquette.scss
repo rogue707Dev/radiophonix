@@ -1,0 +1,44 @@
+/*======================================================================================================================
+$ TAILLE
+======================================================================================================================*/
+.jaquette--petite {
+    @include jaquette();
+}
+
+.jaquette--moyen {
+    @include jaquette($largeur-moyen-jaquette);
+}
+
+.jaquette--grande {
+    @include jaquette($largeur-grande-jaquette);
+}
+
+.jaquette--banniere {
+    @include jaquette(244px);
+}
+
+
+
+
+/*======================================================================================================================
+$ MASQUE
+  border-radius pour IE et edge
+======================================================================================================================*/
+.jaquette--saga {
+    mask-image: url('/static/dev/images/masque-saga.svg');
+}
+
+.jaquette--faiseur {
+    border-radius:50%;
+    mask-image: url('/static/dev/images/masque-faiseur.svg');
+}
+
+.jaquette--episode {
+    border-radius:10px;
+    mask-image: url('/static/dev/images/masque-episode.svg');
+}
+
+.jaquette--genre {
+    border-radius:30px;
+    mask-image: url('/static/dev/images/masque-genre.svg');
+}

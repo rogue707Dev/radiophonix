@@ -1,0 +1,104 @@
+/*======================================================================================================================
+$ BASE
+======================================================================================================================*/
+$banniere__taille-visuel: 200px;
+$banniere__padding-large: 20px;
+
+.banniere {
+    @include banniere__fond;
+    @include degrade-vertical--orange--fonce-moyen;
+    padding: $banniere__padding-large;
+    min-height: $largeur-sidebar;
+    color: $bleu-fonce;
+
+    display: flex;
+    flex-direction: column;
+
+
+    @include media-breakpoint-up(md) {
+        flex-direction: row;
+    }
+
+    @include media-breakpoint-only(md) {
+        padding: 0 35px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+}
+
+
+
+/*======================================================================================================================
+$ ZONE VISUEL
+======================================================================================================================*/
+.banniere__zone-visuel {
+    flex-basis: $banniere__taille-visuel;
+    height: $banniere__taille-visuel;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    z-index: z-index(1);
+
+    position: relative;
+
+    @include media-breakpoint-down(sm) {
+        width: $banniere__taille-visuel;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @include media-breakpoint-only(md) {
+
+    }
+
+    @include media-breakpoint-up(lg) {
+        min-width: $banniere__taille-visuel;
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ BANNIERE JAQUETTE
+======================================================================================================================*/
+.banniere__zone-visuel .jaquette--banniere {
+    position: absolute;
+    //img 244px
+    top: -23px;
+    left: -23px;
+}
+
+
+
+
+/*======================================================================================================================
+$ ZONE CONTENU
+======================================================================================================================*/
+.banniere__zone-contenu {
+    flex-grow: 1;
+
+    z-index: z-index(1);
+
+
+    @include media-breakpoint-up(lg) {
+        margin-left: 30px;
+    }
+
+
+}
+
+
+
+
+/*======================================================================================================================
+$ BANNIERE
+======================================================================================================================*/
+.banniere__icon-cc {
+    font-size: 3.5rem;
+}

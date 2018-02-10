@@ -1,0 +1,24 @@
+/*======================================================================================================================
+$ Z-INDEX
+
+Cette fonction sert :
+    - de raccourci pour map-get($liste-z-index, $cle), et la remplace par z-index($mon-index-de-z-index)
+    - à centraliser les déclarations de z-index via la variable de type list $liste-z-index
+
+@exemple
+     z-index: z-index(1);
+
+======================================================================================================================*/
+@function z-index($clef: 1) {
+
+    @if map-has-key($liste-z-index, $clef) {
+
+        @return map-get($liste-z-index, $clef);
+
+    } @else {
+
+        @warn "La donnée, liée à la clé d'index `#{$clef}` dans la liste '#{$liste-z-index}', n'a pas été trouvée : elle n'existe pas/plus ou sa clé d'index est incorrecte.";
+
+        @return null;
+    }
+}

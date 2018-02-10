@@ -1,0 +1,26 @@
+{
+    "name": "Matrick",
+    "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
+    "creation_date": "2000-07-22T00:00:00+00:00",
+    "licence": "CC BY-NC-ND",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/Matrick",
+        "site": "http://www.doevell.org/caudio",
+        "topic": null,
+        "rss": null,
+        "facebook": null,
+        "twitter": null
+    },
+    "finished": true,
+    "visibility": 0,
+    "images": {
+        "cover": "matrick.jpg"
+    },
+    "genres": [
+        "Science-fiction"
+    ],
+    "author": "Mitch DSM",
+    "collections": [
+
+    ]
+}

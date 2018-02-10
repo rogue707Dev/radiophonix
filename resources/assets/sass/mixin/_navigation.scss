@@ -1,0 +1,16 @@
+/*======================================================================================================================
+$ NAVIGATION
+======================================================================================================================*/
+@mixin barre-bas {
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -($espacement-bas-barre-navigation);
+        left: 0;
+        right: 0;
+        height: $hauteur-barre-navigation;
+        @content;
+    }
+}

@@ -1,0 +1,14 @@
+/*======================================================================================================================
+$ INITIALISATION GRILLE et ESPACEMENT
+======================================================================================================================*/
+@mixin sidebar-contenu__init {
+
+    //pour initialiser la grille bootstrap
+    margin-right: $padding-grid;
+    margin-left: $padding-grid;
+
+
+    @include media-breakpoint-up(lg) {
+        width: 100%;
+    }
+}

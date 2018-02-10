@@ -1,0 +1,73 @@
+/*======================================================================================================================
+$ BASE
+======================================================================================================================*/
+.navigation {
+    @include reset-ul;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: ($espacement-bas-barre-navigation + $hauteur-barre-navigation + $espacement-standard);
+    width: 100%;
+
+    @include barre-bas {
+        z-index: z-index(0);
+        background: $blanc-moyen;
+        bottom: -($espacement-bas-barre-navigation - $espacement-bas-bouton-barre-navigation);
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ ITEM
+======================================================================================================================*/
+
+/*-----------------------------------------------------------------------------
+$ NORMAL
+-----------------------------------------------------------------------------*/
+.navigation li {
+    text-transform: uppercase;
+    color: $bleu-clair;
+    font-size: 1.6rem;
+
+    margin-right: $espacement-standard--double;
+    margin-bottom: $espacement-bas-bouton-barre-navigation;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+
+
+
+/*-----------------------------------------------------------------------------
+$ ACTIF
+-----------------------------------------------------------------------------*/
+.navigation li.actif {
+    color: $bleu-fonce;
+
+    @include barre-bas {
+        z-index: z-index(1);
+        background-color: $orange-fonce;
+        @include halo--orange-clair;
+    }
+}
+
+
+
+
+/*-----------------------------------------------------------------------------
+$ SURVOL
+-----------------------------------------------------------------------------*/
+.navigation li {
+    @include survol(".actif"){
+        color: $bleu-moyen;
+
+        @include barre-bas {
+            z-index: z-index(1);
+            background-color: $orange-clair;
+            @include halo--orange-clair;
+        }
+    };
+}

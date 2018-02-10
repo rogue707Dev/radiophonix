@@ -1,0 +1,150 @@
+/*======================================================================================================================
+$ RESET
+======================================================================================================================*/
+button {
+    color: inherit;
+    border: 0 none;
+    background: transparent none;
+}
+
+
+
+
+/*======================================================================================================================
+$ TAILLE BOUTON
+======================================================================================================================*/
+
+// surcharge bootstrap
+.btn {
+    padding: 3px 15px;
+    border-radius: $border-radius;
+    font-size: 1.4rem;
+
+    & i.fa{
+        margin-right: 5px;
+    }
+}
+
+.btn-petit-rond {
+    @include bouton-rond(25px);
+}
+
+.btn-moyen-rond {
+    @include bouton-rond(35px);
+}
+
+.btn-grand-rond {
+    @include bouton-rond(50px);
+
+    .fa-play:not(.fa-pause) {
+        padding-left: 3px;
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ BOUTON de COULEUR
+======================================================================================================================*/
+
+/*-----------------------------------------------------------------------------
+$ BLANC
+-----------------------------------------------------------------------------*/
+.btn-blanc {
+    background-color: $blanc;
+    box-shadow: 0 0 5px 0 $rouge;
+
+    color: $bleu-moyen;
+
+    @include survol() {
+        color: $orange-fonce;
+        box-shadow: 0 0 5px 0 $orange-fonce;
+        cursor: pointer;
+    }
+}
+
+/*-----------------------------------------------------------------------------
+$ BLANC-FONCE
+-----------------------------------------------------------------------------*/
+.btn-blanc-fonce {
+    background-color: $blanc;
+    border:1px solid $blanc-fonce;
+
+    color: $bleu-clair;
+
+    @include survol() {
+        color: $bleu-fonce;
+        border-color: transparent;
+        box-shadow: 0 0 5px 0 $orange-fonce;
+        cursor: pointer;
+    }
+}
+
+/*-----------------------------------------------------------------------------
+$ BLEU-MOYEN
+-----------------------------------------------------------------------------*/
+.btn-bleu-moyen {
+    background-color: $bleu-moyen;
+    box-shadow: 0 0 5px 0 $rouge;
+
+    color: $blanc;
+
+    @include survol() {
+        color: $orange-clair;
+        box-shadow: 0 0 5px 0 $orange-clair;
+        cursor: pointer;
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ BOUTON COMPOSER - picto cercle + texte
+======================================================================================================================*/
+.btn-composer-blanc-fonce {
+    @include survol() {
+        cursor: pointer;
+        color: $orange-fonce;
+
+        .btn-blanc-fonce {
+            color: $orange-fonce;
+            border-color: $bleu-clair;
+        }
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ LIBRARY ICON CC
+======================================================================================================================*/
+.btn-cc-bleu-moyen .cc {
+    color: $bleu-moyen;
+    text-shadow: $rouge 0 0 5px;
+}
+
+
+
+
+/*======================================================================================================================
+$ BOUTON pour SIDEBAR
+======================================================================================================================*/
+.btn-sidebar {
+
+    background-color: $blanc;
+    color: $bleu-moyen;
+    box-shadow: 0 0 5px 0 $bleu-fonce;
+
+    @include media-breakpoint-up(lg) {
+        box-shadow: 0 0 5px 0 $rouge;
+
+        @include survol() {
+            color: $rouge;
+            box-shadow: 0 0 5px 0 $orange-fonce;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,411 @@
+{
+    "sagas": [
+        {
+            "id": 2147222869,
+            "slug": "agent-0",
+            "name": "Agent 0",
+            "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
+            "creation_date": "2006-08-25T00:00:00+00:00",
+            "licence": "CC BY",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "rss": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "finished": true,
+            "visibility": 0,
+            "stats": {
+                "bravos": 0,
+                "collections": 1,
+                "tracks": 30
+            },
+            "created_at": "2018-02-06T22:43:29+00:00",
+            "updated_at": "2018-02-06T22:43:29+00:00",
+            "author": {
+                "id": 206107536,
+                "slug": "flo",
+                "name": "Flo",
+                "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
+                "links": {
+                    "netowiki": null,
+                    "site": null,
+                    "topic": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "stats": {
+                    "sagas": 1
+                },
+                "created_at": "2018-02-06T22:43:27+00:00",
+                "updated_at": "2018-02-06T22:43:27+00:00",
+                "type": "user",
+                "picture": {
+                    "main": "/static/mocks/media/1462912999/conversions/main.jpg",
+                    "thumb": "/static/mocks/media/1462912999/conversions/thumb.jpg"
+                }
+            },
+            "images": {
+                "cover": {
+                    "main": "/static/mocks/media/231868445/conversions/main.jpg",
+                    "thumb": "/static/mocks/media/231868445/conversions/thumb.jpg",
+                    "meta": {
+                        "color": "#FE0000",
+                        "type": "dark"
+                    }
+                }
+            }
+        },
+        {
+            "id": 206107536,
+            "slug": "banal-fantasy",
+            "name": "Banal Fantasy",
+            "synopsis": "Crad Stripe, ex-membre du SOLDÉ, s'allie au groupe écologique radical \"Chute de Gravier\", dont le but et de détruire les réacteurs de la Shi-ra qui pompent l'énergie vitale de la planète et, du même fait, l'affaiblit. Au même moment, Kissifrotte tente de ressusciter les cellules de JENOVA, descendante des Vieilles Peaux, morts il y a de cela bien longtemps après une rude canicule. Ceci fait, tous deux essaieront de détruire la planète dans un but bien précis. L'équipe, rejointe par Ahéré et Waïkiki, va tenter d'arrêter Kissifrote, ce qu'essaie aussi la Shi-ra.",
+            "creation_date": "2004-03-09T00:00:00+00:00",
+            "licence": "CC-BY-NC-ND",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "rss": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "finished": false,
+            "visibility": 0,
+            "stats": {
+                "bravos": 0,
+                "collections": 6,
+                "tracks": 46
+            },
+            "created_at": "2018-02-06T22:43:30+00:00",
+            "updated_at": "2018-02-06T22:43:30+00:00",
+            "author": {
+                "id": 2147222869,
+                "slug": "durendal",
+                "name": "Durendal",
+                "bio": "Durendal est né le 13 Mars 1988 d'une maman tarée et d'un père Desprogien. Il a travaillé 3 ans dans la vente de jeux vidéos, avant d'arrêter en 2011 pour entamer des études de cinéma. Il maitrise partiellement l'infographie.",
+                "links": {
+                    "netowiki": null,
+                    "site": null,
+                    "topic": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "stats": {
+                    "sagas": 1
+                },
+                "created_at": "2018-02-06T22:43:27+00:00",
+                "updated_at": "2018-02-06T22:43:27+00:00",
+                "type": "user",
+                "picture": {
+                    "main": "/static/mocks/media/1277011276/conversions/main.jpg",
+                    "thumb": "/static/mocks/media/1277011276/conversions/thumb.jpg"
+                }
+            },
+            "images": {
+                "cover": {
+                    "main": "/static/mocks/media/504187695/conversions/main.jpg",
+                    "thumb": "/static/mocks/media/504187695/conversions/thumb.jpg",
+                    "meta": {
+                        "color": "#5546D7",
+                        "type": "dark"
+                    }
+                }
+            }
+        },
+        {
+            "id": 1523884511,
+            "slug": "chez-le-psy",
+            "name": "Chez le Psy",
+            "synopsis": "Wallace Ticot, psychologue excentrique, décide d'enregistrer les délires de ses patients au moyen de cassettes. Dans les deux premières saisons, la majeure partie de la série tourne autour des consultations se déroulant dans son cabinet. Un contexte que les créateurs de Chez le Psy utilisent aussi pour intégrer des membres de la Sagasphère, et certains de leurs personnages. La saison 3 change légèrement de contexte et s'adapte à la nouvelle identité du groupe de créateurs.",
+            "creation_date": "2007-06-29T00:00:00+00:00",
+            "licence": "CC BY-NC 2.0 FR",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "rss": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "finished": false,
+            "visibility": 0,
+            "stats": {
+                "bravos": 0,
+                "collections": 9,
+                "tracks": 66
+            },
+            "created_at": "2018-02-06T22:43:31+00:00",
+            "updated_at": "2018-02-06T22:43:31+00:00",
+            "author": {
+                "id": 965594201,
+                "slug": "magoyond",
+                "name": "Magoyond",
+                "bio": "",
+                "links": {
+                    "netowiki": null,
+                    "site": null,
+                    "topic": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "stats": {
+                    "sagas": 1
+                },
+                "created_at": "2018-02-06T22:43:28+00:00",
+                "updated_at": "2018-02-06T22:43:28+00:00",
+                "type": "team",
+                "picture": {
+                    "main": "/static/mocks/media/1753359144/conversions/main.jpg",
+                    "thumb": "/static/mocks/media/1753359144/conversions/thumb.jpg"
+                }
+            },
+            "images": {
+                "cover": {
+                    "main": "/static/mocks/media/674797561/conversions/main.jpg",
+                    "thumb": "/static/mocks/media/674797561/conversions/thumb.jpg",
+                    "meta": {
+                        "color": "#000000",
+                        "type": "dark"
+                    }
+                }
+            }
+        },
+        {
+            "id": 1797332506,
+            "slug": "kiponie-stories",
+            "name": "Kiponie Stories",
+            "synopsis": "Tout commence par un voyage sans intérêt. Le très jeune capitaine Alexandre Vinoqui se lance dans l'expédition du siècle : Percer les mystères du Triangle des Mersnulles et révéler au monde entier les secrets cachés par d'étranges brumes. Il prend donc la première opportunité venue et embarque avec lui son vieil ami Hanson Triviany ainsi qu’une équipe d’andouilles dégotée dans les poubelles du coin. Après deux semaines de voyage plus que désagréables, une tempête frappe soudainement leur navire et le transforme en musée sous-marin. Nos deux aventuriers amateurs se retrouvent prisonniers d’un continent mystérieux gardant des secrets inimaginables. C’est à ce moment là que les problèmes commencent...",
+            "creation_date": "2006-06-24T00:00:00+00:00",
+            "licence": "CC BY-NC-SA",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "rss": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "finished": false,
+            "visibility": 0,
+            "stats": {
+                "bravos": 0,
+                "collections": 1,
+                "tracks": 1
+            },
+            "created_at": "2018-02-06T22:43:33+00:00",
+            "updated_at": "2018-02-06T22:43:33+00:00",
+            "author": {
+                "id": 1523884511,
+                "slug": "inky",
+                "name": "Inky",
+                "bio": "En 2006, lors d’une recherche d’images sur le net portant sur des batailles dans l’espace, il y découvre un livre audio s’intitulant La Bataille de l’Espace. De liens en liens, il découvre toutes les grandes aventures et apprend un nouveau terme : Saga mp3. En juin de la même année, il crée une aventure audio semi-humoristique au genre fantastique : Kiponie Stories. En janvier 2007, il remarque sur les forums de sagas mp3, la création très récente d’un forum réunissant les adeptes des créations audio : Netophonix. Il ne tarde pas à s’y inscrire et fait découvrir sa saga, qui est tout de suite appréciée et encouragée, ce qui met l’auteur dans de bonnes conditions pour la poursuivre. Il participe volontiers à d’autres créations mp3 et en partie à un grand projet sagasphérique, Le Choc des Zéros, pour lequel il prête certains de ses personnages.\nAprès la sortie du dernier épisode de la pré-saison de Kiponie Stories, fin décembre 2008, Inky se lance dans une science-fiction : Onidacius. Elle fut très vite abandonnée, l'auteur préférant consacrer son temps libre à sa première création. Le 14 mars 2009, il est invité sur la web-radio SynopsLive pour la diffusion du premier épisode de la deuxième saison (appelée aussi chapitre 1) de Kiponie Stories.",
+                "links": {
+                    "netowiki": null,
+                    "site": null,
+                    "topic": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "stats": {
+                    "sagas": 1
+                },
+                "created_at": "2018-02-06T22:43:28+00:00",
+                "updated_at": "2018-02-06T22:43:28+00:00",
+                "type": "user",
+                "picture": {
+                    "main": "/static/mocks/media/1581834270/conversions/main.jpg",
+                    "thumb": "/static/mocks/media/1581834270/conversions/thumb.jpg"
+                }
+            },
+            "images": {
+                "cover": {
+                    "main": "/static/mocks/media/980669067/conversions/main.jpg",
+                    "thumb": "/static/mocks/media/980669067/conversions/thumb.jpg",
+                    "meta": {
+                        "color": "#CC4D1B",
+                        "type": "dark"
+                    }
+                }
+            }
+        },
+        {
+            "id": 965594201,
+            "slug": "matrick",
+            "name": "Matrick",
+            "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
+            "creation_date": "2000-07-22T00:00:00+00:00",
+            "licence": "CC BY-NC-ND",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "rss": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "finished": true,
+            "visibility": 0,
+            "stats": {
+                "bravos": 0,
+                "collections": 0,
+                "tracks": 0
+            },
+            "created_at": "2018-02-06T22:43:35+00:00",
+            "updated_at": "2018-02-06T22:43:35+00:00",
+            "author": {
+                "id": 392587459,
+                "slug": "mitch-dsm",
+                "name": "Mitch DSM",
+                "bio": "Mitch_DSM est musicien compositeur ainsi que designer sonore. Il travaille pour diverses sociétés de communications essentiellement inter-entreprises. Telle est son activité principale, qui ne représente finalement qu'une partie de son éventail d'occupations. Sur internet, il s'avère être l'un des premiers créateurs de sagas mp3 avec Matrick (la matruc), mise en ligne à la même époque que Le Donjon de Naheulbeuk. Il est également l'auteur des Génériques Mitch Unplug.ed, ce qui lui apportera une petite notoriété passagère. En plus de ses activités sonores et musicales, Mitch_DSM développe aussi des sites internet, essentiellement pour les besoins de ses projets personnels. La création du site Netophonix, qui abrite à présent une communauté non négligeable composée de créateurs, d'adeptes et de divers membres de la sagasphère, l'a récemment placé un peu plus aux devants de la scène saga mp3. Cependant, au fil du temps, sa présence dans ce milieu s'est fortement réduite, du fait notamment d'obligations professionnelles conséquentes...",
+                "links": {
+                    "netowiki": null,
+                    "site": null,
+                    "topic": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "stats": {
+                    "sagas": 1
+                },
+                "created_at": "2018-02-06T22:43:29+00:00",
+                "updated_at": "2018-02-06T22:43:29+00:00",
+                "type": "user",
+                "picture": {
+                    "main": "/static/mocks/media/2059235322/conversions/main.jpg",
+                    "thumb": "/static/mocks/media/2059235322/conversions/thumb.jpg"
+                }
+            },
+            "images": {
+                "cover": {
+                    "main": "/static/mocks/media/1420631365/conversions/main.jpg",
+                    "thumb": "/static/mocks/media/1420631365/conversions/thumb.jpg",
+                    "meta": {
+                        "color": "#06311E",
+                        "type": "dark"
+                    }
+                }
+            }
+        }
+    ],
+    "authors": [
+        {
+            "id": 2147222869,
+            "slug": "durendal",
+            "name": "Durendal",
+            "bio": "Durendal est né le 13 Mars 1988 d'une maman tarée et d'un père Desprogien. Il a travaillé 3 ans dans la vente de jeux vidéos, avant d'arrêter en 2011 pour entamer des études de cinéma. Il maitrise partiellement l'infographie.",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-02-06T22:43:27+00:00",
+            "updated_at": "2018-02-06T22:43:27+00:00",
+            "type": "user",
+            "picture": {
+                "main": "/static/mocks/media/1277011276/conversions/main.jpg",
+                "thumb": "/static/mocks/media/1277011276/conversions/thumb.jpg"
+            }
+        },
+        {
+            "id": 206107536,
+            "slug": "flo",
+            "name": "Flo",
+            "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-02-06T22:43:27+00:00",
+            "updated_at": "2018-02-06T22:43:27+00:00",
+            "type": "user",
+            "picture": {
+                "main": "/static/mocks/media/1462912999/conversions/main.jpg",
+                "thumb": "/static/mocks/media/1462912999/conversions/thumb.jpg"
+            }
+        },
+        {
+            "id": 1523884511,
+            "slug": "inky",
+            "name": "Inky",
+            "bio": "En 2006, lors d’une recherche d’images sur le net portant sur des batailles dans l’espace, il y découvre un livre audio s’intitulant La Bataille de l’Espace. De liens en liens, il découvre toutes les grandes aventures et apprend un nouveau terme : Saga mp3. En juin de la même année, il crée une aventure audio semi-humoristique au genre fantastique : Kiponie Stories. En janvier 2007, il remarque sur les forums de sagas mp3, la création très récente d’un forum réunissant les adeptes des créations audio : Netophonix. Il ne tarde pas à s’y inscrire et fait découvrir sa saga, qui est tout de suite appréciée et encouragée, ce qui met l’auteur dans de bonnes conditions pour la poursuivre. Il participe volontiers à d’autres créations mp3 et en partie à un grand projet sagasphérique, Le Choc des Zéros, pour lequel il prête certains de ses personnages.\nAprès la sortie du dernier épisode de la pré-saison de Kiponie Stories, fin décembre 2008, Inky se lance dans une science-fiction : Onidacius. Elle fut très vite abandonnée, l'auteur préférant consacrer son temps libre à sa première création. Le 14 mars 2009, il est invité sur la web-radio SynopsLive pour la diffusion du premier épisode de la deuxième saison (appelée aussi chapitre 1) de Kiponie Stories.",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-02-06T22:43:28+00:00",
+            "updated_at": "2018-02-06T22:43:28+00:00",
+            "type": "user",
+            "picture": {
+                "main": "/static/mocks/media/1581834270/conversions/main.jpg",
+                "thumb": "/static/mocks/media/1581834270/conversions/thumb.jpg"
+            }
+        },
+        {
+            "id": 1797332506,
+            "slug": "jbx",
+            "name": "JBX",
+            "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-02-06T22:43:28+00:00",
+            "updated_at": "2018-02-06T22:43:28+00:00",
+            "type": "user",
+            "picture": {
+                "main": "/static/mocks/media/1634566833/conversions/main.jpg",
+                "thumb": "/static/mocks/media/1634566833/conversions/thumb.jpg"
+            }
+        },
+        {
+            "id": 965594201,
+            "slug": "magoyond",
+            "name": "Magoyond",
+            "bio": "",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-02-06T22:43:28+00:00",
+            "updated_at": "2018-02-06T22:43:28+00:00",
+            "type": "team",
+            "picture": {
+                "main": "/static/mocks/media/1753359144/conversions/main.jpg",
+                "thumb": "/static/mocks/media/1753359144/conversions/thumb.jpg"
+            }
+        }
+    ]
+}

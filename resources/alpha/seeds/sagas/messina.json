@@ -1,0 +1,44 @@
+{
+    "name": "Messina",
+    "synopsis": "Messina est un univers créé par MimiRyudo. La principale partie actuellement (chapitre 2) en est une saga MP3 en 10 épisodes, écrite par MimiRyudo et réalisée par Celebo Anarion. L'histoire se situe à Messina (rien à voir avec le Messina moderne) à l'époque où les aventuriers pouvaient encore mener leurs quêtes et où les licornes leur murmuraient des prophéties...",
+    "creation_date": "2007-08-01T00:00:00+00:00",
+    "licence": "CC BY-NC",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/Messina",
+        "site": "http://www.mimiryudo.com/",
+        "topic": "https://forum.netophonix.com/ftopic1709.html",
+        "rss": "http://www.mimiryudo.com/news.xml",
+        "facebook": "http://facebook.com/mimiryudo",
+        "twitter": "http://twitter.com/mimiryudo"
+    },
+    "finished": false,
+    "visibility": 0,
+    "images": {
+        "cover": "banniere_messina.jpg"
+    },
+    "genres": [
+        "Médiéval-fantastique"
+    ],
+    "author": "MimiRyudo",
+    "collections": [
+        {
+            "number": "1",
+            "name": "Saison 1",
+            "synopsis": "",
+            "type": "saison",
+            "tracks": [
+                {
+                    "number": "1",
+                    "title": "L'enrôlement",
+                    "synopsis": "",
+                    "published_at": "",
+                    "status": 3,
+                    "seconds": "",
+                    "file": "RDA/RDA01.mp3",
+                    "percentages": [],
+                    "chapters": []
+                }
+            ]
+        }
+    ]
+}

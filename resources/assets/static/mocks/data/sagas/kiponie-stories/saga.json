@@ -1,0 +1,67 @@
+{
+    "id": 1797332506,
+    "slug": "kiponie-stories",
+    "name": "Kiponie Stories",
+    "synopsis": "Tout commence par un voyage sans intérêt. Le très jeune capitaine Alexandre Vinoqui se lance dans l'expédition du siècle : Percer les mystères du Triangle des Mersnulles et révéler au monde entier les secrets cachés par d'étranges brumes. Il prend donc la première opportunité venue et embarque avec lui son vieil ami Hanson Triviany ainsi qu’une équipe d’andouilles dégotée dans les poubelles du coin. Après deux semaines de voyage plus que désagréables, une tempête frappe soudainement leur navire et le transforme en musée sous-marin. Nos deux aventuriers amateurs se retrouvent prisonniers d’un continent mystérieux gardant des secrets inimaginables. C’est à ce moment là que les problèmes commencent...",
+    "creation_date": "2006-06-24T00:00:00+00:00",
+    "licence": "CC BY-NC-SA",
+    "links": {
+        "netowiki": null,
+        "site": null,
+        "topic": null,
+        "rss": null,
+        "facebook": null,
+        "twitter": null
+    },
+    "finished": false,
+    "visibility": 0,
+    "stats": {
+        "bravos": 0,
+        "collections": 1,
+        "tracks": 1
+    },
+    "created_at": "2018-02-06T22:43:33+00:00",
+    "updated_at": "2018-02-06T22:43:33+00:00",
+    "author": {
+        "id": 1523884511,
+        "slug": "inky",
+        "name": "Inky",
+        "bio": "En 2006, lors d’une recherche d’images sur le net portant sur des batailles dans l’espace, il y découvre un livre audio s’intitulant La Bataille de l’Espace. De liens en liens, il découvre toutes les grandes aventures et apprend un nouveau terme : Saga mp3. En juin de la même année, il crée une aventure audio semi-humoristique au genre fantastique : Kiponie Stories. En janvier 2007, il remarque sur les forums de sagas mp3, la création très récente d’un forum réunissant les adeptes des créations audio : Netophonix. Il ne tarde pas à s’y inscrire et fait découvrir sa saga, qui est tout de suite appréciée et encouragée, ce qui met l’auteur dans de bonnes conditions pour la poursuivre. Il participe volontiers à d’autres créations mp3 et en partie à un grand projet sagasphérique, Le Choc des Zéros, pour lequel il prête certains de ses personnages.\nAprès la sortie du dernier épisode de la pré-saison de Kiponie Stories, fin décembre 2008, Inky se lance dans une science-fiction : Onidacius. Elle fut très vite abandonnée, l'auteur préférant consacrer son temps libre à sa première création. Le 14 mars 2009, il est invité sur la web-radio SynopsLive pour la diffusion du premier épisode de la deuxième saison (appelée aussi chapitre 1) de Kiponie Stories.",
+        "links": {
+            "netowiki": null,
+            "site": null,
+            "topic": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-02-06T22:43:28+00:00",
+        "updated_at": "2018-02-06T22:43:28+00:00",
+        "type": "user",
+        "picture": {
+            "main": "/static/mocks/media/1581834270/conversions/main.jpg",
+            "thumb": "/static/mocks/media/1581834270/conversions/thumb.jpg"
+        }
+    },
+    "images": {
+        "cover": {
+            "main": "/static/mocks/media/980669067/conversions/main.jpg",
+            "thumb": "/static/mocks/media/980669067/conversions/thumb.jpg",
+            "meta": {
+                "color": "#CC4D1B",
+                "type": "dark"
+            }
+        }
+    },
+    "genres": [
+        {
+            "id": 1797332506,
+            "name": "Aventure",
+            "image": {
+                "main": "/static/mocks/media/1300788002/conversions/main.jpg"
+            }
+        }
+    ]
+}

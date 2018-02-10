@@ -1,0 +1,119 @@
+{
+    "authors": [
+        {
+            "id": 2147222869,
+            "slug": "durendal",
+            "name": "Durendal",
+            "bio": "Durendal est né le 13 Mars 1988 d'une maman tarée et d'un père Desprogien. Il a travaillé 3 ans dans la vente de jeux vidéos, avant d'arrêter en 2011 pour entamer des études de cinéma. Il maitrise partiellement l'infographie.",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-02-06T22:43:27+00:00",
+            "updated_at": "2018-02-06T22:43:27+00:00",
+            "type": "user",
+            "picture": {
+                "main": "/static/mocks/media/1277011276/conversions/main.jpg",
+                "thumb": "/static/mocks/media/1277011276/conversions/thumb.jpg"
+            }
+        },
+        {
+            "id": 206107536,
+            "slug": "flo",
+            "name": "Flo",
+            "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-02-06T22:43:27+00:00",
+            "updated_at": "2018-02-06T22:43:27+00:00",
+            "type": "user",
+            "picture": {
+                "main": "/static/mocks/media/1462912999/conversions/main.jpg",
+                "thumb": "/static/mocks/media/1462912999/conversions/thumb.jpg"
+            }
+        },
+        {
+            "id": 1523884511,
+            "slug": "inky",
+            "name": "Inky",
+            "bio": "En 2006, lors d’une recherche d’images sur le net portant sur des batailles dans l’espace, il y découvre un livre audio s’intitulant La Bataille de l’Espace. De liens en liens, il découvre toutes les grandes aventures et apprend un nouveau terme : Saga mp3. En juin de la même année, il crée une aventure audio semi-humoristique au genre fantastique : Kiponie Stories. En janvier 2007, il remarque sur les forums de sagas mp3, la création très récente d’un forum réunissant les adeptes des créations audio : Netophonix. Il ne tarde pas à s’y inscrire et fait découvrir sa saga, qui est tout de suite appréciée et encouragée, ce qui met l’auteur dans de bonnes conditions pour la poursuivre. Il participe volontiers à d’autres créations mp3 et en partie à un grand projet sagasphérique, Le Choc des Zéros, pour lequel il prête certains de ses personnages.\nAprès la sortie du dernier épisode de la pré-saison de Kiponie Stories, fin décembre 2008, Inky se lance dans une science-fiction : Onidacius. Elle fut très vite abandonnée, l'auteur préférant consacrer son temps libre à sa première création. Le 14 mars 2009, il est invité sur la web-radio SynopsLive pour la diffusion du premier épisode de la deuxième saison (appelée aussi chapitre 1) de Kiponie Stories.",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-02-06T22:43:28+00:00",
+            "updated_at": "2018-02-06T22:43:28+00:00",
+            "type": "user",
+            "picture": {
+                "main": "/static/mocks/media/1581834270/conversions/main.jpg",
+                "thumb": "/static/mocks/media/1581834270/conversions/thumb.jpg"
+            }
+        },
+        {
+            "id": 1797332506,
+            "slug": "jbx",
+            "name": "JBX",
+            "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-02-06T22:43:28+00:00",
+            "updated_at": "2018-02-06T22:43:28+00:00",
+            "type": "user",
+            "picture": {
+                "main": "/static/mocks/media/1634566833/conversions/main.jpg",
+                "thumb": "/static/mocks/media/1634566833/conversions/thumb.jpg"
+            }
+        },
+        {
+            "id": 965594201,
+            "slug": "magoyond",
+            "name": "Magoyond",
+            "bio": "",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-02-06T22:43:28+00:00",
+            "updated_at": "2018-02-06T22:43:28+00:00",
+            "type": "team",
+            "picture": {
+                "main": "/static/mocks/media/1753359144/conversions/main.jpg",
+                "thumb": "/static/mocks/media/1753359144/conversions/thumb.jpg"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "id": 1523884511,
+    "slug": "chez-le-psy",
+    "name": "Chez le Psy",
+    "synopsis": "Wallace Ticot, psychologue excentrique, décide d'enregistrer les délires de ses patients au moyen de cassettes. Dans les deux premières saisons, la majeure partie de la série tourne autour des consultations se déroulant dans son cabinet. Un contexte que les créateurs de Chez le Psy utilisent aussi pour intégrer des membres de la Sagasphère, et certains de leurs personnages. La saison 3 change légèrement de contexte et s'adapte à la nouvelle identité du groupe de créateurs.",
+    "creation_date": "2007-06-29T00:00:00+00:00",
+    "licence": "CC BY-NC 2.0 FR",
+    "links": {
+        "netowiki": null,
+        "site": null,
+        "topic": null,
+        "rss": null,
+        "facebook": null,
+        "twitter": null
+    },
+    "finished": false,
+    "visibility": 0,
+    "stats": {
+        "bravos": 0,
+        "collections": 9,
+        "tracks": 66
+    },
+    "created_at": "2018-02-06T22:43:31+00:00",
+    "updated_at": "2018-02-06T22:43:31+00:00",
+    "author": {
+        "id": 965594201,
+        "slug": "magoyond",
+        "name": "Magoyond",
+        "bio": "",
+        "links": {
+            "netowiki": null,
+            "site": null,
+            "topic": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-02-06T22:43:28+00:00",
+        "updated_at": "2018-02-06T22:43:28+00:00",
+        "type": "team",
+        "picture": {
+            "main": "/static/mocks/media/1753359144/conversions/main.jpg",
+            "thumb": "/static/mocks/media/1753359144/conversions/thumb.jpg"
+        }
+    },
+    "images": {
+        "cover": {
+            "main": "/static/mocks/media/674797561/conversions/main.jpg",
+            "thumb": "/static/mocks/media/674797561/conversions/thumb.jpg",
+            "meta": {
+                "color": "#000000",
+                "type": "dark"
+            }
+        }
+    },
+    "genres": [
+        {
+            "id": 1523884511,
+            "name": "Contemporain",
+            "image": {
+                "main": "/static/mocks/media/861745168/conversions/main.jpg"
+            }
+        }
+    ]
+}

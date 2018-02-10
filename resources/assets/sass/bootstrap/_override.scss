@@ -1,0 +1,42 @@
+/*======================================================================================================================
+$ OVERRIDE BOOTSTRAP
+
+
+Le fichier src/assets/sass/variable/__index.scss est inclus avant celui-ci
+
+Doc : https://getbootstrap.com/docs/4.0/getting-started/options/
+Variables : node_modules/bootstrap/scss/_variables.scss
+
+======================================================================================================================*/
+
+
+// Colors
+$white:  $blanc !default;
+$red:    $rouge !default;
+$orange: $orange-fonce !default;
+$blue:   $bleu-moyen !default;
+$teal:   $bleu-fonce !default;
+
+
+// Grid breakpoints
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1470px // <-
+) !default;
+
+
+// Fonts
+$font-size-h1: 1rem !default;
+$font-size-h2: 2.4rem !default;
+$font-size-h3: 1rem !default;
+$font-size-h4: 1rem !default;
+$font-size-h5: 1rem !default;
+$font-size-h6: 1rem !default;
+
+
+// Progress bars;
+$progress-height: $texte-normal;
+$progress-font-size: $texte-petit;

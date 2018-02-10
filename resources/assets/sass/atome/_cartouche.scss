@@ -1,0 +1,62 @@
+/*======================================================================================================================
+$ REGROUPE et FUSIONNE des cartouches
+======================================================================================================================*/
+.cartouche-groupe {
+    display: inline-flex;
+    font-size: 0; // pour supprimer l'esapce indésirable entre 2 éléments de type inline
+
+    [class^="cartouche"] {
+
+        &:first-child {
+            border-right: 0;
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+            padding-right: 10px;
+        }
+
+        &:not(:first-child) {
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+            padding-left: 10px;
+        }
+
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ CARTOUCHE
+======================================================================================================================*/
+
+/*-----------------------------------------------------------------------------
+$ NORMAL
+-----------------------------------------------------------------------------*/
+.cartouche {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+
+    @include halo--bleu-clair;
+    padding: 3px 18px;
+    margin-bottom: 5px;
+    border-radius: $border-radius--grand;
+    background-color: $blanc;
+
+    font-size: $texte-normal;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------------------
+$ LIEN
+-----------------------------------------------------------------------------*/
+.cartouche.lien {
+    @include halo--rouge();
+    color: $rouge;
+
+    @include survol(){
+        @include halo--orange-clair;
+        color: $orange;
+    }
+}
