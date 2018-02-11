@@ -173,6 +173,14 @@ deploy:review:
 
 stop:review:
     stage: deploy
+    only:
+        - branches
+    except:
+        - master
+    when: manual
+    environment:
+        name: review/$CI_COMMIT_REF_NAME
+        action: stop
     variables:
         GIT_STRATEGY: none
     before_script:
@@ -188,7 +196,3 @@ stop:review:
 
         # On supprime le dossier de la release
         - ssh -p22 runcloud@radiophonix.org 'rm -rf webapps/reviews-site/"'$foldername'"'
-    when: manual
-    environment:
-        name: review/$CI_COMMIT_REF_NAME
-        action: stop
