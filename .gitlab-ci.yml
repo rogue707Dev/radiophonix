@@ -145,6 +145,7 @@ deploy:review:
     environment:
         name: review/$CI_COMMIT_REF_NAME
         url: http://$CI_ENVIRONMENT_SLUG.radiophonix.org
+        on_stop: stop:review
     before_script:
         # Installation de git pour Envoy (plus rapide que zip)
         - apt-get update
@@ -169,3 +170,25 @@ deploy:review:
         - echo $CI_ENVIRONMENT_SLUG
         - cp deploy/Envoy.review.blade.php Envoy.blade.php
         - ~/.composer/vendor/bin/envoy run deploy --slug=$CI_ENVIRONMENT_SLUG
+
+stop:review:
+    stage: deploy
+    variables:
+        GIT_STRATEGY: none
+    before_script:
+        # Ajout de la clef ssh de déploiement
+        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+        - eval $(ssh-agent -s)
+        - ssh-add <(echo "$REVIEWS_PRIVATE_KEY")
+        - mkdir -p ~/.ssh
+        - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    script:
+        # Chaque release est dans un dossier nommé selon le slug de la review
+        - foldername=$CI_ENVIRONMENT_SLUG
+
+        # On supprime le dossier de la release
+        - ssh -p22 runcloud@radiophonix.org 'rm -rf webapps/reviews-site/"'$foldername'"'
+    when: manual
+    environment:
+        name: review/$CI_COMMIT_REF_NAME
+        action: stop
