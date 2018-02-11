@@ -41,7 +41,7 @@ class SingleImageTransformer extends Transformer
         $image = [];
 
         foreach ($this->sizes as $size) {
-            $image[$size] = config('app.url') . $modelWithMedia->getFirstMediaUrl($this->mediaCollection, $size);
+            $image[$size] = $modelWithMedia->getFirstMediaUrl($this->mediaCollection, $size);
         }
 
         if ($modelWithMedia instanceof HasMediaMetadata) {

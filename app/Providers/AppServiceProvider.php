@@ -3,6 +3,7 @@
 namespace Radiophonix\Providers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Schema;
 use League\Fractal\Manager;
 use League\Fractal\Serializer\ArraySerializer;
 use Radiophonix\Http\Serializers\ApiSerializer;
@@ -20,6 +21,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Track::observe(TrackObserver::class);
+
+        Schema::defaultStringLength(191);
     }
 
     /**

@@ -5,6 +5,7 @@ namespace Radiophonix\Providers;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Notifications\DatabaseNotification;
 use Illuminate\Support\Facades\Route;
+use Radiophonix\Http\Controllers\IndexController;
 use Radiophonix\Models\Author;
 use Radiophonix\Models\Collection;
 use Radiophonix\Models\Genre;
@@ -77,12 +78,10 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapWebRoutes();
         $this->mapApiRoutes();
 
-        Route::any(
-            '{any}',
-            function () {
-                return file_get_contents(__DIR__ . '/../../public/index.html');
-            }
-        )->where('any', '.*');
+        // Allows the frontend to work with direct links (since Vuejs is using
+        // the html5 mode)
+        Route::any('{any}', IndexController::class)
+            ->where('any', '.*');
     }
 
     /**
@@ -95,7 +94,6 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapWebRoutes()
     {
         Route::middleware('web')
-            ->namespace($this->namespace)
             ->group(base_path('routes/web.php'));
     }
 

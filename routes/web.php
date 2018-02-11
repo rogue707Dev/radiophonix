@@ -11,8 +11,4 @@
 |
 */
 
-//Route::get('/', 'Api\\V1\\ApiController@home');
-
-Route::get('/', function () {
-    return file_get_contents(__DIR__ . '/../public/index.html');
-});
+Route::get('/', \Radiophonix\Http\Controllers\IndexController::class);
