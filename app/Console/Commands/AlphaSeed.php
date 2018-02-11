@@ -32,15 +32,6 @@ class AlphaSeed extends Command
      */
     protected $description = 'Import de données pour l\'alpha';
 
-    private $databaseSeeder;
-
-    public function __construct(DatabaseSeeder $databaseSeeder)
-    {
-        parent::__construct();
-
-        $this->databaseSeeder = $databaseSeeder;
-    }
-
     /**
      * Execute the console command.
      *
@@ -49,8 +40,6 @@ class AlphaSeed extends Command
     public function handle()
     {
         \Eloquent::unguard();
-
-        $this->databaseSeeder->cleanDatabase();
 
         $this->seedAuthors();
 

@@ -28,17 +28,6 @@ class ApiController extends Controller
 //        }
 //    }
 
-    public function home()
-    {
-        return $this->simple([
-            'documentation_url' => config('radiophonix.url.documentation'),
-            'repository_url' => 'https://github.com/radiophonix/radiophonix-api',
-            'api_version' => '1',
-            'api_url' => 'https://api.radiophonix.org/v1',
-            'release_version' => '0.0.1',
-        ]);
-    }
-
     /**
      * Return an api response for one item.
      *
