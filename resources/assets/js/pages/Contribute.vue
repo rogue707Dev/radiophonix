@@ -32,7 +32,7 @@
 
                 <pre class="mt-5"><code>&lt;<span class="text-success">template</span>&gt;
     &lt;<span class="text-success">player</span>&gt;
-        &lt;<span class="text-success">button</span> @<span class="text-warning">click</span>="play"&gt;C'est partit !&lt;<span class="text-success">buttons</span>&gt;
+        &lt;<span class="text-success">button</span> @<span class="text-warning">click</span>="play"&gt;C'est parti !&lt;<span class="text-success">button</span>&gt;
     &lt;/<span class="text-success">player</span>&gt;
 &lt;/<span class="text-success">template</span>&gt;
 
