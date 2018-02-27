@@ -51,13 +51,13 @@ build:staging:
         - php -r "unlink('composer-setup.php');"
     script:
         - node --version
-        - yarn config set cache-folder .yarn
+#        - yarn config set cache-folder .yarn
         - yarn
         - echo "RADIOPHONIX_API_URL=https://alpha.radiophonix.org/api/v1/" > .env
         - npm run build
         - php composer.phar install --prefer-dist --quiet --no-interaction
         - mkdir artefacts
-        - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./tests --exclude=./.git --exclude=./server.php .
+        - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
     artifacts:
         paths:
             - ./artefacts/radiophonix.tar.bz2
@@ -89,7 +89,7 @@ build:review:
         - php -r "unlink('composer-setup.php');"
     script:
         - node --version
-        - yarn config set cache-folder .yarn
+#        - yarn config set cache-folder .yarn
         - yarn
         - echo -n 'RADIOPHONIX_API_URL=http://' > .env
         - echo -n $CI_ENVIRONMENT_SLUG >> .env
@@ -97,7 +97,7 @@ build:review:
         - npm run build
         - php composer.phar install --prefer-dist --quiet --no-interaction
         - mkdir artefacts
-        - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./tests --exclude=./.git --exclude=./server.php .
+        - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
     artifacts:
         paths:
             - ./artefacts/radiophonix.tar.bz2
