@@ -31,7 +31,7 @@
                 </li>
                 <router-link tag="li"
                              class="cartouche lien"
-                             v-if="saga.genres"
+                             v-if="genre"
                              :to="{ name: 'listen.genres.show', params: { id: genre.id } }">
                     {{ genre.name }}
                 </router-link>
@@ -93,7 +93,9 @@
                     <h2 class="titre--bloc mb-4">Faiseur</h2>
                     <div class="d-flex flex-row">
                         <div>
-                            <router-link class="jaquette--petite jaquette--faiseur" :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
+                            <router-link class="jaquette--petite jaquette--faiseur"
+                                         v-if="saga.author.id"
+                                         :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
                                 <img :src="saga.author.picture.thumb"
                                      :alt="saga.author.name"
                                      height="100px" width="100px"/>
@@ -101,7 +103,8 @@
                         </div>
                         <div>
                             <p>
-                                <router-link :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
+                                <router-link v-if="saga.author.id"
+                                             :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
                                 <span class="texte-orange-fonce">
                                     <i v-if="saga.author.type === 'user'" aria-hidden="true" class="fa fa-user"></i>
                                     {{ saga.author.name }}
@@ -205,15 +208,8 @@ export default {
                 links: {},
                 author: {
                     links: {},
-                    author: {
-                        links: {},
-                        picture: {},
-                        bio: '',
-                    },
-                    images: {
-                        cover: {}
-                    },
-                    genres: [],
+                    picture: {},
+                    bio: '',
                 },
                 images: {
                     cover: {}
@@ -231,10 +227,10 @@ export default {
 
         genre() {
             if (!this.saga.genres) {
-                return {};
+                return null;
             }
 
-            return this.saga.genres[0] || {};
+            return this.saga.genres[0] || null;
         },
 
         licenceUrl() {
