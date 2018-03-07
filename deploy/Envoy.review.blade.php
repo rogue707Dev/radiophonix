@@ -30,9 +30,10 @@
     touch {{ $new_release_dir }}/storage/database.sqlite
 
     echo "APP_URL=http://{{ $slug }}.radiophonix.org" >> {{ $new_release_dir }}/.env
+    cat {{ $releases_dir }}/.env.review >> {{ $new_release_dir }}/.env
 
     echo 'Generating Laravel cache'
-    /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan key:generate
+    /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan key:generate --force --no-interaction
     /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan package:discover
     /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan route:cache
     /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan config:cache
