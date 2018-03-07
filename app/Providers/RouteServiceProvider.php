@@ -93,7 +93,14 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapWebRoutes()
     {
-        Route::middleware('web')
+        $middlewares = ['web'];
+
+        if (app()->environment() === 'production') {
+            // TODO supprimer après la fin de l'alpha
+            $middlewares[] = 'shield';
+        }
+
+        Route::middleware($middlewares)
             ->group(base_path('routes/web.php'));
     }
 
