@@ -39,6 +39,7 @@ class Kernel extends HttpKernel
         TrimStrings::class,
         ConvertEmptyStringsToNull::class,
         TrustProxies::class,
+        HandleCors::class,
     ];
 
     /**
@@ -57,7 +58,6 @@ class Kernel extends HttpKernel
         ],
 
         'api' => [
-            HandleCors::class,
             Acceptable::class,
 //            'throttle:60,1',
         ],
