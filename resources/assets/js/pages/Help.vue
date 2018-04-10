@@ -313,11 +313,11 @@
 
                     <button class="btn btn-blanc"><i class="fa fa-volume-up" aria-hidden="true"></i>Test</button>
 
-                    <button class="btn-blanc btn-petit-rond"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                    <button class="btn-blanc btn-rond-petit"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
 
-                    <button class="btn-blanc btn-moyen-rond"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                    <button class="btn-blanc btn-rond-moyen"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
 
-                    <button class="btn-blanc btn-grand-rond"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                    <button class="btn-blanc btn-rond-grand"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
 
                     <hr>
 
@@ -329,13 +329,13 @@
 
                     <button class="btn btn-bleu-moyen"><i class="fa fa-volume-up" aria-hidden="true"></i>Test</button>
 
-                    <button class="btn-bleu-moyen btn-petit-rond"><i class="fa fa-volume-up" aria-hidden="true"></i>
+                    <button class="btn-bleu-moyen btn-rond-petit"><i class="fa fa-volume-up" aria-hidden="true"></i>
                     </button>
 
-                    <button class="btn-bleu-moyen btn-moyen-rond"><i class="fa fa-volume-up" aria-hidden="true"></i>
+                    <button class="btn-bleu-moyen btn-rond-moyen"><i class="fa fa-volume-up" aria-hidden="true"></i>
                     </button>
 
-                    <button class="btn-bleu-moyen btn-grand-rond"><i class="fa fa-volume-up" aria-hidden="true"></i>
+                    <button class="btn-bleu-moyen btn-rond-grand"><i class="fa fa-volume-up" aria-hidden="true"></i>
                     </button>
 
                     <hr>
@@ -347,7 +347,7 @@
                     <hr>
 
                     <button class="btn-composer-blanc-fonce">
-                        <span class="btn-blanc-fonce btn-petit-rond"><i class="fa fa-volume-up" aria-hidden="true"></i></span>
+                        <span class="btn-blanc-fonce btn-rond-petit"><i class="fa fa-volume-up" aria-hidden="true"></i></span>
                         Pas utiliser
                     </button>
 

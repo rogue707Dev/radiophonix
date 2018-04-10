@@ -1,6 +1,6 @@
 <template>
 
-    <div class="layout-global">
+    <div :class="{'layout-global': hasSideBar, 'layout-global no-sidebar': !hasSideBar}">
 
         <div class="layout-global__header">
             <header-mobile></header-mobile>
@@ -10,8 +10,12 @@
             <rp-menu></rp-menu>
         </div>
 
-        <div class="layout-global__sidebar" v-if="hasSideBar">
-            <router-view name="sidebar"></router-view>
+        <div class="layout-global__lecteur" v-if="hasSideBar">
+            <player-normal></player-normal>
+        </div>
+
+        <div class="layout-global__playlist" v-if="hasSideBar">
+            <player-playlist></player-playlist>
         </div>
 
         <div :class="{'layout-global__main': hasSideBar, 'layout-global__main--no-sidebar': !hasSideBar}">
@@ -25,10 +29,14 @@
 <script>
 import { mapState, mapActions } from 'vuex';
 import HeaderMobile from '~/components/menu/HeaderMobile.vue';
+import PlayerNormal from '~/components/player/PlayerNormal.vue';
+import PlayerPlaylist from '~/components/player/PlayerPlaylist.vue';
 
 export default {
     components: {
         HeaderMobile,
+        'player-normal': PlayerNormal,
+        'player-playlist': PlayerPlaylist,
     },
 
     data() {

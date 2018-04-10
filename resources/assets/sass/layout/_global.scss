@@ -3,18 +3,44 @@ $ GLOBAL
 ======================================================================================================================*/
 .layout-global {
 
-    display:flex;
-    flex-direction: column;
-    min-width: $largeur-sidebar;
+    display:grid;
+    grid-template-columns: 60px auto 60px;
+    grid-template-rows: $hauteur-header auto;
+
+    height:100vh;
 
     @include media-breakpoint-down(md) {
-        margin-top: $hauteur-header;
+
     }
 
     @include media-breakpoint-up(lg) {
-        flex-direction: row;
-        height: 100%;
-        min-height:100vh;
+        grid-template-columns: $largeur-menu $largeur-sidebar auto;
+        grid-template-rows: $hauteur-lecteur auto;
+    }
+
+    &:before {
+        content: "";
+        display: none;
+
+        @include media-breakpoint-up(lg) {
+            display: block;
+
+            position: fixed;
+            top:0;
+            bottom: 0;
+            left: $largeur-menu;
+            width: $largeur-sidebar;
+            height: 100vh;
+
+            z-index: 0;
+
+            @include degrade-vertical--orange--fonce-moyen;
+            //background: linear-gradient(to bottom, $rouge-player 0%, $orange-moyen 100%);
+        }
+    }
+
+    &.no-sidebar:before {
+        display: none;
     }
 }
 
@@ -26,18 +52,10 @@ $ HEADER
 ======================================================================================================================*/
 .layout-global__header {
 
-    @include media-breakpoint-down(md) {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
+    grid-column: 1/4;
+    grid-row: 1/2;
 
-        height: $hauteur-header;
-
-        @include degrade-horizontale--orange--fonce-claire;
-
-        z-index: z-index(300);
-    }
+    @include degrade-horizontale--orange--fonce-claire;
 
     @include media-breakpoint-up(lg) {
         display: none;
@@ -59,36 +77,78 @@ $ MENU
 
         &.actif {
             display: inherit;
-            position: fixed;
-            top: $hauteur-header;
-            left: 0;
-            right: 0;
-            z-index: z-index(300);
+            grid-column: 1/4;
+            grid-row: 2/3;
+
+            z-index: 2;
         }
     }
 
     @include media-breakpoint-up(lg) {
-        flex-shrink:0;
-        flex-basis: $largeur-menu;
+        grid-column: 1/2;
+        grid-row: 1/3;
     }
 
 }
-
-
-
 
 /*======================================================================================================================
-$ SIDEBAR
+$ LECTEUR
 ======================================================================================================================*/
-.layout-global__sidebar {
+.layout-global__lecteur {
+
+    display: none;
+
+    &.actif {
+        display: inherit;
+
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
 
     @include media-breakpoint-up(lg) {
-        flex-shrink:0;
-        flex-basis: $largeur-sidebar;
+        display: inherit;
+
+        position: fixed;
+        top:0;
+        bottom: $hauteur-lecteur;
+        left: $largeur-menu;
+        width: $largeur-sidebar;
     }
 
 }
 
+/*======================================================================================================================
+$ PLAYLIST
+======================================================================================================================*/
+.layout-global__playlist {
+
+    display: none;
+
+    &.actif {
+        display: inherit;
+
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
+    @include media-breakpoint-up(lg) {
+        display: inherit;
+
+        position: fixed;
+        top: $hauteur-lecteur;
+        bottom: 0;
+        left: $largeur-menu;
+        width: $largeur-sidebar;
+
+        overflow-x: auto;
+        overflow-x: hidden;
+    }
+
+    @media screen and (max-height: $playlist-taille-mini-hauteur-pour-affichage) {
+        display: none;
+    }
+}
 
 
 
@@ -102,8 +162,14 @@ $ NORMAL
 -----------------------------------------------------------------------------*/
 .layout-global__main {
 
+    grid-column: 1/4;
+    grid-row: 2/3;
+
     @include media-breakpoint-up(lg) {
-        flex-grow: 1;
+
+        grid-column: 3/4;
+        grid-row: 1/3;
+
     }
 
 }
@@ -113,8 +179,12 @@ $ SANS SIDEBAR
 -----------------------------------------------------------------------------*/
 .layout-global__main--no-sidebar {
 
+    grid-column: 1/4;
+    grid-row: 2/3;
+
     @include media-breakpoint-up(lg) {
-        flex-grow: 1;
+        grid-column: 2/4;
+        grid-row: 1/3;
         max-width: 1920px;
     }
 

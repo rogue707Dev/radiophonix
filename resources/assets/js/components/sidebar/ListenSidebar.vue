@@ -1,5 +1,6 @@
 <template>
     <div class="layout-conteneur__sidebar-grand-lecteur">
+        <!-- @TODO menage scss a faire - fichier a supprimer ? -->
 
         <div class="layout-sidebar__lecteur">
             <player-normal></player-normal>

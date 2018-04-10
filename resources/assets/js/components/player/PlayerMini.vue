@@ -30,10 +30,10 @@
             <div class="lecteur-mini__bouton">
                 <div class="btn-panel-conteneur" @click="toggleButton"
                      :class="{ 'actif': isButtonDeploy }">
-                    <button class="btn-panel-0 btn-blanc btn-grand-rond"><i aria-hidden="true" class="fa fa-bars"></i></button>
-                    <button class="btn-panel-1 btn-blanc btn-moyen-rond" @click="next"><i aria-hidden="true" class="fa fa-step-forward"></i></button>
-                    <button class="btn-panel-2 btn-blanc btn-moyen-rond" @click="toggle"><i aria-hidden="true" class="fa" :class="{'fa-play': !isPlaying, 'fa-pause': isPlaying}"></i></button>
-                    <button class="btn-panel-3 btn-blanc btn-moyen-rond" @click="previous"><i aria-hidden="true" class="fa fa-step-backward"></i></button>
+                    <button class="btn-panel-0 btn-blanc btn-rond-grand"><i aria-hidden="true" class="fa fa-bars"></i></button>
+                    <button class="btn-panel-1 btn-blanc btn-rond-moyen" @click="next"><i aria-hidden="true" class="fa fa-step-forward"></i></button>
+                    <button class="btn-panel-2 btn-blanc btn-rond-moyen" @click="toggle"><i aria-hidden="true" class="fa" :class="{'fa-play': !isPlaying, 'fa-pause': isPlaying}"></i></button>
+                    <button class="btn-panel-3 btn-blanc btn-rond-moyen" @click="previous"><i aria-hidden="true" class="fa fa-step-backward"></i></button>
                 </div>
             </div>
         </div>

@@ -5,10 +5,8 @@ $ PLAYLIST
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    padding: 0 $padding-layout-sidebar;
 }
-
-
-
 
 /*======================================================================================================================
 $ MORCEAU
@@ -35,10 +33,6 @@ $ NORMAL
 
     @include media-breakpoint-up(lg) {
         border-bottom: 1px solid rgba($blanc, 0.4);
-
-        &:first-child {
-            padding-top: 30px;
-        }
     }
 }
 

@@ -25,20 +25,16 @@ $ TAILLE BOUTON
     }
 }
 
-.btn-petit-rond {
+.btn-rond-petit {
     @include bouton-rond(25px);
 }
 
-.btn-moyen-rond {
+.btn-rond-moyen {
     @include bouton-rond(35px);
 }
 
-.btn-grand-rond {
+.btn-rond-grand {
     @include bouton-rond(50px);
-
-    .fa-play:not(.fa-pause) {
-        padding-left: 3px;
-    }
 }
 
 
@@ -147,4 +143,26 @@ $ BOUTON pour SIDEBAR
             cursor: pointer;
         }
     }
+}
+
+
+
+
+/*======================================================================================================================
+$ HARMONISE LA POSITION DANS DES BOUTONS ROND
+======================================================================================================================*/
+[class*="btn-rond-"] {
+
+    .fa-play:not(.fa-pause) {
+        padding-left: 3px;
+    }
+
+    .fa-backward {
+        padding-right: 5px;
+    }
+
+    .fa-forward {
+        padding-left: 5px;
+    }
+
 }

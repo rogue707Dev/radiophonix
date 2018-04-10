@@ -14,7 +14,10 @@ $padding-layout-sidebar: 15px;
 
 $padding-grid: 15px; //recupe varaible bootstrap ?
 
+$hauteur-lecteur: $largeur-sidebar + 230px;
 $hauteur-lecteur-mini : ($largeur-sidebar / 2);
+
+$playlist-taille-mini-hauteur-pour-affichage : $hauteur-lecteur + 168px; //168px correspond a 4 lignes
 
 
 

@@ -1,20 +1,18 @@
 <template>
-    <div class="layout-conteneur__header">
+    <div class="layout-header">
 
-        <div class="layout-header__btn">
-            <i class="fa" aria-hidden="true" @click="toggle"
-               :class="{ 'fa-close': isMenuOpen, 'fa-bars': !isMenuOpen }"></i>
-        </div>
-        <div class="layout-header__logo fill--blanc">
+        <i class="fa" aria-hidden="true" @click="toggle"
+           :class="{ 'fa-close': isMenuOpen, 'fa-bars': !isMenuOpen }"></i>
+
+        <div class="fill--blanc">
             <svg width="150px" height="25px">
                 <use xlink:href="#logo"/>
             </svg>
         </div>
-        <div class="layout-header__btn" @click="togglePlayer">
-            <i class="fa" aria-hidden="true"
-               :class="{ 'fa-close': isPlayerOpen, 'fa-volume-up': !isPlayerOpen }"></i>
-        </div>
 
+        <i class="fa" aria-hidden="true"
+           :class="{ 'fa-close': isPlayerOpen, 'fa-volume-up': !isPlayerOpen }"
+           @click="togglePlayer"></i>
     </div>
 </template>
 

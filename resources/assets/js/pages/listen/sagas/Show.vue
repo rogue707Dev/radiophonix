@@ -9,7 +9,7 @@
                 <div class="jaquette--banniere jaquette--saga">
                     <img :src="saga.images.cover.main" alt="" />
                 </div>
-                <button class="pa-centrer btn-blanc btn-grand-rond" @click="playSaga">
+                <button class="pa-centrer btn-blanc btn-rond-grand" @click="playSaga">
                     <i aria-hidden="true" class="fa fa-play"></i>
                 </button>
             </template>
