@@ -1,10 +1,12 @@
 <template>
-    <div class="lecteur__playlist">
+    <div class="lecteur__playlist justify-content-around">
 
-        <!-- playlist non utiliser -->
+        <!--//////////////////////////////////////////////////////////////
+        PLAYLIST NON UTILISER
+        //////////////////////////////////////////////////////////////-->
         <template v-if="!currentTrack.id">
 
-            <div class="row text-center mt-2">
+            <div class="row text-center mb-5">
                 <div class="col-12">
                     <i class="fa fa-bullhorn fa--sidebar fa--aide"></i>
                     <p class="titre-sidebar">
@@ -16,7 +18,9 @@
         </template>
 
 
-        <!-- playlist -->
+        <!--//////////////////////////////////////////////////////////////
+        PLAYLIST
+        //////////////////////////////////////////////////////////////-->
         <template v-else>
 
             <template v-for="collection in currentCollections">

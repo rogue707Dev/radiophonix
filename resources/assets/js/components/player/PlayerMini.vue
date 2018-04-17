@@ -11,7 +11,7 @@
             </div>
             <div class="lecteur-mini__media centrage-parent">
                 <div class="centrage-enfant">
-                    <p class="titre-episode-lecteur">{{ currentTrack.title || 'Radiophonix' }}</p>
+                    <p class="titre-sidebar">{{ currentTrack.title || 'Radiophonix' }}</p>
                     <div class="texte-blanc">
                         <p v-if="currentSaga.name">
                             <i>{{ currentSaga.name }}</i>

@@ -15,9 +15,8 @@ $ CONTENEUR
         height: 100vh;
         overflow-y: auto;
         overflow-x: hidden;
-
-        padding-left: $padding-layout-sidebar;
-        padding-right: $padding-layout-sidebar;
+        padding-right: 20px;
+        padding-left: 20px;
 
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
             height: $hauteur-lecteur;
@@ -26,28 +25,49 @@ $ CONTENEUR
     }
 }
 
+
+
+/*======================================================================================================================
+$ DISPOSITION de base
+======================================================================================================================*/
+.lecteur__disposition {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
 /*======================================================================================================================
 $ FILTRE IMAGE PLAYER EN ATTENTE
 ======================================================================================================================*/
 .lecteur__filtre-bleu {
     @include cover;
     background: rgba($bleu-fonce, $lecteur-opacite-filtre-couleur);
+    width: 280px;
 }
 
 
+
 /*======================================================================================================================
-$ BOUTON PLAYLIST quand navigateur à une petite hauteur
+$ BOUTON SUPLEMENTAIRE
 ======================================================================================================================*/
-.lecteur__bouton-playlist-petite-hauteur {
+// bouton s'affiche en small, medium et en large si petite hauteur
+.lecteur__bouton-affichage {
+    @include media-breakpoint-up(lg) {
+        @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
+            display: none;
+        }
+    }
+}
+
+// afficher seulement dans le cas inverse
+.lecteur__bouton-masque {
     display: none;
 
     @include media-breakpoint-up(lg) {
-        @media screen and (max-height: $playlist-taille-mini-hauteur-pour-affichage) {
+        @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
             display: block;
-
-            position: absolute;
-            top: $padding-layout-sidebar;
-            right: $padding-layout-sidebar;
         }
     }
 }
