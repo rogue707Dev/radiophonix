@@ -29,7 +29,7 @@ $ CONTENEUR
 
 
 /*======================================================================================================================
-$ ITEM
+$ ITEM NORMAL
 ======================================================================================================================*/
 
 /*-----------------------------------------------------------------------------
@@ -114,6 +114,83 @@ $ LIEN HOVER
 
         svg {
             fill: $blanc;
+        }
+    }
+}
+
+
+
+
+/*======================================================================================================================
+$ ITEM LOGIN
+======================================================================================================================*/
+.layout-menu__item-log {
+    display: flex;
+    align-items: center;
+
+    svg {
+        fill: $bleu-fonce;
+    }
+    background: linear-gradient(to right, $orange-moyen 0%, $orange-clair 50%);
+
+
+    color: $bleu-fonce;
+
+    @include media-breakpoint-up(lg) {
+        flex-direction: column;
+        justify-content: center;
+        min-height: ($largeur-menu - $largeur-bande-menu);
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    @include media-breakpoint-up(lg) {
+
+        @include menu__bande-halo {
+            background-color: $orange-fonce;
+
+        }
+
+    }
+}
+
+.layout-menu__item-log2 {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 $bleu-clair;
+    @include media-breakpoint-up(lg) {
+    }
+}
+
+.layout-menu__item-log3 {
+    background:$rouge;
+    color: $blanc;
+    svg {
+        fill: $blanc;
+        margin-bottom: 0;
+    }
+
+    border-bottom: 1px solid $bleu-fonce;
+    box-shadow: 0 1px 0 0 $rouge;
+    @include media-breakpoint-up(lg) {
+        @include menu__bande-halo {
+            display: none;
+        }
+    }
+}
+
+.layout-menu__item-log4 {
+    background:$orange-clair;
+    color: $bleu-fonce;
+    svg {
+        fill: $bleu-fonce;
+        margin-bottom: 0;
+    }
+
+    border-bottom: 1px solid $bleu-fonce;
+    box-shadow: 0 1px 0 0 $orange-clair;
+    @include media-breakpoint-up(lg) {
+        @include menu__bande-halo {
+            display: none;
         }
     }
 }
