@@ -3,14 +3,16 @@
 </template>
 
 <script>
-const getTimeString = function(time, word, short) {
+const getTimeString = function(time, word, type) {
     let res = '';
 
     if (time > 0) {
         res += time;
 
-        if (short) {
+        if (type === 'short') {
             word = word.substring(0, 1);
+        } else if (type === 'number') {
+            word = '';
         } else {
             word = ' ' + word;
 
@@ -23,12 +25,18 @@ const getTimeString = function(time, word, short) {
     }
 
     return res;
-}
+};
 
 export default {
     props: {
         seconds: Number,
-        short: Boolean
+        type: {
+            type: String,
+            default: 'full',
+            validator: function (value) {
+                return ['full', 'short', 'number'].indexOf(value) !== -1
+            }
+        }
     },
 
     computed: {
@@ -42,19 +50,25 @@ export default {
             let seconds = total % 60;
 
             let res = [
-                getTimeString(hours, 'hours', this.short),
-                getTimeString(minutes, 'minute', this.short),
-                getTimeString(seconds, 'seconde', this.short),
+                getTimeString(hours, 'hours', this.type),
+                getTimeString(minutes, 'minute', this.type),
+                getTimeString(seconds, 'seconde', this.type),
             ].filter(time => time.length > 0);
 
             if (seconds === 0) {
-                return res[0];
+                if (this.type === 'number') {
+                    res.push('00');
+                } else {
+                    return res[0];
+                }
             }
 
             let glue = ' et ';
 
-            if (this.short) {
+            if (this.type === 'short') {
                 glue = ', ';
+            } else if (this.type === 'number') {
+                glue = ':';
             }
 
             return res.join(glue);

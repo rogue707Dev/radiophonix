@@ -53,11 +53,11 @@
             Progession
             ------------------------------------------>
             <div class="lecteur__disposition texte-blanc texte-petit mt-4">
-                {{ currentTrack.seconds }}
-                <div class="progress lecteur__barre-progression">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
                 {{ time }}
+                <div class="progress lecteur__barre-progression">
+                    <div class="progress-bar" role="progressbar" :style="{width: currentPercentage + 'px'}" :aria-valuenow="currentPercentage" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <track-length :seconds="currentTrack.seconds" type="number"></track-length>
             </div>
 
             <!----------------------------------------
@@ -134,12 +134,14 @@ import { mapState, mapActions } from 'vuex';
 import api from '~/lib/api'
 import RadialProgressBar from '~/components/RadialProgressBar.vue';
 import TextEllispis from '~/components/text/TextEllipsis.vue';
+import TrackLength from '~/components/track/Length.vue';
 import Player from '~/lib/Player';
 
 export default {
     components: {
         RadialProgressBar,
         TextEllispis,
+        TrackLength,
     },
 
     data() {

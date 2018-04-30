@@ -101,7 +101,7 @@
                                         <p class="titre-resultat-recherche">{{ highlights.track.title }}</p>
                                         <p class="texte-orange-fonce">
                                             <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                            <track-length :seconds="highlights.track.seconds" :short="true"></track-length>
+                                            <track-length :seconds="highlights.track.seconds" type="short"></track-length>
                                         </p>
                                     </div>
                                     <div class="zone-interactive__action">
@@ -266,7 +266,7 @@
                                                 <p class="titre-resultat-recherche">{{ track.title }}</p>
                                                 <p class="texte-orange-fonce">
                                                     <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                                    <track-length :seconds="track.seconds" :short="true"></track-length>
+                                                    <track-length :seconds="track.seconds" type="short"></track-length>
                                                 </p>
                                             </div>
                                         </div>

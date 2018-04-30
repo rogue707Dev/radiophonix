@@ -167,7 +167,7 @@
                                     <div class="d-flex align-items-center h-100">
                                         <span class="texte-orange-fonce">
                                             <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                            <track-length :seconds="track.seconds" :short="true"></track-length>
+                                            <track-length :seconds="track.seconds" type="short"></track-length>
                                         </span>
                                     </div>
                                 </div>

@@ -42,7 +42,7 @@
                         </p>
                     </div>
                     <div class="col-auto pr-4">
-                        <track-length :seconds="track.seconds" :short="true" class="texte-petit"></track-length>
+                        <track-length :seconds="track.seconds" type="short" class="texte-petit"></track-length>
                     </div>
 
                 </div>
