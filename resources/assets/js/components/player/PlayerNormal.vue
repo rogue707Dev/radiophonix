@@ -55,7 +55,12 @@
             <div class="lecteur__disposition texte-blanc texte-petit mt-4">
                 {{ time }}
                 <div class="progress lecteur__barre-progression">
-                    <div class="progress-bar" role="progressbar" :style="{width: currentPercentage + 'px'}" :aria-valuenow="currentPercentage" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar"
+                         role="progressbar"
+                         :style="{width: currentPercentage + 'px'}"
+                         :aria-valuenow="currentPercentage"
+                         aria-valuemin="0"
+                         aria-valuemax="100"></div>
                 </div>
                 <track-length :seconds="currentTrack.seconds" type="number"></track-length>
             </div>
