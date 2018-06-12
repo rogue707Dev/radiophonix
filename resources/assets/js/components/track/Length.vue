@@ -49,6 +49,10 @@ export default {
             let minutes = Math.floor(total / 60);
             let seconds = total % 60;
 
+            if (seconds < 10) {
+                seconds = '0' + seconds;
+            }
+
             let res = [
                 getTimeString(hours, 'hours', this.type),
                 getTimeString(minutes, 'minute', this.type),
