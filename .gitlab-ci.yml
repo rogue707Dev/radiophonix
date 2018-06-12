@@ -74,11 +74,13 @@ build:review:
         name: review/$CI_COMMIT_REF_NAME
         url: http://$CI_ENVIRONMENT_SLUG.radiophonix.org
     before_script:
+        - apt-get update
+        - apt-get install -y gnupg
         - curl -sL https://deb.nodesource.com/setup_8.x | bash -
         - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
         - echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
         - apt-get update
-        - apt-get install -y nodejs yarn libmagickwand-dev imagemagick zip unzip gnupg
+        - apt-get install -y nodejs yarn libmagickwand-dev imagemagick zip unzip
         - pecl install imagick
         - docker-php-ext-enable imagick
         - docker-php-ext-install gd zip
