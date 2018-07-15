@@ -172,6 +172,9 @@ export default {
             let percent = e.offsetX / e.target.offsetWidth;
 
             Player.seekPercentage(percent * 100);
+
+            this.currentPercentage = Player.percentage();
+            this.time = Player.time();
         },
 
         startLoop() {
