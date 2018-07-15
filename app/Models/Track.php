@@ -193,4 +193,18 @@ class Track extends Model
 
         $this->attributes['status'] = $value;
     }
+
+    /**
+     * @return string
+     */
+    public function getTitleAttribute()
+    {
+        $title = $this->attributes['title'] ?? null;
+
+        if (empty($title)) {
+            return '[Titre inconnu]';
+        }
+
+        return $this->attributes['title'];
+    }
 }
