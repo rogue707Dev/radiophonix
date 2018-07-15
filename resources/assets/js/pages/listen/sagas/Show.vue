@@ -143,7 +143,7 @@
                             <div class="row episode-item"
                                  @click="play({track, saga})"
                                  :class="{'actif': track.id == currentTrack.id}"
-                                v-for="track in collection.tracks" :key="track.id">
+                                 v-for="track in collection.tracks" :key="track.id">
                                 <div class="col-2 col-md-1 col-lg-1 order-lg-1">
                                     <div class="d-flex align-items-center h-100 justify-content-center"
                                         v-html="formatTrackNumber(track.number)">
