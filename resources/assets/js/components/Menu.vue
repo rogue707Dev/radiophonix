@@ -12,7 +12,7 @@
             Connexion
         </rp-menu-item>
 -->
-        <rp-menu-item name="home" route="home" icon="login2" class="layout-menu__item layout-menu__item-log3">
+        <rp-menu-item name="login" route="login" icon="login2" class="layout-menu__item layout-menu__item-log3">
             Connexion
         </rp-menu-item>
          <!--
