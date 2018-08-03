@@ -17,7 +17,7 @@ class TrackTransformer extends Transformer
         return [
             'id' => $track->fakeId(),
             'number' => $track->number,
-            'title' => $track->title,
+            'title' => empty($track->title) ? '[Titre inconnu]' : $track->title,
             'synopsis' => $track->synopsis,
             'published_at' => $this->getFormatedDate($track->published_at),
             'status' => (int)$track->status ?? Track::STATUS_DRAFT,
