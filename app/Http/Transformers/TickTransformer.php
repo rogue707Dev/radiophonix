@@ -20,6 +20,7 @@ class TickTransformer extends Transformer
     {
         return [
             'seconds' => (int)$tick->seconds,
+            'track_id' => (int)$tick->track_id,
         ];
     }
 
