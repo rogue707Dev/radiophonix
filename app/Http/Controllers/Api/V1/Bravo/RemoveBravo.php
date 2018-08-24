@@ -17,10 +17,11 @@ class RemoveBravo extends ApiController
      */
     public function __invoke(Saga $saga)
     {
-        if ($saga->visibility != Saga::VISIBILITY_PUBLIC) {
+        if (!$saga->isPublic()) {
             throw new ModelNotFoundException;
         }
 
+        /** @var Bravo $bravo */
         $bravo = Bravo::where('user_id', '=', $this->user()->id)
             ->where('saga_id', $saga->id)
             ->first();
