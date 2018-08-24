@@ -2,7 +2,8 @@
 
 namespace Radiophonix\Models\Support;
 
-use Jenssegers\Optimus\Optimus;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Query\Builder;
 use Radiophonix\Services\FakeId\FakeIdManager;
 
 /**
@@ -10,6 +11,9 @@ use Radiophonix\Services\FakeId\FakeIdManager;
  * their database id.
  * The goal of this is to hide the database id from outside the public api so
  * that ids can't be guessed.
+ *
+ * @mixin Model
+ * @mixin Builder
  */
 trait HasFakeId
 {
