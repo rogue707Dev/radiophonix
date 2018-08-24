@@ -11,7 +11,7 @@ class FakeIdConnection
      */
     private $optimus;
 
-    public function __construct($prime, $inverse, $xor)
+    public function __construct(int $prime, int $inverse, int $xor)
     {
         $this->optimus = new Optimus($prime, $inverse, $xor);
     }
