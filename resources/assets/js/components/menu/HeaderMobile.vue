@@ -10,6 +10,10 @@
             </svg>
         </div>
 
+        <!-- TODO : au clic
+         Ajouter class "actif" a layout-global__lecteur et layout-global__playlist
+         ajouter la class "inactif" à layout-global__main
+         -->
         <i class="fa" aria-hidden="true"
            :class="{ 'fa-close': isPlayerOpen, 'fa-volume-up': !isPlayerOpen }"
            @click="togglePlayer"></i>

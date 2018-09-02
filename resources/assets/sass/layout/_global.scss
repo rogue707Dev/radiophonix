@@ -5,9 +5,9 @@ $ GLOBAL
 
     display:grid;
     grid-template-columns: 60px auto 60px;
-    grid-template-rows: $hauteur-header auto;
+    grid-template-rows: $hauteur-header auto auto;
 
-    height:100vh;
+    //height:100vh; // pas en mobile en tout cas
 
     @include media-breakpoint-down(md) {
 
@@ -132,19 +132,29 @@ $ PLAYLIST
     &.actif {
         display: inherit;
 
-        position: fixed;
-        top:0;
-        bottom: 0;
-        left: $largeur-menu;
-        width: $largeur-sidebar;
-
-        z-index: 2; // au dessus de .layout-global__lecteur
-
-        overflow-x: auto;
-        overflow-x: hidden;
+        grid-column: 1/4;
+        grid-row: 3/4;
+        background-color: red;
     }
 
     @include media-breakpoint-up(lg) {
+
+        &.actif {
+            display: inherit;
+
+            position: fixed;
+            top:0;
+            bottom: 0;
+            left: $largeur-menu;
+            width: $largeur-sidebar;
+
+            z-index: 2; // au dessus de .layout-global__lecteur
+
+            overflow-x: auto;
+            overflow-x: hidden;
+        }
+
+
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
             &:not(.actif) {
                 display: inherit;
@@ -179,13 +189,17 @@ $ NORMAL
 .layout-global__main {
 
     grid-column: 1/4;
-    grid-row: 2/3;
+    grid-row: 2/4;
 
     @include media-breakpoint-up(lg) {
 
         grid-column: 3/4;
         grid-row: 1/3;
 
+    }
+
+    &.inactif {
+        display: none;
     }
 
 }
