@@ -7,7 +7,6 @@ $ GLOBAL
     grid-template-columns: 60px auto 60px;
     grid-template-rows: $hauteur-header auto auto;
 
-    //height:100vh; // pas en mobile en tout cas
 
     @include media-breakpoint-down(md) {
 
@@ -16,6 +15,7 @@ $ GLOBAL
     @include media-breakpoint-up(lg) {
         grid-template-columns: $largeur-menu $largeur-sidebar auto;
         grid-template-rows: $hauteur-lecteur auto;
+        height:100vh;
     }
 
     &:before {

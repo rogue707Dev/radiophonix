@@ -54,3 +54,7 @@ $ INITIALISATION GRILLE et ESPACEMENT
 .layout-sidebar__contenu-grille {
     @include sidebar-contenu__init;
 }
+
+.img-cover-aside {
+    margin-left: -20px;
+}

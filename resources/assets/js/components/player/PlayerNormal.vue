@@ -115,10 +115,7 @@
             <!----------------------------------------
             image
             ------------------------------------------>
-            <div class="pr">
-                <img src="/static/dev/images/platine.jpg" alt="" width="280px" height="280px" class="img__filtre-grayscale">
-                <div class="lecteur__filtre-bleu"></div>
-            </div>
+            <img class="img-cover-aside" src="/static/dev/images/platine-vinyle.png" alt="" width="320px" height="316px">
 
             <!----------------------------------------
             Recherche
