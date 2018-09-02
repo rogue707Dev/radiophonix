@@ -54,7 +54,7 @@ $ BLANC
     color: $bleu-moyen;
 
     @include survol() {
-        color: $orange-fonce;
+        color: $rouge;
         box-shadow: 0 0 5px 0 $orange-fonce;
         cursor: pointer;
     }

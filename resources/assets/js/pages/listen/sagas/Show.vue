@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-md-6 col-xl-8">
                     <h2 class="titre--bloc mb-4">Synopsis</h2>
-                    <p class="texte-orange-fonce"><i aria-hidden="true" class="fa fa-calendar"></i>
+                    <p class="texte-rouge"><i aria-hidden="true" class="fa fa-calendar"></i>
                         {{ saga.creation_date | formatDate }}</p>
                     <p>{{ saga.synopsis }}</p>
                     <ul class="liste-bouton mt-3">
@@ -102,16 +102,16 @@
                             </router-link>
                         </div>
                         <div>
-                            <p>
-                                <router-link v-if="saga.author.id"
-                                             :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
-                                <span class="texte-orange-fonce">
-                                    <i v-if="saga.author.type === 'user'" aria-hidden="true" class="fa fa-user"></i>
-                                    {{ saga.author.name }}
-                                </span>
-                                </router-link>
+                            <p class="texte-rouge">
+                                <i v-if="saga.author.type === 'user'" aria-hidden="true" class="fa fa-user"></i>
+                                {{ saga.author.name }}
                             </p>
                             <p><text-ellispis :text="saga.author.bio" :size="200"></text-ellispis></p>
+                            <router-link v-if="saga.author.id"
+                                         :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }"
+                                         class="cartouche lien">
+                            Voir la biographie
+                            </router-link>
                             <ul class="liste-tiret">
                                 <li v-if="saga.author.links.site"><a :href="saga.author.links.site">Site officiel</a></li>
                                 <li v-if="saga.author.links.facebook"><a :href="saga.author.links.facebook">Facebook</a></li>
@@ -155,7 +155,7 @@
                                 </div>
                                 <div class="col-2 col-md-2 col-lg-1 order-lg-4">
                                     <div class="d-flex align-items-center h-100 justify-content-center">
-                                        <div v-if="track.id == currentTrack.id" class="hfa-cercle-blanc-fonce texte-orange-fonce">
+                                        <div v-if="track.id == currentTrack.id" class="hfa-cercle-blanc-fonce texte-rouge">
                                             <i aria-hidden="true" class="fa fa-volume-up"></i>
                                         </div>
                                         <div v-else class="hfa-cercle-blanc-fonce">
@@ -165,7 +165,7 @@
                                 </div>
                                 <div class="col-10 offset-2 col-md-2 offset-md-0 col-lg-3 order-lg-3">
                                     <div class="d-flex align-items-center h-100">
-                                        <span class="texte-orange-fonce">
+                                        <span class="texte-rouge">
                                             <i aria-hidden="true" class="fa fa-clock-o"></i>
                                             <track-length :seconds="track.seconds" type="short"></track-length>
                                         </span>

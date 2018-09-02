@@ -8,7 +8,7 @@
                 <div class="zone-interactive__info p-1">
                     <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }">
                         <p class="titre-liste-jaquette-saga">{{ saga.name }}</p>
-                        <p class="texte-orange-fonce texte-petit">
+                        <p class="texte-rouge texte-petit">
                             <saga-stats
                                 :stats="saga.stats"
                                 :with-icon="true">

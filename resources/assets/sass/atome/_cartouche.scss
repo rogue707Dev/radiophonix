@@ -53,10 +53,9 @@ $ LIEN
 -----------------------------------------------------------------------------*/
 .cartouche.lien {
     @include halo--rouge();
-    color: $rouge;
 
     @include survol(){
         @include halo--orange-clair;
-        color: $orange;
+        color: $rouge;
     }
 }

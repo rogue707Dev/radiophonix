@@ -83,7 +83,7 @@ $ BARRE de progression
     color: $bleu-moyen;
 }
 .lecteur__progression__barre {
-    background-color: $orange-menu;
+    background-color: $rouge;
     border: 0;
     height: 10px;
     width: 100%;
@@ -93,7 +93,7 @@ $ BARRE de progression
     }
 }
 .lecteur__progression__barre::-webkit-progress-bar {
-    background-color: $orange-menu;
+    background-color: $rouge;
 }
 .lecteur__progression__barre::-webkit-progress-value {
     background: $bleu-moyen;

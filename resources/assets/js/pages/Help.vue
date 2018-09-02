@@ -13,7 +13,7 @@
                         <div class="zone-interactive__info p-1">
                             <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
                                 <p class="titre-liste-jaquette-saga">Le Donjon de Naheulbeuk</p>
-                                <p class="texte-orange-fonce texte-petit">
+                                <p class="texte-rouge texte-petit">
                                     <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
                                 </p>
                             </a>
@@ -51,7 +51,7 @@
                                 </div>
                                 <div class="zone-interactive__info p-1">
                                     <p class="titre-resultat-recherche">Le Donjon de Naheulbeuk</p>
-                                    <p class="texte-orange-fonce">
+                                    <p class="texte-rouge">
                                         <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
                                     </p>
                                 </div>
@@ -82,7 +82,7 @@
                                 </div>
                                 <div class="zone-interactive__info p-1">
                                     <p class="titre-resultat-recherche">Pen Of Chaos</p>
-                                    <p class="texte-orange-fonce">
+                                    <p class="texte-rouge">
                                         <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                     </p>
                                 </div>
@@ -113,7 +113,7 @@
                                 </div>
                                 <div class="zone-interactive__info p-1">
                                     <p class="titre-resultat-recherche">Présentation</p>
-                                    <p class="texte-orange-fonce">
+                                    <p class="texte-rouge">
                                         <i aria-hidden="true" class="fa fa-clock-o"></i> 3m, 45s
                                     </p>
                                 </div>
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="zone-interactive__info p-1">
                                     <p class="titre-resultat-recherche">Heroic fantasy</p>
-                                    <p class="texte-orange-fonce">
+                                    <p class="texte-rouge">
                                         <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                     </p>
                                 </div>
@@ -177,7 +177,7 @@
                                         </div>
                                         <div class="liste-resultat__info">
                                             <p class="titre-resultat-recherche">Le Donjon de Naheulbeuk</p>
-                                            <p class="texte-orange-fonce">
+                                            <p class="texte-rouge">
                                                 <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
                                             </p>
                                         </div>
@@ -211,7 +211,7 @@
                                         </div>
                                         <div class="liste-resultat__info">
                                             <p class="titre-resultat-recherche">Pen Of Chaos</p>
-                                            <p class="texte-orange-fonce">
+                                            <p class="texte-rouge">
                                                 <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                             </p>
                                         </div>
@@ -245,7 +245,7 @@
                                         </div>
                                         <div class="liste-resultat__info">
                                             <p class="titre-resultat-recherche">Présentation</p>
-                                            <p class="texte-orange-fonce">
+                                            <p class="texte-rouge">
                                                 <i aria-hidden="true" class="fa fa-clock-o"></i> 3m, 45s
                                             </p>
                                         </div>
@@ -279,7 +279,7 @@
                                         </div>
                                         <div class="liste-resultat__info">
                                             <p class="titre-resultat-recherche">Heroic fantasy</p>
-                                            <p class="texte-orange-fonce">
+                                            <p class="texte-rouge">
                                                 <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                             </p>
                                         </div>
