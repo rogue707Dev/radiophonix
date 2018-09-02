@@ -1,6 +1,6 @@
 <template>
-    <div class="layout-conteneur__sidebar-grand-lecteur">
-        <!-- @TODO menage scss a faire - fichier a supprimer ? -->
+    <div>
+        <!-- TODO a quoi sert ce fichier ? le template na pas l'air d'etre utiliser -->
 
         <div class="layout-sidebar__lecteur">
             <player-normal></player-normal>

@@ -4,14 +4,62 @@ $ PLAYLIST
 .lecteur__playlist {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
     padding: 0 $padding-layout-sidebar;
+}
+
+/*-----------------------------------------------------------------------------
+$ MENU PLAYLIST - retour au player
+-----------------------------------------------------------------------------*/
+.lecteur__playlist__menu {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 0 $padding-layout-sidebar;
+
+    position: fixed;
+    top: 0;
+    left: $largeur-menu;
+    width: $largeur-sidebar;
+    height: $hauteur-playlist-menu;
+
+    background-color: $bleu-fonce;
+    color: $blanc-fonce;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
+        display: none;
+    }
+}
+
+
+
+
+/*-----------------------------------------------------------------------------
+$ LISTE DE MORCEAU
+-----------------------------------------------------------------------------*/
+.lecteur__playlist__liste {
+
+    @media screen and (max-height: $playlist-taille-mini-hauteur-pour-affichage) {
+        position: fixed;
+        top:$hauteur-playlist-menu;
+        bottom: 0;
+        left: $largeur-menu;
+        width: $largeur-sidebar;
+
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        padding: 0 $padding-layout-sidebar;
+
+    }
 }
 
 /*======================================================================================================================
 $ MORCEAU
 ======================================================================================================================*/
-
 /*-----------------------------------------------------------------------------
 $ NORMAL
 -----------------------------------------------------------------------------*/
@@ -32,7 +80,7 @@ $ NORMAL
     }
 
     @include media-breakpoint-up(lg) {
-        border-bottom: 1px solid rgba($blanc, 0.4);
+        border-bottom: 1px solid rgba($orange-menu, 0.4);
     }
 }
 
@@ -49,6 +97,6 @@ $ ACTIF
 
 
     @include media-breakpoint-up(lg) {
-        background-color: $blanc;
+        background-color: $orange-menu;
     }
 }

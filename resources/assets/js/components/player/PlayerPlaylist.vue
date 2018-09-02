@@ -23,31 +23,45 @@
         //////////////////////////////////////////////////////////////-->
         <template v-else>
 
-            <template v-for="collection in currentCollections">
+            <!--
+            TODO "isPlaylistOpen" : au click sur "lecteur__playlist__menu" retirer les class :
+            "inactif" de layout-global__lecteur et
+            "actif" de layout-global__playlist
+            dans layout.vue
+            -->
+            <div class="lecteur__playlist__menu">
+                Revenir au player
+                <i aria-hidden="true" class="fa fa-close"></i>
+            </div>
 
-                <div class="row lecteur__playlist__morceau a-curseur"
-                     v-for="track in collection.tracks"
-                     :key="track.id"
-                     :class="{'actif': track.id == currentTrack.id}"
-                     @click="play({track})">
+            <div class="lecteur__playlist__liste">
+                <template v-for="collection in currentCollections">
 
-                    <div class="col-1 text-center">
-                        <i v-if="track.id == currentTrack.id" class="fa fa-volume-up"></i>
-                        <template v-else>{{ track.number }}</template>
+                    <div class="row lecteur__playlist__morceau a-curseur"
+                         v-for="track in collection.tracks"
+                         :key="track.id"
+                         :class="{'actif': track.id == currentTrack.id}"
+                         @click="play({track})">
+
+                        <div class="col-1 text-center">
+                            <i v-if="track.id == currentTrack.id" class="fa fa-volume-up"></i>
+                            <template v-else>{{ track.number }}</template>
+                        </div>
+                        <div class="col">
+                            <text-ellispis :text="track.title" :size="27"></text-ellispis>
+                            <p class="texte-tres-petit" v-if="currentCollections.length > 1">
+                                Saison {{ collection.number }} - {{ collection.name }}
+                            </p>
+                        </div>
+                        <div class="col-auto pr-4">
+                            <track-length :seconds="track.seconds" type="short" class="texte-petit"></track-length>
+                        </div>
+
                     </div>
-                    <div class="col">
-                        <text-ellispis :text="track.title" :size="27"></text-ellispis>
-                        <p class="texte-tres-petit" v-if="currentCollections.length > 1">
-                            Saison {{ collection.number }} - {{ collection.name }}
-                        </p>
-                    </div>
-                    <div class="col-auto pr-4">
-                        <track-length :seconds="track.seconds" type="short" class="texte-petit"></track-length>
-                    </div>
 
-                </div>
+                </template>
+            </div>
 
-            </template>
 
         </template>
 

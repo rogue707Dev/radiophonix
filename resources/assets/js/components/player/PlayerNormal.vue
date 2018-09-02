@@ -52,20 +52,26 @@
             <!----------------------------------------
             Progession
             ------------------------------------------>
-            <div class="lecteur__disposition texte-blanc texte-petit mt-4">
+            <div class="lecteur__progression texte-blanc texte-petit mt-4">
                 {{ time }}
-                <progress class=""
+                <progress class="lecteur__progression__barre"
                           @click="seek"
                           :value="currentPercentage"
                           max="100"></progress>
-                <track-length :seconds="currentTrack.seconds" type="number"></track-length>
+                <track-length class="text-right" :seconds="currentTrack.seconds" type="number"></track-length>
             </div>
 
             <!----------------------------------------
             Controle
             ------------------------------------------>
             <div class="lecteur__disposition mt-5">
-                <button class="btn-blanc btn-rond-moyen lecteur__bouton-affichage" @click="previous">
+                <!--
+                TODO "isPlaylistOpen" : au click sur le bouton juste en dessous ajouter les class :
+                "inactif" à layout-global__lecteur et
+                "actif" à layout-global__playlist
+                dans layout.vue
+                -->
+                <button class="btn-blanc btn-rond-moyen lecteur__bouton-affichage">
                     <i aria-hidden="true" class="fa fa-list"></i>
                 </button>
                 <button class="btn-blanc btn-rond-moyen" @click="previous">
@@ -77,7 +83,7 @@
                 <button class="btn-blanc btn-rond-moyen" @click="next">
                     <i aria-hidden="true" class="fa fa-forward"></i>
                 </button>
-                <button class="btn-blanc btn-rond-moyen lecteur__bouton-affichage" @click="next">
+                <button class="btn-blanc btn-rond-moyen lecteur__bouton-affichage">
                     <i aria-hidden="true" class="fa fa-heart"></i>
                 </button>
             </div>

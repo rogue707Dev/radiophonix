@@ -10,10 +10,12 @@
             <rp-menu></rp-menu>
         </div>
 
+        <!--TODO "isPlaylistOpen" toggle de la class "inactif"  -->
         <div class="layout-global__lecteur" v-if="hasSideBar">
             <player-normal></player-normal>
         </div>
 
+        <!--TODO "isPlaylistOpen" toggle de la class "actif"  -->
         <div class="layout-global__playlist" v-if="hasSideBar">
             <player-playlist></player-playlist>
         </div>
@@ -47,7 +49,7 @@ export default {
 
     computed: {
         ...mapState('menu', [
-            'isMenuOpen'
+            'isMenuOpen',
         ]),
 
         hasSideBar() {
