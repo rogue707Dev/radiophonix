@@ -12,7 +12,6 @@ import * as HelpView from '~/pages/Help.vue';
 import * as SearchView from '~/pages/Search.vue';
 
 // Listen components
-import * as ListenSidebar from '~/components/sidebar/ListenSidebar.vue';
 import * as PublishSidebar from '~/components/sidebar/PublishSidebar.vue';
 import * as SearchSidebar from '~/components/sidebar/SearchSidebar.vue';
 import * as HelpSidebar from '~/components/sidebar/HelpSidebar.vue';
@@ -20,7 +19,6 @@ import * as ContributeSidebar from '~/components/sidebar/ContributeSidebar.vue';
 
 // Listen pages
 import * as ListenLayout from '~/pages/listen/Layout.vue';
-import * as ListenHomeView from '~/pages/listen/Home.vue';
 import * as ListenSagaIndexView from '~/pages/listen/sagas/Index.vue';
 import * as ListenSagaShowView from '~/pages/listen/sagas/Show.vue';
 import * as ListenAuthorIndexView from '~/pages/listen/authors/Index.vue';
@@ -229,15 +227,12 @@ const routes = [
             },
             {
                 path: 'ecouter',
-                components: {
-                    default: ListenLayout,
-                    sidebar: ListenSidebar
-                },
+                component: ListenLayout,
                 meta: { menu: 'listen' },
                 children: [
                     {
                         path: '',
-                        component: ListenHomeView,
+                        component: ListenSagaIndexView,
                         name: 'listen.home',
                         meta: { menu: 'listen' }
                     },
