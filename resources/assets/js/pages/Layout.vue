@@ -1,6 +1,6 @@
 <template>
 
-    <div :class="{'layout-global': hasSideBar, 'layout-global no-sidebar': !hasSideBar}">
+    <div class="layout-global">
 
         <div class="layout-global__header">
             <header-mobile></header-mobile>
@@ -11,16 +11,16 @@
         </div>
 
         <!--TODO "isPlaylistOpen" toggle de la class "inactif"  -->
-        <div class="layout-global__lecteur" v-if="hasSideBar">
+        <div class="layout-global__lecteur">
             <player-normal></player-normal>
         </div>
 
         <!--TODO "isPlaylistOpen" toggle de la class "actif"  -->
-        <div class="layout-global__playlist" v-if="hasSideBar">
+        <div class="layout-global__playlist">
             <player-playlist></player-playlist>
         </div>
 
-        <div :class="{'layout-global__main': hasSideBar, 'layout-global__main--no-sidebar': !hasSideBar}">
+        <div class="layout-global__main">
             <router-view></router-view>
         </div>
 
@@ -50,11 +50,7 @@ export default {
     computed: {
         ...mapState('menu', [
             'isMenuOpen',
-        ]),
-
-        hasSideBar() {
-            return this.$route.name != 'home';
-        }
+        ])
     },
 
     methods: {
