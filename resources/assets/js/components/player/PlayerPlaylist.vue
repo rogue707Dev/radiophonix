@@ -30,6 +30,11 @@
 
             <div class="lecteur__playlist__liste">
                 <template v-for="collection in currentCollections">
+                    <!-- Le nom de la saison n'est affiché que s'il y en a plusieurs -->
+                    <div class="row lecteur__playlist__morceau"
+                        v-if="currentSaga.stats.collections > 1">
+                        {{ collection.name }}
+                    </div>
 
                     <div class="row lecteur__playlist__morceau a-curseur"
                          v-for="track in collection.tracks"
