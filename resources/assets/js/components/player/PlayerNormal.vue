@@ -65,13 +65,7 @@
             Controle
             ------------------------------------------>
             <div class="lecteur__disposition mt-5">
-                <!--
-                TODO "isPlaylistOpen" : au click sur le bouton juste en dessous ajouter les class :
-                "inactif" à layout-global__lecteur et
-                "actif" à layout-global__playlist
-                dans layout.vue
-                -->
-                <button class="btn-blanc btn-rond-moyen lecteur__bouton-affichage">
+                <button class="btn-blanc btn-rond-moyen lecteur__bouton-affichage" @click="openPlaylist">
                     <i aria-hidden="true" class="fa fa-list"></i>
                 </button>
                 <button class="btn-blanc btn-rond-moyen" @click="previous">
@@ -170,6 +164,11 @@ export default {
             'next',
             'previous',
         ]),
+
+        openPlaylist() {
+            this.$store.dispatch('ui/closePlayer');
+            this.$store.dispatch('ui/openPlaylist');
+        },
 
         seek(e) {
             let percent = e.offsetX / e.target.offsetWidth;

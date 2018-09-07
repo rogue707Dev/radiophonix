@@ -6,21 +6,19 @@
             <header-mobile></header-mobile>
         </div>
 
-        <div class="layout-global__menu" :class="{actif: isMenuOpen}">
+        <div class="layout-global__menu" :class="{actif: isMenuOpen, inactif: !isMenuOpen}">
             <main-menu></main-menu>
         </div>
 
-        <!--TODO "isPlaylistOpen" toggle de la class "inactif"  -->
-        <div class="layout-global__lecteur">
+        <div class="layout-global__lecteur" :class="{actif: isPlayerOpen, inactif: !isPlayerOpen}">
             <player-normal></player-normal>
         </div>
 
-        <!--TODO "isPlaylistOpen" toggle de la class "actif"  -->
-        <div class="layout-global__playlist">
+        <div class="layout-global__playlist" :class="{actif: isPlaylistOpen, inactif: !isPlaylistOpen}">
             <player-playlist></player-playlist>
         </div>
 
-        <div class="layout-global__main">
+        <div class="layout-global__main" :class="{actif: isMainOpen, inactif: !isMainOpen}">
             <router-view></router-view>
         </div>
 
@@ -29,7 +27,7 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex';
+import { mapState } from 'vuex';
 import MainMenu from '~/components/Menu.vue';
 import HeaderMobile from '~/components/menu/HeaderMobile.vue';
 import PlayerNormal from '~/components/player/PlayerNormal.vue';
@@ -43,32 +41,13 @@ export default {
         'player-playlist': PlayerPlaylist,
     },
 
-    data() {
-        return {
-            isPlayerOpen: false,
-        };
-    },
-
     computed: {
-        ...mapState('menu', [
+        ...mapState('ui', [
+            'isMainOpen',
             'isMenuOpen',
+            'isPlayerOpen',
+            'isPlaylistOpen',
         ])
     },
-
-    methods: {
-        ...mapActions('menu', [
-            'toggle',
-        ]),
-
-        togglePlayer() {
-            if (this.isPlayerOpen) {
-                this.$router.back();
-            } else {
-                this.$router.push({ name: 'listen.sagas.index' });
-            }
-
-            this.isPlayerOpen = !this.isPlayerOpen;
-        }
-    }
 }
 </script>

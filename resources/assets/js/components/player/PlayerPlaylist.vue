@@ -23,13 +23,7 @@
         //////////////////////////////////////////////////////////////-->
         <template v-else>
 
-            <!--
-            TODO "isPlaylistOpen" : au click sur "lecteur__playlist__menu" retirer les class :
-            "inactif" de layout-global__lecteur et
-            "actif" de layout-global__playlist
-            dans layout.vue
-            -->
-            <div class="lecteur__playlist__menu">
+            <div class="lecteur__playlist__menu" @click="closePlaylist">
                 Revenir au player
                 <i aria-hidden="true" class="fa fa-close"></i>
             </div>
@@ -89,9 +83,16 @@ export default {
         'currentSaga'
     ]),
 
-    methods: mapActions('player', [
-        'play'
-    ])
+    methods: {
+        ...mapActions('player', [
+            'play'
+        ]),
+
+        closePlaylist() {
+            this.$store.dispatch('ui/openPlayer');
+            this.$store.dispatch('ui/closePlaylist');
+        }
+    }
 }
 </script>
 

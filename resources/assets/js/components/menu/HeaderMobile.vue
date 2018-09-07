@@ -1,7 +1,7 @@
 <template>
     <div class="layout-header">
 
-        <i class="fa" aria-hidden="true" @click="toggle"
+        <i class="fa" aria-hidden="true" @click="toggleMenu"
            :class="{ 'fa-close': isMenuOpen, 'fa-bars': !isMenuOpen }"></i>
 
         <div class="fill--blanc">
@@ -31,20 +31,25 @@
             };
         },
 
-        computed: mapState('menu', [
+        computed: mapState('ui', [
             'isMenuOpen'
         ]),
 
         methods: {
-            ...mapActions('menu', [
-                'toggle',
+            ...mapActions('ui', [
+                'toggleMenu',
             ]),
 
             togglePlayer() {
                 if (this.isPlayerOpen) {
-                    this.$router.back();
+                    // Fermeture du player
+                    this.$store.dispatch('ui/closePlayer');
+                    this.$store.dispatch('ui/closePlaylist');
+                    this.$store.dispatch('ui/openMain');
                 } else {
-                    this.$router.push({ name: 'listen.sagas.index' });
+                    // Ouverture du player
+                    this.$store.dispatch('ui/openPlayer');
+                    this.$store.dispatch('ui/closeMain');
                 }
 
                 this.isPlayerOpen = !this.isPlayerOpen;

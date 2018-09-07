@@ -2,7 +2,7 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import PlayerModule from './modules/PlayerModule';
 import TickModule from './modules/TickModule';
-import MenuModule from './modules/MenuModule';
+import UiModule from './modules/UiModule';
 import SearchModule from './modules/SearchModule';
 
 Vue.use(Vuex);
@@ -11,7 +11,7 @@ const store = new Vuex.Store({
     modules: {
         player: PlayerModule,
         tick: TickModule,
-        menu: MenuModule,
+        ui: UiModule,
         search: SearchModule,
     }
 });
