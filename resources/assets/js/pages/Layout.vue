@@ -7,7 +7,7 @@
         </div>
 
         <div class="layout-global__menu" :class="{actif: isMenuOpen}">
-            <rp-menu></rp-menu>
+            <main-menu></main-menu>
         </div>
 
         <!--TODO "isPlaylistOpen" toggle de la class "inactif"  -->
@@ -30,12 +30,14 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
+import MainMenu from '~/components/Menu.vue';
 import HeaderMobile from '~/components/menu/HeaderMobile.vue';
 import PlayerNormal from '~/components/player/PlayerNormal.vue';
 import PlayerPlaylist from '~/components/player/PlayerPlaylist.vue';
 
 export default {
     components: {
+        MainMenu,
         HeaderMobile,
         'player-normal': PlayerNormal,
         'player-playlist': PlayerPlaylist,

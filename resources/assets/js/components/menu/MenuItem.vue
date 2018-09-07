@@ -1,12 +1,18 @@
 <template>
     <router-link :to="to" tag="li" :class="clazz">
-        <rp-icon :name="icon" width="30" height="30"></rp-icon>
+        <menu-icon :name="icon" width="30" height="30"></menu-icon>
         <slot></slot>
     </router-link>
 </template>
 
 <script>
+    import MenuIcon from '~/components/Icon.vue';
+
     export default {
+        components: {
+            MenuIcon,
+        },
+
         props: {
             route: {
                 type: String,
