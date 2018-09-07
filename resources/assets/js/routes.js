@@ -11,12 +11,6 @@ import * as ContributeView from '~/pages/Contribute.vue';
 import * as HelpView from '~/pages/Help.vue';
 import * as SearchView from '~/pages/Search.vue';
 
-// Listen components
-import * as PublishSidebar from '~/components/sidebar/PublishSidebar.vue';
-import * as SearchSidebar from '~/components/sidebar/SearchSidebar.vue';
-import * as HelpSidebar from '~/components/sidebar/HelpSidebar.vue';
-import * as ContributeSidebar from '~/components/sidebar/ContributeSidebar.vue';
-
 // Listen pages
 import * as ListenLayout from '~/pages/listen/Layout.vue';
 import * as ListenSagaIndexView from '~/pages/listen/sagas/Index.vue';
@@ -69,10 +63,7 @@ const routes = [
             },
             {
                 path: 'publier',
-                components: {
-                    default: PublishLayout,
-                    sidebar: PublishSidebar
-                },
+                component: PublishLayout,
                 meta: { menu: 'publish' },
                 children: [
                     {
@@ -191,37 +182,25 @@ const routes = [
             },
             {
                 path: 'contribuer',
-                components: {
-                    default: ContributeView,
-                    sidebar: ContributeSidebar
-                },
+                component: ContributeView,
                 name: 'contribute',
                 meta: { menu: 'contribute' }
             },
             {
                 path: 'aide',
-                components: {
-                    default: HelpView,
-                    sidebar: HelpSidebar
-                },
+                component: HelpView,
                 name: 'help',
                 meta: { menu: 'help' }
             },
             {
                 path: 'recherche',
-                components: {
-                    default: SearchView,
-                    sidebar: SearchSidebar
-                },
+                component: SearchView,
                 name: 'search',
                 meta: { menu: 'search' }
             },
             {
                 path: 'bootstrap',
-                components: {
-                    default: DocumentationBootstrapView,
-                    sidebar: HelpSidebar
-                },
+                component: DocumentationBootstrapView,
                 name: 'bootstrap',
                 meta: { menu: 'help' }
             },
