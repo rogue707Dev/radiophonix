@@ -18,7 +18,7 @@ let router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
-    store.dispatch('menu/close');
+    store.dispatch('ui/closeMenu');
     next();
 });
 

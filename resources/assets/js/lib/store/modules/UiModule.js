@@ -4,8 +4,8 @@ const UiModule = {
     state: {
         isMainOpen: true,
         isMenuOpen: false,
-        isPlayerOpen: false,
-        isPlaylistOpen: false,
+        isPlayerOpen: true,
+        isPlaylistOpen: true,
     },
 
     mutations: {
@@ -33,6 +33,7 @@ const UiModule = {
                 commit('openMenu');
             }
         },
+        closeMenu: ({ commit }) => commit('closeMenu'),
 
         openPlayer: ({ commit }) => commit('openPlayer'),
         closePlayer: ({ commit }) => commit('closePlayer'),
