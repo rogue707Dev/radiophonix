@@ -27,7 +27,7 @@
         <main-menu-item name="search" route="search" icon="rechercher" class="layout-menu__item">
             Rechercher
         </main-menu-item>
-        <main-menu-item name="listen" route="listen.sagas.index" icon="play" class="layout-menu__item">
+        <main-menu-item name="listen" route="listen.home" icon="play" class="layout-menu__item">
             Écouter
         </main-menu-item>
         <main-menu-item name="publish" route="publish" icon="edit" class="layout-menu__item">

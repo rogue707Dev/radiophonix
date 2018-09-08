@@ -4,6 +4,7 @@
         <ul class="navigation">
             <li :class="{ actif: menu == 'popular' }" @click="switchMenu('popular', 'sagas', 'popular')">Populaire</li>
             <li :class="{ actif: menu == 'recent' }" @click="switchMenu('recent', 'sagas', 'recent')">Nouveau</li>
+            <li :class="{ actif: menu == 'authors' }" @click="switchMenu('authors', 'authors', 'all')">Faiseurs</li>
             <li :class="{ actif: menu == 'genres' }" @click="switchMenu('genres', 'genres', 'all')">Genres</li>
             <li :class="{ actif: menu == 'discover' }" @click="switchMenu('discover', 'sagas', 'discover')">Découvrir</li>
         </ul>
@@ -13,6 +14,8 @@
         <saga-list v-show="menu == 'recent'" :sagas="recent"></saga-list>
 
         <saga-alphabet-list v-show="menu == 'discover'" :sagas="discover"></saga-alphabet-list>
+
+        <author-list v-show="menu == 'authors'" :authors="authors"></author-list>
 
         <ul class="liste-jaquette" v-show="menu == 'genres'">
             <li v-for="genre in genres" :key="genre.id">
@@ -34,11 +37,13 @@
 <script>
 import api from '~/lib/api';
 import SagaList from '~/components/saga/SagaList.vue';
+import AuthorList from '~/components/author/AuthorList.vue';
 import SagaAlphabetList from '~/components/saga/SagaAlphabetList.vue';
 
 export default {
     components: {
         SagaList,
+        AuthorList,
         SagaAlphabetList,
     },
 
@@ -47,6 +52,7 @@ export default {
             menu: 'popular',
             popular: [],
             recent: [],
+            authors: [],
             genres: [],
             discover: [],
             shouldWait: false,
