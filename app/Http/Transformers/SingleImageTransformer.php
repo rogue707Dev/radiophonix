@@ -3,8 +3,8 @@
 namespace Radiophonix\Http\Transformers;
 
 use Radiophonix\Http\Transformers\Support\Transformer;
-use Radiophonix\Models\Support\HasMedia;
 use Radiophonix\Models\Support\HasMediaMetadata;
+use Spatie\MediaLibrary\HasMedia\HasMedia;
 
 /**
  * This transformer is used to transform a Media.

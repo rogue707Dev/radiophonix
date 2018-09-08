@@ -24,3 +24,4 @@ npm-debug.log
 storage/database.sqlite
 .DS_Store
 dist/
+.phpunit.result.cache

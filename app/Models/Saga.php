@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Auth;
 use Laravel\Scout\Searchable;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasFakeId;
-use Radiophonix\Models\Support\HasMedia;
 use Radiophonix\Models\Support\HasMediaMetadata;
 use Radiophonix\Models\Support\SagaOwner;
 use Radiophonix\Models\Support\Scopes\FilterByScope;
@@ -20,9 +19,9 @@ use Radiophonix\Models\Support\Scopes\SortByScope;
 use Radiophonix\Models\Support\SagaStats;
 use Spatie\Image\Exceptions\InvalidManipulation;
 use Spatie\Image\Manipulations;
+use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
-use Spatie\MediaLibrary\HasMedia\Interfaces\HasMediaConversions;
-use Spatie\MediaLibrary\Media;
+use Spatie\MediaLibrary\Models\Media;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 
@@ -54,7 +53,7 @@ use Spatie\Sluggable\SlugOptions;
  * @method static Builder|Saga sortby($sort)
  * @method static Builder|Saga visibles()
  */
-class Saga extends Model implements HasMediaConversions, HasMedia, HasMediaMetadata
+class Saga extends Model implements HasMedia, HasMediaMetadata
 {
     use FilterByScope;
     use SortByScope;
