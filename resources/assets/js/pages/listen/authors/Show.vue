@@ -24,12 +24,32 @@
 
                 <div class="col-xl-4">
 
-                    <ul class="liste-tiret">
-                        <li v-if="author.links.site"><a :href="author.links.site">Site officiel</a></li>
-                        <li v-if="author.links.facebook"><a :href="author.links.facebook">Facebook</a></li>
-                        <li v-if="author.links.twitter"><a :href="author.links.twitter">Twitter</a></li>
-                        <li v-if="author.links.netowiki"><a :href="author.links.netowiki">Netowiki</a></li>
-                        <li v-if="author.links.topic"><a :href="author.links.topic">Netophonix</a></li>
+                    <ul class="liste-bouton mt-3">
+                        <li v-if="author.links.site">
+                            <a class="btn btn-blanc-fonce" :href="author.links.site">
+                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
+                            </a>
+                        </li>
+                        <li v-if="author.links.facebook">
+                            <a class="btn btn-blanc-fonce" :href="author.links.facebook" title="Facebook">
+                                <i aria-hidden="true" class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li v-if="author.links.twitter">
+                            <a class="btn btn-blanc-fonce" :href="author.links.twitter" title="Twitter">
+                                <i aria-hidden="true" class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li v-if="author.links.netowiki">
+                            <a class="btn btn-blanc-fonce" :href="author.links.netowiki">
+                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
+                            </a>
+                        </li>
+                        <li v-if="author.links.topic">
+                            <a class="btn btn-blanc-fonce" :href="author.links.topic">
+                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
+                            </a>
+                        </li>
                     </ul>
 
                 </div>

@@ -112,12 +112,33 @@
                                          class="cartouche lien">
                             Voir la biographie
                             </router-link>
-                            <ul class="liste-tiret">
-                                <li v-if="saga.author.links.site"><a :href="saga.author.links.site">Site officiel</a></li>
-                                <li v-if="saga.author.links.facebook"><a :href="saga.author.links.facebook">Facebook</a></li>
-                                <li v-if="saga.author.links.twitter"><a :href="saga.author.links.twitter">Twitter</a></li>
-                                <li v-if="saga.author.links.netowiki"><a :href="saga.author.links.netowiki">Netowiki</a></li>
-                                <li v-if="saga.author.links.topic"><a :href="saga.author.links.topic">Netophonix</a></li>
+
+                            <ul class="liste-bouton mt-3">
+                                <li v-if="saga.author.links.site">
+                                    <a class="btn btn-blanc-fonce" :href="saga.author.links.site">
+                                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
+                                    </a>
+                                </li>
+                                <li v-if="saga.author.links.facebook">
+                                    <a class="btn btn-blanc-fonce" :href="saga.author.links.facebook" title="Facebook">
+                                        <i aria-hidden="true" class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li v-if="saga.author.links.twitter">
+                                    <a class="btn btn-blanc-fonce" :href="saga.author.links.twitter" title="Twitter">
+                                        <i aria-hidden="true" class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li v-if="saga.author.links.netowiki">
+                                    <a class="btn btn-blanc-fonce" :href="saga.author.links.netowiki">
+                                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
+                                    </a>
+                                </li>
+                                <li v-if="saga.author.links.topic">
+                                    <a class="btn btn-blanc-fonce" :href="saga.author.links.topic">
+                                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
