@@ -208,7 +208,8 @@ class AlphaMock extends Command
             return;
         }
 
-        $this->info('[FICHIER] ' . $file);
+        $path = $this->storage->disk('mocks')->path($file);
+        $this->info('[FICHIER] ' . $path);
 
         $this->storage
             ->disk('mocks')

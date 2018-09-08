@@ -8,8 +8,8 @@
             "creation_date": "2006-08-25T00:00:00+00:00",
             "licence": "CC BY",
             "links": {
-                "netowiki": null,
-                "site": null,
+                "netowiki": "https://wiki.netophonix.com/Agent_0",
+                "site": "http://www.flopod.fr/",
                 "topic": null,
                 "rss": null,
                 "facebook": null,
@@ -22,8 +22,8 @@
                 "collections": 1,
                 "tracks": 30
             },
-            "created_at": "2018-02-06T22:43:29+00:00",
-            "updated_at": "2018-02-06T22:43:29+00:00",
+            "created_at": "2018-09-07T23:03:51+00:00",
+            "updated_at": "2018-09-07T23:03:51+00:00",
             "author": {
                 "id": 206107536,
                 "slug": "flo",
@@ -39,8 +39,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-02-06T22:43:27+00:00",
-                "updated_at": "2018-02-06T22:43:27+00:00",
+                "created_at": "2018-09-07T23:03:49+00:00",
+                "updated_at": "2018-09-07T23:03:49+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/1462912999/conversions/main.jpg",
@@ -66,8 +66,8 @@
             "creation_date": "2004-03-09T00:00:00+00:00",
             "licence": "CC-BY-NC-ND",
             "links": {
-                "netowiki": null,
-                "site": null,
+                "netowiki": "https://wiki.netophonix.com/Banal_Fantasy",
+                "site": "http://ledemondurire.free.fr/Creations/Sagas/BF1/indexBF.php",
                 "topic": null,
                 "rss": null,
                 "facebook": null,
@@ -80,8 +80,8 @@
                 "collections": 6,
                 "tracks": 46
             },
-            "created_at": "2018-02-06T22:43:30+00:00",
-            "updated_at": "2018-02-06T22:43:30+00:00",
+            "created_at": "2018-09-07T23:03:52+00:00",
+            "updated_at": "2018-09-07T23:03:52+00:00",
             "author": {
                 "id": 2147222869,
                 "slug": "durendal",
@@ -97,8 +97,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-02-06T22:43:27+00:00",
-                "updated_at": "2018-02-06T22:43:27+00:00",
+                "created_at": "2018-09-07T23:03:49+00:00",
+                "updated_at": "2018-09-07T23:03:49+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/1277011276/conversions/main.jpg",
@@ -124,12 +124,12 @@
             "creation_date": "2007-06-29T00:00:00+00:00",
             "licence": "CC BY-NC 2.0 FR",
             "links": {
-                "netowiki": null,
-                "site": null,
-                "topic": null,
+                "netowiki": "https://wiki.netophonix.com/Chez_le_Psy",
+                "site": "http://www.magoyond.com/",
+                "topic": "https://forum.netophonix.com/ftopic996.html",
                 "rss": null,
-                "facebook": null,
-                "twitter": null
+                "facebook": "https://www.facebook.com/magoyond",
+                "twitter": "https://twitter.com/magoyond"
             },
             "finished": false,
             "visibility": 0,
@@ -138,8 +138,8 @@
                 "collections": 9,
                 "tracks": 66
             },
-            "created_at": "2018-02-06T22:43:31+00:00",
-            "updated_at": "2018-02-06T22:43:31+00:00",
+            "created_at": "2018-09-07T23:03:53+00:00",
+            "updated_at": "2018-09-07T23:03:53+00:00",
             "author": {
                 "id": 965594201,
                 "slug": "magoyond",
@@ -155,8 +155,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-02-06T22:43:28+00:00",
-                "updated_at": "2018-02-06T22:43:28+00:00",
+                "created_at": "2018-09-07T23:03:50+00:00",
+                "updated_at": "2018-09-07T23:03:50+00:00",
                 "type": "team",
                 "picture": {
                     "main": "/static/mocks/media/1753359144/conversions/main.jpg",
@@ -182,8 +182,8 @@
             "creation_date": "2006-06-24T00:00:00+00:00",
             "licence": "CC BY-NC-SA",
             "links": {
-                "netowiki": null,
-                "site": null,
+                "netowiki": "https://wiki.netophonix.com/Kiponie_Stories",
+                "site": "https://www.inkycrea.net/",
                 "topic": null,
                 "rss": null,
                 "facebook": null,
@@ -193,11 +193,11 @@
             "visibility": 0,
             "stats": {
                 "bravos": 0,
-                "collections": 1,
-                "tracks": 1
+                "collections": 0,
+                "tracks": 0
             },
-            "created_at": "2018-02-06T22:43:33+00:00",
-            "updated_at": "2018-02-06T22:43:33+00:00",
+            "created_at": "2018-09-07T23:03:55+00:00",
+            "updated_at": "2018-09-07T23:03:55+00:00",
             "author": {
                 "id": 1523884511,
                 "slug": "inky",
@@ -213,8 +213,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-02-06T22:43:28+00:00",
-                "updated_at": "2018-02-06T22:43:28+00:00",
+                "created_at": "2018-09-07T23:03:50+00:00",
+                "updated_at": "2018-09-07T23:03:50+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/1581834270/conversions/main.jpg",
@@ -240,8 +240,8 @@
             "creation_date": "2000-07-22T00:00:00+00:00",
             "licence": "CC BY-NC-ND",
             "links": {
-                "netowiki": null,
-                "site": null,
+                "netowiki": "https://wiki.netophonix.com/Matrick",
+                "site": "http://www.doevell.org/caudio",
                 "topic": null,
                 "rss": null,
                 "facebook": null,
@@ -254,8 +254,8 @@
                 "collections": 0,
                 "tracks": 0
             },
-            "created_at": "2018-02-06T22:43:35+00:00",
-            "updated_at": "2018-02-06T22:43:35+00:00",
+            "created_at": "2018-09-07T23:03:57+00:00",
+            "updated_at": "2018-09-07T23:03:57+00:00",
             "author": {
                 "id": 392587459,
                 "slug": "mitch-dsm",
@@ -271,8 +271,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-02-06T22:43:29+00:00",
-                "updated_at": "2018-02-06T22:43:29+00:00",
+                "created_at": "2018-09-07T23:03:51+00:00",
+                "updated_at": "2018-09-07T23:03:51+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/2059235322/conversions/main.jpg",
@@ -307,8 +307,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-02-06T22:43:27+00:00",
-            "updated_at": "2018-02-06T22:43:27+00:00",
+            "created_at": "2018-09-07T23:03:49+00:00",
+            "updated_at": "2018-09-07T23:03:49+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/1277011276/conversions/main.jpg",
@@ -330,8 +330,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-02-06T22:43:27+00:00",
-            "updated_at": "2018-02-06T22:43:27+00:00",
+            "created_at": "2018-09-07T23:03:49+00:00",
+            "updated_at": "2018-09-07T23:03:49+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/1462912999/conversions/main.jpg",
@@ -353,8 +353,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-02-06T22:43:28+00:00",
-            "updated_at": "2018-02-06T22:43:28+00:00",
+            "created_at": "2018-09-07T23:03:50+00:00",
+            "updated_at": "2018-09-07T23:03:50+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/1581834270/conversions/main.jpg",
@@ -376,8 +376,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-02-06T22:43:28+00:00",
-            "updated_at": "2018-02-06T22:43:28+00:00",
+            "created_at": "2018-09-07T23:03:50+00:00",
+            "updated_at": "2018-09-07T23:03:50+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/1634566833/conversions/main.jpg",
@@ -399,8 +399,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-02-06T22:43:28+00:00",
-            "updated_at": "2018-02-06T22:43:28+00:00",
+            "created_at": "2018-09-07T23:03:50+00:00",
+            "updated_at": "2018-09-07T23:03:50+00:00",
             "type": "team",
             "picture": {
                 "main": "/static/mocks/media/1753359144/conversions/main.jpg",

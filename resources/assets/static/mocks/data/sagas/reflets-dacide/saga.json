@@ -6,8 +6,8 @@
     "creation_date": "2002-12-01T00:00:00+00:00",
     "licence": "CC BY-NC",
     "links": {
-        "netowiki": null,
-        "site": null,
+        "netowiki": "https://wiki.netophonix.com/Reflets_d%27Acide",
+        "site": "http://synopsite.com/",
         "topic": null,
         "rss": null,
         "facebook": null,
@@ -20,8 +20,8 @@
         "collections": 1,
         "tracks": 16
     },
-    "created_at": "2018-02-06T22:43:37+00:00",
-    "updated_at": "2018-02-06T22:43:37+00:00",
+    "created_at": "2018-09-07T23:03:59+00:00",
+    "updated_at": "2018-09-07T23:03:59+00:00",
     "author": {
         "id": 1797332506,
         "slug": "jbx",
@@ -37,8 +37,8 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-02-06T22:43:28+00:00",
-        "updated_at": "2018-02-06T22:43:28+00:00",
+        "created_at": "2018-09-07T23:03:50+00:00",
+        "updated_at": "2018-09-07T23:03:50+00:00",
         "type": "user",
         "picture": {
             "main": "/static/mocks/media/1634566833/conversions/main.jpg",
