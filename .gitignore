@@ -7,7 +7,6 @@ public/partials/
 public/media/
 public/alpha/
 public/storage/
-public/storage
 public/phpmyadmin
 public/files
 public/static
@@ -15,7 +14,6 @@ public/index.html
 public/stats.json
 storage/mocks
 storage/medialibrary/temp
-Homestead.json
 .env
 _ide_helper.php
 _ide_helper_models.php
