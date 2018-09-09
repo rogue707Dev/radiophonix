@@ -2,68 +2,17 @@
     <div>
 
 
-        <div class="bandeau bandeau-logo pr" style="background-image: url('/static/home/top.jpg')">
-            <div class="pa__filtre-orange"></div>
-            <div class="pa-centrer w-100">
-
-                <div class="fill--blanc">
-                    <svg class="logo">
-                        <use xlink:href="#logo"></use>
-                    </svg>
-                </div>
-
-                <div class="bandeau__sous-titre mx-0">
-                    <div class="text-center">
-                        Toutes vos sagas au même endroit
-                    </div>
-                </div>
-
-                <div class="d-flex justify-content-center my-5">
-                    <div class="col-10 col-md-6 col-xl-4">
-                        <form @submit.prevent="search">
-                            <div class="input-group">
-                                <input class="form-control form-control-lg" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="button">Rechercher</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-        <div class="layout-conteneur__main-home">
-
-            <div class="row mb-5">
-                <div class="col-12">
-                    <h2 class="display-4 mb-5">Découvrez quelques sagas</h2>
-                    <saga-list :sagas="sagas"></saga-list>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
         <headband
                 urlImage="/static/home/ecouter.jpeg"
                 title="Écouter"
                 subtitle="Découvrez ou redécouvrez des sagas MP3">
         </headband>
 
-        <div class="layout-conteneur__main-home">
+        <div class="layout-conteneur__main">
 
             <div class="row">
                 <div class="col-12">
-                    <h2 class="display-4">Qu'est-ce qu'une Saga MP3</h2>
+                    <h2 class="display-4">Qu'est-ce qu'une Saga MP3 ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
                             Une saga mp3 est le nom donné à une histoire se déroulant dans
@@ -81,6 +30,22 @@
                             </a>
                         </footer>
                     </blockquote>
+
+                </div>
+            </div>
+            <div class="row mt-5 mb-5">
+                <div class="col-12">
+                    <h2 class="display-4 mb-4">Quelques exemples de Saga :</h2>
+                    <saga-list :sagas="sagas"></saga-list>
+                    <h2 class="display-4 mt-4">Rechercher un faiseur, une saga etc...</h2>
+                    <form @submit.prevent="search">
+                        <div class="input-group">
+                            <input class="form-control form-control-lg" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">Rechercher</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
 
@@ -98,7 +63,7 @@
                 subtitle="Publiez vos propres sagas directement sur le site">
         </headband>
 
-        <div class="layout-conteneur__main-home">
+        <div class="layout-conteneur__main">
 
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -139,7 +104,7 @@
                 subtitle="Le site est open source sur GitLab et les contributions sont les bienvenues">
         </headband>
 
-        <div class="layout-conteneur__main-home">
+        <div class="layout-conteneur__main">
             <div class="row mb-5">
                 <div class="col-12">
                     <h2 class="display-4">Avancement</h2>

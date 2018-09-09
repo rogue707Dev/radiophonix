@@ -81,11 +81,6 @@ $ ESPACEMENT MAINPAGE
 @mixin margin-layout-main {
     margin-right: $espacement-standard;
     margin-left: $espacement-standard;
-
-    @include media-breakpoint-up(md) {
-        margin-right: 7rem;
-        margin-left: 7rem;
-    }
 }
 
 
