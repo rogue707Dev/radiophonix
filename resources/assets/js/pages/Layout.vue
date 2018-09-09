@@ -10,15 +10,15 @@
             <main-menu></main-menu>
         </div>
 
-        <div class="layout-global__lecteur" :class="{actif: isPlayerOpen, inactif: !isPlayerOpen}">
+        <div class="layout-global__lecteur" :class="playerClass">
             <player-normal></player-normal>
         </div>
 
-        <div class="layout-global__playlist" :class="{actif: isPlaylistOpen, inactif: !isPlaylistOpen}">
+        <div class="layout-global__playlist" :class="playlistClass">
             <player-playlist></player-playlist>
         </div>
 
-        <div class="layout-global__main" :class="{actif: isMainOpen, inactif: !isMainOpen}">
+        <div class="layout-global__main" :class="mainClass">
             <router-view></router-view>
         </div>
 
@@ -43,10 +43,10 @@ export default {
 
     computed: {
         ...mapState('ui', [
-            'isMainOpen',
             'isMenuOpen',
-            'isPlayerOpen',
-            'isPlaylistOpen',
+            'mainClass',
+            'playerClass',
+            'playlistClass',
         ])
     },
 }

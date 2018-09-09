@@ -93,10 +93,9 @@ export default {
             'play'
         ]),
 
-        closePlaylist() {
-            this.$store.dispatch('ui/openPlayer');
-            this.$store.dispatch('ui/closePlaylist');
-        }
+        ...mapActions('ui', [
+            'closePlaylist',
+        ]),
     }
 }
 </script>

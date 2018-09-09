@@ -2,30 +2,28 @@ const UiModule = {
     namespaced: true,
 
     state: {
-        isMainOpen: true,
         isMenuOpen: false,
-        isPlayerOpen: true,
-        isPlaylistOpen: true,
+        isPlayerOpen: false,
+        mainClass: '',
+        playerClass: '',
+        playlistClass: '',
     },
 
     mutations: {
-        openMain: (state) => state.isMainOpen = true,
-        closeMain: (state) => state.isMainOpen = false,
-
         openMenu: (state) => state.isMenuOpen = true,
         closeMenu: (state) => state.isMenuOpen = false,
 
-        openPlayer: (state) => state.isPlayerOpen = true,
-        closePlayer: (state) => state.isPlayerOpen = false,
+        togglePlayer: (state) => state.isPlayerOpen = !state.isPlayerOpen,
 
-        openPlaylist: (state) => state.isPlaylistOpen = true,
-        closePlaylist: (state) => state.isPlaylistOpen = false,
+        setMainClass: (state, className) => state.mainClass = className,
+        setPlayerClass: (state, className) => state.playerClass = className,
+        setPlaylistClass: (state, className) => state.playlistClass = className,
+
+        openPlaylist: (state) => state.playlistClass = 'actif',
+        closePlaylist: (state) => state.playlistClass = '',
     },
 
     actions: {
-        openMain: ({ commit }) => commit('openMain'),
-        closeMain: ({ commit }) => commit('closeMain'),
-
         toggleMenu({ commit, state }) {
             if (state.isMenuOpen) {
                 commit('closeMenu');
@@ -35,11 +33,28 @@ const UiModule = {
         },
         closeMenu: ({ commit }) => commit('closeMenu'),
 
-        openPlayer: ({ commit }) => commit('openPlayer'),
-        closePlayer: ({ commit }) => commit('closePlayer'),
+        openPlaylist: ({ commit }) => {
+            commit('setPlayerClass', 'inactif');
+            commit('setPlaylistClass', 'actif');
+        },
+        closePlaylist: ({ commit }) => {
+            commit('setPlayerClass', 'actif');
+            commit('setPlaylistClass', '');
+        },
 
-        openPlaylist: ({ commit }) => commit('openPlaylist'),
-        closePlaylist: ({ commit }) => commit('closePlaylist'),
+        togglePlayer: ({ commit, state }) => {
+            if (state.isPlayerOpen) {
+                commit('setPlayerClass', '');
+                commit('setPlaylistClass', '');
+                commit('setMainClass', '');
+            } else {
+                commit('setPlayerClass', 'actif');
+                commit('setPlaylistClass', '');
+                commit('setMainClass', 'inactif');
+            }
+
+            commit('togglePlayer');
+        },
     }
 };
 

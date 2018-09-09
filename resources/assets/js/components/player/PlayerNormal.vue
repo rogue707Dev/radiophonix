@@ -165,10 +165,9 @@ export default {
             'previous',
         ]),
 
-        openPlaylist() {
-            this.$store.dispatch('ui/closePlayer');
-            this.$store.dispatch('ui/openPlaylist');
-        },
+        ...mapActions('ui', [
+            'openPlaylist',
+        ]),
 
         seek(e) {
             let percent = e.offsetX / e.target.offsetWidth;

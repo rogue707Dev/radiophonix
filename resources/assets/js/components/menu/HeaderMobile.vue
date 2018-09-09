@@ -24,36 +24,16 @@
     import { mapState, mapActions } from 'vuex';
 
     export default {
-
-        data() {
-            return {
-                isPlayerOpen: false,
-            };
-        },
-
         computed: mapState('ui', [
-            'isMenuOpen'
+            'isMenuOpen',
+            'isPlayerOpen',
         ]),
 
         methods: {
             ...mapActions('ui', [
                 'toggleMenu',
+                'togglePlayer',
             ]),
-
-            togglePlayer() {
-                if (this.isPlayerOpen) {
-                    // Fermeture du player
-                    this.$store.dispatch('ui/closePlayer');
-                    this.$store.dispatch('ui/closePlaylist');
-                    this.$store.dispatch('ui/openMain');
-                } else {
-                    // Ouverture du player
-                    this.$store.dispatch('ui/openPlayer');
-                    this.$store.dispatch('ui/closeMain');
-                }
-
-                this.isPlayerOpen = !this.isPlayerOpen;
-            }
         }
     }
 </script>
