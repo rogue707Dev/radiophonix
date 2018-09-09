@@ -1,13 +1,48 @@
 <template>
-    <div>
-        <h1>Connexion</h1>
+    <div class="layout-conteneur__main">
 
-        <form v-on:submit.prevent="login">
-            <input type="email" v-model="email" placeholder="Email" />
-            <input type="password" v-model="password" placeholder="Mot de passe" />
+        <ul class="navigation">
+            <li class="actif">Connexion</li>
+            <li>Inscription</li>
+        </ul>
 
-            <button type="submit">Login</button>
-        </form>
+        <div class="row">
+            <div class="col">
+                <label for="email">Email</label>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <input type="text" id="email" class="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="password">Mot de passe</label>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <input type="password" id="password" class="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="password2">Confirmer le mot de passe</label>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <input type="password" id="password2" class="">
+            </div>
+        </div>
+
+        <button type="submit">Se connecter</button>
+
+
+
     </div>
 </template>
 
