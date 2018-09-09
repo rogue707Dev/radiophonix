@@ -8,11 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Laravel\Scout\Searchable;
 use Radiophonix\Models\Support\HasFakeId;
-use Radiophonix\Models\Support\HasMedia;
 use Spatie\Image\Manipulations;
+use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
-use Spatie\MediaLibrary\HasMedia\Interfaces\HasMediaConversions;
-use Spatie\MediaLibrary\Media;
+use Spatie\MediaLibrary\Models\Media;
 
 /**
  * @property int $id
@@ -21,7 +20,7 @@ use Spatie\MediaLibrary\Media;
  * @property Carbon $updated_at
  * @property-read Collection|Saga[] $sagas
  */
-class Genre extends Model implements HasMediaConversions, HasMedia
+class Genre extends Model implements HasMedia
 {
     use HasFakeId;
     use Searchable;

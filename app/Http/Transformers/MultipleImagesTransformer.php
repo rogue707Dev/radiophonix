@@ -3,7 +3,7 @@
 namespace Radiophonix\Http\Transformers;
 
 use Radiophonix\Http\Transformers\Support\Transformer;
-use Radiophonix\Models\Support\HasMedia;
+use Spatie\MediaLibrary\HasMedia\HasMedia;
 
 /**
  * This transformer will return an array of images transformed using the

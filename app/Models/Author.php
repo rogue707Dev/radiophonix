@@ -10,13 +10,12 @@ use Radiophonix\Events\Author\AuthorSavingEvent;
 use Radiophonix\Models\Support\AuthorStats;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasFakeId;
-use Radiophonix\Models\Support\HasMedia;
 use Radiophonix\Models\Support\SagaOwner;
 use Spatie\Image\Exceptions\InvalidManipulation;
 use Spatie\Image\Manipulations;
+use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
-use Spatie\MediaLibrary\HasMedia\Interfaces\HasMediaConversions;
-use Spatie\MediaLibrary\Media;
+use Spatie\MediaLibrary\Models\Media;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 
@@ -40,7 +39,7 @@ use Spatie\Sluggable\SlugOptions;
  * @property-read Model|\Eloquent|User|Team $owner
  * @property-read \Illuminate\Database\Eloquent\Collection|Saga[] $sagas
  */
-class Author extends Model implements HasMediaConversions, HasMedia
+class Author extends Model implements HasMedia
 {
     use HasFakeId;
     use HasSlug;
