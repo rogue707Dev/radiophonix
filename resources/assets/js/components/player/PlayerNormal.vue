@@ -109,7 +109,7 @@
             <!----------------------------------------
             image
             ------------------------------------------>
-            <img class="img-cover-aside" src="/static/dev/images/platine-vinyle.png" alt="" width="320px" height="316px">
+            <img class="img-cover-aside" src="/static/dev/images/radio.png" alt="" width="307px" height="290px">
 
             <!----------------------------------------
             Recherche
