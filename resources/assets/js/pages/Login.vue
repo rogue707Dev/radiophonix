@@ -1,55 +1,64 @@
 <template>
     <div class="layout-conteneur__main">
 
-        <ul class="navigation">
-            <li class="actif">Connexion</li>
-            <li>Inscription</li>
-        </ul>
 
-        <div class="row">
-            <div class="col">
-                <label for="email">Email</label>
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col">
-                <input type="text" id="email" class="form-control">
-            </div>
-        </div>
+        <div class="login-conteneur">
 
-        <div class="row">
-            <div class="col">
-                <label for="password">Mot de passe</label>
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col">
-                <div class="input-group">
-                    <input type="text" class="form-control" id="password">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Voir</button>
+
+                <ul class="navigation">
+                    <li class="actif">Connexion</li>
+                    <li>Inscription</li>
+                </ul>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="email">Email</label>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <label for="password2">Confirmer le mot de passe</label>
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col">
-                <div class="input-group">
-                    <input type="text" class="form-control" id="password2">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Voir</button>
+                <div class="row mb-4">
+                    <div class="col">
+                        <input type="text" id="email" class="form-control">
                     </div>
                 </div>
-            </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="password">Mot de passe</label>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="password">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Voir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="password2">Confirmer le mot de passe</label>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="password2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Voir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Se connecter</button>
+
         </div>
 
-        <button type="submit" class="btn btn-primary">Se connecter</button>
+
+
 
 
 
