@@ -169,6 +169,21 @@ export default {
             'openPlaylist',
         ]),
 
+        // Confirmation de fermeture de la page si un épisode est
+        // en cours de lecture.
+        beforeClosing(event) {
+            if (!this.$store.state.player.isPlaying) {
+                return;
+            }
+
+            event.preventDefault();
+
+            // https://developer.mozilla.org/en-US/docs/Web/Events/beforeunload#Example
+            event.returnValue = "\o/";
+
+            return '';
+        },
+
         seek(e) {
             let percent = e.offsetX / e.target.offsetWidth;
 
@@ -198,6 +213,7 @@ export default {
 
     created() {
         this.startLoop();
+        window.addEventListener('beforeunload', this.beforeClosing);
     }
 }
 </script>
