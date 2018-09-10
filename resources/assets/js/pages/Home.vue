@@ -2,11 +2,38 @@
     <div>
 
 
-        <headband
-                urlImage="/static/home/ecouter.jpeg"
-                title="Écouter"
-                subtitle="Découvrez ou redécouvrez des sagas MP3">
-        </headband>
+        <div class="bandeau bandeau-logo pr">
+            <div class="pa__filtre-bleuX"></div>
+            <div class="pa-centrer w-100">
+
+                <div class="fill--bleu">
+                    <svg class="logo">
+                        <use xlink:href="#logo"></use>
+                    </svg>
+                </div>
+
+
+                <div class="bandeau__sous-titre mx-0">
+                    <div class="text-center texte-rouge">
+                        Toutes vos sagas au même endroit
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center my-5">
+                    <div class="col-10 col-md-6 col-xl-4">
+                        <form @submit.prevent="search">
+                            <div class="input-group">
+                                <input class="form-control form-control-lg" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">Rechercher</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <div class="layout-conteneur__main">
 
@@ -31,24 +58,60 @@
                         </footer>
                     </blockquote>
 
+                    <h2 class="display-4">Qu'est-ce qu'un faiseur ?</h2>
+                    <blockquote class="blockquote mb-5">
+                        <p class="mb-0X">
+                            blabla
+                        </p>
+                        <footer class="blockquote-footer">
+                            <a href="https://wiki.netophonix.com/Saga_MP3">
+                                Extrait du Netowiki
+                            </a>
+                        </footer>
+                    </blockquote>
+
                 </div>
             </div>
+
+        </div>
+
+
+        <headband
+                urlImage="/static/home/ecouter.jpeg"
+                title="Écouter"
+                subtitle="Découvrez ou redécouvrez des sagas MP3">
+        </headband>
+
+        <div class="layout-conteneur__main">
             <div class="row mt-5 mb-5">
                 <div class="col-12">
                     <h2 class="display-4 mb-4">Quelques exemples de Saga :</h2>
                     <saga-list :sagas="sagas"></saga-list>
-                    <h2 class="display-4 mt-4">Rechercher un faiseur, une saga etc...</h2>
-                    <form @submit.prevent="search">
-                        <div class="input-group">
-                            <input class="form-control form-control-lg" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">Rechercher</button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 class="display-4">Découvrez quelques genres</h2>
 
+                    <div class="row my-5">
+
+                        <div class="col text-center"
+                             v-for="genre in getGenresRow(0)" :key="genre.id">
+                            <router-link :to="{ name: 'listen.genres.show', params: { id: genre.id } }">
+                                <div class="pr jaquette--genre jaquette--grande">
+                                    <img :src="genre.image.main" alt="" class="img__filtre-assombri">
+                                    <div class="pa__filtre-bleu"></div>
+                                    <div class="pa-centrer">
+                                        <p class="texte-blanc">{{ genre.name }}</p>
+                                    </div>
+                                </div>
+                            </router-link>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
 
 
@@ -65,29 +128,7 @@
 
         <div class="layout-conteneur__main">
 
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <h2 class="display-4">Découvrez quelques genres</h2>
-
-                    <div class="row my-5">
-
-                        <div class="col text-center"
-                            v-for="genre in getGenresRow(0)" :key="genre.id">
-                            <router-link :to="{ name: 'listen.genres.show', params: { id: genre.id } }">
-                                <div class="pr jaquette--genre jaquette--grande">
-                                    <img :src="genre.image.main" alt="" class="img__filtre-assombri">
-                                    <div class="pa__filtre-bleu"></div>
-                                    <div class="pa-centrer">
-                                        <p class="texte-blanc">{{ genre.name }}</p>
-                                    </div>
-                                </div>
-                            </router-link>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
+            Capture a mettre
 
         </div>
 
