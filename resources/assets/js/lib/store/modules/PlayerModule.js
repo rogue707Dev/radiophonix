@@ -72,10 +72,12 @@ const PlayerModule = {
 
     actions: {
         async play({ state, commit }, payload) {
+            if (payload.track.id === state.currentTrack.id) {
+                return;
+            }
+
             commit('setCurrentTrack', payload.track);
-
             commit('setPercentage', 0);
-
             commit('play');
 
             let slug = null;
