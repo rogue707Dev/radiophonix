@@ -4,12 +4,11 @@ namespace Radiophonix\Providers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Schema;
-use League\Fractal\Manager;
-use League\Fractal\Serializer\ArraySerializer;
-use Radiophonix\Http\Serializers\ApiSerializer;
-use Radiophonix\Models\Track;
 use Illuminate\Support\ServiceProvider;
+use League\Fractal\Manager;
+use Radiophonix\Http\Serializers\ApiSerializer;
 use Radiophonix\Models\Support\Observers\TrackObserver;
+use Radiophonix\Models\Track;
 
 class AppServiceProvider extends ServiceProvider
 {
