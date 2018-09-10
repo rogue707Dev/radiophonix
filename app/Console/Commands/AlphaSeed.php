@@ -65,6 +65,12 @@ class AlphaSeed extends Command
                 Arr::only($importSaga, $saga->getFillable())
             );
 
+            collect($importSaga['links'])
+                ->each(function ($link, $name) use ($saga) {
+                    $property = 'link_' . $name;
+                    $saga->$property = $link;
+                });
+
             $saga->visibility = Saga::VISIBILITY_PUBLIC;
             $saga->setOwner($sagaOwner);
             $saga->save();
@@ -232,6 +238,12 @@ class AlphaSeed extends Command
             }
 
             $author = $sagaOwner->getAuthorModel();
+
+            collect($authorData['links'])
+                ->each(function ($link, $name) use ($author) {
+                    $property = 'link_' . $name;
+                    $author->$property = $link;
+                });
 
             $author->bio = $authorData['bio'] ?? '';
             $author->save();
