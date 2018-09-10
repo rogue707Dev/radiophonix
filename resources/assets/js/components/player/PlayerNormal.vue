@@ -172,7 +172,9 @@ export default {
         // Confirmation de fermeture de la page si un épisode est
         // en cours de lecture.
         beforeClosing(event) {
-            if (!this.$store.state.player.isPlaying) {
+            if (false === this.$store.state.player.isPlaying
+                && !this.$store.state.player.currentTrack.id
+            ) {
                 return;
             }
 
