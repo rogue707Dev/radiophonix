@@ -190,12 +190,12 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
     public function registerMediaConversions(Media $media = null)
     {
         $this->addMediaConversion('main')
-            ->fit(Manipulations::FIT_CROP, 400, 400)
+            ->fit(Manipulations::FIT_STRETCH, 400, 400)
             ->optimize()
             ->performOnCollections('cover');
 
         $this->addMediaConversion('thumb')
-            ->fit(Manipulations::FIT_CROP, 200, 200)
+            ->fit(Manipulations::FIT_STRETCH, 200, 200)
             ->optimize()
             ->performOnCollections('cover');
     }
