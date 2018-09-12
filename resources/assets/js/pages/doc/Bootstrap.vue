@@ -1,10 +1,530 @@
 <template>
     <div class="layout-conteneur__main">
+
+        <a href="ancre-radiophonix">Composent Radiophonix</a>
         <br>
-        <div class="jumbotron">
+        <a href="ancre-bootstrap">Composent Bootstrap</a>
+
+
+
+
+
+
+        <div class="jumbotron" id="ancre-radiophonix">
+            <h1 class="display-3">Composent Radiophonix</h1>
+            <p class="lead">
+                Les composants spécifique à radiophonix
+            </p>
+        </div>
+
+
+        <hr data-v-5f801cbc="" class="my-4">
+        <h1 class="display-3">Liste de Saga</h1>
+        <ul class="liste-jaquette saga">
+            <li>
+                <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
+                    <div class="jaquette--grande jaquette--saga zone-interactive__border">
+                        <img src="http://facetheforce.today/random/340?r=1" alt="" width="340px" height="340px">
+                    </div>
+                    <div class="zone-interactive zone-interactive__colle-cadre border-top-0">
+                        <div class="zone-interactive__info p-1">
+                            <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
+                                <p class="titre-liste-jaquette-saga">Le Donjon de Naheulbeuk</p>
+                                <p class="texte-rouge texte-petit">
+                                    <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
+                                </p>
+                            </a>
+                            <p><a href="/ecouter/faiseurs/pen-of-chaos" class="">Par Pen Of Chaos</a></p>
+                        </div>
+                        <div class="zone-interactive__action">
+                            <a href="" class="zone-interactive__bouton"><i aria-hidden="true" class="fa fa-heart"></i></a>
+                            <a href="" class="zone-interactive__bouton"><i aria-hidden="true" class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+
+
+        <hr data-v-5f801cbc="" class="my-4">
+        <h1 class="display-3">Résultat recherche</h1>
+        <div class="layout-resultat-recherche">
+            <div class="layout-resultat-recherche__zoom">
+                <ul class="liste-resultat">
+
+                    <li class="liste-resultat__item-zoom">
+                        <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="text-center">
+                            <div class="zone-interactive__border d-flex">
+                                <div class="flex-grow-1">
+                                    <div class="jaquette--moyen jaquette--saga">
+                                        <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zone-interactive border-top-0">
+                                <div class="zone-interactive__action">
+                                    <a href="" class="zone-interactive__bouton">
+                                        <i aria-hidden="true" class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="zone-interactive__info p-1">
+                                    <p class="titre-resultat-recherche">Le Donjon de Naheulbeuk</p>
+                                    <p class="texte-rouge">
+                                        <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
+                                    </p>
+                                </div>
+                                <div class="zone-interactive__action">
+                                    <a href="" class="zone-interactive__bouton">
+                                        <i aria-hidden="true" class="fa fa-heart actif"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="liste-resultat__item-zoom">
+                        <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="text-center">
+                            <div class="zone-interactive__border d-flex">
+                                <div class="flex-grow-1">
+                                    <div class="jaquette--moyen jaquette--faiseur">
+                                        <img src="http://facetheforce.today/random/340?r=3" alt="" width="340px" height="340px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zone-interactive border-top-0">
+                                <div class="zone-interactive__action">
+                                    <a href="" class="zone-interactive__bouton">
+                                        <i aria-hidden="true" class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="zone-interactive__info p-1">
+                                    <p class="titre-resultat-recherche">Pen Of Chaos</p>
+                                    <p class="texte-rouge">
+                                        <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
+                                    </p>
+                                </div>
+                                <div class="zone-interactive__action">
+                                    <a href="" class="zone-interactive__bouton">
+                                        <i aria-hidden="true" class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="liste-resultat__item-zoom">
+                        <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="text-center">
+                            <div class="zone-interactive__border d-flex">
+                                <div class="flex-grow-1">
+                                    <div class="jaquette--moyen jaquette--episode">
+                                        <img src="http://facetheforce.today/random/340?r=4" alt="" width="340px" height="340px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zone-interactive border-top-0">
+                                <div class="zone-interactive__action">
+                                    <a href="" class="zone-interactive__bouton">
+                                        <i aria-hidden="true" class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="zone-interactive__info p-1">
+                                    <p class="titre-resultat-recherche">Présentation</p>
+                                    <p class="texte-rouge">
+                                        <i aria-hidden="true" class="fa fa-clock-o"></i> 3m, 45s
+                                    </p>
+                                </div>
+                                <div class="zone-interactive__action">
+                                    <a href="" class="zone-interactive__bouton">
+                                        <i aria-hidden="true" class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="liste-resultat__item-zoom">
+                        <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="text-center">
+                            <div class="zone-interactive__border d-flex">
+                                <div class="flex-grow-1">
+                                    <div class="jaquette--moyen jaquette--genre">
+                                        <img src="http://facetheforce.today/random/340?r=5" alt="" width="340px" height="340px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zone-interactive border-top-0">
+                                <div class="zone-interactive__action">
+                                    <a href="" class="zone-interactive__bouton">
+                                        <i aria-hidden="true" class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="zone-interactive__info p-1">
+                                    <p class="titre-resultat-recherche">Heroic fantasy</p>
+                                    <p class="texte-rouge">
+                                        <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
+                                    </p>
+                                </div>
+                                <div class="zone-interactive__action">
+                                    <a href="" class="zone-interactive__bouton">
+                                        <i aria-hidden="true" class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="layout-resultat-recherche__vrac">
+                <ul class="liste-resultat">
+
+                    <li class="liste-resultat__item-vrac">
+                        <a href="/ecouter/sagas/le-donjon-de-naheulbeuk">
+
+                            <div class="zone-interactive">
+                                <div class="zone-interactive__info">
+
+                                    <div class="d-flex">
+                                        <div class="liste-resultat__visuel">
+                                            <div class="jaquette--petite jaquette--saga">
+                                                <img src="http://facetheforce.today/random/340?r=6" alt="" height="340px" width="340px">
+                                            </div>
+                                        </div>
+                                        <div class="liste-resultat__info">
+                                            <p class="titre-resultat-recherche">Le Donjon de Naheulbeuk</p>
+                                            <p class="texte-rouge">
+                                                <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="zone-interactive__action">
+                                    <a class="zone-interactive__bouton" href="">
+                                        <i aria-hidden="true" class="fa fa-heart"></i>
+                                    </a>
+                                    <a class="zone-interactive__bouton" href="">
+                                        <i aria-hidden="true" class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <li class="liste-resultat__item-vrac">
+                        <a href="/ecouter/sagas/le-donjon-de-naheulbeuk">
+
+                            <div class="zone-interactive">
+                                <div class="zone-interactive__info">
+
+                                    <div class="d-flex">
+                                        <div class="liste-resultat__visuel">
+                                            <div class="jaquette--petite jaquette--faiseur">
+                                                <img src="http://facetheforce.today/random/340?r=7" alt="" height="340px" width="340px">
+                                            </div>
+                                        </div>
+                                        <div class="liste-resultat__info">
+                                            <p class="titre-resultat-recherche">Pen Of Chaos</p>
+                                            <p class="texte-rouge">
+                                                <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="zone-interactive__action">
+                                    <a class="zone-interactive__bouton" href="">
+                                        <i aria-hidden="true" class="fa fa-heart"></i>
+                                    </a>
+                                    <a class="zone-interactive__bouton" href="">
+                                        <i aria-hidden="true" class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <li class="liste-resultat__item-vrac">
+                        <a href="/ecouter/sagas/le-donjon-de-naheulbeuk">
+
+                            <div class="zone-interactive">
+                                <div class="zone-interactive__info">
+
+                                    <div class="d-flex">
+                                        <div class="liste-resultat__visuel">
+                                            <div class="jaquette--petite jaquette--episode">
+                                                <img src="http://facetheforce.today/random/340?r=8" alt="" height="340px" width="340px">
+                                            </div>
+                                        </div>
+                                        <div class="liste-resultat__info">
+                                            <p class="titre-resultat-recherche">Présentation</p>
+                                            <p class="texte-rouge">
+                                                <i aria-hidden="true" class="fa fa-clock-o"></i> 3m, 45s
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="zone-interactive__action">
+                                    <a class="zone-interactive__bouton" href="">
+                                        <i aria-hidden="true" class="fa fa-heart actif"></i>
+                                    </a>
+                                    <a class="zone-interactive__bouton" href="">
+                                        <i aria-hidden="true" class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </a>
+                    </li>
+
+                    <li class="liste-resultat__item-vrac">
+                        <a href="/ecouter/sagas/le-donjon-de-naheulbeuk">
+
+                            <div class="zone-interactive">
+                                <div class="zone-interactive__info">
+
+                                    <div class="d-flex">
+                                        <div class="liste-resultat__visuel">
+                                            <div class="jaquette--petite jaquette--genre">
+                                                <img src="http://facetheforce.today/random/340?r=9" alt="" height="340px" width="340px">
+                                            </div>
+                                        </div>
+                                        <div class="liste-resultat__info">
+                                            <p class="titre-resultat-recherche">Heroic fantasy</p>
+                                            <p class="texte-rouge">
+                                                <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="zone-interactive__action">
+                                    <a class="zone-interactive__bouton" href="">
+                                        <i aria-hidden="true" class="fa fa-heart"></i>
+                                    </a>
+                                    <a class="zone-interactive__bouton" href="">
+                                        <i aria-hidden="true" class="fa fa-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+
+        <hr data-v-5f801cbc="" class="my-4">
+        <h1 class="display-3">Bouton</h1>
+        <div>
+            <div role="alert" class="alert alert-danger">
+                Refaire en bootstrap ?
+            </div>
+            <button class="btn btn-blanc">Test</button>
+            <button class="btn btn-blanc"><i class="fa fa-volume-up" aria-hidden="true"></i>Test</button>
+            <button class="btn-blanc btn-rond-petit"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+            <button class="btn-blanc btn-rond-moyen"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+            <button class="btn-blanc btn-rond-grand"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+            <br>
+            <button class="btn btn-bleu-moyen">Test</button>
+            <button class="btn btn-bleu-moyen"><i class="fa fa-volume-up" aria-hidden="true"></i>Test</button>
+            <button class="btn-bleu-moyen btn-rond-petit"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+            <button class="btn-bleu-moyen btn-rond-moyen"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+            <button class="btn-bleu-moyen btn-rond-grand"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+            pas utiliser
+            <br>
+            <button class="btn btn-blanc-fonce">Test</button>
+            <button class="btn btn-blanc-fonce"><i class="fa fa-volume-up" aria-hidden="true"></i>Test</button>
+            <br>
+            <button class="btn-composer-blanc-fonce">
+                <span class="btn-blanc-fonce btn-rond-petit"><i class="fa fa-volume-up" aria-hidden="true"></i></span>
+                Pas utiliser
+            </button>
+        </div>
+
+
+
+        <hr data-v-5f801cbc="" class="my-4">
+        <h1 class="display-3">Cartouche</h1>
+        <div role="alert" class="alert alert-danger">
+            Refaire en bootstrap ? -> bouton group ou badge ?
+        </div>
+        <ul class="reset-ul">
+            <li class="cartouche">
+                <span>3 <i aria-hidden="true" class="fa fa-heart"></i></span>
+            </li>
+            <li class="cartouche-groupe">
+                <div class="cartouche">4 saisons</div>
+                <div class="cartouche">32 épisodes</div>
+            </li>
+            <li class="cartouche">Terminé</li>
+            <li class="cartouche lien">Lien</li>
+        </ul>
+
+
+
+        <hr data-v-5f801cbc="" class="my-4">
+        <h1 class="display-3">Icon cc dans banniere</h1>
+        <div role="alert" class="alert alert-danger">
+            atomisé ou a mettre avec toute la banniere
+        </div>
+        <div class="banniere__icon-cc">
+            <i class="cc cc-BY"></i>
+        </div>
+
+
+
+        <hr data-v-5f801cbc="" class="my-4">
+        <h1 class="display-3">Habillage icon "Font Awesome"</h1>
+        <div class="hfa-cercle-blanc-fonce">
+            <i aria-hidden="true" class="fa fa-volume-up"></i>
+        </div>
+        <div class="hfa-cercle-blanc-fonce">
+            <i aria-hidden="true" class="fa fa-play"></i>
+        </div>
+
+
+
+        <hr data-v-5f801cbc="" class="my-4">
+        <h1 class="display-3">Taille de texte"</h1>
+        <div role="alert" class="alert alert-danger">
+            Refaire en bootstrap ?
+        </div>
+        <p class="texte-tres-petit">.texte-tres-petit</p>
+        <p class="texte-petit">.texte-petit</p>
+        <p>Texte normal</p>
+        <p class="texte-moyen">.texte-moyen</p>
+        <p class="texte-grand">.texte-grand</p>
+        <p class="texte-tres-grand">.texte-tres-grand</p>
+
+
+
+        <hr data-v-5f801cbc="" class="my-4">
+        <h1 class="display-3">Graisse de texte"</h1>
+        <div role="alert" class="alert alert-danger">
+            Refaire en bootstrap ?
+        </div>
+        <p class="texte-300">.texte-300</p>
+        <p>normal (400)</p>
+        <p class="texte-600">.texte-600</p>
+
+
+
+        <hr data-v-5f801cbc="" class="my-4">
+        <h1 class="display-3">Heading</h1>
+        <div role="alert" class="alert alert-danger">
+            verifier utilisation <br>
+            Utiliser que bootstrap ? -> display-x
+        </div>
+        <h1>h1. Bootstrap heading</h1>
+        <h2>h2. Bootstrap heading</h2>
+        <h3>h3. Bootstrap heading</h3>
+        <h4>h4. Bootstrap heading</h4>
+        <h5>h5. Bootstrap heading</h5>
+        <h6>h6. Bootstrap heading</h6>
+        <p class="h1">.h1</p>
+        <p class="h2">.h2</p>
+        <p class="h3">.h3</p>
+        <p class="h4">.h4</p>
+        <p class="h5">.h5</p>
+        <p class="h6">.h6</p>
+        <h1 class="display-1">.display 1</h1>
+        <h1 class="display-2">.display 2</h1>
+        <h1 class="display-3">.display 3</h1>
+        <h1 class="display-4">.display 4</h1>
+        <p class="lead">
+            .lead : <br> Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+        </p>
+
+
+
+        <hr class="my-4">
+        <h1 class="display-3">Couleur de texte</h1>
+        <div role="alert" class="alert alert-danger">
+            Refaire en bootstrap -> style bootstrap
+            <br> voir ce qui est encore utiliser
+        </div>
+        <div>
+            <h2 class="titre--bloc mb-4 mt-5">Couleur texte</h2>
+            <div class="row">
+                <div class="col">
+                    <p>Texte par defaut</p>
+                    <p class="texte-blanc">Texte blanc</p>
+                    <p class="texte-bleu-fonce">Texte bleu-fonce</p>
+                    <p class="texte-orange-fonce">Texte orange-fonce</p>
+                </div>
+                <div class="col" style="background-color: #EBEFF4">
+                    <p>Texte par defaut</p>
+                    <p class="texte-blanc">Texte blanc</p>
+                    <p class="texte-bleu-fonce">Texte bleu-fonce</p>
+                    <p class="texte-orange-fonce">Texte orange-fonce</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-primary">.text-primary</p>
+                    <p class="text-secondary">.text-secondary</p>
+                    <p class="text-success">.text-success</p>
+                    <p class="text-danger">.text-danger</p>
+                    <p class="text-warning">.text-warning</p>
+                    <p class="text-info">.text-info</p>
+                    <p class="text-light bg-dark">.text-light</p>
+                    <p class="text-dark">.text-dark</p>
+                    <p class="text-muted">.text-muted</p>
+                    <p class="text-white bg-dark">.text-white</p>
+                </div>
+                <div class="col">
+                    <p><a href="#" class="text-primary">Primary link</a></p>
+                    <p><a href="#" class="text-secondary">Secondary link</a></p>
+                    <p><a href="#" class="text-success">Success link</a></p>
+                    <p><a href="#" class="text-danger">Danger link</a></p>
+                    <p><a href="#" class="text-warning">Warning link</a></p>
+                    <p><a href="#" class="text-info">Info link</a></p>
+                    <p><a href="#" class="text-light bg-dark">Light link</a></p>
+                    <p><a href="#" class="text-dark">Dark link</a></p>
+                    <p><a href="#" class="text-muted">Muted link</a></p>
+                    <p><a href="#" class="text-white bg-dark">White link</a></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <hr class="my-4">
+        <h1 class="display-3">Navigation</h1>
+        <div role="alert" class="alert alert-danger">
+            Refaire en bootstrap ?
+        </div>
+        <ul class="navigation">
+            <li class="actif">Populaire</li>
+            <li>Nouveau</li>
+            <li>Type</li>
+            <li>Playlist</li>
+        </ul>
+
+
+
+
+
+
+
+        <br>
+        <div class="jumbotron" id="ancre-bootstrap">
             <h1 class="display-3">Composants Bootstrap</h1>
             <p class="lead">
-                Les composants sur cette page viennent tous de Bootstrap.<br />
+                Les composants viennent tous de Bootstrap.<br />
                 Les titres sont cliquables et ouvrent la documentation de Bootstrap correspondante.
             </p>
             <hr class="my-4">
