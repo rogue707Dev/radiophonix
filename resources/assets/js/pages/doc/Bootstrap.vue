@@ -1,9 +1,9 @@
 <template>
     <div>
 
-        <a href="ancre-radiophonix">Composent Radiophonix</a>
+        <a href="#ancre-radiophonix">Composent Radiophonix</a>
         <br>
-        <a href="ancre-bootstrap">Composent Bootstrap</a>
+        <a href="#ancre-bootstrap">Composent Bootstrap</a>
 
 
 
@@ -35,7 +35,7 @@
 
             <hr class="my-4">
             <h1 class="display-3">Paragraphe & Lead</h1>
-            <p class="lead">Lead : Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="texte-rouge">a revoir</span></p>
+            <p class="lead">Lead : Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="txt-rouge">a revoir</span></p>
             <p>Paragraphe : Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
 
@@ -614,11 +614,9 @@
 
 
 
-
-
-        <br>
-        <div class="jumbotron" id="ancre-bootstrap">
-            <h1 class="display-3">Composants Bootstrap</h1>
+        </div>
+        <div class="jumbotron" id="ancre-radiophonix">
+            <h1 class="display-1">Composent Bootstrap</h1>
             <p class="lead">
                 Les composants viennent tous de Bootstrap.<br />
                 Les titres sont cliquables et ouvrent la documentation de Bootstrap correspondante.
@@ -631,6 +629,8 @@
                 <a class="btn btn-primary btn-lg" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/" role="button">Lire la doc</a>
             </p>
         </div>
+        <div class="layout-conteneur__main">
+
 
         <hr class="my-4">
         <h1 class="display-2">Alertes</h1>
