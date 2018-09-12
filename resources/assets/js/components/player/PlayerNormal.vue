@@ -96,11 +96,10 @@
             Logo et baseline
             ------------------------------------------>
             <div class="text-center texte-blanc">
-                <div class="fill--blanc">
-                    <svg width="280px" height="50px">
-                        <use xlink:href="#logo"/>
-                    </svg>
-                </div>
+                <svg width="280px" height="50px" class="fill--blanc">
+                    <use xlink:href="#logo-part1of2"></use>
+                    <use xlink:href="#logo-part2of2"></use>
+                </svg>
                 <span class="titre-sidebar">
                     Toutes vos sagas au même endroit !
                 </span>

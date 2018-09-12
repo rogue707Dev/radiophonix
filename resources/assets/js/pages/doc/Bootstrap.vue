@@ -7,6 +7,15 @@
 
 
 
+        <div class="alert alert-warning">
+            -> analyse en cour : la home page
+            <br>
+            -> a faire la prochaine fois : jumbotron <-> bandeau & baseline sous le logo home
+            <br>
+            -> ne pas oublier de faire une repasser coté scss apres celle html/vue
+            <br>
+            -> supprimer les commentaire "(issues#57)" dans les scss
+        </div>
 
 
 
@@ -15,6 +24,26 @@
             <p class="lead">
                 Les composants spécifique à radiophonix
             </p>
+        </div>
+
+
+        <hr class="my-4">
+        <h1 class="display-3">SVG</h1>
+        <svg width="280px" height="50px">
+            <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
+            <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
+        </svg>
+        <div>
+            <svg width="280px" height="50px" class="fill--bleu">
+                <use xlink:href="#logo-part1of2"></use>
+                <use xlink:href="#logo-part2of2"></use>
+            </svg>
+        </div>
+        <div style="background-color: #3a4651">
+            <svg width="280px" height="50px" class="fill--blanc">
+                <use xlink:href="#logo-part1of2"></use>
+                <use xlink:href="#logo-part2of2"></use>
+            </svg>
         </div>
 
 

@@ -4,11 +4,12 @@
         <i class="fa" aria-hidden="true" @click="toggleMenu"
            :class="{ 'fa-close': isMenuOpen, 'fa-bars': !isMenuOpen }"></i>
 
-        <div class="fill--blanc">
-            <svg width="150px" height="25px">
-                <use xlink:href="#logo"/>
-            </svg>
-        </div>
+
+        <svg width="150px" height="25px" class="fill--blanc">
+            <use xlink:href="#logo-part1of2"></use>
+            <use xlink:href="#logo-part2of2"></use>
+        </svg>
+
 
         <!-- TODO : au clic
          Ajouter class "actif" a layout-global__lecteur et layout-global__playlist
