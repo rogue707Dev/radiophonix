@@ -12,7 +12,7 @@ $ BASE
 
 }
 
-.bandeau-logo {
+.bandeau.var--logo {
     text-align: center;
 
     @include media-breakpoint-down(sm) {
@@ -27,7 +27,7 @@ $ BASE
 /*======================================================================================================================
 LOGO RADIOPHONIX
 ======================================================================================================================*/
-.bandeau .logo {
+.logo {
     max-width: 280px;
     width: auto;
     height: 50px;

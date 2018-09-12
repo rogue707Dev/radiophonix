@@ -2,19 +2,20 @@
     <div>
 
 
-        <div class="bandeau bandeau-logo pr">
+        <div class="bandeau var--logo pr">
             <div class="pa__filtre-bleuX"></div>
             <div class="pa-centrer w-100">
 
-                <div class="fill--bleu">
-                    <svg class="logo">
-                        <use xlink:href="#logo"></use>
-                    </svg>
-                </div>
+
+                <svg class="logo fill--bleu">
+                    <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
+                    <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
+                </svg>
+
 
 
                 <div class="bandeau__sous-titre mx-0">
-                    <div class="text-center texte-rouge">
+                    <div class="text-center texte-orange-fonce">
                         Toutes vos sagas au même endroit
                     </div>
                 </div>
