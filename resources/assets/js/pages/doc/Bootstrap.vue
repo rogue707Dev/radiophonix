@@ -1,5 +1,5 @@
 <template>
-    <div class="layout-conteneur__main">
+    <div>
 
         <a href="ancre-radiophonix">Composent Radiophonix</a>
         <br>
@@ -10,7 +10,7 @@
         <div class="alert alert-warning">
             -> analyse en cour : la home page
             <br>
-            -> a faire la prochaine fois : jumbotron <-> bandeau & baseline sous le logo home
+            -> a faire la prochaine fois : lead : titre side bar -> lead ? display ?
             <br>
             -> ne pas oublier de faire une repasser coté scss apres celle html/vue
             <br>
@@ -19,32 +19,99 @@
 
 
 
+
+
+
+
         <div class="jumbotron" id="ancre-radiophonix">
-            <h1 class="display-3">Composent Radiophonix</h1>
-            <p class="lead">
+            <h1 class="display-1">Composent Radiophonix</h1>
+            <p class="display-4">
                 Les composants spécifique à radiophonix
             </p>
         </div>
+        <div class="layout-conteneur__main">
 
 
-        <hr class="my-4">
-        <h1 class="display-3">SVG</h1>
-        <svg width="280px" height="50px">
-            <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
-            <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
-        </svg>
-        <div>
-            <svg width="280px" height="50px" class="fill--bleu">
-                <use xlink:href="#logo-part1of2"></use>
-                <use xlink:href="#logo-part2of2"></use>
+
+            <hr class="my-4">
+            <h1 class="display-3">Paragraphe & Lead</h1>
+            <p class="lead">Lead : Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="texte-rouge">a revoir</span></p>
+            <p>Paragraphe : Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+
+
+            <hr class="my-4">
+            <h1 class="display-3">Display headings</h1>
+            <div class="display-1">Hello</div>
+            <div class="display-2">Hello</div>
+            <div class="display-3">Hello</div>
+            <h1 class="display-4">Hello!</h1>
+
+
+
+
+            <hr class="my-4">
+            <h1 class="display-3">Jumbotron custom</h1>
+            Ne doit pas etre contenu dans "layout-conteneur__main"
+            <div class="jumbotron">
+                Jumboron classique
+            </div>
+            <div class="jumbotron var--bg-image" style="background-image: url(&quot;/static/home/ecouter.jpeg&quot;);">
+                <div class="pa-filtre-bleu"></div>
+                <div class="pa-cover centrage-parent">
+                    <div class="centrage-enfant">
+                        .jumboron.var--bg-image
+                        <br>
+                        Avec un structure pour centrer le texte et ajouter un filtre au bg
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <hr class="my-4">
+            <h1 class="display-3">SVG</h1>
+            <svg width="280px" height="50px">
+                <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
+                <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
             </svg>
+            <div>
+                <svg width="280px" height="50px" class="fill--bleu">
+                    <use xlink:href="#logo-part1of2"></use>
+                    <use xlink:href="#logo-part2of2"></use>
+                </svg>
+            </div>
+            <div style="background-color: #3a4651">
+                <svg width="280px" height="50px" class="fill--blanc">
+                    <use xlink:href="#logo-part1of2"></use>
+                    <use xlink:href="#logo-part2of2"></use>
+                </svg>
+            </div>
+
+
+
         </div>
-        <div style="background-color: #3a4651">
-            <svg width="280px" height="50px" class="fill--blanc">
-                <use xlink:href="#logo-part1of2"></use>
-                <use xlink:href="#logo-part2of2"></use>
-            </svg>
-        </div>
+
+
+#####################################################################################
+#####################################################################################
+#####################################################################################
+        <div class="layout-conteneur__main">
+<h1 class="display-3">A FAIRE</h1>
+<pre>
+   ;;;;;
+   ;;;;;
+   ;;;;;
+   ;;;;;
+   ;;;;;
+ ..;;;;;..
+  ':::::'
+    ':`
+</pre>
+
+
+
 
 
         <hr data-v-5f801cbc="" class="my-4">
@@ -1207,6 +1274,7 @@
         </div>
 
         <br>
+        </div>
     </div>
 </template>
 

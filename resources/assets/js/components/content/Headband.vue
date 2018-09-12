@@ -1,15 +1,11 @@
 <template>
 
-    <div class="bandeau pr" v-bind:style="{ backgroundImage: 'url(' + urlImage + ')' }">
-        <div class="pa__filtre-bleu"></div>
+    <div class="jumbotron var--bg-image" v-bind:style="{ backgroundImage: 'url(' + urlImage + ')' }">
+        <div class="pa-filtre-bleu"></div>
         <div class="pa-cover centrage-parent">
             <div class="centrage-enfant">
-                <div class="bandeau__titre">
-                    {{ title }}
-                </div>
-                <div class="bandeau__sous-titre">
-                    {{ subtitle }}
-                </div>
+                <div class="display-1">{{ title }}</div>
+                <div class="display-4">{{ subtitle }}</div>
             </div>
         </div>
     </div>

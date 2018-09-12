@@ -2,35 +2,24 @@
     <div>
 
 
-        <div class="bandeau var--logo pr">
-            <div class="pa__filtre-bleuX"></div>
-            <div class="pa-centrer w-100">
-
-
-                <svg class="logo fill--bleu">
-                    <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
-                    <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
-                </svg>
-
-
-
-                <div class="bandeau__sous-titre mx-0">
-                    <div class="text-center texte-orange-fonce">
-                        Toutes vos sagas au même endroit
-                    </div>
-                </div>
-
-                <div class="d-flex justify-content-center my-5">
-                    <div class="col-10 col-md-6 col-xl-4">
-                        <form @submit.prevent="search">
-                            <div class="input-group">
-                                <input class="form-control form-control-lg" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="button">Rechercher</button>
-                                </div>
+        <div class="jumbotron text-center">
+            <svg class="logo-home">
+                <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
+                <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
+            </svg>
+            <div class="display-4 texte-bleu-clair">
+                Toutes vos sagas au même endroit
+            </div>
+            <div class="d-flex justify-content-center my-5">
+                <div class="col-10 col-md-6 col-xl-4">
+                    <form @submit.prevent="search">
+                        <div class="input-group">
+                            <input class="form-control form-control-lg" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">Rechercher</button>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

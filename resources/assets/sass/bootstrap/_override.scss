@@ -30,7 +30,7 @@ $grid-breakpoints: (
 
 // Fonts
 $font-size-h1: 1rem !default;
-$font-size-h2: 2.4rem !default;
+$font-size-h2: 2.4rem !default;  //pourquoi ?
 $font-size-h3: 1rem !default;
 $font-size-h4: 1rem !default;
 $font-size-h5: 1rem !default;
@@ -40,3 +40,22 @@ $font-size-h6: 1rem !default;
 // Progress bars;
 $progress-height: $texte-normal;
 $progress-font-size: $texte-petit;
+
+
+
+
+////////////////////////////////////////////////////////////////
+
+//(issues#57)
+
+///////////////////////////////////////////////////////////////
+
+// Fonts
+$display1-size: 6rem; //4rem mobile
+$display2-size: 5rem; //3rem mobile
+$display3-size: 4rem; //2rem mobile
+$display4-size: 3rem; //1.5rem mobile
+
+// Jumbotron
+$jumbotron-padding: $espacement-standard;
+$jumbotron-bg: $blanc-moyen;
