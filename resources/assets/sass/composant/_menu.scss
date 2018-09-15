@@ -60,7 +60,7 @@ $ LIEN NORMAL
         flex-direction: column;
         justify-content: center;
         min-height: ($largeur-menu - $largeur-bande-menu);
-        font-size: 1rem;
+        font-size: px2rem(10);
         text-transform: uppercase;
 
         svg {
@@ -140,7 +140,7 @@ $ ITEM LOGIN
         flex-direction: column;
         justify-content: center;
         min-height: ($largeur-menu - $largeur-bande-menu);
-        font-size: 1rem;
+        font-size: $texte-normal;
         text-transform: uppercase;
     }
 

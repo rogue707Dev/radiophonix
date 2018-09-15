@@ -3,10 +3,10 @@ $ DANS SIDEBAR
 ======================================================================================================================*/
 .fa--sidebar {
     color: $bleu-moyen;
-    font-size: 50px;
+    font-size: px2rem(50);
 
     @include media-breakpoint-up(md) {
-        font-size: 200px;
+        font-size: px2rem(200);
     }
 
     @include media-breakpoint-up(lg) {
@@ -21,7 +21,7 @@ $ DANS SIDEBAR
 $ AIDE / ASTUCE
 ======================================================================================================================*/
 .fa--aide {
-    font-size: 100px;
+    font-size: px2rem(100);
 }
 
 

@@ -10,12 +10,9 @@
         <div class="alert alert-warning">
             -> analyse en cour : la home page
             <ul>
-                <li>
-                    Formulaire
-                    <br>
-                    voir si la taille de la police na pas un impacte sur les formualire
-                </li>
-                <li>transformer les class de couleur "texte-rouge" en "text-red"/"text-rouge" ? nomenclature bootstrap ?</li>
+                <li>custom bootstrap color</li>
+                <li>ajouter couleur sous forme de red-xxx</li>
+                <li>reprendre les nom des class de couleur de texte</li>
             </ul>
             <span class="texte-rouge"> -> ne pas oublier de faire une repasser coté scss apres celle html/vue</span>
             <br>
@@ -180,6 +177,7 @@
                 </tbody>
             </table>
             <hr class="my-5">
+
 
 
 

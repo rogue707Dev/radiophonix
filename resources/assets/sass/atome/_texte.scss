@@ -12,16 +12,16 @@ $ DISPLAY HEADINGS
 
 @include media-breakpoint-down(sm) {
     .display-1 {
-        font-size: 4rem;
+        font-size: px2rem(40);
     }
     .display-2 {
-        font-size: 3rem;
+        font-size: px2rem(30);
     }
     .display-3 {
-        font-size: 2rem;
+        font-size: px2rem(20);
     }
     .display-4 {
-        font-size: 1.5rem;
+        font-size: px2rem(15);
     }
 }
 

@@ -28,7 +28,7 @@ $ NORMAL
 .navigation li {
     text-transform: uppercase;
     color: $bleu-clair;
-    font-size: 1.6rem;
+    font-size: px2rem(16);
 
     margin-right: $espacement-standard--double;
     margin-bottom: $espacement-bas-bouton-barre-navigation;

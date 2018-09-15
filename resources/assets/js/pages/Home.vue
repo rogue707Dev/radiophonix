@@ -14,7 +14,7 @@
                 <div class="col-10 col-md-6 col-xl-4">
                     <form @submit.prevent="search">
                         <div class="input-group">
-                            <input class="form-control form-control-lg" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
+                            <input class="form-control" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button">Rechercher</button>
                             </div>
