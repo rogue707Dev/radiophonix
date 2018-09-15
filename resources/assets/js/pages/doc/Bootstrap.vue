@@ -79,7 +79,7 @@
         <div class="jumbotron" id="ancre-bootstrap">
             <h1 class="display-1">Composent Bootstrap</h1>
             <p>
-                <a class="btn btn-primary btn-lg" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/" role="button">Documentation de Bootstrap</a>
+                <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/" role="button">Documentation de Bootstrap</a>
             </p>
         </div>
         <div class="layout-conteneur__main">
@@ -284,12 +284,13 @@
                 Exemple
             </doc-titre>
 
-            <h1>Example heading <span class="badge badge-secondary">New</span></h1>
-            <h2>Example heading <span class="badge badge-secondary">New</span></h2>
-            <h3>Example heading <span class="badge badge-secondary">New</span></h3>
-            <h4>Example heading <span class="badge badge-secondary">New</span></h4>
-            <h5>Example heading <span class="badge badge-secondary">New</span></h5>
-            <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+            <h1 class="h1">Example heading <span class="badge badge-secondary">New</span></h1>
+            <h2 class="h2">Example heading <span class="badge badge-secondary">New</span></h2>
+            <h3 class="h3">Example heading <span class="badge badge-secondary">New</span></h3>
+            <h4 class="h4">Example heading <span class="badge badge-secondary">New</span></h4>
+            <p>Example paragraphe <span class="badge badge-secondary">New</span></p>
+            <h5 class="h5">Example heading <span class="badge badge-secondary">New</span></h5>
+            <h6 class="h6">Example heading <span class="badge badge-secondary">New</span></h6>
 
             <h2 class="h2">Dans un bouton</h2>
 
@@ -313,7 +314,6 @@
             <doc-titre url="/components/badge/#pill-badges">
                 Badges en versions rondes
             </doc-titre>
-
             <span class="badge badge-pill badge-primary">Primary</span>
             <span class="badge badge-pill badge-secondary">Secondary</span>
             <span class="badge badge-pill badge-success">Success</span>
@@ -322,6 +322,18 @@
             <span class="badge badge-pill badge-info">Info</span>
             <span class="badge badge-pill badge-light">Light</span>
             <span class="badge badge-pill badge-dark">Dark</span>
+
+            <doc-titre url="/components/badge/#pill-badges">
+                Badges en versions lien
+            </doc-titre>
+            <a href="#" class="badge badge-primary">Primary</a>
+            <a href="#" class="badge badge-secondary">Secondary</a>
+            <a href="#" class="badge badge-success">Success</a>
+            <a href="#" class="badge badge-danger">Danger</a>
+            <a href="#" class="badge badge-warning">Warning</a>
+            <a href="#" class="badge badge-info">Info</a>
+            <a href="#" class="badge badge-light">Light</a>
+            <a href="#" class="badge badge-dark">Dark</a>
             <hr class="my-5">
 
 
@@ -1402,7 +1414,6 @@ export default {
 </script>
 
 <style scoped>
-h2.h2:not(:first-child) {
-    margin-top: 3rem;
-}
+
+
 </style>

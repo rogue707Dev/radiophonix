@@ -14,12 +14,7 @@ button {
 $ TAILLE BOUTON
 ======================================================================================================================*/
 
-// surcharge bootstrap
 .btn {
-    padding: 3px 15px;
-    border-radius: $border-radius;
-    font-size: px2rem(14);
-
     & i.fa{
         margin-right: 5px;
     }
