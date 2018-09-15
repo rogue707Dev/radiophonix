@@ -8,7 +8,7 @@
             </div>
         </router-link>
         <div class="">
-            <p class="texte-moyen texte-300 texte-bleu-fonce">
+            <p class="h2">
                 <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }">
                     {{ saga.name }}
                 </router-link>
@@ -18,7 +18,10 @@
                     {{ saga.author.name }}
                 </router-link>
             </p>
-            <p class="texte-tres-petit">
+            <p class="h6">
+                {{ saga.stats.collections }} Saison - {{ saga.stats.tracks }} Épisodes
+            </p>
+            <p class="h6">
                 {{ saga.stats.collections }} Saison - {{ saga.stats.tracks }} Épisodes
             </p>
         </div>

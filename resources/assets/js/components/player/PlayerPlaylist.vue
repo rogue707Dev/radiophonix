@@ -9,7 +9,7 @@
             <div class="row text-center mb-5">
                 <div class="col-12">
                     <i class="fa fa-bullhorn fa--sidebar fa--aide"></i>
-                    <p class="titre-sidebar">
+                    <p class="lead texte-blanc">
                         Selectionnez une saga puis un épisode pour l'ajouter à votre playlist
                     </p>
                 </div>
@@ -48,12 +48,12 @@
                         </div>
                         <div class="col">
                             <text-ellispis :text="track.title" :size="27"></text-ellispis>
-                            <p class="texte-tres-petit" v-if="currentCollections.length > 1">
+                            <p class="h6" v-if="currentCollections.length > 1">
                                 Saison {{ collection.number }} - {{ collection.name }}
                             </p>
                         </div>
                         <div class="col-auto pr-4">
-                            <track-length :seconds="track.seconds" type="short" class="texte-petit"></track-length>
+                            <track-length :seconds="track.seconds" type="short" class="h5"></track-length>
                         </div>
 
                     </div>

@@ -1,7 +1,7 @@
 <template>
     <div class="layout-conteneur__main">
 
-        <h1 class="titre--bloc mb-4">Section "Publier"</h1>
+        <h1 class="h1 mb-4">Section "Publier"</h1>
 
         <p>Avancement global</p>
         <div class="progress">

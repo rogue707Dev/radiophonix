@@ -17,7 +17,7 @@
             <div class="row mb-4" v-if="author.bio">
                 <div class="col-xl-8">
 
-                    <h2 class="titre--bloc mb-4">Biographie</h2>
+                    <h2 class="h1 mb-4">Biographie</h2>
                     <p v-html="bio"></p>
 
                 </div>
@@ -58,7 +58,7 @@
             <div class="row" v-if="author.sagas">
                 <div class="col-xl-12">
 
-                    <h2 class="titre--bloc mb-4">Sagas</h2>
+                    <h2 class="h1 mb-4">Sagas</h2>
 
                     <saga-list :sagas="author.sagas"></saga-list>
 

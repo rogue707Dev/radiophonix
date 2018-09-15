@@ -7,8 +7,8 @@
             <div class="zone-interactive zone-interactive__colle-cadre border-top-0">
                 <div class="zone-interactive__info p-1">
                     <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }">
-                        <p class="titre-liste-jaquette-saga">{{ saga.name }}</p>
-                        <p class="texte-rouge texte-petit">
+                        <p class="h3 texte-bleu-clair">{{ saga.name }}</p>
+                        <p class="texte-rouge h5">
                             <saga-stats
                                 :stats="saga.stats"
                                 :with-icon="true">

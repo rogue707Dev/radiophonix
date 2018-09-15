@@ -51,7 +51,7 @@
 
             <div class="row">
                 <div class="col-md-6 col-xl-8">
-                    <h2 class="titre--bloc mb-4">Synopsis</h2>
+                    <h2 class="h1 mb-4">Synopsis</h2>
                     <p class="texte-rouge"><i aria-hidden="true" class="fa fa-calendar"></i>
                         {{ saga.creation_date | formatDate }}</p>
                     <p>{{ saga.synopsis }}</p>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-md-6 col-xl-4">
 
-                    <h2 class="titre--bloc mb-4">Faiseur</h2>
+                    <h2 class="h1 mb-4">Faiseur</h2>
                     <div class="d-flex flex-row">
                         <div>
                             <router-link class="jaquette--petite jaquette--faiseur"
@@ -149,14 +149,14 @@
 
             <div class="row mt-5">
                 <div class="col">
-                    <h2 class="titre--bloc mt-5 mb-3">
+                    <h2 class="h1 mt-5 mb-3">
                         <template v-if="collections.length > 1">Saisons</template>
                         <template v-else>Épisodes</template>
                     </h2>
 
                     <div class="row mb-5" v-for="collection in collections" :key="collection.id">
                         <div class="col">
-                            <h3 class="texte-moyen texte-300 mb-4"
+                            <h3 class="h3 mb-4"
                                 v-if="collections.length > 1">
                                 {{ collection.name }}
                             </h3>
@@ -171,7 +171,7 @@
                                     </div>
                                 </div>
                                 <div class="col-8 col-md-7 col-lg-7 order-lg-2">
-                                    <span class="episode-item__titre">{{ track.title }}</span>
+                                    <span class="font-weight-bold">{{ track.title }}</span>
                                     <p>{{ track.synopsis }}</p>
                                 </div>
                                 <div class="col-2 col-md-2 col-lg-1 order-lg-4">

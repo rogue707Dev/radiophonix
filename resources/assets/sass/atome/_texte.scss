@@ -1,62 +1,68 @@
 /*======================================================================================================================
-$ BASE
+$ DISPLAY HEADINGS
 ======================================================================================================================*/
-p {
-    margin: 0;
+.display-1,
+.display-2{
+    letter-spacing: 0.1rem;
+}
+.display-3,
+.display-4 {
+    letter-spacing: 0.2rem;
 }
 
+@include media-breakpoint-down(sm) {
+    .display-1 {
+        font-size: 4rem;
+    }
+    .display-2 {
+        font-size: 3rem;
+    }
+    .display-3 {
+        font-size: 2rem;
+    }
+    .display-4 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/*======================================================================================================================
+$ H
+======================================================================================================================*/
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-size: 1rem;
+    font-size: inherit;
 }
 
 .h1,
 .h2,
 .h3,
-.h4,
-.h5,
-.h6 {
+.h4 {
     color: $bleu-fonce;
     font-weight: 300;
 }
 
-
-/*======================================================================================================================
-$ TEXTE
-taille de base 1.4rem
-======================================================================================================================*/
-.texte-tres-petit {
-    font-size: 1rem;
+.h5,
+.h6 {
+    color: inherit;
+    font-weight: 400;
 }
-.texte-petit {
-    font-size: $texte-petit; //1.2rem
-}
-.texte-moyen {
-    font-size: 2rem;
-}
-.texte-grand {
-    font-size: 3.5rem;
-}
-.texte-tres-grand {
-    font-size: 5rem;
-}
-
-
 
 
 /*======================================================================================================================
-$ GRAISSE
-de base : 400
+$ PARAGRAPHE
 ======================================================================================================================*/
-.texte-300{
-    font-weight: 300;
+.lead {
+    color: $bleu-fonce;
+    letter-spacing: 0.1rem;
 }
-.texte-600{
-    font-weight: 600;
+
+p {
+    margin: 0;
 }
 
 
@@ -71,8 +77,9 @@ $ COULEUR
 .texte-bleu-fonce {
     color: $bleu-fonce;
 }
+.body-color,
 .texte-bleu-clair {
-    color: $bleu-clair;
+    color: $body-color; // couleur body
 }
 .texte-orange-fonce {
     color: $orange-fonce;

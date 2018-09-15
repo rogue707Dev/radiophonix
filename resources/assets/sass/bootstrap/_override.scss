@@ -28,18 +28,10 @@ $grid-breakpoints: (
 ) !default;
 
 
-// Fonts
-$font-size-h1: 1rem !default;
-$font-size-h2: 2.4rem !default;  //pourquoi ?
-$font-size-h3: 1rem !default;
-$font-size-h4: 1rem !default;
-$font-size-h5: 1rem !default;
-$font-size-h6: 1rem !default;
-
 
 // Progress bars;
 $progress-height: $texte-normal;
-$progress-font-size: $texte-petit;
+$progress-font-size: 1rem;
 
 
 
@@ -50,11 +42,29 @@ $progress-font-size: $texte-petit;
 
 ///////////////////////////////////////////////////////////////
 
+$body-color: $bleu-clair;
+
 // Fonts
-$display1-size: 6rem; //4rem mobile
-$display2-size: 5rem; //3rem mobile
-$display3-size: 4rem; //2rem mobile
-$display4-size: 3rem; //1.5rem mobile
+$display1-size: 6rem;
+$display2-size: 5rem;
+$display3-size: 4rem;
+$display4-size: 3rem;
+
+// Taille des balises hx
+$font-size-h1: 1rem;
+$font-size-h2: 1rem;
+$font-size-h3: 1rem;
+$font-size-h4: 1rem;
+$font-size-h5: 1rem;
+$font-size-h6: 1rem;
+
+// Taille des class .hx
+$h5-font-size: 1.2rem;
+$h6-font-size: 1rem;
+
+// Lead
+$lead-font-size: $texte-normal;
+$lead-font-weight: 600;
 
 // Jumbotron
 $jumbotron-padding: $espacement-standard;

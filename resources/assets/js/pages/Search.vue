@@ -10,7 +10,7 @@
                 <!-- 4max : mise en avant -->
                 <div class="layout-resultat-recherche__zoom">
 
-                    <span class="titre--bloc mb-4">Meilleurs résultats</span>
+                    <span class="h1 mb-4">Meilleurs résultats</span>
 
 
 
@@ -32,7 +32,7 @@
                                         </a>
                                     </div>
                                     <div class="zone-interactive__info p-1">
-                                        <p class="titre-resultat-recherche">{{ highlights.saga.name }}</p>
+                                        <p class="h3">{{ highlights.saga.name }}</p>
                                         <p class="texte-orange-fonce">
                                             <saga-stats
                                                 :stats="highlights.saga.stats"
@@ -66,7 +66,7 @@
                                         </a>
                                     </div>
                                     <div class="zone-interactive__info p-1">
-                                        <p class="titre-resultat-recherche">{{ highlights.author.name }}</p>
+                                        <p class="h3">{{ highlights.author.name }}</p>
                                         <p class="texte-orange-fonce">
                                             <i aria-hidden="true" class="fa fa-file-audio-o"></i>
                                             {{ highlights.author.stats.sagas }} Séries
@@ -98,7 +98,7 @@
                                         </a>
                                     </div>
                                     <div class="zone-interactive__info p-1">
-                                        <p class="titre-resultat-recherche">{{ highlights.track.title }}</p>
+                                        <p class="h3">{{ highlights.track.title }}</p>
                                         <p class="texte-orange-fonce">
                                             <i aria-hidden="true" class="fa fa-clock-o"></i>
                                             <track-length :seconds="highlights.track.seconds" type="short"></track-length>
@@ -130,7 +130,7 @@
                                         </a>
                                     </div>
                                     <div class="zone-interactive__info p-1">
-                                        <p class="titre-resultat-recherche">{{ highlights.genre.name }}</p>
+                                        <p class="h3">{{ highlights.genre.name }}</p>
                                         <p class="texte-orange-fonce">
                                             <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                         </p>
@@ -157,7 +157,7 @@
                 <div class="layout-resultat-recherche__vrac" v-if="otherResults.sagas.length > 0">
 
                     <!-- mélanger -->
-                    <span class="titre--bloc mb-4">Sagas</span>
+                    <span class="h1 mb-4">Sagas</span>
 
                     <ul class="liste-resultat">
                         <li class="liste-resultat__item-vrac"
@@ -175,7 +175,7 @@
                                                 </div>
                                             </div>
                                             <div class="liste-resultat__info">
-                                                <p class="titre-resultat-recherche">{{ saga.name }}</p>
+                                                <p class="h3">{{ saga.name }}</p>
                                                 <p class="texte-orange-fonce">
                                                     <saga-stats
                                                         :stats="saga.stats"
@@ -203,7 +203,7 @@
                 </div>
 
                 <div class="layout-resultat-recherche__vrac" v-if="otherResults.authors.length > 0">
-                    <span class="titre--bloc mb-4">Faiseurs</span>
+                    <span class="h1 mb-4">Faiseurs</span>
 
                     <ul class="liste-resultat">
                         <li class="liste-resultat__item-vrac"
@@ -220,7 +220,7 @@
                                                 </div>
                                             </div>
                                             <div class="liste-resultat__info">
-                                                <p class="titre-resultat-recherche">{{ author.name }}</p>
+                                                <p class="h3">{{ author.name }}</p>
                                                 <p class="texte-orange-fonce">
                                                     <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ author.stats.sagas }} Séries
                                                 </p>
@@ -245,7 +245,7 @@
                 </div>
 
                 <div class="layout-resultat-recherche__vrac" v-if="otherResults.tracks.length > 0">
-                    <span class="titre--bloc mb-4">Episodes</span>
+                    <span class="h1 mb-4">Episodes</span>
 
                     <ul class="liste-resultat">
 
@@ -263,7 +263,7 @@
                                                 </div>
                                             </div>
                                             <div class="liste-resultat__info">
-                                                <p class="titre-resultat-recherche">{{ track.title }}</p>
+                                                <p class="h3">{{ track.title }}</p>
                                                 <p class="texte-orange-fonce">
                                                     <i aria-hidden="true" class="fa fa-clock-o"></i>
                                                     <track-length :seconds="track.seconds" type="short"></track-length>
@@ -289,7 +289,7 @@
                 </div>
 
                 <div class="layout-resultat-recherche__vrac" v-if="otherResults.genres.length > 0">
-                    <span class="titre--bloc mb-4">Genres</span>
+                    <span class="h1 mb-4">Genres</span>
 
                     <ul class="liste-resultat">
 
@@ -307,7 +307,7 @@
                                                 </div>
                                             </div>
                                             <div class="liste-resultat__info">
-                                                <p class="titre-resultat-recherche">{{ genre.name }}</p>
+                                                <p class="h3">{{ genre.name }}</p>
                                                 <p class="texte-orange-fonce">
                                                     <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                                 </p>
@@ -345,7 +345,7 @@
             <div class="d-flex align-items-center h-100 justify-content-center">
                 <div class="text-center texte-bleu-fonce">
                     <i class="fa fa-bullhorn" style="font-size: 100px;"></i>
-                    <span class="titre--bloc mb-4">Lancez une recherche...</span>
+                    <span class="h1 mb-4">Lancez une recherche...</span>
                 </div>
             </div>
         </template>

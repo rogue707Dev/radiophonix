@@ -29,7 +29,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <h2 class="display-4">Qu'est-ce qu'une Saga MP3 ?</h2>
+                    <h2 class="h1">Qu'est-ce qu'une Saga MP3 ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
                             Une saga mp3 est le nom donné à une histoire se déroulant dans
@@ -48,7 +48,7 @@
                         </footer>
                     </blockquote>
 
-                    <h2 class="display-4">Qu'est-ce qu'un faiseur ?</h2>
+                    <h2 class="h1">Qu'est-ce qu'un faiseur ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
                             blabla
@@ -75,13 +75,13 @@
         <div class="layout-conteneur__main">
             <div class="row mt-5 mb-5">
                 <div class="col-12">
-                    <h2 class="display-4 mb-4">Quelques exemples de Saga :</h2>
+                    <h2 class="h1 mb-4">Quelques exemples de Saga :</h2>
                     <saga-list :sagas="sagas"></saga-list>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h2 class="display-4">Découvrez quelques genres</h2>
+                    <h2 class="h1">Découvrez quelques genres</h2>
 
                     <div class="row my-5">
 
@@ -138,7 +138,7 @@
         <div class="layout-conteneur__main">
             <div class="row mb-5">
                 <div class="col-12">
-                    <h2 class="display-4">Avancement</h2>
+                    <h2 class="h1">Avancement</h2>
                     <p>Radiophonix est actuellement en <span class="badge badge-danger">Alpha</span></p>
                 </div>
             </div>

@@ -71,6 +71,7 @@ $ NORMAL
 .lecteur__playlist__morceau {
     padding:$espacement-standard--petit 0;
     border-bottom: 1px solid rgba($bleu-moyen, 0.4);
+    color: $bleu-moyen;
 
     @include media-breakpoint-down(sm) {
         &:first-child {

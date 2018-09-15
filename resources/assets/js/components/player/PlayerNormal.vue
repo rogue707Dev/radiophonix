@@ -31,7 +31,7 @@
             Info du morceau
             ------------------------------------------>
             <div class="text-center texte-blanc mt-4">
-                <p class="titre-sidebar">
+                <p class="lead texte-blanc">
                     <text-ellispis :text="currentTrack.title" :size="32"></text-ellispis>
                 </p>
                 <p>
@@ -52,7 +52,7 @@
             <!----------------------------------------
             Progession
             ------------------------------------------>
-            <div class="lecteur__progression texte-blanc texte-petit mt-4">
+            <div class="lecteur__progression texte-blanc h5 mt-4">
                 {{ time }}
                 <progress class="lecteur__progression__barre"
                           @click="seek"
@@ -100,7 +100,7 @@
                     <use xlink:href="#logo-part1of2"></use>
                     <use xlink:href="#logo-part2of2"></use>
                 </svg>
-                <span class="titre-sidebar">
+                <span class="lead texte-blanc">
                     Toutes vos sagas au même endroit !
                 </span>
             </div>
