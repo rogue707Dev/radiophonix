@@ -34,7 +34,7 @@ build:staging:
     stage: build
     image: php:7.1
     only:
-        - master
+        - dev
     before_script:
         - curl -sL https://deb.nodesource.com/setup_8.x | bash -
         - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
@@ -53,7 +53,7 @@ build:staging:
         - node --version
 #        - yarn config set cache-folder .yarn
         - yarn
-        - echo "RADIOPHONIX_API_URL=https://alpha.radiophonix.org/api/v1/" > .env
+        - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" > .env
         - npm run build
         - php composer.phar install --prefer-dist --quiet --no-interaction
         - mkdir artefacts
@@ -109,10 +109,10 @@ deploy:staging:
     stage: deploy
     image: php:7.1
     only:
-        - master
+        - dev
     environment:
         name: staging
-        url: https://alpha.radiophonix.org
+        url: https://dev.radiophonix.org
     before_script:
         # Installation de git pour Envoy (plus rapide que zip)
         - apt-get update
