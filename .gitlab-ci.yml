@@ -13,11 +13,12 @@ stages:
 
 test:unit:
     stage: test
-    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
+    image: edbizarro/gitlab-ci-pipeline-php:7.1
+    before_script:
+        - sudo apt-get update
+        - sudo apt-get -y install autoconf sqlite3 libsqlite3-dev
+        - sudo docker-php-ext-install pdo_sqlite
     script:
-        - apt-get update
-        - apt-get -y install sqlite3 libsqlite3-dev
-        - docker-php-ext-install pdo_sqlite
         - cp .env.testing .env
         - composer install --prefer-dist --quiet --no-interaction
         - touch storage/database.sqlite
@@ -63,7 +64,7 @@ build:review:
         - echo -n $CI_ENVIRONMENT_SLUG >> .env
         - echo -n '.radiophonix.org/api/v1/' >> .env
         - npm run build
-        - php composer.phar install --prefer-dist --quiet --no-interaction
+        - composer install --prefer-dist --quiet --no-interaction
         - mkdir artefacts
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
     artifacts:
@@ -73,7 +74,7 @@ build:review:
 
 deploy:staging:
     stage: deploy
-    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
+    image: edbizarro/gitlab-ci-pipeline-php:7.1
     only:
         - dev
     environment:
@@ -81,18 +82,18 @@ deploy:staging:
         url: https://dev.radiophonix.org
     before_script:
         # Installation de git pour Envoy (plus rapide que zip)
-        - apt-get update
-        - apt-get install -y git
+        - sudo apt-get update
+        - sudo apt-get install -y git
 
         # Ajout de la clef ssh de déploiement
-        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+        - 'which ssh-agent || ( sudo apt-get update -y && sudo apt-get install openssh-client -y )'
         - eval $(ssh-agent -s)
         - ssh-add <(echo "$STAGING_PRIVATE_KEY")
         - mkdir -p ~/.ssh
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
         # Installation de Envoy
-        - composer global require laravel/envoy --prefer-source
+        - composer global require laravel/envoy:^1.4 --prefer-source
     script:
         - ls -al
         - cp deploy/Envoy.staging.blade.php Envoy.blade.php
@@ -100,7 +101,7 @@ deploy:staging:
 
 deploy:review:
     stage: deploy
-    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
+    image: edbizarro/gitlab-ci-pipeline-php:7.1
     only:
         - branches
     except:
@@ -112,18 +113,18 @@ deploy:review:
         on_stop: stop:review
     before_script:
         # Installation de git pour Envoy (plus rapide que zip)
-        - apt-get update
-        - apt-get install -y git
+        - sudo apt-get update
+        - sudo apt-get install -y git
 
         # Ajout de la clef ssh de déploiement
-        - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+        - 'which ssh-agent || ( sudo apt-get update -y && sudo apt-get install openssh-client -y )'
         - eval $(ssh-agent -s)
         - ssh-add <(echo "$REVIEWS_PRIVATE_KEY")
         - mkdir -p ~/.ssh
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
         # Installation de Envoy
-        - composer global require laravel/envoy --prefer-source
+        - composer global require laravel/envoy:^1.4 --prefer-source
     script:
         # Chaque release est dans un dossier nommé selon le slug de la review
         - echo $CI_ENVIRONMENT_SLUG
