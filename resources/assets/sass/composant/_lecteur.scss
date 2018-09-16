@@ -56,18 +56,18 @@ $ BOUTON SUPLEMENTAIRE
 .lecteur__bouton-affichage {
     @include media-breakpoint-up(lg) {
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
-            display: none;
+            display: none !important;
         }
     }
 }
 
 // afficher seulement dans le cas inverse
 .lecteur__bouton-masque {
-    display: none;
+    display: none !important;
 
     @include media-breakpoint-up(lg) {
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
-            display: block;
+            display: inline-flex !important;
         }
     }
 }
