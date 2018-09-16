@@ -13,18 +13,13 @@ stages:
 
 test:unit:
     stage: test
-    image: php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
     script:
         - apt-get update
-        - apt-get -y install libmagickwand-dev imagemagick git zip unzip sqlite3 libsqlite3-dev
-        - pecl install imagick
-        - docker-php-ext-enable imagick
-        - docker-php-ext-install gd zip pdo_sqlite
-        - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-        - php composer-setup.php
-        - php -r "unlink('composer-setup.php');"
+        - apt-get -y install sqlite3 libsqlite3-dev
+        - docker-php-ext-install pdo_sqlite
         - cp .env.testing .env
-        - php composer.phar install --prefer-dist --quiet --no-interaction
+        - composer install --prefer-dist --quiet --no-interaction
         - touch storage/database.sqlite
         - php artisan key:generate
         - php artisan jwt:secret --force
@@ -32,30 +27,16 @@ test:unit:
 
 build:staging:
     stage: build
-    image: php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
     only:
         - dev
-    before_script:
-        - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-        - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-        - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-        - apt-get update
-        - apt-get install -y nodejs yarn libmagickwand-dev imagemagick zip unzip
-        - pecl install imagick
-        - docker-php-ext-enable imagick
-        - docker-php-ext-install gd zip
-
-        # Installation de composer
-        - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-        - php composer-setup.php
-        - php -r "unlink('composer-setup.php');"
     script:
         - node --version
 #        - yarn config set cache-folder .yarn
         - yarn
         - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" > .env
         - npm run build
-        - php composer.phar install --prefer-dist --quiet --no-interaction
+        - composer install --prefer-dist --quiet --no-interaction
         - mkdir artefacts
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
     artifacts:
@@ -65,7 +46,7 @@ build:staging:
 
 build:review:
     stage: build
-    image: php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
     only:
         - branches
     except:
@@ -74,22 +55,6 @@ build:review:
     environment:
         name: review/$CI_COMMIT_REF_NAME
         url: http://$CI_ENVIRONMENT_SLUG.radiophonix.org
-    before_script:
-        - apt-get update
-        - apt-get install -y gnupg
-        - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-        - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-        - echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-        - apt-get update
-        - apt-get install -y nodejs yarn libmagickwand-dev imagemagick zip unzip
-        - pecl install imagick
-        - docker-php-ext-enable imagick
-        - docker-php-ext-install gd zip
-
-        # Installation de composer
-        - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-        - php composer-setup.php
-        - php -r "unlink('composer-setup.php');"
     script:
         - node --version
 #        - yarn config set cache-folder .yarn
@@ -108,7 +73,7 @@ build:review:
 
 deploy:staging:
     stage: deploy
-    image: php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
     only:
         - dev
     environment:
@@ -126,13 +91,8 @@ deploy:staging:
         - mkdir -p ~/.ssh
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
-        # Installation de composer
-        - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-        - php composer-setup.php
-        - php -r "unlink('composer-setup.php');"
-
         # Installation de Envoy
-        - php composer.phar global require laravel/envoy --prefer-source
+        - composer global require laravel/envoy --prefer-source
     script:
         - ls -al
         - cp deploy/Envoy.staging.blade.php Envoy.blade.php
@@ -140,7 +100,7 @@ deploy:staging:
 
 deploy:review:
     stage: deploy
-    image: php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
     only:
         - branches
     except:
@@ -162,13 +122,8 @@ deploy:review:
         - mkdir -p ~/.ssh
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
-        # Installation de composer
-        - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-        - php composer-setup.php
-        - php -r "unlink('composer-setup.php');"
-
         # Installation de Envoy
-        - php composer.phar global require laravel/envoy --prefer-source
+        - composer global require laravel/envoy --prefer-source
     script:
         # Chaque release est dans un dossier nommé selon le slug de la review
         - echo $CI_ENVIRONMENT_SLUG
