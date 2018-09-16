@@ -10,7 +10,7 @@ public/storage/
 public/phpmyadmin
 public/files
 public/static
-public/index.html
+storage/front.html
 public/stats.json
 storage/mocks
 storage/medialibrary/temp
