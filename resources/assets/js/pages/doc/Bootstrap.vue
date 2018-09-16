@@ -5,7 +5,10 @@
             -> analyse en cour : la home page
             <ol>
                 <li>
-                    utiliser ls badge a la place des .cartouche ?
+                    utiliser les card a la place des truc de saga ?
+                </li>
+                <li>
+                    utilser media a la place des mini affichage saga
                 </li>
             </ol>
 
@@ -525,6 +528,20 @@
                 </doc-titre>
                 <button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
                 <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+            </div>
+
+            <div>
+                <doc-titre url="/components/buttons/#active-state">
+                    Outline pour afficher des statistique
+                </doc-titre>
+                <div class="btn-toolbar">
+                    <div class="statistic-container btn-group btn-group-sm mr-2">
+                        <button type="button" class="btn btn-outline-secondary disabled">6 saisons</button>
+                    </div>
+                    <div class="statistic-container btn-group btn-group-sm mr-2">
+                        <button class="btn btn-outline-primary">Lien</button>
+                    </div>
+                </div>
             </div>
             <hr class="my-5">
 
@@ -1328,22 +1345,7 @@
 
 
 
-        <hr data-v-5f801cbc="" class="my-4">
-        <h1 class="display-3">Cartouche</h1>
-        <div role="alert" class="alert alert-danger">
-            Refaire en bootstrap ? -> bouton group ou badge ?
-        </div>
-        <ul class="reset-ul">
-            <li class="cartouche">
-                <span>3 <i aria-hidden="true" class="fa fa-heart"></i></span>
-            </li>
-            <li class="cartouche-groupe">
-                <div class="cartouche">4 saisons</div>
-                <div class="cartouche">32 épisodes</div>
-            </li>
-            <li class="cartouche">Terminé</li>
-            <li class="cartouche lien">Lien</li>
-        </ul>
+
 
 
 
