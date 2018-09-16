@@ -5,6 +5,7 @@ namespace Radiophonix\Http\Transformers;
 use Radiophonix\Http\Transformers\Support\Transformer;
 use Radiophonix\Models\Support\HasMediaMetadata;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
+use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 
 /**
  * This transformer is used to transform a Media.
@@ -33,7 +34,7 @@ class SingleImageTransformer extends Transformer
     }
 
     /**
-     * @param HasMedia $modelWithMedia
+     * @param HasMedia|HasMediaTrait $modelWithMedia
      * @return array
      */
     public function transform(HasMedia $modelWithMedia)
