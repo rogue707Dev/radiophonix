@@ -6,7 +6,7 @@ $ CONTENEUR
     padding: 20px 0 $padding-layout-sidebar;
 
     @include media-breakpoint-down(md){
-        background-color: $bleu-fonce;
+        background-color: $bleu-500;
         width: 100%;
     }
 
@@ -20,7 +20,7 @@ $ CONTENEUR
 
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
             height: $hauteur-lecteur;
-            border-bottom: 1px solid rgba($bleu-fonce, 0.4);
+            border-bottom: 1px solid rgba($bleu-500, 0.4);
         }
     }
 }
@@ -43,7 +43,7 @@ $ FILTRE IMAGE PLAYER EN ATTENTE
 ======================================================================================================================*/
 .lecteur__filtre-bleu {
     @include cover;
-    background: rgba($bleu-fonce, $lecteur-opacite-filtre-couleur);
+    background: rgba($bleu-500, $lecteur-opacite-filtre-couleur);
     width: 280px;
 }
 
@@ -56,18 +56,18 @@ $ BOUTON SUPLEMENTAIRE
 .lecteur__bouton-affichage {
     @include media-breakpoint-up(lg) {
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
-            display: none;
+            display: none !important;
         }
     }
 }
 
 // afficher seulement dans le cas inverse
 .lecteur__bouton-masque {
-    display: none;
+    display: none !important;
 
     @include media-breakpoint-up(lg) {
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
-            display: block;
+            display: inline-flex !important;
         }
     }
 }
@@ -80,10 +80,10 @@ $ BARRE de progression
     display: grid;
     grid-template-columns: 35px 1fr 35px;
     align-items: center;
-    color: $bleu-moyen;
+    color: $bleu-400;
 }
 .lecteur__progression__barre {
-    background-color: $rouge;
+    background-color: $primary;
     border: 0;
     height: 10px;
     width: 100%;
@@ -93,11 +93,11 @@ $ BARRE de progression
     }
 }
 .lecteur__progression__barre::-webkit-progress-bar {
-    background-color: $rouge;
+    background-color: $primary;
 }
 .lecteur__progression__barre::-webkit-progress-value {
-    background: $bleu-moyen;
+    background: $bleu-400;
 }
 .lecteur__progression__barre::-moz-progress-bar {
-    background: $bleu-moyen;
+    background: $bleu-400;
 }

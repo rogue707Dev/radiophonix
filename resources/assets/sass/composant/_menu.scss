@@ -38,17 +38,17 @@ $ LIEN NORMAL
 .layout-menu__item {
     display: flex;
     align-items: center;
-    color: $blanc-fonce;
+    color: $bleu-200;
 
     svg {
-        fill: $blanc-fonce;
+        fill: $bleu-200;
     }
 
     @include media-breakpoint-down(md) {
         flex-direction: row;
         padding: $espacement-standard--petit;
 
-        border-bottom: 1px solid $bleu-moyen;
+        border-bottom: 1px solid $bleu-400;
 
         svg {
             width: 20px;
@@ -60,7 +60,7 @@ $ LIEN NORMAL
         flex-direction: column;
         justify-content: center;
         min-height: ($largeur-menu - $largeur-bande-menu);
-        font-size: 1rem;
+        font-size: px2rem(10);
         text-transform: uppercase;
 
         svg {
@@ -75,12 +75,12 @@ $ LIEN NORMAL
 $ LIEN ACTIF
 -----------------------------------------------------------------------------*/
 .layout-menu__item.actif {
-    background-color: $bleu-moyen;
+    background-color: $bleu-400;
     color: $blanc;
 
     @include media-breakpoint-down(md) {
         @include menu__bande-halo {
-            background-color: $orange-clair;
+            background-color: $orange-100;
         }
     }
 
@@ -109,7 +109,7 @@ $ LIEN HOVER
         color: $blanc;
 
         @include menu__bande-halo {
-            background-color: $orange-clair;
+            background-color: $orange-100;
         }
 
         svg {
@@ -129,25 +129,25 @@ $ ITEM LOGIN
     align-items: center;
 
     svg {
-        fill: $bleu-fonce;
+        fill: $bleu-500;
     }
-    background: linear-gradient(to right, $orange-moyen 0%, $orange-clair 50%);
+    background: linear-gradient(to right, $orange-200 0%, $orange-100 50%);
 
 
-    color: $bleu-fonce;
+    color: $bleu-500;
 
     @include media-breakpoint-up(lg) {
         flex-direction: column;
         justify-content: center;
         min-height: ($largeur-menu - $largeur-bande-menu);
-        font-size: 1rem;
+        font-size: $texte-normal;
         text-transform: uppercase;
     }
 
     @include media-breakpoint-up(lg) {
 
         @include menu__bande-halo {
-            background-color: $orange-fonce;
+            background-color: $orange-300;
 
         }
 
@@ -156,21 +156,21 @@ $ ITEM LOGIN
 
 .layout-menu__item-log2 {
     border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 $bleu-clair;
+    box-shadow: 0 1px 0 0 $bleu-300;
     @include media-breakpoint-up(lg) {
     }
 }
 
 .layout-menu__item-log3 {
-    background:$rouge;
+    background:$primary;
     color: $blanc;
     svg {
         fill: $blanc;
         margin-bottom: 0;
     }
 
-    border-bottom: 1px solid $bleu-fonce;
-    box-shadow: 0 1px 0 0 $rouge;
+    border-bottom: 1px solid $bleu-500;
+    box-shadow: 0 1px 0 0 $primary;
     @include media-breakpoint-up(lg) {
         @include menu__bande-halo {
             display: none;
@@ -179,15 +179,15 @@ $ ITEM LOGIN
 }
 
 .layout-menu__item-log4 {
-    background:$orange-clair;
-    color: $bleu-fonce;
+    background:$orange-100;
+    color: $bleu-500;
     svg {
-        fill: $bleu-fonce;
+        fill: $bleu-500;
         margin-bottom: 0;
     }
 
-    border-bottom: 1px solid $bleu-fonce;
-    box-shadow: 0 1px 0 0 $orange-clair;
+    border-bottom: 1px solid $bleu-500;
+    box-shadow: 0 1px 0 0 $orange-100;
     @include media-breakpoint-up(lg) {
         @include menu__bande-halo {
             display: none;

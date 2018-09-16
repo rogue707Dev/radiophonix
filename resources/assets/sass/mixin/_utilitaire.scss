@@ -1,4 +1,16 @@
 /*======================================================================================================================
+$ TEXTE
+======================================================================================================================*/
+@mixin text-color($color) {
+    color: $color;
+
+    &:hover,
+    &:focus {
+        color: darken($color, 10%);
+    }
+}
+
+/*======================================================================================================================
 $ RESET UL
 ======================================================================================================================*/
 
@@ -16,11 +28,11 @@ $ DEGRADER
 ======================================================================================================================*/
 
 @mixin degrade-horizontale--orange--fonce-claire {
-    background: linear-gradient(to right, $orange-fonce 0%, $orange-clair 100%);
+    background: linear-gradient(to right, $orange-300 0%, $orange-100 100%);
 }
 
 @mixin degrade-vertical--orange--fonce-moyen {
-    background: linear-gradient(to bottom, $orange-fonce 0%, $orange-moyen 100%);
+    background: linear-gradient(to bottom, $orange-300 0%, $orange-200 100%);
 }
 
 
@@ -31,15 +43,15 @@ $ HALO
 ======================================================================================================================*/
 
 @mixin halo--orange-clair {
-    box-shadow: 0 0 3px 0 $orange-clair;
+    box-shadow: 0 0 3px 0 $orange-100;
 }
 
 @mixin halo--bleu-clair {
-    box-shadow: 0 0 3px 0 $bleu-clair;
+    box-shadow: 0 0 3px 0 $bleu-300;
 }
 
 @mixin halo--rouge {
-    box-shadow: 0 0 3px 0 $rouge;
+    box-shadow: 0 0 3px 0 $primary;
 }
 
 @mixin halo--blanc {

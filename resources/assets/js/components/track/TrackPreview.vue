@@ -6,11 +6,11 @@
             </div>
         </div>
         <div class="">
-            <p class="texte-moyen texte-300 texte-bleu-fonce a-curseur" @click="play({track, saga: track.collection.saga})">
+            <p class="h2 a-curseur" @click="play({track, saga: track.collection.saga})">
                 {{ track.title }}
             </p>
             <p>{{ track.collection.saga.name }}</p>
-            <p class="texte-tres-petit">
+            <p class="h6">
                 <length :seconds="track.seconds"></length>
             </p>
         </div>

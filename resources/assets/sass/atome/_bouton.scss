@@ -1,157 +1,55 @@
 /*======================================================================================================================
-$ RESET
+$ SPECIAL HOMPAGE
 ======================================================================================================================*/
-button {
-    color: inherit;
-    border: 0 none;
-    background: transparent none;
+.btn-homepage {
+    color: $bleu-500;
+    background-color: $orange-300;
+    border-color: $orange-300;
 }
-
-
-
 
 /*======================================================================================================================
-$ TAILLE BOUTON
+$ OUTLINE CUSTOM
 ======================================================================================================================*/
-
-// surcharge bootstrap
-.btn {
-    padding: 3px 15px;
-    border-radius: $border-radius;
-    font-size: 1.4rem;
-
-    & i.fa{
-        margin-right: 5px;
-    }
+.btn-outline-light {
+    border-color: $bleu-200;
+    color: $bleu-300;
 }
-
-.btn-rond-petit {
-    @include bouton-rond(25px);
-}
-
-.btn-rond-moyen {
-    @include bouton-rond(35px);
-}
-
-.btn-rond-grand {
-    @include bouton-rond(50px);
-}
-
-
-
 
 /*======================================================================================================================
-$ BOUTON de COULEUR
+$ OUTLINE ROUND
 ======================================================================================================================*/
+[class*=btn-outline-].btn-round {
+    @include btn-round(38px);
 
-/*-----------------------------------------------------------------------------
-$ BLANC
------------------------------------------------------------------------------*/
-.btn-blanc {
-    background-color: $blanc;
-    box-shadow: 0 0 5px 0 $rouge;
-
-    color: $bleu-moyen;
-
-    @include survol() {
-        color: $rouge;
-        box-shadow: 0 0 5px 0 $orange-fonce;
-        cursor: pointer;
+    &.btn-sm {
+        @include btn-round(31px);
+    }
+    &.btn-lg {
+        @include btn-round(48px);
     }
 }
 
-/*-----------------------------------------------------------------------------
-$ BLANC-FONCE
------------------------------------------------------------------------------*/
-.btn-blanc-fonce {
-    background-color: $blanc;
-    border:1px solid $blanc-fonce;
 
-    color: $bleu-clair;
+// THEME RADIOPHONIX
+.btn-outline-theme.btn-round {
+    box-shadow: 0 0 5px 0 $primary;
+    border: none;
+    color: $bleu-400;
+    background-color: $white;
 
-    @include survol() {
-        color: $bleu-fonce;
-        border-color: transparent;
-        box-shadow: 0 0 5px 0 $orange-fonce;
-        cursor: pointer;
+    &:hover {
+        color: $primary;
     }
-}
-
-/*-----------------------------------------------------------------------------
-$ BLEU-MOYEN
------------------------------------------------------------------------------*/
-.btn-bleu-moyen {
-    background-color: $bleu-moyen;
-    box-shadow: 0 0 5px 0 $rouge;
-
-    color: $blanc;
-
-    @include survol() {
-        color: $orange-clair;
-        box-shadow: 0 0 5px 0 $orange-clair;
-        cursor: pointer;
+    &:focus {
+        color: $bleu-400;
     }
 }
 
 
 
 
-/*======================================================================================================================
-$ BOUTON COMPOSER - picto cercle + texte
-======================================================================================================================*/
-.btn-composer-blanc-fonce {
-    @include survol() {
-        cursor: pointer;
-        color: $orange-fonce;
-
-        .btn-blanc-fonce {
-            color: $orange-fonce;
-            border-color: $bleu-clair;
-        }
-    }
-}
-
-
-
-
-/*======================================================================================================================
-$ LIBRARY ICON CC
-======================================================================================================================*/
-.btn-cc-bleu-moyen .cc {
-    color: $bleu-moyen;
-    text-shadow: $rouge 0 0 5px;
-}
-
-
-
-
-/*======================================================================================================================
-$ BOUTON pour SIDEBAR
-======================================================================================================================*/
-.btn-sidebar {
-
-    background-color: $blanc;
-    color: $bleu-moyen;
-    box-shadow: 0 0 5px 0 $bleu-fonce;
-
-    @include media-breakpoint-up(lg) {
-        box-shadow: 0 0 5px 0 $rouge;
-
-        @include survol() {
-            color: $rouge;
-            box-shadow: 0 0 5px 0 $orange-fonce;
-            cursor: pointer;
-        }
-    }
-}
-
-
-
-
-/*======================================================================================================================
-$ HARMONISE LA POSITION DANS DES BOUTONS ROND
-======================================================================================================================*/
-[class*="btn-rond-"] {
+//$ HARMONISE LA POSITION DANS DES BOUTONS ROND
+.btn-round {
 
     .fa-play:not(.fa-pause) {
         padding-left: 3px;
@@ -165,4 +63,12 @@ $ HARMONISE LA POSITION DANS DES BOUTONS ROND
         padding-left: 5px;
     }
 
+}
+
+/*======================================================================================================================
+$ TEXTE DE BOUTON PRECEDE D'UNE ICON FONT AWESOME
+fa = class commune a toute les icon font awesome
+======================================================================================================================*/
+.btn:not(.btn-round) i.fa {
+    margin-right: 5px;
 }

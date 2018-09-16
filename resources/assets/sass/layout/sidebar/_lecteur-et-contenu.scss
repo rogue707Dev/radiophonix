@@ -9,7 +9,7 @@ $ LECTEUR + CONTENU
         height: auto;
 
         //#eda07f = degrader sur une hauteur de 930px moins la hauteur du lecteur
-        //background: linear-gradient(to bottom, #eda07f 0%, $orange-moyen 100%);
+        //background: linear-gradient(to bottom, #eda07f 0%, $orange-200 100%);
     }
 
 }
@@ -17,18 +17,3 @@ $ LECTEUR + CONTENU
 
 
 
-/*======================================================================================================================
-$ LECTEUR MINI + CONTENU
-======================================================================================================================*/
-.layout-sidebar__lecteur-mini + .layout-sidebar__contenu {
-
-    @include media-breakpoint-up(lg) {
-        top: $hauteur-lecteur-mini;
-        bottom: 0;
-        height: auto;
-
-        //#ec997d = degrader sur une hauteur de 930px moins la hauteur du lecteur mini
-        background: linear-gradient(to bottom, #ec997d 0%, $orange-moyen 100%);
-    }
-
-}

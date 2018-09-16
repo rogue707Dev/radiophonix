@@ -10,13 +10,108 @@ Variables : node_modules/bootstrap/scss/_variables.scss
 ======================================================================================================================*/
 
 
-// Colors
-$white:  $blanc !default;
-$red:    $rouge !default;
-$orange: $orange-fonce !default;
-$blue:   $bleu-moyen !default;
-$teal:   $bleu-fonce !default;
+/*======================================================================================================================
+$ Color system
+======================================================================================================================*/
 
+// Theme Color
+$orange-100: #f2c09e;
+$orange-200: #f0b888;
+$orange-300: #eb937b;
+
+$bleu-100: #ebeff4;
+$bleu-200: #bdcadb;
+$bleu-300: #627485;
+$bleu-400: #3a4651;
+$bleu-500: #262f38;
+
+$blanc: #ffffff;
+$rouge: #e25956;
+
+
+// stylelint-disable
+$white:    $blanc;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge((
+        "100": $gray-100,
+        "200": $gray-200,
+        "300": $gray-300,
+        "400": $gray-400,
+        "500": $gray-500,
+        "600": $gray-600,
+        "700": $gray-700,
+        "800": $gray-800,
+        "900": $gray-900
+), $grays);
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$colors: () !default;
+$colors: map-merge((
+        "blue":       $blue,
+        "indigo":     $indigo,
+        "purple":     $purple,
+        "pink":       $pink,
+        "red":        $red,
+        "orange":     $orange,
+        "yellow":     $yellow,
+        "green":      $green,
+        "teal":       $teal,
+        "cyan":       $cyan,
+        "white":      $white,
+        "gray":       $gray-600,
+        "gray-dark":  $gray-800
+), $colors);
+
+
+$primary:       $rouge;
+$secondary:     $bleu-300;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $bleu-100; //$gray-100 !default;
+$dark:          $gray-800 !default;
+
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+        "primary":    $primary,
+        "secondary":  $secondary,
+        "success":    $success,
+        "info":       $info,
+        "warning":    $warning,
+        "danger":     $danger,
+        "light":      $light,
+        "dark":       $dark
+), $theme-colors);
+// stylelint-enable
+
+
+
+/*======================================================================================================================
+$ AUTRE
+======================================================================================================================*/
 
 // Grid breakpoints
 $grid-breakpoints: (
@@ -24,19 +119,56 @@ $grid-breakpoints: (
         sm: 576px,
         md: 768px,
         lg: 992px,
-        xl: 1470px // <-
-) !default;
+        xl: 1470px
+);
 
+// Body
+$body-color: $bleu-300;
 
 // Fonts
-$font-size-h1: 1rem !default;
-$font-size-h2: 2.4rem !default;
-$font-size-h3: 1rem !default;
-$font-size-h4: 1rem !default;
-$font-size-h5: 1rem !default;
-$font-size-h6: 1rem !default;
+$display1-size: px2rem(60);
+$display2-size: px2rem(50);
+$display3-size: px2rem(40);
+$display4-size: px2rem(30);
 
+// Taille des balises hx
+$font-size-h1: inherit;
+$font-size-h2: inherit;
+$font-size-h3: inherit;
+$font-size-h4: inherit;
+$font-size-h5: inherit;
+$font-size-h6: inherit;
+
+// Taille des class .hx
+$h1-font-size: px2rem(25);
+$h2-font-size: px2rem(20);
+$h3-font-size: px2rem(17.5);
+$h4-font-size: px2rem(15);
+$h5-font-size: px2rem(12);
+$h6-font-size: px2rem(10);
+
+// Lead
+$lead-font-size: inherit;
+$lead-font-weight: 600;
+
+// Blockquote
+$blockquote-font-size: $texte-normal;
+
+// Jumbotron
+$jumbotron-padding: $espacement-standard;
+$jumbotron-bg: $bleu-100;
 
 // Progress bars;
 $progress-height: $texte-normal;
-$progress-font-size: $texte-petit;
+$progress-font-size: px2rem(10);
+
+// Border radius
+$border-radius: px2rem(4);
+$border-radius-lg: px2rem(4.8);
+$border-radius-sm: px2rem(3.2);
+
+// Badges
+$badge-font-size: 85.7%;
+
+// Button
+$input-btn-focus-width: 0;

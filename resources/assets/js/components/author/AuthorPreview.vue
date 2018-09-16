@@ -7,9 +7,9 @@
                 </div>
             </div>
             <div class="justify-content-center">
-                <p class="texte-moyen texte-300 texte-bleu-fonce">{{ author.name }}</p>
+                <p class="h2">{{ author.name }}</p>
                 <p><text-ellispis :text="author.bio" :size="100"></text-ellispis></p>
-                <p class="texte-tres-petit">2 séries (todo)</p>
+                <p class="h6">2 séries (todo)</p>
                 teststestes
             </div>
         </router-link>

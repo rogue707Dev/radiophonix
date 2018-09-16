@@ -19,7 +19,7 @@
                 <img :src="currentSaga.images.cover.main" alt="" width="280px" height="280px">
 
                 <!--Bouton ajouter en favoris-->
-                <button class="btn-blanc btn-rond-grand pa-centrer lecteur__bouton-masque">
+                <button class="btn btn-outline-theme btn-round btn-lg pa-centrer lecteur__bouton-masque">
                     <i aria-hidden="true" class="fa fa-heart"></i>
                 </button>
 
@@ -30,8 +30,8 @@
             <!----------------------------------------
             Info du morceau
             ------------------------------------------>
-            <div class="text-center texte-blanc mt-4">
-                <p class="titre-sidebar">
+            <div class="text-center text-white mt-4">
+                <p class="lead text-white">
                     <text-ellispis :text="currentTrack.title" :size="32"></text-ellispis>
                 </p>
                 <p>
@@ -52,7 +52,7 @@
             <!----------------------------------------
             Progession
             ------------------------------------------>
-            <div class="lecteur__progression texte-blanc texte-petit mt-4">
+            <div class="lecteur__progression text-white h5 mt-4">
                 {{ time }}
                 <progress class="lecteur__progression__barre"
                           @click="seek"
@@ -65,19 +65,19 @@
             Controle
             ------------------------------------------>
             <div class="lecteur__disposition mt-5">
-                <button class="btn-blanc btn-rond-moyen lecteur__bouton-affichage" @click="openPlaylist">
+                <button class="btn btn-outline-theme btn-round lecteur__bouton-affichage" @click="openPlaylist">
                     <i aria-hidden="true" class="fa fa-list"></i>
                 </button>
-                <button class="btn-blanc btn-rond-moyen" @click="previous">
+                <button class="btn btn-outline-theme btn-round" @click="previous">
                     <i aria-hidden="true" class="fa fa-backward"></i>
                 </button>
-                <button class="btn-blanc btn-rond-grand" @click="toggle">
+                <button class="btn btn-outline-theme btn-round btn-lg" @click="toggle">
                     <i aria-hidden="true" class="fa fa-play" :class="{'fa-play': !isPlaying, 'fa-pause': isPlaying}"></i>
                 </button>
-                <button class="btn-blanc btn-rond-moyen" @click="next">
+                <button class="btn btn-outline-theme btn-round" @click="next">
                     <i aria-hidden="true" class="fa fa-forward"></i>
                 </button>
-                <button class="btn-blanc btn-rond-moyen lecteur__bouton-affichage">
+                <button class="btn btn-outline-theme btn-round lecteur__bouton-affichage">
                     <i aria-hidden="true" class="fa fa-heart"></i>
                 </button>
             </div>
@@ -95,12 +95,12 @@
             <!----------------------------------------
             Logo et baseline
             ------------------------------------------>
-            <div class="text-center texte-blanc">
+            <div class="text-center text-white">
                 <svg width="280px" height="50px" class="fill--blanc">
                     <use xlink:href="#logo-part1of2"></use>
                     <use xlink:href="#logo-part2of2"></use>
                 </svg>
-                <span class="titre-sidebar">
+                <span class="lead text-white">
                     Toutes vos sagas au même endroit !
                 </span>
             </div>
@@ -115,7 +115,7 @@
             ------------------------------------------>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <router-link :to="{ name: 'search' }" tag="button" class="btn-blanc btn-rond-grand">
+                    <router-link :to="{ name: 'search' }" tag="button" class="btn btn-outline-theme btn-round btn-lg">
                         <i aria-hidden="true" class="fa fa-search"></i>
                     </router-link>
                 </div>

@@ -41,7 +41,7 @@ $ NORMAL
     @include halo--bleu-clair;
     padding: 3px 18px;
     margin-bottom: 5px;
-    border-radius: $border-radius--grand;
+    border-radius: $border-radius-lg;
     background-color: $blanc;
 
     font-size: $texte-normal;
@@ -56,6 +56,6 @@ $ LIEN
 
     @include survol(){
         @include halo--orange-clair;
-        color: $rouge;
+        color: $primary;
     }
 }

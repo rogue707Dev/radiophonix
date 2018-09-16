@@ -24,8 +24,8 @@ $ MENU PLAYLIST - retour au player
         width: $largeur-sidebar;
         height: $hauteur-playlist-menu;
 
-        background-color: $bleu-fonce;
-        color: $blanc-fonce;
+        background-color: $bleu-500;
+        color: $bleu-200;
 
         &:hover {
             cursor: pointer;
@@ -70,11 +70,12 @@ $ NORMAL
 -----------------------------------------------------------------------------*/
 .lecteur__playlist__morceau {
     padding:$espacement-standard--petit 0;
-    border-bottom: 1px solid rgba($bleu-moyen, 0.4);
+    border-bottom: 1px solid rgba($bleu-400, 0.4);
+    color: $bleu-400;
 
     @include media-breakpoint-down(sm) {
         &:first-child {
-            border-top: 1px solid rgba($bleu-moyen, 0.4);
+            border-top: 1px solid rgba($bleu-400, 0.4);
         }
     }
 
@@ -85,7 +86,7 @@ $ NORMAL
     }
 
     @include media-breakpoint-up(lg) {
-        border-bottom: 1px solid rgba($orange-menu, 0.4);
+        border-bottom: 1px solid rgba($primary, 0.2);
     }
 }
 
@@ -96,13 +97,13 @@ $ ACTIF
 .lecteur__playlist__morceau.actif {
 
     @include media-breakpoint-down(md) {
-        background-color: $bleu-moyen;
-        color: $blanc-moyen;
+        background-color: $bleu-400;
+        color: $bleu-100;
     }
 
 
     @include media-breakpoint-up(lg) {
-        background-color: $rouge;
+        background-color: $primary;
         color: $blanc;
     }
 }

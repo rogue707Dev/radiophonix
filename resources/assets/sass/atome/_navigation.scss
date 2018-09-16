@@ -10,7 +10,7 @@ $ BASE
 
     @include barre-bas {
         z-index: z-index(0);
-        background: $blanc-moyen;
+        background: $bleu-100;
         bottom: -($espacement-bas-barre-navigation - $espacement-bas-bouton-barre-navigation);
     }
 }
@@ -27,8 +27,8 @@ $ NORMAL
 -----------------------------------------------------------------------------*/
 .navigation li {
     text-transform: uppercase;
-    color: $bleu-clair;
-    font-size: 1.6rem;
+    color: $bleu-300;
+    font-size: px2rem(16);
 
     margin-right: $espacement-standard--double;
     margin-bottom: $espacement-bas-bouton-barre-navigation;
@@ -45,11 +45,11 @@ $ NORMAL
 $ ACTIF
 -----------------------------------------------------------------------------*/
 .navigation li.actif {
-    color: $bleu-fonce;
+    color: $bleu-500;
 
     @include barre-bas {
         z-index: z-index(1);
-        background-color: $rouge;
+        background-color: $primary;
     }
 }
 
@@ -61,11 +61,11 @@ $ SURVOL
 -----------------------------------------------------------------------------*/
 .navigation li {
     @include survol(".actif"){
-        color: $bleu-moyen;
+        color: $bleu-400;
 
         @include barre-bas {
             z-index: z-index(1);
-            background-color: $orange-clair;
+            background-color: $orange-100;
         }
     };
 }

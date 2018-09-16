@@ -8,7 +8,7 @@
             </div>
         </router-link>
         <div class="">
-            <p class="texte-moyen texte-300 texte-bleu-fonce">
+            <p class="h2">
                 <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }">
                     {{ saga.name }}
                 </router-link>
@@ -20,7 +20,7 @@
             <p>
                 par
                 <router-link :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
-                    <span class="texte-orange-fonce">{{ saga.author.name }}</span>
+                    <span class="text-orange-300">{{ saga.author.name }}</span>
                 </router-link>
             </p>
         </div>

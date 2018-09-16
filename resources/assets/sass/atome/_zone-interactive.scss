@@ -66,7 +66,7 @@ $ BOUTON ACTION
         color: transparent;
 
         &.actif {
-            color: $rouge;
+            color: $primary;
         }
     }
 
@@ -98,7 +98,7 @@ a {
         .zone-interactive__action,
         .zone-interactive__bouton,
         .zone-interactive__border{
-            border-color: $blanc-fonce;
+            border-color: $bleu-200;
         }
 
         .zone-interactive__action {
@@ -109,15 +109,15 @@ a {
             color: inherit;
 
             @include survol() {
-                color: $orange-moyen;
+                color: $orange-200;
             }
         }
 
         .zone-interactive__bouton .fa.actif{
-            color: $rouge;
+            color: $primary;
 
             @include survol() {
-                color: $orange-moyen;
+                color: $orange-200;
             }
         }
     }

@@ -2,35 +2,24 @@
     <div>
 
 
-        <div class="bandeau var--logo pr">
-            <div class="pa__filtre-bleuX"></div>
-            <div class="pa-centrer w-100">
-
-
-                <svg class="logo fill--bleu">
-                    <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
-                    <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
-                </svg>
-
-
-
-                <div class="bandeau__sous-titre mx-0">
-                    <div class="text-center texte-orange-fonce">
-                        Toutes vos sagas au même endroit
-                    </div>
-                </div>
-
-                <div class="d-flex justify-content-center my-5">
-                    <div class="col-10 col-md-6 col-xl-4">
-                        <form @submit.prevent="search">
-                            <div class="input-group">
-                                <input class="form-control form-control-lg" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="button">Rechercher</button>
-                                </div>
+        <div class="jumbotron text-center">
+            <svg class="logo-home">
+                <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
+                <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
+            </svg>
+            <div class="display-4 text-body">
+                Toutes vos sagas au même endroit
+            </div>
+            <div class="d-flex justify-content-center my-5">
+                <div class="col-10 col-md-6 col-xl-4">
+                    <form @submit.prevent="search">
+                        <div class="input-group">
+                            <input class="form-control" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
+                            <div class="input-group-append">
+                                <button class="btn btn-homepage" type="button">Rechercher</button>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -40,7 +29,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <h2 class="display-4">Qu'est-ce qu'une Saga MP3 ?</h2>
+                    <h2 class="h1">Qu'est-ce qu'une Saga MP3 ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
                             Une saga mp3 est le nom donné à une histoire se déroulant dans
@@ -59,7 +48,7 @@
                         </footer>
                     </blockquote>
 
-                    <h2 class="display-4">Qu'est-ce qu'un faiseur ?</h2>
+                    <h2 class="h1">Qu'est-ce qu'un faiseur ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
                             blabla
@@ -86,13 +75,13 @@
         <div class="layout-conteneur__main">
             <div class="row mt-5 mb-5">
                 <div class="col-12">
-                    <h2 class="display-4 mb-4">Quelques exemples de Saga :</h2>
+                    <h2 class="h1 mb-4">Quelques exemples de Saga :</h2>
                     <saga-list :sagas="sagas"></saga-list>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h2 class="display-4">Découvrez quelques genres</h2>
+                    <h2 class="h1">Découvrez quelques genres</h2>
 
                     <div class="row my-5">
 
@@ -103,7 +92,7 @@
                                     <img :src="genre.image.main" alt="" class="img__filtre-assombri">
                                     <div class="pa__filtre-bleu"></div>
                                     <div class="pa-centrer">
-                                        <p class="texte-blanc">{{ genre.name }}</p>
+                                        <p class="text-white">{{ genre.name }}</p>
                                     </div>
                                 </div>
                             </router-link>
@@ -149,7 +138,7 @@
         <div class="layout-conteneur__main">
             <div class="row mb-5">
                 <div class="col-12">
-                    <h2 class="display-4">Avancement</h2>
+                    <h2 class="h1">Avancement</h2>
                     <p>Radiophonix est actuellement en <span class="badge badge-danger">Alpha</span></p>
                 </div>
             </div>

@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="justify-content-center">
-            <p class="texte-moyen texte-300 texte-bleu-fonce">{{ genre.name }}</p>
+            <p class="h2">{{ genre.name }}</p>
         </div>
     </div>
 </template>

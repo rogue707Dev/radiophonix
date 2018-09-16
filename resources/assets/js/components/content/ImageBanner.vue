@@ -1,6 +1,6 @@
 <template>
-    <div class="mb-5 image-banner" :style="background">
-        <h2 class="titre--bloc">{{ title }}</h2>
+    <div class="mb-5 image-banner" :style="background"> <!-- TODO c'est utilisé ca ? -->
+        <h2 class="h1">{{ title }}</h2>
         <p class="mb-5">
             {{ subtitle }}
         </p>
@@ -49,7 +49,7 @@ export default {
     padding-left: 60px;
     padding-top: 90px;
 
-    .titre--bloc {
+    .h1 {
         color: rgb(255, 255, 255);
         font-size: 50px;
     }

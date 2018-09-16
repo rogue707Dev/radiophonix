@@ -1,30 +1,24 @@
 /*======================================================================================================================
-$ LAYOUT GLOBAL
+$ SURCHARGE (issues#57)
 ======================================================================================================================*/
-
-$hauteur-header: 40px;
-
-$largeur-menu: 90px;
-
-$largeur-sidebar: 320px;
-
-$largeur-bande-menu: 5px;
-
-$padding-layout-sidebar: 15px;
-
-$padding-grid: 15px; //recupe varaible bootstrap ?
-
-$hauteur-lecteur: $largeur-sidebar + 230px;
-
-$hauteur-playlist-menu: 30px;
-
-$playlist-taille-mini-hauteur-pour-affichage : $hauteur-lecteur + 168px; //168px correspond a 4 lignes
-
-
+.jumbotron {
+    border-radius: 0;
+    margin-bottom: 0;
+}
 
 
 /*======================================================================================================================
-$ TAILLE DE TEXTE
+$ VARIATION
 ======================================================================================================================*/
+.var--bg-image {
+    position: relative;
+    height: 300px;
+    background-size:cover;
+    background-position: 0% center;
+    background-repeat: no-repeat;
 
-$texte-normal: px2rem(14);
+    .centrage-enfant {
+        color: $blanc;
+        padding: 0 $espacement-standard;
+    }
+}

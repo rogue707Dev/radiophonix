@@ -3,7 +3,7 @@
 
         <h1 class="display-1 mb-4">Contribuer au projet</h1>
 
-        <p>
+        <p class="lead">
             Radiophonix est actuellement en <span class="badge badge-danger">Alpha</span>
         </p>
 
@@ -18,7 +18,7 @@
         <div class="row mt-5">
             <div class="col">
 
-                <h2 class="texte-grand mb-4">
+                <h2 class="h1 mb-4">
                     <span class="text-success">{</span> Site <span class="text-success">}</span>
                 </h2>
 
@@ -30,7 +30,7 @@
                     Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe"><i class="fa fa-gitlab"></i> GitLab</a>
                 </p>
 
-                <pre class="mt-5"><code>&lt;<span class="text-success">template</span>&gt;
+                <pre class="mt-5 bg-light"><code>&lt;<span class="text-success">template</span>&gt;
     &lt;<span class="text-success">player</span>&gt;
         &lt;<span class="text-success">button</span> @<span class="text-warning">click</span>="play"&gt;C'est parti !&lt;<span class="text-success">button</span>&gt;
     &lt;/<span class="text-success">player</span>&gt;
@@ -47,7 +47,7 @@
 
             <div class="col">
 
-                <h2 class="texte-grand mb-4">
+                <h2 class="h1 mb-4">
                     <span class="text-success">{</span> API <span class="text-success">}</span>
                 </h2>
 
@@ -59,7 +59,7 @@
                     Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe"><i class="fa fa-gitlab"></i> GitLab</a>
                 </p>
 
-                <pre class="mt-5"><code>&lt;?php
+                <pre class="mt-5 bg-light"><code>&lt;?php
 
 <span class="text-danger">namespace</span> Radiophonix\Api;
 

@@ -1,17 +1,37 @@
 /*======================================================================================================================
 $ BOUTON
 ======================================================================================================================*/
+@mixin btn-outline-custom() {
+    background-color: $white;
+
+    @include survol() {
+        border-color: transparent;
+        background-color: transparent;
+    }
+}
+@mixin btn-outline-custom-in-input-group($color) {
+    box-shadow: none;
+    border: 1px solid $color;
+
+    @include survol() {
+        background-color: $color;
+        color: color-yiq($color);
+    }
+}
+
+
 
 /*-----------------------------------------------------------------------------
 $ BASE BOUTON ROND
 -----------------------------------------------------------------------------*/
-@mixin bouton-rond($largeur:50px) {
+@mixin btn-round($largeur) {
     width: $largeur;
     height: $largeur;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    font-size: px2rem(14);
 }
 
 

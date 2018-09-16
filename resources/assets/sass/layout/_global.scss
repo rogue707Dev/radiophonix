@@ -35,7 +35,6 @@ $ GLOBAL
             z-index: 0;
 
             @include degrade-vertical--orange--fonce-moyen;
-            //background: linear-gradient(to bottom, $rouge-player 0%, $orange-moyen 100%);
         }
     }
 
@@ -70,7 +69,7 @@ $ HEADER
 $ MENU
 ======================================================================================================================*/
 .layout-global__menu {
-    background: $bleu-fonce linear-gradient(to right, rgba($bleu-moyen,1) 0%,rgba($bleu-moyen,1) 5px,rgba($bleu-moyen,0) 5px);
+    background: $bleu-500 linear-gradient(to right, rgba($bleu-400,1) 0%,rgba($bleu-400,1) 5px,rgba($bleu-400,0) 5px);
 
     @include media-breakpoint-down(md) {
         display: none;

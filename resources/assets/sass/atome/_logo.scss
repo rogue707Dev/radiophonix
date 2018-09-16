@@ -1,6 +1,14 @@
 /*======================================================================================================================
-$ FILTRE ROUGE
+Logo en homepage (issues#57)
 ======================================================================================================================*/
-@mixin filtre-rouge {
-    background: rgba($rouge-player, $lecteur-opacite-filtre-couleur);
+.logo-home {
+    max-width: 280px;
+    width: auto;
+    height: 50px;
+
+    @include media-breakpoint-up(md) {
+        max-width: 500px;
+        width: 500px;
+        height: 100px;
+    }
 }
