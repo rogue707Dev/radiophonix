@@ -70,6 +70,7 @@ build:review:
         - branches
     except:
         - master
+        - dev
     environment:
         name: review/$CI_COMMIT_REF_NAME
         url: http://$CI_ENVIRONMENT_SLUG.radiophonix.org
@@ -144,6 +145,7 @@ deploy:review:
         - branches
     except:
         - master
+        - dev
     environment:
         name: review/$CI_COMMIT_REF_NAME
         url: http://$CI_ENVIRONMENT_SLUG.radiophonix.org
@@ -179,6 +181,7 @@ stop:review:
         - branches
     except:
         - master
+        - dev
     when: manual
     environment:
         name: review/$CI_COMMIT_REF_NAME
