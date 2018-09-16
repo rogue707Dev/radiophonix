@@ -26,27 +26,27 @@
 
                     <ul class="liste-bouton mt-3">
                         <li v-if="author.links.site">
-                            <a class="btn btn-blanc-fonce" :href="author.links.site">
+                            <a class="btn btn-outline-secondary btn-sm" :href="author.links.site">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
                             </a>
                         </li>
                         <li v-if="author.links.facebook">
-                            <a class="btn btn-blanc-fonce" :href="author.links.facebook" title="Facebook">
-                                <i aria-hidden="true" class="fa fa-facebook"></i>
+                            <a class="btn btn-outline-secondary btn-sm" :href="author.links.facebook" title="Facebook">
+                                <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
                             </a>
                         </li>
                         <li v-if="author.links.twitter">
-                            <a class="btn btn-blanc-fonce" :href="author.links.twitter" title="Twitter">
-                                <i aria-hidden="true" class="fa fa-twitter"></i>
+                            <a class="btn btn-outline-secondary btn-sm" :href="author.links.twitter" title="Twitter">
+                                <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
                             </a>
                         </li>
                         <li v-if="author.links.netowiki">
-                            <a class="btn btn-blanc-fonce" :href="author.links.netowiki">
+                            <a class="btn btn-outline-secondary btn-sm" :href="author.links.netowiki">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
                             </a>
                         </li>
                         <li v-if="author.links.topic">
-                            <a class="btn btn-blanc-fonce" :href="author.links.topic">
+                            <a class="btn btn-outline-secondary btn-sm" :href="author.links.topic">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
                             </a>
                         </li>

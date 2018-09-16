@@ -1,9 +1,9 @@
 <template>
-    <h2 class="h2">
-            <a :href="fullUrl">
-                <slot></slot>
-            </a>
-        </h2>
+    <h1 class="h1 mt-5">
+        <a :href="fullUrl">
+            <slot></slot>
+        </a>
+    </h1>
 </template>
 
 <script>

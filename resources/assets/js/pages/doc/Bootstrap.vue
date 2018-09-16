@@ -1,20 +1,15 @@
 <template>
     <div>
 
-        <a href="#ancre-radiophonix">Composent Radiophonix</a>
-        <br>
-        <a href="#ancre-bootstrap">Composent Bootstrap</a>
-
-
-
         <div class="alert alert-warning">
             -> analyse en cour : la home page
-            <ul>
-                <li>custom bootstrap color</li>
-                <li>ajouter couleur sous forme de red-xxx</li>
-                <li>reprendre les nom des class de couleur de texte</li>
-            </ul>
-            <span class="texte-rouge"> -> ne pas oublier de faire une repasser coté scss apres celle html/vue</span>
+            <ol>
+                <li>
+                    utiliser ls badge a la place des .cartouche ?
+                </li>
+            </ol>
+
+            <span class="text-primary"> -> ne pas oublier de faire une repasser coté scss apres celle html/vue</span>
             <br>
             -> supprimer les commentaire "(issues#57)" dans les scss
         </div>
@@ -23,15 +18,16 @@
 
         <div class="jumbotron" id="ancre-radiophonix">
             <h1 class="display-1">Composent Radiophonix</h1>
-            <p class="display-4">
-                Les composants spécifique à radiophonix
+            <p>
+                <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/" role="button">Documentation de Bootstrap</a>
             </p>
         </div>
         <div class="layout-conteneur__main">
 
 
 
-            <h1 class="display-3">Jumbotron custom</h1>
+
+            <h1 class="display-3">Jumbotron</h1>
             Ne doit pas etre contenu dans "layout-conteneur__main"
             <div class="jumbotron">
                 Jumboron classique
@@ -71,18 +67,6 @@
             <hr class="my-5">
 
 
-
-
-
-
-        </div>
-        <div class="jumbotron" id="ancre-bootstrap">
-            <h1 class="display-1">Composent Bootstrap</h1>
-            <p>
-                <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/" role="button">Documentation de Bootstrap</a>
-            </p>
-        </div>
-        <div class="layout-conteneur__main">
 
 
 
@@ -129,32 +113,32 @@
                     <td>.h1</td>
                     <td class="h1">Hello</td>
                     <td>h</td>
-                    <td class="texte-bleu-fonce">#262f38 <br>$bleu-fonce</td>
+                    <td class="text-blue-500">#262f38 <br>$bleu-500</td>
                 </tr>
                 <tr>
                     <td>.h2</td>
                     <td class="h2">Hello</td>
                     <td>h</td>
-                    <td class="texte-bleu-fonce">#262f38 <br>$bleu-fonce</td>
+                    <td class="text-blue-500">#262f38 <br>$bleu-500</td>
                 </tr>
                 <tr>
                     <td>.h3</td>
                     <td class="h3">Hello</td>
                     <td>h</td>
-                    <td class="texte-bleu-fonce">#262f38 <br>$bleu-fonce</td>
+                    <td class="text-blue-500">#262f38 <br>$bleu-500</td>
                 </tr>
                 <tr>
                     <td>.h4</td>
                     <td class="h4">Hello</td>
                     <td>h</td>
-                    <td class="texte-bleu-fonce">#262f38 <br>$bleu-fonce</td>
+                    <td class="text-blue-500">#262f38 <br>$bleu-500</td>
                 </tr>
 
                 <tr>
                     <td>.lead</td>
                     <td class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</td>
                     <td>paragraphe</td>
-                    <td class="texte-bleu-fonce">#262f38 <br>$bleu-fonce</td>
+                    <td class="text-blue-500">#262f38 <br>$bleu-500</td>
                 </tr>
                 <tr>
                     <td>(default)</td>
@@ -177,6 +161,60 @@
                 </tbody>
             </table>
             <hr class="my-5">
+
+
+
+
+
+
+            <h1 class="display-3">Couleur de texte</h1>
+            <div>
+                <h2 class="h2">Theme Color</h2>
+                <div class="row">
+                    <div class="col">
+                        <p>Texte par defaut</p>
+                        <p class="text-body">.text-body</p>
+                        <p class="text-blue-500">.text-blue-500</p>
+                        <p class="text-orange-300">.text-orange-300</p>
+                    </div>
+                    <div class="col" style="background-color: #EBEFF4">
+                        <p><a href="#" class="lien-paragraphe">.lien-paragraphe</a></p>
+                        <p><a href="#" class="text-body">Lien couleur body (defaut)</a></p>
+                        <p><a href="#" class="text-blue-500">Lien bleu-500</a></p>
+                        <p><a href="#" class="text-orange-300">Lien orange-300</a></p>
+                    </div>
+                </div>
+                <br>
+                <h2 class="h2">Bootstrap</h2>
+                <div class="row">
+                    <div class="col">
+                        <p class="text-primary">.text-primary</p>
+                        <p class="text-secondary">.text-secondary</p>
+                        <p class="text-success">.text-success</p>
+                        <p class="text-danger">.text-danger</p>
+                        <p class="text-warning">.text-warning</p>
+                        <p class="text-info">.text-info</p>
+                        <p class="text-light bg-dark">.text-light</p>
+                        <p class="text-dark">.text-dark</p>
+                        <p class="text-muted">.text-muted</p>
+                        <p class="text-white bg-dark">.text-white</p>
+                    </div>
+                    <div class="col">
+                        <p><a href="#" class="text-primary">Primary link</a></p>
+                        <p><a href="#" class="text-secondary">Secondary link</a></p>
+                        <p><a href="#" class="text-success">Success link</a></p>
+                        <p><a href="#" class="text-danger">Danger link</a></p>
+                        <p><a href="#" class="text-warning">Warning link</a></p>
+                        <p><a href="#" class="text-info">Info link</a></p>
+                        <p><a href="#" class="text-light bg-dark">Light link</a></p>
+                        <p><a href="#" class="text-dark">Dark link</a></p>
+                        <p><a href="#" class="text-muted">Muted link</a></p>
+                        <p><a href="#" class="text-white bg-dark">White link</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5">
+
 
 
 
@@ -379,15 +417,46 @@
 
 
 
-            <h1 class="display-2">Boutons</h1>
+            <a href="http://getbootstrap.com/docs/4.0/components/buttons/#examples" class="display-2">Boutons</a>
+            <div>
+                <h3 class="h1 mt-4">Rond pour icone</h3>
+                <button type="button" class="btn btn-outline-primary btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-secondary btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-success btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-danger btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-warning btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-info btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-light btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-dark btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <button type="button" class="btn btn-outline-theme btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <br>
+                        .btn-outline-theme
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-outline-primary btn-round btn-sm"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-warning btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-theme btn-round btn-lg"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <br>
+                        Existe en petit, normal et grand
+                    </div>
+                </div>
 
-            <doc-titre url="/components/buttons/#examples">
-                Boutons
-            </doc-titre>
+            </div>
+
 
             <div>
-                <h3 class="h3">Grands</h3>
+                <h3 class="h1 mt-4">Avec Icon "Font Awesome"</h3>
+                Fonctionne avec tous les boutons
+                <button type="button" class="btn btn-primary"><i class="fa fa-volume-up" aria-hidden="true"></i>Primary</button>
+                <button type="button" class="btn btn-outline-secondary"><i class="fa fa-volume-up" aria-hidden="true"></i>outline Secondary</button>
+            </div>
 
+            <div>
+                <h1 class="h1 mt-4">Grands</h1>
                 <button type="button" class="btn btn-primary btn-lg">Primary</button>
                 <button type="button" class="btn btn-secondary btn-lg">Secondary</button>
                 <button type="button" class="btn btn-success btn-lg">Success</button>
@@ -396,13 +465,12 @@
                 <button type="button" class="btn btn-info btn-lg">Info</button>
                 <button type="button" class="btn btn-light btn-lg">Light</button>
                 <button type="button" class="btn btn-dark btn-lg">Dark</button>
-
                 <button type="button" class="btn btn-link btn-lg">Link</button>
+                <button type="button" class="btn btn-homepage btn-lg">Homepage</button>
             </div>
 
             <div>
-                <h3 class="h3">Normaux</h3>
-
+                <h1 class="h1 mt-4">Normaux</h1>
                 <button type="button" class="btn btn-primary">Primary</button>
                 <button type="button" class="btn btn-secondary">Secondary</button>
                 <button type="button" class="btn btn-success">Success</button>
@@ -411,13 +479,12 @@
                 <button type="button" class="btn btn-info">Info</button>
                 <button type="button" class="btn btn-light">Light</button>
                 <button type="button" class="btn btn-dark">Dark</button>
-
                 <button type="button" class="btn btn-link">Link</button>
+                <button type="button" class="btn btn-homepage">Homepage</button>
             </div>
 
             <div>
-                <h3 class="h3">Petits</h3>
-
+                <h1 class="h1 mt-4">Petits</h1>
                 <button type="button" class="btn btn-primary btn-sm">Primary</button>
                 <button type="button" class="btn btn-secondary btn-sm">Secondary</button>
                 <button type="button" class="btn btn-success btn-sm">Success</button>
@@ -426,36 +493,39 @@
                 <button type="button" class="btn btn-info btn-sm">Info</button>
                 <button type="button" class="btn btn-light btn-sm">Light</button>
                 <button type="button" class="btn btn-dark btn-sm">Dark</button>
-
-                <button type="button" class="btn btn-link">Link</button>
+                <button type="button" class="btn btn-link btn-sm">Link</button>
+                <button type="button" class="btn btn-homepage btn-sm">Homepage</button>
             </div>
 
-            <doc-titre url="/components/buttons/#outline-buttons">
-                Boutons Outline
-            </doc-titre>
+            <div>
+                <doc-titre url="/components/buttons/#outline-buttons">
+                    Boutons Outline
+                </doc-titre>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-outline-success">Success</button>
+                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <button type="button" class="btn btn-outline-info">Info</button>
+                <button type="button" class="btn btn-outline-light">Light</button>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
+            </div>
 
-            <button type="button" class="btn btn-outline-primary">Primary</button>
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
-            <button type="button" class="btn btn-outline-success">Success</button>
-            <button type="button" class="btn btn-outline-danger">Danger</button>
-            <button type="button" class="btn btn-outline-warning">Warning</button>
-            <button type="button" class="btn btn-outline-info">Info</button>
-            <button type="button" class="btn btn-outline-light">Light</button>
-            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <div>
+                <doc-titre url="/components/buttons/#active-state">
+                    Etat actif
+                </doc-titre>
+                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+                <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+            </div>
 
-            <doc-titre url="/components/buttons/#active-state">
-                Etat actif
-            </doc-titre>
-
-            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
-            <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
-
-            <doc-titre url="/components/buttons/#active-state">
-                Etat désactivé
-            </doc-titre>
-
-            <button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
-            <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+            <div>
+                <doc-titre url="/components/buttons/#active-state">
+                    Etat désactivé
+                </doc-titre>
+                <button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+                <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+            </div>
             <hr class="my-5">
 
 
@@ -959,8 +1029,8 @@
                     <div class="zone-interactive zone-interactive__colle-cadre border-top-0">
                         <div class="zone-interactive__info p-1">
                             <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
-                                <p class="h3 texte-bleu-clair">Le Donjon de Naheulbeuk</p>
-                                <p class="texte-rouge h5">
+                                <p class="h3 text-body">Le Donjon de Naheulbeuk</p>
+                                <p class="text-primary h5">
                                     <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
                                 </p>
                             </a>
@@ -1000,7 +1070,7 @@
                                 </div>
                                 <div class="zone-interactive__info p-1">
                                     <p class="h3">Le Donjon de Naheulbeuk</p>
-                                    <p class="texte-rouge">
+                                    <p class="text-primary">
                                         <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
                                     </p>
                                 </div>
@@ -1031,7 +1101,7 @@
                                 </div>
                                 <div class="zone-interactive__info p-1">
                                     <p class="h3">Pen Of Chaos</p>
-                                    <p class="texte-rouge">
+                                    <p class="text-primary">
                                         <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                     </p>
                                 </div>
@@ -1062,7 +1132,7 @@
                                 </div>
                                 <div class="zone-interactive__info p-1">
                                     <p class="h3">Présentation</p>
-                                    <p class="texte-rouge">
+                                    <p class="text-primary">
                                         <i aria-hidden="true" class="fa fa-clock-o"></i> 3m, 45s
                                     </p>
                                 </div>
@@ -1093,7 +1163,7 @@
                                 </div>
                                 <div class="zone-interactive__info p-1">
                                     <p class="h3">Heroic fantasy</p>
-                                    <p class="texte-rouge">
+                                    <p class="text-primary">
                                         <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                     </p>
                                 </div>
@@ -1126,7 +1196,7 @@
                                         </div>
                                         <div class="liste-resultat__info">
                                             <p class="h3">Le Donjon de Naheulbeuk</p>
-                                            <p class="texte-rouge">
+                                            <p class="text-primary">
                                                 <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
                                             </p>
                                         </div>
@@ -1160,7 +1230,7 @@
                                         </div>
                                         <div class="liste-resultat__info">
                                             <p class="h3">Pen Of Chaos</p>
-                                            <p class="texte-rouge">
+                                            <p class="text-primary">
                                                 <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                             </p>
                                         </div>
@@ -1194,7 +1264,7 @@
                                         </div>
                                         <div class="liste-resultat__info">
                                             <p class="h3">Présentation</p>
-                                            <p class="texte-rouge">
+                                            <p class="text-primary">
                                                 <i aria-hidden="true" class="fa fa-clock-o"></i> 3m, 45s
                                             </p>
                                         </div>
@@ -1228,7 +1298,7 @@
                                         </div>
                                         <div class="liste-resultat__info">
                                             <p class="h3">Heroic fantasy</p>
-                                            <p class="texte-rouge">
+                                            <p class="text-primary">
                                                 <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                             </p>
                                         </div>
@@ -1255,34 +1325,6 @@
         </div>
 
 
-
-        <hr data-v-5f801cbc="" class="my-4">
-        <h1 class="display-3">Bouton</h1>
-        <div>
-            <div role="alert" class="alert alert-danger">
-                Refaire en bootstrap ?
-            </div>
-            <button class="btn btn-blanc">Test</button>
-            <button class="btn btn-blanc"><i class="fa fa-volume-up" aria-hidden="true"></i>Test</button>
-            <button class="btn-blanc btn-rond-petit"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-            <button class="btn-blanc btn-rond-moyen"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-            <button class="btn-blanc btn-rond-grand"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-            <br>
-            <button class="btn btn-bleu-moyen">Test</button>
-            <button class="btn btn-bleu-moyen"><i class="fa fa-volume-up" aria-hidden="true"></i>Test</button>
-            <button class="btn-bleu-moyen btn-rond-petit"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-            <button class="btn-bleu-moyen btn-rond-moyen"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-            <button class="btn-bleu-moyen btn-rond-grand"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-            pas utiliser
-            <br>
-            <button class="btn btn-blanc-fonce">Test</button>
-            <button class="btn btn-blanc-fonce"><i class="fa fa-volume-up" aria-hidden="true"></i>Test</button>
-            <br>
-            <button class="btn-composer-blanc-fonce">
-                <span class="btn-blanc-fonce btn-rond-petit"><i class="fa fa-volume-up" aria-hidden="true"></i></span>
-                Pas utiliser
-            </button>
-        </div>
 
 
 
@@ -1327,55 +1369,7 @@
 
 
 
-        <hr class="my-4">
-        <h1 class="display-3">Couleur de texte</h1>
-        <div role="alert" class="alert alert-danger">
-            Refaire en bootstrap -> style bootstrap
-            <br> voir ce qui est encore utiliser
-        </div>
-        <div>
-            <h2 class="h1 mb-4 mt-5">Couleur texte</h2>
-            <div class="row">
-                <div class="col">
-                    <p>Texte par defaut</p>
-                    <p class="texte-blanc">Texte blanc</p>
-                    <p class="texte-bleu-fonce">Texte bleu-fonce</p>
-                    <p class="texte-orange-fonce">Texte orange-fonce</p>
-                </div>
-                <div class="col" style="background-color: #EBEFF4">
-                    <p>Texte par defaut</p>
-                    <p class="texte-blanc">Texte blanc</p>
-                    <p class="texte-bleu-fonce">Texte bleu-fonce</p>
-                    <p class="texte-orange-fonce">Texte orange-fonce</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p class="text-primary">.text-primary</p>
-                    <p class="text-secondary">.text-secondary</p>
-                    <p class="text-success">.text-success</p>
-                    <p class="text-danger">.text-danger</p>
-                    <p class="text-warning">.text-warning</p>
-                    <p class="text-info">.text-info</p>
-                    <p class="text-light bg-dark">.text-light</p>
-                    <p class="text-dark">.text-dark</p>
-                    <p class="text-muted">.text-muted</p>
-                    <p class="text-white bg-dark">.text-white</p>
-                </div>
-                <div class="col">
-                    <p><a href="#" class="text-primary">Primary link</a></p>
-                    <p><a href="#" class="text-secondary">Secondary link</a></p>
-                    <p><a href="#" class="text-success">Success link</a></p>
-                    <p><a href="#" class="text-danger">Danger link</a></p>
-                    <p><a href="#" class="text-warning">Warning link</a></p>
-                    <p><a href="#" class="text-info">Info link</a></p>
-                    <p><a href="#" class="text-light bg-dark">Light link</a></p>
-                    <p><a href="#" class="text-dark">Dark link</a></p>
-                    <p><a href="#" class="text-muted">Muted link</a></p>
-                    <p><a href="#" class="text-white bg-dark">White link</a></p>
-                </div>
-            </div>
-        </div>
+
 
 
 

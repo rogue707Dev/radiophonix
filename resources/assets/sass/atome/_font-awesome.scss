@@ -2,7 +2,7 @@
 $ DANS SIDEBAR
 ======================================================================================================================*/
 .fa--sidebar {
-    color: $bleu-moyen;
+    color: $bleu-400;
     font-size: px2rem(50);
 
     @include media-breakpoint-up(md) {
@@ -31,7 +31,7 @@ $ AIDE / ASTUCE
 $ COEUR ROUGE quand ACTIF
 ======================================================================================================================*/
 .fa-heart.actif {
-    color: $rouge;
+    color: $primary;
 }
 
 
@@ -42,10 +42,9 @@ $ HABILLAGE
 a mettre en conteneur d'icone fa
 ======================================================================================================================*/
 .hfa-cercle-blanc-fonce {
-    @include bouton-rond(25px);
-    background-color: $blanc;
-    border:1px solid $blanc-fonce;
-    color: $bleu-clair;
+    @include btn-round(25px);
+    border:1px solid $bleu-200;
+    color: $bleu-300;
 
     .fa-play {
         padding-left: 3px;

@@ -4,7 +4,7 @@ $ LECTEUR
 .layout-sidebar__lecteur {
 
     @include media-breakpoint-down(md){
-        background-color: $blanc-moyen;
+        background-color: $bleu-100;
     }
 
     @include media-breakpoint-up(lg) {
@@ -15,24 +15,3 @@ $ LECTEUR
         z-index: z-index(1);
     }
 }
-
-
-
-
-/*======================================================================================================================
-$ LECTEUR MINI
-======================================================================================================================*/
-.layout-sidebar__lecteur-mini {
-    @include media-breakpoint-down(md){
-
-    }
-
-    @include media-breakpoint-up(lg) {
-        position: fixed;
-        top:0;
-        left: $largeur-menu;
-        height:$hauteur-lecteur-mini;
-        z-index: z-index(1);
-    }
-}
-

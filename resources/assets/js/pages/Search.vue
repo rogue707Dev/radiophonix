@@ -33,7 +33,7 @@
                                     </div>
                                     <div class="zone-interactive__info p-1">
                                         <p class="h3">{{ highlights.saga.name }}</p>
-                                        <p class="texte-orange-fonce">
+                                        <p class="text-orange-300">
                                             <saga-stats
                                                 :stats="highlights.saga.stats"
                                                 :with-icon="true">
@@ -67,7 +67,7 @@
                                     </div>
                                     <div class="zone-interactive__info p-1">
                                         <p class="h3">{{ highlights.author.name }}</p>
-                                        <p class="texte-orange-fonce">
+                                        <p class="text-orange-300">
                                             <i aria-hidden="true" class="fa fa-file-audio-o"></i>
                                             {{ highlights.author.stats.sagas }} Séries
                                         </p>
@@ -99,7 +99,7 @@
                                     </div>
                                     <div class="zone-interactive__info p-1">
                                         <p class="h3">{{ highlights.track.title }}</p>
-                                        <p class="texte-orange-fonce">
+                                        <p class="text-orange-300">
                                             <i aria-hidden="true" class="fa fa-clock-o"></i>
                                             <track-length :seconds="highlights.track.seconds" type="short"></track-length>
                                         </p>
@@ -131,7 +131,7 @@
                                     </div>
                                     <div class="zone-interactive__info p-1">
                                         <p class="h3">{{ highlights.genre.name }}</p>
-                                        <p class="texte-orange-fonce">
+                                        <p class="text-orange-300">
                                             <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                         </p>
                                     </div>
@@ -176,7 +176,7 @@
                                             </div>
                                             <div class="liste-resultat__info">
                                                 <p class="h3">{{ saga.name }}</p>
-                                                <p class="texte-orange-fonce">
+                                                <p class="text-orange-300">
                                                     <saga-stats
                                                         :stats="saga.stats"
                                                         :with-icon="true">
@@ -221,7 +221,7 @@
                                             </div>
                                             <div class="liste-resultat__info">
                                                 <p class="h3">{{ author.name }}</p>
-                                                <p class="texte-orange-fonce">
+                                                <p class="text-orange-300">
                                                     <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ author.stats.sagas }} Séries
                                                 </p>
                                             </div>
@@ -264,7 +264,7 @@
                                             </div>
                                             <div class="liste-resultat__info">
                                                 <p class="h3">{{ track.title }}</p>
-                                                <p class="texte-orange-fonce">
+                                                <p class="text-orange-300">
                                                     <i aria-hidden="true" class="fa fa-clock-o"></i>
                                                     <track-length :seconds="track.seconds" type="short"></track-length>
                                                 </p>
@@ -308,7 +308,7 @@
                                             </div>
                                             <div class="liste-resultat__info">
                                                 <p class="h3">{{ genre.name }}</p>
-                                                <p class="texte-orange-fonce">
+                                                <p class="text-orange-300">
                                                     <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                                                 </p>
                                             </div>
@@ -343,7 +343,7 @@
 
         <template v-else>
             <div class="d-flex align-items-center h-100 justify-content-center">
-                <div class="text-center texte-bleu-fonce">
+                <div class="text-center text-blue-500">
                     <i class="fa fa-bullhorn" style="font-size: 100px;"></i>
                     <span class="h1 mb-4">Lancez une recherche...</span>
                 </div>

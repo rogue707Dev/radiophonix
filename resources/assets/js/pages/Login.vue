@@ -31,7 +31,7 @@
                         <div class="input-group">
                             <input type="text" class="form-control" id="password">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Voir</button>
+                                <button class="btn btn-outline-primary" type="button" id="button-addon2">Voir</button>
                             </div>
                         </div>
                     </div>

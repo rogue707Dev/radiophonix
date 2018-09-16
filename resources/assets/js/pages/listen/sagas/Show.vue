@@ -9,7 +9,7 @@
                 <div class="jaquette--banniere jaquette--saga">
                     <img :src="saga.images.cover.main" alt="" />
                 </div>
-                <button class="pa-centrer btn-blanc btn-rond-grand" @click="playSaga">
+                <button class="pa-centrer btn btn-outline-theme btn-round btn-lg" @click="playSaga">
                     <i aria-hidden="true" class="fa fa-play"></i>
                 </button>
             </template>
@@ -52,37 +52,37 @@
             <div class="row">
                 <div class="col-md-6 col-xl-8">
                     <h2 class="h1 mb-4">Synopsis</h2>
-                    <p class="texte-rouge"><i aria-hidden="true" class="fa fa-calendar"></i>
+                    <p class="text-primary"><i aria-hidden="true" class="fa fa-calendar"></i>
                         {{ saga.creation_date | formatDate }}</p>
                     <p>{{ saga.synopsis }}</p>
                     <ul class="liste-bouton mt-3">
                         <li v-if="saga.links.site">
-                            <a class="btn btn-blanc-fonce" :href="saga.links.site">
+                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.site">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
                             </a>
                         </li>
                         <li v-if="saga.links.facebook">
-                            <a class="btn btn-blanc-fonce" :href="saga.links.facebook" title="Facebook">
-                                <i aria-hidden="true" class="fa fa-facebook"></i>
+                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.facebook" title="Facebook">
+                                <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
                             </a>
                         </li>
                         <li v-if="saga.links.twitter">
-                            <a class="btn btn-blanc-fonce" :href="saga.links.twitter" title="Twitter">
-                                <i aria-hidden="true" class="fa fa-twitter"></i>
+                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.twitter" title="Twitter">
+                                <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
                             </a>
                         </li>
                         <li v-if="saga.links.netowiki">
-                            <a class="btn btn-blanc-fonce" :href="saga.links.netowiki">
+                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.netowiki">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
                             </a>
                         </li>
                         <li v-if="saga.links.topic">
-                            <a class="btn btn-blanc-fonce" :href="saga.links.topic">
+                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.topic">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
                             </a>
                         </li>
                         <li v-if="saga.links.rss">
-                            <a class="btn btn-blanc-fonce" :href="saga.links.rss">
+                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.rss">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;{{ saga.links.rss }}
                             </a>
                         </li>
@@ -102,40 +102,40 @@
                             </router-link>
                         </div>
                         <div>
-                            <p class="texte-rouge">
+                            <p class="text-primary">
                                 <i v-if="saga.author.type === 'user'" aria-hidden="true" class="fa fa-user"></i>
                                 {{ saga.author.name }}
                             </p>
                             <p><text-ellispis :text="saga.author.bio" :size="200"></text-ellispis></p>
                             <router-link v-if="saga.author.id"
                                          :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }"
-                                         class="cartouche lien">
-                            Voir la biographie
+                                         class="btn btn-outline-primary btn-sm mt-3">
+                                Voir la biographie
                             </router-link>
 
                             <ul class="liste-bouton mt-3">
                                 <li v-if="saga.author.links.site">
-                                    <a class="btn btn-blanc-fonce" :href="saga.author.links.site">
+                                    <a class="btn btn-outline-secondary btn-sm" :href="saga.author.links.site">
                                         <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
                                     </a>
                                 </li>
                                 <li v-if="saga.author.links.facebook">
-                                    <a class="btn btn-blanc-fonce" :href="saga.author.links.facebook" title="Facebook">
-                                        <i aria-hidden="true" class="fa fa-facebook"></i>
+                                    <a class="btn btn-outline-secondary btn-sm" :href="saga.author.links.facebook" title="Facebook">
+                                        <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
                                     </a>
                                 </li>
                                 <li v-if="saga.author.links.twitter">
-                                    <a class="btn btn-blanc-fonce" :href="saga.author.links.twitter" title="Twitter">
-                                        <i aria-hidden="true" class="fa fa-twitter"></i>
+                                    <a class="btn btn-outline-secondary btn-sm" :href="saga.author.links.twitter" title="Twitter">
+                                        <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
                                     </a>
                                 </li>
                                 <li v-if="saga.author.links.netowiki">
-                                    <a class="btn btn-blanc-fonce" :href="saga.author.links.netowiki">
+                                    <a class="btn btn-outline-secondary btn-sm" :href="saga.author.links.netowiki">
                                         <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
                                     </a>
                                 </li>
                                 <li v-if="saga.author.links.topic">
-                                    <a class="btn btn-blanc-fonce" :href="saga.author.links.topic">
+                                    <a class="btn btn-outline-secondary btn-sm" :href="saga.author.links.topic">
                                         <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
                                     </a>
                                 </li>
@@ -176,7 +176,7 @@
                                 </div>
                                 <div class="col-2 col-md-2 col-lg-1 order-lg-4">
                                     <div class="d-flex align-items-center h-100 justify-content-center">
-                                        <div v-if="track.id == currentTrack.id" class="hfa-cercle-blanc-fonce texte-rouge">
+                                        <div v-if="track.id == currentTrack.id" class="hfa-cercle-blanc-fonce text-primary">
                                             <i aria-hidden="true" class="fa fa-volume-up"></i>
                                         </div>
                                         <div v-else class="hfa-cercle-blanc-fonce">
@@ -186,7 +186,7 @@
                                 </div>
                                 <div class="col-10 offset-2 col-md-2 offset-md-0 col-lg-3 order-lg-3">
                                     <div class="d-flex align-items-center h-100">
-                                        <span class="texte-rouge">
+                                        <span class="text-primary">
                                             <i aria-hidden="true" class="fa fa-clock-o"></i>
                                             <track-length :seconds="track.seconds" type="short"></track-length>
                                         </span>

@@ -4,7 +4,7 @@ $ BASE
 .layout-sidebar__contenu {
 
     @include media-breakpoint-down(md) {
-        background-color: $blanc-moyen;
+        background-color: $bleu-100;
     }
 
     @include media-breakpoint-up(lg) {

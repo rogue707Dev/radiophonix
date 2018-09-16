@@ -9,7 +9,7 @@
             <div class="row text-center mb-5">
                 <div class="col-12">
                     <i class="fa fa-bullhorn fa--sidebar fa--aide"></i>
-                    <p class="lead texte-blanc">
+                    <p class="lead text-white">
                         Selectionnez une saga puis un épisode pour l'ajouter à votre playlist
                     </p>
                 </div>
@@ -31,9 +31,11 @@
             <div class="lecteur__playlist__liste">
                 <template v-for="collection in currentCollections">
                     <!-- Le nom de la saison n'est affiché que s'il y en a plusieurs -->
-                    <div class="row lecteur__playlist__morceau"
+                    <div class="row"
                         v-if="currentSaga.stats.collections > 1">
-                        {{ collection.name }}
+                        <div class="col h1">
+                            {{ collection.name }}
+                        </div>
                     </div>
 
                     <div class="row lecteur__playlist__morceau a-curseur"

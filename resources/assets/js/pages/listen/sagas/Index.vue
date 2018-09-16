@@ -24,7 +24,7 @@
                         <img :src="genre.image.main" alt="" class="img__filtre-assombri">
                         <div class="pa__filtre-bleu"></div>
                         <div class="pa-centrer">
-                            <p class="texte-blanc">{{ genre.name }}</p>
+                            <p class="text-white">{{ genre.name }}</p>
                         </div>
                     </div>
                 </router-link>

@@ -20,7 +20,7 @@
             <p>
                 par
                 <router-link :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
-                    <span class="texte-orange-fonce">{{ saga.author.name }}</span>
+                    <span class="text-orange-300">{{ saga.author.name }}</span>
                 </router-link>
             </p>
         </div>

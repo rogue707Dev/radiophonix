@@ -2,7 +2,7 @@
 $ STANDARD
 ======================================================================================================================*/
 .layout-conteneur__main {
-    color: $bleu-clair;
+    color: $bleu-300;
     padding: $espacement-standard;
 
     @include media-breakpoint-down(md){

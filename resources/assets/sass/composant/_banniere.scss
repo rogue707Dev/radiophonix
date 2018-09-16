@@ -8,7 +8,7 @@ $banniere__padding-large: 20px;
     @include banniere__fond;
 
     //@include degrade-vertical--orange--fonce-moyen;
-    background: $blanc-moyen;
+    background: $bleu-100;
     &:before {
         background-image: url('/static/dev/images/motif-cercle-blanc.svg');
     }
@@ -16,7 +16,7 @@ $banniere__padding-large: 20px;
 
     padding: $banniere__padding-large;
     min-height: $largeur-sidebar;
-    color: $bleu-fonce;
+    color: $bleu-500;
 
     display: flex;
     flex-direction: column;

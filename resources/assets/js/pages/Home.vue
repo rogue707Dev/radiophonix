@@ -7,7 +7,7 @@
                 <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
                 <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
             </svg>
-            <div class="display-4 texte-bleu-clair">
+            <div class="display-4 text-body">
                 Toutes vos sagas au même endroit
             </div>
             <div class="d-flex justify-content-center my-5">
@@ -16,7 +16,7 @@
                         <div class="input-group">
                             <input class="form-control" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
                             <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">Rechercher</button>
+                                <button class="btn btn-homepage" type="button">Rechercher</button>
                             </div>
                         </div>
                     </form>
@@ -92,7 +92,7 @@
                                     <img :src="genre.image.main" alt="" class="img__filtre-assombri">
                                     <div class="pa__filtre-bleu"></div>
                                     <div class="pa-centrer">
-                                        <p class="texte-blanc">{{ genre.name }}</p>
+                                        <p class="text-white">{{ genre.name }}</p>
                                     </div>
                                 </div>
                             </router-link>
