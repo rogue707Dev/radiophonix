@@ -1,21 +1,14 @@
 /*======================================================================================================================
 $ BASE
+composent bootstrap stylé
 ======================================================================================================================*/
-.navigation {
-    @include reset-ul;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: ($espacement-bas-barre-navigation + $hauteur-barre-navigation + $espacement-standard);
-    width: 100%;
-
+.nav {
     @include barre-bas {
         z-index: z-index(0);
         background: $bleu-100;
         bottom: -($espacement-bas-barre-navigation - $espacement-bas-bouton-barre-navigation);
     }
 }
-
-
 
 
 /*======================================================================================================================
@@ -25,10 +18,13 @@ $ ITEM
 /*-----------------------------------------------------------------------------
 $ NORMAL
 -----------------------------------------------------------------------------*/
-.navigation li {
+.nav .nav-link
+{
+    padding: 0;
     text-transform: uppercase;
     color: $bleu-300;
     font-size: px2rem(16);
+    cursor: auto;
 
     margin-right: $espacement-standard--double;
     margin-bottom: $espacement-bas-bouton-barre-navigation;
@@ -38,13 +34,18 @@ $ NORMAL
     }
 }
 
-
-
+// si on utilise une liste pour le menu
+.nav .nav-item .nav-link:last-child {
+    margin-right: $espacement-standard--double;
+}
+.nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
 
 /*-----------------------------------------------------------------------------
 $ ACTIF
 -----------------------------------------------------------------------------*/
-.navigation li.actif {
+.nav .nav-link.active {
     color: $bleu-500;
 
     @include barre-bas {
@@ -53,19 +54,25 @@ $ ACTIF
     }
 }
 
+/*-----------------------------------------------------------------------------
+$ DISABLED
+-----------------------------------------------------------------------------*/
+.nav .nav-link.disabled {
+    color: $bleu-200;
+}
+
 
 
 
 /*-----------------------------------------------------------------------------
 $ SURVOL
 -----------------------------------------------------------------------------*/
-.navigation li {
-    @include survol(".actif"){
-        color: $bleu-400;
+.nav .nav-link:hover:not(.active):not(.disabled) {
+    cursor: pointer;
+    color: $bleu-400;
 
-        @include barre-bas {
-            z-index: z-index(1);
-            background-color: $orange-100;
-        }
-    };
+    @include barre-bas {
+        z-index: z-index(1);
+        background-color: $orange-100;
+    }
 }

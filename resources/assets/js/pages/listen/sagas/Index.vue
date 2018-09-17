@@ -1,13 +1,13 @@
 <template>
     <div class="layout-conteneur__main">
 
-        <ul class="navigation">
-            <li :class="{ actif: menu == 'popular' }" @click="switchMenu('popular', 'sagas', 'popular')">Populaire</li>
-            <li :class="{ actif: menu == 'recent' }" @click="switchMenu('recent', 'sagas', 'recent')">Nouveau</li>
-            <li :class="{ actif: menu == 'authors' }" @click="switchMenu('authors', 'authors', 'all')">Faiseurs</li>
-            <li :class="{ actif: menu == 'genres' }" @click="switchMenu('genres', 'genres', 'all')">Genres</li>
-            <li :class="{ actif: menu == 'discover' }" @click="switchMenu('discover', 'sagas', 'discover')">Découvrir</li>
-        </ul>
+        <nav class="nav mb-4">
+            <span class="nav-link" :class="{ active: menu == 'popular' }" @click="switchMenu('popular', 'sagas', 'popular')">Populaire</span>
+            <span class="nav-link" :class="{ active: menu == 'recent' }" @click="switchMenu('recent', 'sagas', 'recent')">Nouveau</span>
+            <span class="nav-link" :class="{ active: menu == 'authors' }" @click="switchMenu('authors', 'authors', 'all')">Faiseurs</span>
+            <span class="nav-link" :class="{ active: menu == 'genres' }" @click="switchMenu('genres', 'genres', 'all')">Genres</span>
+            <span class="nav-link" :class="{ active: menu == 'discover' }" @click="switchMenu('discover', 'sagas', 'discover')">Découvrir</span>
+        </nav>
 
         <saga-list v-show="menu == 'popular'" :sagas="popular"></saga-list>
 

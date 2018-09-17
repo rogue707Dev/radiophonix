@@ -5,6 +5,12 @@
             -> analyse en cour : la home page
             <ol>
                 <li>
+                    icon CC
+                </li>
+                <li>
+                    habillage Font Awesome
+                </li>
+                <li>
                     utiliser les card a la place des truc de saga ?
                 </li>
                 <li>
@@ -26,6 +32,37 @@
             </p>
         </div>
         <div class="layout-conteneur__main">
+
+
+
+
+
+
+            <h1 class="display-3">Nav</h1>
+            Peut etre aussi réalisé en ul li voir source
+            <nav class="nav mb-4">
+                <span class="nav-link active">active</span>
+                <span class="nav-link">normal</span>
+                <span class="nav-link">normal</span>
+                <span class="nav-link disabled">disabled</span>
+            </nav>
+            <!--
+            <ul class="nav justify-content-center mb-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">normal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">normal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">disabled</a>
+                </li>
+            </ul>
+            -->
+            <hr class="my-5">
 
 
 
@@ -1368,24 +1405,6 @@
         <div class="hfa-cercle-blanc-fonce">
             <i aria-hidden="true" class="fa fa-play"></i>
         </div>
-
-
-
-
-
-
-
-        <hr class="my-4">
-        <h1 class="display-3">Navigation</h1>
-        <div role="alert" class="alert alert-danger">
-            Refaire en bootstrap ?
-        </div>
-        <ul class="navigation">
-            <li class="actif">Populaire</li>
-            <li>Nouveau</li>
-            <li>Type</li>
-            <li>Playlist</li>
-        </ul>
 
 
 

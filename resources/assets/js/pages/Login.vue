@@ -5,10 +5,10 @@
         <div class="login-conteneur">
 
 
-                <ul class="navigation">
-                    <li class="actif">Connexion</li>
-                    <li>Inscription</li>
-                </ul>
+                <nav class="nav mb-4">
+                    <span class="nav-link active">Connexion</span>
+                    <span class="nav-link">Inscription</span>
+                </nav>
 
                 <div class="row">
                     <div class="col">
