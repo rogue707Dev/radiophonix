@@ -117,7 +117,7 @@
                                 <i v-if="saga.author.type === 'user'" aria-hidden="true" class="fa fa-user"></i>
                                 {{ saga.author.name }}
                             </p>
-                            <p><text-ellispis :text="saga.author.bio" :size="200"></text-ellispis></p>
+                            <p><text-ellipsis :text="saga.author.bio" :size="200"></text-ellipsis></p>
                             <router-link v-if="saga.author.id"
                                          :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }"
                                          class="btn btn-outline-primary btn-sm mt-3">
@@ -223,14 +223,14 @@ import { licenceUrl } from '~/lib/services/licence';
 import TrackLength from '~/components/track/Length.vue';
 import Banner from '~/components/content/Banner.vue';
 import LicenceIcon from '~/components/licence/LicenceIcon.vue';
-import TextEllispis from '~/components/text/TextEllipsis.vue';
+import TextEllipsis from '~/components/text/TextEllipsis.vue';
 
 export default {
     components: {
         TrackLength,
         Banner,
         LicenceIcon,
-        TextEllispis,
+        TextEllipsis,
     },
 
     data() {
