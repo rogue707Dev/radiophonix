@@ -10,17 +10,15 @@
             <div class="display-4 text-body">
                 Toutes vos sagas au même endroit
             </div>
-            <div class="d-flex justify-content-center my-5">
-                <div class="col-10 col-md-6 col-xl-4">
-                    <form @submit.prevent="search">
-                        <div class="input-group">
-                            <input class="form-control" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
-                            <div class="input-group-append">
-                                <button class="btn btn-homepage" type="button">Rechercher</button>
-                            </div>
+            <div class="search-homepage my-5">
+                <form @submit.prevent="search">
+                    <div class="input-group">
+                        <input class="form-control" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
+                        <div class="input-group-append">
+                            <button class="btn btn-homepage" type="button">Rechercher</button>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
         </div>
 
