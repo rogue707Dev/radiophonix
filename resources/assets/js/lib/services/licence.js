@@ -1,4 +1,8 @@
 function normalize(licence) {
+    if (licence === 'CC BY') {
+        return 'cc-BY';
+    }
+
     licence = licence.replace('2.0 FR', '');
     licence = licence.replace('3.0 FR', '');
     licence = licence.trim();
