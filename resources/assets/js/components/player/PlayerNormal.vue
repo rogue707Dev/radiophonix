@@ -32,7 +32,7 @@
             ------------------------------------------>
             <div class="text-center text-white mt-4">
                 <p class="lead text-white">
-                    <text-ellispis :text="currentTrack.title" :size="32"></text-ellispis>
+                    <text-marquee :text="currentTrack.title" />
                 </p>
                 <p>
                     <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: currentSaga.slug } }">
@@ -128,17 +128,18 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
-import api from '~/lib/api'
 import RadialProgressBar from '~/components/RadialProgressBar.vue';
 import TextEllispis from '~/components/text/TextEllipsis.vue';
 import TrackLength from '~/components/track/Length.vue';
 import Player from '~/lib/Player';
+import TextMarquee from '~/components/text/TextMarquee.vue';
 
 export default {
     components: {
         RadialProgressBar,
         TextEllispis,
         TrackLength,
+        TextMarquee,
     },
 
     data() {
