@@ -42,9 +42,8 @@
             <h2 class="h1">Creative Commons</h2>
             <a href="#" class="skin-icon-cc">
                 <i class="cc cc-BY"></i>
-                <i class="cc cc-by"></i>
-                <i class="cc cc-by-nc-nd"></i>
                 <i class="cc cc-by-nc"></i>
+                <i class="cc cc-by-nc-nd"></i>
                 <i class="cc cc-by-nc-sa"></i>
             </a>
             <h2 class="h1 mt-3">Font Awesome</h2>

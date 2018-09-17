@@ -3,11 +3,12 @@ $ CONTENEUR
 ======================================================================================================================*/
 .lecteur {
     margin: 0 auto;
-    padding: 20px 0 $padding-layout-sidebar;
+    padding: 20px 20px $padding-layout-sidebar;
 
     @include media-breakpoint-down(md){
         background-color: $bleu-500;
         width: 100%;
+        text-align: center;
     }
 
     @include media-breakpoint-up(lg) {
@@ -15,8 +16,6 @@ $ CONTENEUR
         height: 100vh;
         overflow-y: auto;
         overflow-x: hidden;
-        padding-right: 20px;
-        padding-left: 20px;
 
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
             height: $hauteur-lecteur;
