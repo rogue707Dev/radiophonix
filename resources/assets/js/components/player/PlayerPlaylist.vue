@@ -8,7 +8,7 @@
 
             <div class="row text-center mb-5">
                 <div class="col-12">
-                    <i class="fa fa-bullhorn fa--sidebar fa--aide"></i>
+                    <i class="fa fa-bullhorn var--sidebar var--aide"></i>
                     <p class="lead text-white">
                         Selectionnez une saga puis un épisode pour l'ajouter à votre playlist
                     </p>

@@ -51,7 +51,7 @@
             </div>
 
             <div v-if="saga.licence">
-                <a :href="licenceUrl" class="banniere__icon-cc">
+                <a :href="licenceUrl" class="skin-icon-cc">
                     <licence-icon :licence="saga.licence"></licence-icon>
                 </a>
             </div>
@@ -187,10 +187,10 @@
                                 </div>
                                 <div class="col-2 col-md-2 col-lg-1 order-lg-4">
                                     <div class="d-flex align-items-center h-100 justify-content-center">
-                                        <div v-if="track.id == currentTrack.id" class="hfa-cercle-blanc-fonce text-primary">
+                                        <div v-if="track.id == currentTrack.id" class="skin-icon-fa__cercle text-primary">
                                             <i aria-hidden="true" class="fa fa-volume-up"></i>
                                         </div>
-                                        <div v-else class="hfa-cercle-blanc-fonce">
+                                        <div v-else class="skin-icon-fa__cercle">
                                             <i aria-hidden="true" class="fa fa-play"></i>
                                         </div>
                                     </div>

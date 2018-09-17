@@ -42,7 +42,7 @@
                                     </div>
                                     <div class="zone-interactive__action">
                                         <a href="" class="zone-interactive__bouton">
-                                            <i aria-hidden="true" class="fa fa-heart actif"></i>
+                                            <i aria-hidden="true" class="fa fa-heart var--actif"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -274,7 +274,7 @@
                                     </div>
                                     <div class="zone-interactive__action">
                                         <a class="zone-interactive__bouton" href="">
-                                            <i aria-hidden="true" class="fa fa-heart actif"></i>
+                                            <i aria-hidden="true" class="fa fa-heart var--actif"></i>
                                         </a>
                                         <a class="zone-interactive__bouton" href="">
                                             <i aria-hidden="true" class="fa fa-plus"></i>

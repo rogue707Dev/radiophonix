@@ -5,12 +5,6 @@
             -> analyse en cour : la home page
             <ol>
                 <li>
-                    icon CC
-                </li>
-                <li>
-                    habillage Font Awesome
-                </li>
-                <li>
                     utiliser les card a la place des truc de saga ?
                 </li>
                 <li>
@@ -32,6 +26,35 @@
             </p>
         </div>
         <div class="layout-conteneur__main">
+
+
+
+
+
+
+
+
+
+
+
+            <hr data-v-5f801cbc="" class="my-4">
+            <h1 class="display-3">Skin icon</h1>
+            <h2 class="h1">Creative Commons</h2>
+            <a href="#" class="skin-icon-cc">
+                <i class="cc cc-BY"></i>
+                <i class="cc cc-by"></i>
+                <i class="cc cc-by-nc-nd"></i>
+                <i class="cc cc-by-nc"></i>
+                <i class="cc cc-by-nc-sa"></i>
+            </a>
+            <h2 class="h1 mt-3">Font Awesome</h2>
+            <div class="skin-icon-fa__cercle">
+                <i aria-hidden="true" class="fa fa-volume-up"></i>
+            </div>
+            <div class="skin-icon-fa__cercle">
+                <i aria-hidden="true" class="fa fa-play"></i>
+            </div>
+            <hr class="my-5">
 
 
 
@@ -1130,7 +1153,7 @@
                                 </div>
                                 <div class="zone-interactive__action">
                                     <a href="" class="zone-interactive__bouton">
-                                        <i aria-hidden="true" class="fa fa-heart actif"></i>
+                                        <i aria-hidden="true" class="fa fa-heart var--actif"></i>
                                     </a>
                                 </div>
                             </div>
@@ -1327,7 +1350,7 @@
                                 </div>
                                 <div class="zone-interactive__action">
                                     <a class="zone-interactive__bouton" href="">
-                                        <i aria-hidden="true" class="fa fa-heart actif"></i>
+                                        <i aria-hidden="true" class="fa fa-heart var--actif"></i>
                                     </a>
                                     <a class="zone-interactive__bouton" href="">
                                         <i aria-hidden="true" class="fa fa-plus"></i>
@@ -1382,29 +1405,6 @@
 
 
 
-
-
-
-
-        <hr data-v-5f801cbc="" class="my-4">
-        <h1 class="display-3">Icon cc dans banniere</h1>
-        <div role="alert" class="alert alert-danger">
-            atomisé ou a mettre avec toute la banniere
-        </div>
-        <div class="banniere__icon-cc">
-            <i class="cc cc-BY"></i>
-        </div>
-
-
-
-        <hr data-v-5f801cbc="" class="my-4">
-        <h1 class="display-3">Habillage icon "Font Awesome"</h1>
-        <div class="hfa-cercle-blanc-fonce">
-            <i aria-hidden="true" class="fa fa-volume-up"></i>
-        </div>
-        <div class="hfa-cercle-blanc-fonce">
-            <i aria-hidden="true" class="fa fa-play"></i>
-        </div>
 
 
 

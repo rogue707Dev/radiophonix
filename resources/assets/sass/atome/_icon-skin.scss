@@ -1,28 +1,23 @@
 /*======================================================================================================================
-$ AIDE
+$ Creative Commons
+a mettre en conteneur d'icone CC
 ======================================================================================================================*/
-.fa.var--aide {
-    font-size: px2rem(100);
-    color: $blanc;
+.skin-icon-cc {
+    font-size: px2rem(35);
+    color: $bleu-300;
 }
-
-
 
 
 /*======================================================================================================================
-$ COEUR ROUGE quand ACTIF
+$ Font Awesome
+a mettre en conteneur d'icone FA
 ======================================================================================================================*/
-.fa-heart.var--actif {
-    color: $primary;
+.skin-icon-fa__cercle {
+    @include btn-round(25px);
+    border:1px solid $bleu-200;
+    color: $bleu-300;
+
+    .fa-play {
+        padding-left: 3px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
