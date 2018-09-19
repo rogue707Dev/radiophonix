@@ -72,7 +72,7 @@ class Player {
 
     time() {
         if (!this.currentTrack) {
-            return '';
+            return '00:00';
         }
 
         let seek = this.currentHowl().seek() || 0;
@@ -106,6 +106,10 @@ class Player {
     }
 
     formatTime(secs) {
+        if (secs === 0) {
+            return '00:00';
+        }
+
         let hours = Math.floor(secs / 3600);
 
         secs %= 3600;

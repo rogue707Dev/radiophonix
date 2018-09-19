@@ -53,7 +53,7 @@
             Progession
             ------------------------------------------>
             <div class="lecteur__progression text-white h5 mt-4">
-                {{ time }}
+                <span>{{ time }}</span>
                 <progress class="lecteur__progression__barre"
                           @click="seek"
                           :value="currentPercentage"
@@ -144,7 +144,7 @@ export default {
 
     data() {
         return {
-            time: '',
+            time: '00:00',
             totalSteps: 100,
             currentPercentage: 0,
         }
