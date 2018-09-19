@@ -49,7 +49,7 @@
                             <template v-else>{{ track.number }}</template>
                         </div>
                         <div class="col">
-                            <text-ellispis :text="track.title" :size="27"></text-ellispis>
+                            <text-ellispis :text="track.title" :size="25"></text-ellispis>
                             <p class="h6" v-if="currentCollections.length > 1">
                                 Saison {{ collection.number }} - {{ collection.name }}
                             </p>
