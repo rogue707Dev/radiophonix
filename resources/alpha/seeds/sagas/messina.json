@@ -169,6 +169,92 @@
                     "chapters": []
                 }
             ]
+        },
+
+        {
+            "number": "3",
+            "name": "Chapitre 3 - Messina en folie (l'Age des Bleuets des Champs, ou l'ABC)",
+            "synopsis": "Après l'Age des Amaryllis, à l'Age des Bleuets des Champs, la fée et l'aventurier reviennent à Messina, où les habitants sont marqués par l'empreinte des sept péchés. Ils devront retrouver leurs anciens compagnons, traverser les épreuves jusqu'à la Poutie, et combattre leurs propres démons.",
+            "type": "saison",
+            "tracks": [
+                {
+                    "number": "1",
+                    "title": "Belphégor",
+                    "synopsis": "",
+                    "published_at": "2008-11-11T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "1m57s",
+                    "file": "messina/Messina 3 - Episode 1.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "2",
+                    "title": "Lucifer",
+                    "synopsis": "",
+                    "published_at": "2009-03-13T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m13s",
+                    "file": "messina/Messina 3 - Episode 2.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "3",
+                    "title": "Belzébuth",
+                    "synopsis": "",
+                    "published_at": "2009-12-12T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m44s",
+                    "file": "messina/Messina 3 - Episode 3.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "4",
+                    "title": "Asmodée",
+                    "synopsis": "",
+                    "published_at": "2009-12-21T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "5m47s",
+                    "file": "messina/Messina 3 - Episode 4.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "5",
+                    "title": "Mammon",
+                    "synopsis": "",
+                    "published_at": "2009-12-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "11m46s",
+                    "file": "messina/Messina 3 - Episode 5.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "6",
+                    "title": "Satan",
+                    "synopsis": "",
+                    "published_at": "2010-02-06T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "4m32s",
+                    "file": "messina/Messina 3 - Episode 6.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "7",
+                    "title": "Leviathan",
+                    "synopsis": "",
+                    "published_at": "2010-03-30T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "10m14s",
+                    "file": "messina/Messina 3 - Episode 7.mp3",
+                    "percentages": [],
+                    "chapters": []
+                }
+            ]
         }
     ]
 }
