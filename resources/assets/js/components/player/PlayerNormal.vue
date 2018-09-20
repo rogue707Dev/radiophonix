@@ -213,7 +213,7 @@ export default {
 
     created() {
         this.startLoop();
-        window.addEventListener('beforeunload', this.beforeClosing);
+        // window.addEventListener('beforeunload', this.beforeClosing);
     }
 }
 </script>
