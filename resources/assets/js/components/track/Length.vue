@@ -59,7 +59,7 @@ export default {
                 getTimeString(seconds, 'seconde', this.type),
             ].filter(time => time.length > 0);
 
-            if (seconds === 0) {
+            if (parseInt(seconds) === 0) {
                 if (this.type === 'number') {
                     res.push('00');
                 } else {
