@@ -21,6 +21,425 @@
     ],
     "author": "Mitch DSM",
     "collections": [
-
+        {
+            "number": "1",
+            "name": "La Matruc",
+            "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
+            "type": "saison",
+            "tracks": [
+                {
+                    "number": "1",
+                    "title": "Épisode 1",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "2m47s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick01.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "2",
+                    "title": "Épisode 2",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "2m53s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick02.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "3",
+                    "title": "Épisode 3",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m4s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick03.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "4",
+                    "title": "Épisode 4",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m12s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick04.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "5",
+                    "title": "Épisode 5",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m9s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick05.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "6",
+                    "title": "Épisode 6",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "5m47s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick06.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "7",
+                    "title": "Épisode 7",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "6m20s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick07.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "8",
+                    "title": "Épisode 8",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m18s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick08.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "9",
+                    "title": "Épisode 9",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "6m2s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick09.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "10",
+                    "title": "Épisode 10",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m31s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick10.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "11",
+                    "title": "Épisode 11",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "6m21s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick11.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "12",
+                    "title": "Épisode 12",
+                    "synopsis": "",
+                    "published_at": "2000-07-22T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "9m49s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick12.mp3",
+                    "percentages": [],
+                    "chapters": []
+                }
+            ]
+        },
+        {
+            "number": "2",
+            "name": "La Matruc contre-attaque",
+            "synopsis": "Suite à la conclusion de la première saison, Eo, Cris d'ET, Morve d'Anus, et Tang sont en train de réparer leur vaisseau Endaleship, qui flotte au milieu de l'océan. Mais ils sont dérangés par l'arrivée d'un autre engin, dont les occupants s'avèrent être des alliés. L'histoire que l'on pensait finie, ne fait alors que commencer...",
+            "type": "saison",
+            "tracks": [
+                {
+                    "number": "13",
+                    "title": "Épisode 13",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m32s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick13.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "14",
+                    "title": "Épisode 14",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m39s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick14.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "15",
+                    "title": "Épisode 15",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m14s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick15.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "16",
+                    "title": "Épisode 16",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "4m7s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick16.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "17",
+                    "title": "Épisode 17",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "4m50s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick17.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "18",
+                    "title": "Épisode 18",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m36s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick18.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "19",
+                    "title": "Épisode 19",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m17s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick19.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "20",
+                    "title": "Épisode 20",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m15s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick20.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "21",
+                    "title": "Épisode 21",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m47s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick21.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "22",
+                    "title": "Épisode 22",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "4m5s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick22.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "23",
+                    "title": "Épisode 23",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "8m10s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick23.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "24",
+                    "title": "Épisode 24",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m9s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick24.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "25",
+                    "title": "Épisode 25",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m23s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick25.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "26",
+                    "title": "Épisode 26",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "5m43s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick26.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "27-28",
+                    "title": "Épisode 27-28",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "5m4s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick27_28.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "29",
+                    "title": "Épisode 29",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m34s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick29.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "30",
+                    "title": "Épisode 30",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "4m13s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick30.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "31",
+                    "title": "Épisode 31",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "3m25s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick31.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "32",
+                    "title": "Épisode 32",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "5m14s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick32.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "33",
+                    "title": "Épisode 33",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "5m14s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick33.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "34",
+                    "title": "Épisode 34",
+                    "synopsis": "",
+                    "published_at": "2007-01-26T00:00:00+00:00",
+                    "status": 3,
+                    "seconds": "6m1s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matrick34.mp3",
+                    "percentages": [],
+                    "chapters": []
+                }
+            ]
+        },
+        {
+            "number": "3",
+            "name": "Bonus",
+            "synopsis": "",
+            "type": "bonus",
+            "tracks": [
+                {
+                    "number": "1",
+                    "title": "Matruc - la parodie de Matrix - Bande annonce",
+                    "synopsis": "",
+                    "published_at": "2000-07-22",
+                    "status": 3,
+                    "seconds": "1m54s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matruc_trailer.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "2",
+                    "title": "Matrick - Teaser La matruc contre-attaque",
+                    "synopsis": "",
+                    "published_at": "2007-01-01",
+                    "status": 3,
+                    "seconds": "48s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matruc2_teaser.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "3",
+                    "title": "Matrick - La matruc - L'interview débile",
+                    "synopsis": "",
+                    "published_at": "2007-11-30",
+                    "status": 3,
+                    "seconds": "1m45s",
+                    "file": "http://www.doevell.org/ecoute/matrick/matruc_interviewdeb.mp3",
+                    "percentages": [],
+                    "chapters": []
+                }
+            ]
+        }
     ]
 }
