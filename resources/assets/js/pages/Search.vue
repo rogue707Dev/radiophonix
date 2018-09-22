@@ -10,142 +10,100 @@
                 <!-- 4max : mise en avant -->
                 <div class="layout-resultat-recherche__zoom">
 
-                    <span class="h1 mb-4">Meilleurs résultats</span>
+                    <h1 class="h1 mb-4">Meilleurs résultats</h1>
 
+                    <div class="list-card">
 
-
-                    <ul class="liste-resultat">
-
-                        <li class="liste-resultat__item-zoom" v-if="highlights.saga.id">
-                            <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: highlights.saga.slug } }" class="text-center">
-                                <div class="zone-interactive__border d-flex">
-                                    <div class="flex-grow-1">
-                                        <div class="jaquette--moyen jaquette--saga">
-                                            <img :src="highlights.saga.images.cover.main" :alt="highlights.saga.name" width="340px" height="340px">
-                                        </div>
-                                    </div>
+                        <router-link class="card border-saga"
+                                     v-if="highlights.saga.id"
+                                     :to="{ name: 'listen.sagas.show', params: { idOrSlug: highlights.saga.slug } }">
+                            <div class="card-jacket--saga bg-saga">
+                                <div class="jaquette--card">
+                                    <img :src="highlights.saga.images.cover.main" :alt="highlights.saga.name">
                                 </div>
-                                <div class="zone-interactive border-top-0">
-                                    <div class="zone-interactive__action">
-                                        <a href="" class="zone-interactive__bouton">
-                                            <i aria-hidden="true" class="fa fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <div class="zone-interactive__info p-1">
-                                        <p class="h3">{{ highlights.saga.name }}</p>
-                                        <p class="text-orange-300">
-                                            <saga-stats
-                                                :stats="highlights.saga.stats"
-                                                :with-icon="true">
-                                            </saga-stats>
-                                        </p>
-                                    </div>
-                                    <div class="zone-interactive__action">
-                                        <a href="" class="zone-interactive__bouton">
-                                            <i aria-hidden="true" class="fa fa-heart var--actif"></i>
-                                        </a>
-                                    </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="h3 text-body">
+                                    {{ highlights.saga.name }}
+                                    <span class="badge badge-light badge-sm">Saga</span>
+                                </p>
+                                <p class="text-primary h5">
+                                    <saga-stats
+                                            :stats="highlights.saga.stats"
+                                            :with-icon="true">
+                                    </saga-stats>
+                                </p>
+                            </div>
+                        </router-link>
+
+
+                        <router-link class="card border-saga"
+                             v-if="highlights.author.id"
+                             :to="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }">
+                            <div class="card-jacket--faiseur bg-saga">
+                                <div class="jaquette--moyen jaquette--faiseur">
+                                    <img :src="highlights.author.picture.thumb" :alt="highlights.author.name">
                                 </div>
-                            </router-link>
-                        </li>
+                            </div>
+                            <div class="card-body">
+                                <p class="h3 text-body">
+                                    {{ highlights.author.name }}
+                                    <span class="badge badge-light badge-sm">Faiseur</span>
+                                </p>
+                                <p class="text-primary h5">
+                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                    {{ highlights.author.stats.sagas }} Séries
+                                </p>
+                            </div>
+                        </router-link>
 
 
-                        <li class="liste-resultat__item-zoom" v-if="highlights.author.id">
-                            <router-link :to="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }" class="text-center">
-                                <div class="zone-interactive__border d-flex">
-                                    <div class="flex-grow-1">
-                                        <div class="jaquette--moyen jaquette--faiseur">
-                                            <img :src="highlights.author.picture.thumb" :alt="highlights.author.name" width="340px" height="340px">
-                                        </div>
-                                    </div>
+                        <div class="card border-saga"
+                                     v-if="highlights.track.id">
+                            <div class="card-jacket--episode bg-saga">
+                                <div class="jaquette--moyen jaquette--episode">
+                                    <img :src="highlights.track.collection.saga.images.cover.thumb" :alt="highlights.track.title">
                                 </div>
-                                <div class="zone-interactive border-top-0">
-                                    <div class="zone-interactive__action">
-                                        <a href="" class="zone-interactive__bouton">
-                                            <i aria-hidden="true" class="fa fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <div class="zone-interactive__info p-1">
-                                        <p class="h3">{{ highlights.author.name }}</p>
-                                        <p class="text-orange-300">
-                                            <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                            {{ highlights.author.stats.sagas }} Séries
-                                        </p>
-                                    </div>
-                                    <div class="zone-interactive__action">
-                                        <a href="" class="zone-interactive__bouton">
-                                            <i aria-hidden="true" class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="h3 text-body">
+                                    {{ highlights.track.title }}
+                                    <span class="badge badge-light badge-sm">Episode</span>
+                                </p>
+                                <p class="text-primary h5">
+                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                    <track-length :seconds="highlights.track.seconds" type="short"></track-length>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <router-link class="card border-saga"
+                                     v-if="highlights.genre.id"
+                                     :to="{ name: 'listen.genres.show', params: { id: highlights.genre.id } }">
+                            <div class="card-jacket--genre bg-saga">
+                                <div class="jaquette--moyen jaquette--genre">
+                                    <img :src="highlights.genre.image.main" :alt="highlights.genre.name">
                                 </div>
-                            </router-link>
-                        </li>
-
-
-                        <li class="liste-resultat__item-zoom" v-if="highlights.track.id">
-                            <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="text-center">
-                                <div class="zone-interactive__border d-flex">
-                                    <div class="flex-grow-1">
-                                        <div class="jaquette--moyen jaquette--episode">
-                                            <img :src="highlights.track.collection.saga.images.cover.thumb" :alt="highlights.track.title" width="340px" height="340px">
-                                        </div>
-                                    </div>
+                                <div class="pa-centrer">
+                                    <svg width="167px" height="145px">
+                                        <use xlink:href="#contour-genre"></use>
+                                    </svg>
                                 </div>
-                                <div class="zone-interactive border-top-0">
-                                    <div class="zone-interactive__action">
-                                        <a href="" class="zone-interactive__bouton">
-                                            <i aria-hidden="true" class="fa fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <div class="zone-interactive__info p-1">
-                                        <p class="h3">{{ highlights.track.title }}</p>
-                                        <p class="text-orange-300">
-                                            <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                            <track-length :seconds="highlights.track.seconds" type="short"></track-length>
-                                        </p>
-                                    </div>
-                                    <div class="zone-interactive__action">
-                                        <a href="" class="zone-interactive__bouton">
-                                            <i aria-hidden="true" class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
+                            </div>
+                            <div class="card-body">
+                                <p class="h3 text-body">
+                                    {{ highlights.genre.name }}
+                                    <span class="badge badge-light badge-sm">Genre</span>
+                                </p>
+                                <p class="text-primary h5">
+                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                    XXX Séries
+                                </p>
+                            </div>
+                        </router-link>
 
-
-                        <li class="liste-resultat__item-zoom" v-if="highlights.genre.id">
-                            <router-link :to="{ name: 'listen.genres.show', params: { id: highlights.genre.id } }" class="text-center">
-                                <div class="zone-interactive__border d-flex">
-                                    <div class="flex-grow-1">
-                                        <div class="jaquette--moyen jaquette--genre">
-                                            <img :src="highlights.genre.image.main" :alt="highlights.genre.name" width="340px" height="340px">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="zone-interactive border-top-0">
-                                    <div class="zone-interactive__action">
-                                        <a href="" class="zone-interactive__bouton">
-                                            <i aria-hidden="true" class="fa fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <div class="zone-interactive__info p-1">
-                                        <p class="h3">{{ highlights.genre.name }}</p>
-                                        <p class="text-orange-300">
-                                            <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
-                                        </p>
-                                    </div>
-                                    <div class="zone-interactive__action">
-                                        <a href="" class="zone-interactive__bouton">
-                                            <i aria-hidden="true" class="fa fa-heart"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </router-link>
-                        </li>
-
-
-                    </ul>
+                    </div>
 
 
 

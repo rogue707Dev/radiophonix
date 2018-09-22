@@ -1,0 +1,119 @@
+/*======================================================================================================================
+$ LISTE DE CARTE
+======================================================================================================================*/
+$largeur-card: 200px;
+
+.list-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.list-card .card {
+    width: $largeur-card;
+}
+
+/*======================================================================================================================
+$ BORDURE ER BACKGROUND CUSTOM
+======================================================================================================================*/
+$color-card: $bleu-100;
+
+.border-saga {
+    border-color: $color-card;
+
+    @include survol(){
+        border-color: $bleu-200 !important;
+/*
+        [class*=card-jacket--]:after {
+            border-color: $primary;
+        }
+
+        .card-jacket--genre svg {
+            fill: $primary;
+        }
+*/
+    }
+
+
+}
+.bg-saga {
+    background-color: $color-card;
+}
+
+/*======================================================================================================================
+$ HEADER VISUAL
+======================================================================================================================*/
+[class*=card-jacket--] {
+    position: relative;
+    height: $largeur-card;
+    width: ($largeur-card - ($card-border-width * 2));// le fond etant en absolute, il ne doit pas se superposer au bordure
+
+    .jaquette--moyen,
+    .jaquette--card{
+        @include pa-centre;
+    }
+
+}
+
+$couleur-contour-card-jacket: $bleu-200;
+
+@mixin card-jacket-contour {
+    content: "";
+    display: block;
+    @include pa-centre;
+    border: 1px solid $couleur-contour-card-jacket;
+}
+
+
+.card-jacket--faiseur:after {
+    @include card-jacket-contour;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+}
+
+.card-jacket--genre svg {
+    fill: $couleur-contour-card-jacket;
+}
+
+.card-jacket--saga:after {
+    @include card-jacket-contour;
+    width: 150px;
+    height: 150px;
+}
+
+.card-jacket--episode:after {
+    @include card-jacket-contour;
+    @include pa-centre(rotate(45deg));
+    border-radius: 8px;
+    width: 130px;
+    height: 130px;
+
+}
+
+/*======================================================================================================================
+$ BOUTON
+======================================================================================================================*/
+.card-jacket__button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 10px 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    color: $couleur-contour-card-jacket;
+
+    .fa {
+        @include survol(){
+            color: $primary;
+        }
+    }
+    .fa.fa-heart.var--actif {
+        @include survol(){
+            color: $couleur-contour-card-jacket;
+        }
+    }
+
+}

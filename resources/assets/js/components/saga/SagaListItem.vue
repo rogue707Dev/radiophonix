@@ -1,37 +1,34 @@
 <template>
-    <li>
-        <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }">
-            <div class="jaquette--grande jaquette--saga zone-interactive__border">
-                <img :src="saga.images.cover.main" alt="" height="340px" width="340px">
+    <router-link
+            class="card border-saga"
+            :to="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }">
+        <div class="card-jacket--saga bg-saga">
+            <div class="jaquette--card">
+                <img :src="saga.images.cover.main" alt="" width="340px" height="340px">
             </div>
-            <div class="zone-interactive zone-interactive__colle-cadre border-top-0">
-                <div class="zone-interactive__info p-1">
-                    <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }">
-                        <p class="h3 text-body">{{ saga.name }}</p>
-                        <p class="text-primary h5">
-                            <saga-stats
-                                :stats="saga.stats"
-                                :with-icon="true">
-                            </saga-stats>
-                        </p>
-                    </router-link>
-                    <p>
-                        <router-link :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
-                            Par {{ saga.author.name }}
-                        </router-link>
-                    </p>
-                </div>
-                <div class="zone-interactive__action">
-                    <a class="zone-interactive__bouton" href="">
-                        <i aria-hidden="true" class="fa fa-heart"></i>
-                    </a>
-                    <a class="zone-interactive__bouton" href="">
-                        <i aria-hidden="true" class="fa fa-plus"></i>
-                    </a>
-                </div>
+            <div class="card-jacket__button">
+                <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
+                <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
             </div>
-        </router-link>
-    </li>
+        </div>
+        <div class="card-body">
+            <p class="h3 text-body">
+                {{ saga.name }}
+                <span class="badge badge-light badge-sm">Saga</span>
+            </p>
+            <p class="text-primary h5">
+                <saga-stats
+                        :stats="saga.stats"
+                        :with-icon="true">
+                </saga-stats>
+            </p>
+            <p>
+                <router-link :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
+                    Par {{ saga.author.name }}
+                </router-link>
+            </p>
+        </div>
+    </router-link>
 </template>
 
 <script>

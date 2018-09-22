@@ -1,11 +1,11 @@
 <template>
-    <ul class="liste-jaquette saga">
+    <div class="list-card">
         <saga-list-item
             v-for="saga in sagas"
             :saga="saga"
             :key="saga.id">
         </saga-list-item>
-    </ul>
+    </div>
 </template>
 
 <script>

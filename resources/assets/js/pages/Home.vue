@@ -114,21 +114,30 @@
                 <div class="col-12">
                     <h2 class="h1">Découvrez quelques genres</h2>
 
-                    <div class="row my-5">
-
-                        <div class="col text-center"
-                             v-for="genre in getGenresRow(0)" :key="genre.id">
-                            <router-link :to="{ name: 'listen.genres.show', params: { id: genre.id } }">
-                                <div class="pr jaquette--genre jaquette--grande">
-                                    <img :src="genre.image.main" alt="" class="img__filtre-assombri">
-                                    <div class="pa__filtre-bleu"></div>
-                                    <div class="pa-centrer">
-                                        <p class="text-white">{{ genre.name }}</p>
-                                    </div>
+                    <div class="list-card my-5">
+                        <router-link class="card border-saga"
+                                     v-for="genre in getGenresRow(0)" :key="genre.id"
+                                     :to="{ name: 'listen.genres.show', params: { id: genre.id } }">
+                            <div class="card-jacket--genre bg-saga">
+                                <div class="jaquette--moyen jaquette--genre">
+                                    <img :src="genre.image.main" alt="">
                                 </div>
-                            </router-link>
-                        </div>
-
+                                <div class="pa-centrer">
+                                    <svg width="167px" height="145px">
+                                        <use xlink:href="#contour-genre"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="h3 text-body">
+                                    {{ genre.name }}
+                                    <span class="badge badge-light badge-sm">Genre</span>
+                                </p>
+                                <p class="text-primary h5">
+                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
+                                </p>
+                            </div>
+                        </router-link>
                     </div>
 
                 </div>

@@ -2,7 +2,7 @@
 $ BASE
 composent bootstrap stylé
 ======================================================================================================================*/
-.nav {
+.nav:not(.nav-pills) {
     @include barre-bas {
         z-index: z-index(0);
         background: $bleu-100;
@@ -18,7 +18,7 @@ $ ITEM
 /*-----------------------------------------------------------------------------
 $ NORMAL
 -----------------------------------------------------------------------------*/
-.nav .nav-link
+.nav:not(.nav-pills) .nav-link
 {
     padding: 0;
     text-transform: uppercase;
@@ -35,17 +35,17 @@ $ NORMAL
 }
 
 // si on utilise une liste pour le menu
-.nav .nav-item .nav-link:last-child {
+.nav:not(.nav-pills) .nav-item .nav-link:last-child {
     margin-right: $espacement-standard--double;
 }
-.nav .nav-item:last-child .nav-link {
+.nav:not(.nav-pills) .nav-item:last-child .nav-link {
     margin-right: 0;
 }
 
 /*-----------------------------------------------------------------------------
 $ ACTIF
 -----------------------------------------------------------------------------*/
-.nav .nav-link.active {
+.nav:not(.nav-pills) .nav-link.active {
     color: $bleu-500;
 
     @include barre-bas {
@@ -57,7 +57,7 @@ $ ACTIF
 /*-----------------------------------------------------------------------------
 $ DISABLED
 -----------------------------------------------------------------------------*/
-.nav .nav-link.disabled {
+.nav:not(.nav-pills) .nav-link.disabled {
     color: $bleu-200;
 }
 
@@ -67,7 +67,7 @@ $ DISABLED
 /*-----------------------------------------------------------------------------
 $ SURVOL
 -----------------------------------------------------------------------------*/
-.nav .nav-link:hover:not(.active):not(.disabled) {
+.nav:not(.nav-pills) .nav-link:hover:not(.active):not(.disabled) {
     cursor: pointer;
     color: $bleu-400;
 
