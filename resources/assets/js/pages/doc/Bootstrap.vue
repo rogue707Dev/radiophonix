@@ -93,8 +93,10 @@
 
 
             <div class="list-card">
-                <div class="card border-saga">
-                    <div class="card-jacket--episode bg-saga">
+
+
+                <a href="#" class="card">
+                    <div class="card-jacket--episode">
                         <div class="jaquette--moyen jaquette--episode">
                             <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
                         </div>
@@ -112,10 +114,10 @@
                             <i aria-hidden="true" class="fa fa-clock-o"></i> 3m, 45s
                         </p>
                     </div>
-                </div>
+                </a>
 
-                <div class="card border-saga">
-                    <div class="card-jacket--faiseur bg-saga">
+                <a href="#" class="card">
+                    <div class="card-jacket--faiseur">
                         <div class="jaquette--moyen jaquette--faiseur">
                             <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
                         </div>
@@ -133,11 +135,11 @@
                             <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                         </p>
                     </div>
-                </div>
+                </a>
 
 
-                <div class="card border-saga">
-                    <div class="card-jacket--genre bg-saga">
+                <a href="#" class="card">
+                    <div class="card-jacket--genre">
                         <div class="jaquette--moyen jaquette--genre">
                             <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
                         </div>
@@ -160,12 +162,12 @@
                             <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
                         </p>
                     </div>
-                </div>
+                </a>
 
 
 
-                <div class="card border-saga">
-                    <div class="card-jacket--saga bg-saga">
+                <a href="#" class="card">
+                    <div class="card-jacket--saga">
                         <div class="jaquette--card">
                             <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
                         </div>
@@ -183,7 +185,7 @@
                             <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
                         </p>
                     </div>
-                </div>
+                </a>
 
 
             </div>

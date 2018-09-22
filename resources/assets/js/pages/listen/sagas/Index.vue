@@ -18,10 +18,10 @@
         <author-list v-show="menu == 'authors'" :authors="authors"></author-list>
 
         <div class="list-card" v-show="menu == 'genres'">
-            <router-link class="card border-saga"
+            <router-link class="card"
                          v-for="genre in genres" :key="genre.id"
                          :to="{ name: 'listen.genres.show', params: { id: genre.id } }">
-                <div class="card-jacket--genre bg-saga">
+                <div class="card-jacket--genre">
                     <div class="jaquette--moyen jaquette--genre">
                         <img :src="genre.image.main" alt="">
                     </div>

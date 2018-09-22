@@ -14,10 +14,10 @@
 
                     <div class="list-card">
 
-                        <router-link class="card border-saga"
+                        <router-link class="card"
                                      v-if="highlights.saga.id"
                                      :to="{ name: 'listen.sagas.show', params: { idOrSlug: highlights.saga.slug } }">
-                            <div class="card-jacket--saga bg-saga">
+                            <div class="card-jacket--saga">
                                 <div class="jaquette--card">
                                     <img :src="highlights.saga.images.cover.main" :alt="highlights.saga.name">
                                 </div>
@@ -37,10 +37,10 @@
                         </router-link>
 
 
-                        <router-link class="card border-saga"
+                        <router-link class="card"
                              v-if="highlights.author.id"
                              :to="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }">
-                            <div class="card-jacket--faiseur bg-saga">
+                            <div class="card-jacket--faiseur">
                                 <div class="jaquette--moyen jaquette--faiseur">
                                     <img :src="highlights.author.picture.thumb" :alt="highlights.author.name">
                                 </div>
@@ -58,9 +58,9 @@
                         </router-link>
 
 
-                        <div class="card border-saga"
+                        <div class="card"
                                      v-if="highlights.track.id">
-                            <div class="card-jacket--episode bg-saga">
+                            <div class="card-jacket--episode">
                                 <div class="jaquette--moyen jaquette--episode">
                                     <img :src="highlights.track.collection.saga.images.cover.thumb" :alt="highlights.track.title">
                                 </div>
@@ -78,10 +78,10 @@
                         </div>
 
 
-                        <router-link class="card border-saga"
+                        <router-link class="card"
                                      v-if="highlights.genre.id"
                                      :to="{ name: 'listen.genres.show', params: { id: highlights.genre.id } }">
-                            <div class="card-jacket--genre bg-saga">
+                            <div class="card-jacket--genre">
                                 <div class="jaquette--moyen jaquette--genre">
                                     <img :src="highlights.genre.image.main" :alt="highlights.genre.name">
                                 </div>

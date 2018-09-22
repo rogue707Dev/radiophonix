@@ -1,8 +1,8 @@
 <template>
     <router-link
-            class="card border-saga"
+            class="card"
             :to="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }">
-        <div class="card-jacket--saga bg-saga">
+        <div class="card-jacket--saga">
             <div class="jaquette--card">
                 <img :src="saga.images.cover.main" alt="" width="340px" height="340px">
             </div>

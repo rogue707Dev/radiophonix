@@ -115,10 +115,10 @@
                     <h2 class="h1">Découvrez quelques genres</h2>
 
                     <div class="list-card my-5">
-                        <router-link class="card border-saga"
+                        <router-link class="card"
                                      v-for="genre in getGenresRow(0)" :key="genre.id"
                                      :to="{ name: 'listen.genres.show', params: { id: genre.id } }">
-                            <div class="card-jacket--genre bg-saga">
+                            <div class="card-jacket--genre">
                                 <div class="jaquette--moyen jaquette--genre">
                                     <img :src="genre.image.main" alt="">
                                 </div>

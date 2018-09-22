@@ -14,16 +14,18 @@ $largeur-card: 200px;
 }
 
 /*======================================================================================================================
-$ BORDURE ER BACKGROUND CUSTOM
+$ SURCHARGE
 ======================================================================================================================*/
 $color-card: $bleu-100;
 
-.border-saga {
+.card {
     border-color: $color-card;
+}
 
+a.card {
     @include survol(){
-        border-color: $bleu-200 !important;
-/*
+        border-color: $bleu-200;
+
         [class*=card-jacket--]:after {
             border-color: $primary;
         }
@@ -31,13 +33,8 @@ $color-card: $bleu-100;
         .card-jacket--genre svg {
             fill: $primary;
         }
-*/
+
     }
-
-
-}
-.bg-saga {
-    background-color: $color-card;
 }
 
 /*======================================================================================================================
@@ -47,6 +44,7 @@ $ HEADER VISUAL
     position: relative;
     height: $largeur-card;
     width: ($largeur-card - ($card-border-width * 2));// le fond etant en absolute, il ne doit pas se superposer au bordure
+    background-color: $color-card;
 
     .jaquette--moyen,
     .jaquette--card{
