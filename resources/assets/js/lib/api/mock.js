@@ -18,6 +18,7 @@ let mock = function (api) {
     api.sagas.recent = () => mockResponse('sagas');
     api.sagas.get = (id) => mockResponse('sagas/' + id + '/saga');
     api.collections.all = (id) => mockResponse('sagas/' + id + '/collections');
+    api.authors.all = () => mockResponse('authors');
     api.authors.get = (id) => mockResponse('authors/' + id);
     api.search = (query) => mockResponse('search/' + query);
 };

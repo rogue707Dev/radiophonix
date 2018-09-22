@@ -104,7 +104,7 @@ class AlphaMock extends Command
 
         $this->createFile('sagas.json', $sagas);
 
-        Author::with('owner', 'sagas')
+        $authors = Author::with('owner', 'sagas')
             ->get()
             ->map(function (Author $author) {
                 $transformer = new AuthorTransformer;
@@ -114,6 +114,11 @@ class AlphaMock extends Command
             ->each(function ($author) {
                 $this->createFile('authors/' . $author['slug'] . '.json', $author);
             });
+
+        $this->createFile(
+            'authors.json',
+            $authors->all()
+        );
 
         $this->mockSearch();
 

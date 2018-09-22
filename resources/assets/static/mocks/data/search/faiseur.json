@@ -15,12 +15,12 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-07T23:03:49+00:00",
-            "updated_at": "2018-09-07T23:03:49+00:00",
+            "created_at": "2018-09-22T13:29:38+00:00",
+            "updated_at": "2018-09-22T13:29:38+00:00",
             "type": "user",
             "picture": {
-                "main": "/static/mocks/media/1277011276/conversions/main.jpg",
-                "thumb": "/static/mocks/media/1277011276/conversions/thumb.jpg"
+                "main": "/static/mocks/media/1277011276/conversions/author-main.jpg",
+                "thumb": "/static/mocks/media/1277011276/conversions/author-thumb.jpg"
             }
         },
         {
@@ -38,12 +38,12 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-07T23:03:49+00:00",
-            "updated_at": "2018-09-07T23:03:49+00:00",
+            "created_at": "2018-09-22T13:29:38+00:00",
+            "updated_at": "2018-09-22T13:29:38+00:00",
             "type": "user",
             "picture": {
-                "main": "/static/mocks/media/1462912999/conversions/main.jpg",
-                "thumb": "/static/mocks/media/1462912999/conversions/thumb.jpg"
+                "main": "/static/mocks/media/1462912999/conversions/flo-main.jpg",
+                "thumb": "/static/mocks/media/1462912999/conversions/flo-thumb.jpg"
             }
         },
         {
@@ -61,12 +61,12 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-07T23:03:50+00:00",
-            "updated_at": "2018-09-07T23:03:50+00:00",
+            "created_at": "2018-09-22T13:29:38+00:00",
+            "updated_at": "2018-09-22T13:29:38+00:00",
             "type": "user",
             "picture": {
-                "main": "/static/mocks/media/1581834270/conversions/main.jpg",
-                "thumb": "/static/mocks/media/1581834270/conversions/thumb.jpg"
+                "main": "/static/mocks/media/1581834270/conversions/inky-main.jpg",
+                "thumb": "/static/mocks/media/1581834270/conversions/inky-thumb.jpg"
             }
         },
         {
@@ -84,12 +84,12 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-07T23:03:50+00:00",
-            "updated_at": "2018-09-07T23:03:50+00:00",
+            "created_at": "2018-09-22T13:29:39+00:00",
+            "updated_at": "2018-09-22T13:29:39+00:00",
             "type": "user",
             "picture": {
-                "main": "/static/mocks/media/1634566833/conversions/main.jpg",
-                "thumb": "/static/mocks/media/1634566833/conversions/thumb.jpg"
+                "main": "/static/mocks/media/1634566833/conversions/jbx-main.jpg",
+                "thumb": "/static/mocks/media/1634566833/conversions/jbx-thumb.jpg"
             }
         },
         {
@@ -107,12 +107,12 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-07T23:03:50+00:00",
-            "updated_at": "2018-09-07T23:03:50+00:00",
+            "created_at": "2018-09-22T13:29:39+00:00",
+            "updated_at": "2018-09-22T13:29:39+00:00",
             "type": "team",
             "picture": {
-                "main": "/static/mocks/media/1753359144/conversions/main.jpg",
-                "thumb": "/static/mocks/media/1753359144/conversions/thumb.jpg"
+                "main": "/static/mocks/media/1753359144/conversions/MAGOYOND-main.jpg",
+                "thumb": "/static/mocks/media/1753359144/conversions/MAGOYOND-thumb.jpg"
             }
         }
     ]

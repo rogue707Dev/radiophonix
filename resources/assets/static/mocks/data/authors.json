@@ -1,0 +1,583 @@
+[
+    {
+        "id": 2147222869,
+        "slug": "durendal",
+        "name": "Durendal",
+        "bio": "Durendal est né le 13 Mars 1988 d'une maman tarée et d'un père Desprogien. Il a travaillé 3 ans dans la vente de jeux vidéos, avant d'arrêter en 2011 pour entamer des études de cinéma. Il maitrise partiellement l'infographie.",
+        "links": {
+            "netowiki": null,
+            "site": null,
+            "topic": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-09-22T13:29:38+00:00",
+        "updated_at": "2018-09-22T13:29:38+00:00",
+        "type": "user",
+        "picture": {
+            "main": "/static/mocks/media/1277011276/conversions/author-main.jpg",
+            "thumb": "/static/mocks/media/1277011276/conversions/author-thumb.jpg"
+        },
+        "sagas": [
+            {
+                "id": 206107536,
+                "slug": "banal-fantasy",
+                "name": "Banal Fantasy",
+                "synopsis": "Crad Stripe, ex-membre du SOLDÉ, s'allie au groupe écologique radical \"Chute de Gravier\", dont le but et de détruire les réacteurs de la Shi-ra qui pompent l'énergie vitale de la planète et, du même fait, l'affaiblit. Au même moment, Kissifrotte tente de ressusciter les cellules de JENOVA, descendante des Vieilles Peaux, morts il y a de cela bien longtemps après une rude canicule. Ceci fait, tous deux essaieront de détruire la planète dans un but bien précis. L'équipe, rejointe par Ahéré et Waïkiki, va tenter d'arrêter Kissifrote, ce qu'essaie aussi la Shi-ra.",
+                "creation_date": "2004-03-09T00:00:00+00:00",
+                "licence": "CC-BY-NC-ND",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/Banal_Fantasy",
+                    "site": "http://ledemondurire.free.fr/Creations/Sagas/BF1/indexBF.php",
+                    "topic": null,
+                    "rss": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "finished": false,
+                "visibility": 0,
+                "stats": {
+                    "bravos": 0,
+                    "collections": 6,
+                    "tracks": 46
+                },
+                "created_at": "2018-09-22T13:29:40+00:00",
+                "updated_at": "2018-09-22T13:29:40+00:00",
+                "author": {
+                    "id": 2147222869,
+                    "slug": "durendal",
+                    "name": "Durendal",
+                    "bio": "Durendal est né le 13 Mars 1988 d'une maman tarée et d'un père Desprogien. Il a travaillé 3 ans dans la vente de jeux vidéos, avant d'arrêter en 2011 pour entamer des études de cinéma. Il maitrise partiellement l'infographie.",
+                    "links": {
+                        "netowiki": null,
+                        "site": null,
+                        "topic": null,
+                        "facebook": null,
+                        "twitter": null
+                    },
+                    "stats": {
+                        "sagas": 1
+                    },
+                    "created_at": "2018-09-22T13:29:38+00:00",
+                    "updated_at": "2018-09-22T13:29:38+00:00",
+                    "type": "user",
+                    "picture": {
+                        "main": "/static/mocks/media/1277011276/conversions/author-main.jpg",
+                        "thumb": "/static/mocks/media/1277011276/conversions/author-thumb.jpg"
+                    }
+                },
+                "images": {
+                    "cover": {
+                        "main": "/static/mocks/media/504187695/conversions/banal-fantasy-main.jpg",
+                        "thumb": "/static/mocks/media/504187695/conversions/banal-fantasy-thumb.jpg",
+                        "meta": {
+                            "color": "#5546D7",
+                            "type": "dark"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 206107536,
+        "slug": "flo",
+        "name": "Flo",
+        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
+        "links": {
+            "netowiki": null,
+            "site": null,
+            "topic": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-09-22T13:29:38+00:00",
+        "updated_at": "2018-09-22T13:29:38+00:00",
+        "type": "user",
+        "picture": {
+            "main": "/static/mocks/media/1462912999/conversions/flo-main.jpg",
+            "thumb": "/static/mocks/media/1462912999/conversions/flo-thumb.jpg"
+        },
+        "sagas": [
+            {
+                "id": 2147222869,
+                "slug": "agent-0",
+                "name": "Agent 0",
+                "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
+                "creation_date": "2006-08-25T00:00:00+00:00",
+                "licence": "CC BY",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/Agent_0",
+                    "site": "http://www.flopod.fr/",
+                    "topic": null,
+                    "rss": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "finished": true,
+                "visibility": 0,
+                "stats": {
+                    "bravos": 0,
+                    "collections": 1,
+                    "tracks": 30
+                },
+                "created_at": "2018-09-22T13:29:40+00:00",
+                "updated_at": "2018-09-22T13:29:40+00:00",
+                "author": {
+                    "id": 206107536,
+                    "slug": "flo",
+                    "name": "Flo",
+                    "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
+                    "links": {
+                        "netowiki": null,
+                        "site": null,
+                        "topic": null,
+                        "facebook": null,
+                        "twitter": null
+                    },
+                    "stats": {
+                        "sagas": 1
+                    },
+                    "created_at": "2018-09-22T13:29:38+00:00",
+                    "updated_at": "2018-09-22T13:29:38+00:00",
+                    "type": "user",
+                    "picture": {
+                        "main": "/static/mocks/media/1462912999/conversions/flo-main.jpg",
+                        "thumb": "/static/mocks/media/1462912999/conversions/flo-thumb.jpg"
+                    }
+                },
+                "images": {
+                    "cover": {
+                        "main": "/static/mocks/media/231868445/conversions/agent0-main.jpg",
+                        "thumb": "/static/mocks/media/231868445/conversions/agent0-thumb.jpg",
+                        "meta": {
+                            "color": "#FE0000",
+                            "type": "dark"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 1523884511,
+        "slug": "inky",
+        "name": "Inky",
+        "bio": "En 2006, lors d’une recherche d’images sur le net portant sur des batailles dans l’espace, il y découvre un livre audio s’intitulant La Bataille de l’Espace. De liens en liens, il découvre toutes les grandes aventures et apprend un nouveau terme : Saga mp3. En juin de la même année, il crée une aventure audio semi-humoristique au genre fantastique : Kiponie Stories. En janvier 2007, il remarque sur les forums de sagas mp3, la création très récente d’un forum réunissant les adeptes des créations audio : Netophonix. Il ne tarde pas à s’y inscrire et fait découvrir sa saga, qui est tout de suite appréciée et encouragée, ce qui met l’auteur dans de bonnes conditions pour la poursuivre. Il participe volontiers à d’autres créations mp3 et en partie à un grand projet sagasphérique, Le Choc des Zéros, pour lequel il prête certains de ses personnages.\nAprès la sortie du dernier épisode de la pré-saison de Kiponie Stories, fin décembre 2008, Inky se lance dans une science-fiction : Onidacius. Elle fut très vite abandonnée, l'auteur préférant consacrer son temps libre à sa première création. Le 14 mars 2009, il est invité sur la web-radio SynopsLive pour la diffusion du premier épisode de la deuxième saison (appelée aussi chapitre 1) de Kiponie Stories.",
+        "links": {
+            "netowiki": null,
+            "site": null,
+            "topic": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-09-22T13:29:38+00:00",
+        "updated_at": "2018-09-22T13:29:38+00:00",
+        "type": "user",
+        "picture": {
+            "main": "/static/mocks/media/1581834270/conversions/inky-main.jpg",
+            "thumb": "/static/mocks/media/1581834270/conversions/inky-thumb.jpg"
+        },
+        "sagas": [
+            {
+                "id": 1797332506,
+                "slug": "kiponie-stories",
+                "name": "Kiponie Stories",
+                "synopsis": "Tout commence par un voyage sans intérêt. Le très jeune capitaine Alexandre Vinoqui se lance dans l'expédition du siècle : Percer les mystères du Triangle des Mersnulles et révéler au monde entier les secrets cachés par d'étranges brumes. Il prend donc la première opportunité venue et embarque avec lui son vieil ami Hanson Triviany ainsi qu’une équipe d’andouilles dégotée dans les poubelles du coin. Après deux semaines de voyage plus que désagréables, une tempête frappe soudainement leur navire et le transforme en musée sous-marin. Nos deux aventuriers amateurs se retrouvent prisonniers d’un continent mystérieux gardant des secrets inimaginables. C’est à ce moment là que les problèmes commencent...",
+                "creation_date": "2006-06-24T00:00:00+00:00",
+                "licence": "CC BY-NC-SA",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/Kiponie_Stories",
+                    "site": "https://www.inkycrea.net/",
+                    "topic": "https://forum.netophonix.com/ftopic33.html",
+                    "rss": "https://www.inkycrea.net/news/feed.rss",
+                    "facebook": "https://www.facebook.com/Inkycrea",
+                    "twitter": "https://twitter.com/Inkycrea"
+                },
+                "finished": false,
+                "visibility": 0,
+                "stats": {
+                    "bravos": 0,
+                    "collections": 2,
+                    "tracks": 13
+                },
+                "created_at": "2018-09-22T13:29:43+00:00",
+                "updated_at": "2018-09-22T13:29:43+00:00",
+                "author": {
+                    "id": 1523884511,
+                    "slug": "inky",
+                    "name": "Inky",
+                    "bio": "En 2006, lors d’une recherche d’images sur le net portant sur des batailles dans l’espace, il y découvre un livre audio s’intitulant La Bataille de l’Espace. De liens en liens, il découvre toutes les grandes aventures et apprend un nouveau terme : Saga mp3. En juin de la même année, il crée une aventure audio semi-humoristique au genre fantastique : Kiponie Stories. En janvier 2007, il remarque sur les forums de sagas mp3, la création très récente d’un forum réunissant les adeptes des créations audio : Netophonix. Il ne tarde pas à s’y inscrire et fait découvrir sa saga, qui est tout de suite appréciée et encouragée, ce qui met l’auteur dans de bonnes conditions pour la poursuivre. Il participe volontiers à d’autres créations mp3 et en partie à un grand projet sagasphérique, Le Choc des Zéros, pour lequel il prête certains de ses personnages.\nAprès la sortie du dernier épisode de la pré-saison de Kiponie Stories, fin décembre 2008, Inky se lance dans une science-fiction : Onidacius. Elle fut très vite abandonnée, l'auteur préférant consacrer son temps libre à sa première création. Le 14 mars 2009, il est invité sur la web-radio SynopsLive pour la diffusion du premier épisode de la deuxième saison (appelée aussi chapitre 1) de Kiponie Stories.",
+                    "links": {
+                        "netowiki": null,
+                        "site": null,
+                        "topic": null,
+                        "facebook": null,
+                        "twitter": null
+                    },
+                    "stats": {
+                        "sagas": 1
+                    },
+                    "created_at": "2018-09-22T13:29:38+00:00",
+                    "updated_at": "2018-09-22T13:29:38+00:00",
+                    "type": "user",
+                    "picture": {
+                        "main": "/static/mocks/media/1581834270/conversions/inky-main.jpg",
+                        "thumb": "/static/mocks/media/1581834270/conversions/inky-thumb.jpg"
+                    }
+                },
+                "images": {
+                    "cover": {
+                        "main": "/static/mocks/media/980669067/conversions/kiponie-stories-main.jpg",
+                        "thumb": "/static/mocks/media/980669067/conversions/kiponie-stories-thumb.jpg",
+                        "meta": {
+                            "color": "#CC4D1B",
+                            "type": "dark"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 1797332506,
+        "slug": "jbx",
+        "name": "JBX",
+        "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
+        "links": {
+            "netowiki": null,
+            "site": null,
+            "topic": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-09-22T13:29:39+00:00",
+        "updated_at": "2018-09-22T13:29:39+00:00",
+        "type": "user",
+        "picture": {
+            "main": "/static/mocks/media/1634566833/conversions/jbx-main.jpg",
+            "thumb": "/static/mocks/media/1634566833/conversions/jbx-thumb.jpg"
+        },
+        "sagas": [
+            {
+                "id": 392587459,
+                "slug": "reflets-dacide",
+                "name": "Reflets d'Acide",
+                "synopsis": "Wrandrall cherche désespérément des compagnons de route pour sa quête : ils devront braver vents et marées pour aller explorer une grotte. Nul ne sait ce qui les attend sur cette route, ni ce qu'ils trouveront au fond de cette grotte… Une seule chose est sûre, c'est qu'ils n'ont aucune idée de ce dans quoi ils se sont embarqués.",
+                "creation_date": "2002-12-01T00:00:00+00:00",
+                "licence": "CC BY-NC",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/Reflets_d%27Acide",
+                    "site": "http://synopsite.com/",
+                    "topic": null,
+                    "rss": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "finished": false,
+                "visibility": 0,
+                "stats": {
+                    "bravos": 0,
+                    "collections": 1,
+                    "tracks": 16
+                },
+                "created_at": "2018-09-22T13:29:47+00:00",
+                "updated_at": "2018-09-22T13:29:47+00:00",
+                "author": {
+                    "id": 1797332506,
+                    "slug": "jbx",
+                    "name": "JBX",
+                    "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
+                    "links": {
+                        "netowiki": null,
+                        "site": null,
+                        "topic": null,
+                        "facebook": null,
+                        "twitter": null
+                    },
+                    "stats": {
+                        "sagas": 1
+                    },
+                    "created_at": "2018-09-22T13:29:39+00:00",
+                    "updated_at": "2018-09-22T13:29:39+00:00",
+                    "type": "user",
+                    "picture": {
+                        "main": "/static/mocks/media/1634566833/conversions/jbx-main.jpg",
+                        "thumb": "/static/mocks/media/1634566833/conversions/jbx-thumb.jpg"
+                    }
+                },
+                "images": {
+                    "cover": {
+                        "main": "/static/mocks/media/1930664737/conversions/reflets-d-acide-main.jpg",
+                        "thumb": "/static/mocks/media/1930664737/conversions/reflets-d-acide-thumb.jpg",
+                        "meta": {
+                            "color": "#61BCDE",
+                            "type": "light"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 965594201,
+        "slug": "magoyond",
+        "name": "Magoyond",
+        "bio": "",
+        "links": {
+            "netowiki": null,
+            "site": null,
+            "topic": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-09-22T13:29:39+00:00",
+        "updated_at": "2018-09-22T13:29:39+00:00",
+        "type": "team",
+        "picture": {
+            "main": "/static/mocks/media/1753359144/conversions/MAGOYOND-main.jpg",
+            "thumb": "/static/mocks/media/1753359144/conversions/MAGOYOND-thumb.jpg"
+        },
+        "sagas": [
+            {
+                "id": 1523884511,
+                "slug": "chez-le-psy",
+                "name": "Chez le Psy",
+                "synopsis": "Wallace Ticot, psychologue excentrique, décide d'enregistrer les délires de ses patients au moyen de cassettes. Dans les deux premières saisons, la majeure partie de la série tourne autour des consultations se déroulant dans son cabinet. Un contexte que les créateurs de Chez le Psy utilisent aussi pour intégrer des membres de la Sagasphère, et certains de leurs personnages. La saison 3 change légèrement de contexte et s'adapte à la nouvelle identité du groupe de créateurs.",
+                "creation_date": "2007-06-29T00:00:00+00:00",
+                "licence": "CC BY-NC 2.0 FR",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/Chez_le_Psy",
+                    "site": "http://www.magoyond.com/",
+                    "topic": "https://forum.netophonix.com/ftopic996.html",
+                    "rss": null,
+                    "facebook": "https://www.facebook.com/magoyond",
+                    "twitter": "https://twitter.com/magoyond"
+                },
+                "finished": false,
+                "visibility": 0,
+                "stats": {
+                    "bravos": 0,
+                    "collections": 9,
+                    "tracks": 66
+                },
+                "created_at": "2018-09-22T13:29:41+00:00",
+                "updated_at": "2018-09-22T13:29:41+00:00",
+                "author": {
+                    "id": 965594201,
+                    "slug": "magoyond",
+                    "name": "Magoyond",
+                    "bio": "",
+                    "links": {
+                        "netowiki": null,
+                        "site": null,
+                        "topic": null,
+                        "facebook": null,
+                        "twitter": null
+                    },
+                    "stats": {
+                        "sagas": 1
+                    },
+                    "created_at": "2018-09-22T13:29:39+00:00",
+                    "updated_at": "2018-09-22T13:29:39+00:00",
+                    "type": "team",
+                    "picture": {
+                        "main": "/static/mocks/media/1753359144/conversions/MAGOYOND-main.jpg",
+                        "thumb": "/static/mocks/media/1753359144/conversions/MAGOYOND-thumb.jpg"
+                    }
+                },
+                "images": {
+                    "cover": {
+                        "main": "/static/mocks/media/674797561/conversions/chez-le-psy-main.jpg",
+                        "thumb": "/static/mocks/media/674797561/conversions/chez-le-psy-thumb.jpg",
+                        "meta": {
+                            "color": "#000000",
+                            "type": "dark"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 1176091268,
+        "slug": "mimiryudo",
+        "name": "MimiRyudo",
+        "bio": "Mi-2005, MimiRyudo se lance dans l'écriture de sagas mp3. Suite à une discussion sur (feu) MSN Messenger, il pose l'univers de Messina (MeSsiNa), dont il rédige six épisodes durant l'été. Il scénarise également l'épisode 3 de la saga Jacky et ses voisins d'Asmoth, participe de loin à la rédaction de l'épisode 4 et écrit un épisode 5 en rimes (non enregistré) fin 2007.\n    Fin mai 2007, en période de révisions, MimiRyudo arrive sur Netophonix. Il présente les six premiers épisodes écrits de Messina (version 2005) qui reçoivent de bonnes critiques, et l'amènent à recruter ; le caractère inhabituel de cette démarche en fait le premier membre du nouveau groupe de Scénaristes (non-créateurs). Luneral (alors appelé Celebo Anarion) se propose comme interprète de Messina, et Lancelord comme réalisateur. MimiRyudo réécrit et clôt la saga en dix épisodes, tandis que ses compères réalisent les premiers épisodes, publiés sur son site ouvert pour l'occasion (chez Free).\nEn juin 2007, MimiRyudo accepte d'être scénariste et dialoguiste du Choc des Zéros, d'après une idée du Mago. Après avoir répondu (assez légèrement) à l'annonce, il commence à écouter d'autres sagas que Le Donjon de Naheulbeuk et découvre ainsi Reflets d'Acide, Matrick et les autres... Le script est achevé six mois plus tard, et les réécritures prennent trois mois supplémentaires.\nEn 2008, Lancelord abandonne Messina après quatre épisodes. Luneral le remplace, reprend la saga depuis le début en juin, et la mène à terme en 31 jours. A la rentrée 2008, MimiRyudo est reçu dans le studio virtuel de SynopsLive pour en parler. Devant le succès de Messina, l'équipe poursuit l'aventure avec une saison supplémentaire, qui sera diffusée entre fin 2008 et début 2010. Pendant le deuxième semestre 2008, MimiRyudo écrit également les huit épisodes de la saga Les échappés de Berçuel pour Asmoth, et devient acteur pour la première fois en y incarnant James.\nDébut 2009, MimiRyudo laisse un peu de côté la sagasphère (déménagement, université...). Il se remet à l'écoute de sagas mp3 durant l'été et devient rédacteur de MagP3. Il achève en juillet l'écriture du chapitre 3 de Messina. Le premier épisode des Echappés de Berçuel sort en août, avec son ordre erratique perturbant, sur un site dédié au design signé Schnouk.\nEn 2010, MimiRyudo écrit les 8 premiers épisodes du making-of du Choc des Zéros, alors en cours de mixage, que Blast réalise rapidement. Durant l'été, il envisage de participer au concours de la saga de l'été 2010 avec un mono minimaliste, L'île qui rêve, qu'il publie finalement comme nouvelle sur son site. En fin d'année, il écrit La nuit des clés à molette pour Kradukman. Il devient modérateur sur Netophonix en décembre.\nDébut 2011, le deuxième épisode des Echappés de Berçuel est diffusé. MimiRyudo devient rédacteur-en-chef de MagP3 à partir de l'été. Il débute la co-écriture de Limoges Blues avec @now@n. En décembre, il se voit offrir un micro USB, qui lui permet de devenir créateur à part entière - il avait tout de même réalisé quelques monos préalablement, avec un dictaphone USB... Son premier \"vrai\" mono (avec mixage), Renne Poël, fait partie du calendrier de l'avent 2011, pour lequel il a également écrit une fausse pièce de théâtre mixée par Blast : Invités de Noël.\nFin janvier 2012, il débute une série mp3 : Au Royaume d'Acana. En avril et mai 2012, Kradukman publie La nuit des clés à molettes ; MimiRyudo a scénarisé une fausse interview dans laquelle il intervient. L'été, il réalise L'Oppidum pour le concours Netophonix du 11ème festival des Radiophonies, où il remporte le prix du scénario. En fin d'année, la co-écriture de Limoges Blues est terminée et Mity est choisi pour réaliser la saga.\nEn 2013, MimiRyudo migre chez OVH (http://www.mimiryudo.com) et écrit Dernier crépuscule sur Athadcity et La nuit des clés à tuyaux pour le concours de la saga de l'été 2013, pour lequel il ne parvient toujours pas à participer. Il réalise deux monos du Royaume d'Acana pour le Neto-Halloween (2013) et les avant-premières des Joutes du Téméraire, où il anime également pour la première fois un atelier scénario (avec Xzimnut et Javeldose). En novembre, il participe au concours du mixage fou avec le mono Arrestation gérontologique (exclusivement à partir d'enregistrements mis à disposition par le site).\nEn 2014, MimiRyudo recrute des réalisateurs pour Dernier crépuscule sur Athadcity (DestroKhorne) et La conquête du Klondike (Rodimus Prime). En février, il est invité pour la première fois à être acteur pour un rôle particulier, pour la saga ADN 2082 de François TJP. Fin juin, MimiRyudo organise la 6ème édition du concours de mini-monos basés sur une image, qui obtient un record de participations, avec 7 monos en compétition et 2 hors compétition. Durant l'été, il participe activement à la récupération du forum suite au \"Neto-crash\" en maniant le Netobot. L'été, il est invité comme acteur par François TJP, Arthur et Grushkov. A partir d'octobre, il co-écrit avec François TJP une série de capsules de science-fiction radiophonique : Et la Terre éclata....\nEn 2015, il écrit la fin du making-of du Choc des Zéros et participe à la diffusion du mono en avant-première sur SynopsLive en juin. Il poursuit Et la Terre éclata... avec François TJP, qui fait l'objet d'un mono lors du calendrier de l'avent 2015. MimiRyudo y participe également en solo, avec Christmas Star Wars où il interprète la musique à la trompette.\nEn 2016, MimiRyudo participe en tant que scénariste et acteur à Pépins sous le sapin (saga Le Netophonix), diffusé du 1er au 25 décembre dans le cadre du calendrier de l'avent 2016. Il débute l'écriture de Le pouvoir des mots. L'écriture se poursuivra en 2017. Au premier trimestre 2017 sortent Un barbare dans le placard (réalisé par François TJP et lançant la série Le petit théâtre de MimiRyudo), Dernier crépuscule sur Athadcity (réalisé par DestroKhorne) et le troisième épisode des échappés de Berçuel. MimiRyudo poursuit d'autres projets avec François TJP : il tient le rôle de Steven Right dans Les Pourfendeurs (co-réalisé par fal), co-écrit les premiers épisodes de la saison 3 de Et la Terre éclata... et co-écrit et interprète son propre rôle dans un mono de la saga Le Netophonix : Po-ki-mon de Noël.",
+        "links": {
+            "netowiki": "https://wiki.netophonix.com/MimiRyudo",
+            "site": "http://www.mimiryudo.com/",
+            "topic": null,
+            "facebook": "http://facebook.com/mimiryudo",
+            "twitter": "http://twitter.com/mimiryudo"
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-09-22T13:29:39+00:00",
+        "updated_at": "2018-09-22T13:29:39+00:00",
+        "type": "user",
+        "picture": {
+            "main": "/static/mocks/media/1939393859/conversions/MimiRyudo-main.jpg",
+            "thumb": "/static/mocks/media/1939393859/conversions/MimiRyudo-thumb.jpg"
+        },
+        "sagas": [
+            {
+                "id": 1176091268,
+                "slug": "messina",
+                "name": "Messina",
+                "synopsis": "Messina est un univers créé par MimiRyudo. La principale partie actuellement (chapitre 2) en est une saga MP3 en 10 épisodes, écrite par MimiRyudo et réalisée par Celebo Anarion. L'histoire se situe à Messina (rien à voir avec le Messina moderne) à l'époque où les aventuriers pouvaient encore mener leurs quêtes et où les licornes leur murmuraient des prophéties...",
+                "creation_date": "2007-08-01T00:00:00+00:00",
+                "licence": "CC BY-NC",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/Messina",
+                    "site": "http://www.mimiryudo.com/",
+                    "topic": "https://forum.netophonix.com/ftopic1709.html",
+                    "rss": "http://www.mimiryudo.com/news.xml",
+                    "facebook": "http://facebook.com/mimiryudo",
+                    "twitter": "http://twitter.com/mimiryudo"
+                },
+                "finished": false,
+                "visibility": 0,
+                "stats": {
+                    "bravos": 0,
+                    "collections": 3,
+                    "tracks": 19
+                },
+                "created_at": "2018-09-22T13:29:46+00:00",
+                "updated_at": "2018-09-22T13:29:46+00:00",
+                "author": {
+                    "id": 1176091268,
+                    "slug": "mimiryudo",
+                    "name": "MimiRyudo",
+                    "bio": "Mi-2005, MimiRyudo se lance dans l'écriture de sagas mp3. Suite à une discussion sur (feu) MSN Messenger, il pose l'univers de Messina (MeSsiNa), dont il rédige six épisodes durant l'été. Il scénarise également l'épisode 3 de la saga Jacky et ses voisins d'Asmoth, participe de loin à la rédaction de l'épisode 4 et écrit un épisode 5 en rimes (non enregistré) fin 2007.\n    Fin mai 2007, en période de révisions, MimiRyudo arrive sur Netophonix. Il présente les six premiers épisodes écrits de Messina (version 2005) qui reçoivent de bonnes critiques, et l'amènent à recruter ; le caractère inhabituel de cette démarche en fait le premier membre du nouveau groupe de Scénaristes (non-créateurs). Luneral (alors appelé Celebo Anarion) se propose comme interprète de Messina, et Lancelord comme réalisateur. MimiRyudo réécrit et clôt la saga en dix épisodes, tandis que ses compères réalisent les premiers épisodes, publiés sur son site ouvert pour l'occasion (chez Free).\nEn juin 2007, MimiRyudo accepte d'être scénariste et dialoguiste du Choc des Zéros, d'après une idée du Mago. Après avoir répondu (assez légèrement) à l'annonce, il commence à écouter d'autres sagas que Le Donjon de Naheulbeuk et découvre ainsi Reflets d'Acide, Matrick et les autres... Le script est achevé six mois plus tard, et les réécritures prennent trois mois supplémentaires.\nEn 2008, Lancelord abandonne Messina après quatre épisodes. Luneral le remplace, reprend la saga depuis le début en juin, et la mène à terme en 31 jours. A la rentrée 2008, MimiRyudo est reçu dans le studio virtuel de SynopsLive pour en parler. Devant le succès de Messina, l'équipe poursuit l'aventure avec une saison supplémentaire, qui sera diffusée entre fin 2008 et début 2010. Pendant le deuxième semestre 2008, MimiRyudo écrit également les huit épisodes de la saga Les échappés de Berçuel pour Asmoth, et devient acteur pour la première fois en y incarnant James.\nDébut 2009, MimiRyudo laisse un peu de côté la sagasphère (déménagement, université...). Il se remet à l'écoute de sagas mp3 durant l'été et devient rédacteur de MagP3. Il achève en juillet l'écriture du chapitre 3 de Messina. Le premier épisode des Echappés de Berçuel sort en août, avec son ordre erratique perturbant, sur un site dédié au design signé Schnouk.\nEn 2010, MimiRyudo écrit les 8 premiers épisodes du making-of du Choc des Zéros, alors en cours de mixage, que Blast réalise rapidement. Durant l'été, il envisage de participer au concours de la saga de l'été 2010 avec un mono minimaliste, L'île qui rêve, qu'il publie finalement comme nouvelle sur son site. En fin d'année, il écrit La nuit des clés à molette pour Kradukman. Il devient modérateur sur Netophonix en décembre.\nDébut 2011, le deuxième épisode des Echappés de Berçuel est diffusé. MimiRyudo devient rédacteur-en-chef de MagP3 à partir de l'été. Il débute la co-écriture de Limoges Blues avec @now@n. En décembre, il se voit offrir un micro USB, qui lui permet de devenir créateur à part entière - il avait tout de même réalisé quelques monos préalablement, avec un dictaphone USB... Son premier \"vrai\" mono (avec mixage), Renne Poël, fait partie du calendrier de l'avent 2011, pour lequel il a également écrit une fausse pièce de théâtre mixée par Blast : Invités de Noël.\nFin janvier 2012, il débute une série mp3 : Au Royaume d'Acana. En avril et mai 2012, Kradukman publie La nuit des clés à molettes ; MimiRyudo a scénarisé une fausse interview dans laquelle il intervient. L'été, il réalise L'Oppidum pour le concours Netophonix du 11ème festival des Radiophonies, où il remporte le prix du scénario. En fin d'année, la co-écriture de Limoges Blues est terminée et Mity est choisi pour réaliser la saga.\nEn 2013, MimiRyudo migre chez OVH (http://www.mimiryudo.com) et écrit Dernier crépuscule sur Athadcity et La nuit des clés à tuyaux pour le concours de la saga de l'été 2013, pour lequel il ne parvient toujours pas à participer. Il réalise deux monos du Royaume d'Acana pour le Neto-Halloween (2013) et les avant-premières des Joutes du Téméraire, où il anime également pour la première fois un atelier scénario (avec Xzimnut et Javeldose). En novembre, il participe au concours du mixage fou avec le mono Arrestation gérontologique (exclusivement à partir d'enregistrements mis à disposition par le site).\nEn 2014, MimiRyudo recrute des réalisateurs pour Dernier crépuscule sur Athadcity (DestroKhorne) et La conquête du Klondike (Rodimus Prime). En février, il est invité pour la première fois à être acteur pour un rôle particulier, pour la saga ADN 2082 de François TJP. Fin juin, MimiRyudo organise la 6ème édition du concours de mini-monos basés sur une image, qui obtient un record de participations, avec 7 monos en compétition et 2 hors compétition. Durant l'été, il participe activement à la récupération du forum suite au \"Neto-crash\" en maniant le Netobot. L'été, il est invité comme acteur par François TJP, Arthur et Grushkov. A partir d'octobre, il co-écrit avec François TJP une série de capsules de science-fiction radiophonique : Et la Terre éclata....\nEn 2015, il écrit la fin du making-of du Choc des Zéros et participe à la diffusion du mono en avant-première sur SynopsLive en juin. Il poursuit Et la Terre éclata... avec François TJP, qui fait l'objet d'un mono lors du calendrier de l'avent 2015. MimiRyudo y participe également en solo, avec Christmas Star Wars où il interprète la musique à la trompette.\nEn 2016, MimiRyudo participe en tant que scénariste et acteur à Pépins sous le sapin (saga Le Netophonix), diffusé du 1er au 25 décembre dans le cadre du calendrier de l'avent 2016. Il débute l'écriture de Le pouvoir des mots. L'écriture se poursuivra en 2017. Au premier trimestre 2017 sortent Un barbare dans le placard (réalisé par François TJP et lançant la série Le petit théâtre de MimiRyudo), Dernier crépuscule sur Athadcity (réalisé par DestroKhorne) et le troisième épisode des échappés de Berçuel. MimiRyudo poursuit d'autres projets avec François TJP : il tient le rôle de Steven Right dans Les Pourfendeurs (co-réalisé par fal), co-écrit les premiers épisodes de la saison 3 de Et la Terre éclata... et co-écrit et interprète son propre rôle dans un mono de la saga Le Netophonix : Po-ki-mon de Noël.",
+                    "links": {
+                        "netowiki": "https://wiki.netophonix.com/MimiRyudo",
+                        "site": "http://www.mimiryudo.com/",
+                        "topic": null,
+                        "facebook": "http://facebook.com/mimiryudo",
+                        "twitter": "http://twitter.com/mimiryudo"
+                    },
+                    "stats": {
+                        "sagas": 1
+                    },
+                    "created_at": "2018-09-22T13:29:39+00:00",
+                    "updated_at": "2018-09-22T13:29:39+00:00",
+                    "type": "user",
+                    "picture": {
+                        "main": "/static/mocks/media/1939393859/conversions/MimiRyudo-main.jpg",
+                        "thumb": "/static/mocks/media/1939393859/conversions/MimiRyudo-thumb.jpg"
+                    }
+                },
+                "images": {
+                    "cover": {
+                        "main": "/static/mocks/media/1725454359/conversions/banniere_messina-main.jpg",
+                        "thumb": "/static/mocks/media/1725454359/conversions/banniere_messina-thumb.jpg",
+                        "meta": {
+                            "color": "#C4B8BA",
+                            "type": "light"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 392587459,
+        "slug": "mitch-dsm",
+        "name": "Mitch DSM",
+        "bio": "Mitch_DSM est musicien compositeur ainsi que designer sonore. Il travaille pour diverses sociétés de communications essentiellement inter-entreprises. Telle est son activité principale, qui ne représente finalement qu'une partie de son éventail d'occupations. Sur internet, il s'avère être l'un des premiers créateurs de sagas mp3 avec Matrick (la matruc), mise en ligne à la même époque que Le Donjon de Naheulbeuk. Il est également l'auteur des Génériques Mitch Unplug.ed, ce qui lui apportera une petite notoriété passagère. En plus de ses activités sonores et musicales, Mitch_DSM développe aussi des sites internet, essentiellement pour les besoins de ses projets personnels. La création du site Netophonix, qui abrite à présent une communauté non négligeable composée de créateurs, d'adeptes et de divers membres de la sagasphère, l'a récemment placé un peu plus aux devants de la scène saga mp3. Cependant, au fil du temps, sa présence dans ce milieu s'est fortement réduite, du fait notamment d'obligations professionnelles conséquentes...",
+        "links": {
+            "netowiki": null,
+            "site": null,
+            "topic": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-09-22T13:29:39+00:00",
+        "updated_at": "2018-09-22T13:29:39+00:00",
+        "type": "user",
+        "picture": {
+            "main": "/static/mocks/media/2059235322/conversions/author-main.jpg",
+            "thumb": "/static/mocks/media/2059235322/conversions/author-thumb.jpg"
+        },
+        "sagas": [
+            {
+                "id": 965594201,
+                "slug": "matrick",
+                "name": "Matrick",
+                "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
+                "creation_date": "2000-07-22T00:00:00+00:00",
+                "licence": "CC BY-NC-ND",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/Matrick",
+                    "site": "http://www.doevell.org/caudio",
+                    "topic": null,
+                    "rss": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "finished": true,
+                "visibility": 0,
+                "stats": {
+                    "bravos": 0,
+                    "collections": 3,
+                    "tracks": 36
+                },
+                "created_at": "2018-09-22T13:29:45+00:00",
+                "updated_at": "2018-09-22T13:29:45+00:00",
+                "author": {
+                    "id": 392587459,
+                    "slug": "mitch-dsm",
+                    "name": "Mitch DSM",
+                    "bio": "Mitch_DSM est musicien compositeur ainsi que designer sonore. Il travaille pour diverses sociétés de communications essentiellement inter-entreprises. Telle est son activité principale, qui ne représente finalement qu'une partie de son éventail d'occupations. Sur internet, il s'avère être l'un des premiers créateurs de sagas mp3 avec Matrick (la matruc), mise en ligne à la même époque que Le Donjon de Naheulbeuk. Il est également l'auteur des Génériques Mitch Unplug.ed, ce qui lui apportera une petite notoriété passagère. En plus de ses activités sonores et musicales, Mitch_DSM développe aussi des sites internet, essentiellement pour les besoins de ses projets personnels. La création du site Netophonix, qui abrite à présent une communauté non négligeable composée de créateurs, d'adeptes et de divers membres de la sagasphère, l'a récemment placé un peu plus aux devants de la scène saga mp3. Cependant, au fil du temps, sa présence dans ce milieu s'est fortement réduite, du fait notamment d'obligations professionnelles conséquentes...",
+                    "links": {
+                        "netowiki": null,
+                        "site": null,
+                        "topic": null,
+                        "facebook": null,
+                        "twitter": null
+                    },
+                    "stats": {
+                        "sagas": 1
+                    },
+                    "created_at": "2018-09-22T13:29:39+00:00",
+                    "updated_at": "2018-09-22T13:29:39+00:00",
+                    "type": "user",
+                    "picture": {
+                        "main": "/static/mocks/media/2059235322/conversions/author-main.jpg",
+                        "thumb": "/static/mocks/media/2059235322/conversions/author-thumb.jpg"
+                    }
+                },
+                "images": {
+                    "cover": {
+                        "main": "/static/mocks/media/1420631365/conversions/matrick-main.jpg",
+                        "thumb": "/static/mocks/media/1420631365/conversions/matrick-thumb.jpg",
+                        "meta": {
+                            "color": "#06311E",
+                            "type": "dark"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]
