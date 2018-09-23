@@ -66,10 +66,11 @@
                     <h2 class="h1">Qui êtes-vous ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
-                            Nous sommes un développeur web et un graphiste professionnels
-                            passionnés de sagas MP3.<br/>
+                            Nous sommes un développeur web (<a href="http://mopolo.fr/">Nathan</a>)
+                            et un graphiste (<a href="http://www.pierre.tl">Pierre</a>)
+                            professionnels, passionnés de sagas MP3.<br/>
                             Faire des sites est notre métier depuis plusieurs années, ce qui
-                            nous permet de développer ce projet.
+                            nous permet de développer ce projet.<br/>
                         </p>
                     </blockquote>
 
