@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Laravel\Scout\Searchable;
+use Radiophonix\Models\Support\Genre\GenreStats;
 use Radiophonix\Models\Support\HasFakeId;
 use Spatie\Image\Manipulations;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
@@ -38,6 +39,14 @@ class Genre extends Model implements HasMedia
             ->sharpen(10)
             ->optimize()
             ->performOnCollections('image');
+    }
+
+    /**
+     * @return GenreStats
+     */
+    public function stats(): GenreStats
+    {
+        return new GenreStats($this);
     }
 
     /**

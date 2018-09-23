@@ -21,6 +21,7 @@ class GenreTransformer extends Transformer
         return [
             'id' => $genre->fakeId(),
             'name' => $genre->name,
+            'stats' => $genre->stats()->toArray(),
         ];
     }
 
