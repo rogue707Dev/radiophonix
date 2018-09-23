@@ -45,7 +45,7 @@
                 </div>
                 <div class="statistic-container btn-group btn-group-sm" v-if="saga.finished">
                     <button type="button" class="btn btn-outline-secondary disabled">
-                        Terminé
+                        Terminée
                     </button>
                 </div>
             </div>
