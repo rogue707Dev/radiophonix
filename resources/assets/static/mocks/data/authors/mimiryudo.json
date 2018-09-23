@@ -13,8 +13,8 @@
     "stats": {
         "sagas": 1
     },
-    "created_at": "2018-09-23T19:52:47+00:00",
-    "updated_at": "2018-09-23T19:52:47+00:00",
+    "created_at": "2018-09-23T22:07:36+00:00",
+    "updated_at": "2018-09-23T22:07:36+00:00",
     "type": "user",
     "picture": {
         "main": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-main.jpg",
@@ -43,8 +43,8 @@
                 "collections": 3,
                 "tracks": 19
             },
-            "created_at": "2018-09-23T19:52:53+00:00",
-            "updated_at": "2018-09-23T19:52:53+00:00",
+            "created_at": "2018-09-23T22:07:42+00:00",
+            "updated_at": "2018-09-23T22:07:42+00:00",
             "author": {
                 "id": 1176091268,
                 "slug": "mimiryudo",
@@ -60,8 +60,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:47+00:00",
-                "updated_at": "2018-09-23T19:52:47+00:00",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-main.jpg",

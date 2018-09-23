@@ -4,9 +4,9 @@
         "number": "1",
         "name": "Chapitre 0,5 - Avant le commencement",
         "synopsis": "Seule mono réalisé par Squill, ce chapitre 0,5 tente de revenir aux genèses de la genèse décrite dans le chapitre 1. Il a été diffusé en mars 2009.",
-        "type": "saison",
-        "created_at": "2018-09-23T19:52:54+00:00",
-        "updated_at": "2018-09-23T19:52:54+00:00",
+        "type": "season",
+        "created_at": "2018-09-23T22:07:43+00:00",
+        "updated_at": "2018-09-23T22:07:43+00:00",
         "tracks": [
             {
                 "id": 1068361046,
@@ -19,8 +19,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 0.5 - Avant le commencement.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             }
         ]
     },
@@ -29,9 +29,9 @@
         "number": "2",
         "name": "Chapitre 2 - L'aventure Messinienne (l'Age des Amaryllis)",
         "synopsis": "A la fin de l'Age des Amaryllis, une troupe de héros hauts en couleurs, recrutée par un aventurier haut en couleur, vont pénétrer dans le château de l'antre de Tang gardé des Gontrak non moins hauts en couleurs, afin d'y trouver le fameux secret qui y est gardé... Quel est ce secret, faut-il sauver la princesse, les sandwichs se conservent-ils le temps de plusieurs épisodes et que signifie cette prophétie murmurée par la licorne ? Toutes ces questions - ainsi que d'autres - trouvent leur réponse (surprenante) dans cette saga !",
-        "type": "saison",
-        "created_at": "2018-09-23T19:52:54+00:00",
-        "updated_at": "2018-09-23T19:52:54+00:00",
+        "type": "season",
+        "created_at": "2018-09-23T22:07:43+00:00",
+        "updated_at": "2018-09-23T22:07:43+00:00",
         "tracks": [
             {
                 "id": 1278890901,
@@ -44,8 +44,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 01.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 444989904,
@@ -58,8 +58,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 02.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 722664991,
@@ -72,8 +72,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 03.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 2021567578,
@@ -86,8 +86,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 04.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 113973913,
@@ -100,8 +100,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 04 bonus - Celebo et Stanislas.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 1465370820,
@@ -114,8 +114,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 05.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 1705223427,
@@ -128,8 +128,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 06.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 842011470,
@@ -142,8 +142,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 07.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 1084014989,
@@ -156,8 +156,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 08.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 300466120,
@@ -170,8 +170,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 09.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 1047882807,
@@ -184,8 +184,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 2 - Episode 10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             }
         ]
     },
@@ -194,9 +194,9 @@
         "number": "3",
         "name": "Chapitre 3 - Messina en folie (l'Age des Bleuets des Champs, ou l'ABC)",
         "synopsis": "Après l'Age des Amaryllis, à l'Age des Bleuets des Champs, la fée et l'aventurier reviennent à Messina, où les habitants sont marqués par l'empreinte des sept péchés. Ils devront retrouver leurs anciens compagnons, traverser les épreuves jusqu'à la Poutie, et combattre leurs propres démons.",
-        "type": "saison",
-        "created_at": "2018-09-23T19:52:54+00:00",
-        "updated_at": "2018-09-23T19:52:54+00:00",
+        "type": "season",
+        "created_at": "2018-09-23T22:07:43+00:00",
+        "updated_at": "2018-09-23T22:07:43+00:00",
         "tracks": [
             {
                 "id": 1287772786,
@@ -209,8 +209,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 3 - Episode 1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 489523377,
@@ -223,8 +223,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 3 - Episode 2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 733636348,
@@ -237,8 +237,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 3 - Episode 3.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 2013713211,
@@ -251,8 +251,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 3 - Episode 4.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 110264678,
@@ -265,8 +265,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 3 - Episode 5.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 1476362149,
@@ -279,8 +279,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 3 - Episode 6.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             },
             {
                 "id": 1682648544,
@@ -293,8 +293,8 @@
                 "file": "https://audio.radiophonix.org/messina/Messina 3 - Episode 7.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-23T19:52:54+00:00",
-                "updated_at": "2018-09-23T19:52:54+00:00"
+                "created_at": "2018-09-23T22:07:43+00:00",
+                "updated_at": "2018-09-23T22:07:43+00:00"
             }
         ]
     }

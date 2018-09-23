@@ -25,7 +25,7 @@
             "number": "1",
             "name": "Saison 1",
             "synopsis": "",
-            "type": "saison",
+            "type": "season",
             "tracks": [
                 {
                     "number": "1",
@@ -143,7 +143,7 @@
             "number": "2",
             "name": "Saison 2",
             "synopsis": "",
-            "type": "saison",
+            "type": "season",
             "tracks": [
                 {
                     "number": "11",
@@ -228,7 +228,7 @@
             "number": "3",
             "name": "Saison 3",
             "synopsis": "",
-            "type": "saison",
+            "type": "season",
             "tracks": [
                 {
                     "number": "0",
@@ -258,7 +258,7 @@
             "number": "4",
             "name": "Séances spéciales",
             "synopsis": "Les séances spéciales regroupent des épisodes ne suivant pas le déroulement linéaire des saisons, comme des cross-over, et des séances de noël.",
-            "type": "saison",
+            "type": "season",
             "tracks": [
                 {
                     "number": "1",
@@ -354,7 +354,7 @@
             "number": "5",
             "name": "Sur le Divan",
             "synopsis": "Les Sur le Divan, Sur le Grand Divan ou séances live sont des sketch, souvent improvisés, joués en direct par le Mago pour la webradio SynopsLive. Ces séances mettent généralement en scène des personnages des sagas des invités, ou les font directement participer.",
-            "type": "saison",
+            "type": "season",
             "tracks": [
                 {
                     "number": "1",
@@ -439,7 +439,7 @@
             "number": "6",
             "name": "Sur le (Grand) Divan",
             "synopsis": "",
-            "type": "saison",
+            "type": "season",
             "tracks": [
                 {
                     "number": "1",
@@ -546,7 +546,7 @@
             "number": "7",
             "name": "Sur le (Coop') Divan",
             "synopsis": "Pour renouveler le concept, Le Mago proposa de faire des séances live en utilisant en improvisation des mots-clés que des auditeurs lui auront envoyé dans la journée précédent l'émission.",
-            "type": "saison",
+            "type": "season",
             "tracks": [
                 {
                     "number": "1",

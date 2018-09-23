@@ -22,8 +22,8 @@
                 "collections": 1,
                 "tracks": 30
             },
-            "created_at": "2018-09-23T19:52:47+00:00",
-            "updated_at": "2018-09-23T19:52:47+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "author": {
                 "id": 206107536,
                 "slug": "flo",
@@ -39,8 +39,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:46+00:00",
-                "updated_at": "2018-09-23T19:52:46+00:00",
+                "created_at": "2018-09-23T22:07:35+00:00",
+                "updated_at": "2018-09-23T22:07:35+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -80,8 +80,8 @@
                 "collections": 6,
                 "tracks": 46
             },
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:37+00:00",
+            "updated_at": "2018-09-23T22:07:37+00:00",
             "author": {
                 "id": 2147222869,
                 "slug": "durendal",
@@ -97,8 +97,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:46+00:00",
-                "updated_at": "2018-09-23T19:52:46+00:00",
+                "created_at": "2018-09-23T22:07:34+00:00",
+                "updated_at": "2018-09-23T22:07:34+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
@@ -138,8 +138,8 @@
                 "collections": 9,
                 "tracks": 66
             },
-            "created_at": "2018-09-23T19:52:49+00:00",
-            "updated_at": "2018-09-23T19:52:49+00:00",
+            "created_at": "2018-09-23T22:07:38+00:00",
+            "updated_at": "2018-09-23T22:07:38+00:00",
             "author": {
                 "id": 965594201,
                 "slug": "magoyond",
@@ -155,8 +155,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:46+00:00",
-                "updated_at": "2018-09-23T19:52:46+00:00",
+                "created_at": "2018-09-23T22:07:35+00:00",
+                "updated_at": "2018-09-23T22:07:35+00:00",
                 "type": "team",
                 "picture": {
                     "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
@@ -196,8 +196,8 @@
                 "collections": 2,
                 "tracks": 13
             },
-            "created_at": "2018-09-23T19:52:51+00:00",
-            "updated_at": "2018-09-23T19:52:51+00:00",
+            "created_at": "2018-09-23T22:07:39+00:00",
+            "updated_at": "2018-09-23T22:07:39+00:00",
             "author": {
                 "id": 1523884511,
                 "slug": "inky",
@@ -213,8 +213,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:46+00:00",
-                "updated_at": "2018-09-23T19:52:46+00:00",
+                "created_at": "2018-09-23T22:07:35+00:00",
+                "updated_at": "2018-09-23T22:07:35+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
@@ -254,8 +254,8 @@
                 "collections": 3,
                 "tracks": 36
             },
-            "created_at": "2018-09-23T19:52:53+00:00",
-            "updated_at": "2018-09-23T19:52:53+00:00",
+            "created_at": "2018-09-23T22:07:41+00:00",
+            "updated_at": "2018-09-23T22:07:41+00:00",
             "author": {
                 "id": 392587459,
                 "slug": "mitch-dsm",
@@ -271,8 +271,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:47+00:00",
-                "updated_at": "2018-09-23T19:52:47+00:00",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/storage/2059235322/conversions/author-main.jpg",
@@ -307,8 +307,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-23T22:07:34+00:00",
+            "updated_at": "2018-09-23T22:07:34+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
@@ -330,8 +330,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-23T22:07:35+00:00",
+            "updated_at": "2018-09-23T22:07:35+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -353,8 +353,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-23T22:07:35+00:00",
+            "updated_at": "2018-09-23T22:07:35+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
@@ -376,8 +376,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-23T22:07:35+00:00",
+            "updated_at": "2018-09-23T22:07:35+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
@@ -399,8 +399,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-23T22:07:35+00:00",
+            "updated_at": "2018-09-23T22:07:35+00:00",
             "type": "team",
             "picture": {
                 "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
@@ -472,16 +472,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 1.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -504,8 +504,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -521,8 +521,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -553,16 +553,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 2.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -585,8 +585,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -602,8 +602,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -634,16 +634,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 3.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -666,8 +666,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -683,8 +683,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -715,16 +715,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 4.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -747,8 +747,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -764,8 +764,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -796,16 +796,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 5.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -828,8 +828,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -845,8 +845,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -877,16 +877,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 6.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -909,8 +909,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -926,8 +926,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -958,16 +958,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 7.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -990,8 +990,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1007,8 +1007,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1039,16 +1039,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 8.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1071,8 +1071,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1088,8 +1088,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1120,16 +1120,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 9.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1152,8 +1152,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1169,8 +1169,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1201,16 +1201,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 10.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1233,8 +1233,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1250,8 +1250,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1282,16 +1282,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 11.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1314,8 +1314,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1331,8 +1331,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1363,16 +1363,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 12.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1395,8 +1395,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1412,8 +1412,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1444,16 +1444,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 13.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1476,8 +1476,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1493,8 +1493,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1525,16 +1525,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 14.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1557,8 +1557,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1574,8 +1574,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1606,16 +1606,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 15.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1638,8 +1638,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1655,8 +1655,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1687,16 +1687,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 16.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1719,8 +1719,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1736,8 +1736,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1768,16 +1768,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 17.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1800,8 +1800,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1817,8 +1817,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1849,16 +1849,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 18.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1881,8 +1881,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1898,8 +1898,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1930,16 +1930,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 19.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1962,8 +1962,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1979,8 +1979,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2011,16 +2011,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 20.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2043,8 +2043,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2060,8 +2060,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2092,16 +2092,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 21.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2124,8 +2124,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2141,8 +2141,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2173,16 +2173,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 22.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2205,8 +2205,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2222,8 +2222,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2254,16 +2254,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 23.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2286,8 +2286,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2303,8 +2303,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2335,16 +2335,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 24.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2367,8 +2367,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2384,8 +2384,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2416,16 +2416,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 25.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2448,8 +2448,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2465,8 +2465,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2497,16 +2497,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 26.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2529,8 +2529,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2546,8 +2546,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2578,16 +2578,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 27.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2610,8 +2610,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2627,8 +2627,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2659,16 +2659,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 28.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2691,8 +2691,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2708,8 +2708,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2740,16 +2740,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 29.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2772,8 +2772,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2789,8 +2789,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2821,16 +2821,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 30.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-23T22:07:36+00:00",
+            "updated_at": "2018-09-23T22:07:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-23T22:07:36+00:00",
+                "updated_at": "2018-09-23T22:07:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2853,8 +2853,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-23T22:07:36+00:00",
+                    "updated_at": "2018-09-23T22:07:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2870,8 +2870,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-23T22:07:35+00:00",
+                        "updated_at": "2018-09-23T22:07:35+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
