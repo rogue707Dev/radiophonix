@@ -56,7 +56,7 @@
                             faire des suggestions. On ne demande que ça !<br/>
                             <br/>
                             Radiophonix est un projet open source :
-                            <a title="Lien GitLab" href="https://gitlab.com/Radiophonix/Radiophonix">
+                            <a title="Lien GitLab" class="lien-paragraphe" href="https://gitlab.com/Radiophonix/Radiophonix">
                                 https://gitlab.com/Radiophonix/Radiophonix
                             </a><br/>
                             Les contributions sont les bienvenues !
@@ -66,8 +66,8 @@
                     <h2 class="h1">Qui êtes-vous ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
-                            Nous sommes un développeur web (<a href="http://mopolo.fr/">Nathan</a>)
-                            et un graphiste (<a href="http://www.pierre.tl">Pierre</a>)
+                            Nous sommes un développeur web (<a href="http://mopolo.fr/" class="lien-paragraphe">Nathan</a>)
+                            et un graphiste (<a href="http://www.pierre.tl" class="lien-paragraphe">Pierre</a>)
                             professionnels, passionnés de sagas MP3.<br/>
                             Faire des sites est notre métier depuis plusieurs années, ce qui
                             nous permet de développer ce projet.<br/>
@@ -87,7 +87,7 @@
                             des sagas MP3 en téléchargement libre a explosé.
                         </p>
                         <footer class="blockquote-footer">
-                            <a href="https://wiki.netophonix.com/Saga_MP3">
+                            <a href="https://wiki.netophonix.com/Saga_MP3" class="lien-paragraphe">
                                 Extrait du Netowiki
                             </a>
                         </footer>
@@ -143,17 +143,7 @@
 
 
 
-        <headband
-                urlImage="/static/home/publier.jpeg"
-                title="Publier"
-                subtitle="Publiez vos propres sagas directement sur le site">
-        </headband>
-
-        <div class="layout-conteneur__main">
-
-            @todo décrire ce qui est prévu
-
-        </div>
+        <publish-presentation/>
 
 
 
@@ -162,13 +152,13 @@
 
 
 
-        <headband
+        <headband v-feature="'contribuer'"
                 urlImage="/static/home/contribuer.jpeg"
                 title="Contribuer"
                 subtitle="Le site est open source et les contributions sont les bienvenues">
         </headband>
 
-        <div class="layout-conteneur__main">
+        <div class="layout-conteneur__main" v-feature="'contribuer'">
             <div class="row mb-5">
                 <div class="col-12">
                     <p>Radiophonix est actuellement en <span class="badge badge-danger">Alpha</span></p>
@@ -180,7 +170,7 @@
                     <p>
                         Les contributions sont les bienvenues !<br />
                         <br>
-                        Vous pouvez participer à la création du site sur <a title="Lien GitLab" href="https://gitlab.com/Radiophonix/Radiophonix">GitLab</a>.<br/>
+                        Vous pouvez participer à la création du site sur <a title="Lien GitLab" href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">GitLab</a>.<br/>
                         <br>
                         Vous pouvez aussi signaler les bugs rencontrés.
                     </p>
@@ -220,12 +210,14 @@ import api from '~/lib/api';
 import SagaList from '~/components/saga/SagaList.vue';
 import Headband from '~/components/content/Headband.vue';
 import Card from '~/components/content/Card.vue';
+import PublishPresentation from '~/components/publish/PublishPresentation.vue';
 
 export default {
     components: {
         SagaList,
         Headband,
         Card,
+        PublishPresentation,
     },
 
     data() {
