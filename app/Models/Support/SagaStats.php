@@ -2,10 +2,11 @@
 
 namespace Radiophonix\Models\Support;
 
+use Illuminate\Contracts\Support\Arrayable;
 use Radiophonix\Models\Collection;
 use Radiophonix\Models\Saga;
 
-class SagaStats
+class SagaStats implements Arrayable
 {
     /**
      * @var Saga
@@ -48,5 +49,17 @@ class SagaStats
     public function collections(): int
     {
         return (int)$this->saga->collections()->count();
+    }
+
+    /**
+     * @return array
+     */
+    public function toArray(): array
+    {
+        return [
+            'bravos' => $this->bravos(),
+            'collections' => $this->collections(),
+            'tracks' => $this->tracks(),
+        ];
     }
 }

@@ -46,11 +46,7 @@ class SagaTransformer extends Transformer
             ],
             'finished' => $saga->finished,
             'visibility' => (int)$saga->visibility,
-            'stats' => [
-                'bravos' => $saga->stats()->bravos(),
-                'collections' => $saga->stats()->collections(),
-                'tracks' => $saga->stats()->tracks(),
-            ],
+            'stats' => $saga->stats()->toArray(),
             'created_at' => $this->getFormatedDate($saga->created_at),
             'updated_at' => $this->getFormatedDate($saga->updated_at),
         ];
