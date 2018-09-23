@@ -29,81 +29,130 @@
 
 
 
-            <h1 class="display-3">SAGA</h1>
-            <ul class="liste-jaquette saga">
-                <li>
-                    <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
-                        <div class="jaquette--grande jaquette--saga zone-interactive__border">
-                            <img src="http://facetheforce.today/random/340?r=1" alt="" width="340px" height="340px">
-                        </div>
-                        <div class="zone-interactive zone-interactive__colle-cadre border-top-0">
-                            <div class="zone-interactive__info p-1">
-                                <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
-                                    <p class="h3 text-body">Le Donjon de Naheulbeuk</p>
-                                    <p class="text-primary h5">
-                                        <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
-                                    </p>
-                                </a>
-                                <p><a href="/ecouter/faiseurs/pen-of-chaos" class="">Par Pen Of Chaos</a></p>
-                            </div>
-                            <div class="zone-interactive__action">
-                                <a href="" class="zone-interactive__bouton"><i aria-hidden="true" class="fa fa-heart"></i></a>
-                                <a href="" class="zone-interactive__bouton"><i aria-hidden="true" class="fa fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
-                        <div class="jaquette--grande jaquette--saga zone-interactive__border">
+
+            <h1 class="display-3">Mini carte ?</h1>
+            <div data-v-5f801cbc="" class="layout-resultat-recherche__vrac"><ul data-v-5f801cbc="" class="liste-resultat"><li data-v-5f801cbc="" class="liste-resultat__item-vrac"><a data-v-5f801cbc="" href="/ecouter/sagas/le-donjon-de-naheulbeuk"><div data-v-5f801cbc="" class="zone-interactive"><div data-v-5f801cbc="" class="zone-interactive__info"><div data-v-5f801cbc="" class="d-flex"><div data-v-5f801cbc="" class="liste-resultat__visuel"><div data-v-5f801cbc="" class="jaquette--petite jaquette--saga"><img data-v-5f801cbc="" src="http://facetheforce.today/random/340?r=6" alt="" width="340px" height="340px"></div></div> <div data-v-5f801cbc="" class="liste-resultat__info"><p data-v-5f801cbc="" class="h3">Le Donjon de Naheulbeuk</p> <p data-v-5f801cbc="" class="text-primary"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
+            </p></div></div></div> <div data-v-5f801cbc="" class="zone-interactive__action"><a data-v-5f801cbc="" href="" class="zone-interactive__bouton"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i></a> <a data-v-5f801cbc="" href="" class="zone-interactive__bouton"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i></a></div></div></a></li> <li data-v-5f801cbc="" class="liste-resultat__item-vrac"><a data-v-5f801cbc="" href="/ecouter/sagas/le-donjon-de-naheulbeuk"><div data-v-5f801cbc="" class="zone-interactive"><div data-v-5f801cbc="" class="zone-interactive__info"><div data-v-5f801cbc="" class="d-flex"><div data-v-5f801cbc="" class="liste-resultat__visuel"><div data-v-5f801cbc="" class="jaquette--petite jaquette--faiseur"><img data-v-5f801cbc="" src="http://facetheforce.today/random/340?r=7" alt="" width="340px" height="340px"></div></div> <div data-v-5f801cbc="" class="liste-resultat__info"><p data-v-5f801cbc="" class="h3">Pen Of Chaos</p> <p data-v-5f801cbc="" class="text-primary"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
+            </p></div></div></div> <div data-v-5f801cbc="" class="zone-interactive__action"><a data-v-5f801cbc="" href="" class="zone-interactive__bouton"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i></a> <a data-v-5f801cbc="" href="" class="zone-interactive__bouton"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i></a></div></div></a></li> <li data-v-5f801cbc="" class="liste-resultat__item-vrac"><a data-v-5f801cbc="" href="/ecouter/sagas/le-donjon-de-naheulbeuk"><div data-v-5f801cbc="" class="zone-interactive"><div data-v-5f801cbc="" class="zone-interactive__info"><div data-v-5f801cbc="" class="d-flex"><div data-v-5f801cbc="" class="liste-resultat__visuel"><div data-v-5f801cbc="" class="jaquette--petite jaquette--episode"><img data-v-5f801cbc="" src="http://facetheforce.today/random/340?r=8" alt="" width="340px" height="340px"></div></div> <div data-v-5f801cbc="" class="liste-resultat__info"><p data-v-5f801cbc="" class="h3">Présentation</p> <p data-v-5f801cbc="" class="text-primary"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-clock-o"></i> 3m, 45s
+            </p></div></div></div> <div data-v-5f801cbc="" class="zone-interactive__action"><a data-v-5f801cbc="" href="" class="zone-interactive__bouton"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actif"></i></a> <a data-v-5f801cbc="" href="" class="zone-interactive__bouton"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i></a></div></div></a></li> <li data-v-5f801cbc="" class="liste-resultat__item-vrac"><a data-v-5f801cbc="" href="/ecouter/sagas/le-donjon-de-naheulbeuk"><div data-v-5f801cbc="" class="zone-interactive"><div data-v-5f801cbc="" class="zone-interactive__info"><div data-v-5f801cbc="" class="d-flex"><div data-v-5f801cbc="" class="liste-resultat__visuel"><div data-v-5f801cbc="" class="jaquette--petite jaquette--genre"><img data-v-5f801cbc="" src="http://facetheforce.today/random/340?r=9" alt="" width="340px" height="340px"></div></div> <div data-v-5f801cbc="" class="liste-resultat__info"><p data-v-5f801cbc="" class="h3">Heroic fantasy</p> <p data-v-5f801cbc="" class="text-primary"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
+            </p></div></div></div> <div data-v-5f801cbc="" class="zone-interactive__action"><a data-v-5f801cbc="" href="" class="zone-interactive__bouton"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i></a> <a data-v-5f801cbc="" href="" class="zone-interactive__bouton"><i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i></a></div></div></a></li></ul></div>
+            <hr class="my-5">
+
+
+            <h1 class="display-3">Carte jacket Horizontal</h1>
+            <div class="list-card-horizontal">
+                <a href="#" class="card var--horizontal">
+                    <div class="card-jacket var--episode">
+                        <div class="jaquette--petite jaquette--episode">
                             <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
                         </div>
-                        <div class="zone-interactive zone-interactive__colle-cadre border-top-0">
-                            <div class="zone-interactive__info p-1">
-                                <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
-                                    <p class="h3 text-body">Le Donjon de Naheulbeuk</p>
-                                    <p class="text-primary h5">
-                                        <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
-                                    </p>
-                                </a>
-                                <p><a href="/ecouter/faiseurs/pen-of-chaos" class="">Par Pen Of Chaos</a></p>
-                            </div>
-                            <div class="zone-interactive__action">
-                                <a href="" class="zone-interactive__bouton"><i aria-hidden="true" class="fa fa-heart"></i></a>
-                                <a href="" class="zone-interactive__bouton"><i aria-hidden="true" class="fa fa-plus"></i></a>
-                            </div>
+                    </div>
+                    <div class="card-button">
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
+                    </div>
+                    <div class="card-body">
+                        <p class="h3 text-body">
+                            Présentation
+                            <span class="badge badge-light badge-sm">Episode</span>
+                        </p>
+                        <p class="text-primary h5">
+                            <i aria-hidden="true" class="fa fa-clock-o"></i> 3m, 45s
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="card var--horizontal">
+                    <div class="card-jacket var--faiseur">
+                        <div class="jaquette--petite jaquette--faiseur">
+                            <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
                         </div>
-                    </a>
-                </li>
-            </ul>
-            <div class="card card-saga">
-                <img class="card-img-top" src="http://facetheforce.today/random/340?r=1" alt="">
-                <div class="card-body">
-                    <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
-                        <p class="h3 text-body">Le Donjon de Naheulbeuk</p>
+                    </div>
+                    <div class="card-button">
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
+                    </div>
+                    <div class="card-body">
+                        <p class="h3 text-body">
+                            Pen Of Chaos
+                            <span class="badge badge-light badge-sm">Faiseur</span>
+                        </p>
+                        <p class="text-primary h5">
+                            <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="card var--horizontal">
+                    <div class="card-jacket var--genre">
+                        <div class="jaquette--petite jaquette--genre">
+                            <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
+                        </div>
+                        <div class="pa-centrer">
+                            <svg width="90px" height="79px">
+                                <use xlink:href="#contour-genre"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-button">
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actifxxx"></i>
+                    </div>
+                    <div class="card-body">
+                        <p class="h3 text-body">
+                            Heroic fantasy
+                            <span class="badge badge-light badge-sm">Genre</span>
+                        </p>
+                        <p class="text-primary h5">
+                            <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="card var--horizontal">
+                    <div class="card-jacket var--saga">
+                        <div class="jaquette--card">
+                            <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
+                        </div>
+                    </div>
+                    <div class="card-button">
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actif"></i>
+                    </div>
+                    <div class="card-body">
+                        <p class="h3 text-body">
+                            Le Donjon de Naheulbeuk
+                            <span class="badge badge-light badge-sm">Saga</span>
+                        </p>
                         <p class="text-primary h5">
                             <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
                         </p>
-                    </a>
-                    <p><a href="/ecouter/faiseurs/pen-of-chaos" class="">Par Pen Of Chaos</a></p>
-                </div>
+                    </div>
+                </a>
             </div>
             <hr class="my-5">
 
 
 
+
+
+
+
+
+
+            <h1 class="display-3">Carte Jacket</h1>
             <div class="list-card">
 
 
                 <a href="#" class="card">
-                    <div class="card-jacket--episode">
+                    <div class="card-jacket var--episode">
                         <div class="jaquette--moyen jaquette--episode">
                             <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
                         </div>
-                        <div class="card-jacket__button">
-                            <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
-                            <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
-                        </div>
+                    </div>
+                    <div class="card-button">
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
                         <p class="h3 text-body">
@@ -117,14 +166,14 @@
                 </a>
 
                 <a href="#" class="card">
-                    <div class="card-jacket--faiseur">
+                    <div class="card-jacket var--faiseur">
                         <div class="jaquette--moyen jaquette--faiseur">
                             <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
                         </div>
-                        <div class="card-jacket__button">
-                            <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
-                            <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
-                        </div>
+                    </div>
+                    <div class="card-button">
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
                         <p class="h3 text-body">
@@ -137,9 +186,8 @@
                     </div>
                 </a>
 
-
                 <a href="#" class="card">
-                    <div class="card-jacket--genre">
+                    <div class="card-jacket var--genre">
                         <div class="jaquette--moyen jaquette--genre">
                             <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
                         </div>
@@ -148,10 +196,10 @@
                                 <use xlink:href="#contour-genre"></use>
                             </svg>
                         </div>
-                        <div class="card-jacket__button">
-                            <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
-                            <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actifxxx"></i>
-                        </div>
+                    </div>
+                    <div class="card-button">
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actifxxx"></i>
                     </div>
                     <div class="card-body">
                         <p class="h3 text-body">
@@ -164,17 +212,15 @@
                     </div>
                 </a>
 
-
-
                 <a href="#" class="card">
-                    <div class="card-jacket--saga">
+                    <div class="card-jacket var--saga">
                         <div class="jaquette--card">
                             <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
                         </div>
-                        <div class="card-jacket__button">
-                            <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
-                            <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actif"></i>
-                        </div>
+                    </div>
+                    <div class="card-button">
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actif"></i>
                     </div>
                     <div class="card-body">
                         <p class="h3 text-body">
@@ -1249,7 +1295,52 @@
     ':`
 </pre>
 
-
+            <ul class="liste-jaquette saga">
+                <li>
+                    <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
+                        <div class="jaquette--grande jaquette--saga zone-interactive__border">
+                            <img src="http://facetheforce.today/random/340?r=1" alt="" width="340px" height="340px">
+                        </div>
+                        <div class="zone-interactive zone-interactive__colle-cadre border-top-0">
+                            <div class="zone-interactive__info p-1">
+                                <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
+                                    <p class="h3 text-body">Le Donjon de Naheulbeuk</p>
+                                    <p class="text-primary h5">
+                                        <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
+                                    </p>
+                                </a>
+                                <p><a href="/ecouter/faiseurs/pen-of-chaos" class="">Par Pen Of Chaos</a></p>
+                            </div>
+                            <div class="zone-interactive__action">
+                                <a href="" class="zone-interactive__bouton"><i aria-hidden="true" class="fa fa-heart"></i></a>
+                                <a href="" class="zone-interactive__bouton"><i aria-hidden="true" class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
+                        <div class="jaquette--grande jaquette--saga zone-interactive__border">
+                            <img src="http://facetheforce.today/random/340?r=2" alt="" width="340px" height="340px">
+                        </div>
+                        <div class="zone-interactive zone-interactive__colle-cadre border-top-0">
+                            <div class="zone-interactive__info p-1">
+                                <a href="/ecouter/sagas/le-donjon-de-naheulbeuk" class="">
+                                    <p class="h3 text-body">Le Donjon de Naheulbeuk</p>
+                                    <p class="text-primary h5">
+                                        <i aria-hidden="true" class="fa fa-podcast"></i> 2 Saison - 30 Épisodes
+                                    </p>
+                                </a>
+                                <p><a href="/ecouter/faiseurs/pen-of-chaos" class="">Par Pen Of Chaos</a></p>
+                            </div>
+                            <div class="zone-interactive__action">
+                                <a href="" class="zone-interactive__bouton"><i aria-hidden="true" class="fa fa-heart"></i></a>
+                                <a href="" class="zone-interactive__bouton"><i aria-hidden="true" class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
 
             <div class="row my-5">
 

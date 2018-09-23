@@ -118,7 +118,7 @@
                         <router-link class="card"
                                      v-for="genre in getGenresRow(0)" :key="genre.id"
                                      :to="{ name: 'listen.genres.show', params: { id: genre.id } }">
-                            <div class="card-jacket--genre">
+                            <div class="card-jacket var--genre">
                                 <div class="jaquette--moyen jaquette--genre">
                                     <img :src="genre.image.main" alt="">
                                 </div>

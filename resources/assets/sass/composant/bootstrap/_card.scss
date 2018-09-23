@@ -2,6 +2,8 @@
 $ LISTE DE CARTE
 ======================================================================================================================*/
 $largeur-card: 200px;
+$largeur-petite-jacket: 100px;
+$largeur-petite-card: 300px;
 
 .list-card {
     display: grid;
@@ -13,24 +15,35 @@ $largeur-card: 200px;
     width: $largeur-card;
 }
 
+.list-card-horizontal {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax($largeur-petite-card, 1fr));
+    grid-gap: 10px;
+
+    .card.var--horizontal {
+        width: $largeur-petite-card;
+    }
+}
+
 /*======================================================================================================================
-$ SURCHARGE
+$ CUSTOMISATION CARD
 ======================================================================================================================*/
 $color-card: $bleu-100;
 
 .card {
     border-color: $color-card;
+    position: relative;
 }
 
 a.card {
     @include survol(){
         border-color: $bleu-200;
 
-        [class*=card-jacket--]:after {
+        [class*=var--]:after {
             border-color: $primary;
         }
 
-        .card-jacket--genre svg {
+        .var--genre svg {
             fill: $primary;
         }
 
@@ -38,21 +51,8 @@ a.card {
 }
 
 /*======================================================================================================================
-$ HEADER VISUAL
+$ JACKET
 ======================================================================================================================*/
-[class*=card-jacket--] {
-    position: relative;
-    height: $largeur-card;
-    width: ($largeur-card - ($card-border-width * 2));// le fond etant en absolute, il ne doit pas se superposer au bordure
-    background-color: $color-card;
-
-    .jaquette--moyen,
-    .jaquette--card{
-        @include pa-centre;
-    }
-
-}
-
 $couleur-contour-card-jacket: $bleu-200;
 
 @mixin card-jacket-contour {
@@ -63,38 +63,56 @@ $couleur-contour-card-jacket: $bleu-200;
 }
 
 
-.card-jacket--faiseur:after {
-    @include card-jacket-contour;
-    border-radius: 50%;
-    width: 145px;
-    height: 145px;
+.card-jacket {
+    position: relative;
+    height: $largeur-card;
+    background-color: $color-card;
+
+    .jaquette--petite,
+    .jaquette--moyen,
+    .jaquette--card{
+        @include pa-centre;
+    }
+
+    &.var--faiseur:after {
+        @include card-jacket-contour;
+        border-radius: 50%;
+        width: 145px;
+        height: 145px;
+    }
+
+    &.var--genre svg {
+        fill: $couleur-contour-card-jacket;
+    }
+
+    &.var--saga:after {
+        @include card-jacket-contour;
+        width: 150px;
+        height: 150px;
+    }
+
+    &.var--episode:after {
+        @include card-jacket-contour;
+        @include pa-centre(rotate(45deg));
+        border-radius: 8px;
+        width: 130px;
+        height: 130px;
+
+    }
+
 }
 
-.card-jacket--genre svg {
-    fill: $couleur-contour-card-jacket;
-}
 
-.card-jacket--saga:after {
-    @include card-jacket-contour;
-    width: 150px;
-    height: 150px;
-}
 
-.card-jacket--episode:after {
-    @include card-jacket-contour;
-    @include pa-centre(rotate(45deg));
-    border-radius: 8px;
-    width: 130px;
-    height: 130px;
 
-}
+
 
 /*======================================================================================================================
 $ BOUTON
 ======================================================================================================================*/
-.card-jacket__button {
+.card-button {
     position: absolute;
-    bottom: 0;
+    top: ($largeur-card - 20px);
     left: 0;
     right: 0;
     padding: 0 10px 5px;
@@ -114,4 +132,63 @@ $ BOUTON
         }
     }
 
+}
+
+
+
+
+/*======================================================================================================================
+$ CARTE HORIZONTAL
+======================================================================================================================*/
+.card.var--horizontal {
+    display: grid;
+    grid-template-columns: $largeur-petite-jacket 1fr;
+    align-items: center;
+
+    .card-body {
+        padding: 5px 20px 5px 10px;
+    }
+
+    .card-button {
+        right: 0;
+        left: auto;
+        top: 0;
+        bottom: 0;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        align-content: space-between;
+        padding: 10px 5px 10px 0;
+    }
+
+    .card-jacket {
+        height: 100%;
+        min-height: 100px;
+        width: $largeur-petite-jacket;
+
+
+        &.var--faiseur:after {
+            width: 78px;
+            height: 78px;
+        }
+
+        &.var--episode:after {
+            width: 70px;
+            height: 70px;
+        }
+
+        &.var--saga:after {
+            width: 87px;
+            height: 87px;
+        }
+
+        .jaquette--card {
+            width: 70px;
+            height: 70px;
+
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
 }

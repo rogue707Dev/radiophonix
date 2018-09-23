@@ -2,14 +2,14 @@
     <router-link
             class="card"
             :to="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }">
-        <div class="card-jacket--saga">
+        <div class="card-jacket var--saga">
             <div class="jaquette--card">
                 <img :src="saga.images.cover.main" alt="" width="340px" height="340px">
             </div>
-            <div class="card-jacket__button">
-                <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
-                <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
-            </div>
+        </div>
+        <div class="card-button">
+            <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
+            <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
         </div>
         <div class="card-body">
             <p class="h3 text-body">
