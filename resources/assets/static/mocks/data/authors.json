@@ -14,12 +14,12 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-22T13:29:38+00:00",
-        "updated_at": "2018-09-22T13:29:38+00:00",
+        "created_at": "2018-09-23T19:52:46+00:00",
+        "updated_at": "2018-09-23T19:52:46+00:00",
         "type": "user",
         "picture": {
-            "main": "/static/mocks/media/1277011276/conversions/author-main.jpg",
-            "thumb": "/static/mocks/media/1277011276/conversions/author-thumb.jpg"
+            "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
+            "thumb": "/static/mocks/media/storage/1277011276/conversions/author-thumb.jpg"
         },
         "sagas": [
             {
@@ -44,8 +44,8 @@
                     "collections": 6,
                     "tracks": 46
                 },
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00",
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00",
                 "author": {
                     "id": 2147222869,
                     "slug": "durendal",
@@ -61,18 +61,18 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-22T13:29:38+00:00",
-                    "updated_at": "2018-09-22T13:29:38+00:00",
+                    "created_at": "2018-09-23T19:52:46+00:00",
+                    "updated_at": "2018-09-23T19:52:46+00:00",
                     "type": "user",
                     "picture": {
-                        "main": "/static/mocks/media/1277011276/conversions/author-main.jpg",
-                        "thumb": "/static/mocks/media/1277011276/conversions/author-thumb.jpg"
+                        "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1277011276/conversions/author-thumb.jpg"
                     }
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/504187695/conversions/banal-fantasy-main.jpg",
-                        "thumb": "/static/mocks/media/504187695/conversions/banal-fantasy-thumb.jpg",
+                        "main": "/static/mocks/media/storage/504187695/conversions/banal-fantasy-main.jpg",
+                        "thumb": "/static/mocks/media/storage/504187695/conversions/banal-fantasy-thumb.jpg",
                         "meta": {
                             "color": "#5546D7",
                             "type": "dark"
@@ -97,12 +97,12 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-22T13:29:38+00:00",
-        "updated_at": "2018-09-22T13:29:38+00:00",
+        "created_at": "2018-09-23T19:52:46+00:00",
+        "updated_at": "2018-09-23T19:52:46+00:00",
         "type": "user",
         "picture": {
-            "main": "/static/mocks/media/1462912999/conversions/flo-main.jpg",
-            "thumb": "/static/mocks/media/1462912999/conversions/flo-thumb.jpg"
+            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
+            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
         },
         "sagas": [
             {
@@ -127,8 +127,8 @@
                     "collections": 1,
                     "tracks": 30
                 },
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00",
+                "created_at": "2018-09-23T19:52:47+00:00",
+                "updated_at": "2018-09-23T19:52:47+00:00",
                 "author": {
                     "id": 206107536,
                     "slug": "flo",
@@ -144,18 +144,18 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-22T13:29:38+00:00",
-                    "updated_at": "2018-09-22T13:29:38+00:00",
+                    "created_at": "2018-09-23T19:52:46+00:00",
+                    "updated_at": "2018-09-23T19:52:46+00:00",
                     "type": "user",
                     "picture": {
-                        "main": "/static/mocks/media/1462912999/conversions/flo-main.jpg",
-                        "thumb": "/static/mocks/media/1462912999/conversions/flo-thumb.jpg"
+                        "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
                     }
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/231868445/conversions/agent0-main.jpg",
-                        "thumb": "/static/mocks/media/231868445/conversions/agent0-thumb.jpg",
+                        "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
+                        "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
                         "meta": {
                             "color": "#FE0000",
                             "type": "dark"
@@ -180,12 +180,12 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-22T13:29:38+00:00",
-        "updated_at": "2018-09-22T13:29:38+00:00",
+        "created_at": "2018-09-23T19:52:46+00:00",
+        "updated_at": "2018-09-23T19:52:46+00:00",
         "type": "user",
         "picture": {
-            "main": "/static/mocks/media/1581834270/conversions/inky-main.jpg",
-            "thumb": "/static/mocks/media/1581834270/conversions/inky-thumb.jpg"
+            "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
+            "thumb": "/static/mocks/media/storage/1581834270/conversions/inky-thumb.jpg"
         },
         "sagas": [
             {
@@ -210,8 +210,8 @@
                     "collections": 2,
                     "tracks": 13
                 },
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00",
+                "created_at": "2018-09-23T19:52:51+00:00",
+                "updated_at": "2018-09-23T19:52:51+00:00",
                 "author": {
                     "id": 1523884511,
                     "slug": "inky",
@@ -227,18 +227,18 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-22T13:29:38+00:00",
-                    "updated_at": "2018-09-22T13:29:38+00:00",
+                    "created_at": "2018-09-23T19:52:46+00:00",
+                    "updated_at": "2018-09-23T19:52:46+00:00",
                     "type": "user",
                     "picture": {
-                        "main": "/static/mocks/media/1581834270/conversions/inky-main.jpg",
-                        "thumb": "/static/mocks/media/1581834270/conversions/inky-thumb.jpg"
+                        "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1581834270/conversions/inky-thumb.jpg"
                     }
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/980669067/conversions/kiponie-stories-main.jpg",
-                        "thumb": "/static/mocks/media/980669067/conversions/kiponie-stories-thumb.jpg",
+                        "main": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-main.jpg",
+                        "thumb": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-thumb.jpg",
                         "meta": {
                             "color": "#CC4D1B",
                             "type": "dark"
@@ -263,12 +263,12 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-22T13:29:39+00:00",
-        "updated_at": "2018-09-22T13:29:39+00:00",
+        "created_at": "2018-09-23T19:52:46+00:00",
+        "updated_at": "2018-09-23T19:52:46+00:00",
         "type": "user",
         "picture": {
-            "main": "/static/mocks/media/1634566833/conversions/jbx-main.jpg",
-            "thumb": "/static/mocks/media/1634566833/conversions/jbx-thumb.jpg"
+            "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
+            "thumb": "/static/mocks/media/storage/1634566833/conversions/jbx-thumb.jpg"
         },
         "sagas": [
             {
@@ -293,8 +293,8 @@
                     "collections": 1,
                     "tracks": 16
                 },
-                "created_at": "2018-09-22T13:29:47+00:00",
-                "updated_at": "2018-09-22T13:29:47+00:00",
+                "created_at": "2018-09-23T19:52:54+00:00",
+                "updated_at": "2018-09-23T19:52:54+00:00",
                 "author": {
                     "id": 1797332506,
                     "slug": "jbx",
@@ -310,18 +310,18 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-22T13:29:39+00:00",
-                    "updated_at": "2018-09-22T13:29:39+00:00",
+                    "created_at": "2018-09-23T19:52:46+00:00",
+                    "updated_at": "2018-09-23T19:52:46+00:00",
                     "type": "user",
                     "picture": {
-                        "main": "/static/mocks/media/1634566833/conversions/jbx-main.jpg",
-                        "thumb": "/static/mocks/media/1634566833/conversions/jbx-thumb.jpg"
+                        "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1634566833/conversions/jbx-thumb.jpg"
                     }
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/1930664737/conversions/reflets-d-acide-main.jpg",
-                        "thumb": "/static/mocks/media/1930664737/conversions/reflets-d-acide-thumb.jpg",
+                        "main": "/static/mocks/media/storage/1930664737/conversions/reflets-d-acide-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1930664737/conversions/reflets-d-acide-thumb.jpg",
                         "meta": {
                             "color": "#61BCDE",
                             "type": "light"
@@ -346,12 +346,12 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-22T13:29:39+00:00",
-        "updated_at": "2018-09-22T13:29:39+00:00",
+        "created_at": "2018-09-23T19:52:46+00:00",
+        "updated_at": "2018-09-23T19:52:46+00:00",
         "type": "team",
         "picture": {
-            "main": "/static/mocks/media/1753359144/conversions/MAGOYOND-main.jpg",
-            "thumb": "/static/mocks/media/1753359144/conversions/MAGOYOND-thumb.jpg"
+            "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
+            "thumb": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-thumb.jpg"
         },
         "sagas": [
             {
@@ -376,8 +376,8 @@
                     "collections": 9,
                     "tracks": 66
                 },
-                "created_at": "2018-09-22T13:29:41+00:00",
-                "updated_at": "2018-09-22T13:29:41+00:00",
+                "created_at": "2018-09-23T19:52:49+00:00",
+                "updated_at": "2018-09-23T19:52:49+00:00",
                 "author": {
                     "id": 965594201,
                     "slug": "magoyond",
@@ -393,18 +393,18 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-22T13:29:39+00:00",
-                    "updated_at": "2018-09-22T13:29:39+00:00",
+                    "created_at": "2018-09-23T19:52:46+00:00",
+                    "updated_at": "2018-09-23T19:52:46+00:00",
                     "type": "team",
                     "picture": {
-                        "main": "/static/mocks/media/1753359144/conversions/MAGOYOND-main.jpg",
-                        "thumb": "/static/mocks/media/1753359144/conversions/MAGOYOND-thumb.jpg"
+                        "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-thumb.jpg"
                     }
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/674797561/conversions/chez-le-psy-main.jpg",
-                        "thumb": "/static/mocks/media/674797561/conversions/chez-le-psy-thumb.jpg",
+                        "main": "/static/mocks/media/storage/674797561/conversions/chez-le-psy-main.jpg",
+                        "thumb": "/static/mocks/media/storage/674797561/conversions/chez-le-psy-thumb.jpg",
                         "meta": {
                             "color": "#000000",
                             "type": "dark"
@@ -429,12 +429,12 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-22T13:29:39+00:00",
-        "updated_at": "2018-09-22T13:29:39+00:00",
+        "created_at": "2018-09-23T19:52:47+00:00",
+        "updated_at": "2018-09-23T19:52:47+00:00",
         "type": "user",
         "picture": {
-            "main": "/static/mocks/media/1939393859/conversions/MimiRyudo-main.jpg",
-            "thumb": "/static/mocks/media/1939393859/conversions/MimiRyudo-thumb.jpg"
+            "main": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-main.jpg",
+            "thumb": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-thumb.jpg"
         },
         "sagas": [
             {
@@ -459,8 +459,8 @@
                     "collections": 3,
                     "tracks": 19
                 },
-                "created_at": "2018-09-22T13:29:46+00:00",
-                "updated_at": "2018-09-22T13:29:46+00:00",
+                "created_at": "2018-09-23T19:52:53+00:00",
+                "updated_at": "2018-09-23T19:52:53+00:00",
                 "author": {
                     "id": 1176091268,
                     "slug": "mimiryudo",
@@ -476,18 +476,18 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-22T13:29:39+00:00",
-                    "updated_at": "2018-09-22T13:29:39+00:00",
+                    "created_at": "2018-09-23T19:52:47+00:00",
+                    "updated_at": "2018-09-23T19:52:47+00:00",
                     "type": "user",
                     "picture": {
-                        "main": "/static/mocks/media/1939393859/conversions/MimiRyudo-main.jpg",
-                        "thumb": "/static/mocks/media/1939393859/conversions/MimiRyudo-thumb.jpg"
+                        "main": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-thumb.jpg"
                     }
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/1725454359/conversions/banniere_messina-main.jpg",
-                        "thumb": "/static/mocks/media/1725454359/conversions/banniere_messina-thumb.jpg",
+                        "main": "/static/mocks/media/storage/1725454359/conversions/banniere_messina-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1725454359/conversions/banniere_messina-thumb.jpg",
                         "meta": {
                             "color": "#C4B8BA",
                             "type": "light"
@@ -512,12 +512,12 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-22T13:29:39+00:00",
-        "updated_at": "2018-09-22T13:29:39+00:00",
+        "created_at": "2018-09-23T19:52:47+00:00",
+        "updated_at": "2018-09-23T19:52:47+00:00",
         "type": "user",
         "picture": {
-            "main": "/static/mocks/media/2059235322/conversions/author-main.jpg",
-            "thumb": "/static/mocks/media/2059235322/conversions/author-thumb.jpg"
+            "main": "/static/mocks/media/storage/2059235322/conversions/author-main.jpg",
+            "thumb": "/static/mocks/media/storage/2059235322/conversions/author-thumb.jpg"
         },
         "sagas": [
             {
@@ -542,8 +542,8 @@
                     "collections": 3,
                     "tracks": 36
                 },
-                "created_at": "2018-09-22T13:29:45+00:00",
-                "updated_at": "2018-09-22T13:29:45+00:00",
+                "created_at": "2018-09-23T19:52:53+00:00",
+                "updated_at": "2018-09-23T19:52:53+00:00",
                 "author": {
                     "id": 392587459,
                     "slug": "mitch-dsm",
@@ -559,18 +559,18 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-22T13:29:39+00:00",
-                    "updated_at": "2018-09-22T13:29:39+00:00",
+                    "created_at": "2018-09-23T19:52:47+00:00",
+                    "updated_at": "2018-09-23T19:52:47+00:00",
                     "type": "user",
                     "picture": {
-                        "main": "/static/mocks/media/2059235322/conversions/author-main.jpg",
-                        "thumb": "/static/mocks/media/2059235322/conversions/author-thumb.jpg"
+                        "main": "/static/mocks/media/storage/2059235322/conversions/author-main.jpg",
+                        "thumb": "/static/mocks/media/storage/2059235322/conversions/author-thumb.jpg"
                     }
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/1420631365/conversions/matrick-main.jpg",
-                        "thumb": "/static/mocks/media/1420631365/conversions/matrick-thumb.jpg",
+                        "main": "/static/mocks/media/storage/1420631365/conversions/matrick-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1420631365/conversions/matrick-thumb.jpg",
                         "meta": {
                             "color": "#06311E",
                             "type": "dark"

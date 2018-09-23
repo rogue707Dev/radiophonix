@@ -5,8 +5,8 @@
         "name": "Saison 1",
         "synopsis": "",
         "type": "saison",
-        "created_at": "2018-09-22T13:29:43+00:00",
-        "updated_at": "2018-09-22T13:29:43+00:00",
+        "created_at": "2018-09-23T19:52:50+00:00",
+        "updated_at": "2018-09-23T19:52:50+00:00",
         "tracks": [
             {
                 "id": 1392830769,
@@ -19,8 +19,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s1v2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1636910972,
@@ -33,8 +33,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 251475387,
@@ -47,8 +47,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s3.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1598677990,
@@ -61,8 +61,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s4.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1842761765,
@@ -75,8 +75,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s5.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 975310432,
@@ -89,8 +89,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s6.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1217330351,
@@ -103,8 +103,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s7.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 421178090,
@@ -117,8 +117,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s8.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 644286249,
@@ -131,8 +131,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s9.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1962145172,
@@ -145,8 +145,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             }
         ]
     },
@@ -156,8 +156,8 @@
         "name": "Saison 2",
         "synopsis": "",
         "type": "saison",
-        "created_at": "2018-09-22T13:29:43+00:00",
-        "updated_at": "2018-09-22T13:29:43+00:00",
+        "created_at": "2018-09-23T19:52:50+00:00",
+        "updated_at": "2018-09-23T19:52:50+00:00",
         "tracks": [
             {
                 "id": 90153939,
@@ -170,8 +170,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s11.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1403785246,
@@ -184,8 +184,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s12p1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1614335581,
@@ -198,8 +198,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s12p2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 243580056,
@@ -212,8 +212,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s13.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1594976967,
@@ -226,8 +226,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s14.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1820182274,
@@ -240,8 +240,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s15.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 986297665,
@@ -254,8 +254,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s16.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             }
         ]
     },
@@ -265,8 +265,8 @@
         "name": "Saison 3",
         "synopsis": "",
         "type": "saison",
-        "created_at": "2018-09-22T13:29:43+00:00",
-        "updated_at": "2018-09-22T13:29:43+00:00",
+        "created_at": "2018-09-23T19:52:50+00:00",
+        "updated_at": "2018-09-23T19:52:50+00:00",
         "tracks": [
             {
                 "id": 1263952780,
@@ -279,8 +279,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison3/s3prologue.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 430100939,
@@ -293,8 +293,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Saison3/s3s301.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             }
         ]
     },
@@ -304,8 +304,8 @@
         "name": "Séances spéciales",
         "synopsis": "Les séances spéciales regroupent des épisodes ne suivant pas le déroulement linéaire des saisons, comme des cross-over, et des séances de noël.",
         "type": "saison",
-        "created_at": "2018-09-22T13:29:43+00:00",
-        "updated_at": "2018-09-22T13:29:43+00:00",
+        "created_at": "2018-09-23T19:52:50+00:00",
+        "updated_at": "2018-09-23T19:52:50+00:00",
         "tracks": [
             {
                 "id": 638488118,
@@ -318,8 +318,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Speciales/spes1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1956346997,
@@ -332,8 +332,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Speciales/spes2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 99035824,
@@ -346,8 +346,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Speciales/spes3.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1383307519,
@@ -360,8 +360,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Speciales/spes4.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1623225658,
@@ -374,8 +374,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Speciales/spes5.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 824976249,
@@ -388,8 +388,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Speciales/spes6.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1605931428,
@@ -402,8 +402,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Speciales/spes7p1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1812287459,
@@ -416,8 +416,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Speciales/spes7p2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             }
         ]
     },
@@ -427,8 +427,8 @@
         "name": "Sur le Divan",
         "synopsis": "Les Sur le Divan, Sur le Grand Divan ou séances live sont des sketch, souvent improvisés, joués en direct par le Mago pour la webradio SynopsLive. Ces séances mettent généralement en scène des personnages des sagas des invités, ou les font directement participer.",
         "type": "saison",
-        "created_at": "2018-09-22T13:29:43+00:00",
-        "updated_at": "2018-09-22T13:29:43+00:00",
+        "created_at": "2018-09-23T19:52:50+00:00",
+        "updated_at": "2018-09-23T19:52:50+00:00",
         "tracks": [
             {
                 "id": 982596654,
@@ -441,8 +441,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 12_04_08.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1274931821,
@@ -455,8 +455,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 19_04_08.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 407525544,
@@ -469,8 +469,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 26_04_08.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 651572503,
@@ -483,8 +483,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 28_06_08.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1998775122,
@@ -497,8 +497,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 03_01_09.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 93278609,
@@ -511,8 +511,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/04 Sur le Divan _ Séance live du 14_03_09.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1377505244,
@@ -525,8 +525,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/05 Sur le Divan _ Séance live du 28_03_09.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             }
         ]
     },
@@ -536,8 +536,8 @@
         "name": "Sur le (Grand) Divan",
         "synopsis": "",
         "type": "saison",
-        "created_at": "2018-09-22T13:29:43+00:00",
-        "updated_at": "2018-09-22T13:29:43+00:00",
+        "created_at": "2018-09-23T19:52:50+00:00",
+        "updated_at": "2018-09-23T19:52:50+00:00",
         "tracks": [
             {
                 "id": 1667759131,
@@ -550,8 +550,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 14_11_09.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 838052422,
@@ -564,8 +564,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 12_12_09.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1581258885,
@@ -578,8 +578,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 02_01_10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1823274688,
@@ -592,8 +592,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 20_03_10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1027121935,
@@ -606,8 +606,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 03_04_10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1267011914,
@@ -620,8 +620,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 01_05_10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 403820425,
@@ -634,8 +634,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 15_05_10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 696106484,
@@ -648,8 +648,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 12_06_10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 2009754163,
@@ -662,8 +662,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 24_07_10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             }
         ]
     },
@@ -673,8 +673,8 @@
         "name": "Sur le (Coop') Divan",
         "synopsis": "Pour renouveler le concept, Le Mago proposa de faire des séances live en utilisant en improvisation des mots-clés que des auditeurs lui auront envoyé dans la journée précédent l'émission.",
         "type": "saison",
-        "created_at": "2018-09-22T13:29:43+00:00",
-        "updated_at": "2018-09-22T13:29:43+00:00",
+        "created_at": "2018-09-23T19:52:50+00:00",
+        "updated_at": "2018-09-23T19:52:50+00:00",
         "tracks": [
             {
                 "id": 72800382,
@@ -687,8 +687,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1386395325,
@@ -701,8 +701,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1661953272,
@@ -715,8 +715,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan3.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 832295207,
@@ -729,8 +729,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan4.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             }
         ]
     },
@@ -740,8 +740,8 @@
         "name": "Bonus",
         "synopsis": "",
         "type": "bonus",
-        "created_at": "2018-09-22T13:29:43+00:00",
-        "updated_at": "2018-09-22T13:29:43+00:00",
+        "created_at": "2018-09-23T19:52:50+00:00",
+        "updated_at": "2018-09-23T19:52:50+00:00",
         "tracks": [
             {
                 "id": 1592233826,
@@ -754,8 +754,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1869905313,
@@ -768,8 +768,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1036004332,
@@ -782,8 +782,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus3.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1244436523,
@@ -796,8 +796,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus4.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 414807702,
@@ -810,8 +810,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus5.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 688202965,
@@ -824,8 +824,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus11.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 2006028560,
@@ -838,8 +838,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus6.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 83775327,
@@ -852,8 +852,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus7.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1430928794,
@@ -866,8 +866,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus8.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1675029465,
@@ -880,8 +880,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus9.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 807622660,
@@ -894,8 +894,8 @@
                 "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             }
         ]
     },
@@ -905,8 +905,8 @@
         "name": "Camisole, les musiques de Chez le Psy",
         "synopsis": "",
         "type": "music",
-        "created_at": "2018-09-22T13:29:43+00:00",
-        "updated_at": "2018-09-22T13:29:43+00:00",
+        "created_at": "2018-09-23T19:52:50+00:00",
+        "updated_at": "2018-09-23T19:52:50+00:00",
         "tracks": [
             {
                 "id": 1586443843,
@@ -919,8 +919,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/TicotSong (Cover By Piwil).mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1864098958,
@@ -933,8 +933,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Petit Papa Noël (Calendrier de l'Avent 2007).mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1013469901,
@@ -947,8 +947,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/J'suis fou ! (Liquido Cover).mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1257508616,
@@ -961,8 +961,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/The TicotSong (Rock Edit - Queen Cover).mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 457244023,
@@ -975,8 +975,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Vive le vent (Calendrier de l'avent 2008).mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 699182002,
@@ -989,8 +989,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Le vieux (Mr Bouchaud - Wallace Ticot).mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 1983453681,
@@ -1003,8 +1003,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Le Blues de la Secrétaire (Maryvonne).mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             },
             {
                 "id": 75888188,
@@ -1017,8 +1017,8 @@
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/The TicotSong (Synthé Edit - Queen Cover).mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:43+00:00",
-                "updated_at": "2018-09-22T13:29:43+00:00"
+                "created_at": "2018-09-23T19:52:50+00:00",
+                "updated_at": "2018-09-23T19:52:50+00:00"
             }
         ]
     }

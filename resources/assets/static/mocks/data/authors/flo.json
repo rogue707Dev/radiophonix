@@ -13,12 +13,12 @@
     "stats": {
         "sagas": 1
     },
-    "created_at": "2018-09-22T13:29:38+00:00",
-    "updated_at": "2018-09-22T13:29:38+00:00",
+    "created_at": "2018-09-23T19:52:46+00:00",
+    "updated_at": "2018-09-23T19:52:46+00:00",
     "type": "user",
     "picture": {
-        "main": "/static/mocks/media/1462912999/conversions/flo-main.jpg",
-        "thumb": "/static/mocks/media/1462912999/conversions/flo-thumb.jpg"
+        "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
+        "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
     },
     "sagas": [
         {
@@ -43,8 +43,8 @@
                 "collections": 1,
                 "tracks": 30
             },
-            "created_at": "2018-09-22T13:29:40+00:00",
-            "updated_at": "2018-09-22T13:29:40+00:00",
+            "created_at": "2018-09-23T19:52:47+00:00",
+            "updated_at": "2018-09-23T19:52:47+00:00",
             "author": {
                 "id": 206107536,
                 "slug": "flo",
@@ -60,18 +60,18 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-22T13:29:38+00:00",
-                "updated_at": "2018-09-22T13:29:38+00:00",
+                "created_at": "2018-09-23T19:52:46+00:00",
+                "updated_at": "2018-09-23T19:52:46+00:00",
                 "type": "user",
                 "picture": {
-                    "main": "/static/mocks/media/1462912999/conversions/flo-main.jpg",
-                    "thumb": "/static/mocks/media/1462912999/conversions/flo-thumb.jpg"
+                    "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
                 }
             },
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/231868445/conversions/agent0-main.jpg",
-                    "thumb": "/static/mocks/media/231868445/conversions/agent0-thumb.jpg",
+                    "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
+                    "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
                     "meta": {
                         "color": "#FE0000",
                         "type": "dark"

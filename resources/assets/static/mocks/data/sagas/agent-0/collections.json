@@ -5,8 +5,8 @@
         "name": "Épisodes",
         "synopsis": "",
         "type": "saison",
-        "created_at": "2018-09-22T13:29:40+00:00",
-        "updated_at": "2018-09-22T13:29:40+00:00",
+        "created_at": "2018-09-23T19:52:48+00:00",
+        "updated_at": "2018-09-23T19:52:48+00:00",
         "tracks": [
             {
                 "id": 2147222869,
@@ -19,8 +19,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 206107536,
@@ -33,8 +33,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1523884511,
@@ -47,8 +47,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 3.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1797332506,
@@ -61,8 +61,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 4.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 965594201,
@@ -75,8 +75,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 5.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1176091268,
@@ -89,8 +89,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 6.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 392587459,
@@ -103,8 +103,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 7.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 636667150,
@@ -117,8 +117,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 8.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1918808909,
@@ -131,8 +131,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 9.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 11231624,
@@ -145,8 +145,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1362616311,
@@ -159,8 +159,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 11.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 2139327538,
@@ -173,8 +173,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 12.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 202406513,
@@ -187,8 +187,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 13.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1568417980,
@@ -201,8 +201,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 14.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1808303867,
@@ -215,8 +215,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 15.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 945124134,
@@ -229,8 +229,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 16.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1184964965,
@@ -243,8 +243,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 17.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 386768800,
@@ -257,8 +257,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 18.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 630869487,
@@ -271,8 +271,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 19.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1927690794,
@@ -285,8 +285,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 20.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 57862249,
@@ -299,8 +299,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 21.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1373587156,
@@ -313,8 +313,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 22.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 2116760339,
@@ -327,8 +327,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 23.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 213377374,
@@ -341,8 +341,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 24.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1560567709,
@@ -355,8 +355,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 25.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1804602840,
@@ -369,8 +369,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 26.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 956103175,
@@ -383,8 +383,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 27.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 1229498434,
@@ -397,8 +397,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 28.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 399836801,
@@ -411,8 +411,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 29.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             },
             {
                 "id": 606205132,
@@ -425,8 +425,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 30.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-22T13:29:40+00:00",
-                "updated_at": "2018-09-22T13:29:40+00:00"
+                "created_at": "2018-09-23T19:52:48+00:00",
+                "updated_at": "2018-09-23T19:52:48+00:00"
             }
         ]
     }

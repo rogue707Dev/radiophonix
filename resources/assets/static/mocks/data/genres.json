@@ -2,50 +2,71 @@
     {
         "id": 2147222869,
         "name": "Espionnage",
+        "stats": {
+            "sagas": 1
+        },
         "image": {
-            "main": "/static/mocks/media/350792372/conversions/Espionnage-main.jpg"
+            "main": "/static/mocks/media/storage/350792372/conversions/Espionnage-main.jpg"
         }
     },
     {
         "id": 206107536,
         "name": "Parodie",
+        "stats": {
+            "sagas": 1
+        },
         "image": {
-            "main": "/static/mocks/media/556004678/conversions/Parodie-main.jpg"
+            "main": "/static/mocks/media/storage/556004678/conversions/Parodie-main.jpg"
         }
     },
     {
         "id": 1523884511,
         "name": "Contemporain",
+        "stats": {
+            "sagas": 1
+        },
         "image": {
-            "main": "/static/mocks/media/861745168/conversions/Contemporain-main.jpg"
+            "main": "/static/mocks/media/storage/861745168/conversions/Contemporain-main.jpg"
         }
     },
     {
         "id": 1797332506,
         "name": "Aventure",
+        "stats": {
+            "sagas": 1
+        },
         "image": {
-            "main": "/static/mocks/media/1300788002/conversions/Aventure-main.jpg"
+            "main": "/static/mocks/media/storage/1300788002/conversions/Aventure-main.jpg"
         }
     },
     {
         "id": 965594201,
         "name": "Science-fiction",
+        "stats": {
+            "sagas": 1
+        },
         "image": {
-            "main": "/static/mocks/media/1606664188/conversions/Science-fiction-main.jpg"
+            "main": "/static/mocks/media/storage/1606664188/conversions/Science-fiction-main.jpg"
         }
     },
     {
         "id": 1176091268,
         "name": "Médiéval-fantastique",
+        "stats": {
+            "sagas": 1
+        },
         "image": {
-            "main": "/static/mocks/media/1778317966/conversions/M%C3%A9di%C3%A9val-fantastique-main.jpg"
+            "main": "/static/mocks/media/storage/1778317966/conversions/M%C3%A9di%C3%A9val-fantastique-main.jpg"
         }
     },
     {
         "id": 392587459,
         "name": "Heroic fantasy",
+        "stats": {
+            "sagas": 1
+        },
         "image": {
-            "main": "/static/mocks/media/2049459544/conversions/Heroic-fantasy-main.jpg"
+            "main": "/static/mocks/media/storage/2049459544/conversions/Heroic-fantasy-main.jpg"
         }
     }
 ]
