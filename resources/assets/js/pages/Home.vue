@@ -92,6 +92,8 @@
                             </a>
                         </footer>
                     </blockquote>
+
+                    Pour plus d'informations, allez voir la <router-link :to="{ name: 'help' }" class="lien-paragraphe">FAQ</router-link>.
                 </div>
             </div>
 
