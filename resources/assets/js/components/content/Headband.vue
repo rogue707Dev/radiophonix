@@ -1,7 +1,7 @@
 <template>
 
     <div class="jumbotron var--bg-image" v-bind:style="{ backgroundImage: 'url(' + urlImage + ')' }">
-        <div class="pa-filtre-bleu"></div>
+        <div class="pa__filtre-bleu"></div>
         <div class="pa-cover centrage-parent">
             <div class="centrage-enfant">
                 <div class="display-1">{{ title }}</div>
