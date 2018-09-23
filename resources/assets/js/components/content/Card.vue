@@ -56,8 +56,8 @@ export default {
             required: false
         },
         link: {
-            type: String,
-            required: false
+            type: Object,
+            required: true
         },
         urlImage: {
             type: String,
@@ -69,11 +69,11 @@ export default {
         },
         title: {
             type: String,
-            required: false
+            required: true
         },
         type: {
             type: String,
-            required: false
+            required: true
         },
     }
 }
