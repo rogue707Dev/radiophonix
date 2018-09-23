@@ -6,7 +6,7 @@ public/dist/
 public/partials/
 public/media/
 public/alpha/
-public/storage/
+public/storage
 public/phpmyadmin
 public/files
 public/static

@@ -2,9 +2,11 @@
 
 namespace Radiophonix\Console\Commands;
 
+use File;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Filesystem\FilesystemManager;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 use League\Fractal\Manager;
 use League\Fractal\Resource\Item;
@@ -20,6 +22,7 @@ use Radiophonix\Models\Collection;
 use Radiophonix\Models\Genre;
 use Radiophonix\Models\Saga;
 use Radiophonix\Search\SearchResult;
+use Symfony\Component\Console\Output\ConsoleOutput;
 
 class AlphaMock extends Command
 {
@@ -72,7 +75,23 @@ class AlphaMock extends Command
      */
     public function handle()
     {
+        $this->alert('Refresh de la BDD');
+        Artisan::call('migrate:fresh', [], new ConsoleOutput());
+
+        $this->line('');
+        $this->alert('Nettoyage des anciennes images');
+        Artisan::call('medialibrary:clean', [], new ConsoleOutput());
+        Artisan::call('medialibrary:clear', [], new ConsoleOutput());
+
+        $this->line('');
+        $this->alert('Seed des données de l\'alpha');
+        Artisan::call('alpha:seed', [], new ConsoleOutput());
+
+        $this->line('');
+        $this->alert('Création des fichiers de mock');
+
         $this->config->set('app.url', '/static/mocks/media');
+        $this->config->set('filesystems.disks.media.url', '/foo');
 
         $this->storage->disk('mocks')->delete(
             $this->storage->disk('mocks')->allFiles()
@@ -129,6 +148,16 @@ class AlphaMock extends Command
                 return $this->transform($genre, new GenreTransformer());
             })->all()
         );
+
+        $path = __DIR__ . '/../../../resources/assets/static/mocks/media/storage/';
+
+        collect($this->storage->disk('public')->allDirectories())
+            ->mapWithKeys(function ($file) {
+                return [$file => $this->storage->disk('public')->path($file)];
+            })
+            ->each(function ($file, $to) use ($path) {
+                File::copyDirectory($file, $path . $to);
+            });
 
         return true;
     }
@@ -208,6 +237,7 @@ class AlphaMock extends Command
     private function createFile(string $path, array $data): void
     {
         $file = Str::finish($path, '.json');
+        $file = 'data/' . $file;
 
         if ($this->storage->disk('mocks')->exists($file)) {
             return;
