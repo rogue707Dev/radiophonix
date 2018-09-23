@@ -29,7 +29,7 @@
                     type="genre">
 
                 <template slot="stats">
-                    <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ genre.stats.sagas }} Séries
+                    <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ genre.stats.sagas }} Sagas
                 </template>
 
             </Card>
