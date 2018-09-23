@@ -68,7 +68,7 @@
 
                             <template slot="stats">
                                 <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                XXX Séries
+                                {{ highlights.genre.stats.sagas }} Séries
                             </template>
                         </Card>
 
@@ -169,7 +169,7 @@
                             type="genre">
 
                             <template slot="stats">
-                                <i aria-hidden="true" class="fa fa-file-audio-o"></i> XXX Séries
+                                <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ genre.stats.sagas }} Séries
                             </template>
                         </Card>
                     </div>
