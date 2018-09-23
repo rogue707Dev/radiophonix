@@ -9,6 +9,10 @@
             "name": "Nathan Boiron",
             "email": "nathan.boiron@gmail.com",
             "homepage": "http://mopolo.fr"
+        },
+        {
+            "name": "Pierre TL",
+            "homepage": "http://www.pierre.tl"
         }
     ],
     "require": {
