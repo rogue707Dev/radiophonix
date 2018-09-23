@@ -14,94 +14,63 @@
 
                     <div class="list-card">
 
-                        <router-link class="card"
-                                     v-if="highlights.saga.id"
-                                     :to="{ name: 'listen.sagas.show', params: { idOrSlug: highlights.saga.slug } }">
-                            <div class="card-jacket var--saga">
-                                <div class="jaquette--card">
-                                    <img :src="highlights.saga.images.cover.main" :alt="highlights.saga.name">
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <p class="h3 text-body">
-                                    {{ highlights.saga.name }}
-                                    <span class="badge badge-light badge-sm">Saga</span>
-                                </p>
-                                <p class="text-primary h5">
-                                    <saga-stats
-                                            :stats="highlights.saga.stats"
-                                            :with-icon="true">
-                                    </saga-stats>
-                                </p>
-                            </div>
-                        </router-link>
+                        <Card
+                                v-if="highlights.saga.id"
+                                :link="{ name: 'listen.sagas.show', params: { idOrSlug: highlights.saga.slug } }"
+                                :urlImage="highlights.saga.images.cover.main"
+                                :altImage="highlights.saga.name"
+                                :title="highlights.saga.name"
+                                type="saga">
 
+                            <template slot="stats">
+                                <saga-stats
+                                        :stats="highlights.saga.stats"
+                                        :with-icon="true">
+                                </saga-stats>
+                            </template>
+                        </Card>
 
-                        <router-link class="card"
-                             v-if="highlights.author.id"
-                             :to="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }">
-                            <div class="card-jacket var--faiseur">
-                                <div class="jaquette--moyen jaquette--faiseur">
-                                    <img :src="highlights.author.picture.thumb" :alt="highlights.author.name">
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <p class="h3 text-body">
-                                    {{ highlights.author.name }}
-                                    <span class="badge badge-light badge-sm">Faiseur</span>
-                                </p>
-                                <p class="text-primary h5">
-                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                    {{ highlights.author.stats.sagas }} Séries
-                                </p>
-                            </div>
-                        </router-link>
+                        <Card
+                                v-if="highlights.author.id"
+                                :link="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }"
+                                :urlImage="highlights.author.picture.thumb"
+                                :altImage="highlights.author.name"
+                                :title="highlights.author.name"
+                                type="faiseur">
 
+                            <template slot="stats">
+                                <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                {{ highlights.author.stats.sagas }} Séries
+                            </template>
+                        </Card>
 
-                        <div class="card"
-                                     v-if="highlights.track.id">
-                            <div class="card-jacket var--episode">
-                                <div class="jaquette--moyen jaquette--episode">
-                                    <img :src="highlights.track.collection.saga.images.cover.thumb" :alt="highlights.track.title">
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <p class="h3 text-body">
-                                    {{ highlights.track.title }}
-                                    <span class="badge badge-light badge-sm">Episode</span>
-                                </p>
-                                <p class="text-primary h5">
-                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                    <track-length :seconds="highlights.track.seconds" type="short"></track-length>
-                                </p>
-                            </div>
-                        </div>
+                        <Card
+                                v-if="highlights.track.id"
+                                :link="{ name: 'home' }"
+                                :urlImage="highlights.track.collection.saga.images.cover.thumb"
+                                :altImage="highlights.track.title"
+                                :title="highlights.track.title"
+                                type="episode">
 
+                            <template slot="stats">
+                                <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                {{ highlights.author.stats.sagas }} Séries
+                            </template>
+                        </Card>
 
-                        <router-link class="card"
-                                     v-if="highlights.genre.id"
-                                     :to="{ name: 'listen.genres.show', params: { id: highlights.genre.id } }">
-                            <div class="card-jacket var--genre">
-                                <div class="jaquette--moyen jaquette--genre">
-                                    <img :src="highlights.genre.image.main" :alt="highlights.genre.name">
-                                </div>
-                                <div class="pa-centrer">
-                                    <svg width="167px" height="145px">
-                                        <use xlink:href="#contour-genre"></use>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <p class="h3 text-body">
-                                    {{ highlights.genre.name }}
-                                    <span class="badge badge-light badge-sm">Genre</span>
-                                </p>
-                                <p class="text-primary h5">
-                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                    XXX Séries
-                                </p>
-                            </div>
-                        </router-link>
+                        <Card
+                                v-if="highlights.genre.id"
+                                :link="{ name: 'listen.genres.show', params: { id: highlights.genre.id } }"
+                                :urlImage="highlights.genre.image.main"
+                                :altImage="highlights.genre.name"
+                                :title="highlights.genre.name"
+                                type="genre">
+
+                            <template slot="stats">
+                                <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                XXX Séries
+                            </template>
+                        </Card>
 
                     </div>
 
