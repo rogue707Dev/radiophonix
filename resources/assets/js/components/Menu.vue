@@ -12,7 +12,11 @@
             Connexion
         </main-menu-item>
 -->
-        <main-menu-item name="login" route="login" icon="login2" class="layout-menu__item layout-menu__item-log3">
+        <main-menu-item name="login"
+                        route="login"
+                        icon="login2"
+                        class="layout-menu__item layout-menu__item-log3"
+                        v-feature="'login'">
             Connexion
         </main-menu-item>
          <!--

@@ -1,10 +1,10 @@
 const features = {
     development: {
-
+        login: true,
     },
 
     production: {
-
+        login: false,
     }
 };
 
