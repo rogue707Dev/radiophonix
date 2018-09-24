@@ -122,6 +122,7 @@ build:staging:
     - node --version
     #        - yarn config set cache-folder .yarn
     - yarn
+    - echo -n 'RADIOPHONIX_FEATURES_ENV=development' > .env
     - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" > .env
     - npm run build
     - composer install --prefer-dist --quiet --no-interaction
