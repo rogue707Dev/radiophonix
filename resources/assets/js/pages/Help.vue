@@ -73,6 +73,14 @@
                     En contribuant au code : <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">par ici</a>
                 </p>
 
+                <h2 class="h1 mb-2 mt-5">Où sont hébergés les fichiers ?</h2>
+                <p>
+                    Certaines sagas ont des liens direct vers leurs fichiers. Dans
+                    ce cas ces liens sont utilisés.<br/>
+                    D'autres sagas n'ayant pas de liens, nous avons hébergés les
+                    fichiers le temps de l'alpha pour que le lecteur fonctionne.
+                </p>
+
             </div>
         </div>
 
