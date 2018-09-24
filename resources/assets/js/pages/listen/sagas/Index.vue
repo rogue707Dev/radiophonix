@@ -1,13 +1,13 @@
 <template>
     <div class="layout-conteneur__main">
 
-        <nav class="nav mb-4">
-            <span class="nav-link" :class="{ active: menu == 'popular' }" @click="switchMenu('popular', 'sagas', 'popular')">Populaire</span>
-            <span class="nav-link" :class="{ active: menu == 'recent' }" @click="switchMenu('recent', 'sagas', 'recent')">Nouveau</span>
-            <span class="nav-link" :class="{ active: menu == 'authors' }" @click="switchMenu('authors', 'authors', 'all')">Faiseurs</span>
-            <span class="nav-link" :class="{ active: menu == 'genres' }" @click="switchMenu('genres', 'genres', 'all')">Genres</span>
-            <span class="nav-link" :class="{ active: menu == 'discover' }" @click="switchMenu('discover', 'sagas', 'discover')">Découvrir</span>
-        </nav>
+        <nav-list>
+            <nav-item :active="menu == 'popular'" @click="switchMenu('popular', 'sagas', 'popular')">Populaire</nav-item>
+            <nav-item :active="menu == 'recent'" @click="switchMenu('recent', 'sagas', 'recent')">Nouveau</nav-item>
+            <nav-item :active="menu == 'authors'" @click="switchMenu('authors', 'authors', 'all')">Faiseurs</nav-item>
+            <nav-item :active="menu == 'genres'" @click="switchMenu('genres', 'genres', 'all')">Genres</nav-item>
+            <nav-item :active="menu == 'discover'" @click="switchMenu('discover', 'sagas', 'discover')">Découvrir</nav-item>
+        </nav-list>
 
         <saga-list v-show="menu == 'popular'" :sagas="popular"></saga-list>
 
@@ -45,6 +45,8 @@ import SagaList from '~/components/saga/SagaList.vue';
 import AuthorList from '~/components/author/AuthorList.vue';
 import SagaAlphabetList from '~/components/saga/SagaAlphabetList.vue';
 import Card from '~/components/content/Card.vue';
+import NavList from '~/components/nav/NavList';
+import NavItem from '~/components/nav/NavItem';
 
 export default {
     components: {
@@ -52,6 +54,8 @@ export default {
         AuthorList,
         SagaAlphabetList,
         Card,
+        NavList,
+        NavItem,
     },
 
     data() {
