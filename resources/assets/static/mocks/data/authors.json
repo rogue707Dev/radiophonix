@@ -14,8 +14,8 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-23T22:07:34+00:00",
-        "updated_at": "2018-09-23T22:07:34+00:00",
+        "created_at": "2018-09-24T20:46:34+00:00",
+        "updated_at": "2018-09-24T20:46:34+00:00",
         "type": "user",
         "picture": {
             "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
@@ -44,8 +44,8 @@
                     "collections": 6,
                     "tracks": 46
                 },
-                "created_at": "2018-09-23T22:07:37+00:00",
-                "updated_at": "2018-09-23T22:07:37+00:00",
+                "created_at": "2018-09-24T20:46:37+00:00",
+                "updated_at": "2018-09-24T20:46:37+00:00",
                 "author": {
                     "id": 2147222869,
                     "slug": "durendal",
@@ -61,8 +61,8 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-23T22:07:34+00:00",
-                    "updated_at": "2018-09-23T22:07:34+00:00",
+                    "created_at": "2018-09-24T20:46:34+00:00",
+                    "updated_at": "2018-09-24T20:46:34+00:00",
                     "type": "user",
                     "picture": {
                         "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
@@ -71,8 +71,8 @@
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/storage/504187695/conversions/banal-fantasy-main.jpg",
-                        "thumb": "/static/mocks/media/storage/504187695/conversions/banal-fantasy-thumb.jpg",
+                        "main": "/static/mocks/media/storage/556004678/conversions/banal-fantasy-main.jpg",
+                        "thumb": "/static/mocks/media/storage/556004678/conversions/banal-fantasy-thumb.jpg",
                         "meta": {
                             "color": "#5546D7",
                             "type": "dark"
@@ -97,8 +97,8 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-23T22:07:35+00:00",
-        "updated_at": "2018-09-23T22:07:35+00:00",
+        "created_at": "2018-09-24T20:46:35+00:00",
+        "updated_at": "2018-09-24T20:46:35+00:00",
         "type": "user",
         "picture": {
             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -127,8 +127,8 @@
                     "collections": 1,
                     "tracks": 30
                 },
-                "created_at": "2018-09-23T22:07:36+00:00",
-                "updated_at": "2018-09-23T22:07:36+00:00",
+                "created_at": "2018-09-24T20:46:36+00:00",
+                "updated_at": "2018-09-24T20:46:36+00:00",
                 "author": {
                     "id": 206107536,
                     "slug": "flo",
@@ -144,8 +144,8 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-23T22:07:35+00:00",
-                    "updated_at": "2018-09-23T22:07:35+00:00",
+                    "created_at": "2018-09-24T20:46:35+00:00",
+                    "updated_at": "2018-09-24T20:46:35+00:00",
                     "type": "user",
                     "picture": {
                         "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -154,8 +154,8 @@
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                        "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                        "main": "/static/mocks/media/storage/350792372/conversions/agent0-main.jpg",
+                        "thumb": "/static/mocks/media/storage/350792372/conversions/agent0-thumb.jpg",
                         "meta": {
                             "color": "#FE0000",
                             "type": "dark"
@@ -180,8 +180,8 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-23T22:07:35+00:00",
-        "updated_at": "2018-09-23T22:07:35+00:00",
+        "created_at": "2018-09-24T20:46:35+00:00",
+        "updated_at": "2018-09-24T20:46:35+00:00",
         "type": "user",
         "picture": {
             "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
@@ -210,8 +210,8 @@
                     "collections": 2,
                     "tracks": 13
                 },
-                "created_at": "2018-09-23T22:07:39+00:00",
-                "updated_at": "2018-09-23T22:07:39+00:00",
+                "created_at": "2018-09-24T20:46:40+00:00",
+                "updated_at": "2018-09-24T20:46:40+00:00",
                 "author": {
                     "id": 1523884511,
                     "slug": "inky",
@@ -227,8 +227,8 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-23T22:07:35+00:00",
-                    "updated_at": "2018-09-23T22:07:35+00:00",
+                    "created_at": "2018-09-24T20:46:35+00:00",
+                    "updated_at": "2018-09-24T20:46:35+00:00",
                     "type": "user",
                     "picture": {
                         "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
@@ -237,8 +237,8 @@
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-main.jpg",
-                        "thumb": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-thumb.jpg",
+                        "main": "/static/mocks/media/storage/1300788002/conversions/kiponie-stories-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1300788002/conversions/kiponie-stories-thumb.jpg",
                         "meta": {
                             "color": "#CC4D1B",
                             "type": "dark"
@@ -263,8 +263,8 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-23T22:07:35+00:00",
-        "updated_at": "2018-09-23T22:07:35+00:00",
+        "created_at": "2018-09-24T20:46:35+00:00",
+        "updated_at": "2018-09-24T20:46:35+00:00",
         "type": "user",
         "picture": {
             "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
@@ -272,7 +272,7 @@
         },
         "sagas": [
             {
-                "id": 392587459,
+                "id": 636667150,
                 "slug": "reflets-dacide",
                 "name": "Reflets d'Acide",
                 "synopsis": "Wrandrall cherche désespérément des compagnons de route pour sa quête : ils devront braver vents et marées pour aller explorer une grotte. Nul ne sait ce qui les attend sur cette route, ni ce qu'ils trouveront au fond de cette grotte… Une seule chose est sûre, c'est qu'ils n'ont aucune idée de ce dans quoi ils se sont embarqués.",
@@ -293,8 +293,8 @@
                     "collections": 1,
                     "tracks": 16
                 },
-                "created_at": "2018-09-23T22:07:43+00:00",
-                "updated_at": "2018-09-23T22:07:43+00:00",
+                "created_at": "2018-09-24T20:46:44+00:00",
+                "updated_at": "2018-09-24T20:46:44+00:00",
                 "author": {
                     "id": 1797332506,
                     "slug": "jbx",
@@ -310,8 +310,8 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-23T22:07:35+00:00",
-                    "updated_at": "2018-09-23T22:07:35+00:00",
+                    "created_at": "2018-09-24T20:46:35+00:00",
+                    "updated_at": "2018-09-24T20:46:35+00:00",
                     "type": "user",
                     "picture": {
                         "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
@@ -320,8 +320,8 @@
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/storage/1930664737/conversions/reflets-d-acide-main.jpg",
-                        "thumb": "/static/mocks/media/storage/1930664737/conversions/reflets-d-acide-thumb.jpg",
+                        "main": "/static/mocks/media/storage/223274995/conversions/reflets-d-acide-main.jpg",
+                        "thumb": "/static/mocks/media/storage/223274995/conversions/reflets-d-acide-thumb.jpg",
                         "meta": {
                             "color": "#61BCDE",
                             "type": "light"
@@ -346,8 +346,8 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-23T22:07:35+00:00",
-        "updated_at": "2018-09-23T22:07:35+00:00",
+        "created_at": "2018-09-24T20:46:35+00:00",
+        "updated_at": "2018-09-24T20:46:35+00:00",
         "type": "team",
         "picture": {
             "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
@@ -376,8 +376,8 @@
                     "collections": 9,
                     "tracks": 66
                 },
-                "created_at": "2018-09-23T22:07:38+00:00",
-                "updated_at": "2018-09-23T22:07:38+00:00",
+                "created_at": "2018-09-24T20:46:38+00:00",
+                "updated_at": "2018-09-24T20:46:38+00:00",
                 "author": {
                     "id": 965594201,
                     "slug": "magoyond",
@@ -393,8 +393,8 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-23T22:07:35+00:00",
-                    "updated_at": "2018-09-23T22:07:35+00:00",
+                    "created_at": "2018-09-24T20:46:35+00:00",
+                    "updated_at": "2018-09-24T20:46:35+00:00",
                     "type": "team",
                     "picture": {
                         "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
@@ -403,8 +403,8 @@
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/storage/674797561/conversions/chez-le-psy-main.jpg",
-                        "thumb": "/static/mocks/media/storage/674797561/conversions/chez-le-psy-thumb.jpg",
+                        "main": "/static/mocks/media/storage/861745168/conversions/chez-le-psy-main.jpg",
+                        "thumb": "/static/mocks/media/storage/861745168/conversions/chez-le-psy-thumb.jpg",
                         "meta": {
                             "color": "#000000",
                             "type": "dark"
@@ -429,8 +429,8 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-23T22:07:36+00:00",
-        "updated_at": "2018-09-23T22:07:36+00:00",
+        "created_at": "2018-09-24T20:46:36+00:00",
+        "updated_at": "2018-09-24T20:46:36+00:00",
         "type": "user",
         "picture": {
             "main": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-main.jpg",
@@ -438,7 +438,7 @@
         },
         "sagas": [
             {
-                "id": 1176091268,
+                "id": 392587459,
                 "slug": "messina",
                 "name": "Messina",
                 "synopsis": "Messina est un univers créé par MimiRyudo. La principale partie actuellement (chapitre 2) en est une saga MP3 en 10 épisodes, écrite par MimiRyudo et réalisée par Celebo Anarion. L'histoire se situe à Messina (rien à voir avec le Messina moderne) à l'époque où les aventuriers pouvaient encore mener leurs quêtes et où les licornes leur murmuraient des prophéties...",
@@ -459,8 +459,8 @@
                     "collections": 3,
                     "tracks": 19
                 },
-                "created_at": "2018-09-23T22:07:42+00:00",
-                "updated_at": "2018-09-23T22:07:42+00:00",
+                "created_at": "2018-09-24T20:46:43+00:00",
+                "updated_at": "2018-09-24T20:46:43+00:00",
                 "author": {
                     "id": 1176091268,
                     "slug": "mimiryudo",
@@ -476,8 +476,8 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-23T22:07:36+00:00",
-                    "updated_at": "2018-09-23T22:07:36+00:00",
+                    "created_at": "2018-09-24T20:46:36+00:00",
+                    "updated_at": "2018-09-24T20:46:36+00:00",
                     "type": "user",
                     "picture": {
                         "main": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-main.jpg",
@@ -486,8 +486,8 @@
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/storage/1725454359/conversions/banniere_messina-main.jpg",
-                        "thumb": "/static/mocks/media/storage/1725454359/conversions/banniere_messina-thumb.jpg",
+                        "main": "/static/mocks/media/storage/1930664737/conversions/banniere_messina-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1930664737/conversions/banniere_messina-thumb.jpg",
                         "meta": {
                             "color": "#C4B8BA",
                             "type": "light"
@@ -499,6 +499,89 @@
     },
     {
         "id": 392587459,
+        "slug": "misterfox",
+        "name": "Misterfox",
+        "bio": "Durant ses premières années, du fait du succès des M.A.H.A, il sera vu comme un misanthrope asocial, détestant l'humanité et le monde actuel, et vivant reclus dans son village auvergnat. Il sera dépeint de cette manière dans les premiers monos mp3 du Netophonix. Mais l'arrêt des M.A.H.A et les diverses rencontres IRL terniront cette image.\nAvec le temps, Misterfox fut plutôt vu comme un fan \"hardcore\" de Kaamelott Livre VI et un \"hater\" de Pikachu, tel que l'est son personnage dans la websérie Misterfox & Pikachu. Il est aussi vu comme un grand fan de doublage, qui n'hésite pas à étaler sa science, et qui, s'il est lancé, peut parler de sa passion durant des heures, au grand dam de ses congénères.\nCertaines mauvaises langues le décrivent aussi comme quelqu'un n'ayant aucune idée \"originale\", et qui se contente de faire des parodies et des clins d'œil.",
+        "links": {
+            "netowiki": "https://wiki.netophonix.com/Misterfox",
+            "site": "http://misterfox.fr",
+            "topic": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-09-24T20:46:36+00:00",
+        "updated_at": "2018-09-24T20:46:36+00:00",
+        "type": "user",
+        "picture": {
+            "main": "/static/mocks/media/storage/2059235322/conversions/author-main.jpg",
+            "thumb": "/static/mocks/media/storage/2059235322/conversions/author-thumb.jpg"
+        },
+        "sagas": [
+            {
+                "id": 965594201,
+                "slug": "maha",
+                "name": "M.A.H.A",
+                "synopsis": "M.A.H.A (initiales de Mystification et Apologie de l'Humanité Actuelle) est une saga mp3 créé par Misterfox. Elle se présente sous la forme de chroniques, contant les péripéties de Misterfox dans sa triste et morne vie, qui lui inspire un profond mépris envers l'humanité...\nLa saga s'est terminée le 19 avril 2008, 20 ans après la mort de Pierre Desproges.",
+                "creation_date": "2007-07-19T00:00:00+00:00",
+                "licence": "CC BY-NC-SA",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/M.A.H.A",
+                    "site": "http://misterfox.fr/site/maha/",
+                    "topic": null,
+                    "rss": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "finished": false,
+                "visibility": 0,
+                "stats": {
+                    "bravos": 0,
+                    "collections": 4,
+                    "tracks": 35
+                },
+                "created_at": "2018-09-24T20:46:42+00:00",
+                "updated_at": "2018-09-24T20:46:42+00:00",
+                "author": {
+                    "id": 392587459,
+                    "slug": "misterfox",
+                    "name": "Misterfox",
+                    "bio": "Durant ses premières années, du fait du succès des M.A.H.A, il sera vu comme un misanthrope asocial, détestant l'humanité et le monde actuel, et vivant reclus dans son village auvergnat. Il sera dépeint de cette manière dans les premiers monos mp3 du Netophonix. Mais l'arrêt des M.A.H.A et les diverses rencontres IRL terniront cette image.\nAvec le temps, Misterfox fut plutôt vu comme un fan \"hardcore\" de Kaamelott Livre VI et un \"hater\" de Pikachu, tel que l'est son personnage dans la websérie Misterfox & Pikachu. Il est aussi vu comme un grand fan de doublage, qui n'hésite pas à étaler sa science, et qui, s'il est lancé, peut parler de sa passion durant des heures, au grand dam de ses congénères.\nCertaines mauvaises langues le décrivent aussi comme quelqu'un n'ayant aucune idée \"originale\", et qui se contente de faire des parodies et des clins d'œil.",
+                    "links": {
+                        "netowiki": "https://wiki.netophonix.com/Misterfox",
+                        "site": "http://misterfox.fr",
+                        "topic": null,
+                        "facebook": null,
+                        "twitter": null
+                    },
+                    "stats": {
+                        "sagas": 1
+                    },
+                    "created_at": "2018-09-24T20:46:36+00:00",
+                    "updated_at": "2018-09-24T20:46:36+00:00",
+                    "type": "user",
+                    "picture": {
+                        "main": "/static/mocks/media/storage/2059235322/conversions/author-main.jpg",
+                        "thumb": "/static/mocks/media/storage/2059235322/conversions/author-thumb.jpg"
+                    }
+                },
+                "images": {
+                    "cover": {
+                        "main": "/static/mocks/media/storage/1606664188/conversions/maha-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1606664188/conversions/maha-thumb.jpg",
+                        "meta": {
+                            "color": "#0000FF",
+                            "type": "dark"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 636667150,
         "slug": "mitch-dsm",
         "name": "Mitch DSM",
         "bio": "Mitch_DSM est musicien compositeur ainsi que designer sonore. Il travaille pour diverses sociétés de communications essentiellement inter-entreprises. Telle est son activité principale, qui ne représente finalement qu'une partie de son éventail d'occupations. Sur internet, il s'avère être l'un des premiers créateurs de sagas mp3 avec Matrick (la matruc), mise en ligne à la même époque que Le Donjon de Naheulbeuk. Il est également l'auteur des Génériques Mitch Unplug.ed, ce qui lui apportera une petite notoriété passagère. En plus de ses activités sonores et musicales, Mitch_DSM développe aussi des sites internet, essentiellement pour les besoins de ses projets personnels. La création du site Netophonix, qui abrite à présent une communauté non négligeable composée de créateurs, d'adeptes et de divers membres de la sagasphère, l'a récemment placé un peu plus aux devants de la scène saga mp3. Cependant, au fil du temps, sa présence dans ce milieu s'est fortement réduite, du fait notamment d'obligations professionnelles conséquentes...",
@@ -512,16 +595,16 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-23T22:07:36+00:00",
-        "updated_at": "2018-09-23T22:07:36+00:00",
+        "created_at": "2018-09-24T20:46:36+00:00",
+        "updated_at": "2018-09-24T20:46:36+00:00",
         "type": "user",
         "picture": {
-            "main": "/static/mocks/media/storage/2059235322/conversions/author-main.jpg",
-            "thumb": "/static/mocks/media/storage/2059235322/conversions/author-thumb.jpg"
+            "main": "/static/mocks/media/storage/231868445/conversions/author-main.jpg",
+            "thumb": "/static/mocks/media/storage/231868445/conversions/author-thumb.jpg"
         },
         "sagas": [
             {
-                "id": 965594201,
+                "id": 1176091268,
                 "slug": "matrick",
                 "name": "Matrick",
                 "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
@@ -542,10 +625,10 @@
                     "collections": 3,
                     "tracks": 36
                 },
-                "created_at": "2018-09-23T22:07:41+00:00",
-                "updated_at": "2018-09-23T22:07:41+00:00",
+                "created_at": "2018-09-24T20:46:42+00:00",
+                "updated_at": "2018-09-24T20:46:42+00:00",
                 "author": {
-                    "id": 392587459,
+                    "id": 636667150,
                     "slug": "mitch-dsm",
                     "name": "Mitch DSM",
                     "bio": "Mitch_DSM est musicien compositeur ainsi que designer sonore. Il travaille pour diverses sociétés de communications essentiellement inter-entreprises. Telle est son activité principale, qui ne représente finalement qu'une partie de son éventail d'occupations. Sur internet, il s'avère être l'un des premiers créateurs de sagas mp3 avec Matrick (la matruc), mise en ligne à la même époque que Le Donjon de Naheulbeuk. Il est également l'auteur des Génériques Mitch Unplug.ed, ce qui lui apportera une petite notoriété passagère. En plus de ses activités sonores et musicales, Mitch_DSM développe aussi des sites internet, essentiellement pour les besoins de ses projets personnels. La création du site Netophonix, qui abrite à présent une communauté non négligeable composée de créateurs, d'adeptes et de divers membres de la sagasphère, l'a récemment placé un peu plus aux devants de la scène saga mp3. Cependant, au fil du temps, sa présence dans ce milieu s'est fortement réduite, du fait notamment d'obligations professionnelles conséquentes...",
@@ -559,18 +642,18 @@
                     "stats": {
                         "sagas": 1
                     },
-                    "created_at": "2018-09-23T22:07:36+00:00",
-                    "updated_at": "2018-09-23T22:07:36+00:00",
+                    "created_at": "2018-09-24T20:46:36+00:00",
+                    "updated_at": "2018-09-24T20:46:36+00:00",
                     "type": "user",
                     "picture": {
-                        "main": "/static/mocks/media/storage/2059235322/conversions/author-main.jpg",
-                        "thumb": "/static/mocks/media/storage/2059235322/conversions/author-thumb.jpg"
+                        "main": "/static/mocks/media/storage/231868445/conversions/author-main.jpg",
+                        "thumb": "/static/mocks/media/storage/231868445/conversions/author-thumb.jpg"
                     }
                 },
                 "images": {
                     "cover": {
-                        "main": "/static/mocks/media/storage/1420631365/conversions/matrick-main.jpg",
-                        "thumb": "/static/mocks/media/storage/1420631365/conversions/matrick-thumb.jpg",
+                        "main": "/static/mocks/media/storage/1725454359/conversions/matrick-main.jpg",
+                        "thumb": "/static/mocks/media/storage/1725454359/conversions/matrick-thumb.jpg",
                         "meta": {
                             "color": "#06311E",
                             "type": "dark"

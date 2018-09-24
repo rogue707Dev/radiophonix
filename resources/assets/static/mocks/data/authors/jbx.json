@@ -13,8 +13,8 @@
     "stats": {
         "sagas": 1
     },
-    "created_at": "2018-09-23T22:07:35+00:00",
-    "updated_at": "2018-09-23T22:07:35+00:00",
+    "created_at": "2018-09-24T20:46:35+00:00",
+    "updated_at": "2018-09-24T20:46:35+00:00",
     "type": "user",
     "picture": {
         "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
@@ -22,7 +22,7 @@
     },
     "sagas": [
         {
-            "id": 392587459,
+            "id": 636667150,
             "slug": "reflets-dacide",
             "name": "Reflets d'Acide",
             "synopsis": "Wrandrall cherche désespérément des compagnons de route pour sa quête : ils devront braver vents et marées pour aller explorer une grotte. Nul ne sait ce qui les attend sur cette route, ni ce qu'ils trouveront au fond de cette grotte… Une seule chose est sûre, c'est qu'ils n'ont aucune idée de ce dans quoi ils se sont embarqués.",
@@ -43,8 +43,8 @@
                 "collections": 1,
                 "tracks": 16
             },
-            "created_at": "2018-09-23T22:07:43+00:00",
-            "updated_at": "2018-09-23T22:07:43+00:00",
+            "created_at": "2018-09-24T20:46:44+00:00",
+            "updated_at": "2018-09-24T20:46:44+00:00",
             "author": {
                 "id": 1797332506,
                 "slug": "jbx",
@@ -60,8 +60,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T22:07:35+00:00",
-                "updated_at": "2018-09-23T22:07:35+00:00",
+                "created_at": "2018-09-24T20:46:35+00:00",
+                "updated_at": "2018-09-24T20:46:35+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
@@ -70,8 +70,8 @@
             },
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/storage/1930664737/conversions/reflets-d-acide-main.jpg",
-                    "thumb": "/static/mocks/media/storage/1930664737/conversions/reflets-d-acide-thumb.jpg",
+                    "main": "/static/mocks/media/storage/223274995/conversions/reflets-d-acide-main.jpg",
+                    "thumb": "/static/mocks/media/storage/223274995/conversions/reflets-d-acide-thumb.jpg",
                     "meta": {
                         "color": "#61BCDE",
                         "type": "light"

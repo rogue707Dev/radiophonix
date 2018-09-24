@@ -20,8 +20,8 @@
         "collections": 2,
         "tracks": 13
     },
-    "created_at": "2018-09-23T22:07:39+00:00",
-    "updated_at": "2018-09-23T22:07:39+00:00",
+    "created_at": "2018-09-24T20:46:40+00:00",
+    "updated_at": "2018-09-24T20:46:40+00:00",
     "author": {
         "id": 1523884511,
         "slug": "inky",
@@ -37,8 +37,8 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-23T22:07:35+00:00",
-        "updated_at": "2018-09-23T22:07:35+00:00",
+        "created_at": "2018-09-24T20:46:35+00:00",
+        "updated_at": "2018-09-24T20:46:35+00:00",
         "type": "user",
         "picture": {
             "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
@@ -47,8 +47,8 @@
     },
     "images": {
         "cover": {
-            "main": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-main.jpg",
-            "thumb": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-thumb.jpg",
+            "main": "/static/mocks/media/storage/1300788002/conversions/kiponie-stories-main.jpg",
+            "thumb": "/static/mocks/media/storage/1300788002/conversions/kiponie-stories-thumb.jpg",
             "meta": {
                 "color": "#CC4D1B",
                 "type": "dark"
@@ -63,7 +63,7 @@
                 "sagas": 1
             },
             "image": {
-                "main": "/static/mocks/media/storage/1300788002/conversions/Aventure-main.jpg"
+                "main": "/static/mocks/media/storage/1420631365/conversions/Aventure-main.jpg"
             }
         }
     ]

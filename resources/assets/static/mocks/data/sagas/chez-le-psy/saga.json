@@ -20,8 +20,8 @@
         "collections": 9,
         "tracks": 66
     },
-    "created_at": "2018-09-23T22:07:38+00:00",
-    "updated_at": "2018-09-23T22:07:38+00:00",
+    "created_at": "2018-09-24T20:46:38+00:00",
+    "updated_at": "2018-09-24T20:46:38+00:00",
     "author": {
         "id": 965594201,
         "slug": "magoyond",
@@ -37,8 +37,8 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-23T22:07:35+00:00",
-        "updated_at": "2018-09-23T22:07:35+00:00",
+        "created_at": "2018-09-24T20:46:35+00:00",
+        "updated_at": "2018-09-24T20:46:35+00:00",
         "type": "team",
         "picture": {
             "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
@@ -47,8 +47,8 @@
     },
     "images": {
         "cover": {
-            "main": "/static/mocks/media/storage/674797561/conversions/chez-le-psy-main.jpg",
-            "thumb": "/static/mocks/media/storage/674797561/conversions/chez-le-psy-thumb.jpg",
+            "main": "/static/mocks/media/storage/861745168/conversions/chez-le-psy-main.jpg",
+            "thumb": "/static/mocks/media/storage/861745168/conversions/chez-le-psy-thumb.jpg",
             "meta": {
                 "color": "#000000",
                 "type": "dark"
@@ -63,7 +63,7 @@
                 "sagas": 1
             },
             "image": {
-                "main": "/static/mocks/media/storage/861745168/conversions/Contemporain-main.jpg"
+                "main": "/static/mocks/media/storage/980669067/conversions/Contemporain-main.jpg"
             }
         }
     ]

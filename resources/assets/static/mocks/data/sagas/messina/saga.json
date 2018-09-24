@@ -1,5 +1,5 @@
 {
-    "id": 1176091268,
+    "id": 392587459,
     "slug": "messina",
     "name": "Messina",
     "synopsis": "Messina est un univers créé par MimiRyudo. La principale partie actuellement (chapitre 2) en est une saga MP3 en 10 épisodes, écrite par MimiRyudo et réalisée par Celebo Anarion. L'histoire se situe à Messina (rien à voir avec le Messina moderne) à l'époque où les aventuriers pouvaient encore mener leurs quêtes et où les licornes leur murmuraient des prophéties...",
@@ -20,8 +20,8 @@
         "collections": 3,
         "tracks": 19
     },
-    "created_at": "2018-09-23T22:07:42+00:00",
-    "updated_at": "2018-09-23T22:07:42+00:00",
+    "created_at": "2018-09-24T20:46:43+00:00",
+    "updated_at": "2018-09-24T20:46:43+00:00",
     "author": {
         "id": 1176091268,
         "slug": "mimiryudo",
@@ -37,8 +37,8 @@
         "stats": {
             "sagas": 1
         },
-        "created_at": "2018-09-23T22:07:36+00:00",
-        "updated_at": "2018-09-23T22:07:36+00:00",
+        "created_at": "2018-09-24T20:46:36+00:00",
+        "updated_at": "2018-09-24T20:46:36+00:00",
         "type": "user",
         "picture": {
             "main": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-main.jpg",
@@ -47,8 +47,8 @@
     },
     "images": {
         "cover": {
-            "main": "/static/mocks/media/storage/1725454359/conversions/banniere_messina-main.jpg",
-            "thumb": "/static/mocks/media/storage/1725454359/conversions/banniere_messina-thumb.jpg",
+            "main": "/static/mocks/media/storage/1930664737/conversions/banniere_messina-main.jpg",
+            "thumb": "/static/mocks/media/storage/1930664737/conversions/banniere_messina-thumb.jpg",
             "meta": {
                 "color": "#C4B8BA",
                 "type": "light"
@@ -57,13 +57,13 @@
     },
     "genres": [
         {
-            "id": 1176091268,
+            "id": 392587459,
             "name": "Médiéval-fantastique",
             "stats": {
                 "sagas": 1
             },
             "image": {
-                "main": "/static/mocks/media/storage/1778317966/conversions/M%C3%A9di%C3%A9val-fantastique-main.jpg"
+                "main": "/static/mocks/media/storage/2049459544/conversions/M%C3%A9di%C3%A9val-fantastique-main.jpg"
             }
         }
     ]
