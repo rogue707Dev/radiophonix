@@ -14,7 +14,10 @@
 
                     <div class="list-card">
 
-                        <Card
+
+                        <div>
+                            <h2 class="h2 mb-1">Saga</h2>
+                            <Card
                                 v-if="highlights.saga.id"
                                 :link="{ name: 'listen.sagas.show', params: { idOrSlug: highlights.saga.slug } }"
                                 :urlImage="highlights.saga.images.cover.main"
@@ -22,29 +25,36 @@
                                 :title="highlights.saga.name"
                                 type="saga">
 
-                            <template slot="stats">
-                                <saga-stats
+                                <template slot="stats">
+                                    <saga-stats
                                         :stats="highlights.saga.stats"
                                         :with-icon="true">
-                                </saga-stats>
-                            </template>
-                        </Card>
+                                    </saga-stats>
+                                </template>
+                            </Card>
+                        </div>
 
-                        <Card
-                                v-if="highlights.author.id"
-                                :link="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }"
-                                :urlImage="highlights.author.picture.thumb"
-                                :altImage="highlights.author.name"
-                                :title="highlights.author.name"
-                                type="faiseur">
+                        <div>
+                            <h2 class="h2 mb-1">Faiseur</h2>
 
-                            <template slot="stats">
-                                <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                {{ highlights.author.stats.sagas }} Séries
-                            </template>
-                        </Card>
+                            <Card
+                                    v-if="highlights.author.id"
+                                    :link="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }"
+                                    :urlImage="highlights.author.picture.thumb"
+                                    :altImage="highlights.author.name"
+                                    :title="highlights.author.name"
+                                    type="faiseur">
 
-                        <Card
+                                <template slot="stats">
+                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                    {{ highlights.author.stats.sagas }} Séries
+                                </template>
+                            </Card>
+                        </div>
+
+                        <div>
+                            <h2 class="h2 mb-1">Épisode</h2>
+                            <Card
                                 v-if="highlights.track.id"
                                 :link="{ name: 'home' }"
                                 :urlImage="highlights.track.collection.saga.images.cover.thumb"
@@ -52,13 +62,16 @@
                                 :title="highlights.track.title"
                                 type="episode">
 
-                            <template slot="stats">
-                                <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                {{ highlights.author.stats.sagas }} Séries
-                            </template>
-                        </Card>
+                                <template slot="stats">
+                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                    {{ highlights.author.stats.sagas }} Séries
+                                </template>
+                            </Card>
+                        </div>
 
-                        <Card
+                        <div>
+                            <h2 class="h2 mb-1">Genre</h2>
+                            <Card
                                 v-if="highlights.genre.id"
                                 :link="{ name: 'listen.genres.show', params: { id: highlights.genre.id } }"
                                 :urlImage="highlights.genre.image.main"
@@ -66,11 +79,12 @@
                                 :title="highlights.genre.name"
                                 type="genre">
 
-                            <template slot="stats">
-                                <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                {{ highlights.genre.stats.sagas }} Séries
-                            </template>
-                        </Card>
+                                <template slot="stats">
+                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                    {{ highlights.genre.stats.sagas }} Séries
+                                </template>
+                            </Card>
+                        </div>
 
                     </div>
 
@@ -95,6 +109,7 @@
                             :urlImage="saga.images.cover.main"
                             :altImage="saga.name"
                             :title="saga.name"
+                            :badge="true"
                             type="saga">
 
                             <template slot="stats">
@@ -120,6 +135,7 @@
                             :urlImage="author.picture.thumb"
                             :altImage="author.name"
                             :title="author.name"
+                            :badge="true"
                             type="faiseur">
 
                             <template slot="stats">
@@ -143,6 +159,7 @@
                             :urlImage="track.collection.saga.images.cover.thumb"
                             :altImage="track.title"
                             :title="track.title"
+                            :badge="true"
                             type="episode">
 
                             <template slot="stats">
@@ -166,6 +183,7 @@
                             :urlImage="genre.image.main"
                             :altImage="genre.name"
                             :title="genre.name"
+                            :badge="true"
                             type="genre">
 
                             <template slot="stats">
