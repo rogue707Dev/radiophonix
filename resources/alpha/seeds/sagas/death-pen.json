@@ -1,0 +1,143 @@
+{
+    "name": "Death Pen",
+    "synopsis": "Bernard, alias Ryuuku, est un expert comptable, et il s'ennuie. Il décide alors de laisser tomber son stylo dans le monde des humains. Et c'est Raito, jeune élève modèle un rien misanthrope, qui le récupère. Mais ce stylo n'est pas ordinaire... Une des règle de la Death Not-ice est \"The human whose name is written with this pen... shall die !\" que l'on peut traduire par \"L'humain dont le nom est écrit avec ce stylo mourra\".",
+    "creation_date": "2008-05-03T00:00:00+00:00",
+    "licence": "CC BY-NC-ND",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/Reflets_d%27Acide",
+        "site": "http://synopsite.com/",
+        "topic": null,
+        "rss": null,
+        "facebook": null,
+        "twitter": null
+    },
+    "finished": false,
+    "visibility": 0,
+    "images": {
+        "cover": "bandeathpen.png"
+    },
+    "genres": [
+        "Parodie"
+    ],
+    "author": "JBX",
+    "collections": [
+        {
+            "number": "1",
+            "name": "Épisodes",
+            "synopsis": "",
+            "type": "season",
+            "tracks": [
+                {
+                    "number": "1",
+                    "title": "Épisode 1",
+                    "synopsis": "Ryuuku s'ennuyant à mourir dans son rôle de comptable, il jette alors son Death Pen par une fenêtre pour s'amuser. Raito le trouve et décide de s'en servir.",
+                    "published_at": "2008-05-03T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "7m50s",
+                    "file": "death-pen/Death Pen 01.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "2",
+                    "title": "Épisode 2",
+                    "synopsis": "La police fait appelle au brillant détective L pour arrêter Raito. Il le provoque alors ouvertement en duel.",
+                    "published_at": "2008-05-03T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "5m6s",
+                    "file": "death-pen/Death Pen 02.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "3",
+                    "title": "Épisode 3",
+                    "synopsis": "L'avance dans ses déductions alors que Raito est suivi par un incompétent agent du FBI.",
+                    "published_at": "2008-05-03T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "6m29s",
+                    "file": "death-pen/Death Pen 03.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "4",
+                    "title": "Épisode 4",
+                    "synopsis": "De nombreuses démissions ont lieu à la police alors que Raito prépare un plan pour exécuter l'agent du FBI qui devient gênant.",
+                    "published_at": "2008-05-03T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "5m31s",
+                    "file": "death-pen/Death Pen 04.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "5",
+                    "title": "Épisode 5",
+                    "synopsis": "Pendant qu'L avance encore dans ses théories, Raito exécute son plan pour tuer l'agent du FBI : Ray Penbar.",
+                    "published_at": "2008-05-03T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "9m14s",
+                    "file": "death-pen/Death Pen 05.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "6",
+                    "title": "Épisode 6",
+                    "synopsis": "Yagami, Matsuda et Aiezawa rencontrent L pour débattre du cas Kira. La fiancée de Ray Penbar se rend pendant ce temps au commissariat pour faire part aux enquêteurs de ses déductions.",
+                    "published_at": "2008-05-03T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "8m12s",
+                    "file": "death-pen/Death Pen 06.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "7",
+                    "title": "Épisode 7",
+                    "synopsis": "L demande un entretien individuel à chacun des inspecteurs, alors que Kira s'occupe de la fiancée de Penbar...",
+                    "published_at": "2009-10-15T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "11m16s",
+                    "file": "death-pen/Death Pen 07.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "8",
+                    "title": "Épisode 8",
+                    "synopsis": "L passe à l'action pendant que Ryuuku a des soucis avec la police...",
+                    "published_at": "2011-01-16T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "13m35s",
+                    "file": "death-pen/Death Pen 08.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "9",
+                    "title": "Épisode 9",
+                    "synopsis": "L et Raito s'affrontent!",
+                    "published_at": "2011-06-30T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "10m28s",
+                    "file": "death-pen/Death Pen 09.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "10",
+                    "title": "Épisode 10",
+                    "synopsis": "Kira diffuse une vidéo à la télévision",
+                    "published_at": "2013-08-22T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "7m31s",
+                    "file": "death-pen/Death Pen 10.mp3",
+                    "percentages": [],
+                    "chapters": []
+                }
+            ]
+        }
+    ]
+}
