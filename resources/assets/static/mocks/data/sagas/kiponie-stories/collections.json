@@ -1,15 +1,15 @@
 [
     {
-        "id": 1184964965,
+        "id": 630869487,
         "number": "0",
         "name": "Pré-saison : Sur des Terres Inconnues",
         "synopsis": "Tout commence par un voyage sans intérêt. Le très jeune capitaine Alexandre Vinoqui se lance dans l'expédition du siècle : Percer les mystères du Triangle des Mersnulles et révéler au monde entier les secrets cachés par d'étranges brumes. Il prend donc la première opportunité venue et embarque avec lui son vieil ami Hanson Triviany ainsi qu’une équipe d’andouilles dégotée dans les poubelles du coin. Après deux semaines de voyage plus que désagréables, une tempête frappe soudainement leur navire et le transforme en musée sous-marin. Nos deux aventuriers amateurs se retrouvent prisonniers d’un continent mystérieux gardant des secrets inimaginables. C’est à ce moment là que les problèmes commencent...",
         "type": "season",
-        "created_at": "2018-09-24T20:46:41+00:00",
-        "updated_at": "2018-09-24T20:46:41+00:00",
+        "created_at": "2018-09-25T17:58:43+00:00",
+        "updated_at": "2018-09-25T17:58:43+00:00",
         "tracks": [
             {
-                "id": 1427219579,
+                "id": 1099279598,
                 "number": "1",
                 "title": "Navigation impossible",
                 "synopsis": "Après qu'un grand explorateur Tassif Badalof ait subitement perdu la vie en se noyant dans son verre d'eau, le capitaine Alexandre Vinoqui et son second Hanson Triviany décident d'aller explorer les Mers Nulles afin de découvrir ce qui se cache derrière les Brumes Maléfiques.",
@@ -19,11 +19,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:41+00:00",
-                "updated_at": "2018-09-24T20:46:41+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 1652429478,
+                "id": 1846679853,
                 "number": "2",
                 "title": "Découverte",
                 "synopsis": "Les terres sur lesquelles s'est échoué le groupe d'expédition du Traveller s'avèrent être habitées par un peuple aux coutumes bien étranges. Alex et Hanson doivent se rendre au Bureau des Inscriptions afin de se naturaliser Kiponais.",
@@ -33,11 +33,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 818594021,
+                "id": 1065285480,
                 "number": "3",
                 "title": "Les concernés",
                 "synopsis": "Alex et Hanson sont conviés chez Fred-Herick qui est chargé d'accueillir les nouveaux côlons mais son attitude inquiète ces derniers. D'un autre côté, le Président de la Semi-République de Kiponie reçoit le rapport hebdomadaire de son espion qui relate les derniers \"exploits\" du capitaine du Traveller.",
@@ -47,11 +47,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E3.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 1096203552,
+                "id": 1305126359,
                 "number": "4",
                 "title": "La Justice du Pays des fous",
                 "synopsis": "Au cours d'un procès sans queue ni tête, le capitaine Vinoqui, épaulé par un avocat commis d'office qui ne parle pas la même langue, tentera de se disculper des charges retenues contre lui.",
@@ -61,11 +61,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E4.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 1872980847,
+                "id": 441913874,
                 "number": "5",
                 "title": "La grotte de Kermesite",
                 "synopsis": "Le groupe d'aventurier amateur se dirige maintenant vers les Grottes de Kermesite où ils vont faire des rencontres qui vont compliquer leur journée voire leur vie entière.",
@@ -75,11 +75,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E5.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 1007671722,
+                "id": 681820241,
                 "number": "6",
                 "title": "Retour vers le passé",
                 "synopsis": "Dans les grottes de Kermesite, le groupe fait fasse à un Mage noir qui leur propose un marché qui changera à tout jamais leur passé et leur avenir... De son côté, le Président tente de discipliner ses troupes.",
@@ -89,11 +89,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E6.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 1251719145,
+                "id": 2031074972,
                 "number": "7a",
                 "title": "Là où tout commence...",
                 "synopsis": "Alex, Hanson, Andom et Fred-Herick sont prisonniers dans une boucle temporelle et vont devoir trouver une solution pour sortir de ces perturbations du temps.",
@@ -103,11 +103,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E7_P1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 468214868,
+                "id": 127691995,
                 "number": "7b",
                 "title": "...et où tout finit.",
                 "synopsis": "Andom De Louvelle convint le Président de condamner l'entrée des Grottes de Kermesite afin que plus personne ne s'y aventure. Pendant ce temps, Hanson et Fred-Herick tentent de faire marcher le miroir de téléportation qui se trouve dans la demeure d'Andom.",
@@ -117,11 +117,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E7_P2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 678744723,
+                "id": 1424546054,
                 "number": "7c",
                 "title": "Au bout du prologue",
                 "synopsis": "Le groupe tente de récupérer la \"lampe\" fétiche du capitaine, appelée aussi la Pierre Ancestrale des Terres Perdues, auprès de Mangélos sans qu'il ne se doute de quelque chose. De son côté, le Président mène une petite troupe de soldats à l'entrée des Grottes de Kermesite pour la condamner. Mais la situation va empirer...",
@@ -131,22 +131,22 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E7_P3.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             }
         ]
     },
     {
-        "id": 386768800,
+        "id": 1927690794,
         "number": "1",
         "name": "La Malédiction Fantôme",
         "synopsis": "Après avoir échappé belle aux éboulements du Kret Kermesite, Andom, Alexandre, Fred-Herick ainsi que le Président de la Semi-République partent subitement chercher la cité des Anciens pour trouver des réponses à leurs questions. Mais Génofuna, l’île où est supposée se situer la cité n’est sur aucune carte. Ils décident alors de se rendre à Karst, ville de brigands et de contrebandiers mais gisement de précieuses informations. D’un autre côté Mangélos retourne chez son précepteur, Dec Cedrius. Ce dernier va mettre tout en œuvre pour contrecarrer les plans d'un mystérieux inconnu. Quant à Mangélos, il veut par dessus tout découvrir qui il était autrefois et accomplir son devoir : Éliminer le mystérieux inconnu. Dans ce chapitre, mystères et énigmes s'étoffent, le hasard devenant un prétexte pour cacher la vérité, mais nos héros ne tarderont pas à découvrir ce pour quoi ils sont là.",
         "type": "season",
-        "created_at": "2018-09-24T20:46:42+00:00",
-        "updated_at": "2018-09-24T20:46:42+00:00",
+        "created_at": "2018-09-25T17:58:43+00:00",
+        "updated_at": "2018-09-25T17:58:43+00:00",
         "tracks": [
             {
-                "id": 1992327390,
+                "id": 1702147909,
                 "number": "1",
                 "title": "À l'Aube d'une nouvelle ère",
                 "synopsis": "La bataille contre le dragon fait rage pendant que le groupe d'Andom tente de s'enfuir avant que les grottes ne s'effondrent. De son côté, Mangélos est retourné chez son maître, Dec Cedrius, qui lui explique que la situation est grave.",
@@ -156,11 +156,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S1_E1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 120421661,
+                "id": 868312448,
                 "number": "2",
                 "title": "Lorsque la Tempête frappa",
                 "synopsis": "Andom a mis le Président dans la confidence et tous deux décident ensemble de faire route, accompagnés du capitaine Vinoqui et de Fred-Herick, pour Karst une cité rebelle mais gisement de précieuses informations.",
@@ -170,11 +170,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S1_E2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 1438198616,
+                "id": 1076745167,
                 "number": "3",
                 "title": "Vers la cité des brigands",
                 "synopsis": "Sur la route pour Karst, Andom et le Président révèlent des secrets d'Etat à Alexandre. De son côté, Dec Cedrius rend visite à un vieil ennemi afin de faire le point sur la situation à venir...",
@@ -184,11 +184,11 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S1_E3.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             },
             {
-                "id": 1644534151,
+                "id": 1857650698,
                 "number": "4",
                 "title": "L'Hésitation",
                 "synopsis": "Pendant que le Président, Andom, Alex et Fred-Herick poursuivent leur route vers Karst, un navire venant du Grand Monde s'apprête à franchir les brumes maléfiques des Mers Interdites...",
@@ -198,8 +198,8 @@
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S1_E4.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:42+00:00",
-                "updated_at": "2018-09-24T20:46:42+00:00"
+                "created_at": "2018-09-25T17:58:43+00:00",
+                "updated_at": "2018-09-25T17:58:43+00:00"
             }
         ]
     }

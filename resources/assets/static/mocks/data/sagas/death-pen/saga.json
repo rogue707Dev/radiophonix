@@ -1,10 +1,10 @@
 {
-    "id": 11231624,
-    "slug": "reflets-dacide",
-    "name": "Reflets d'Acide",
-    "synopsis": "Wrandrall cherche désespérément des compagnons de route pour sa quête : ils devront braver vents et marées pour aller explorer une grotte. Nul ne sait ce qui les attend sur cette route, ni ce qu'ils trouveront au fond de cette grotte… Une seule chose est sûre, c'est qu'ils n'ont aucune idée de ce dans quoi ils se sont embarqués.",
-    "creation_date": "2002-12-01T00:00:00+00:00",
-    "licence": "CC BY-NC",
+    "id": 965594201,
+    "slug": "death-pen",
+    "name": "Death Pen",
+    "synopsis": "Bernard, alias Ryuuku, est un expert comptable, et il s'ennuie. Il décide alors de laisser tomber son stylo dans le monde des humains. Et c'est Raito, jeune élève modèle un rien misanthrope, qui le récupère. Mais ce stylo n'est pas ordinaire... Une des règle de la Death Not-ice est \"The human whose name is written with this pen... shall die !\" que l'on peut traduire par \"L'humain dont le nom est écrit avec ce stylo mourra\".",
+    "creation_date": "2008-05-03T00:00:00+00:00",
+    "licence": "CC BY-NC-ND",
     "links": {
         "netowiki": "https://wiki.netophonix.com/Reflets_d%27Acide",
         "site": "http://synopsite.com/",
@@ -18,10 +18,10 @@
     "stats": {
         "bravos": 0,
         "collections": 1,
-        "tracks": 16
+        "tracks": 10
     },
-    "created_at": "2018-09-25T17:58:45+00:00",
-    "updated_at": "2018-09-25T17:58:45+00:00",
+    "created_at": "2018-09-25T17:58:40+00:00",
+    "updated_at": "2018-09-25T17:58:40+00:00",
     "author": {
         "id": 1797332506,
         "slug": "jbx",
@@ -47,23 +47,23 @@
     },
     "images": {
         "cover": {
-            "main": "/static/mocks/media/storage/818417654/conversions/reflets-d-acide-main.jpg",
-            "thumb": "/static/mocks/media/storage/818417654/conversions/reflets-d-acide-thumb.jpg",
+            "main": "/static/mocks/media/storage/1778317966/conversions/bandeathpen-main.jpg",
+            "thumb": "/static/mocks/media/storage/1778317966/conversions/bandeathpen-thumb.jpg",
             "meta": {
-                "color": "#61BCDE",
-                "type": "light"
+                "color": "#000000",
+                "type": "dark"
             }
         }
     },
     "genres": [
         {
-            "id": 1797332506,
-            "name": "Heroic fantasy",
+            "id": 206107536,
+            "name": "Parodie",
             "stats": {
                 "sagas": 2
             },
             "image": {
-                "main": "/static/mocks/media/storage/1725454359/conversions/Heroic-fantasy-main.jpg"
+                "main": "/static/mocks/media/storage/980669067/conversions/Parodie-main.jpg"
             }
         }
     ]

@@ -1,15 +1,15 @@
 [
     {
-        "id": 2116760339,
+        "id": 1560567709,
         "number": "1",
         "name": "La Matruc",
         "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
         "type": "season",
-        "created_at": "2018-09-24T20:46:43+00:00",
-        "updated_at": "2018-09-24T20:46:43+00:00",
+        "created_at": "2018-09-25T17:58:44+00:00",
+        "updated_at": "2018-09-25T17:58:44+00:00",
         "tracks": [
             {
-                "id": 289474795,
+                "id": 502611870,
                 "number": "1",
                 "title": "Épisode 1",
                 "synopsis": "",
@@ -19,11 +19,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick01.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1068361046,
+                "id": 708963805,
                 "number": "2",
                 "title": "Épisode 2",
                 "synopsis": "",
@@ -33,11 +33,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick02.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1278890901,
+                "id": 2024692248,
                 "number": "3",
                 "title": "Épisode 3",
                 "synopsis": "",
@@ -47,11 +47,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick03.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 444989904,
+                "id": 154798151,
                 "number": "4",
                 "title": "Épisode 4",
                 "synopsis": "",
@@ -61,11 +61,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick04.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 722664991,
+                "id": 1468458626,
                 "number": "5",
                 "title": "Épisode 5",
                 "synopsis": "",
@@ -75,11 +75,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick05.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 2021567578,
+                "id": 1678988481,
                 "number": "6",
                 "title": "Épisode 6",
                 "synopsis": "",
@@ -89,11 +89,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick06.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 113973913,
+                "id": 897515788,
                 "number": "7",
                 "title": "Épisode 7",
                 "synopsis": "",
@@ -103,11 +103,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick07.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1465370820,
+                "id": 1137442635,
                 "number": "8",
                 "title": "Épisode 8",
                 "synopsis": "",
@@ -117,11 +117,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick08.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1705223427,
+                "id": 274181558,
                 "number": "9",
                 "title": "Épisode 9",
                 "synopsis": "",
@@ -131,11 +131,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick09.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 842011470,
+                "id": 1050942453,
                 "number": "10",
                 "title": "Épisode 10",
                 "synopsis": "",
@@ -145,11 +145,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1084014989,
+                "id": 1328597040,
                 "number": "11",
                 "title": "Épisode 11",
                 "synopsis": "",
@@ -159,11 +159,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick11.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 300466120,
+                "id": 496805503,
                 "number": "12",
                 "title": "Épisode 12",
                 "synopsis": "",
@@ -173,22 +173,22 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick12.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             }
         ]
     },
     {
-        "id": 213377374,
+        "id": 1804602840,
         "number": "2",
         "name": "La Matruc contre-attaque",
         "synopsis": "Suite à la conclusion de la première saison, Eo, Cris d'ET, Morve d'Anus, et Tang sont en train de réparer leur vaisseau Endaleship, qui flotte au milieu de l'océan. Mais ils sont dérangés par l'arrivée d'un autre engin, dont les occupants s'avèrent être des alliés. L'histoire que l'on pensait finie, ne fait alors que commencer...",
         "type": "season",
-        "created_at": "2018-09-24T20:46:43+00:00",
-        "updated_at": "2018-09-24T20:46:43+00:00",
+        "created_at": "2018-09-25T17:58:44+00:00",
+        "updated_at": "2018-09-25T17:58:44+00:00",
         "tracks": [
             {
-                "id": 1047882807,
+                "id": 719918266,
                 "number": "13",
                 "title": "Épisode 13",
                 "synopsis": "",
@@ -198,11 +198,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick13.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1287772786,
+                "id": 2071315193,
                 "number": "14",
                 "title": "Épisode 14",
                 "synopsis": "",
@@ -212,11 +212,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick14.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 489523377,
+                "id": 163692324,
                 "number": "15",
                 "title": "Épisode 15",
                 "synopsis": "",
@@ -226,11 +226,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick15.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 733636348,
+                "id": 1445883235,
                 "number": "16",
                 "title": "Épisode 16",
                 "synopsis": "",
@@ -240,11 +240,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick16.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 2013713211,
+                "id": 1689967534,
                 "number": "17",
                 "title": "Épisode 17",
                 "synopsis": "",
@@ -254,11 +254,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick17.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 110264678,
+                "id": 889620973,
                 "number": "18",
                 "title": "Épisode 18",
                 "synopsis": "",
@@ -268,11 +268,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick18.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1476362149,
+                "id": 1133733416,
                 "number": "19",
                 "title": "Épisode 19",
                 "synopsis": "",
@@ -282,11 +282,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick19.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1682648544,
+                "id": 285201559,
                 "number": "20",
                 "title": "Épisode 20",
                 "synopsis": "",
@@ -296,11 +296,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick20.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 852990511,
+                "id": 558596818,
                 "number": "21",
                 "title": "Épisode 21",
                 "synopsis": "",
@@ -310,11 +310,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick21.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1126451306,
+                "id": 1339588369,
                 "number": "22",
                 "title": "Épisode 22",
                 "synopsis": "",
@@ -324,11 +324,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick22.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 296756905,
+                "id": 472132956,
                 "number": "23",
                 "title": "Épisode 23",
                 "synopsis": "",
@@ -338,11 +338,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick23.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1042060052,
+                "id": 716217243,
                 "number": "24",
                 "title": "Épisode 24",
                 "synopsis": "",
@@ -352,11 +352,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick24.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1332298067,
+                "id": 2065516998,
                 "number": "25",
                 "title": "Épisode 25",
                 "synopsis": "",
@@ -366,11 +366,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick25.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 502611870,
+                "id": 141108741,
                 "number": "26",
                 "title": "Épisode 26",
                 "synopsis": "",
@@ -380,11 +380,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick26.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 708963805,
+                "id": 1458934848,
                 "number": "27-28",
                 "title": "Épisode 27-28",
                 "synopsis": "",
@@ -394,11 +394,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick27_28.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 2024692248,
+                "id": 1732395663,
                 "number": "29",
                 "title": "Épisode 29",
                 "synopsis": "",
@@ -408,11 +408,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick29.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 154798151,
+                "id": 900608202,
                 "number": "30",
                 "title": "Épisode 30",
                 "synopsis": "",
@@ -422,11 +422,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick30.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1468458626,
+                "id": 1111158025,
                 "number": "31",
                 "title": "Épisode 31",
                 "synopsis": "",
@@ -436,11 +436,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick31.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1678988481,
+                "id": 277306228,
                 "number": "32",
                 "title": "Épisode 32",
                 "synopsis": "",
@@ -450,11 +450,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick32.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 897515788,
+                "id": 554895795,
                 "number": "33",
                 "title": "Épisode 33",
                 "synopsis": "",
@@ -464,11 +464,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick33.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1137442635,
+                "id": 1317005310,
                 "number": "34",
                 "title": "Épisode 34",
                 "synopsis": "",
@@ -478,22 +478,22 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matrick34.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             }
         ]
     },
     {
-        "id": 1560567709,
+        "id": 956103175,
         "number": "3",
         "name": "Bonus",
         "synopsis": "",
         "type": "bonus",
-        "created_at": "2018-09-24T20:46:43+00:00",
-        "updated_at": "2018-09-24T20:46:43+00:00",
+        "created_at": "2018-09-25T17:58:44+00:00",
+        "updated_at": "2018-09-25T17:58:44+00:00",
         "tracks": [
             {
-                "id": 274181558,
+                "id": 483152957,
                 "number": "1",
                 "title": "Matruc - la parodie de Matrix - Bande annonce",
                 "synopsis": "",
@@ -503,11 +503,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matruc_trailer.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1050942453,
+                "id": 760742520,
                 "number": "2",
                 "title": "Matrick - Teaser La matruc contre-attaque",
                 "synopsis": "",
@@ -517,11 +517,11 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matruc2_teaser.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             },
             {
-                "id": 1328597040,
+                "id": 2074407079,
                 "number": "3",
                 "title": "Matrick - La matruc - L'interview débile",
                 "synopsis": "",
@@ -531,8 +531,8 @@
                 "file": "http://www.doevell.org/ecoute/matrick/matruc_interviewdeb.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:43+00:00",
-                "updated_at": "2018-09-24T20:46:43+00:00"
+                "created_at": "2018-09-25T17:58:44+00:00",
+                "updated_at": "2018-09-25T17:58:44+00:00"
             }
         ]
     }

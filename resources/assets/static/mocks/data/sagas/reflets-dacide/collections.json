@@ -1,15 +1,15 @@
 [
     {
-        "id": 399836801,
+        "id": 1921884427,
         "number": "1",
         "name": "Saison 1",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-09-24T20:46:44+00:00",
-        "updated_at": "2018-09-24T20:46:44+00:00",
+        "created_at": "2018-09-25T17:58:45+00:00",
+        "updated_at": "2018-09-25T17:58:45+00:00",
         "tracks": [
             {
-                "id": 277306228,
+                "id": 523977723,
                 "number": "1",
                 "title": "L'enrôlement",
                 "synopsis": "Wrandrall recherche des aventuriers dans la taverne de Maender-Alkoor pour l'accompagner dans sa quête : explorer un souterrain.",
@@ -19,11 +19,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA01.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 554895795,
+                "id": 763834406,
                 "number": "2",
                 "title": "La Forêt des éventrés",
                 "synopsis": "Le groupe commence son voyage mais il tombe sur un groupe d'orques attaquant un clerc.",
@@ -33,11 +33,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA02.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 1317005310,
+                "id": 2048126565,
                 "number": "3",
                 "title": "Le fleuve des glaires tièdes",
                 "synopsis": "Un ogre garde le passage sur le seul pont du fleuve. Nos aventuriers cherchent un moyen de passer.",
@@ -47,11 +47,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA03.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 483152957,
+                "id": 190864544,
                 "number": "4",
                 "title": "La Grotte de l’Herpès écorché",
                 "synopsis": "Une forte odeur de soufre se fait sentir à l'entrée de cette grotte que les héros doivent traverser.",
@@ -61,11 +61,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA04.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 760742520,
+                "id": 1506544367,
                 "number": "5",
                 "title": "Le Bivouac…tion !",
                 "synopsis": "Il est l'heure pour nos héros de faire une pause pour la nuit. Mais cette nuit ne sera pas de tout repos.",
@@ -75,11 +75,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA05.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 2074407079,
+                "id": 1717102378,
                 "number": "6",
                 "title": "La Colline des Mille Gangrènes",
                 "synopsis": "En gravissant la colline, le groupe est pris dans le brouillard et se fait attaquer par des goules.",
@@ -89,11 +89,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA06.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 137408226,
+                "id": 883250537,
                 "number": "7",
                 "title": "Le Mont Mucus",
                 "synopsis": "Le sommet du Mont Mucus cachait un labyrinthe piégé que les héros doivent traverser pour atteindre enfin l'entrée du souterrain.",
@@ -103,11 +103,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA07.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 1453136673,
+                "id": 1160840148,
                 "number": "8",
                 "title": "Au fond du trou...",
                 "synopsis": "Le groupe s'aventure dans le gouffre en s'encordant puis en descendant un escalier. En parallèle, à Maender-Alkoor, Moumoune cherche un moyen d'annuler le lien d'invocation entre Zarakaï et son mari.",
@@ -117,11 +117,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA08.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 1743374700,
+                "id": 329117715,
                 "number": "9",
                 "title": "Énigme dans l'abîme !",
                 "synopsis": "Moumoune ramène un prêtre de Shamrodia pour exorciser Roger. Dans le gouffre, le groupe doit résoudre une énigme pour pouvoir explorer plus en profondeur.",
@@ -131,11 +131,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA09.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 880125867,
+                "id": 552185438,
                 "number": "10",
                 "title": "La croisée des chemins",
                 "synopsis": "Alors que nos aventuriers veulent faire payer à Wrandrall sa vile parenté, ils se font attaquer par leurs reflets inversés. De leur côté, Moumoune, Roger et la dragonne se rendent chez le devin de la cité.",
@@ -145,11 +145,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 1120015382,
+                "id": 1903565981,
                 "number": "11",
                 "title": "L’elfe et la prison brisée",
                 "synopsis": "Le groupe tente de prévenir Maender-Alkor que l'armée des ténèbres se dirige vers la ville. Dans la cité, l'espion du roi Mortis est appréhendé par Kyo.",
@@ -159,11 +159,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA11.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 321831509,
+                "id": 532859608,
                 "number": "12",
                 "title": "L’infâme alliance des fléaux",
                 "synopsis": "Wrandrall, sous l'influence de son épée, vient de libérer son père Bélial du miroir où il fut enfermé il y a plus de 1000 ans. Moumoune et Roger tente de soigner Trichelieu, assommé, et suite à une erreur, il se retrouve transformé en oie. En parallèle, Kyo emmène le prêtre de Shamrodia vers le tribunal.",
@@ -173,11 +173,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA12.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 565883024,
+                "id": 741254919,
                 "number": "13",
                 "title": "Dies irae, dies illa solvet saeclum in favilla",
                 "synopsis": "Au pied de l'escalier, le groupe est assommé et à la merci de Bélial. Pour sauver ses compagnons, Wrandrall propose à Bélial de le téléporter hors du gouffre. A Meander-Alkor, le devin veut consulter le Grimoire des Secrets au temple d'Hésindé.",
@@ -187,11 +187,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA13.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 1309109983,
+                "id": 2059081026,
                 "number": "14",
                 "title": "Un peuple qui oublie son passé se condamne à le revivre",
                 "synopsis": "Nos héros sont pris au piège dans le gouffre où ils doivent tenir tête à la dragonne pendant que Belial rejoint le Roi Mortys. Simultanément, Maender-Alkor se réveille.",
@@ -201,11 +201,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA14.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:45+00:00",
+                "updated_at": "2018-09-25T17:58:45+00:00"
             },
             {
-                "id": 479451930,
+                "id": 185058177,
                 "number": "15",
                 "title": "Bien plus que des racines, mieux vaut avoir des ailes... afin de s'élever...",
                 "synopsis": "",
@@ -215,11 +215,11 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA15.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:46+00:00",
+                "updated_at": "2018-09-25T17:58:46+00:00"
             },
             {
-                "id": 771721561,
+                "id": 1502851532,
                 "number": "16",
                 "title": "Au delà de la Mort, de l’Enfer et du Temps, Il n’est de pire sort que celui du Néant",
                 "synopsis": "",
@@ -229,8 +229,8 @@
                 "file": "https://audio.radiophonix.org/RDA/RDA16-FINAL.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-24T20:46:44+00:00",
-                "updated_at": "2018-09-24T20:46:44+00:00"
+                "created_at": "2018-09-25T17:58:46+00:00",
+                "updated_at": "2018-09-25T17:58:46+00:00"
             }
         ]
     }

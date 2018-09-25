@@ -15,8 +15,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-24T20:46:34+00:00",
-            "updated_at": "2018-09-24T20:46:34+00:00",
+            "created_at": "2018-09-25T17:58:33+00:00",
+            "updated_at": "2018-09-25T17:58:33+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
@@ -38,8 +38,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-24T20:46:35+00:00",
-            "updated_at": "2018-09-24T20:46:35+00:00",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -61,8 +61,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-24T20:46:35+00:00",
-            "updated_at": "2018-09-24T20:46:35+00:00",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
@@ -75,17 +75,17 @@
             "name": "JBX",
             "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
             "links": {
-                "netowiki": null,
-                "site": null,
+                "netowiki": "https://wiki.netophonix.com/JBX",
+                "site": "http://www.refletsdacide.com/",
                 "topic": null,
                 "facebook": null,
                 "twitter": null
             },
             "stats": {
-                "sagas": 1
+                "sagas": 2
             },
-            "created_at": "2018-09-24T20:46:35+00:00",
-            "updated_at": "2018-09-24T20:46:35+00:00",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
@@ -94,25 +94,25 @@
         },
         {
             "id": 965594201,
-            "slug": "magoyond",
-            "name": "Magoyond",
-            "bio": "",
+            "slug": "mace",
+            "name": "Mace",
+            "bio": "Mace aime créer des histoires, de fait, depuis son plus jeune âge, il s'exerce à écrire des nouvelles. Amateur d'humour, il crée vers l'âge de neuf ans, des sketches audio en compagnie de son frère et de son cousin. Munis d'un magnétophone, ils feront notamment des parodies de publicités et d'émissions.\n\nAprès sa première écoute d'une saga mp3, qui se trouve être Banal Fantasy, il adhère au concept et se lance dans un projet similaire avec son meilleur ami, une façon pour lui de mettre en commun ses deux passions que sont le rire et la création d'histoires. Ce premier projet est une parodie du jeu vidéo Star Wars Knight Of The Old Republic. Ayant peu de maitrise dans l'audio, il créa seulement deux épisodes qu'il considère de basse qualité avant d'y mettre un terme.\n\nEn 2007, deux ans après l'arrêt de son premier projet, Mace qui s'ennuyait pendant les vacances eu l'idée de se remettre à la saga mp3 en créant Star Peace, une parodie des films Star Wars. Composée de 15 épisodes pour dix mois de travail, elle ne fut jamais publiée sur l'internet à l'exception des deux premiers épisodes. Il se lance ensuite dans une parodie de Dragon Ball Z, appelée Para Ball + ; abandonnée dès le deuxième épisode, elle ne fut, elle non plus, pas diffusée.\n\nN'ayant pas de réel projet dans lequel se lancer, il décide de commencer une série de monos parodiant principalement des jeux vidéo : Mace's Mono. On y retrouve ainsi des parodies, d'entre autres, Phoenix Wright, Trauma Center, Animal Crossing, etc. TeruHi intervient régulièrement dans ces monos, il est en effet un ami de Mace, ils se sont liés à l'occasion du casting pour Initial Fantasy XII, auquel il avait participé. C'est aussi dans le cadre de cette série qu'il publie la bande annonce d'une hypothétique saga parodiant le manga à succès Death Note. L'accueil de la part des auditeurs est plutôt bon, ce qui amènera l'auteur à finalement décider d'en faire une saga à part entière. Ainsi, le 3 mai 2008 sort le premier épisode de la saga Death Pen, un an jour pour jour après celui de Star Peace.\n\nAu cours de l'année 2010, alors que Death Pen semble au point mort à cause de divers problèmes, Mace lance un second projet nommé Credo d'Assassin. Cette saga est une parodie du célèbre jeu d' Ubisoft, Assassin's Creed. Ne voulant assumer un second projet tout seul, Mace proposa à un de ses amis, Yue, de co-écrire la saga avec lui. Le premier épisode sortit le 26 août 2010. ",
             "links": {
-                "netowiki": null,
-                "site": null,
+                "netowiki": "https://wiki.netophonix.com/Mace",
+                "site": "https://maceprod.jimdo.com/",
                 "topic": null,
                 "facebook": null,
                 "twitter": null
             },
             "stats": {
-                "sagas": 1
+                "sagas": 0
             },
-            "created_at": "2018-09-24T20:46:35+00:00",
-            "updated_at": "2018-09-24T20:46:35+00:00",
-            "type": "team",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
+            "type": "user",
             "picture": {
-                "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
-                "thumb": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-thumb.jpg"
+                "main": "/static/mocks/media/storage/1753359144/conversions/mace-main.jpg",
+                "thumb": "/static/mocks/media/storage/1753359144/conversions/mace-thumb.jpg"
             }
         }
     ]
