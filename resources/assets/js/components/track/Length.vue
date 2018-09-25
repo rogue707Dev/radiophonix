@@ -67,6 +67,10 @@ export default {
                 }
             }
 
+            if (hours === 0 && minutes === 0 && this.type === 'number') {
+                res.unshift('0');
+            }
+
             let glue = ' et ';
 
             if (this.type === 'short') {
