@@ -4507,10 +4507,6 @@ vue-loader@^10.0.0:
     vue-style-loader "^2.0.0"
     vue-template-es2015-compiler "^1.2.2"
 
-vue-progressbar@^0.7.0:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/vue-progressbar/-/vue-progressbar-0.7.2.tgz#6afaa04199c26d2bcbefa56049e927a437825b95"
-
 vue-router@^2.1.1:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-2.7.0.tgz#16d424493aa51c3c8cce8b7c7210ea4c3a89aff1"

@@ -1,8 +1,6 @@
 <template>
     <div v-page-title="pageTitle">
         <router-view></router-view>
-
-        <vue-progress-bar></vue-progress-bar>
     </div>
 </template>
 
@@ -15,24 +13,6 @@
                 'pageTitle',
             ]),
         },
-
-        mounted() {
-            this.$Progress.finish();
-        },
-        created: function () {
-            this.$Progress.start();
-
-            this.$router.beforeEach((to, from, next) => {
-                this.$Progress.start();
-
-                next();
-            });
-
-            this.$router.afterEach((to, from) => {
-                // finish the progress bar
-                this.$Progress.finish();
-            });
-        }
     }
 </script>
 
