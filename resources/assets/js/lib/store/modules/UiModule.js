@@ -64,7 +64,7 @@ const UiModule = {
         },
 
         setPageTitle: ({ commit }, title) => {
-            commit('setPageTitle', title + ' ⊙ Radiophonix');
+            commit('setPageTitle', title + ' — Radiophonix');
         },
     }
 };

@@ -2,7 +2,7 @@ import AudioPlayer from '~/lib/Player';
 import api from '~/lib/api';
 import store from "~/lib/store/index";
 
-const pageTitle = (saga, track) => track.title + ' - ' + saga.name;
+const pageTitle = (saga, track) => track.title + ' ⊙ ' + saga.name;
 
 const PlayerModule = {
     namespaced: true,
