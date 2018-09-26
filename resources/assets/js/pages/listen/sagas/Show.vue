@@ -200,7 +200,8 @@
                                 <div class="col-2 col-md-2 col-lg-1 order-lg-4">
                                     <div class="d-flex align-items-center h-100 justify-content-center">
                                         <div v-if="track.id == currentTrack.id" class="skin-icon-fa__cercle text-primary">
-                                            <i aria-hidden="true" class="fa fa-volume-up"></i>
+                                            <i aria-hidden="true" class="fa fa-spin fa-refresh" v-if="isLoading"></i>
+                                            <i aria-hidden="true" class="fa fa-volume-up" v-else></i>
                                         </div>
                                         <div v-else class="skin-icon-fa__cercle">
                                             <i aria-hidden="true" class="fa fa-play"></i>
@@ -271,7 +272,8 @@ export default {
 
     computed: {
         ...mapState('player', [
-            'currentTrack'
+            'currentTrack',
+            'isLoading',
         ]),
 
         genre() {
