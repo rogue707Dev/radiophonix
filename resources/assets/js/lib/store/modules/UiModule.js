@@ -7,6 +7,7 @@ const UiModule = {
         mainClass: '',
         playerClass: '',
         playlistClass: '',
+        pageTitle: 'Radiophonix',
     },
 
     mutations: {
@@ -21,6 +22,8 @@ const UiModule = {
 
         openPlaylist: (state) => state.playlistClass = 'actif',
         closePlaylist: (state) => state.playlistClass = '',
+
+        setPageTitle: (state, title) => state.pageTitle = title,
     },
 
     actions: {
@@ -54,6 +57,14 @@ const UiModule = {
             }
 
             commit('togglePlayer');
+        },
+
+        resetPageTitle: ({ commit }) => {
+            commit('setPageTitle', 'Radiophonix');
+        },
+
+        setPageTitle: ({ commit }, title) => {
+            commit('setPageTitle', title + ' ⊙ Radiophonix');
         },
     }
 };
