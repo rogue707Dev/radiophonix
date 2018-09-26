@@ -14,7 +14,7 @@
 
         </banner>
 
-        <div class="layout-conteneur__main">
+        <div class="container">
 
             <saga-list :sagas="genre.sagas"></saga-list>
 

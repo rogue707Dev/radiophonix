@@ -25,7 +25,7 @@
                 <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/" role="button">Documentation de Bootstrap</a>
             </p>
         </div>
-        <div class="layout-conteneur__main">
+        <div class="container">
 
 
 
@@ -289,7 +289,7 @@
 
 
             <h1 class="display-3">Jumbotron</h1>
-            Ne doit pas etre contenu dans "layout-conteneur__main"
+            Ne doit pas etre contenu dans "container"
             <div class="jumbotron">
                 Jumboron classique
             </div>

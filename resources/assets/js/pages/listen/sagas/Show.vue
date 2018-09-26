@@ -58,10 +58,10 @@
 
         </banner>
 
-        <div class="layout-conteneur__main">
+        <div class="container">
 
             <div class="row">
-                <div class="col-md-6 col-xl-8">
+                <div class="col-md-6">
                     <h2 class="h1 mb-4">Synopsis</h2>
                     <p class="text-primary"><i aria-hidden="true" class="fa fa-calendar"></i>
                         {{ saga.creation_date | formatDate }}</p>
@@ -99,7 +99,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 col-xl-4">
+                <div class="col-md-6">
 
                     <h2 class="h1 mb-4">Faiseur</h2>
                     <div class="d-flex flex-row">
@@ -157,8 +157,8 @@
                 </div>
             </div>
 
-            <div class="row mt-3">
-                <div class="col">
+            <div class="row mt-4">
+                <div class="col-12">
                     <nav-list v-if="collections.length > 1">
                         <nav-item v-for="(collections, type, index) in collectionTypes"
                                   :key="index"
@@ -171,54 +171,47 @@
                         <nav-item :active="true">Épisodes</nav-item>
                     </nav-list>
                 </div>
-            </div>
+                <div class="col-12 mb-5"
+                     v-for="collection in collectionTypes[currentCollectionType]"
+                     :key="collection.id">
+                        <h3 class="h3 mb-2 mt-3"
+                            v-if="collections.length > 1">
+                            {{ collection.name }}
+                        </h3>
 
-            <div class="row mt-4">
-                <div class="col">
-                    <div class="row mb-5"
-                         v-for="collection in collectionTypes[currentCollectionType]"
-                         :key="collection.id">
-                        <div class="col">
-                            <h3 class="h3 mb-2 mt-3"
-                                v-if="collections.length > 1">
-                                {{ collection.name }}
-                            </h3>
-
-                            <div class="row episode-item"
-                                 @click="play({track, saga})"
-                                 :class="{'actif': track.id == currentTrack.id}"
-                                 v-for="track in collection.tracks" :key="track.id">
-                                <div class="col-2 col-md-1 col-lg-1 order-lg-1">
-                                    <div class="d-flex align-items-center h-100 justify-content-center"
-                                         v-html="formatTrackNumber(track.number)">
+                        <div class="row episode-item"
+                             @click="play({track, saga})"
+                             :class="{'actif': track.id == currentTrack.id}"
+                             v-for="track in collection.tracks" :key="track.id">
+                            <div class="col-2 col-md-1 col-lg-1 order-lg-1">
+                                <div class="d-flex align-items-center h-100 justify-content-center"
+                                     v-html="formatTrackNumber(track.number)">
+                                </div>
+                            </div>
+                            <div class="col-8 col-md-7 col-lg-8 order-lg-2">
+                                <span class="font-weight-bold">{{ track.title }}</span>
+                                <p>{{ track.synopsis }}</p>
+                            </div>
+                            <div class="col-2 col-md-2 col-lg-1 order-lg-4">
+                                <div class="d-flex align-items-center h-100 justify-content-center">
+                                    <div v-if="track.id == currentTrack.id" class="skin-icon-fa__cercle text-primary">
+                                        <i aria-hidden="true" class="fa fa-spin fa-refresh" v-if="isLoading"></i>
+                                        <i aria-hidden="true" class="fa fa-volume-up" v-else></i>
                                     </div>
-                                </div>
-                                <div class="col-8 col-md-7 col-lg-7 order-lg-2">
-                                    <span class="font-weight-bold">{{ track.title }}</span>
-                                    <p>{{ track.synopsis }}</p>
-                                </div>
-                                <div class="col-2 col-md-2 col-lg-1 order-lg-4">
-                                    <div class="d-flex align-items-center h-100 justify-content-center">
-                                        <div v-if="track.id == currentTrack.id" class="skin-icon-fa__cercle text-primary">
-                                            <i aria-hidden="true" class="fa fa-spin fa-refresh" v-if="isLoading"></i>
-                                            <i aria-hidden="true" class="fa fa-volume-up" v-else></i>
-                                        </div>
-                                        <div v-else class="skin-icon-fa__cercle">
-                                            <i aria-hidden="true" class="fa fa-play"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-10 offset-2 col-md-2 offset-md-0 col-lg-3 order-lg-3">
-                                    <div class="d-flex align-items-center h-100">
-                                        <span class="text-primary">
-                                            <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                            <track-length :seconds="track.seconds" type="number"></track-length>
-                                        </span>
+                                    <div v-else class="skin-icon-fa__cercle">
+                                        <i aria-hidden="true" class="fa fa-play"></i>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-10 offset-2 col-md-2 offset-md-0 col-lg-2 order-lg-3">
+                                <div class="d-flex align-items-center h-100">
+                                    <span class="text-primary">
+                                        <i aria-hidden="true" class="fa fa-clock-o"></i>
+                                        <track-length :seconds="track.seconds" type="number"></track-length>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>

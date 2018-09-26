@@ -1,7 +1,14 @@
 <template>
-    <div class="layout-conteneur__main">
+    <div>
+        <headband
+                urlImage="/static/home/radio.jpg"
+                title="Écouter"
+                subtitle="Découvrez ou redécouvrez des sagas MP3">
+        </headband>
 
-        <nav-list>
+        <div class="container">
+
+        <nav-list class="mb-4">
             <nav-item :active="menu == 'popular'" @click="switchMenu('popular', 'sagas', 'popular')">Populaire</nav-item>
             <nav-item :active="menu == 'recent'" @click="switchMenu('recent', 'sagas', 'recent')">Nouveau</nav-item>
             <nav-item :active="menu == 'authors'" @click="switchMenu('authors', 'authors', 'all')">Faiseurs</nav-item>
@@ -37,6 +44,7 @@
         </div>
 
     </div>
+    </div>
 </template>
 
 <script>
@@ -47,6 +55,7 @@ import SagaAlphabetList from '~/components/saga/SagaAlphabetList.vue';
 import Card from '~/components/content/Card.vue';
 import NavList from '~/components/nav/NavList';
 import NavItem from '~/components/nav/NavItem';
+import Headband from '~/components/content/Headband.vue';
 
 export default {
     components: {
@@ -56,6 +65,7 @@ export default {
         Card,
         NavList,
         NavItem,
+        Headband,
     },
 
     data() {

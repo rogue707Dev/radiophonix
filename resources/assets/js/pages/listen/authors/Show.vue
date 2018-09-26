@@ -13,7 +13,7 @@
         </banner>
 
 
-        <div class="layout-conteneur__main">
+        <div class="container">
             <div class="row mb-4" v-if="author.bio">
                 <div class="col-xl-8">
 

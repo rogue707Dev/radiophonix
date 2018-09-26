@@ -1,12 +1,17 @@
 <template>
-    <div class="layout-conteneur__main">
+    <div>
+        <headband
+                urlImage="/static/home/faq.jpg"
+                title="F.A.Q."
+                subtitle="Vous êtes perdu ?">
+        </headband>
+
+        <div class="container">
 
         <div class="row">
-            <div class="col-xs-12 col-lg-7">
+            <div class="col-12 col-xl-10">
 
-                <h1 class="display-1">FAQ</h1>
-
-                <h2 class="h1 mb-2 mt-5">Qu'est-ce que Radiophonix ?</h2>
+                <h2 class="h1 mb-2">Qu'est-ce que Radiophonix ?</h2>
                 <p>
                     Radiophonix est une plateforme libre et gratuite de partage et
                     d'écoute de sagas MP3.<br/>
@@ -70,9 +75,8 @@
                     <br/>
                     Il est possible d'aider de plusieurs façons :
                     <br/>
-                    En signalant des bugs : <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">par ici</a><br/>
-                    En contribuant au code : <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">par ici</a>
-                    <br/>
+                    <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">En signalant des bugs</a><br/>
+                    <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">En contribuant au code</a><br/>
                     Si vous ne savez pas programmer vous pouvez aussi aider !<br/>
                     Rejoignez-nous sur <lien-discord /> pour signaler des bugs et partager votre avis.
                 </p>
@@ -89,14 +93,17 @@
         </div>
 
     </div>
+    </div>
 </template>
 
 <script>
+    import Headband from '~/components/content/Headband.vue';
     import LienDiscord from '~/components/doc/LienDiscord';
 
     export default {
         components: {
+            Headband,
             LienDiscord,
-        }
+        },
     }
 </script>

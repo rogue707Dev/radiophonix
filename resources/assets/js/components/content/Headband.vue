@@ -6,6 +6,7 @@
             <div class="centrage-enfant">
                 <div class="display-1">{{ title }}</div>
                 <div class="display-4">{{ subtitle }}</div>
+                <slot name="content"></slot>
             </div>
         </div>
     </div>

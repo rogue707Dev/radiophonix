@@ -1,5 +1,5 @@
 <template>
-    <div class="layout-conteneur__main">
+    <div class="container">
 
 
         <div class="login-conteneur">

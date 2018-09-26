@@ -1,38 +1,44 @@
 <template>
-    <div class="layout-conteneur__main">
+    <div>
 
-        <h1 class="display-1 mb-2">Contribuer au projet</h1>
+        <headband
+                urlImage="/static/home/contribuer.jpeg"
+                title="Participer au projet"
+                subtitle="Contribuer au code sur GitLab ou signaler les bugs">
+        </headband>
 
-        <p class="lead">
-            Radiophonix est actuellement en <span class="badge badge-danger">Alpha</span>
-        </p>
+        <div class="container">
 
-        <p class="mt-3">
-            Les contributions sont les bienvenues !<br />
-            Vous pouvez participer à la création du site en contribuant au code sur GitLab ou en
-            signalant les bugs rencontrés.<br />
-            <br />
-            La plateforme est composée de deux briques essentielles : le site et l'API.<br/>
-            <br/>
-            Pour voir le code c'est <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">par ici</a> !<br/>
-            Pour signaler des bugs c'est <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">par ici</a> !
-        </p>
+            <p class="lead">
+                Radiophonix est actuellement en <span class="badge badge-danger">Alpha</span>
+            </p>
 
-        <div class="row mt-3">
-            <div class="col">
+            <p class="mt-3">
+                Les contributions sont les bienvenues !<br />
+                Vous pouvez participer à la création du site en contribuant au code sur GitLab ou en
+                signalant les bugs rencontrés.<br />
+                <br />
+                La plateforme est composée de deux briques essentielles : le site et l'API.<br/>
+                <br/>
+                Pour voir le code c'est <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">par ici</a> !<br/>
+                Pour signaler des bugs c'est <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">par ici</a> !
+            </p>
 
-                <h2 class="h1 mb-4">
-                    <span class="text-success">{</span> Site <span class="text-success">}</span>
-                </h2>
+            <div class="row mt-3">
+                <div class="col">
 
-                <p>
-                    Le site est écrit en JavaScript à l'aide de <a href="https://vuejs.org" class="lien-paragraphe">Vue.js</a><br/>
-                    <br />
-                    Il permet d'écouter, de parcourir et de publier des sagas. Vous êtes dessus en
-                    ce moment même !<br />
-                    <br />
-                    Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">GitLab</a>
-                </p>
+                    <h2 class="h1 mb-4">
+                        <span class="text-success">{</span> Site <span class="text-success">}</span>
+                    </h2>
+
+                    <p>
+                        Le site est écrit en JavaScript à l'aide de <a href="https://vuejs.org" class="lien-paragraphe">Vue.js</a><br/>
+                        <br />
+                        Il permet d'écouter, de parcourir et de publier des sagas. Vous êtes dessus en
+                        ce moment même !<br />
+                        <br />
+                        Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">GitLab</a>
+                    </p>
 
                 <pre class="mt-4 bg-light" style="padding: 5px;"><code>&lt;<span class="text-success">template</span>&gt;
     &lt;<span class="text-success">player</span>&gt;
@@ -47,36 +53,47 @@
 &lt;/<span class="text-success">script</span>&gt;
 </code></pre>
 
-            </div>
+                </div>
 
-            <div class="col">
+                <div class="col">
 
-                <h2 class="h1 mb-4">
-                    <span class="text-success">{</span> API <span class="text-success">}</span>
-                </h2>
+                    <h2 class="h1 mb-4">
+                        <span class="text-success">{</span> API <span class="text-success">}</span>
+                    </h2>
 
-                <p>
-                    L'API est écrite en PHP à l'aide de <a href="https://laravel.com/" class="lien-paragraphe">Laravel</a>.<br />
-                    <br />
-                    Elle permet d'intéragir avec les données de Radiophonix (sagas, saisons, épisodes, faiseurs, etc.).<br />
-                    <br />
-                    Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">GitLab</a>
-                </p>
+                    <p>
+                        L'API est écrite en PHP à l'aide de <a href="https://laravel.com/" class="lien-paragraphe">Laravel</a>.<br />
+                        <br />
+                        Elle permet d'intéragir avec les données de Radiophonix (sagas, saisons, épisodes, faiseurs, etc.).<br />
+                        <br />
+                        Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">GitLab</a>
+                    </p>
 
-                <pre class="mt-4 bg-light" style="padding: 5px;"><code>&lt;?php
+                    <pre class="mt-4 bg-light" style="padding: 5px;"><code>&lt;?php
 
-<span class="text-danger">namespace</span> Radiophonix\Api;
+    <span class="text-danger">namespace</span> Radiophonix\Api;
 
-<span class="text-danger">class</span> Radiophonix
-{
-    <span class="text-danger">public function</span> api()
+    <span class="text-danger">class</span> Radiophonix
     {
-        <span class="text-danger">return new</span> Saga();
+        <span class="text-danger">public function</span> api()
+        {
+            <span class="text-danger">return new</span> Saga();
+        }
     }
-}
-</code></pre>
+    </code></pre>
 
+                </div>
             </div>
         </div>
     </div>
 </template>
+
+<script>
+    import Headband from '~/components/content/Headband.vue';
+
+    export default {
+        components: {
+            Headband,
+        },
+    }
+</script>

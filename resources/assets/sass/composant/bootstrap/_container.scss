@@ -1,15 +1,14 @@
 /*======================================================================================================================
-$ STANDARD
+$ SURCHARGE
 ======================================================================================================================*/
-.layout-conteneur__main {
-    color: $bleu-300;
-    padding: $espacement-standard;
-
-    @include media-breakpoint-down(md){
-
-    }
-
+.container {
     @include media-breakpoint-up(lg) {
-
+        color: $bleu-300;
+        padding: $espacement-standard;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
+
+
+

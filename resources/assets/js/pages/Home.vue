@@ -23,7 +23,7 @@
         </div>
 
 
-        <div class="layout-conteneur__main">
+        <div class="container">
 
             <div class="row">
                 <div class="col-12">
@@ -109,7 +109,7 @@
                 subtitle="Découvrez ou redécouvrez des sagas MP3">
         </headband>
 
-        <div class="layout-conteneur__main">
+        <div class="container">
             <div class="row mt-5 mb-5">
                 <div class="col-12">
                     <h2 class="h1 mb-4">Quelques exemples de Saga :</h2>
@@ -163,7 +163,7 @@
                 subtitle="Le site est open source et les contributions sont les bienvenues">
         </headband>
 
-        <div class="layout-conteneur__main" v-feature="'contribuer'">
+        <div class="container" v-feature="'contribuer'">
             <div class="row mb-5">
                 <div class="col-12">
                     <p>Radiophonix est actuellement en <span class="badge badge-danger">Alpha</span></p>

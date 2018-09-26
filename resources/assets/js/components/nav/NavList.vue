@@ -1,5 +1,5 @@
 <template>
-    <nav class="nav mb-4">
+    <nav class="nav">
         <slot></slot>
     </nav>
 </template>

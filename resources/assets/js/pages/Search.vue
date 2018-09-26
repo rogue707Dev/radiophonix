@@ -1,11 +1,28 @@
 <template>
-    <div class="layout-conteneur__main" :class="{'h-100': !hasResults}">
-
+    <div>
 
         <template v-if="hasResults">
 
+            <headband
+                    urlImage="/static/home/resultat.jpg"
+                    title="Résultats"
+                    subtitle="">
+                <template slot="content">
+                    <div class="search-headband">
+                        <form @submit.prevent="search">
+                            <div class="input-group mt-3">
+                                <input class="form-control" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
+                                <div class="input-group-append">
+                                    <button class="btn btn-homepage" type="button">Rechercher</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </template>
+            </headband>
 
-            <div class="layout-resultat-recherche">
+            <div class="container">
+                <div class="layout-resultat-recherche">
 
                 <!-- 4max : mise en avant -->
                 <div class="layout-resultat-recherche__zoom">
@@ -194,18 +211,41 @@
                 </div>
 
             </div>
-
+            </div>
 
         </template>
 
 
 
         <template v-else>
-            <div class="d-flex align-items-center h-100 justify-content-center">
-                <div class="text-center text-blue-500">
-                    <i class="fa fa-bullhorn" style="font-size: 100px;"></i>
-                    <span class="h1 mb-4">Lancez une recherche...</span>
-                </div>
+
+            <headband
+                    urlImage="/static/home/recherche.jpg"
+                    title="Rechercher"
+                    subtitle="">
+
+                <template slot="content">
+                    <div class="search-headband">
+                        <form @submit.prevent="search">
+                            <div class="input-group mt-3">
+                                <input class="form-control" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
+                                <div class="input-group-append">
+                                    <button class="btn btn-homepage" type="button">Rechercher</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </template>
+            </headband>
+
+            <div class="container">
+
+                <h1 class="h1 mb-4">Les plus populaires</h1>
+
+                <saga-list :sagas="popular"></saga-list>
+
+                TODO mettre la liste de saga populaire
+
             </div>
         </template>
 
@@ -218,23 +258,27 @@ import { mapState, mapGetters } from 'vuex';
 import api from '~/lib/api';
 import SagaPreview from '~/components/saga/SagaPreview';
 import SagaZoom from '~/components/saga/SagaZoom';
+import SagaList from '~/components/saga/SagaList.vue';
 import AuthorPreview from '~/components/author/AuthorPreview';
 import GenrePreview from '~/components/genre/GenrePreview';
 import TrackPreview from '~/components/track/TrackPreview';
 import TrackLength from '~/components/track/Length.vue';
 import SagaStats from '~/components/saga/SagaStats.vue';
 import Card from '~/components/content/Card.vue';
+import Headband from '~/components/content/Headband.vue';
 
 export default {
     components: {
         SagaPreview,
         SagaZoom,
+        SagaList,
         AuthorPreview,
         GenrePreview,
         TrackPreview,
         TrackLength,
         SagaStats,
         Card,
+        Headband,
     },
 
     data() {
