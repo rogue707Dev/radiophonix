@@ -128,14 +128,12 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
-import RadialProgressBar from '~/components/RadialProgressBar.vue';
 import TextEllispis from '~/components/text/TextEllipsis.vue';
 import TrackLength from '~/components/track/Length.vue';
 import Player from '~/lib/Player';
 
 export default {
     components: {
-        RadialProgressBar,
         TextEllispis,
         TrackLength,
     },

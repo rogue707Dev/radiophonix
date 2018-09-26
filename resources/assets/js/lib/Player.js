@@ -29,10 +29,6 @@ class Player {
                 self.currentTrack = null;
             };
 
-            let onload = function () {
-                console.log('load');
-            };
-
             store.dispatch('player/startLoading');
 
             this.howls[track.id] = new Howl({
@@ -41,7 +37,6 @@ class Player {
                 //src: ['http://localhost:3000/a.wav', 'http://localhost:3000/a.webm', 'http://localhost:3000/a.ogg', 'http://localhost:3000/a.mp3'],
                 onloaderror: onError,
                 onplayerror: onError,
-                onload: onload,
                 onplay: () => store.dispatch('player/stopLoading'),
                 onend: function() {
                     store.dispatch('player/next');

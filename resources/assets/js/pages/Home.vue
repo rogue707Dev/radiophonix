@@ -51,6 +51,8 @@
                             professionnels, passionnés de sagas MP3.<br/>
                             Faire des sites est notre métier depuis plusieurs années, ce qui
                             nous permet de développer ce projet.<br/>
+
+                            Rejoignez-nous sur <lien-discord /> !
                         </p>
                     </blockquote>
 
@@ -65,6 +67,7 @@
                             <br/>
                             N'hésitez pas à laisser des remarques, signaler des bugs et
                             faire des suggestions. On ne demande que ça !<br/>
+                            Le plus simple est de nous rejoindre sur <lien-discord />.<br/>
                             <br/>
                             Radiophonix est un projet open source :
                             <a title="Lien GitLab" class="lien-paragraphe" href="https://gitlab.com/Radiophonix/Radiophonix">
@@ -213,6 +216,7 @@ import SagaList from '~/components/saga/SagaList.vue';
 import Headband from '~/components/content/Headband.vue';
 import Card from '~/components/content/Card.vue';
 import PublishPresentation from '~/components/publish/PublishPresentation.vue';
+import LienDiscord from '~/components/doc/LienDiscord';
 
 export default {
     components: {
@@ -220,6 +224,7 @@ export default {
         Headband,
         Card,
         PublishPresentation,
+        LienDiscord,
     },
 
     data() {

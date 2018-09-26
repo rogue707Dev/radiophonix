@@ -1,5 +1,8 @@
 import AudioPlayer from '~/lib/Player';
 import api from '~/lib/api';
+import store from "~/lib/store/index";
+
+const pageTitle = (saga, track) => track.title + ' ⊙ ' + saga.name;
 
 const PlayerModule = {
     namespaced: true,
@@ -95,6 +98,11 @@ const PlayerModule = {
                 slug = state.currentSaga.slug;
             }
 
+            store.dispatch(
+                'ui/setPageTitle',
+                pageTitle(state.currentSaga, state.currentTrack)
+            );
+
             // Collections are fetch every time a track is played to make
             // sure we are up to date.
             let result = await api.collections.all(slug);
@@ -134,8 +142,13 @@ const PlayerModule = {
 
             if (state.isPlaying) {
                 commit('pause');
+                store.dispatch('ui/resetPageTitle');
             } else {
                 commit('play');
+                store.dispatch(
+                    'ui/setPageTitle',
+                    pageTitle(state.currentSaga, state.currentTrack)
+                );
             }
         },
 
@@ -173,6 +186,7 @@ const PlayerModule = {
 
         stop({ commit }) {
             commit('stop');
+            store.dispatch('ui/resetPageTitle');
         },
 
         startLoading({ commit }) {

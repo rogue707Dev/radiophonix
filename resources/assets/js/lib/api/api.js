@@ -32,7 +32,6 @@ radiophonix.config.onResponse((response) => {
 
     return response;
 }, (error) => {
-    // app.$Progress.fail();
     return Promise.reject(error);
 });
 

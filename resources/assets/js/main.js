@@ -1,11 +1,11 @@
 import Vue from 'vue';
 
 import store from '~/lib/store';
-import progress from '~/plugins/progress-bar';
 import router from '~/router';
 
 import filters from '~/lib/filters';
 import feature from '~/directives/feature';
+import title from '~/directives/title';
 
 import AppView from '~/pages/App.vue';
 
