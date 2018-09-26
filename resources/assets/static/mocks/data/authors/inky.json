@@ -13,8 +13,8 @@
     "stats": {
         "sagas": 1
     },
-    "created_at": "2018-09-23T19:52:46+00:00",
-    "updated_at": "2018-09-23T19:52:46+00:00",
+    "created_at": "2018-09-25T17:58:34+00:00",
+    "updated_at": "2018-09-25T17:58:34+00:00",
     "type": "user",
     "picture": {
         "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
@@ -22,7 +22,7 @@
     },
     "sagas": [
         {
-            "id": 1797332506,
+            "id": 1176091268,
             "slug": "kiponie-stories",
             "name": "Kiponie Stories",
             "synopsis": "Tout commence par un voyage sans intérêt. Le très jeune capitaine Alexandre Vinoqui se lance dans l'expédition du siècle : Percer les mystères du Triangle des Mersnulles et révéler au monde entier les secrets cachés par d'étranges brumes. Il prend donc la première opportunité venue et embarque avec lui son vieil ami Hanson Triviany ainsi qu’une équipe d’andouilles dégotée dans les poubelles du coin. Après deux semaines de voyage plus que désagréables, une tempête frappe soudainement leur navire et le transforme en musée sous-marin. Nos deux aventuriers amateurs se retrouvent prisonniers d’un continent mystérieux gardant des secrets inimaginables. C’est à ce moment là que les problèmes commencent...",
@@ -43,8 +43,8 @@
                 "collections": 2,
                 "tracks": 13
             },
-            "created_at": "2018-09-23T19:52:51+00:00",
-            "updated_at": "2018-09-23T19:52:51+00:00",
+            "created_at": "2018-09-25T17:58:41+00:00",
+            "updated_at": "2018-09-25T17:58:41+00:00",
             "author": {
                 "id": 1523884511,
                 "slug": "inky",
@@ -60,8 +60,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:46+00:00",
-                "updated_at": "2018-09-23T19:52:46+00:00",
+                "created_at": "2018-09-25T17:58:34+00:00",
+                "updated_at": "2018-09-25T17:58:34+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
@@ -70,8 +70,8 @@
             },
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-main.jpg",
-                    "thumb": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-thumb.jpg",
+                    "main": "/static/mocks/media/storage/1930664737/conversions/kiponie-stories-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1930664737/conversions/kiponie-stories-thumb.jpg",
                     "meta": {
                         "color": "#CC4D1B",
                         "type": "dark"

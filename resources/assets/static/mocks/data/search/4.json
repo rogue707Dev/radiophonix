@@ -22,8 +22,8 @@
                 "collections": 1,
                 "tracks": 30
             },
-            "created_at": "2018-09-23T19:52:47+00:00",
-            "updated_at": "2018-09-23T19:52:47+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "author": {
                 "id": 206107536,
                 "slug": "flo",
@@ -39,8 +39,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:46+00:00",
-                "updated_at": "2018-09-23T19:52:46+00:00",
+                "created_at": "2018-09-25T17:58:34+00:00",
+                "updated_at": "2018-09-25T17:58:34+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -49,8 +49,8 @@
             },
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                    "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                    "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                    "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                     "meta": {
                         "color": "#FE0000",
                         "type": "dark"
@@ -80,8 +80,8 @@
                 "collections": 6,
                 "tracks": 46
             },
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "author": {
                 "id": 2147222869,
                 "slug": "durendal",
@@ -97,8 +97,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:46+00:00",
-                "updated_at": "2018-09-23T19:52:46+00:00",
+                "created_at": "2018-09-25T17:58:33+00:00",
+                "updated_at": "2018-09-25T17:58:33+00:00",
                 "type": "user",
                 "picture": {
                     "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
@@ -107,8 +107,8 @@
             },
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/storage/504187695/conversions/banal-fantasy-main.jpg",
-                    "thumb": "/static/mocks/media/storage/504187695/conversions/banal-fantasy-thumb.jpg",
+                    "main": "/static/mocks/media/storage/861745168/conversions/banal-fantasy-main.jpg",
+                    "thumb": "/static/mocks/media/storage/861745168/conversions/banal-fantasy-thumb.jpg",
                     "meta": {
                         "color": "#5546D7",
                         "type": "dark"
@@ -138,10 +138,10 @@
                 "collections": 9,
                 "tracks": 66
             },
-            "created_at": "2018-09-23T19:52:49+00:00",
-            "updated_at": "2018-09-23T19:52:49+00:00",
+            "created_at": "2018-09-25T17:58:37+00:00",
+            "updated_at": "2018-09-25T17:58:37+00:00",
             "author": {
-                "id": 965594201,
+                "id": 1176091268,
                 "slug": "magoyond",
                 "name": "Magoyond",
                 "bio": "",
@@ -155,18 +155,18 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:46+00:00",
-                "updated_at": "2018-09-23T19:52:46+00:00",
+                "created_at": "2018-09-25T17:58:34+00:00",
+                "updated_at": "2018-09-25T17:58:34+00:00",
                 "type": "team",
                 "picture": {
-                    "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
-                    "thumb": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-thumb.jpg"
+                    "main": "/static/mocks/media/storage/1939393859/conversions/MAGOYOND-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1939393859/conversions/MAGOYOND-thumb.jpg"
                 }
             },
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/storage/674797561/conversions/chez-le-psy-main.jpg",
-                    "thumb": "/static/mocks/media/storage/674797561/conversions/chez-le-psy-thumb.jpg",
+                    "main": "/static/mocks/media/storage/1300788002/conversions/chez-le-psy-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1300788002/conversions/chez-le-psy-thumb.jpg",
                     "meta": {
                         "color": "#000000",
                         "type": "dark"
@@ -176,73 +176,15 @@
         },
         {
             "id": 1797332506,
-            "slug": "kiponie-stories",
-            "name": "Kiponie Stories",
-            "synopsis": "Tout commence par un voyage sans intérêt. Le très jeune capitaine Alexandre Vinoqui se lance dans l'expédition du siècle : Percer les mystères du Triangle des Mersnulles et révéler au monde entier les secrets cachés par d'étranges brumes. Il prend donc la première opportunité venue et embarque avec lui son vieil ami Hanson Triviany ainsi qu’une équipe d’andouilles dégotée dans les poubelles du coin. Après deux semaines de voyage plus que désagréables, une tempête frappe soudainement leur navire et le transforme en musée sous-marin. Nos deux aventuriers amateurs se retrouvent prisonniers d’un continent mystérieux gardant des secrets inimaginables. C’est à ce moment là que les problèmes commencent...",
-            "creation_date": "2006-06-24T00:00:00+00:00",
-            "licence": "CC BY-NC-SA",
-            "links": {
-                "netowiki": "https://wiki.netophonix.com/Kiponie_Stories",
-                "site": "https://www.inkycrea.net/",
-                "topic": "https://forum.netophonix.com/ftopic33.html",
-                "rss": "https://www.inkycrea.net/news/feed.rss",
-                "facebook": "https://www.facebook.com/Inkycrea",
-                "twitter": "https://twitter.com/Inkycrea"
-            },
-            "finished": false,
-            "visibility": 0,
-            "stats": {
-                "bravos": 0,
-                "collections": 2,
-                "tracks": 13
-            },
-            "created_at": "2018-09-23T19:52:51+00:00",
-            "updated_at": "2018-09-23T19:52:51+00:00",
-            "author": {
-                "id": 1523884511,
-                "slug": "inky",
-                "name": "Inky",
-                "bio": "En 2006, lors d’une recherche d’images sur le net portant sur des batailles dans l’espace, il y découvre un livre audio s’intitulant La Bataille de l’Espace. De liens en liens, il découvre toutes les grandes aventures et apprend un nouveau terme : Saga mp3. En juin de la même année, il crée une aventure audio semi-humoristique au genre fantastique : Kiponie Stories. En janvier 2007, il remarque sur les forums de sagas mp3, la création très récente d’un forum réunissant les adeptes des créations audio : Netophonix. Il ne tarde pas à s’y inscrire et fait découvrir sa saga, qui est tout de suite appréciée et encouragée, ce qui met l’auteur dans de bonnes conditions pour la poursuivre. Il participe volontiers à d’autres créations mp3 et en partie à un grand projet sagasphérique, Le Choc des Zéros, pour lequel il prête certains de ses personnages.\nAprès la sortie du dernier épisode de la pré-saison de Kiponie Stories, fin décembre 2008, Inky se lance dans une science-fiction : Onidacius. Elle fut très vite abandonnée, l'auteur préférant consacrer son temps libre à sa première création. Le 14 mars 2009, il est invité sur la web-radio SynopsLive pour la diffusion du premier épisode de la deuxième saison (appelée aussi chapitre 1) de Kiponie Stories.",
-                "links": {
-                    "netowiki": null,
-                    "site": null,
-                    "topic": null,
-                    "facebook": null,
-                    "twitter": null
-                },
-                "stats": {
-                    "sagas": 1
-                },
-                "created_at": "2018-09-23T19:52:46+00:00",
-                "updated_at": "2018-09-23T19:52:46+00:00",
-                "type": "user",
-                "picture": {
-                    "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
-                    "thumb": "/static/mocks/media/storage/1581834270/conversions/inky-thumb.jpg"
-                }
-            },
-            "images": {
-                "cover": {
-                    "main": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-main.jpg",
-                    "thumb": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-thumb.jpg",
-                    "meta": {
-                        "color": "#CC4D1B",
-                        "type": "dark"
-                    }
-                }
-            }
-        },
-        {
-            "id": 965594201,
-            "slug": "matrick",
-            "name": "Matrick",
-            "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
-            "creation_date": "2000-07-22T00:00:00+00:00",
+            "slug": "les-chroniques-de-ravnica",
+            "name": "Les Chroniques de Ravnica",
+            "synopsis": "Au cœur de Dominia siège le fleuron de la civilisation. Dans une cité dont l'origine transcende les siècles, humains, elfes, gobelins, vampires... Sont habités par le même désir d'harmonie. On se tue, on se bat... Mais toujours avec une franche et sincère amitié... Bienvenue dans Ravnica, la cité des Guildes...\n\nDans cette cité ne vivent plus que neuf guildes dans un désordre des plus complets : les Orzhov, les Izzet, les Gruul, les Azorius, les Golgari, les Rakdos, les Simic, les Boros et surtout, les Dimirs. La Dixième guilde, les Selesnya, a été détruite. Les combats entre légionnaires Boros et membres Dimirs font rage dans la ville alors qu'une menace plane sur la ville : une nouvelle guilde, dite de la Lune, s'est créée... Face à cette menance potentielle, Szadek, grand maître officieux de la ville, prit des mesures radicales : il décida d'envoyer un parfait inconnu pour la démanteler. Or, un jeune rôdeur inexpérimenté venait d'arriver dans le quartier Dimir, à la recherche d'une quête...",
+            "creation_date": "2008-05-06T00:00:00+00:00",
             "licence": "CC BY-NC-ND",
             "links": {
-                "netowiki": "https://wiki.netophonix.com/Matrick",
-                "site": "http://www.doevell.org/caudio",
-                "topic": null,
+                "netowiki": "https://wiki.netophonix.com/Les_Chroniques_de_Ravnica",
+                "site": "http://nsm.corp.free.fr/chroniques_de_ravnica.htm",
+                "topic": "https://forum.netophonix.com/ftopic3424.html",
                 "rss": null,
                 "facebook": null,
                 "twitter": null
@@ -251,19 +193,19 @@
             "visibility": 0,
             "stats": {
                 "bravos": 0,
-                "collections": 3,
-                "tracks": 36
+                "collections": 1,
+                "tracks": 15
             },
-            "created_at": "2018-09-23T19:52:53+00:00",
-            "updated_at": "2018-09-23T19:52:53+00:00",
+            "created_at": "2018-09-25T17:58:39+00:00",
+            "updated_at": "2018-09-25T17:58:39+00:00",
             "author": {
-                "id": 392587459,
-                "slug": "mitch-dsm",
-                "name": "Mitch DSM",
-                "bio": "Mitch_DSM est musicien compositeur ainsi que designer sonore. Il travaille pour diverses sociétés de communications essentiellement inter-entreprises. Telle est son activité principale, qui ne représente finalement qu'une partie de son éventail d'occupations. Sur internet, il s'avère être l'un des premiers créateurs de sagas mp3 avec Matrick (la matruc), mise en ligne à la même époque que Le Donjon de Naheulbeuk. Il est également l'auteur des Génériques Mitch Unplug.ed, ce qui lui apportera une petite notoriété passagère. En plus de ses activités sonores et musicales, Mitch_DSM développe aussi des sites internet, essentiellement pour les besoins de ses projets personnels. La création du site Netophonix, qui abrite à présent une communauté non négligeable composée de créateurs, d'adeptes et de divers membres de la sagasphère, l'a récemment placé un peu plus aux devants de la scène saga mp3. Cependant, au fil du temps, sa présence dans ce milieu s'est fortement réduite, du fait notamment d'obligations professionnelles conséquentes...",
+                "id": 11231624,
+                "slug": "nsm-corp",
+                "name": "NSM Corp",
+                "bio": "Au départ connus seulement comme les créateurs des Chroniques de Ravnica, Alinor et Szadec, rejoints peu après le lancement de la saga par Charlito, crééent un forum pour leur première œuvre audio. Le temps passant, un premier site web fait son apparition, suivi ensuite par un nouveau forum intitulé « Nos Sagas Mp3 », le tout consacré aux différents projets des trois compères. C'est finalement suite à la création du site web éponyme au forum que le groupe fut baptisé : Alinor créa un logo pour le site, arborant le nom de « NSM Corporation » (où NSM est l'acronyme du titre du site), qui fut raccourci en NSM Corp et adopté en tant que nom officiel pour l'équipe, le 12 août 2008.",
                 "links": {
-                    "netowiki": null,
-                    "site": null,
+                    "netowiki": "https://wiki.netophonix.com/NSM_Corp",
+                    "site": "http://nsm.corp.free.fr/",
                     "topic": null,
                     "facebook": null,
                     "twitter": null
@@ -271,20 +213,78 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-09-23T19:52:47+00:00",
-                "updated_at": "2018-09-23T19:52:47+00:00",
-                "type": "user",
+                "created_at": "2018-09-25T17:58:35+00:00",
+                "updated_at": "2018-09-25T17:58:35+00:00",
+                "type": "team",
                 "picture": {
-                    "main": "/static/mocks/media/storage/2059235322/conversions/author-main.jpg",
-                    "thumb": "/static/mocks/media/storage/2059235322/conversions/author-thumb.jpg"
+                    "main": "/static/mocks/media/storage/504187695/conversions/NSM_Corp-main.jpg",
+                    "thumb": "/static/mocks/media/storage/504187695/conversions/NSM_Corp-thumb.jpg"
                 }
             },
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/storage/1420631365/conversions/matrick-main.jpg",
-                    "thumb": "/static/mocks/media/storage/1420631365/conversions/matrick-thumb.jpg",
+                    "main": "/static/mocks/media/storage/1606664188/conversions/Ravnica_ban_2011-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1606664188/conversions/Ravnica_ban_2011-thumb.jpg",
                     "meta": {
-                        "color": "#06311E",
+                        "color": "#221D44",
+                        "type": "dark"
+                    }
+                }
+            }
+        },
+        {
+            "id": 965594201,
+            "slug": "death-pen",
+            "name": "Death Pen",
+            "synopsis": "Bernard, alias Ryuuku, est un expert comptable, et il s'ennuie. Il décide alors de laisser tomber son stylo dans le monde des humains. Et c'est Raito, jeune élève modèle un rien misanthrope, qui le récupère. Mais ce stylo n'est pas ordinaire... Une des règle de la Death Not-ice est \"The human whose name is written with this pen... shall die !\" que l'on peut traduire par \"L'humain dont le nom est écrit avec ce stylo mourra\".",
+            "creation_date": "2008-05-03T00:00:00+00:00",
+            "licence": "CC BY-NC-ND",
+            "links": {
+                "netowiki": "https://wiki.netophonix.com/Reflets_d%27Acide",
+                "site": "http://synopsite.com/",
+                "topic": null,
+                "rss": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "finished": false,
+            "visibility": 0,
+            "stats": {
+                "bravos": 0,
+                "collections": 1,
+                "tracks": 10
+            },
+            "created_at": "2018-09-25T17:58:40+00:00",
+            "updated_at": "2018-09-25T17:58:40+00:00",
+            "author": {
+                "id": 1797332506,
+                "slug": "jbx",
+                "name": "JBX",
+                "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/JBX",
+                    "site": "http://www.refletsdacide.com/",
+                    "topic": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "stats": {
+                    "sagas": 2
+                },
+                "created_at": "2018-09-25T17:58:34+00:00",
+                "updated_at": "2018-09-25T17:58:34+00:00",
+                "type": "user",
+                "picture": {
+                    "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1634566833/conversions/jbx-thumb.jpg"
+                }
+            },
+            "images": {
+                "cover": {
+                    "main": "/static/mocks/media/storage/1778317966/conversions/bandeathpen-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1778317966/conversions/bandeathpen-thumb.jpg",
+                    "meta": {
+                        "color": "#000000",
                         "type": "dark"
                     }
                 }
@@ -307,8 +307,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-25T17:58:33+00:00",
+            "updated_at": "2018-09-25T17:58:33+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
@@ -330,8 +330,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -353,8 +353,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
@@ -367,17 +367,17 @@
             "name": "JBX",
             "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
             "links": {
-                "netowiki": null,
-                "site": null,
+                "netowiki": "https://wiki.netophonix.com/JBX",
+                "site": "http://www.refletsdacide.com/",
                 "topic": null,
                 "facebook": null,
                 "twitter": null
             },
             "stats": {
-                "sagas": 1
+                "sagas": 2
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
@@ -386,25 +386,25 @@
         },
         {
             "id": 965594201,
-            "slug": "magoyond",
-            "name": "Magoyond",
-            "bio": "",
+            "slug": "mace",
+            "name": "Mace",
+            "bio": "Mace aime créer des histoires, de fait, depuis son plus jeune âge, il s'exerce à écrire des nouvelles. Amateur d'humour, il crée vers l'âge de neuf ans, des sketches audio en compagnie de son frère et de son cousin. Munis d'un magnétophone, ils feront notamment des parodies de publicités et d'émissions.\n\nAprès sa première écoute d'une saga mp3, qui se trouve être Banal Fantasy, il adhère au concept et se lance dans un projet similaire avec son meilleur ami, une façon pour lui de mettre en commun ses deux passions que sont le rire et la création d'histoires. Ce premier projet est une parodie du jeu vidéo Star Wars Knight Of The Old Republic. Ayant peu de maitrise dans l'audio, il créa seulement deux épisodes qu'il considère de basse qualité avant d'y mettre un terme.\n\nEn 2007, deux ans après l'arrêt de son premier projet, Mace qui s'ennuyait pendant les vacances eu l'idée de se remettre à la saga mp3 en créant Star Peace, une parodie des films Star Wars. Composée de 15 épisodes pour dix mois de travail, elle ne fut jamais publiée sur l'internet à l'exception des deux premiers épisodes. Il se lance ensuite dans une parodie de Dragon Ball Z, appelée Para Ball + ; abandonnée dès le deuxième épisode, elle ne fut, elle non plus, pas diffusée.\n\nN'ayant pas de réel projet dans lequel se lancer, il décide de commencer une série de monos parodiant principalement des jeux vidéo : Mace's Mono. On y retrouve ainsi des parodies, d'entre autres, Phoenix Wright, Trauma Center, Animal Crossing, etc. TeruHi intervient régulièrement dans ces monos, il est en effet un ami de Mace, ils se sont liés à l'occasion du casting pour Initial Fantasy XII, auquel il avait participé. C'est aussi dans le cadre de cette série qu'il publie la bande annonce d'une hypothétique saga parodiant le manga à succès Death Note. L'accueil de la part des auditeurs est plutôt bon, ce qui amènera l'auteur à finalement décider d'en faire une saga à part entière. Ainsi, le 3 mai 2008 sort le premier épisode de la saga Death Pen, un an jour pour jour après celui de Star Peace.\n\nAu cours de l'année 2010, alors que Death Pen semble au point mort à cause de divers problèmes, Mace lance un second projet nommé Credo d'Assassin. Cette saga est une parodie du célèbre jeu d' Ubisoft, Assassin's Creed. Ne voulant assumer un second projet tout seul, Mace proposa à un de ses amis, Yue, de co-écrire la saga avec lui. Le premier épisode sortit le 26 août 2010. ",
             "links": {
-                "netowiki": null,
-                "site": null,
+                "netowiki": "https://wiki.netophonix.com/Mace",
+                "site": "https://maceprod.jimdo.com/",
                 "topic": null,
                 "facebook": null,
                 "twitter": null
             },
             "stats": {
-                "sagas": 1
+                "sagas": 0
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
-            "type": "team",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
+            "type": "user",
             "picture": {
-                "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
-                "thumb": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-thumb.jpg"
+                "main": "/static/mocks/media/storage/1753359144/conversions/mace-main.jpg",
+                "thumb": "/static/mocks/media/storage/1753359144/conversions/mace-thumb.jpg"
             }
         }
     ],
@@ -416,17 +416,17 @@
                 "sagas": 1
             },
             "image": {
-                "main": "/static/mocks/media/storage/350792372/conversions/Espionnage-main.jpg"
+                "main": "/static/mocks/media/storage/674797561/conversions/Espionnage-main.jpg"
             }
         },
         {
             "id": 206107536,
             "name": "Parodie",
             "stats": {
-                "sagas": 1
+                "sagas": 2
             },
             "image": {
-                "main": "/static/mocks/media/storage/556004678/conversions/Parodie-main.jpg"
+                "main": "/static/mocks/media/storage/980669067/conversions/Parodie-main.jpg"
             }
         },
         {
@@ -436,27 +436,27 @@
                 "sagas": 1
             },
             "image": {
-                "main": "/static/mocks/media/storage/861745168/conversions/Contemporain-main.jpg"
+                "main": "/static/mocks/media/storage/1420631365/conversions/Contemporain-main.jpg"
             }
         },
         {
             "id": 1797332506,
+            "name": "Heroic fantasy",
+            "stats": {
+                "sagas": 2
+            },
+            "image": {
+                "main": "/static/mocks/media/storage/1725454359/conversions/Heroic-fantasy-main.jpg"
+            }
+        },
+        {
+            "id": 965594201,
             "name": "Aventure",
             "stats": {
                 "sagas": 1
             },
             "image": {
-                "main": "/static/mocks/media/storage/1300788002/conversions/Aventure-main.jpg"
-            }
-        },
-        {
-            "id": 965594201,
-            "name": "Science-fiction",
-            "stats": {
-                "sagas": 1
-            },
-            "image": {
-                "main": "/static/mocks/media/storage/1606664188/conversions/Science-fiction-main.jpg"
+                "main": "/static/mocks/media/storage/2049459544/conversions/Aventure-main.jpg"
             }
         }
     ],
@@ -472,16 +472,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 1.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -504,8 +504,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -521,8 +521,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -531,8 +531,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -553,16 +553,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 2.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -585,8 +585,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -602,8 +602,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -612,8 +612,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -634,16 +634,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 3.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -666,8 +666,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -683,8 +683,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -693,8 +693,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -715,16 +715,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 4.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -747,8 +747,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -764,8 +764,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -774,8 +774,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -796,16 +796,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 5.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -828,8 +828,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -845,8 +845,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -855,8 +855,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -877,16 +877,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 6.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -909,8 +909,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -926,8 +926,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -936,8 +936,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -958,16 +958,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 7.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -990,8 +990,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1007,8 +1007,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1017,8 +1017,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1039,16 +1039,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 8.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1071,8 +1071,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1088,8 +1088,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1098,8 +1098,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1120,16 +1120,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 9.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1152,8 +1152,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1169,8 +1169,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1179,8 +1179,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1201,16 +1201,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 10.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1233,8 +1233,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1250,8 +1250,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1260,8 +1260,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1282,16 +1282,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 11.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1314,8 +1314,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1331,8 +1331,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1341,8 +1341,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1363,16 +1363,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 12.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1395,8 +1395,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1412,8 +1412,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1422,8 +1422,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1444,16 +1444,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 13.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1476,8 +1476,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1493,8 +1493,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1503,8 +1503,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1525,16 +1525,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 14.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1557,8 +1557,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1574,8 +1574,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1584,8 +1584,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1606,16 +1606,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 15.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1638,8 +1638,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1655,8 +1655,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1665,8 +1665,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1687,16 +1687,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 16.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1719,8 +1719,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1736,8 +1736,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1746,8 +1746,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1768,16 +1768,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 17.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1800,8 +1800,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1817,8 +1817,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1827,8 +1827,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1849,16 +1849,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 18.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1881,8 +1881,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1898,8 +1898,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1908,8 +1908,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -1930,16 +1930,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 19.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -1962,8 +1962,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -1979,8 +1979,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -1989,8 +1989,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2011,16 +2011,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 20.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2043,8 +2043,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2060,8 +2060,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2070,8 +2070,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2092,16 +2092,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 21.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2124,8 +2124,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2141,8 +2141,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2151,8 +2151,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2173,16 +2173,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 22.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2205,8 +2205,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2222,8 +2222,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2232,8 +2232,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2254,16 +2254,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 23.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2286,8 +2286,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2303,8 +2303,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2313,8 +2313,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2335,16 +2335,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 24.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2367,8 +2367,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2384,8 +2384,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2394,8 +2394,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2416,16 +2416,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 25.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2448,8 +2448,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2465,8 +2465,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2475,8 +2475,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2497,16 +2497,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 26.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2529,8 +2529,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2546,8 +2546,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2556,8 +2556,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2578,16 +2578,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 27.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2610,8 +2610,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2627,8 +2627,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2637,8 +2637,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2659,16 +2659,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 28.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2691,8 +2691,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2708,8 +2708,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2718,8 +2718,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2740,16 +2740,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 29.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2772,8 +2772,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2789,8 +2789,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2799,8 +2799,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"
@@ -2821,16 +2821,16 @@
             "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 30.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-23T19:52:48+00:00",
-            "updated_at": "2018-09-23T19:52:48+00:00",
+            "created_at": "2018-09-25T17:58:36+00:00",
+            "updated_at": "2018-09-25T17:58:36+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
-                "type": "saison",
-                "created_at": "2018-09-23T19:52:48+00:00",
-                "updated_at": "2018-09-23T19:52:48+00:00",
+                "type": "season",
+                "created_at": "2018-09-25T17:58:36+00:00",
+                "updated_at": "2018-09-25T17:58:36+00:00",
                 "saga": {
                     "id": 2147222869,
                     "slug": "agent-0",
@@ -2853,8 +2853,8 @@
                         "collections": 1,
                         "tracks": 30
                     },
-                    "created_at": "2018-09-23T19:52:47+00:00",
-                    "updated_at": "2018-09-23T19:52:47+00:00",
+                    "created_at": "2018-09-25T17:58:36+00:00",
+                    "updated_at": "2018-09-25T17:58:36+00:00",
                     "author": {
                         "id": 206107536,
                         "slug": "flo",
@@ -2870,8 +2870,8 @@
                         "stats": {
                             "sagas": 1
                         },
-                        "created_at": "2018-09-23T19:52:46+00:00",
-                        "updated_at": "2018-09-23T19:52:46+00:00",
+                        "created_at": "2018-09-25T17:58:34+00:00",
+                        "updated_at": "2018-09-25T17:58:34+00:00",
                         "type": "user",
                         "picture": {
                             "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -2880,8 +2880,8 @@
                     },
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                             "meta": {
                                 "color": "#FE0000",
                                 "type": "dark"

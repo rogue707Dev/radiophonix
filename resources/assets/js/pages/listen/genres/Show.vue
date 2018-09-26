@@ -16,7 +16,7 @@
 
         <div class="layout-conteneur__main">
 
-            <saga-list :sagas="sagas"></saga-list>
+            <saga-list :sagas="genre.sagas"></saga-list>
 
         </div>
 
@@ -39,7 +39,6 @@ export default {
             genre: {
                 image: {}
             },
-            sagas: [],
         };
     },
 
@@ -49,17 +48,10 @@ export default {
 
             this.genre = result.data;
         },
-
-        async fetchSagas() {
-            let result = await api.sagas.all();
-
-            this.sagas = result.data;
-        }
     },
 
     created() {
         this.fetchGenre();
-        this.fetchSagas();
     }
 }
 </script>

@@ -1,0 +1,70 @@
+{
+    "id": 1797332506,
+    "slug": "les-chroniques-de-ravnica",
+    "name": "Les Chroniques de Ravnica",
+    "synopsis": "Au cœur de Dominia siège le fleuron de la civilisation. Dans une cité dont l'origine transcende les siècles, humains, elfes, gobelins, vampires... Sont habités par le même désir d'harmonie. On se tue, on se bat... Mais toujours avec une franche et sincère amitié... Bienvenue dans Ravnica, la cité des Guildes...\n\nDans cette cité ne vivent plus que neuf guildes dans un désordre des plus complets : les Orzhov, les Izzet, les Gruul, les Azorius, les Golgari, les Rakdos, les Simic, les Boros et surtout, les Dimirs. La Dixième guilde, les Selesnya, a été détruite. Les combats entre légionnaires Boros et membres Dimirs font rage dans la ville alors qu'une menace plane sur la ville : une nouvelle guilde, dite de la Lune, s'est créée... Face à cette menance potentielle, Szadek, grand maître officieux de la ville, prit des mesures radicales : il décida d'envoyer un parfait inconnu pour la démanteler. Or, un jeune rôdeur inexpérimenté venait d'arriver dans le quartier Dimir, à la recherche d'une quête...",
+    "creation_date": "2008-05-06T00:00:00+00:00",
+    "licence": "CC BY-NC-ND",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/Les_Chroniques_de_Ravnica",
+        "site": "http://nsm.corp.free.fr/chroniques_de_ravnica.htm",
+        "topic": "https://forum.netophonix.com/ftopic3424.html",
+        "rss": null,
+        "facebook": null,
+        "twitter": null
+    },
+    "finished": true,
+    "visibility": 0,
+    "stats": {
+        "bravos": 0,
+        "collections": 1,
+        "tracks": 15
+    },
+    "created_at": "2018-09-25T17:58:39+00:00",
+    "updated_at": "2018-09-25T17:58:39+00:00",
+    "author": {
+        "id": 11231624,
+        "slug": "nsm-corp",
+        "name": "NSM Corp",
+        "bio": "Au départ connus seulement comme les créateurs des Chroniques de Ravnica, Alinor et Szadec, rejoints peu après le lancement de la saga par Charlito, crééent un forum pour leur première œuvre audio. Le temps passant, un premier site web fait son apparition, suivi ensuite par un nouveau forum intitulé « Nos Sagas Mp3 », le tout consacré aux différents projets des trois compères. C'est finalement suite à la création du site web éponyme au forum que le groupe fut baptisé : Alinor créa un logo pour le site, arborant le nom de « NSM Corporation » (où NSM est l'acronyme du titre du site), qui fut raccourci en NSM Corp et adopté en tant que nom officiel pour l'équipe, le 12 août 2008.",
+        "links": {
+            "netowiki": "https://wiki.netophonix.com/NSM_Corp",
+            "site": "http://nsm.corp.free.fr/",
+            "topic": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "stats": {
+            "sagas": 1
+        },
+        "created_at": "2018-09-25T17:58:35+00:00",
+        "updated_at": "2018-09-25T17:58:35+00:00",
+        "type": "team",
+        "picture": {
+            "main": "/static/mocks/media/storage/504187695/conversions/NSM_Corp-main.jpg",
+            "thumb": "/static/mocks/media/storage/504187695/conversions/NSM_Corp-thumb.jpg"
+        }
+    },
+    "images": {
+        "cover": {
+            "main": "/static/mocks/media/storage/1606664188/conversions/Ravnica_ban_2011-main.jpg",
+            "thumb": "/static/mocks/media/storage/1606664188/conversions/Ravnica_ban_2011-thumb.jpg",
+            "meta": {
+                "color": "#221D44",
+                "type": "dark"
+            }
+        }
+    },
+    "genres": [
+        {
+            "id": 1797332506,
+            "name": "Heroic fantasy",
+            "stats": {
+                "sagas": 2
+            },
+            "image": {
+                "main": "/static/mocks/media/storage/1725454359/conversions/Heroic-fantasy-main.jpg"
+            }
+        }
+    ]
+}

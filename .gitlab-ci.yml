@@ -41,7 +41,8 @@ build:review:
         - node --version
 #        - yarn config set cache-folder .yarn
         - yarn
-        - echo -n 'RADIOPHONIX_API_URL=http://' > .env
+        - echo 'RADIOPHONIX_FEATURES_ENV=development' > .env
+        - echo -n 'RADIOPHONIX_API_URL=http://' >> .env
         - echo -n $CI_ENVIRONMENT_SLUG >> .env
         - echo -n '.radiophonix.org/api/v1/' >> .env
         - npm run build
@@ -121,7 +122,8 @@ build:staging:
     - node --version
     #        - yarn config set cache-folder .yarn
     - yarn
-    - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" > .env
+    - echo 'RADIOPHONIX_FEATURES_ENV=development' > .env
+    - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" >> .env
     - npm run build
     - composer install --prefer-dist --quiet --no-interaction
     - mkdir artefacts

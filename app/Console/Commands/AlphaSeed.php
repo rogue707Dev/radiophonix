@@ -87,13 +87,13 @@ class AlphaSeed extends Command
                 })
                 ->each(function ($image, $name) use ($saga) {
                     $filePath = Storage::disk('alpha')->url('images/sagas/' . $image);
+//                    $this->info("\t[MEDIA] Saga::$name ($filePath)");
 
                     $saga->addMedia($filePath)
                         ->withCustomProperties(['colors' => true])
                         ->preservingOriginal()
                         ->toMediaCollection($name);
 
-//                    $this->info("\t[MEDIA] Saga::$name ($filePath)");
                 });
 
             collect($importSaga['collections'])

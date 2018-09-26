@@ -35,9 +35,9 @@
             <i aria-hidden="true" class="fa fa-heart"></i>
         </div>
         <div class="card-body">
+            <span v-if="badge" class="badge badge-light badge-sm text-capitalize">{{ type }}</span>
             <p class="h3 text-body">
                 {{ title }}
-                <span class="badge badge-light badge-sm text-capitalize">{{ type }}</span>
             </p>
             <p class="text-primary h5">
                 <slot name="stats"></slot>
@@ -56,8 +56,8 @@ export default {
             required: false
         },
         link: {
-            type: String,
-            required: false
+            type: Object,
+            required: true
         },
         urlImage: {
             type: String,
@@ -69,11 +69,15 @@ export default {
         },
         title: {
             type: String,
-            required: false
+            required: true
         },
         type: {
             type: String,
-            required: false
+            required: true
+        },
+        badge: {
+            type: Boolean,
+            required: false,
         },
     }
 }

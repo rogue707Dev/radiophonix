@@ -21,8 +21,8 @@
             "collections": 1,
             "tracks": 30
         },
-        "created_at": "2018-09-23T19:52:47+00:00",
-        "updated_at": "2018-09-23T19:52:47+00:00",
+        "created_at": "2018-09-25T17:58:36+00:00",
+        "updated_at": "2018-09-25T17:58:36+00:00",
         "author": {
             "id": 206107536,
             "slug": "flo",
@@ -38,8 +38,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
@@ -48,8 +48,8 @@
         },
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/231868445/conversions/agent0-main.jpg",
-                "thumb": "/static/mocks/media/storage/231868445/conversions/agent0-thumb.jpg",
+                "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
+                "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
                 "meta": {
                     "color": "#FE0000",
                     "type": "dark"
@@ -64,7 +64,7 @@
                     "sagas": 1
                 },
                 "image": {
-                    "main": "/static/mocks/media/storage/350792372/conversions/Espionnage-main.jpg"
+                    "main": "/static/mocks/media/storage/674797561/conversions/Espionnage-main.jpg"
                 }
             }
         ]
@@ -91,8 +91,8 @@
             "collections": 6,
             "tracks": 46
         },
-        "created_at": "2018-09-23T19:52:48+00:00",
-        "updated_at": "2018-09-23T19:52:48+00:00",
+        "created_at": "2018-09-25T17:58:36+00:00",
+        "updated_at": "2018-09-25T17:58:36+00:00",
         "author": {
             "id": 2147222869,
             "slug": "durendal",
@@ -108,8 +108,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-25T17:58:33+00:00",
+            "updated_at": "2018-09-25T17:58:33+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
@@ -118,8 +118,8 @@
         },
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/504187695/conversions/banal-fantasy-main.jpg",
-                "thumb": "/static/mocks/media/storage/504187695/conversions/banal-fantasy-thumb.jpg",
+                "main": "/static/mocks/media/storage/861745168/conversions/banal-fantasy-main.jpg",
+                "thumb": "/static/mocks/media/storage/861745168/conversions/banal-fantasy-thumb.jpg",
                 "meta": {
                     "color": "#5546D7",
                     "type": "dark"
@@ -131,10 +131,10 @@
                 "id": 206107536,
                 "name": "Parodie",
                 "stats": {
-                    "sagas": 1
+                    "sagas": 2
                 },
                 "image": {
-                    "main": "/static/mocks/media/storage/556004678/conversions/Parodie-main.jpg"
+                    "main": "/static/mocks/media/storage/980669067/conversions/Parodie-main.jpg"
                 }
             }
         ]
@@ -161,10 +161,10 @@
             "collections": 9,
             "tracks": 66
         },
-        "created_at": "2018-09-23T19:52:49+00:00",
-        "updated_at": "2018-09-23T19:52:49+00:00",
+        "created_at": "2018-09-25T17:58:37+00:00",
+        "updated_at": "2018-09-25T17:58:37+00:00",
         "author": {
-            "id": 965594201,
+            "id": 1176091268,
             "slug": "magoyond",
             "name": "Magoyond",
             "bio": "",
@@ -178,18 +178,18 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
             "type": "team",
             "picture": {
-                "main": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-main.jpg",
-                "thumb": "/static/mocks/media/storage/1753359144/conversions/MAGOYOND-thumb.jpg"
+                "main": "/static/mocks/media/storage/1939393859/conversions/MAGOYOND-main.jpg",
+                "thumb": "/static/mocks/media/storage/1939393859/conversions/MAGOYOND-thumb.jpg"
             }
         },
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/674797561/conversions/chez-le-psy-main.jpg",
-                "thumb": "/static/mocks/media/storage/674797561/conversions/chez-le-psy-thumb.jpg",
+                "main": "/static/mocks/media/storage/1300788002/conversions/chez-le-psy-main.jpg",
+                "thumb": "/static/mocks/media/storage/1300788002/conversions/chez-le-psy-thumb.jpg",
                 "meta": {
                     "color": "#000000",
                     "type": "dark"
@@ -204,13 +204,153 @@
                     "sagas": 1
                 },
                 "image": {
-                    "main": "/static/mocks/media/storage/861745168/conversions/Contemporain-main.jpg"
+                    "main": "/static/mocks/media/storage/1420631365/conversions/Contemporain-main.jpg"
                 }
             }
         ]
     },
     {
         "id": 1797332506,
+        "slug": "les-chroniques-de-ravnica",
+        "name": "Les Chroniques de Ravnica",
+        "synopsis": "Au cœur de Dominia siège le fleuron de la civilisation. Dans une cité dont l'origine transcende les siècles, humains, elfes, gobelins, vampires... Sont habités par le même désir d'harmonie. On se tue, on se bat... Mais toujours avec une franche et sincère amitié... Bienvenue dans Ravnica, la cité des Guildes...\n\nDans cette cité ne vivent plus que neuf guildes dans un désordre des plus complets : les Orzhov, les Izzet, les Gruul, les Azorius, les Golgari, les Rakdos, les Simic, les Boros et surtout, les Dimirs. La Dixième guilde, les Selesnya, a été détruite. Les combats entre légionnaires Boros et membres Dimirs font rage dans la ville alors qu'une menace plane sur la ville : une nouvelle guilde, dite de la Lune, s'est créée... Face à cette menance potentielle, Szadek, grand maître officieux de la ville, prit des mesures radicales : il décida d'envoyer un parfait inconnu pour la démanteler. Or, un jeune rôdeur inexpérimenté venait d'arriver dans le quartier Dimir, à la recherche d'une quête...",
+        "creation_date": "2008-05-06T00:00:00+00:00",
+        "licence": "CC BY-NC-ND",
+        "links": {
+            "netowiki": "https://wiki.netophonix.com/Les_Chroniques_de_Ravnica",
+            "site": "http://nsm.corp.free.fr/chroniques_de_ravnica.htm",
+            "topic": "https://forum.netophonix.com/ftopic3424.html",
+            "rss": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "finished": true,
+        "visibility": 0,
+        "stats": {
+            "bravos": 0,
+            "collections": 1,
+            "tracks": 15
+        },
+        "created_at": "2018-09-25T17:58:39+00:00",
+        "updated_at": "2018-09-25T17:58:39+00:00",
+        "author": {
+            "id": 11231624,
+            "slug": "nsm-corp",
+            "name": "NSM Corp",
+            "bio": "Au départ connus seulement comme les créateurs des Chroniques de Ravnica, Alinor et Szadec, rejoints peu après le lancement de la saga par Charlito, crééent un forum pour leur première œuvre audio. Le temps passant, un premier site web fait son apparition, suivi ensuite par un nouveau forum intitulé « Nos Sagas Mp3 », le tout consacré aux différents projets des trois compères. C'est finalement suite à la création du site web éponyme au forum que le groupe fut baptisé : Alinor créa un logo pour le site, arborant le nom de « NSM Corporation » (où NSM est l'acronyme du titre du site), qui fut raccourci en NSM Corp et adopté en tant que nom officiel pour l'équipe, le 12 août 2008.",
+            "links": {
+                "netowiki": "https://wiki.netophonix.com/NSM_Corp",
+                "site": "http://nsm.corp.free.fr/",
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-09-25T17:58:35+00:00",
+            "updated_at": "2018-09-25T17:58:35+00:00",
+            "type": "team",
+            "picture": {
+                "main": "/static/mocks/media/storage/504187695/conversions/NSM_Corp-main.jpg",
+                "thumb": "/static/mocks/media/storage/504187695/conversions/NSM_Corp-thumb.jpg"
+            }
+        },
+        "images": {
+            "cover": {
+                "main": "/static/mocks/media/storage/1606664188/conversions/Ravnica_ban_2011-main.jpg",
+                "thumb": "/static/mocks/media/storage/1606664188/conversions/Ravnica_ban_2011-thumb.jpg",
+                "meta": {
+                    "color": "#221D44",
+                    "type": "dark"
+                }
+            }
+        },
+        "genres": [
+            {
+                "id": 1797332506,
+                "name": "Heroic fantasy",
+                "stats": {
+                    "sagas": 2
+                },
+                "image": {
+                    "main": "/static/mocks/media/storage/1725454359/conversions/Heroic-fantasy-main.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "id": 965594201,
+        "slug": "death-pen",
+        "name": "Death Pen",
+        "synopsis": "Bernard, alias Ryuuku, est un expert comptable, et il s'ennuie. Il décide alors de laisser tomber son stylo dans le monde des humains. Et c'est Raito, jeune élève modèle un rien misanthrope, qui le récupère. Mais ce stylo n'est pas ordinaire... Une des règle de la Death Not-ice est \"The human whose name is written with this pen... shall die !\" que l'on peut traduire par \"L'humain dont le nom est écrit avec ce stylo mourra\".",
+        "creation_date": "2008-05-03T00:00:00+00:00",
+        "licence": "CC BY-NC-ND",
+        "links": {
+            "netowiki": "https://wiki.netophonix.com/Reflets_d%27Acide",
+            "site": "http://synopsite.com/",
+            "topic": null,
+            "rss": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "finished": false,
+        "visibility": 0,
+        "stats": {
+            "bravos": 0,
+            "collections": 1,
+            "tracks": 10
+        },
+        "created_at": "2018-09-25T17:58:40+00:00",
+        "updated_at": "2018-09-25T17:58:40+00:00",
+        "author": {
+            "id": 1797332506,
+            "slug": "jbx",
+            "name": "JBX",
+            "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
+            "links": {
+                "netowiki": "https://wiki.netophonix.com/JBX",
+                "site": "http://www.refletsdacide.com/",
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 2
+            },
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
+            "type": "user",
+            "picture": {
+                "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
+                "thumb": "/static/mocks/media/storage/1634566833/conversions/jbx-thumb.jpg"
+            }
+        },
+        "images": {
+            "cover": {
+                "main": "/static/mocks/media/storage/1778317966/conversions/bandeathpen-main.jpg",
+                "thumb": "/static/mocks/media/storage/1778317966/conversions/bandeathpen-thumb.jpg",
+                "meta": {
+                    "color": "#000000",
+                    "type": "dark"
+                }
+            }
+        },
+        "genres": [
+            {
+                "id": 206107536,
+                "name": "Parodie",
+                "stats": {
+                    "sagas": 2
+                },
+                "image": {
+                    "main": "/static/mocks/media/storage/980669067/conversions/Parodie-main.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "id": 1176091268,
         "slug": "kiponie-stories",
         "name": "Kiponie Stories",
         "synopsis": "Tout commence par un voyage sans intérêt. Le très jeune capitaine Alexandre Vinoqui se lance dans l'expédition du siècle : Percer les mystères du Triangle des Mersnulles et révéler au monde entier les secrets cachés par d'étranges brumes. Il prend donc la première opportunité venue et embarque avec lui son vieil ami Hanson Triviany ainsi qu’une équipe d’andouilles dégotée dans les poubelles du coin. Après deux semaines de voyage plus que désagréables, une tempête frappe soudainement leur navire et le transforme en musée sous-marin. Nos deux aventuriers amateurs se retrouvent prisonniers d’un continent mystérieux gardant des secrets inimaginables. C’est à ce moment là que les problèmes commencent...",
@@ -231,8 +371,8 @@
             "collections": 2,
             "tracks": 13
         },
-        "created_at": "2018-09-23T19:52:51+00:00",
-        "updated_at": "2018-09-23T19:52:51+00:00",
+        "created_at": "2018-09-25T17:58:41+00:00",
+        "updated_at": "2018-09-25T17:58:41+00:00",
         "author": {
             "id": 1523884511,
             "slug": "inky",
@@ -248,8 +388,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
@@ -258,8 +398,8 @@
         },
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-main.jpg",
-                "thumb": "/static/mocks/media/storage/980669067/conversions/kiponie-stories-thumb.jpg",
+                "main": "/static/mocks/media/storage/1930664737/conversions/kiponie-stories-main.jpg",
+                "thumb": "/static/mocks/media/storage/1930664737/conversions/kiponie-stories-thumb.jpg",
                 "meta": {
                     "color": "#CC4D1B",
                     "type": "dark"
@@ -268,19 +408,89 @@
         },
         "genres": [
             {
-                "id": 1797332506,
+                "id": 965594201,
                 "name": "Aventure",
                 "stats": {
                     "sagas": 1
                 },
                 "image": {
-                    "main": "/static/mocks/media/storage/1300788002/conversions/Aventure-main.jpg"
+                    "main": "/static/mocks/media/storage/2049459544/conversions/Aventure-main.jpg"
                 }
             }
         ]
     },
     {
-        "id": 965594201,
+        "id": 392587459,
+        "slug": "maha",
+        "name": "M.A.H.A",
+        "synopsis": "M.A.H.A (initiales de Mystification et Apologie de l'Humanité Actuelle) est une saga mp3 créé par Misterfox. Elle se présente sous la forme de chroniques, contant les péripéties de Misterfox dans sa triste et morne vie, qui lui inspire un profond mépris envers l'humanité...\nLa saga s'est terminée le 19 avril 2008, 20 ans après la mort de Pierre Desproges.",
+        "creation_date": "2007-07-19T00:00:00+00:00",
+        "licence": "CC BY-NC-SA",
+        "links": {
+            "netowiki": "https://wiki.netophonix.com/M.A.H.A",
+            "site": "http://misterfox.fr/site/maha/",
+            "topic": null,
+            "rss": null,
+            "facebook": null,
+            "twitter": null
+        },
+        "finished": false,
+        "visibility": 0,
+        "stats": {
+            "bravos": 0,
+            "collections": 4,
+            "tracks": 35
+        },
+        "created_at": "2018-09-25T17:58:43+00:00",
+        "updated_at": "2018-09-25T17:58:43+00:00",
+        "author": {
+            "id": 636667150,
+            "slug": "misterfox",
+            "name": "Misterfox",
+            "bio": "Durant ses premières années, du fait du succès des M.A.H.A, il sera vu comme un misanthrope asocial, détestant l'humanité et le monde actuel, et vivant reclus dans son village auvergnat. Il sera dépeint de cette manière dans les premiers monos mp3 du Netophonix. Mais l'arrêt des M.A.H.A et les diverses rencontres IRL terniront cette image.\nAvec le temps, Misterfox fut plutôt vu comme un fan \"hardcore\" de Kaamelott Livre VI et un \"hater\" de Pikachu, tel que l'est son personnage dans la websérie Misterfox & Pikachu. Il est aussi vu comme un grand fan de doublage, qui n'hésite pas à étaler sa science, et qui, s'il est lancé, peut parler de sa passion durant des heures, au grand dam de ses congénères.\nCertaines mauvaises langues le décrivent aussi comme quelqu'un n'ayant aucune idée \"originale\", et qui se contente de faire des parodies et des clins d'œil.",
+            "links": {
+                "netowiki": "https://wiki.netophonix.com/Misterfox",
+                "site": "http://misterfox.fr",
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-09-25T17:58:35+00:00",
+            "updated_at": "2018-09-25T17:58:35+00:00",
+            "type": "user",
+            "picture": {
+                "main": "/static/mocks/media/storage/231868445/conversions/author-main.jpg",
+                "thumb": "/static/mocks/media/storage/231868445/conversions/author-thumb.jpg"
+            }
+        },
+        "images": {
+            "cover": {
+                "main": "/static/mocks/media/storage/223274995/conversions/maha-main.jpg",
+                "thumb": "/static/mocks/media/storage/223274995/conversions/maha-thumb.jpg",
+                "meta": {
+                    "color": "#0000FF",
+                    "type": "dark"
+                }
+            }
+        },
+        "genres": [
+            {
+                "id": 1176091268,
+                "name": "Monologue",
+                "stats": {
+                    "sagas": 1
+                },
+                "image": {
+                    "main": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": 636667150,
         "slug": "matrick",
         "name": "Matrick",
         "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
@@ -301,10 +511,10 @@
             "collections": 3,
             "tracks": 36
         },
-        "created_at": "2018-09-23T19:52:53+00:00",
-        "updated_at": "2018-09-23T19:52:53+00:00",
+        "created_at": "2018-09-25T17:58:43+00:00",
+        "updated_at": "2018-09-25T17:58:43+00:00",
         "author": {
-            "id": 392587459,
+            "id": 1918808909,
             "slug": "mitch-dsm",
             "name": "Mitch DSM",
             "bio": "Mitch_DSM est musicien compositeur ainsi que designer sonore. Il travaille pour diverses sociétés de communications essentiellement inter-entreprises. Telle est son activité principale, qui ne représente finalement qu'une partie de son éventail d'occupations. Sur internet, il s'avère être l'un des premiers créateurs de sagas mp3 avec Matrick (la matruc), mise en ligne à la même époque que Le Donjon de Naheulbeuk. Il est également l'auteur des Génériques Mitch Unplug.ed, ce qui lui apportera une petite notoriété passagère. En plus de ses activités sonores et musicales, Mitch_DSM développe aussi des sites internet, essentiellement pour les besoins de ses projets personnels. La création du site Netophonix, qui abrite à présent une communauté non négligeable composée de créateurs, d'adeptes et de divers membres de la sagasphère, l'a récemment placé un peu plus aux devants de la scène saga mp3. Cependant, au fil du temps, sa présence dans ce milieu s'est fortement réduite, du fait notamment d'obligations professionnelles conséquentes...",
@@ -318,18 +528,18 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:47+00:00",
-            "updated_at": "2018-09-23T19:52:47+00:00",
+            "created_at": "2018-09-25T17:58:35+00:00",
+            "updated_at": "2018-09-25T17:58:35+00:00",
             "type": "user",
             "picture": {
-                "main": "/static/mocks/media/storage/2059235322/conversions/author-main.jpg",
-                "thumb": "/static/mocks/media/storage/2059235322/conversions/author-thumb.jpg"
+                "main": "/static/mocks/media/storage/350792372/conversions/author-main.jpg",
+                "thumb": "/static/mocks/media/storage/350792372/conversions/author-thumb.jpg"
             }
         },
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/1420631365/conversions/matrick-main.jpg",
-                "thumb": "/static/mocks/media/storage/1420631365/conversions/matrick-thumb.jpg",
+                "main": "/static/mocks/media/storage/342065258/conversions/matrick-main.jpg",
+                "thumb": "/static/mocks/media/storage/342065258/conversions/matrick-thumb.jpg",
                 "meta": {
                     "color": "#06311E",
                     "type": "dark"
@@ -338,19 +548,19 @@
         },
         "genres": [
             {
-                "id": 965594201,
+                "id": 392587459,
                 "name": "Science-fiction",
                 "stats": {
                     "sagas": 1
                 },
                 "image": {
-                    "main": "/static/mocks/media/storage/1606664188/conversions/Science-fiction-main.jpg"
+                    "main": "/static/mocks/media/storage/527966861/conversions/Science-fiction-main.jpg"
                 }
             }
         ]
     },
     {
-        "id": 1176091268,
+        "id": 1918808909,
         "slug": "messina",
         "name": "Messina",
         "synopsis": "Messina est un univers créé par MimiRyudo. La principale partie actuellement (chapitre 2) en est une saga MP3 en 10 épisodes, écrite par MimiRyudo et réalisée par Celebo Anarion. L'histoire se situe à Messina (rien à voir avec le Messina moderne) à l'époque où les aventuriers pouvaient encore mener leurs quêtes et où les licornes leur murmuraient des prophéties...",
@@ -371,10 +581,10 @@
             "collections": 3,
             "tracks": 19
         },
-        "created_at": "2018-09-23T19:52:53+00:00",
-        "updated_at": "2018-09-23T19:52:53+00:00",
+        "created_at": "2018-09-25T17:58:44+00:00",
+        "updated_at": "2018-09-25T17:58:44+00:00",
         "author": {
-            "id": 1176091268,
+            "id": 392587459,
             "slug": "mimiryudo",
             "name": "MimiRyudo",
             "bio": "Mi-2005, MimiRyudo se lance dans l'écriture de sagas mp3. Suite à une discussion sur (feu) MSN Messenger, il pose l'univers de Messina (MeSsiNa), dont il rédige six épisodes durant l'été. Il scénarise également l'épisode 3 de la saga Jacky et ses voisins d'Asmoth, participe de loin à la rédaction de l'épisode 4 et écrit un épisode 5 en rimes (non enregistré) fin 2007.\n    Fin mai 2007, en période de révisions, MimiRyudo arrive sur Netophonix. Il présente les six premiers épisodes écrits de Messina (version 2005) qui reçoivent de bonnes critiques, et l'amènent à recruter ; le caractère inhabituel de cette démarche en fait le premier membre du nouveau groupe de Scénaristes (non-créateurs). Luneral (alors appelé Celebo Anarion) se propose comme interprète de Messina, et Lancelord comme réalisateur. MimiRyudo réécrit et clôt la saga en dix épisodes, tandis que ses compères réalisent les premiers épisodes, publiés sur son site ouvert pour l'occasion (chez Free).\nEn juin 2007, MimiRyudo accepte d'être scénariste et dialoguiste du Choc des Zéros, d'après une idée du Mago. Après avoir répondu (assez légèrement) à l'annonce, il commence à écouter d'autres sagas que Le Donjon de Naheulbeuk et découvre ainsi Reflets d'Acide, Matrick et les autres... Le script est achevé six mois plus tard, et les réécritures prennent trois mois supplémentaires.\nEn 2008, Lancelord abandonne Messina après quatre épisodes. Luneral le remplace, reprend la saga depuis le début en juin, et la mène à terme en 31 jours. A la rentrée 2008, MimiRyudo est reçu dans le studio virtuel de SynopsLive pour en parler. Devant le succès de Messina, l'équipe poursuit l'aventure avec une saison supplémentaire, qui sera diffusée entre fin 2008 et début 2010. Pendant le deuxième semestre 2008, MimiRyudo écrit également les huit épisodes de la saga Les échappés de Berçuel pour Asmoth, et devient acteur pour la première fois en y incarnant James.\nDébut 2009, MimiRyudo laisse un peu de côté la sagasphère (déménagement, université...). Il se remet à l'écoute de sagas mp3 durant l'été et devient rédacteur de MagP3. Il achève en juillet l'écriture du chapitre 3 de Messina. Le premier épisode des Echappés de Berçuel sort en août, avec son ordre erratique perturbant, sur un site dédié au design signé Schnouk.\nEn 2010, MimiRyudo écrit les 8 premiers épisodes du making-of du Choc des Zéros, alors en cours de mixage, que Blast réalise rapidement. Durant l'été, il envisage de participer au concours de la saga de l'été 2010 avec un mono minimaliste, L'île qui rêve, qu'il publie finalement comme nouvelle sur son site. En fin d'année, il écrit La nuit des clés à molette pour Kradukman. Il devient modérateur sur Netophonix en décembre.\nDébut 2011, le deuxième épisode des Echappés de Berçuel est diffusé. MimiRyudo devient rédacteur-en-chef de MagP3 à partir de l'été. Il débute la co-écriture de Limoges Blues avec @now@n. En décembre, il se voit offrir un micro USB, qui lui permet de devenir créateur à part entière - il avait tout de même réalisé quelques monos préalablement, avec un dictaphone USB... Son premier \"vrai\" mono (avec mixage), Renne Poël, fait partie du calendrier de l'avent 2011, pour lequel il a également écrit une fausse pièce de théâtre mixée par Blast : Invités de Noël.\nFin janvier 2012, il débute une série mp3 : Au Royaume d'Acana. En avril et mai 2012, Kradukman publie La nuit des clés à molettes ; MimiRyudo a scénarisé une fausse interview dans laquelle il intervient. L'été, il réalise L'Oppidum pour le concours Netophonix du 11ème festival des Radiophonies, où il remporte le prix du scénario. En fin d'année, la co-écriture de Limoges Blues est terminée et Mity est choisi pour réaliser la saga.\nEn 2013, MimiRyudo migre chez OVH (http://www.mimiryudo.com) et écrit Dernier crépuscule sur Athadcity et La nuit des clés à tuyaux pour le concours de la saga de l'été 2013, pour lequel il ne parvient toujours pas à participer. Il réalise deux monos du Royaume d'Acana pour le Neto-Halloween (2013) et les avant-premières des Joutes du Téméraire, où il anime également pour la première fois un atelier scénario (avec Xzimnut et Javeldose). En novembre, il participe au concours du mixage fou avec le mono Arrestation gérontologique (exclusivement à partir d'enregistrements mis à disposition par le site).\nEn 2014, MimiRyudo recrute des réalisateurs pour Dernier crépuscule sur Athadcity (DestroKhorne) et La conquête du Klondike (Rodimus Prime). En février, il est invité pour la première fois à être acteur pour un rôle particulier, pour la saga ADN 2082 de François TJP. Fin juin, MimiRyudo organise la 6ème édition du concours de mini-monos basés sur une image, qui obtient un record de participations, avec 7 monos en compétition et 2 hors compétition. Durant l'été, il participe activement à la récupération du forum suite au \"Neto-crash\" en maniant le Netobot. L'été, il est invité comme acteur par François TJP, Arthur et Grushkov. A partir d'octobre, il co-écrit avec François TJP une série de capsules de science-fiction radiophonique : Et la Terre éclata....\nEn 2015, il écrit la fin du making-of du Choc des Zéros et participe à la diffusion du mono en avant-première sur SynopsLive en juin. Il poursuit Et la Terre éclata... avec François TJP, qui fait l'objet d'un mono lors du calendrier de l'avent 2015. MimiRyudo y participe également en solo, avec Christmas Star Wars où il interprète la musique à la trompette.\nEn 2016, MimiRyudo participe en tant que scénariste et acteur à Pépins sous le sapin (saga Le Netophonix), diffusé du 1er au 25 décembre dans le cadre du calendrier de l'avent 2016. Il débute l'écriture de Le pouvoir des mots. L'écriture se poursuivra en 2017. Au premier trimestre 2017 sortent Un barbare dans le placard (réalisé par François TJP et lançant la série Le petit théâtre de MimiRyudo), Dernier crépuscule sur Athadcity (réalisé par DestroKhorne) et le troisième épisode des échappés de Berçuel. MimiRyudo poursuit d'autres projets avec François TJP : il tient le rôle de Steven Right dans Les Pourfendeurs (co-réalisé par fal), co-écrit les premiers épisodes de la saison 3 de Et la Terre éclata... et co-écrit et interprète son propre rôle dans un mono de la saga Le Netophonix : Po-ki-mon de Noël.",
@@ -388,18 +598,18 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-23T19:52:47+00:00",
-            "updated_at": "2018-09-23T19:52:47+00:00",
+            "created_at": "2018-09-25T17:58:35+00:00",
+            "updated_at": "2018-09-25T17:58:35+00:00",
             "type": "user",
             "picture": {
-                "main": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-main.jpg",
-                "thumb": "/static/mocks/media/storage/1939393859/conversions/MimiRyudo-thumb.jpg"
+                "main": "/static/mocks/media/storage/2059235322/conversions/MimiRyudo-main.jpg",
+                "thumb": "/static/mocks/media/storage/2059235322/conversions/MimiRyudo-thumb.jpg"
             }
         },
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/1725454359/conversions/banniere_messina-main.jpg",
-                "thumb": "/static/mocks/media/storage/1725454359/conversions/banniere_messina-thumb.jpg",
+                "main": "/static/mocks/media/storage/647938852/conversions/banniere_messina-main.jpg",
+                "thumb": "/static/mocks/media/storage/647938852/conversions/banniere_messina-thumb.jpg",
                 "meta": {
                     "color": "#C4B8BA",
                     "type": "light"
@@ -408,19 +618,19 @@
         },
         "genres": [
             {
-                "id": 1176091268,
+                "id": 636667150,
                 "name": "Médiéval-fantastique",
                 "stats": {
                     "sagas": 1
                 },
                 "image": {
-                    "main": "/static/mocks/media/storage/1778317966/conversions/M%C3%A9di%C3%A9val-fantastique-main.jpg"
+                    "main": "/static/mocks/media/storage/699624799/conversions/M%C3%A9di%C3%A9val-fantastique-main.jpg"
                 }
             }
         ]
     },
     {
-        "id": 392587459,
+        "id": 11231624,
         "slug": "reflets-dacide",
         "name": "Reflets d'Acide",
         "synopsis": "Wrandrall cherche désespérément des compagnons de route pour sa quête : ils devront braver vents et marées pour aller explorer une grotte. Nul ne sait ce qui les attend sur cette route, ni ce qu'ils trouveront au fond de cette grotte… Une seule chose est sûre, c'est qu'ils n'ont aucune idée de ce dans quoi ils se sont embarqués.",
@@ -441,25 +651,25 @@
             "collections": 1,
             "tracks": 16
         },
-        "created_at": "2018-09-23T19:52:54+00:00",
-        "updated_at": "2018-09-23T19:52:54+00:00",
+        "created_at": "2018-09-25T17:58:45+00:00",
+        "updated_at": "2018-09-25T17:58:45+00:00",
         "author": {
             "id": 1797332506,
             "slug": "jbx",
             "name": "JBX",
             "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
             "links": {
-                "netowiki": null,
-                "site": null,
+                "netowiki": "https://wiki.netophonix.com/JBX",
+                "site": "http://www.refletsdacide.com/",
                 "topic": null,
                 "facebook": null,
                 "twitter": null
             },
             "stats": {
-                "sagas": 1
+                "sagas": 2
             },
-            "created_at": "2018-09-23T19:52:46+00:00",
-            "updated_at": "2018-09-23T19:52:46+00:00",
+            "created_at": "2018-09-25T17:58:34+00:00",
+            "updated_at": "2018-09-25T17:58:34+00:00",
             "type": "user",
             "picture": {
                 "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
@@ -468,8 +678,8 @@
         },
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/1930664737/conversions/reflets-d-acide-main.jpg",
-                "thumb": "/static/mocks/media/storage/1930664737/conversions/reflets-d-acide-thumb.jpg",
+                "main": "/static/mocks/media/storage/818417654/conversions/reflets-d-acide-main.jpg",
+                "thumb": "/static/mocks/media/storage/818417654/conversions/reflets-d-acide-thumb.jpg",
                 "meta": {
                     "color": "#61BCDE",
                     "type": "light"
@@ -478,13 +688,13 @@
         },
         "genres": [
             {
-                "id": 392587459,
+                "id": 1797332506,
                 "name": "Heroic fantasy",
                 "stats": {
-                    "sagas": 1
+                    "sagas": 2
                 },
                 "image": {
-                    "main": "/static/mocks/media/storage/2049459544/conversions/Heroic-fantasy-main.jpg"
+                    "main": "/static/mocks/media/storage/1725454359/conversions/Heroic-fantasy-main.jpg"
                 }
             }
         ]

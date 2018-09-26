@@ -22,7 +22,8 @@ const PlayerModule = {
         currentPercentage: 0,
         playlist: [],
         index: 0,
-        isPlaying: false
+        isPlaying: false,
+        isLoading: false,
     },
 
     mutations: {
@@ -67,7 +68,11 @@ const PlayerModule = {
 
         setIndex(state, index) {
             state.index = index;
-        }
+        },
+
+        isLoading(state, isLoading) {
+            state.isLoading = isLoading;
+        },
     },
 
     actions: {
@@ -168,7 +173,15 @@ const PlayerModule = {
 
         stop({ commit }) {
             commit('stop');
-        }
+        },
+
+        startLoading({ commit }) {
+            commit('isLoading', true);
+        },
+
+        stopLoading({ commit }) {
+            commit('isLoading', false);
+        },
     }
 };
 

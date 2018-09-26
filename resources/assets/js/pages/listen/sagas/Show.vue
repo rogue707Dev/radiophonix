@@ -157,17 +157,29 @@
                 </div>
             </div>
 
-
-            <div class="row mt-5">
+            <div class="row mt-3">
                 <div class="col">
-                    <h2 class="h1 mt-5 mb-3">
-                        <template v-if="collections.length > 1">Saisons</template>
-                        <template v-else>Épisodes</template>
-                    </h2>
+                    <nav-list v-if="collections.length > 1">
+                        <nav-item v-for="(collections, type, index) in collectionTypes"
+                                  :key="index"
+                                  :active="currentCollectionType === type"
+                                  @click="currentCollectionType = type">
+                            <collection-type :type="type"/>
+                        </nav-item>
+                    </nav-list>
+                    <nav-list v-else>
+                        <nav-item :active="true">Épisodes</nav-item>
+                    </nav-list>
+                </div>
+            </div>
 
-                    <div class="row mb-5" v-for="collection in collections" :key="collection.id">
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="row mb-5"
+                         v-for="collection in collectionTypes[currentCollectionType]"
+                         :key="collection.id">
                         <div class="col">
-                            <h3 class="h3 mb-4"
+                            <h3 class="h3 mb-2 mt-3"
                                 v-if="collections.length > 1">
                                 {{ collection.name }}
                             </h3>
@@ -178,7 +190,7 @@
                                  v-for="track in collection.tracks" :key="track.id">
                                 <div class="col-2 col-md-1 col-lg-1 order-lg-1">
                                     <div class="d-flex align-items-center h-100 justify-content-center"
-                                        v-html="formatTrackNumber(track.number)">
+                                         v-html="formatTrackNumber(track.number)">
                                     </div>
                                 </div>
                                 <div class="col-8 col-md-7 col-lg-7 order-lg-2">
@@ -188,7 +200,8 @@
                                 <div class="col-2 col-md-2 col-lg-1 order-lg-4">
                                     <div class="d-flex align-items-center h-100 justify-content-center">
                                         <div v-if="track.id == currentTrack.id" class="skin-icon-fa__cercle text-primary">
-                                            <i aria-hidden="true" class="fa fa-volume-up"></i>
+                                            <i aria-hidden="true" class="fa fa-spin fa-refresh" v-if="isLoading"></i>
+                                            <i aria-hidden="true" class="fa fa-volume-up" v-else></i>
                                         </div>
                                         <div v-else class="skin-icon-fa__cercle">
                                             <i aria-hidden="true" class="fa fa-play"></i>
@@ -206,8 +219,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -224,6 +235,9 @@ import TrackLength from '~/components/track/Length.vue';
 import Banner from '~/components/content/Banner.vue';
 import LicenceIcon from '~/components/licence/LicenceIcon.vue';
 import TextEllipsis from '~/components/text/TextEllipsis.vue';
+import CollectionType from '~/components/collection/CollectionType';
+import NavList from '~/components/nav/NavList';
+import NavItem from '~/components/nav/NavItem';
 
 export default {
     components: {
@@ -231,6 +245,9 @@ export default {
         Banner,
         LicenceIcon,
         TextEllipsis,
+        CollectionType,
+        NavList,
+        NavItem,
     },
 
     data() {
@@ -248,13 +265,15 @@ export default {
                 },
                 genres: [],
             },
-            collections: []
+            collections: [],
+            currentCollectionType: null,
         };
     },
 
     computed: {
         ...mapState('player', [
-            'currentTrack'
+            'currentTrack',
+            'isLoading',
         ]),
 
         genre() {
@@ -272,6 +291,18 @@ export default {
 
             return licenceUrl(this.saga.licence);
         },
+
+        collectionTypes() {
+            let collections = {};
+
+            for (const collection of this.collections) {
+                collections[collection.type] = collections[collection.type] || [];
+
+                collections[collection.type].push(collection);
+            }
+
+            return collections;
+        }
     },
 
     methods: {
@@ -287,6 +318,10 @@ export default {
 
             this.saga = sagaResult.data;
             this.collections = collectionResult.data;
+
+            if (this.collections.length > 0) {
+                this.currentCollectionType = this.collections[0].type;
+            }
         },
 
         playSaga() {

@@ -25,7 +25,7 @@
             "number": "1",
             "name": "Chapitre 0,5 - Avant le commencement",
             "synopsis": "Seule mono réalisé par Squill, ce chapitre 0,5 tente de revenir aux genèses de la genèse décrite dans le chapitre 1. Il a été diffusé en mars 2009.",
-            "type": "saison",
+            "type": "season",
             "tracks": [
                 {
                     "number": "1",
@@ -45,7 +45,7 @@
             "number": "2",
             "name": "Chapitre 2 - L'aventure Messinienne (l'Age des Amaryllis)",
             "synopsis": "A la fin de l'Age des Amaryllis, une troupe de héros hauts en couleurs, recrutée par un aventurier haut en couleur, vont pénétrer dans le château de l'antre de Tang gardé des Gontrak non moins hauts en couleurs, afin d'y trouver le fameux secret qui y est gardé... Quel est ce secret, faut-il sauver la princesse, les sandwichs se conservent-ils le temps de plusieurs épisodes et que signifie cette prophétie murmurée par la licorne ? Toutes ces questions - ainsi que d'autres - trouvent leur réponse (surprenante) dans cette saga !",
-            "type": "saison",
+            "type": "season",
             "tracks": [
                 {
                     "number": "1",
@@ -175,7 +175,7 @@
             "number": "3",
             "name": "Chapitre 3 - Messina en folie (l'Age des Bleuets des Champs, ou l'ABC)",
             "synopsis": "Après l'Age des Amaryllis, à l'Age des Bleuets des Champs, la fée et l'aventurier reviennent à Messina, où les habitants sont marqués par l'empreinte des sept péchés. Ils devront retrouver leurs anciens compagnons, traverser les épreuves jusqu'à la Poutie, et combattre leurs propres démons.",
-            "type": "saison",
+            "type": "season",
             "tracks": [
                 {
                     "number": "1",
