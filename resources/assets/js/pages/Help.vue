@@ -26,7 +26,8 @@
                     et un graphiste (<a href="http://www.pierre.tl" class="lien-paragraphe">Pierre</a>)
                     professionnels, passionnés de sagas MP3.<br/>
                     Faire des sites est notre métier depuis plusieurs années, ce qui
-                    nous permet de développer ce projet.
+                    nous permet de développer ce projet.<br/>
+                    Rejoignez-nous sur <lien-discord /> !
                 </p>
 
                 <h2 class="h1 mb-2 mt-5">Qu'est-ce qu'une Saga MP3 ?</h2>
@@ -71,6 +72,9 @@
                     <br/>
                     En signalant des bugs : <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">par ici</a><br/>
                     En contribuant au code : <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">par ici</a>
+                    <br/>
+                    Si vous ne savez pas programmer vous pouvez aussi aider !<br/>
+                    Rejoignez-nous sur <lien-discord /> pour signaler des bugs et partager votre avis.
                 </p>
 
                 <h2 class="h1 mb-2 mt-5">Où sont hébergés les fichiers ?</h2>
@@ -88,5 +92,11 @@
 </template>
 
 <script>
-    export default {}
+    import LienDiscord from '~/components/doc/LienDiscord';
+
+    export default {
+        components: {
+            LienDiscord,
+        }
+    }
 </script>
