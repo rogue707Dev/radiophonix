@@ -67,10 +67,6 @@ deploy:review:
         url: http://$CI_ENVIRONMENT_SLUG.radiophonix.org
         on_stop: stop:review
     before_script:
-        # Installation de git pour Envoy (plus rapide que zip)
-        - sudo apt-get update
-        - sudo apt-get install -y git
-
         # Ajout de la clef ssh de déploiement
         - 'which ssh-agent || ( sudo apt-get update -y && sudo apt-get install openssh-client -y )'
         - eval $(ssh-agent -s)
@@ -142,10 +138,6 @@ deploy:staging:
         name: staging
         url: https://dev.radiophonix.org
     before_script:
-    # Installation de git pour Envoy (plus rapide que zip)
-    - sudo apt-get update
-    - sudo apt-get install -y git
-
     # Ajout de la clef ssh de déploiement
     - 'which ssh-agent || ( sudo apt-get update -y && sudo apt-get install openssh-client -y )'
     - eval $(ssh-agent -s)
