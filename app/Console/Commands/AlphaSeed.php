@@ -65,6 +65,10 @@ class AlphaSeed extends Command
                 Arr::only($importSaga, $saga->getFillable())
             );
 
+            if (isset($importSaga['slug'])) {
+                $saga->slug = $importSaga['slug'];
+            }
+
             collect($importSaga['links'])
                 ->each(function ($link, $name) use ($saga) {
                     $property = 'link_' . $name;
