@@ -135,10 +135,6 @@ $ PLAYLIST
         grid-row: 3/4;
     }
 
-    &.var--inactif {
-        display: none;
-    }
-
     @include media-breakpoint-up(lg) {
 
         &.actif {
@@ -174,6 +170,10 @@ $ PLAYLIST
     }
 
     @media screen and (max-height: $playlist-taille-mini-hauteur-pour-affichage) {
+        display: none;
+    }
+
+    &.var--inactif {
         display: none;
     }
 }
