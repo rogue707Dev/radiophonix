@@ -28,7 +28,7 @@
 
 <script>
 import { mapState } from 'vuex';
-import MainMenu from '~/components/Menu.vue';
+import MainMenu from '~/components/Ui/Menu/MainMenu';
 import HeaderMobile from '~/components/menu/HeaderMobile.vue';
 import PlayerNormal from '~/components/player/PlayerNormal.vue';
 import PlayerPlaylist from '~/components/player/PlayerPlaylist.vue';

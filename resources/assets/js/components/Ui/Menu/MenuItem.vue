@@ -6,7 +6,7 @@
 </template>
 
 <script>
-    import MenuIcon from '~/components/Icon.vue';
+    import MenuIcon from '~/components/Ui/Menu/MenuIcon';
 
     export default {
         components: {
