@@ -224,7 +224,7 @@
 import { mapActions, mapState } from 'vuex';
 import api from '~/lib/api';
 import { licenceUrl } from '~/lib/services/licence';
-import TrackLength from '~/components/track/Length.vue';
+import TrackLength from '~/components/track/TrackLength.vue';
 import Banner from '~/components/content/Banner.vue';
 import LicenceIcon from '~/components/licence/LicenceIcon.vue';
 import TextEllipsis from '~/components/text/TextEllipsis.vue';

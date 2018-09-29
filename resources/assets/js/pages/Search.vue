@@ -241,7 +241,7 @@
 import { mapState, mapGetters } from 'vuex';
 import api from '~/lib/api';
 import SagaList from '~/components/saga/SagaList.vue';
-import TrackLength from '~/components/track/Length.vue';
+import TrackLength from '~/components/track/TrackLength.vue';
 import SagaStats from '~/components/saga/SagaStats.vue';
 import Card from '~/components/content/Card.vue';
 import Headband from '~/components/content/Headband.vue';

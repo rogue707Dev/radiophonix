@@ -73,7 +73,7 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
-import TrackLength from '~/components/track/Length.vue';
+import TrackLength from '~/components/track/TrackLength.vue';
 import TextEllispis from '~/components/text/TextEllipsis.vue';
 
 

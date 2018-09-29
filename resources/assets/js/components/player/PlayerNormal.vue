@@ -129,7 +129,7 @@
 <script>
 import { mapState, mapActions } from 'vuex';
 import TextEllispis from '~/components/text/TextEllipsis.vue';
-import TrackLength from '~/components/track/Length.vue';
+import TrackLength from '~/components/track/TrackLength.vue';
 import Player from '~/lib/Player';
 
 export default {
