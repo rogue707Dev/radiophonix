@@ -2,26 +2,9 @@
     <div class="lecteur__playlist justify-content-around">
 
         <!--//////////////////////////////////////////////////////////////
-        PLAYLIST NON UTILISER
-        //////////////////////////////////////////////////////////////-->
-        <template v-if="!currentTrack.id">
-
-            <div class="row text-center mb-5">
-                <div class="col-12">
-                    <i class="fa fa-bullhorn var--sidebar var--aide"></i>
-                    <p class="lead text-white">
-                        Selectionnez une saga puis un épisode pour l'ajouter à votre playlist
-                    </p>
-                </div>
-            </div>
-
-        </template>
-
-
-        <!--//////////////////////////////////////////////////////////////
         PLAYLIST
         //////////////////////////////////////////////////////////////-->
-        <template v-else>
+        <template v-if="currentTrack.id">
 
             <div class="lecteur__playlist__menu" @click="closePlaylist">
                 Revenir au player

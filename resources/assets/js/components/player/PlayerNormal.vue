@@ -1,9 +1,10 @@
 <template>
     <div class="lecteur pr"
          :class="{
+            'var--playlist-inactif': !currentSaga.id,
             'd-flex flex-column justify-content-around': currentSaga.images.cover.main,
-            'd-flex flex-column justify-content-around':!currentSaga.images.cover.main}
-        ">
+            'd-flex flex-column justify-content-around':!currentSaga.images.cover.main
+         }">
 
         <!--//////////////////////////////////////////////////////////////
         LECTEUR EN COURS

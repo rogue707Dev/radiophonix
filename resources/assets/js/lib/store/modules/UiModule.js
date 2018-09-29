@@ -1,3 +1,13 @@
+let changeClasses = (state, classes) => {
+    for (const classesKey in classes) {
+        if (!classes.hasOwnProperty(classesKey)) {
+            continue;
+        }
+
+        state[classesKey] = classes[classesKey];
+    }
+};
+
 const UiModule = {
     namespaced: true,
 
@@ -6,7 +16,7 @@ const UiModule = {
         isPlayerOpen: false,
         mainClass: '',
         playerClass: '',
-        playlistClass: '',
+        playlistClasses: {},
         pageTitle: 'Radiophonix',
     },
 
@@ -18,10 +28,10 @@ const UiModule = {
 
         setMainClass: (state, className) => state.mainClass = className,
         setPlayerClass: (state, className) => state.playerClass = className,
-        setPlaylistClass: (state, className) => state.playlistClass = className,
+        setPlaylistClasses: (state, classes) => changeClasses(state.playlistClasses, classes),
 
-        openPlaylist: (state) => state.playlistClass = 'actif',
-        closePlaylist: (state) => state.playlistClass = '',
+        openPlaylist: (state) => state.playlistClasses.actif = true,
+        closePlaylist: (state) => state.playlistClasses.actif = false,
 
         setPageTitle: (state, title) => state.pageTitle = title,
     },
@@ -38,21 +48,21 @@ const UiModule = {
 
         openPlaylist: ({ commit }) => {
             commit('setPlayerClass', 'inactif');
-            commit('setPlaylistClass', 'actif');
+            commit('setPlaylistClasses', {'actif': true});
         },
         closePlaylist: ({ commit }) => {
             commit('setPlayerClass', 'actif');
-            commit('setPlaylistClass', '');
+            commit('setPlaylistClasses', {'actif': false});
         },
 
         togglePlayer: ({ commit, state }) => {
+            commit('setPlaylistClasses', {actif: false});
+
             if (state.isPlayerOpen) {
                 commit('setPlayerClass', '');
-                commit('setPlaylistClass', '');
                 commit('setMainClass', '');
             } else {
                 commit('setPlayerClass', 'actif');
-                commit('setPlaylistClass', '');
                 commit('setMainClass', 'inactif');
             }
 

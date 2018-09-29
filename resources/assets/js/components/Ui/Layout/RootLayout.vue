@@ -14,7 +14,7 @@
             <player-normal></player-normal>
         </div>
 
-        <div class="layout-global__playlist" :class="playlistClass">
+        <div class="layout-global__playlist" :class="classes">
             <player-playlist></player-playlist>
         </div>
 
@@ -46,8 +46,15 @@
                 'isMenuOpen',
                 'mainClass',
                 'playerClass',
-                'playlistClass',
-            ])
+            ]),
+
+            classes() {
+                let classes = this.$store.state.ui.playlistClasses;
+
+                classes['var--inactif'] = !this.$store.state.player.currentSaga.id;
+
+                return classes;
+            }
         },
     }
 </script>
