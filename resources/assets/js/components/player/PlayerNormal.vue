@@ -30,7 +30,7 @@
             <!----------------------------------------
             Info du morceau
             ------------------------------------------>
-            <div class="text-center text-white mt-4">
+            <div class="text-center text-white">
                 <p class="lead text-white">
                     <text-ellispis :text="currentTrack.title" :size="30"></text-ellispis>
                 </p>
@@ -52,7 +52,7 @@
             <!----------------------------------------
             Progession
             ------------------------------------------>
-            <div class="lecteur__progression text-white h5 mt-4">
+            <div class="lecteur__progression text-white h5">
                 <span>{{ time }}</span>
                 <progress class="lecteur__progression__barre"
                           @click="seek"
@@ -64,7 +64,7 @@
             <!----------------------------------------
             Controle
             ------------------------------------------>
-            <div class="lecteur__disposition mt-5">
+            <div class="lecteur__disposition">
                 <button class="btn btn-outline-theme btn-round lecteur__bouton-affichage" @click="openPlaylist">
                     <i aria-hidden="true" class="fa fa-list"></i>
                 </button>
