@@ -6,13 +6,13 @@
             class="card">
 
 
-        <div class="card-jacket">
-            <jacket
+        <div class="card-cover">
+            <cover
                     size="moyen"
                     :type="type"
                     :urlImage="urlImage"
                     :altImage="altImage">
-            </jacket>
+            </cover>
         </div>
         <div class="card-button">
             <i aria-hidden="true" class="fa fa-plus"></i>
@@ -33,11 +33,11 @@
 </template>
 
 <script>
-import Jacket from '~/components/content/Jacket.vue';
+import Cover from '~/components/content/Cover.vue';
 
 export default {
     components: {
-        Jacket,
+        Cover,
     },
 
     props: {

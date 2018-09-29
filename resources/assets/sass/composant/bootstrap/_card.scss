@@ -2,8 +2,8 @@
 $ LISTE DE CARTE
 ======================================================================================================================*/
 $largeur-card: 200px;
-$largeur-petite-jacket: 100px;
-$largeur-petite-card: 300px;
+$largeur-card-horizontal: 300px;
+$largeur-conteneur-cover: 100px;
 
 .list-card {
     display: grid;
@@ -17,11 +17,11 @@ $largeur-petite-card: 300px;
 
 .list-card-horizontal {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax($largeur-petite-card, 1fr));
+    grid-template-columns: repeat(auto-fill,minmax($largeur-card-horizontal, 1fr));
     grid-gap: 10px;
 
     .card.var--horizontal {
-        width: $largeur-petite-card;
+        width: $largeur-card-horizontal;
     }
 }
 
@@ -46,9 +46,9 @@ a.card {
 
 
 /*======================================================================================================================
-$ CONTENEUR à JACKET
+$ CONTENEUR à cover
 ======================================================================================================================*/
-.card-jacket {
+.card-cover {
     position: relative;
     height: $largeur-card;
     background-color: $color-card;
@@ -95,7 +95,7 @@ $ CARTE HORIZONTAL
 ======================================================================================================================*/
 .card.var--horizontal {
     display: grid;
-    grid-template-columns: $largeur-petite-jacket 1fr;
+    grid-template-columns: $largeur-conteneur-cover 1fr;
     align-items: center;
 
     .card-body {
@@ -113,9 +113,9 @@ $ CARTE HORIZONTAL
         padding: 10px 5px 10px 0;
     }
 
-    .card-jacket {
+    .card-cover {
         height: 100%;
         min-height: 100px;
-        width: $largeur-petite-jacket;
+        width: $largeur-conteneur-cover;
     }
 }

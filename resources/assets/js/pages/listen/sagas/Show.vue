@@ -109,12 +109,12 @@
                         <div>
                             <router-link v-if="saga.author.id"
                                          :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
-                                <jacket
+                                <cover
                                         size="petit"
                                         type="faiseur"
                                         :urlImage="saga.author.picture.thumb"
                                         :altImage="saga.author.name">
-                                </jacket>
+                                </cover>
                             </router-link>
                         </div>
                         <div>
@@ -226,7 +226,7 @@ import TextEllipsis from '~/components/text/TextEllipsis.vue';
 import CollectionType from '~/components/collection/CollectionType';
 import NavList from '~/components/Ui/Nav/NavList';
 import NavItem from '~/components/Ui/Nav/NavItem';
-import Jacket from '~/components/content/Jacket.vue';
+import Cover from '~/components/content/Cover.vue';
 
 export default {
     components: {
@@ -237,7 +237,7 @@ export default {
         CollectionType,
         NavList,
         NavItem,
-        Jacket,
+        Cover,
     },
 
     data() {

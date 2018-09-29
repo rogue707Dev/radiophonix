@@ -1,14 +1,14 @@
 <template>
 
-    <div class="jacket" :class="['var--'+size, 'var--'+type]">
+    <div class="cover" :class="['var--'+size, 'var--'+type]">
         <template v-if="type == 'genre'">
             <svg><use xlink:href="#contour-genre"></use></svg>
-            <div class="jacket__mask">
+            <div class="cover__mask">
                 <img :src="urlImage" :alt="altImage">
             </div>
         </template>
         <template v-else>
-            <div class="jacket__mask">
+            <div class="cover__mask">
                 <img :src="urlImage" :alt="altImage">
             </div>
         </template>

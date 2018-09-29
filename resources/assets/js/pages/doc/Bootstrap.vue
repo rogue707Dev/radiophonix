@@ -29,25 +29,25 @@
 
 
 
-            <h1 class="display-3">Jacket : Petite</h1>
-            <div class="jacket var--petit var--saga">
-                <div class="jacket__mask">
+            <h1 class="display-3">Cover : Petite</h1>
+            <div class="cover var--petit var--saga">
+                <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
             </div>
-            <div class="jacket var--petit var--faiseur">
-                <div class="jacket__mask">
+            <div class="cover var--petit var--faiseur">
+                <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
             </div>
-            <div class="jacket var--petit var--episode">
-                <div class="jacket__mask">
+            <div class="cover var--petit var--episode">
+                <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
             </div>
-            <div class="jacket var--petit var--genre">
+            <div class="cover var--petit var--genre">
                 <svg><use xlink:href="#contour-genre"></use></svg>
-                <div class="jacket__mask">
+                <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
             </div>
@@ -56,25 +56,25 @@
 
 
 
-            <h1 class="display-3">Jacket : Moyenne</h1>
-            <div class="jacket var--moyen var--faiseur">
-                <div class="jacket__mask">
+            <h1 class="display-3">Cover : Moyenne</h1>
+            <div class="cover var--moyen var--faiseur">
+                <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
             </div>
-            <div class="jacket var--moyen var--saga">
-                <div class="jacket__mask">
+            <div class="cover var--moyen var--saga">
+                <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
             </div>
-            <div class="jacket var--moyen var--episode">
-                <div class="jacket__mask">
+            <div class="cover var--moyen var--episode">
+                <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
             </div>
-            <div class="jacket var--moyen var--genre">
+            <div class="cover var--moyen var--genre">
                 <svg><use xlink:href="#contour-genre"></use></svg>
-                <div class="jacket__mask">
+                <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
             </div>
@@ -85,12 +85,12 @@
 
 
 
-            <h1 class="display-3">Carte Horizontal avec jacket</h1>
+            <h1 class="display-3">Carte Horizontal avec Cover</h1>
             <div class="list-card-horizontal">
                 <a href="#" class="card var--horizontal">
-                    <div class="card-jacket">
-                        <div class="jacket var--petit var--episode">
-                            <div class="jacket__mask">
+                    <div class="card-cover">
+                        <div class="cover var--petit var--episode">
+                            <div class="cover__mask">
                                 <img src="http://facetheforce.today/random/340?r=2">
                             </div>
                         </div>
@@ -111,9 +111,9 @@
                 </a>
 
                 <a href="#" class="card var--horizontal">
-                    <div class="card-jacket">
-                        <div class="jacket var--petit var--faiseur">
-                            <div class="jacket__mask">
+                    <div class="card-cover">
+                        <div class="cover var--petit var--faiseur">
+                            <div class="cover__mask">
                                 <img src="http://facetheforce.today/random/340?r=2">
                             </div>
                         </div>
@@ -134,10 +134,10 @@
                 </a>
 
                 <a href="#" class="card var--horizontal">
-                    <div class="card-jacket">
-                        <div class="jacket var--petit var--genre">
+                    <div class="card-cover">
+                        <div class="cover var--petit var--genre">
                             <svg><use xlink:href="#contour-genre"></use></svg>
-                            <div class="jacket__mask">
+                            <div class="cover__mask">
                                 <img src="http://facetheforce.today/random/340?r=2">
                             </div>
                         </div>
@@ -158,9 +158,9 @@
                 </a>
 
                 <a href="#" class="card var--horizontal">
-                    <div class="card-jacket">
-                        <div class="jacket var--petit var--saga">
-                            <div class="jacket__mask">
+                    <div class="card-cover">
+                        <div class="cover var--petit var--saga">
+                            <div class="cover__mask">
                                 <img src="http://facetheforce.today/random/340?r=2">
                             </div>
                         </div>
@@ -190,14 +190,14 @@
 
 
 
-            <h1 class="display-3">Carte avec jacket</h1>
+            <h1 class="display-3">Carte avec Cover</h1>
             <div class="list-card">
 
 
                 <a href="#" class="card">
-                    <div class="card-jacket">
-                        <div class="jacket var--moyen var--episode">
-                            <div class="jacket__mask">
+                    <div class="card-cover">
+                        <div class="cover var--moyen var--episode">
+                            <div class="cover__mask">
                                 <img src="http://facetheforce.today/random/340?r=2">
                             </div>
                         </div>
@@ -218,9 +218,9 @@
                 </a>
 
                 <a href="#" class="card">
-                    <div class="card-jacket">
-                        <div class="jacket var--moyen var--faiseur">
-                            <div class="jacket__mask">
+                    <div class="card-cover">
+                        <div class="cover var--moyen var--faiseur">
+                            <div class="cover__mask">
                                 <img src="http://facetheforce.today/random/340?r=2">
                             </div>
                         </div>
@@ -241,10 +241,10 @@
                 </a>
 
                 <a href="#" class="card">
-                    <div class="card-jacket">
-                        <div class="jacket var--moyen var--genre">
+                    <div class="card-cover">
+                        <div class="cover var--moyen var--genre">
                             <svg><use xlink:href="#contour-genre"></use></svg>
-                            <div class="jacket__mask">
+                            <div class="cover__mask">
                                 <img src="http://facetheforce.today/random/340?r=2">
                             </div>
                         </div>
@@ -265,9 +265,9 @@
                 </a>
 
                 <a href="#" class="card">
-                    <div class="card-jacket">
-                        <div class="jacket var--moyen var--saga">
-                            <div class="jacket__mask">
+                    <div class="card-cover">
+                        <div class="cover var--moyen var--saga">
+                            <div class="cover__mask">
                                 <img src="http://facetheforce.today/random/340?r=2">
                             </div>
                         </div>
