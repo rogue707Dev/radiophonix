@@ -9,14 +9,7 @@
                     subtitle="">
                 <template slot="content">
                     <div class="search-headband">
-                        <form @submit.prevent="search">
-                            <div class="input-group mt-3">
-                                <input class="form-control" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
-                                <div class="input-group-append">
-                                    <button class="btn btn-homepage" type="button">Rechercher</button>
-                                </div>
-                            </div>
-                        </form>
+                        <search-form></search-form>
                     </div>
                 </template>
             </headband>
@@ -226,14 +219,7 @@
 
                 <template slot="content">
                     <div class="search-headband">
-                        <form @submit.prevent="search">
-                            <div class="input-group mt-3">
-                                <input class="form-control" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
-                                <div class="input-group-append">
-                                    <button class="btn btn-homepage" type="button">Rechercher</button>
-                                </div>
-                            </div>
-                        </form>
+                        <search-form></search-form>
                     </div>
                 </template>
             </headband>
@@ -243,8 +229,6 @@
                 <h1 class="h1 mb-4">Les plus populaires</h1>
 
                 <saga-list :sagas="popular"></saga-list>
-
-                TODO mettre la liste de saga populaire
 
             </div>
         </template>
@@ -266,6 +250,7 @@ import TrackLength from '~/components/track/Length.vue';
 import SagaStats from '~/components/saga/SagaStats.vue';
 import Card from '~/components/content/Card.vue';
 import Headband from '~/components/content/Headband.vue';
+import SearchForm from '~/components/search/SearchForm';
 
 export default {
     components: {
@@ -279,24 +264,46 @@ export default {
         SagaStats,
         Card,
         Headband,
+        SearchForm,
     },
 
     data() {
         return {
-            query: '',
+            popular: [],
         }
     },
 
     computed: {
         ...mapState('search', [
             'results',
+            'isSearching',
         ]),
 
         ...mapGetters('search', [
             'hasResults',
             'highlights',
             'otherResults',
-        ])
-    }
+        ]),
+    },
+
+    methods: {
+        async fetchPopular() {
+            if (this.isSearching) {
+                return;
+            }
+
+            if (this.hasResults) {
+                return;
+            }
+
+            let result = await api.sagas.popular();
+
+            this.popular = result.data;
+        }
+    },
+
+    mounted() {
+        this.fetchPopular();
+    },
 }
 </script>

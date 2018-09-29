@@ -4,6 +4,7 @@ const SearchModule = {
     namespaced: true,
 
     state: {
+        isSearching: false,
         queries: [],
         results: {
             sagas: [],
@@ -25,16 +26,24 @@ const SearchModule = {
             state.results.authors = Object.assign([], results.authors || []);
             state.results.genres = Object.assign([], results.genres || []);
             state.results.tracks = Object.assign([], results.tracks || []);
-        }
+        },
+
+        setIsSearching: (state, isSearching) => state.isSearching = isSearching,
     },
 
     actions: {
         async doSearch({ commit }, query) {
             commit('addQuery', query);
+            commit('setIsSearching', true);
 
-            let result = await api.search(query);
-
-            commit('setResults', result.data);
+            try {
+                let result = await api.search(query);
+                commit('setResults', result.data);
+            } catch (e) {
+                // @todo
+            } finally {
+                commit('setIsSearching', false);
+            }
         }
     },
 

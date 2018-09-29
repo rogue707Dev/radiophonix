@@ -11,14 +11,7 @@
                 Toutes vos sagas au même endroit
             </div>
             <div class="search-homepage my-5">
-                <form @submit.prevent="search">
-                    <div class="input-group">
-                        <input class="form-control" v-model="query" placeholder="Rechercher un faiseur, une saga, un épisode, un thème..." aria-describedby="Rechercher">
-                        <div class="input-group-append">
-                            <button class="btn btn-homepage" type="button">Rechercher</button>
-                        </div>
-                    </div>
-                </form>
+                <search-form></search-form>
             </div>
         </div>
 
@@ -217,6 +210,7 @@ import Headband from '~/components/content/Headband.vue';
 import Card from '~/components/content/Card.vue';
 import PublishPresentation from '~/components/publish/PublishPresentation.vue';
 import LienDiscord from '~/components/doc/LienDiscord';
+import SearchForm from '~/components/search/SearchForm';
 
 export default {
     components: {
@@ -225,13 +219,13 @@ export default {
         Card,
         PublishPresentation,
         LienDiscord,
+        SearchForm,
     },
 
     data() {
         return {
             sagas: [],
             genres: [],
-            query: '',
         };
     },
 
@@ -248,11 +242,6 @@ export default {
             this.genres = results.data.slice(0, 7);
         },
 
-        search() {
-            this.$store.dispatch('search/doSearch', this.query);
-            this.$router.push({ name: 'search' });
-        },
-
         getGenresRow(row) {
             return this.genres.slice(row * 3, 3 + (row * 3));
         }
@@ -263,5 +252,4 @@ export default {
         this.loadGenres();
     }
 }
-
 </script>
