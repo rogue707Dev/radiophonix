@@ -1,0 +1,181 @@
+/*======================================================================================================================
+$ MIXIN
+======================================================================================================================*/
+@mixin taille($taille) {
+    width: $taille;
+    height: $taille;
+}
+
+/*======================================================================================================================
+$ BASE
+======================================================================================================================*/
+.jacket{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    //border:1px solid red;
+}
+
+a:hover,
+a:focus {
+    .jacket:before {
+        border-color: $primary;
+    }
+    .jacket svg {
+        stroke: $primary;
+    }
+}
+
+
+/*======================================================================================================================
+$ TAILLE
+======================================================================================================================*/
+
+/*##########################################################
+    PETIT
+##########################################################*/
+.jacket.var--petit {
+    @include taille(94px);
+    /*---------------------------------*/
+    &.var--saga {
+        &:before {
+            @include taille(80px);
+        }
+        img {
+            @include taille(64px);
+        }
+    }
+    /*---------------------------------*/
+    &.var--faiseur {
+        &:before {
+            @include taille(78px);
+        }
+        img {
+            @include taille(80px);
+        }
+    }
+    /*---------------------------------*/
+    &.var--episode {
+        &:before {
+            @include taille(70px);
+        }
+        img {
+            @include taille(80px);
+        }
+    }
+    /*---------------------------------*/
+    &.var--genre {
+        svg {
+            @include taille(90px);
+            @include pa-centre();
+            stroke-width: 2px;
+        }
+        img {
+            @include taille(80px);
+        }
+    }
+    /*---------------------------------*/
+}
+
+/*##########################################################
+    MOYEN
+##########################################################*/
+.jacket.var--moyen {
+    @include taille(170px);
+    /*---------------------------------*/
+    &.var--saga {
+        &:before {
+            @include taille(150px);
+        }
+        img {
+            @include taille(130px);
+        }
+    }
+    /*---------------------------------*/
+    &.var--faiseur {
+        &:before {
+            @include taille(138px);
+        }
+        img {
+            @include taille(150px);
+        }
+    }
+    /*---------------------------------*/
+    &.var--episode {
+        &:before {
+            @include taille(124px);
+        }
+        img {
+            @include taille(150px);
+        }
+    }
+    /*---------------------------------*/
+    &.var--genre {
+        svg {
+            @include taille(160px);
+            @include pa-centre();
+            stroke-width: 2px;
+        }
+        img {
+            @include taille(150px);
+        }
+    }
+    /*---------------------------------*/
+}
+
+/*======================================================================================================================
+$ CONTOUR
+======================================================================================================================*/
+$couleur-contour: $bleu-200;
+
+.jacket:before {
+    content: "";
+    display: block;
+    @include pa-centre;
+}
+
+.jacket.var--saga:before {
+    border: 1px solid $couleur-contour;
+}
+
+.jacket.var--faiseur:before {
+    border: 1px solid $couleur-contour;
+    border-radius: 50%;
+}
+
+.jacket.var--episode:before {
+    border: 1px solid $couleur-contour;
+    @include pa-centre(rotate(45deg));
+    border-radius: 8px;
+}
+
+.jacket.var--genre svg {
+    stroke: $couleur-contour;
+}
+
+/*======================================================================================================================
+$ MASK
+  border-radius pour IE et edge
+======================================================================================================================*/
+.jacket__mask {
+    @include pa-centre();
+}
+
+.jacket.var--saga .jacket__mask {
+    //mask-image: url('/static/dev/images/masque-saga.svg');
+}
+
+.jacket.var--faiseur .jacket__mask {
+    border-radius:50%;
+    mask-image: url('/static/dev/images/masque-faiseur.svg');
+}
+
+.jacket.var--episode .jacket__mask {
+    border-radius:10px;
+    mask-image: url('/static/dev/images/masque-episode.svg');
+}
+
+.jacket.var--genre .jacket__mask {
+    border-radius:30px;
+    mask-image: url('/static/dev/images/masque-genre.svg');
+}

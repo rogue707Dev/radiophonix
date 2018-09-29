@@ -102,14 +102,19 @@
                 <div class="col-md-6">
 
                     <h2 class="h1 mb-4">Faiseur</h2>
+
+
+
                     <div class="d-flex flex-row">
                         <div>
-                            <router-link class="jaquette--petite jaquette--faiseur"
-                                         v-if="saga.author.id"
+                            <router-link v-if="saga.author.id"
                                          :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
-                                <img :src="saga.author.picture.thumb"
-                                     :alt="saga.author.name"
-                                     height="100px" width="100px"/>
+                                <jacket
+                                        size="petit"
+                                        type="faiseur"
+                                        :urlImage="saga.author.picture.thumb"
+                                        :altImage="saga.author.name">
+                                </jacket>
                             </router-link>
                         </div>
                         <div>
@@ -179,36 +184,26 @@
                             {{ collection.name }}
                         </h3>
 
-                        <div class="row episode-item"
+                        <div class="episode-item"
                              @click="play({track, saga})"
                              :class="{'actif': track.id == currentTrack.id}"
                              v-for="track in collection.tracks" :key="track.id">
-                            <div class="col-2 col-md-1 col-lg-1 order-lg-1">
-                                <div class="d-flex align-items-center h-100 justify-content-center"
-                                     v-html="formatTrackNumber(track.number)">
-                                </div>
-                            </div>
-                            <div class="col-8 col-md-7 col-lg-8 order-lg-2">
+                            <div class="ml-3" v-html="formatTrackNumber(track.number)"></div>
+                            <div>
                                 <span class="font-weight-bold">{{ track.title }}</span>
                                 <p>{{ track.synopsis }}</p>
                             </div>
-                            <div class="col-2 col-md-2 col-lg-1 order-lg-4">
-                                <div class="d-flex align-items-center h-100 justify-content-center">
-                                    <div v-if="track.id == currentTrack.id" class="skin-icon-fa__cercle text-primary">
-                                        <i aria-hidden="true" class="fa fa-spin fa-refresh" v-if="isLoading"></i>
-                                        <i aria-hidden="true" class="fa fa-volume-up" v-else></i>
-                                    </div>
-                                    <div v-else class="skin-icon-fa__cercle">
-                                        <i aria-hidden="true" class="fa fa-play"></i>
-                                    </div>
+                            <span class="episode-item--temps text-primary">
+                                <i aria-hidden="true" class="fa fa-clock-o"></i>
+                                <track-length :seconds="track.seconds" type="number"></track-length>
+                            </span>
+                            <div class="mr-lg-3">
+                                <div v-if="track.id == currentTrack.id" class="skin-icon-fa__cercle text-primary">
+                                    <i aria-hidden="true" class="fa fa-spin fa-refresh" v-if="isLoading"></i>
+                                    <i aria-hidden="true" class="fa fa-volume-up" v-else></i>
                                 </div>
-                            </div>
-                            <div class="col-10 offset-2 col-md-2 offset-md-0 col-lg-2 order-lg-3">
-                                <div class="d-flex align-items-center h-100">
-                                    <span class="text-primary">
-                                        <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                        <track-length :seconds="track.seconds" type="number"></track-length>
-                                    </span>
+                                <div v-else class="skin-icon-fa__cercle">
+                                    <i aria-hidden="true" class="fa fa-play"></i>
                                 </div>
                             </div>
                         </div>
@@ -231,6 +226,7 @@ import TextEllipsis from '~/components/text/TextEllipsis.vue';
 import CollectionType from '~/components/collection/CollectionType';
 import NavList from '~/components/Ui/Nav/NavList';
 import NavItem from '~/components/Ui/Nav/NavItem';
+import Jacket from '~/components/content/Jacket.vue';
 
 export default {
     components: {
@@ -241,6 +237,7 @@ export default {
         CollectionType,
         NavList,
         NavItem,
+        Jacket,
     },
 
     data() {

@@ -40,7 +40,7 @@
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
                             Nous sommes un développeur web (<a href="http://mopolo.fr/" class="lien-paragraphe">Nathan</a>)
-                            et un graphiste (<a href="http://www.pierre.tl" class="lien-paragraphe">Pierre</a>)
+                            et un UX Designer (<a href="http://www.pierre.tl" class="lien-paragraphe">Pierre</a>)
                             professionnels, passionnés de sagas MP3.<br/>
                             Faire des sites est notre métier depuis plusieurs années, ce qui
                             nous permet de développer ce projet.<br/>

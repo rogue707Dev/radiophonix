@@ -4,31 +4,15 @@
             :to="link"
             :class="{'var--horizontal': cardHorizontal}"
             class="card">
-        <div class="card-jacket" :class="['var--'+type]">
-            <div :class="{'jaquette--petite': cardHorizontal, 'jaquette--moyen': !cardHorizontal, ['jaquette--'+type]: true}">
-                <template v-if="type == 'saga'">
-                    <div class="jaquette--card">
-                        <img :src="urlImage" :alt="altImage">
-                    </div>
-                </template>
-                <template v-else>
-                    <img :src="urlImage" :alt="altImage">
-                </template>
-            </div>
-            <template v-if="type == 'genre'">
-                <div class="pa-centrer">
-                    <template v-if="cardHorizontal">
-                        <svg width="90px" height="79px">
-                            <use xlink:href="#contour-genre"></use>
-                        </svg>
-                    </template>
-                    <template v-else>
-                        <svg width="167px" height="145px">
-                            <use xlink:href="#contour-genre"></use>
-                        </svg>
-                    </template>
-                </div>
-            </template>
+
+
+        <div class="card-jacket">
+            <jacket
+                    size="moyen"
+                    :type="type"
+                    :urlImage="urlImage"
+                    :altImage="altImage">
+            </jacket>
         </div>
         <div class="card-button">
             <i aria-hidden="true" class="fa fa-plus"></i>
@@ -49,7 +33,13 @@
 </template>
 
 <script>
+import Jacket from '~/components/content/Jacket.vue';
+
 export default {
+    components: {
+        Jacket,
+    },
+
     props: {
         cardHorizontal: {
             type: Boolean,

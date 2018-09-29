@@ -6,6 +6,11 @@ $ ITEM EPISODE
 $ NORMAL
 -----------------------------------------------------------------------------*/
 .episode-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    grid-column-gap: $espacement-standard;
+    align-items: center;
+
     border-bottom: 1px solid $bleu-100;
     padding: $espacement-standard--petit 0;
 
@@ -25,6 +30,16 @@ $ NORMAL
     }
 }
 
+/*-----------------------------------------------------------------------------
+$ TEMPS EPISODE
+-----------------------------------------------------------------------------*/
+@include media-breakpoint-down(md){
+    .episode-item--temps {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+
+    }
+}
 
 /*-----------------------------------------------------------------------------
 $ ACTIF

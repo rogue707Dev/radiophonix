@@ -35,6 +35,10 @@ $banniere__padding-large: 20px;
         margin-left: 0;
     }
 
+    @include media-breakpoint-down(md) {
+        margin-bottom: $espacement-standard;
+    }
+
 }
 
 
