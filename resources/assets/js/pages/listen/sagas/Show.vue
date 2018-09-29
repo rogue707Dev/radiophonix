@@ -229,8 +229,8 @@ import Banner from '~/components/content/Banner.vue';
 import LicenceIcon from '~/components/licence/LicenceIcon.vue';
 import TextEllipsis from '~/components/text/TextEllipsis.vue';
 import CollectionType from '~/components/collection/CollectionType';
-import NavList from '~/components/nav/NavList';
-import NavItem from '~/components/nav/NavItem';
+import NavList from '~/components/Ui/Nav/NavList';
+import NavItem from '~/components/Ui/Nav/NavItem';
 
 export default {
     components: {

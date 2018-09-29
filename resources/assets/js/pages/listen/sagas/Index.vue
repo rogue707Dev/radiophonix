@@ -53,8 +53,8 @@ import SagaList from '~/components/saga/SagaList.vue';
 import AuthorList from '~/components/author/AuthorList.vue';
 import SagaAlphabetList from '~/components/saga/SagaAlphabetList.vue';
 import Card from '~/components/content/Card.vue';
-import NavList from '~/components/nav/NavList';
-import NavItem from '~/components/nav/NavItem';
+import NavList from '~/components/Ui/Nav/NavList';
+import NavItem from '~/components/Ui/Nav/NavItem';
 import Headband from '~/components/content/Headband.vue';
 
 export default {
