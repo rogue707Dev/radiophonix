@@ -52,7 +52,7 @@
 export default {
     props: {
         cardHorizontal: {
-            type: String,
+            type: Boolean,
             required: false
         },
         link: {
