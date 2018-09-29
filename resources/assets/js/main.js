@@ -1,7 +1,7 @@
 import Vue from 'vue';
 
 import store from '~/lib/store';
-import router from '~/router';
+import router from '~/routing/router';
 
 import filters from '~/lib/filters';
 import feature from '~/directives/feature';

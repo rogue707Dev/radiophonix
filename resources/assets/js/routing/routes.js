@@ -1,52 +1,48 @@
 // First we import the default layout
-import * as DefaultLayout from '~/pages/Layout.vue';
+import DefaultLayout from '~/pages/Layout.vue';
 
 // Error pages
-import * as NotFoundView from '~/pages/errors/404.vue';
+import NotFoundView from '~/pages/errors/404.vue';
 
 // Root level pages
-import * as HomeView from '~/pages/Home.vue';
-import * as LoginView from '~/pages/Login.vue';
-import * as ContributeView from '~/pages/Contribute.vue';
-import * as HelpView from '~/pages/Help.vue';
-import * as SearchView from '~/pages/Search.vue';
+import HomeView from '~/pages/Home.vue';
+import LoginView from '~/pages/Login.vue';
+import ContributeView from '~/pages/Contribute.vue';
+import HelpView from '~/pages/Help.vue';
+import SearchView from '~/pages/Search.vue';
 
 // Listen pages
-import * as ListenLayout from '~/pages/listen/Layout.vue';
-import * as ListenSagaIndexView from '~/pages/listen/sagas/Index.vue';
-import * as ListenSagaShowView from '~/pages/listen/sagas/Show.vue';
-import * as ListenAuthorIndexView from '~/pages/listen/authors/Index.vue';
-import * as ListenAuthorShowView from '~/pages/listen/authors/Show.vue';
-import * as ListenGenreShowView from '~/pages/listen/genres/Show.vue';
+import ListenLayout from '~/pages/listen/Layout.vue';
+import ListenSagaIndexView from '~/pages/listen/sagas/Index.vue';
+import ListenSagaShowView from '~/pages/listen/sagas/Show.vue';
+import ListenAuthorIndexView from '~/pages/listen/authors/Index.vue';
+import ListenAuthorShowView from '~/pages/listen/authors/Show.vue';
+import ListenGenreShowView from '~/pages/listen/genres/Show.vue';
 
 // Publish pages
-import * as PublishLayout from '~/pages/publish/Layout.vue';
-import * as PublishHomeView from '~/pages/publish/Home.vue';
+import PublishLayout from '~/pages/publish/Layout.vue';
+import PublishHomeView from '~/pages/publish/Home.vue';
 
-import * as PublishSagaDashboardView from '~/pages/publish/saga/Dashboard.vue';
-import * as PublishSagaTracksView from '~/pages/publish/saga/Tracks.vue';
-import * as PublishSagaCalendarView from '~/pages/publish/saga/Calendar.vue';
-import * as PublishSagaInformationsView from '~/pages/publish/saga/Informations.vue';
-import * as PublishSagaLinksView from '~/pages/publish/saga/Links.vue';
-import * as PublishSagaImagesView from '~/pages/publish/saga/Images.vue';
-import * as PublishSagaAuthorsView from '~/pages/publish/saga/Authors.vue';
-import * as PublishSagaCollectionsView from '~/pages/publish/saga/Collections.vue';
-import * as PublishSagaSettingsView from '~/pages/publish/saga/Settings.vue';
+import PublishSagaDashboardView from '~/pages/publish/saga/Dashboard.vue';
+import PublishSagaTracksView from '~/pages/publish/saga/Tracks.vue';
+import PublishSagaCalendarView from '~/pages/publish/saga/Calendar.vue';
+import PublishSagaInformationsView from '~/pages/publish/saga/Informations.vue';
+import PublishSagaLinksView from '~/pages/publish/saga/Links.vue';
+import PublishSagaImagesView from '~/pages/publish/saga/Images.vue';
+import PublishSagaAuthorsView from '~/pages/publish/saga/Authors.vue';
+import PublishSagaCollectionsView from '~/pages/publish/saga/Collections.vue';
+import PublishSagaSettingsView from '~/pages/publish/saga/Settings.vue';
 
-import * as PublishTrackDashboardView from '~/pages/publish/track/Dashboard.vue';
-import * as PublishTrackPublishingView from '~/pages/publish/track/Publishing.vue';
-import * as PublishTrackInformationsView from '~/pages/publish/track/Informations.vue';
-import * as PublishTrackFileView from '~/pages/publish/track/File.vue';
-import * as PublishTrackDateView from '~/pages/publish/track/Date.vue';
-import * as PublishTrackPercentagesView from '~/pages/publish/track/Percentages.vue';
-import * as PublishTrackChaptersView from '~/pages/publish/track/Chapters.vue';
+import PublishTrackDashboardView from '~/pages/publish/track/Dashboard.vue';
+import PublishTrackPublishingView from '~/pages/publish/track/Publishing.vue';
+import PublishTrackInformationsView from '~/pages/publish/track/Informations.vue';
+import PublishTrackFileView from '~/pages/publish/track/File.vue';
+import PublishTrackDateView from '~/pages/publish/track/Date.vue';
+import PublishTrackPercentagesView from '~/pages/publish/track/Percentages.vue';
+import PublishTrackChaptersView from '~/pages/publish/track/Chapters.vue';
 
 // Documentation views
-import * as DocumentationBootstrapView from '~/pages/doc/Bootstrap.vue';
-
-// Dev views
-// import * as MaquetteView from '~/pages/Maquette.vue';
-// import * as FooView from '~/pages/Foo.vue';
+import DocumentationBootstrapView from '~/pages/doc/Bootstrap.vue';
 
 const routes = [
     {
