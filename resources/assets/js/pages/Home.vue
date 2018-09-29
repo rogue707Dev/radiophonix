@@ -36,6 +36,25 @@
                         </p>
                     </blockquote>
 
+                    <h2 class="h1">Qu'est-ce qu'une Saga MP3 ?</h2>
+                    <blockquote class="blockquote mb-5">
+                        <p class="mb-0X">
+                            Une saga mp3 est le nom donné à une histoire se déroulant dans
+                            un univers le plus souvent imaginaire, diffusée sur Internet
+                            sous la forme d'un ou plusieurs fichiers sonores historiquement
+                            encodés au format MP3. La saga MP3 s'éloigne du livre audio,
+                            car contrairement à celui-ci, son histoire n'est pas lue mais
+                            interprétée et suit davantage le concept des aventures radiophoniques.
+                            Rapidement après leur apparition au début des années 2000, le nombre
+                            des sagas MP3 en téléchargement libre a explosé.
+                        </p>
+                        <footer class="blockquote-footer">
+                            <a href="https://wiki.netophonix.com/Saga_MP3" class="lien-paragraphe">
+                                Extrait du Netowiki
+                            </a>
+                        </footer>
+                    </blockquote>
+
                     <h2 class="h1">Qui êtes-vous ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
@@ -68,25 +87,6 @@
                             </a><br/>
                             Les contributions sont les bienvenues !
                         </p>
-                    </blockquote>
-
-                    <h2 class="h1">Qu'est-ce qu'une Saga MP3 ?</h2>
-                    <blockquote class="blockquote mb-5">
-                        <p class="mb-0X">
-                            Une saga mp3 est le nom donné à une histoire se déroulant dans
-                            un univers le plus souvent imaginaire, diffusée sur Internet
-                            sous la forme d'un ou plusieurs fichiers sonores historiquement
-                            encodés au format MP3. La saga MP3 s'éloigne du livre audio,
-                            car contrairement à celui-ci, son histoire n'est pas lue mais
-                            interprétée et suit davantage le concept des aventures radiophoniques.
-                            Rapidement après leur apparition au début des années 2000, le nombre
-                            des sagas MP3 en téléchargement libre a explosé.
-                        </p>
-                        <footer class="blockquote-footer">
-                            <a href="https://wiki.netophonix.com/Saga_MP3" class="lien-paragraphe">
-                                Extrait du Netowiki
-                            </a>
-                        </footer>
                     </blockquote>
 
                     Pour plus d'informations, allez voir la <router-link :to="{ name: 'help' }" class="lien-paragraphe">FAQ</router-link>.
