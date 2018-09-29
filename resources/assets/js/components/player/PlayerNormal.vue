@@ -100,6 +100,7 @@
                     <use xlink:href="#logo-part1of2"></use>
                     <use xlink:href="#logo-part2of2"></use>
                 </svg>
+                <br>
                 <span class="lead text-white">
                     Toutes vos sagas au même endroit !
                 </span>

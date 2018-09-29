@@ -135,6 +135,10 @@ $ PLAYLIST
         grid-row: 3/4;
     }
 
+    &.var--inactif {
+        display: none;
+    }
+
     @include media-breakpoint-up(lg) {
 
         &.actif {

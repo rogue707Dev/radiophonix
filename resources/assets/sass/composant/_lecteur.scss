@@ -7,6 +7,10 @@ $ CONTENEUR
     margin: 0 auto;
     padding: 20px 20px $padding-layout-sidebar;
 
+    &.var--playlist-inactif {
+        height: 100vh;
+    }
+
     @include media-breakpoint-down(md){
         background-color: $bleu-500;
         width: 100%;
