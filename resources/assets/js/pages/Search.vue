@@ -5,12 +5,9 @@
             v-if="!hasResults"
             urlImage="/static/home/recherche.jpg"
             title="Rechercher">
-
-            <template slot="content">
-                <div class="search-headband">
-                    <search-form></search-form>
-                </div>
-            </template>
+            <div class="search-headband">
+                <search-form></search-form>
+            </div>
         </headband>
 
         <headband
@@ -18,11 +15,9 @@
             urlImage="/static/home/resultat.jpg"
             title="Résultats"
             subtitle="">
-            <template slot="content">
-                <div class="search-headband">
-                    <search-form></search-form>
-                </div>
-            </template>
+            <div class="search-headband">
+                <search-form></search-form>
+            </div>
         </headband>
 
         <div class="container">
