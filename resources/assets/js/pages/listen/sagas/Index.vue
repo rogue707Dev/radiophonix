@@ -2,8 +2,10 @@
     <div>
         <headband
                 urlImage="/static/home/radio.jpg"
-                title="Écouter"
-                subtitle="Découvrez ou redécouvrez des sagas MP3">
+                title="Écouter">
+            <div class="search-headband">
+                <search-form></search-form>
+            </div>
         </headband>
 
         <div class="container">
@@ -56,6 +58,7 @@ import Card from '~/components/content/Card.vue';
 import NavList from '~/components/Ui/Nav/NavList';
 import NavItem from '~/components/Ui/Nav/NavItem';
 import Headband from '~/components/content/Headband.vue';
+import SearchForm from '~/components/search/SearchForm';
 
 export default {
     components: {
@@ -66,6 +69,7 @@ export default {
         NavList,
         NavItem,
         Headband,
+        SearchForm,
     },
 
     data() {
