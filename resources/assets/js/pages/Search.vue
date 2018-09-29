@@ -240,12 +240,7 @@
 <script>
 import { mapState, mapGetters } from 'vuex';
 import api from '~/lib/api';
-import SagaPreview from '~/components/saga/SagaPreview';
-import SagaZoom from '~/components/saga/SagaZoom';
 import SagaList from '~/components/saga/SagaList.vue';
-import AuthorPreview from '~/components/author/AuthorPreview';
-import GenrePreview from '~/components/genre/GenrePreview';
-import TrackPreview from '~/components/track/TrackPreview';
 import TrackLength from '~/components/track/Length.vue';
 import SagaStats from '~/components/saga/SagaStats.vue';
 import Card from '~/components/content/Card.vue';
@@ -254,12 +249,7 @@ import SearchForm from '~/components/search/SearchForm';
 
 export default {
     components: {
-        SagaPreview,
-        SagaZoom,
         SagaList,
-        AuthorPreview,
-        GenrePreview,
-        TrackPreview,
         TrackLength,
         SagaStats,
         Card,
