@@ -1,237 +1,229 @@
 <template>
     <div>
 
-        <template v-if="hasResults">
+        <headband
+            v-if="!hasResults"
+            urlImage="/static/home/recherche.jpg"
+            title="Rechercher">
 
-            <headband
-                    urlImage="/static/home/resultat.jpg"
-                    title="Résultats"
-                    subtitle="">
-                <template slot="content">
-                    <div class="search-headband">
-                        <search-form></search-form>
-                    </div>
-                </template>
-            </headband>
+            <template slot="content">
+                <div class="search-headband">
+                    <search-form></search-form>
+                </div>
+            </template>
+        </headband>
 
-            <div class="container">
-                <div class="layout-resultat-recherche">
+        <headband
+            v-if="hasResults"
+            urlImage="/static/home/resultat.jpg"
+            title="Résultats"
+            subtitle="">
+            <template slot="content">
+                <div class="search-headband">
+                    <search-form></search-form>
+                </div>
+            </template>
+        </headband>
 
-                    <!-- 4max : mise en avant -->
-                    <div class="layout-resultat-recherche__zoom">
+        <div class="container">
 
-                        <h1 class="h1 mb-4">Meilleurs résultats</h1>
+            <div v-if="hasResults" class="layout-resultat-recherche">
 
-                        <div class="list-card">
+                <!-- 4max : mise en avant -->
+                <div class="layout-resultat-recherche__zoom">
 
+                    <h1 class="h1 mb-4">Meilleurs résultats</h1>
 
-                            <div>
-                                <h2 class="h2 mb-1">Saga</h2>
-                                <Card
-                                    v-if="highlights.saga.id"
-                                    :link="{ name: 'listen.sagas.show', params: { idOrSlug: highlights.saga.slug } }"
-                                    :urlImage="highlights.saga.images.cover.main"
-                                    :altImage="highlights.saga.name"
-                                    :title="highlights.saga.name"
-                                    type="saga">
-
-                                    <template slot="stats">
-                                        <saga-stats
-                                            :stats="highlights.saga.stats"
-                                            :with-icon="true">
-                                        </saga-stats>
-                                    </template>
-                                </Card>
-                            </div>
-
-                            <div>
-                                <h2 class="h2 mb-1">Faiseur</h2>
-
-                                <Card
-                                        v-if="highlights.author.id"
-                                        :link="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }"
-                                        :urlImage="highlights.author.picture.thumb"
-                                        :altImage="highlights.author.name"
-                                        :title="highlights.author.name"
-                                        type="faiseur">
-
-                                    <template slot="stats">
-                                        <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                        {{ highlights.author.stats.sagas }} Séries
-                                    </template>
-                                </Card>
-                            </div>
-
-                            <div>
-                                <h2 class="h2 mb-1">Épisode</h2>
-                                <Card
-                                    v-if="highlights.track.id"
-                                    :link="{ name: 'home' }"
-                                    :urlImage="highlights.track.collection.saga.images.cover.thumb"
-                                    :altImage="highlights.track.title"
-                                    :title="highlights.track.title"
-                                    type="episode">
-
-                                    <template slot="stats">
-                                        <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                        {{ highlights.author.stats.sagas }} Séries
-                                    </template>
-                                </Card>
-                            </div>
-
-                            <div>
-                                <h2 class="h2 mb-1">Genre</h2>
-                                <Card
-                                    v-if="highlights.genre.id"
-                                    :link="{ name: 'listen.genres.show', params: { id: highlights.genre.id } }"
-                                    :urlImage="highlights.genre.image.main"
-                                    :altImage="highlights.genre.name"
-                                    :title="highlights.genre.name"
-                                    type="genre">
-
-                                    <template slot="stats">
-                                        <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                                        {{ highlights.genre.stats.sagas }} Séries
-                                    </template>
-                                </Card>
-                            </div>
-
-                        </div>
+                    <div class="list-card">
 
 
-
-
-
-                    </div>
-
-                    <!-- reste en vrac -->
-                    <div class="layout-resultat-recherche__vrac" v-if="otherResults.sagas.length > 0">
-
-                        <!-- mélanger -->
-                        <h2 class="h1 mt-4 mb-2">Sagas</h2>
-
-                        <div class="list-card-horizontal">
+                        <div>
+                            <h2 class="h2 mb-1">Saga</h2>
                             <Card
-                                v-for="saga in otherResults.sagas"
-                                :key="saga.id"
-                                :link="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }"
-                                :cardHorizontal="true"
-                                :urlImage="saga.images.cover.main"
-                                :altImage="saga.name"
-                                :title="saga.name"
-                                :badge="true"
+                                v-if="highlights.saga.id"
+                                :link="{ name: 'listen.sagas.show', params: { idOrSlug: highlights.saga.slug } }"
+                                :urlImage="highlights.saga.images.cover.main"
+                                :altImage="highlights.saga.name"
+                                :title="highlights.saga.name"
                                 type="saga">
 
                                 <template slot="stats">
                                     <saga-stats
-                                            :stats="saga.stats"
-                                            :with-icon="true">
+                                        :stats="highlights.saga.stats"
+                                        :with-icon="true">
                                     </saga-stats>
                                 </template>
                             </Card>
                         </div>
 
-                    </div>
+                        <div>
+                            <h2 class="h2 mb-1">Faiseur</h2>
 
-                    <div class="layout-resultat-recherche__vrac" v-if="otherResults.authors.length > 0">
-                        <h2 class="h1 mt-4 mb-2">Faiseurs</h2>
-
-                        <div class="list-card-horizontal">
                             <Card
-                                v-for="author in otherResults.authors"
-                                :key="author.id"
-                                :link="{ name: 'listen.authors.show', params: { id: author.slug } }"
-                                :cardHorizontal="true"
-                                :urlImage="author.picture.thumb"
-                                :altImage="author.name"
-                                :title="author.name"
-                                :badge="true"
+                                v-if="highlights.author.id"
+                                :link="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }"
+                                :urlImage="highlights.author.picture.thumb"
+                                :altImage="highlights.author.name"
+                                :title="highlights.author.name"
                                 type="faiseur">
 
                                 <template slot="stats">
-                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ author.stats.sagas }} Séries
+                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                    {{ highlights.author.stats.sagas }} Séries
                                 </template>
                             </Card>
                         </div>
 
-                    </div>
-
-                    <div class="layout-resultat-recherche__vrac" v-if="otherResults.tracks.length > 0">
-                        <h2 class="h1 mt-4 mb-2">Episodes</h2>
-                        <!--TODO lien a faire -> page episode a créer ?-->
-
-                        <div class="list-card-horizontal">
+                        <div>
+                            <h2 class="h2 mb-1">Épisode</h2>
                             <Card
-                                v-for="track in otherResults.tracks"
-                                :key="track.id"
+                                v-if="highlights.track.id"
                                 :link="{ name: 'home' }"
-                                :cardHorizontal="true"
-                                :urlImage="track.collection.saga.images.cover.thumb"
-                                :altImage="track.title"
-                                :title="track.title"
-                                :badge="true"
+                                :urlImage="highlights.track.collection.saga.images.cover.thumb"
+                                :altImage="highlights.track.title"
+                                :title="highlights.track.title"
                                 type="episode">
 
                                 <template slot="stats">
-                                    <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                    <track-length :seconds="track.seconds" type="short"></track-length>
+                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                    {{ highlights.author.stats.sagas }} Séries
                                 </template>
-
                             </Card>
                         </div>
 
-                    </div>
-
-                    <div class="layout-resultat-recherche__vrac" v-if="otherResults.genres.length > 0">
-                        <h2 class="h1 mt-4 mb-2">Genres</h2>
-                        <div class="list-card-horizontal">
+                        <div>
+                            <h2 class="h2 mb-1">Genre</h2>
                             <Card
-                                v-for="genre in otherResults.genres"
-                                :key="genre.id"
-                                :link="{ name: 'listen.genres.show', params: { id: genre.id } }"
-                                :cardHorizontal="true"
-                                :urlImage="genre.image.main"
-                                :altImage="genre.name"
-                                :title="genre.name"
-                                :badge="true"
+                                v-if="highlights.genre.id"
+                                :link="{ name: 'listen.genres.show', params: { id: highlights.genre.id } }"
+                                :urlImage="highlights.genre.image.main"
+                                :altImage="highlights.genre.name"
+                                :title="highlights.genre.name"
                                 type="genre">
 
                                 <template slot="stats">
-                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ genre.stats.sagas }} Séries
+                                    <i aria-hidden="true" class="fa fa-file-audio-o"></i>
+                                    {{ highlights.genre.stats.sagas }} Séries
                                 </template>
                             </Card>
                         </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <!-- reste en vrac -->
+                <div class="layout-resultat-recherche__vrac" v-if="otherResults.sagas.length > 0">
+
+                    <!-- mélanger -->
+                    <h2 class="h1 mt-4 mb-2">Sagas</h2>
+
+                    <div class="list-card-horizontal">
+                        <Card
+                            v-for="saga in otherResults.sagas"
+                            :key="saga.id"
+                            :link="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }"
+                            :cardHorizontal="true"
+                            :urlImage="saga.images.cover.main"
+                            :altImage="saga.name"
+                            :title="saga.name"
+                            :badge="true"
+                            type="saga">
+
+                            <template slot="stats">
+                                <saga-stats
+                                    :stats="saga.stats"
+                                    :with-icon="true">
+                                </saga-stats>
+                            </template>
+                        </Card>
                     </div>
 
                 </div>
+
+                <div class="layout-resultat-recherche__vrac" v-if="otherResults.authors.length > 0">
+                    <h2 class="h1 mt-4 mb-2">Faiseurs</h2>
+
+                    <div class="list-card-horizontal">
+                        <Card
+                            v-for="author in otherResults.authors"
+                            :key="author.id"
+                            :link="{ name: 'listen.authors.show', params: { id: author.slug } }"
+                            :cardHorizontal="true"
+                            :urlImage="author.picture.thumb"
+                            :altImage="author.name"
+                            :title="author.name"
+                            :badge="true"
+                            type="faiseur">
+
+                            <template slot="stats">
+                                <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ author.stats.sagas }} Séries
+                            </template>
+                        </Card>
+                    </div>
+
+                </div>
+
+                <div class="layout-resultat-recherche__vrac" v-if="otherResults.tracks.length > 0">
+                    <h2 class="h1 mt-4 mb-2">Episodes</h2>
+                    <!--TODO lien a faire -> page episode a créer ?-->
+
+                    <div class="list-card-horizontal">
+                        <Card
+                            v-for="track in otherResults.tracks"
+                            :key="track.id"
+                            :link="{ name: 'home' }"
+                            :cardHorizontal="true"
+                            :urlImage="track.collection.saga.images.cover.thumb"
+                            :altImage="track.title"
+                            :title="track.title"
+                            :badge="true"
+                            type="episode">
+
+                            <template slot="stats">
+                                <i aria-hidden="true" class="fa fa-clock-o"></i>
+                                <track-length :seconds="track.seconds" type="short"></track-length>
+                            </template>
+
+                        </Card>
+                    </div>
+
+                </div>
+
+                <div class="layout-resultat-recherche__vrac" v-if="otherResults.genres.length > 0">
+                    <h2 class="h1 mt-4 mb-2">Genres</h2>
+                    <div class="list-card-horizontal">
+                        <Card
+                            v-for="genre in otherResults.genres"
+                            :key="genre.id"
+                            :link="{ name: 'listen.genres.show', params: { id: genre.id } }"
+                            :cardHorizontal="true"
+                            :urlImage="genre.image.main"
+                            :altImage="genre.name"
+                            :title="genre.name"
+                            :badge="true"
+                            type="genre">
+
+                            <template slot="stats">
+                                <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ genre.stats.sagas }} Séries
+                            </template>
+                        </Card>
+                    </div>
+                </div>
+
             </div>
 
-        </template>
-
-
-
-        <template v-else>
-
-            <headband
-                    urlImage="/static/home/recherche.jpg"
-                    title="Rechercher"
-                    subtitle="">
-
-                <template slot="content">
-                    <div class="search-headband">
-                        <search-form></search-form>
-                    </div>
-                </template>
-            </headband>
-
-            <div class="container">
-
+            <template v-else>
                 <h1 class="h1 mb-4">Les plus populaires</h1>
 
                 <saga-list :sagas="popular"></saga-list>
+            </template>
 
-            </div>
-        </template>
+        </div>
 
 
     </div>
