@@ -62,7 +62,7 @@
                             Le site est actuellement en version Alpha, où seule l'écoute de sagas
                             est possible.<br/>
                             Nous avons fait attention à ce que les sagas présentes actuellement sur
-                            le site ont toute une licence Creative Commons.<br/>
+                            le site aient toutes une licence Creative Commons.<br/>
                             La publication est en cours de développement.<br/>
                             <br/>
                             N'hésitez pas à laisser des remarques, signaler des bugs et
