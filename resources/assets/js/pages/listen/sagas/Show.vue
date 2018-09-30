@@ -188,7 +188,7 @@
                              @click="play({track, saga})"
                              :class="{'actif': track.id == currentTrack.id}"
                              v-for="track in collection.tracks" :key="track.id">
-                            <div class="ml-3" v-html="formatTrackNumber(track.number)"></div>
+                            <div class="ml-3 text-right" v-html="formatTrackNumber(track.number)"></div>
                             <div>
                                 <span class="font-weight-bold">{{ track.title }}</span>
                                 <p>{{ track.synopsis }}</p>
