@@ -149,27 +149,20 @@ $couleur-contour: $bleu-200;
 
 /*======================================================================================================================
 $ MASK
-  border-radius pour IE et edge
+  Fonctionne pas sur IE et edge bien sur, mais osef
 ======================================================================================================================*/
 .cover__mask {
     @include pa-centre();
 }
 
-.cover.var--saga .cover__mask {
-    //mask-image: url('/static/dev/images/masque-saga.svg');
-}
-
 .cover.var--faiseur .cover__mask {
-    border-radius:50%;
     mask-image: url('/static/dev/images/masque-faiseur.svg');
 }
 
 .cover.var--episode .cover__mask {
-    border-radius:10px;
     mask-image: url('/static/dev/images/masque-episode.svg');
 }
 
 .cover.var--genre .cover__mask {
-    border-radius:30px;
     mask-image: url('/static/dev/images/masque-genre.svg');
 }
