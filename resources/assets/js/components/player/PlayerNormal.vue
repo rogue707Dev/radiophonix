@@ -54,7 +54,7 @@
             Progession
             ------------------------------------------>
             <div class="lecteur__progression text-white h5">
-                <span>{{ time }}</span>
+                <span>{{ currentTime }}</span>
                 <progress class="lecteur__progression__barre"
                           @click="seek"
                           :value="currentPercentage"
@@ -130,9 +130,9 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
+import Player from '~/lib/Player';
 import TextEllispis from '~/components/text/TextEllipsis.vue';
 import TrackLength from '~/components/track/TrackLength.vue';
-import Player from '~/lib/Player';
 
 export default {
     components: {
@@ -142,9 +142,7 @@ export default {
 
     data() {
         return {
-            time: '00:00',
             totalSteps: 100,
-            currentPercentage: 0,
         }
     },
 
@@ -154,6 +152,8 @@ export default {
         'currentSaga',
         'currentCollection',
         'currentCollections',
+        'currentPercentage',
+        'currentTime',
     ]),
 
     methods: {
@@ -185,20 +185,18 @@ export default {
         },
 
         seek(e) {
-            let percent = e.offsetX / e.target.offsetWidth;
+            let percent = (e.offsetX / e.target.offsetWidth) * 100;
 
-            Player.seekPercentage(percent * 100);
-
-            this.currentPercentage = Player.percentage();
-            this.time = Player.time();
+            this.$store.dispatch('player/seek', percent);
+            Player.storePercentage();
         },
 
         startLoop() {
             let vm = this;
 
             let loop = setInterval(function () {
-                vm.currentPercentage = Player.percentage();
-                vm.time = Player.time();
+                vm.$store.dispatch('player/refresh');
+                Player.storePercentage();
 
                 if (!vm.$store.state.player.isPlaying) {
                     clearInterval(loop);
@@ -208,11 +206,11 @@ export default {
     },
 
     watch: {
-        'isPlaying': 'startLoop'
+        'isPlaying': 'startLoop',
     },
 
     created() {
-        this.startLoop();
+        this.$store.dispatch('player/refresh');
         // window.addEventListener('beforeunload', this.beforeClosing);
     }
 }
