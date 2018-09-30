@@ -65,39 +65,25 @@
                     <h2 class="h1 mb-4">Synopsis</h2>
                     <p class="text-primary"><i aria-hidden="true" class="fa fa-calendar"></i>
                         {{ saga.creation_date | formatDate }}</p>
-                    <p>{{ saga.synopsis }}</p>
-                    <ul class="liste-bouton mt-3">
-                        <li v-if="saga.links.site">
-                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.site">
-                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
-                            </a>
-                        </li>
-                        <li v-if="saga.links.facebook">
-                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.facebook" title="Facebook">
-                                <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
-                            </a>
-                        </li>
-                        <li v-if="saga.links.twitter">
-                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.twitter" title="Twitter">
-                                <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
-                            </a>
-                        </li>
-                        <li v-if="saga.links.netowiki">
-                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.netowiki">
-                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
-                            </a>
-                        </li>
-                        <li v-if="saga.links.topic">
-                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.topic">
-                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
-                            </a>
-                        </li>
-                        <li v-if="saga.links.rss">
-                            <a class="btn btn-outline-secondary btn-sm" :href="saga.links.rss">
-                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;{{ saga.links.rss }}
-                            </a>
-                        </li>
-                    </ul>
+                    <p class="mb-3">{{ saga.synopsis }}</p>
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.site" v-if="saga.links.site">
+                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
+                    </a>
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.facebook" title="Facebook" v-if="saga.links.facebook">
+                        <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
+                    </a>
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.twitter" title="Twitter" v-if="saga.links.twitter">
+                        <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
+                    </a>
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.netowiki" v-if="saga.links.netowiki">
+                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
+                    </a>
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.topic" v-if="saga.links.topic">
+                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
+                    </a>
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.rss" v-if="saga.links.rss">
+                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;{{ saga.links.rss }}
+                    </a>
                 </div>
                 <div class="col-md-6">
 
@@ -125,37 +111,25 @@
                             <p><text-ellipsis :text="saga.author.bio" :size="200"></text-ellipsis></p>
                             <router-link v-if="saga.author.id"
                                          :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }"
-                                         class="btn btn-outline-primary btn-sm mt-3">
+                                         class="btn btn-outline-primary btn-sm my-3">
                                 Voir la biographie
                             </router-link>
 
-                            <ul class="liste-bouton mt-3">
-                                <li v-if="saga.author.links.site">
-                                    <a class="btn btn-outline-secondary btn-sm" :href="saga.author.links.site">
-                                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
-                                    </a>
-                                </li>
-                                <li v-if="saga.author.links.facebook">
-                                    <a class="btn btn-outline-secondary btn-sm" :href="saga.author.links.facebook" title="Facebook">
-                                        <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
-                                    </a>
-                                </li>
-                                <li v-if="saga.author.links.twitter">
-                                    <a class="btn btn-outline-secondary btn-sm" :href="saga.author.links.twitter" title="Twitter">
-                                        <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
-                                    </a>
-                                </li>
-                                <li v-if="saga.author.links.netowiki">
-                                    <a class="btn btn-outline-secondary btn-sm" :href="saga.author.links.netowiki">
-                                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
-                                    </a>
-                                </li>
-                                <li v-if="saga.author.links.topic">
-                                    <a class="btn btn-outline-secondary btn-sm" :href="saga.author.links.topic">
-                                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
-                                    </a>
-                                </li>
-                            </ul>
+                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.author.links.site" v-if="saga.author.links.site">
+                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
+                            </a>
+                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.author.links.facebook" title="Facebook" v-if="saga.author.links.facebook">
+                                <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
+                            </a>
+                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.author.links.twitter" title="Twitter" v-if="saga.author.links.twitter">
+                                <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
+                            </a>
+                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.author.links.netowiki" v-if="saga.author.links.netowiki">
+                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
+                            </a>
+                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.author.links.topic" v-if="saga.author.links.topic">
+                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
+                            </a>
                         </div>
                     </div>
 

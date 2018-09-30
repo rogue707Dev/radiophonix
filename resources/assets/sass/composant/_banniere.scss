@@ -5,15 +5,9 @@ $banniere__taille-visuel: 200px;
 $banniere__padding-large: 20px;
 
 .banniere {
-    @include banniere__fond;
-
-    //@include degrade-vertical--orange--fonce-moyen;
+    position: relative;
+    z-index: z-index(0);
     background: $bleu-100;
-    &:before {
-        background-image: url('/static/dev/images/motif-cercle-blanc.svg');
-    }
-
-
     padding: $banniere__padding-large;
     min-height: $largeur-sidebar;
     color: $bleu-500;
@@ -21,6 +15,28 @@ $banniere__padding-large: 20px;
     display: flex;
     flex-direction: column;
 
+    &:before {
+        @include content-absolute-cover;
+        background-image: url('/static/dev/images/motif-cercle-blanc.svg');
+        background-repeat: no-repeat;
+        background-size: 800px 800px;
+        background-position: center -280px;
+        z-index: z-index(0);
+    }
+
+
+    @include media-breakpoint-only(md) {
+        &:before {
+            background-position: -265px center;
+        }
+    }
+
+
+    @include media-breakpoint-up(lg) {
+        &:before {
+            background-position: -280px center;
+        }
+    }
 
     @include media-breakpoint-up(md) {
         flex-direction: row;

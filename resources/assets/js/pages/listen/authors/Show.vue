@@ -18,40 +18,26 @@
                 <div class="col-xl-8">
 
                     <h2 class="h1 mb-4">Biographie</h2>
-                    <p v-html="bio"></p>
+                    <p class="mb-3" v-html="bio"></p>
 
                 </div>
 
                 <div class="col-xl-4">
-
-                    <ul class="liste-bouton mt-3">
-                        <li v-if="author.links.site">
-                            <a class="btn btn-outline-secondary btn-sm" :href="author.links.site">
-                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
-                            </a>
-                        </li>
-                        <li v-if="author.links.facebook">
-                            <a class="btn btn-outline-secondary btn-sm" :href="author.links.facebook" title="Facebook">
-                                <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
-                            </a>
-                        </li>
-                        <li v-if="author.links.twitter">
-                            <a class="btn btn-outline-secondary btn-sm" :href="author.links.twitter" title="Twitter">
-                                <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
-                            </a>
-                        </li>
-                        <li v-if="author.links.netowiki">
-                            <a class="btn btn-outline-secondary btn-sm" :href="author.links.netowiki">
-                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
-                            </a>
-                        </li>
-                        <li v-if="author.links.topic">
-                            <a class="btn btn-outline-secondary btn-sm" :href="author.links.topic">
-                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
-                            </a>
-                        </li>
-                    </ul>
-
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="author.links.site" v-if="author.links.site">
+                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
+                    </a>
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="author.links.facebook" title="Facebook" v-if="author.links.facebook">
+                        <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
+                    </a>
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="author.links.twitter" title="Twitter" v-if="author.links.twitter">
+                        <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
+                    </a>
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="author.links.netowiki" v-if="author.links.netowiki">
+                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
+                    </a>
+                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="author.links.topic" v-if="author.links.topic">
+                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
+                    </a>
                 </div>
             </div>
 

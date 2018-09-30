@@ -2,6 +2,10 @@
 $ BASE
 composent bootstrap stylé
 ======================================================================================================================*/
+// pour que les calcul soit plus parlant
+$espacement-bas-barre-navigation: $espacement-standard--petit;
+$espacement-bas-bouton-barre-navigation: $espacement-standard;
+
 .nav:not(.nav-pills) {
     @include barre-bas {
         z-index: z-index(0);

@@ -1,5 +1,5 @@
 <template>
-    <div class="layout-header">
+    <div class="layout-header-mobile">
 
         <i class="fa" aria-hidden="true" @click="toggleMenu"
            :class="{ 'fa-close': isMenuOpen, 'fa-bars': !isMenuOpen }"></i>

@@ -144,7 +144,7 @@
                     </div>
                     <div class="card-button">
                         <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actifxxx"></i>
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
                         <p class="h3 text-body">
@@ -251,7 +251,7 @@
                     </div>
                     <div class="card-button">
                         <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actifxxx"></i>
+                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
                         <p class="h3 text-body">
@@ -374,12 +374,6 @@
                 <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
                 <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
             </svg>
-            <div>
-                <svg width="280px" height="50px" class="fill--bleu">
-                    <use xlink:href="#logo-part1of2"></use>
-                    <use xlink:href="#logo-part2of2"></use>
-                </svg>
-            </div>
             <div style="background-color: #3a4651">
                 <svg width="280px" height="50px" class="fill--blanc">
                     <use xlink:href="#logo-part1of2"></use>

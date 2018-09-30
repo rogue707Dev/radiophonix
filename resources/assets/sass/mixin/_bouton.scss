@@ -1,29 +1,6 @@
 /*======================================================================================================================
-$ BOUTON
-======================================================================================================================*/
-@mixin btn-outline-custom() {
-    background-color: $white;
-
-    @include survol() {
-        border-color: transparent;
-        background-color: transparent;
-    }
-}
-@mixin btn-outline-custom-in-input-group($color) {
-    box-shadow: none;
-    border: 1px solid $color;
-
-    @include survol() {
-        background-color: $color;
-        color: color-yiq($color);
-    }
-}
-
-
-
-/*-----------------------------------------------------------------------------
 $ BASE BOUTON ROND
------------------------------------------------------------------------------*/
+======================================================================================================================*/
 @mixin btn-round($largeur) {
     width: $largeur;
     height: $largeur;
@@ -32,64 +9,4 @@ $ BASE BOUTON ROND
     align-items: center;
     justify-content: center;
     font-size: px2rem(14);
-}
-
-
-
-
-/*======================================================================================================================
-$ BOUTON PANNEL
-======================================================================================================================*/
-
-/*-----------------------------------------------------------------------------
-$ BASE
------------------------------------------------------------------------------*/
-@mixin btn-panel__petit-defaut {
-    position: absolute;
-    right: 7px;
-    bottom: 7px;
-    z-index: z-index(15);
-    transition: bottom 0.4s, right 0.4s;
-}
-
-/*-----------------------------------------------------------------------------
-$ APPARITION des BOUTONS
------------------------------------------------------------------------------*/
-@mixin btn-panel__apparition-petit-bouton {
-    //zone cliquable
-    &:after {
-        display: block;
-        $espacement: 40px;
-        content: "";
-        position: absolute;
-        right: -($espacement);
-        bottom: -($espacement);
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        border: $espacement solid transparent;
-        box-sizing: content-box;
-    }
-
-    // bouton
-    & .btn-panel-1 {
-        right: -5px;
-        bottom: 62px;
-    }
-    & .btn-panel-2 {
-        right: 38px;
-        bottom: 55px;
-    }
-    & .btn-panel-3 {
-        right: 62px;
-        bottom: 20px;
-    }
-    & .btn-panel-4 {
-        right: 56px;
-        bottom: -20px;
-    }
-    & .btn-panel-5 {
-        right: 23px;
-        bottom: -46px;
-    }
 }

@@ -1,24 +1,12 @@
 /*======================================================================================================================
 $ TAILLE
 ======================================================================================================================*/
-.jaquette--petite {
-    @include jaquette();
-}
-
-.jaquette--moyen {
-    @include jaquette($largeur-moyen-jaquette);
-}
-
 .jaquette--grande {
-    @include jaquette($largeur-grande-jaquette);
+    @include jaquette(200px);
 }
 
 .jaquette--banniere {
     @include jaquette(244px);
-}
-
-.jaquette--card {
-    @include jaquette(131px);
 }
 
 
@@ -33,11 +21,6 @@ $ MASQUE
 .jaquette--faiseur {
     border-radius:50%;
     mask-image: url('/static/dev/images/masque-faiseur.svg');
-}
-
-.jaquette--episode {
-    border-radius:10px;
-    mask-image: url('/static/dev/images/masque-episode.svg');
 }
 
 .jaquette--genre {

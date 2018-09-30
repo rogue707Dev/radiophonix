@@ -50,14 +50,6 @@ $ HALO
     box-shadow: 0 0 3px 0 $bleu-300;
 }
 
-@mixin halo--rouge {
-    box-shadow: 0 0 3px 0 $primary;
-}
-
-@mixin halo--blanc {
-    box-shadow: 0 0 3px 0 $blanc;
-}
-
 
 
 
@@ -100,24 +92,10 @@ $ CENTRE CENTRE
     }
 }
 
-
-
 /*======================================================================================================================
-$ ESPACEMENT MAINPAGE
+$ TAILLE
 ======================================================================================================================*/
-@mixin margin-layout-main {
-    margin-right: $espacement-standard;
-    margin-left: $espacement-standard;
+@mixin taille($taille) {
+    width: $taille;
+    height: $taille;
 }
-
-
-
-
-
-
-
-
-
-
-
-

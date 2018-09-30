@@ -1,17 +1,5 @@
 <template>
     <ul class="layout-conteneur__menu">
-<!--
-        <li class="layout-menu__item-log">
-            <svg width="30px" height="30px">
-                <use xlink:href="#login2"></use>
-            </svg>
-            Connexion
-        </li>
-
-        <menu-item name="home" route="home" icon="login2" class="layout-menu__item layout-menu__item-log2">
-            Connexion
-        </menu-item>
--->
         <menu-item name="login"
                         route="login"
                         icon="login2"
@@ -19,12 +7,6 @@
                         v-feature="'login'">
             Connexion
         </menu-item>
-         <!--
-        <menu-item name="home" route="home" icon="login2" class="layout-menu__item layout-menu__item-log4">
-            Connexion
-        </menu-item>
--->
-
         <menu-item name="home" route="home" icon="maison" class="layout-menu__item">
             Accueil
         </menu-item>

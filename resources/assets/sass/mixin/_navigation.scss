@@ -10,7 +10,7 @@ $ NAVIGATION
         bottom: -($espacement-bas-barre-navigation);
         left: 0;
         right: 0;
-        height: $hauteur-barre-navigation;
+        height: 3px;
         @content;
     }
 }

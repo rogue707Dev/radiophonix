@@ -48,7 +48,7 @@ $ FILTRE IMAGE PLAYER EN ATTENTE
 ======================================================================================================================*/
 .lecteur__filtre-bleu {
     @include cover;
-    background: rgba($bleu-500, $lecteur-opacite-filtre-couleur);
+    background: rgba($bleu-500, 0.8);
     width: 280px;
 }
 
