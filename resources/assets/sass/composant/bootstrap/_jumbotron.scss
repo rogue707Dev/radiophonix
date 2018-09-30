@@ -12,13 +12,30 @@ $ VARIATION
 ======================================================================================================================*/
 .var--bg-image {
     position: relative;
-    height: 300px;
+    display: grid;
+    min-height: 140px;
     background-size:cover;
     background-position: 0% center;
     background-repeat: no-repeat;
+    color: $blanc;
+    padding: 0;
 
-    .centrage-enfant {
-        color: $blanc;
-        padding: 0 $espacement-standard;
+    @include media-breakpoint-only(md) {
+        min-height: 200px;
     }
+
+    @include media-breakpoint-up(lg) {
+        min-height: 300px;
+    }
+}
+
+.jumbotron-bg-image__filtre {
+    display: grid;
+    align-items: center;
+    height: 100%;
+    background: rgba($bleu-500, 0.7);
+}
+
+.jumbotron-bg-image__content {
+    padding: 10px $espacement-standard;
 }

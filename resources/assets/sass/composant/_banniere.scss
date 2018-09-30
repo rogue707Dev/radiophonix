@@ -106,12 +106,14 @@ $ BANNIERE COVER
 $ ZONE CONTENU
 ======================================================================================================================*/
 .banniere__zone-contenu {
+    display: grid;
+    align-items: center;
     flex-grow: 1;
 
     z-index: z-index(1);
 
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
         margin-left: 30px;
     }
 }

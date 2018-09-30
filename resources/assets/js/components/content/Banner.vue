@@ -6,8 +6,8 @@
             <slot name="image"></slot>
 
         </div>
-        <div class="banniere__zone-contenu centrage-parent">
-            <div class="centrage-enfant text-center text-lg-left">
+        <div class="banniere__zone-contenu">
+            <div class="text-center text-md-left">
 
                 <h2 class="h1">{{ subtitle }}</h2>
                 <h1 class="display-2">{{ title }}</h1>

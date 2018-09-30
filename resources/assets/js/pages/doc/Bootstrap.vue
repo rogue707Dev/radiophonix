@@ -355,9 +355,8 @@
                 Jumboron classique
             </div>
             <div class="jumbotron var--bg-image" style="background-image: url(&quot;/static/home/ecouter.jpeg&quot;);">
-                <div class="pa__filtre-bleu"></div>
-                <div class="pa-cover centrage-parent">
-                    <div class="centrage-enfant">
+                <div class="jumbotron-bg-image__filtre">
+                    <div class="jumbotron-bg-image__content">
                         .jumboron.var--bg-image
                         <br>
                         Avec un structure pour centrer le texte et ajouter un filtre au bg

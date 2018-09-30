@@ -17,13 +17,13 @@
                 </button>
             </template>
 
-            <div class="btn-toolbar mt-3">
-                <div class="statistic-container btn-group btn-group-sm mr-2">
+            <div class="btn-toolbar mt-3 justify-content-center justify-content-md-start">
+                <div class="statistic-container btn-group btn-group-sm mb-2 mr-2">
                     <button type="button" class="btn btn-outline-secondary disabled">
                         {{ saga.stats.bravos }} <i aria-hidden="true" class="fa fa-heart"></i>
                     </button>
                 </div>
-                <div class="statistic-container btn-group btn-group-sm mr-2">
+                <div class="statistic-container btn-group btn-group-sm mb-2 mr-2">
                     <template v-if="saga.stats.collections == 1">
                         <button type="button" class="btn btn-outline-secondary disabled">
                             {{ saga.stats.tracks }} épisodes
@@ -38,7 +38,7 @@
                         </button>
                     </template>
                 </div>
-                <div class="statistic-container btn-group btn-group-sm mr-2">
+                <div class="statistic-container btn-group btn-group-sm mb-2 mr-2">
                     <router-link tag="button"
                                  class="btn btn-outline-primary"
                                  v-if="genre"
@@ -46,7 +46,7 @@
                         {{ genre.name }}
                     </router-link>
                 </div>
-                <div class="statistic-container btn-group btn-group-sm" v-if="saga.finished">
+                <div class="statistic-container btn-group btn-group-sm mb-2" v-if="saga.finished">
                     <button type="button" class="btn btn-outline-secondary disabled">
                         Terminée
                     </button>
