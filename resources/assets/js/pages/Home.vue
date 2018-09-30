@@ -160,7 +160,7 @@
         <div class="container" v-feature="'contribuer'">
             <div class="row mb-5">
                 <div class="col-12">
-                    <p>Radiophonix est actuellement en <span class="badge badge-danger">Alpha</span></p>
+                    <p>Radiophonix est actuellement en <span class="badge badge-warning">Alpha</span></p>
                 </div>
             </div>
             <div class="row">
@@ -234,7 +234,7 @@ export default {
         async loadSagas() {
             let result = await api.sagas.all({ random: 1 });
 
-            this.sagas = result.data.slice(0, 10);
+            this.sagas = result.data.slice(0, 8);
         },
 
         async loadGenres() {
