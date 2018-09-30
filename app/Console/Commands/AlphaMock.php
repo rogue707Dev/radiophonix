@@ -75,17 +75,7 @@ class AlphaMock extends Command
      */
     public function handle()
     {
-        $this->alert('Refresh de la BDD');
-        Artisan::call('migrate:fresh', [], new ConsoleOutput());
-
-        $this->line('');
-        $this->alert('Nettoyage des anciennes images');
-        Artisan::call('medialibrary:clean', [], new ConsoleOutput());
-        Artisan::call('medialibrary:clear', [], new ConsoleOutput());
-
-        $this->line('');
-        $this->alert('Seed des données de l\'alpha');
-        Artisan::call('alpha:seed', [], new ConsoleOutput());
+        Artisan::call('alpha:refresh', [], new ConsoleOutput());
 
         $this->line('');
         $this->alert('Création des fichiers de mock');
