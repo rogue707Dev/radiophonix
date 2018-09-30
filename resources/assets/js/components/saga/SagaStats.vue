@@ -1,6 +1,6 @@
 <template>
     <span>
-        <i aria-hidden="true" class="fa fa-podcast" v-if="withIcon"></i>
+        <i aria-hidden="true" class="fa fa-music" v-if="withIcon"></i>
         {{ collections }}
         <template v-if="collections > 1">Saisons</template>
         <template v-else>Saison</template>

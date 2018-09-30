@@ -10,8 +10,10 @@
         :card-horizontal="horizontal">
 
         <template slot="stats" v-if="withStats">
-            <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-            {{ author.stats.sagas }} Séries
+            <i aria-hidden="true" class="fa fa-microphone"></i>
+            {{ author.stats.sagas }}
+            <template v-if="author.stats.sagas > 1">Sagas</template>
+            <template v-else>Saga</template>
         </template>
 
     </Card>
