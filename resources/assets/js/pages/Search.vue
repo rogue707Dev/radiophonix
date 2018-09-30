@@ -68,8 +68,8 @@
                             size="moyen">
 
                         <template slot="stats">
-                            <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                            {{ highlights.author.stats.sagas }} Séries
+                            <i aria-hidden="true" class="fa fa-clock-o"></i>
+                            <track-length :seconds="highlights.track.seconds" type="number"></track-length>
                         </template>
                     </Card>
                     <Card
@@ -89,9 +89,9 @@
                     </Card>
                 </div>
 
-                <h1 class="h1 mt-5 mb-4">Mais aussi ...</h1>
+                <h1 class="h1 mt-5 mb-4" v-if="hasOtherResults">Mais aussi ...</h1>
                 <!-- tous les résultat de tout type a classer par ordre alphabétique ou mieux encore qui correspondent le mieux a la recherche -->
-                <div class="list-card-horizontal">
+                <div class="list-card-horizontal" v-if="hasOtherResults">
                     <template class="list-card-horizontal" v-if="otherResults.sagas.length > 0">
                         <Card
                                 v-for="saga in otherResults.sagas"
@@ -143,7 +143,7 @@
                                 size="petit">
                             <template slot="stats">
                                 <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                <track-length :seconds="track.seconds" type="short"></track-length>
+                                <track-length :seconds="track.seconds" type="number"></track-length>
                             </template>
                         </Card>
                     </template>
@@ -213,6 +213,7 @@ export default {
 
         ...mapGetters('search', [
             'hasResults',
+            'hasOtherResults',
             'highlights',
             'otherResults',
         ]),

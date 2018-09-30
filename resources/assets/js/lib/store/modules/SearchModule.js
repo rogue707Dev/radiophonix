@@ -40,6 +40,7 @@ const SearchModule = {
                 let result = await api.search(query);
                 commit('setResults', result.data);
             } catch (e) {
+                console.log('Erreur de recherche', e);
                 // @todo
             } finally {
                 commit('setIsSearching', false);
@@ -75,7 +76,14 @@ const SearchModule = {
                 genres: state.results.genres.slice(1, 5),
                 tracks: state.results.tracks.slice(1, 5),
             };
-        }
+        },
+
+        hasOtherResults(state) {
+            return state.results.sagas.length > 1
+                || state.results.authors.length > 1
+                || state.results.genres.length > 1
+                || state.results.tracks.length > 1;
+        },
     }
 };
 

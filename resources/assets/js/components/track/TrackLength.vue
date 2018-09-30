@@ -29,7 +29,10 @@ const getTimeString = function(time, word, type) {
 
 export default {
     props: {
-        seconds: Number,
+        seconds: {
+            type: Number,
+            required: true,
+        },
         type: {
             type: String,
             default: 'full',
