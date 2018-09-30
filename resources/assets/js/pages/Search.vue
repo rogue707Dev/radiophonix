@@ -25,23 +25,10 @@
             <div v-if="hasResults">
                 <h1 class="h1 mb-4">Meilleurs résultats</h1>
                 <div class="list-card">
-                    <Card
-                            v-if="highlights.saga.id"
-                            :link="{ name: 'listen.sagas.show', params: { idOrSlug: highlights.saga.slug } }"
-                            :urlImage="highlights.saga.images.cover.main"
-                            :altImage="highlights.saga.name"
-                            :title="highlights.saga.name"
-                            :badge="true"
-                            type="saga"
-                            size="moyen">
-
-                        <template slot="stats">
-                            <saga-stats
-                                    :stats="highlights.saga.stats"
-                                    :with-icon="true">
-                            </saga-stats>
-                        </template>
-                    </Card>
+                    <card-saga v-if="highlights.saga.id"
+                               :saga="highlights.saga"
+                               :badge="true"
+                               :with-author="false"></card-saga>
                     <Card
                             v-if="highlights.author.id"
                             :link="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }"
@@ -92,25 +79,13 @@
                 <h1 class="h1 mt-5 mb-4" v-if="hasOtherResults">Mais aussi ...</h1>
                 <!-- tous les résultat de tout type a classer par ordre alphabétique ou mieux encore qui correspondent le mieux a la recherche -->
                 <div class="list-card-horizontal" v-if="hasOtherResults">
-                    <template class="list-card-horizontal" v-if="otherResults.sagas.length > 0">
-                        <Card
-                                v-for="saga in otherResults.sagas"
-                                :key="saga.id"
-                                :link="{ name: 'listen.sagas.show', params: { idOrSlug: saga.slug } }"
-                                :cardHorizontal="true"
-                                :urlImage="saga.images.cover.main"
-                                :altImage="saga.name"
-                                :title="saga.name"
-                                :badge="true"
-                                type="saga"
-                                size="petit">
-                            <template slot="stats">
-                                <saga-stats
-                                        :stats="saga.stats"
-                                        :with-icon="true">
-                                </saga-stats>
-                            </template>
-                        </Card>
+                    <template v-if="otherResults.sagas.length > 0">
+                        <card-saga v-for="saga in otherResults.sagas"
+                                   :key="saga.id"
+                                   :saga="saga"
+                                   :badge="true"
+                                   :horizontal="true"
+                                   :with-author="false"></card-saga>
                     </template>
                     <template v-if="otherResults.authors.length > 0">
                         <Card
@@ -184,19 +159,19 @@ import { mapState, mapGetters } from 'vuex';
 import api from '~/lib/api';
 import SagaList from '~/components/saga/SagaList.vue';
 import TrackLength from '~/components/track/TrackLength.vue';
-import SagaStats from '~/components/saga/SagaStats.vue';
 import Card from '~/components/content/Card.vue';
 import Headband from '~/components/content/Headband.vue';
 import SearchForm from '~/components/search/SearchForm';
+import CardSaga from '~/components/content/Card/CardSaga';
 
 export default {
     components: {
         SagaList,
         TrackLength,
-        SagaStats,
         Card,
         Headband,
         SearchForm,
+        CardSaga,
     },
 
     data() {
