@@ -21,7 +21,8 @@
                 La plateforme est composée de deux briques essentielles : le site et l'API.<br/>
                 <br/>
                 Pour voir le code c'est <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">par ici</a> !<br/>
-                Pour signaler des bugs c'est <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">par ici</a> !
+                Pour signaler des bugs c'est <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">par ici</a> !<br />
+                Vous pouvez également rejoindre le <lien-discord /> !
             </p>
 
             <div class="row mt-3">
@@ -54,7 +55,8 @@
 </code></pre>
 
                 </div>
-
+            </div>
+            <div class="row">
                 <div class="col">
 
                     <h2 class="h1 mb-4">
@@ -71,15 +73,15 @@
 
                     <pre class="mt-4 bg-light" style="padding: 5px;"><code>&lt;?php
 
-    <span class="text-danger">namespace</span> Radiophonix\Api;
+<span class="text-danger">namespace</span> Radiophonix\Api;
 
-    <span class="text-danger">class</span> Radiophonix
+<span class="text-danger">class</span> Radiophonix
+{
+    <span class="text-danger">public function</span> api()
     {
-        <span class="text-danger">public function</span> api()
-        {
-            <span class="text-danger">return new</span> Saga();
-        }
+        <span class="text-danger">return new</span> Saga();
     }
+}
     </code></pre>
 
                 </div>
@@ -90,10 +92,12 @@
 
 <script>
     import Headband from '~/components/content/Headband.vue';
+    import LienDiscord from '~/components/doc/LienDiscord';
 
     export default {
         components: {
             Headband,
+            LienDiscord,
         },
     }
 </script>
