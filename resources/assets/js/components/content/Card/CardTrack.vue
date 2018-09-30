@@ -57,11 +57,6 @@
                 type: Boolean,
                 default: true,
             },
-
-            withAuthor: {
-                type: Boolean,
-                default: true,
-            },
         }
     }
 </script>
