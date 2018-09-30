@@ -6,10 +6,12 @@
                 subtitle="Genres">
 
             <template slot="image">
-                <div class="pr jaquette--genre jaquette--grande">
-                    <img :src="genre.image.main" alt="" class="img__filtre-assombri">
-                    <div class="pa__filtre-bleu"></div>
-                </div>
+                <cover
+                        size="banniere"
+                        type="genre"
+                        :urlImage="genre.image.main"
+                        :altImage="genre.name">
+                </cover>
             </template>
 
         </banner>
@@ -27,11 +29,13 @@
 import api from '~/lib/api';
 import Banner from '~/components/content/Banner.vue';
 import SagaList from '~/components/saga/SagaList.vue';
+import Cover from '~/components/content/Cover.vue';
 
 export default {
     components: {
         Banner,
         SagaList,
+        Cover,
     },
 
     data() {

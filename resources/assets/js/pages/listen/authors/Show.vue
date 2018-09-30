@@ -6,9 +6,12 @@
             :title="author.name">
 
             <template slot="image">
-                <div class="jaquette--banniere jaquette--faiseur">
-                    <img :src="author.picture.main" alt="" />
-                </div>
+                <cover
+                        size="banniere"
+                        type="faiseur"
+                        :urlImage="author.picture.main"
+                        :altImage="author.name">
+                </cover>
             </template>
         </banner>
 
@@ -60,6 +63,7 @@
 import api from '~/lib/api'
 import Banner from '~/components/content/Banner.vue';
 import SagaList from '~/components/saga/SagaList.vue';
+import Cover from '~/components/content/Cover.vue';
 
 function nl2br(str) {
     return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1<br/>$2');
@@ -69,6 +73,7 @@ export default {
     components: {
         Banner,
         SagaList,
+        Cover
     },
 
     data() {

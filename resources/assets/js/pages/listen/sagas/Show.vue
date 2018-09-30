@@ -6,9 +6,12 @@
             :subtitle="saga.author.name">
 
             <template slot="image">
-                <div class="jaquette--banniere jaquette--saga">
-                    <img :src="saga.images.cover.main" alt="" />
-                </div>
+                <cover
+                        size="banniere"
+                        type="saga"
+                        :urlImage="saga.images.cover.main"
+                        :altImage="saga.name">
+                </cover>
                 <button class="pa-centrer btn btn-outline-theme btn-round btn-lg" @click="playSaga">
                     <i aria-hidden="true" class="fa fa-play"></i>
                 </button>
