@@ -4,11 +4,28 @@ $ LISTE DE CARTE
 $largeur-card: 200px;
 $largeur-card-horizontal: 300px;
 $largeur-conteneur-cover: 100px;
+$list-card-gap: 20px;
+
+//15px = paddong .container en "sm"
+$card-moyenne-1-par-ligne-max: ((15px + $largeur-card + $list-card-gap + $largeur-card + 15px) - 1 );
+$card-moyenne-2-par-ligne-max: ((15px + $largeur-card + $list-card-gap + $largeur-card + $list-card-gap + $largeur-card + 15px) - 1 );
 
 .list-card {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax($largeur-card, 1fr));
+    grid-gap: $list-card-gap;
+
+    // Deux cartes "moyen" par ligne max
+    @media screen and (max-width: $card-moyenne-2-par-ligne-max) {
+        grid-template-columns: repeat(auto-fill,$largeur-card);
+        justify-content: space-around;
+    }
+
+    // Une carte "moyen" par ligne max
+    @media screen and (max-width: $card-moyenne-1-par-ligne-max) {
+        //carte a faire ? en 142px, (320- (15*2 padding) + 6px gap)
+    }
+
 }
 
 .list-card .card {
