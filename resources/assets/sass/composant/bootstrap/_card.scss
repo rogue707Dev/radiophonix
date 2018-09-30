@@ -1,14 +1,6 @@
 /*======================================================================================================================
 $ LISTE DE CARTE
 ======================================================================================================================*/
-$largeur-card: 200px;
-$largeur-card-horizontal: 300px;
-$largeur-conteneur-cover: 100px;
-$list-card-gap: 20px;
-
-//15px = paddong .container en "sm"
-$card-moyenne-1-par-ligne-max: ((15px + $largeur-card + $list-card-gap + $largeur-card + 15px) - 1 );
-$card-moyenne-2-par-ligne-max: ((15px + $largeur-card + $list-card-gap + $largeur-card + $list-card-gap + $largeur-card + 15px) - 1 );
 
 .list-card {
     display: grid;
@@ -22,14 +14,19 @@ $card-moyenne-2-par-ligne-max: ((15px + $largeur-card + $list-card-gap + $largeu
     }
 
     // Une carte "moyen" par ligne max
-    @media screen and (max-width: $card-moyenne-1-par-ligne-max) {
-        //carte a faire ? en 142px, (320- (15*2 padding) + 6px gap)
+    @include resize-card-moyen {
+        grid-template-columns: repeat(auto-fill,$largeur-card-sm);
+        grid-gap: $list-card-gap-sm;
     }
 
 }
 
 .list-card .card {
     width: $largeur-card;
+
+    @include resize-card-moyen {
+        width: $largeur-card-sm;
+    }
 }
 
 .list-card-horizontal {
@@ -73,6 +70,10 @@ $ CONTENEUR à cover
     display: grid;
     justify-items: center;
     align-items: center;
+
+    @include resize-card-moyen {
+        height: $largeur-card-sm;
+    }
 }
 
 
@@ -90,6 +91,10 @@ $ BOUTON
     grid-template-columns: auto auto;
     justify-content: space-between;
     color: $bleu-200;
+
+    @include resize-card-moyen {
+        top: ($largeur-card-sm - 20px);
+    }
 
     .fa {
         @include survol(){

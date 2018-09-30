@@ -118,6 +118,54 @@ $ MOYEN
 }
 
 /*-----------------------------------------------------------------------------
+$ MOYEN ou 2 ne passent meme plus a cote à cote
+-----------------------------------------------------------------------------*/
+@include resize-card-moyen {
+    .cover.var--moyen {
+        @include taille(110px);
+        /*---------------------------------*/
+        &.var--saga {
+            &:before {
+                @include taille(90px);
+            }
+            img {
+                @include taille(70px);
+            }
+        }
+        /*---------------------------------*/
+        &.var--faiseur {
+            &:before {
+                @include taille(90px);
+            }
+            img {
+                @include taille(90px);
+            }
+        }
+        /*---------------------------------*/
+        &.var--episode {
+            &:before {
+                @include taille(80px);
+            }
+            img {
+                @include taille(90px);
+            }
+        }
+        /*---------------------------------*/
+        &.var--genre {
+            svg {
+                @include taille(105px);
+                @include pa-centre();
+                stroke-width: 2px;
+            }
+            img {
+                @include taille(90px);
+            }
+        }
+        /*---------------------------------*/
+    }
+}
+
+/*-----------------------------------------------------------------------------
 $ BANNIERE
 -----------------------------------------------------------------------------*/
 .cover.var--banniere {

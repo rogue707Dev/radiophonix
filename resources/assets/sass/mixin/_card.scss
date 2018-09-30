@@ -1,14 +1,8 @@
 /*======================================================================================================================
-$ BASE
+$ REDIMENTIONNE LES CARTES "MOYEN" QUAND 2 NE PASSENT MEME PLUS COTE A COTE
 ======================================================================================================================*/
-@mixin jaquette($largeur:80px) {
-    display: inline-block;
-    width: $largeur;
-    height: $largeur;
-    overflow: hidden;
-
-    img {
-        width: $largeur;
-        height: $largeur;
+@mixin resize-card-moyen {
+    @media screen and (max-width: $card-moyenne-1-par-ligne-max) {
+        @content;
     }
 }
