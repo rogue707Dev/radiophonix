@@ -140,11 +140,9 @@ export default {
         TrackLength,
     },
 
-    data() {
-        return {
-            totalSteps: 100,
-        }
-    },
+    data: () => ({
+        totalSteps: 100,
+    }),
 
     computed: mapState('player', [
         'isPlaying',

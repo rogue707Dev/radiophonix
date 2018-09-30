@@ -16,11 +16,9 @@
 import api from '~/lib/api'
 
 export default {
-    data() {
-        return {
-            authors: []
-        };
-    },
+    data: () => ({
+        authors: [],
+    }),
     methods: {
         loadAuthors: function() {
             var vm = this;

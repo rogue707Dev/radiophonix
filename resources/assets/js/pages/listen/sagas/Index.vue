@@ -61,17 +61,15 @@ export default {
         CardGenre,
     },
 
-    data() {
-        return {
-            menu: 'popular',
-            popular: [],
-            recent: [],
-            authors: [],
-            genres: [],
-            discover: [],
-            shouldWait: false,
-        }
-    },
+    data: () => ({
+        menu: 'popular',
+        popular: [],
+        recent: [],
+        authors: [],
+        genres: [],
+        discover: [],
+        shouldWait: false,
+    }),
 
     methods: {
         async switchMenu(menu, resource, type) {

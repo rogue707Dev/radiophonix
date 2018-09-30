@@ -38,13 +38,11 @@ export default {
         Cover,
     },
 
-    data() {
-        return {
-            genre: {
-                image: {}
-            },
-        };
-    },
+    data: () => ({
+        genre: {
+            image: {}
+        },
+    }),
 
     methods: {
         async fetchGenre() {

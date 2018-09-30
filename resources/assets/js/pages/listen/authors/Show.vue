@@ -76,16 +76,14 @@ export default {
         Cover
     },
 
-    data() {
-        return {
-            author: {
-                links: {},
-                picture: {},
-                sagas: [],
-                bio: '',
-            }
-        };
-    },
+    data: () => ({
+        author: {
+            links: {},
+            picture: {},
+            sagas: [],
+            bio: '',
+        }
+    }),
 
     computed: {
         bio() {

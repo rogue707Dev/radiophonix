@@ -217,25 +217,23 @@ export default {
         Cover,
     },
 
-    data() {
-        return {
-            saga: {
-                stats: {},
+    data: () => ({
+        saga: {
+            stats: {},
+            links: {},
+            author: {
                 links: {},
-                author: {
-                    links: {},
-                    picture: {},
-                    bio: '',
-                },
-                images: {
-                    cover: {}
-                },
-                genres: [],
+                picture: {},
+                bio: '',
             },
-            collections: [],
-            currentCollectionType: null,
-        };
-    },
+            images: {
+                cover: {}
+            },
+            genres: [],
+        },
+        collections: [],
+        currentCollectionType: null,
+    }),
 
     computed: {
         ...mapState('player', [

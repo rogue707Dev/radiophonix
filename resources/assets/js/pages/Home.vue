@@ -212,12 +212,10 @@ export default {
         CardGenre,
     },
 
-    data() {
-        return {
-            sagas: [],
-            genres: [],
-        };
-    },
+    data: () => ({
+        sagas: [],
+        genres: [],
+    }),
 
     methods: {
         async loadSagas() {

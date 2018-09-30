@@ -31,11 +31,9 @@
             SagaList,
         },
 
-        data() {
-            return {
-                popular: [],
-            }
-        },
+        data: () => ({
+            popular: [],
+        }),
 
         methods: {
             async fetchPopular() {

@@ -112,11 +112,9 @@ export default {
         CardGenre,
     },
 
-    data() {
-        return {
-            popular: [],
-        }
-    },
+    data: () => ({
+        popular: [],
+    }),
 
     computed: {
         ...mapState('search', [

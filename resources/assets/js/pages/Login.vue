@@ -61,12 +61,10 @@
     import api from '~/lib/api';
 
     export default {
-        data() {
-            return {
-                email: '',
-                password: ''
-            }
-        },
+        data: () => ({
+            email: '',
+            password: '',
+        }),
 
         methods: {
             login: function() {

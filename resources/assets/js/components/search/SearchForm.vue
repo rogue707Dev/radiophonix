@@ -20,11 +20,9 @@
     import { mapState } from 'vuex';
 
     export default {
-        data() {
-            return {
-                query: '',
-            };
-        },
+        data: () => ({
+            query: '',
+        }),
 
         computed: {
             ...mapState('search', [
