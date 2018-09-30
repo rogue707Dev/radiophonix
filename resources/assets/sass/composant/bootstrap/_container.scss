@@ -2,6 +2,10 @@
 $ SURCHARGE
 ======================================================================================================================*/
 .container {
+    @include media-breakpoint-down(md) {
+        margin-top: $espacement-standard;
+        margin-bottom: $espacement-standard;
+    }
     @include media-breakpoint-up(lg) {
         color: $bleu-300;
         padding: $espacement-standard;
