@@ -23,6 +23,7 @@ const PlayerModule = {
         },
         currentCollection: {},
         currentPercentage: 0,
+        currentTime: '00:00',
         playlist: [],
         index: 0,
         isPlaying: false,
@@ -49,6 +50,8 @@ const PlayerModule = {
         setPercentage(state, percentage) {
             state.currentPercentage = percentage;
         },
+
+        setTime: (state, time) => state.currentTime = time,
 
         setPlaylist(state, playlist) {
             state.playlist = playlist;
@@ -86,7 +89,13 @@ const PlayerModule = {
 
             commit('setCurrentTrack', payload.track);
             commit('setPercentage', 0);
-            commit('play');
+            commit('setTime', '00:00');
+
+            if (payload.startPlaying) {
+                commit('play');
+            } else {
+                AudioPlayer.load(state.currentTrack);
+            }
 
             let slug = null;
 
@@ -152,9 +161,14 @@ const PlayerModule = {
             }
         },
 
-        seek({ commit }, percentage) {
-            commit('setPercentage', percentage);
+        seek({ commit, dispatch }, percentage) {
             AudioPlayer.seekPercentage(percentage);
+            dispatch('refresh');
+        },
+
+        refresh({commit}) {
+            commit('setPercentage', AudioPlayer.percentage());
+            commit('setTime', AudioPlayer.time());
         },
 
         next({ state, dispatch, commit }) {

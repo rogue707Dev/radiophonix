@@ -8,7 +8,7 @@ class Player {
         this.currentTrack = null;
     }
 
-    play(track) {
+    load(track) {
         if (this.currentTrack && this.currentTrack.id != track.id) {
             for (const key in this.howls) {
                 if (this.howls.hasOwnProperty(key)) {
@@ -45,6 +45,10 @@ class Player {
         }
 
         this.currentTrack = track;
+    }
+
+    play(track) {
+        this.load(track);
 
         this.howls[track.id].play();
     }

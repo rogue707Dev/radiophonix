@@ -159,7 +159,7 @@
                         </h3>
 
                         <div class="episode-item"
-                             @click="play({track, saga})"
+                             @click="play({track, saga, startPlaying: true})"
                              :class="{'actif': track.id == currentTrack.id}"
                              v-for="track in collection.tracks" :key="track.id">
                             <div class="ml-3 text-right" v-html="formatTrackNumber(track.number)"></div>
@@ -292,6 +292,7 @@ export default {
             this.play({
                 track: this.collections[0].tracks[0],
                 saga: this.saga,
+                startPlaying: true,
             });
         },
 
