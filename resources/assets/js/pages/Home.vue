@@ -115,21 +115,10 @@
 
                     <div class="list-card my-5">
 
-                        <Card
-                                v-for="genre in getGenresRow(0)"
-                                :key="genre.id"
-                                :link="{ name: 'listen.genres.show', params: { id: genre.id } }"
-                                :urlImage="genre.image.main"
-                                :altImage="genre.name"
-                                :title="genre.name"
-                                type="genre"
-                                size="moyen">
+                        <card-genre v-for="genre in getGenresRow(0)"
+                                    :key="genre.id"
+                                    :genre="genre"></card-genre>
 
-                            <template slot="stats">
-                                <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ genre.stats.sagas }} Séries
-                            </template>
-
-                        </Card>
                     </div>
 
                 </div>
@@ -208,19 +197,19 @@
 import api from '~/lib/api';
 import SagaList from '~/components/saga/SagaList.vue';
 import Headband from '~/components/content/Headband.vue';
-import Card from '~/components/content/Card.vue';
 import PublishPresentation from '~/components/publish/PublishPresentation.vue';
 import LienDiscord from '~/components/doc/LienDiscord';
 import SearchForm from '~/components/search/SearchForm';
+import CardGenre from '~/components/content/Card/CardGenre';
 
 export default {
     components: {
         SagaList,
         Headband,
-        Card,
         PublishPresentation,
         LienDiscord,
         SearchForm,
+        CardGenre,
     },
 
     data() {

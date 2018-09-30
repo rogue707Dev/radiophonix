@@ -38,21 +38,9 @@
                                 :track="highlights.track"
                                 :badge="true"></card-track>
 
-                    <Card
-                            v-if="highlights.genre.id"
-                            :link="{ name: 'listen.genres.show', params: { id: highlights.genre.id } }"
-                            :urlImage="highlights.genre.image.main"
-                            :altImage="highlights.genre.name"
-                            :title="highlights.genre.name"
-                            :badge="true"
-                            type="genre"
-                            size="moyen">
-
-                        <template slot="stats">
-                            <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                            {{ highlights.genre.stats.sagas }} Séries
-                        </template>
-                    </Card>
+                    <card-genre v-if="highlights.genre.id"
+                                :genre="highlights.genre"
+                                :badge="true"></card-genre>
                 </div>
 
                 <h1 class="h1 mt-5 mb-4" v-if="hasOtherResults">Mais aussi ...</h1>
@@ -81,21 +69,11 @@
                                     :horizontal="true"></card-track>
                     </template>
                     <template v-if="otherResults.genres.length > 0">
-                        <Card
-                                v-for="genre in otherResults.genres"
-                                :key="genre.id"
-                                :link="{ name: 'listen.genres.show', params: { id: genre.id } }"
-                                :cardHorizontal="true"
-                                :urlImage="genre.image.main"
-                                :altImage="genre.name"
-                                :title="genre.name"
-                                :badge="true"
-                                type="genre"
-                                size="petit">
-                            <template slot="stats">
-                                <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ genre.stats.sagas }} Séries
-                            </template>
-                        </Card>
+                        <card-genre v-for="genre in otherResults.genres"
+                                    :key="genre.id"
+                                    :genre="genre"
+                                    :badge="true"
+                                    :horizontal="true"></card-genre>
                     </template>
                 </div>
             </div>
@@ -116,24 +94,22 @@
 import { mapState, mapGetters } from 'vuex';
 import api from '~/lib/api';
 import SagaList from '~/components/saga/SagaList.vue';
-import TrackLength from '~/components/track/TrackLength.vue';
-import Card from '~/components/content/Card.vue';
 import Headband from '~/components/content/Headband.vue';
 import SearchForm from '~/components/search/SearchForm';
 import CardSaga from '~/components/content/Card/CardSaga';
 import CardAuthor from '~/components/content/Card/CardAuthor';
 import CardTrack from '~/components/content/Card/CardTrack';
+import CardGenre from '~/components/content/Card/CardGenre';
 
 export default {
     components: {
         SagaList,
-        TrackLength,
-        Card,
         Headband,
         SearchForm,
         CardSaga,
         CardAuthor,
         CardTrack,
+        CardGenre,
     },
 
     data() {

@@ -28,21 +28,9 @@
 
         <div class="list-card" v-show="menu == 'genres'">
 
-            <Card
-                    v-for="genre in genres"
-                    :key="genre.id"
-                    :link="{ name: 'listen.genres.show', params: { id: genre.id } }"
-                    :urlImage="genre.image.main"
-                    :altImage="genre.name"
-                    :title="genre.name"
-                    type="genre"
-                    size="moyen">
-
-                <template slot="stats">
-                    <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ genre.stats.sagas }} Sagas
-                </template>
-
-            </Card>
+            <card-genre v-for="genre in genres"
+                        :key="genre.id"
+                        :genre="genre"></card-genre>
 
         </div>
 
@@ -55,22 +43,22 @@ import api from '~/lib/api';
 import SagaList from '~/components/saga/SagaList.vue';
 import AuthorList from '~/components/author/AuthorList.vue';
 import SagaAlphabetList from '~/components/saga/SagaAlphabetList.vue';
-import Card from '~/components/content/Card.vue';
 import NavList from '~/components/Ui/Nav/NavList';
 import NavItem from '~/components/Ui/Nav/NavItem';
 import Headband from '~/components/content/Headband.vue';
 import SearchForm from '~/components/search/SearchForm';
+import CardGenre from '~/components/content/Card/CardGenre';
 
 export default {
     components: {
         SagaList,
         AuthorList,
         SagaAlphabetList,
-        Card,
         NavList,
         NavItem,
         Headband,
         SearchForm,
+        CardGenre,
     },
 
     data() {
