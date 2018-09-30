@@ -8,7 +8,7 @@
 
         <div class="card-cover">
             <cover
-                    size="moyen"
+                    :size="size"
                     :type="type"
                     :urlImage="urlImage"
                     :altImage="altImage">
@@ -62,6 +62,10 @@ export default {
             required: true
         },
         type: {
+            type: String,
+            required: true
+        },
+        size: {
             type: String,
             required: true
         },

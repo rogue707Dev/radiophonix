@@ -7,7 +7,8 @@
                 :urlImage="saga.images.cover.main"
                 :altImage="saga.name"
                 :title="saga.name"
-                type="saga">
+                type="saga"
+                size="moyen">
 
             <template slot="stats">
                 <saga-stats

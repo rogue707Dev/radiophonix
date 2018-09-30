@@ -35,7 +35,8 @@
                     :urlImage="genre.image.main"
                     :altImage="genre.name"
                     :title="genre.name"
-                    type="genre">
+                    type="genre"
+                    size="moyen">
 
                 <template slot="stats">
                     <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ genre.stats.sagas }} Sagas

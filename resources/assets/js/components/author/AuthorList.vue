@@ -7,7 +7,8 @@
                 :urlImage="author.picture.thumb"
                 :altImage="author.name"
                 :title="author.name"
-                type="faiseur">
+                type="faiseur"
+                size="moyen">
 
             <template slot="stats">
                 <i aria-hidden="true" class="fa fa-file-audio-o"></i>
