@@ -85,7 +85,7 @@
                         <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
                     </a>
                     <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.rss" v-if="saga.links.rss">
-                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;{{ saga.links.rss }}
+                        <i aria-hidden="true" class="fa fa-rss"></i>&nbsp;Flux RSS
                     </a>
                 </div>
                 <div class="col-md-6">
