@@ -130,6 +130,7 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
+import Player from '~/lib/Player';
 import TextEllispis from '~/components/text/TextEllipsis.vue';
 import TrackLength from '~/components/track/TrackLength.vue';
 
@@ -187,6 +188,7 @@ export default {
             let percent = (e.offsetX / e.target.offsetWidth) * 100;
 
             this.$store.dispatch('player/seek', percent);
+            Player.storePercentage();
         },
 
         startLoop() {
@@ -194,6 +196,7 @@ export default {
 
             let loop = setInterval(function () {
                 vm.$store.dispatch('player/refresh');
+                Player.storePercentage();
 
                 if (!vm.$store.state.player.isPlaying) {
                     clearInterval(loop);
@@ -203,11 +206,11 @@ export default {
     },
 
     watch: {
-        'isPlaying': 'startLoop'
+        'isPlaying': 'startLoop',
     },
 
     created() {
-        this.startLoop();
+        this.$store.dispatch('player/refresh');
         // window.addEventListener('beforeunload', this.beforeClosing);
     }
 }

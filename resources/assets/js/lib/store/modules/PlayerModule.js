@@ -1,5 +1,6 @@
 import AudioPlayer from '~/lib/Player';
 import api from '~/lib/api';
+import storage from '~/lib/services/storage';
 import store from "~/lib/store/index";
 
 const pageTitle = (saga, track) => track.title + ' ⊙ ' + saga.name;
@@ -88,13 +89,13 @@ const PlayerModule = {
             }
 
             commit('setCurrentTrack', payload.track);
-            commit('setPercentage', 0);
-            commit('setTime', '00:00');
 
-            if (payload.startPlaying) {
-                commit('play');
+            if (payload.autoStart === false) {
+                AudioPlayer.load(state.currentTrack, payload.seekPercentage);
             } else {
-                AudioPlayer.load(state.currentTrack);
+                commit('setPercentage', 0);
+                commit('setTime', '00:00');
+                commit('play');
             }
 
             let slug = null;
@@ -111,6 +112,9 @@ const PlayerModule = {
                 'ui/setPageTitle',
                 pageTitle(state.currentSaga, state.currentTrack)
             );
+
+            storage.set('currentTrackId', state.currentTrack.id);
+            storage.set('currentSagaId', state.currentSaga.id);
 
             // Collections are fetch every time a track is played to make
             // sure we are up to date.
@@ -178,7 +182,7 @@ const PlayerModule = {
 
             if (nextTrack) {
                 dispatch('play', {
-                    track: nextTrack
+                    track: nextTrack,
                 });
             } else {
                 commit('stop');
@@ -192,7 +196,7 @@ const PlayerModule = {
 
             if (nextTrack) {
                 dispatch('play', {
-                    track: nextTrack
+                    track: nextTrack,
                 });
             }
 
