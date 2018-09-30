@@ -23,13 +23,13 @@
 </template>
 
 <script>
-    import SagaStats from '~/components/saga/SagaStats.vue';
     import Card from '~/components/content/Card.vue';
+    import SagaStats from '~/components/saga/SagaStats.vue';
 
     export default {
         components: {
-            SagaStats,
             Card,
+            SagaStats,
         },
 
         computed: {
