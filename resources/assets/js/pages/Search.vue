@@ -33,21 +33,11 @@
                     <card-author v-if="highlights.author.id"
                                  :author="highlights.author"
                                  :badge="true"></card-author>
-                    <Card
-                            v-if="highlights.track.id"
-                            :link="{ name: 'home' }"
-                            :urlImage="highlights.track.collection.saga.images.cover.thumb"
-                            :altImage="highlights.track.title"
-                            :title="highlights.track.title"
-                            :badge="true"
-                            type="episode"
-                            size="moyen">
 
-                        <template slot="stats">
-                            <i aria-hidden="true" class="fa fa-clock-o"></i>
-                            <track-length :seconds="highlights.track.seconds"></track-length>
-                        </template>
-                    </Card>
+                    <card-track v-if="highlights.track.id"
+                                :track="highlights.track"
+                                :badge="true"></card-track>
+
                     <Card
                             v-if="highlights.genre.id"
                             :link="{ name: 'listen.genres.show', params: { id: highlights.genre.id } }"
@@ -84,22 +74,11 @@
                                      :horizontal="true"></card-author>
                     </template>
                     <template v-if="otherResults.tracks.length > 0">
-                        <Card
-                                v-for="track in otherResults.tracks"
-                                :key="track.id"
-                                :link="{ name: 'home' }"
-                                :cardHorizontal="true"
-                                :urlImage="track.collection.saga.images.cover.thumb"
-                                :altImage="track.title"
-                                :title="track.title"
-                                :badge="true"
-                                type="episode"
-                                size="petit">
-                            <template slot="stats">
-                                <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                <track-length :seconds="track.seconds"></track-length>
-                            </template>
-                        </Card>
+                        <card-track v-for="track in otherResults.tracks"
+                                    :key="track.id"
+                                    :track="track"
+                                    :badge="true"
+                                    :horizontal="true"></card-track>
                     </template>
                     <template v-if="otherResults.genres.length > 0">
                         <Card
@@ -143,6 +122,7 @@ import Headband from '~/components/content/Headband.vue';
 import SearchForm from '~/components/search/SearchForm';
 import CardSaga from '~/components/content/Card/CardSaga';
 import CardAuthor from '~/components/content/Card/CardAuthor';
+import CardTrack from '~/components/content/Card/CardTrack';
 
 export default {
     components: {
@@ -153,6 +133,7 @@ export default {
         SearchForm,
         CardSaga,
         CardAuthor,
+        CardTrack,
     },
 
     data() {
