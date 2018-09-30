@@ -29,21 +29,10 @@
                                :saga="highlights.saga"
                                :badge="true"
                                :with-author="false"></card-saga>
-                    <Card
-                            v-if="highlights.author.id"
-                            :link="{ name: 'listen.authors.show', params: { id: highlights.author.slug } }"
-                            :urlImage="highlights.author.picture.thumb"
-                            :altImage="highlights.author.name"
-                            :title="highlights.author.name"
-                            :badge="true"
-                            type="faiseur"
-                            size="moyen">
 
-                        <template slot="stats">
-                            <i aria-hidden="true" class="fa fa-file-audio-o"></i>
-                            {{ highlights.author.stats.sagas }} Séries
-                        </template>
-                    </Card>
+                    <card-author v-if="highlights.author.id"
+                                 :author="highlights.author"
+                                 :badge="true"></card-author>
                     <Card
                             v-if="highlights.track.id"
                             :link="{ name: 'home' }"
@@ -88,21 +77,11 @@
                                    :with-author="false"></card-saga>
                     </template>
                     <template v-if="otherResults.authors.length > 0">
-                        <Card
-                                v-for="author in otherResults.authors"
-                                :key="author.id"
-                                :link="{ name: 'listen.authors.show', params: { id: author.slug } }"
-                                :cardHorizontal="true"
-                                :urlImage="author.picture.thumb"
-                                :altImage="author.name"
-                                :title="author.name"
-                                :badge="true"
-                                type="faiseur"
-                                size="petit">
-                            <template slot="stats">
-                                <i aria-hidden="true" class="fa fa-file-audio-o"></i> {{ author.stats.sagas }} Séries
-                            </template>
-                        </Card>
+                        <card-author v-for="author in otherResults.authors"
+                                     :key="author.id"
+                                     :author="author"
+                                     :badge="true"
+                                     :horizontal="true"></card-author>
                     </template>
                     <template v-if="otherResults.tracks.length > 0">
                         <Card
@@ -163,6 +142,7 @@ import Card from '~/components/content/Card.vue';
 import Headband from '~/components/content/Headband.vue';
 import SearchForm from '~/components/search/SearchForm';
 import CardSaga from '~/components/content/Card/CardSaga';
+import CardAuthor from '~/components/content/Card/CardAuthor';
 
 export default {
     components: {
@@ -172,6 +152,7 @@ export default {
         Headband,
         SearchForm,
         CardSaga,
+        CardAuthor,
     },
 
     data() {
