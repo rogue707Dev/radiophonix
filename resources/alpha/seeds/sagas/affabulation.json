@@ -1,0 +1,143 @@
+{
+    "name": "Affabulation",
+    "synopsis": "",
+    "creation_date": "2012-01-02T00:00:00+00:00",
+    "licence": "CC BY-NC-ND",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/Affabulation",
+        "site": "https://compagnie-saucisse.jimdo.com/les-sagas-mp3/affabulation/",
+        "topic": null,
+        "rss": null,
+        "facebook": null,
+        "twitter": "https://twitter.com/Artekyon"
+    },
+    "finished": true,
+    "visibility": 0,
+    "images": {
+        "cover": "Affabulation-pochette-768x768.jpg"
+    },
+    "genres": [
+        "Parodie de jeu"
+    ],
+    "author": "Javras",
+    "collections": [
+        {
+            "number": "1",
+            "name": "Épisodes",
+            "synopsis": "",
+            "type": "season",
+            "tracks": [
+                {
+                    "number": "1",
+                    "title": "Une nouvelle vie commence",
+                    "synopsis": "Où on commence comme des pauvres.",
+                    "published_at": "2012-01-02T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "11min50s",
+                    "file": "affabulation/Episode 01-Une nouvelle vie commence.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "2",
+                    "title": "Que l'histoire commence",
+                    "synopsis": "Où on parle avec des Gitans et où on commence la quête.",
+                    "published_at": "2012-03-16T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "5min45s",
+                    "file": "affabulation/Episode 02-Que l'histoire commence.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "3",
+                    "title": "Retour difficile",
+                    "synopsis": "Où on galère pour entrer dans une ville.",
+                    "published_at": "2012-03-16T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "5min46s",
+                    "file": "affabulation/Episode 03-Retour difficile.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "4",
+                    "title": "En route pour Oakfield",
+                    "synopsis": "Où on galère encore pour entrer dans une ville.",
+                    "published_at": "2012-03-16T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "7min23s",
+                    "file": "affabulation/Episode 04-En route pour Oakfield.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "5",
+                    "title": "Le héros de la Force",
+                    "synopsis": "Où on recrute le héros de la Force.",
+                    "published_at": "2012-05-19T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "08min18s",
+                    "file": "affabulation/Episode 05-Le heros de la force.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "6",
+                    "title": "Carth et la Flèche",
+                    "synopsis": "Où ça chante, pleure, et crie !!",
+                    "published_at": "2012-05-20T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "12min25s",
+                    "file": "affabulation/Episode 06-Carth et la Fleche.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "7",
+                    "title": "In your flèche !",
+                    "synopsis": "Elle est longue ! Elle est reluisante ! C'est la Flèche de Lutin !",
+                    "published_at": "2012-11-02T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "09min38s",
+                    "file": "affabulation/Episode 07-In your fleche.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "8",
+                    "title": "La porte de Cullis",
+                    "synopsis": "Où on a des gens bourrés et des marégores.",
+                    "published_at": "2013-03-03T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "10min15s",
+                    "file": "affabulation/Episode 08-La porte du Cullis.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "9",
+                    "title": "Le dernier avant la fin",
+                    "synopsis": "Où on se rapproche petit à petit de la fin.",
+                    "published_at": "2013-04-26T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "10min39s",
+                    "file": "affabulation/Episode 09-Le dernier avant la fin.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "10",
+                    "title": "The fucking final fight in your ears !",
+                    "synopsis": "Où on chante beaucoup, mais aussi où on voit enfin le bout.",
+                    "published_at": "2013-07-13T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "22min18s",
+                    "file": "affabulation/Episode 10-The fucking final fight in your ears.mp3",
+                    "percentages": [],
+                    "chapters": []
+                }
+            ]
+        }
+    ]
+}
