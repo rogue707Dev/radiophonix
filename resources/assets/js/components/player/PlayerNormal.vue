@@ -59,7 +59,7 @@
                           @click="seek"
                           :value="currentPercentage"
                           max="100"></progress>
-                <track-length class="text-right" :seconds="currentTrack.seconds" type="number"></track-length>
+                <track-length class="text-right" :seconds="currentTrack.seconds"></track-length>
             </div>
 
             <!----------------------------------------

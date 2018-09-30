@@ -38,7 +38,7 @@
                             </p>
                         </div>
                         <div class="col-auto pr-4">
-                            <track-length :seconds="track.seconds" type="number" class="h5"></track-length>
+                            <track-length :seconds="track.seconds" class="h5"></track-length>
                         </div>
 
                     </div>

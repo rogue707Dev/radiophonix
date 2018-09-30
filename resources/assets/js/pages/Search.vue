@@ -69,7 +69,7 @@
 
                         <template slot="stats">
                             <i aria-hidden="true" class="fa fa-clock-o"></i>
-                            <track-length :seconds="highlights.track.seconds" type="number"></track-length>
+                            <track-length :seconds="highlights.track.seconds"></track-length>
                         </template>
                     </Card>
                     <Card
@@ -143,7 +143,7 @@
                                 size="petit">
                             <template slot="stats">
                                 <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                <track-length :seconds="track.seconds" type="number"></track-length>
+                                <track-length :seconds="track.seconds"></track-length>
                             </template>
                         </Card>
                     </template>

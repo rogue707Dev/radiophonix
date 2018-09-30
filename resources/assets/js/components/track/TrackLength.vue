@@ -3,25 +3,11 @@
 </template>
 
 <script>
-const getTimeString = function(time, word, type) {
+const getTimeString = function(time) {
     let res = '';
 
     if (time > 0) {
         res += time;
-
-        if (type === 'short') {
-            word = word.substring(0, 1);
-        } else if (type === 'number') {
-            word = '';
-        } else {
-            word = ' ' + word;
-
-            if (time > 1) {
-                word += 's';
-            }
-        }
-
-        res += word;
     }
 
     return res;
@@ -32,13 +18,6 @@ export default {
         seconds: {
             type: Number,
             required: true,
-        },
-        type: {
-            type: String,
-            default: 'full',
-            validator: function (value) {
-                return ['full', 'short', 'number'].indexOf(value) !== -1
-            }
         }
     },
 
@@ -57,32 +36,20 @@ export default {
             }
 
             let res = [
-                getTimeString(hours, 'hours', this.type),
-                getTimeString(minutes, 'minute', this.type),
-                getTimeString(seconds, 'seconde', this.type),
+                getTimeString(hours),
+                getTimeString(minutes),
+                getTimeString(seconds),
             ].filter(time => time.length > 0);
 
             if (parseInt(seconds) === 0) {
-                if (this.type === 'number') {
-                    res.push('00');
-                } else {
-                    return res[0];
-                }
+                res.push('00');
             }
 
-            if (hours === 0 && minutes === 0 && this.type === 'number') {
+            if (hours === 0 && minutes === 0) {
                 res.unshift('0');
             }
 
-            let glue = ' et ';
-
-            if (this.type === 'short') {
-                glue = ', ';
-            } else if (this.type === 'number') {
-                glue = ':';
-            }
-
-            return res.join(glue);
+            return res.join(':');
         }
     }
 }

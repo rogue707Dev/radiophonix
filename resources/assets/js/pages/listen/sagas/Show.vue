@@ -172,7 +172,7 @@
                             </div>
                             <span class="episode-item--temps text-primary">
                                 <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                <track-length :seconds="track.seconds" type="number"></track-length>
+                                <track-length :seconds="track.seconds"></track-length>
                             </span>
                             <div class="mr-lg-3">
                                 <div v-if="track.id == currentTrack.id" class="skin-icon-fa__cercle text-primary">
