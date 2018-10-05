@@ -2,8 +2,8 @@
     <div class="lecteur pr"
          :class="{
             'var--playlist-inactif': !currentSaga.id,
-            'd-flex flex-column justify-content-around': currentSaga.images.cover.main,
-            'd-flex flex-column justify-content-around':!currentSaga.images.cover.main
+            'd-flex flex-column': currentSaga.images.cover.main,
+            'd-flex flex-column':!currentSaga.images.cover.main
          }">
 
         <!--//////////////////////////////////////////////////////////////
@@ -115,7 +115,7 @@
             <!----------------------------------------
             Recherche
             ------------------------------------------>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mb-5">
                 <div class="col-auto">
                     <router-link :to="{ name: 'search' }" tag="button" class="btn btn-outline-theme btn-round btn-lg">
                         <i aria-hidden="true" class="fa fa-search"></i>

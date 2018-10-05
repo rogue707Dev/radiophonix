@@ -54,7 +54,7 @@ $ HEADER
     grid-column: 1/4;
     grid-row: 1/2;
 
-    @include degrade-horizontale--orange--fonce-claire;
+    background-color: $bleu-500;
 
     @include media-breakpoint-up(lg) {
         display: none;
@@ -79,7 +79,7 @@ $ MENU
             grid-column: 1/4;
             grid-row: 2/3;
 
-            z-index: 2;
+            z-index: 3;
         }
     }
 

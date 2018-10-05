@@ -8,13 +8,14 @@ $ CONTENEUR
     padding: 20px 20px $padding-layout-sidebar;
 
     &.var--playlist-inactif {
-        height: 100vh;
+        justify-content: space-around;
     }
 
     @include media-breakpoint-down(md){
-        background-color: $bleu-500;
+        @include degrade-vertical--orange--fonce-moyen;
         width: 100%;
         text-align: center;
+        align-content: start;
     }
 
     @include media-breakpoint-up(lg) {
@@ -22,6 +23,11 @@ $ CONTENEUR
         height: 100vh;
         overflow-y: auto;
         overflow-x: hidden;
+        justify-content: space-around;
+
+        &.var--playlist-inactif {
+            height: 100vh;
+        }
 
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
             height: $hauteur-lecteur;

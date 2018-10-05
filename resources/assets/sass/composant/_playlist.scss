@@ -5,6 +5,10 @@ $ PLAYLIST
     display: flex;
     flex-direction: column;
     padding: 0 $padding-layout-sidebar;
+
+    @include media-breakpoint-down(md) {
+        @include degrade-vertical--orange--fonce-moyen;
+    }
 }
 
 /*-----------------------------------------------------------------------------
@@ -12,28 +16,27 @@ $ MENU PLAYLIST - retour au player
 -----------------------------------------------------------------------------*/
 .lecteur__playlist__menu {
 
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+
+    height: $hauteur-playlist-menu;
+
     @include media-breakpoint-up(lg) {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        align-items: center;
-        padding: 0 $padding-layout-sidebar;
 
         position: fixed;
         top: 0;
         left: $largeur-menu;
         width: $largeur-sidebar;
-        height: $hauteur-playlist-menu;
-
-        background-color: $bleu-500;
-        color: $bleu-200;
-
-        &:hover {
-            cursor: pointer;
-        }
+        padding: 0 $padding-layout-sidebar;
+        border-bottom: 1px solid $bleu-400;
     }
 
-    @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
-        display: none;
+    @include media-breakpoint-up(lg) {
+        @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
+            display: none;
+        }
     }
 }
 
@@ -95,15 +98,6 @@ $ NORMAL
 $ ACTIF
 -----------------------------------------------------------------------------*/
 .lecteur__playlist__morceau.actif {
-
-    @include media-breakpoint-down(md) {
-        background-color: $bleu-400;
-        color: $bleu-100;
-    }
-
-
-    @include media-breakpoint-up(lg) {
-        background-color: $primary;
-        color: $blanc;
-    }
+    background-color: $primary;
+    color: $blanc;
 }

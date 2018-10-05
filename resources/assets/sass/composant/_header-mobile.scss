@@ -1,0 +1,25 @@
+/*======================================================================================================================
+$ BOUTON
+======================================================================================================================*/
+.btn-header-mobile {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    border: 0;
+    height: 100%;
+    width: 60px;
+    background-color: $bleu-500;
+    color: $blanc;
+}
+
+.btn-header-mobile.var--menu.var--actif {
+    background-color: $bleu-400;
+}
+
+
+.btn-header-mobile.var--aside.var--actif {
+    background-color: $orange-300;
+
+}
