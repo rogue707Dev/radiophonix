@@ -25,6 +25,8 @@ const UiModule = {
         closeMenu: (state) => state.isMenuOpen = false,
 
         togglePlayer: (state) => state.isPlayerOpen = !state.isPlayerOpen,
+        openPlayer: (state) => state.isPlayerOpen = true,
+        closePlayer: (state) => state.isPlayerOpen = false,
 
         setMainClass: (state, className) => state.mainClass = className,
         setPlayerClass: (state, className) => state.playerClass = className,
@@ -41,6 +43,11 @@ const UiModule = {
             if (state.isMenuOpen) {
                 commit('closeMenu');
             } else {
+                commit('setPlaylistClasses', {actif: false});
+                commit('setPlayerClass', '');
+                commit('setMainClass', '');
+                commit('closePlayer');
+
                 commit('openMenu');
             }
         },
@@ -64,6 +71,8 @@ const UiModule = {
             } else {
                 commit('setPlayerClass', 'actif');
                 commit('setMainClass', 'inactif');
+
+                commit('closeMenu');
             }
 
             commit('togglePlayer');
