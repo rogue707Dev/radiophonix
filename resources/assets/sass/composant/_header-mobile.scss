@@ -16,6 +16,16 @@ $ BOUTON
 
 .btn-header-mobile.var--menu.var--actif {
     background-color: $bleu-400;
+    position: relative;
+
+    &:after {
+        content: "";
+        border-bottom:1px solid $bleu-400;
+        position: absolute;
+        right: 0;
+        bottom: -1px;
+        left: 0;
+    }
 }
 
 
