@@ -12,6 +12,7 @@
                         :urlImage="saga.images.cover.main"
                         :altImage="saga.name">
                 </cover>
+                <div class="fitre--bleu"></div>
                 <button class="pa-centrer btn btn-outline-theme btn-round btn-lg" @click="playSaga">
                     <i aria-hidden="true" class="fa fa-play"></i>
                 </button>

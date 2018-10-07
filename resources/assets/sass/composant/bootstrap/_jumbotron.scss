@@ -30,10 +30,10 @@ $ VARIATION
 }
 
 .jumbotron-bg-image__filtre {
+    @include filtre-bleu;
     display: grid;
     align-items: center;
     height: 100%;
-    background: rgba($bleu-500, 0.7);
 }
 
 .jumbotron-bg-image__content {
