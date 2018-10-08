@@ -1,4 +1,6 @@
-const features = {
+import env from '~/lib/services/env';
+
+const configs = {
     development: {
         login: true,
     },
@@ -10,8 +12,8 @@ const features = {
 
 export default {
     isActive(feature) {
-        let env = process.env.RADIOPHONIX_FEATURES_ENV || 'production';
+        let config = env.get('FEATURES_CONFIG', 'production');
 
-        return features[env][feature] || false;
+        return configs[config][feature] || false;
     }
 };

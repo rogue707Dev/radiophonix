@@ -1,10 +1,11 @@
+import env from '~/lib/services/env';
 import radiophonix from './radiophonix';
 import mock from './mock';
 import Auth from './auth';
 
-radiophonix.config.setBaseUrl(process.env.RADIOPHONIX_API_URL);
+radiophonix.config.setBaseUrl(env.get('API_URL'));
 
-if (process.env.RADIOPHONIX_API_MOCK == 1) {
+if (env.get('API_MOCK') == 1) {
     mock(radiophonix);
 }
 
