@@ -143,7 +143,7 @@ deploy:dev:
     # Ajout de la clef ssh de déploiement
     - 'which ssh-agent || ( sudo apt-get update -y && sudo apt-get install openssh-client -y )'
     - eval $(ssh-agent -s)
-    - ssh-add <(echo "$STAGING_PRIVATE_KEY")
+    - ssh-add <(echo "$DEV_PRIVATE_KEY")
     - mkdir -p ~/.ssh
     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
