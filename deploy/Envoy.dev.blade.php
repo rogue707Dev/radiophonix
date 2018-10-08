@@ -1,7 +1,8 @@
-@servers(['staging' => 'runcloud@radiophonix.org', 'local' => '127.0.0.1'])
+@servers(['dev' => 'runcloud@dev.radiophonix.org', 'local' => '127.0.0.1'])
 
 @setup
     // Dossier racine
+    // @todo renommer le dossier en dev
     $app_dir = '/home/runcloud/webapps/staging';
 
     // Dossier contenant les releases
@@ -24,7 +25,7 @@
     cleanup
 @endstory
 
-@task('create_release_dir', ['on' => 'staging'])
+@task('create_release_dir', ['on' => 'dev'])
     echo 'Creating new release directory'
     [ -d {{ $releases_dir }} ] || mkdir {{ $releases_dir }}
     mkdir {{ $new_release_dir }}
@@ -32,10 +33,10 @@
 
 @task('transfert_files', ['on' => 'local'])
     echo 'Transferring build files'
-    scp -P22 ./artefacts/radiophonix.tar.bz2 "runcloud@radiophonix.org:{{ $new_release_dir }}"
+    scp -P22 ./artefacts/radiophonix.tar.bz2 "runcloud@dev.radiophonix.org:{{ $new_release_dir }}"
 @endtask
 
-@task('update_symlinks', ['on' => 'staging'])
+@task('update_symlinks', ['on' => 'dev'])
     tar jxf {{ $new_release_dir }}/radiophonix.tar.bz2 -C {{ $new_release_dir }}
     rm {{ $new_release_dir }}/radiophonix.tar.bz2
 
@@ -62,7 +63,7 @@
     /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan scout:mysql-index
 @endtask
 
-@task('cleanup', ['on' => 'staging'])
+@task('cleanup', ['on' => 'dev'])
     echo 'Removing old releases'
     rm -rf `ls -t {{ $releases_dir }} | tail -n +4`
 @endtask

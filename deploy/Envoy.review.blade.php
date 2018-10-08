@@ -1,4 +1,4 @@
-@servers(['staging' => 'runcloud@radiophonix.org', 'local' => '127.0.0.1'])
+@servers(['dev' => 'runcloud@dev.radiophonix.org', 'local' => '127.0.0.1'])
 
 @setup
     $releases_dir = '/home/runcloud/webapps/reviews-site';
@@ -11,7 +11,7 @@
     update_symlinks
 @endstory
 
-@task('create_release_dir', ['on' => 'staging'])
+@task('create_release_dir', ['on' => 'dev'])
     echo 'Creating new review directory'
     rm -rf {{ $new_release_dir }}
     mkdir {{ $new_release_dir }}
@@ -19,10 +19,10 @@
 
 @task('transfert_files', ['on' => 'local'])
     echo 'Transferring build files'
-    scp -P22 ./artefacts/radiophonix.tar.bz2 "runcloud@radiophonix.org:{{ $new_release_dir }}"
+    scp -P22 ./artefacts/radiophonix.tar.bz2 "runcloud@dev.radiophonix.org:{{ $new_release_dir }}"
 @endtask
 
-@task('update_symlinks', ['on' => 'staging'])
+@task('update_symlinks', ['on' => 'dev'])
     tar jxf {{ $new_release_dir }}/radiophonix.tar.bz2 -C {{ $new_release_dir }}
     rm {{ $new_release_dir }}/radiophonix.tar.bz2
 
