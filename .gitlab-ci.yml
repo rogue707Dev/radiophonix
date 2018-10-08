@@ -114,42 +114,86 @@ build:dev:
     stage: build
     image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
     only:
-    - dev
+        - dev
     script:
-    - node --version
-    #        - yarn config set cache-folder .yarn
-    - yarn
-    - echo 'RADIOPHONIX_FEATURES_CONFIG=development' > .env
-    - echo 'RADIOPHONIX_ENV=dev' >> .env
-    - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" >> .env
-    - npm run build
-    - composer install --prefer-dist --quiet --no-interaction
-    - mkdir artefacts
-    - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
+        - node --version
+        #        - yarn config set cache-folder .yarn
+        - yarn
+        - echo 'RADIOPHONIX_FEATURES_CONFIG=development' > .env
+        - echo 'RADIOPHONIX_ENV=dev' >> .env
+        - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" >> .env
+        - npm run build
+        - composer install --prefer-dist --quiet --no-interaction
+        - mkdir artefacts
+        - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
     artifacts:
         paths:
-        - ./artefacts/radiophonix.tar.bz2
+            - ./artefacts/radiophonix.tar.bz2
         expire_in: 1 week
 
 deploy:dev:
     stage: deploy
     image: edbizarro/gitlab-ci-pipeline-php:7.1
     only:
-    - dev
+        - dev
     environment:
         name: dev
         url: https://dev.radiophonix.org
     before_script:
-    # Ajout de la clef ssh de déploiement
-    - 'which ssh-agent || ( sudo apt-get update -y && sudo apt-get install openssh-client -y )'
-    - eval $(ssh-agent -s)
-    - ssh-add <(echo "$DEV_PRIVATE_KEY")
-    - mkdir -p ~/.ssh
-    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+        # Ajout de la clef ssh de déploiement
+        - 'which ssh-agent || ( sudo apt-get update -y && sudo apt-get install openssh-client -y )'
+        - eval $(ssh-agent -s)
+        - ssh-add <(echo "$DEV_PRIVATE_KEY")
+        - mkdir -p ~/.ssh
+        - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
-    # Installation de Envoy
-    - composer global require laravel/envoy:^1.4 --prefer-source
+        # Installation de Envoy
+        - composer global require laravel/envoy:^1.4 --prefer-source
     script:
-    - ls -al
-    - cp deploy/Envoy.dev.blade.php Envoy.blade.php
-    - ~/.composer/vendor/bin/envoy run deploy
+        - ls -al
+        - cp deploy/Envoy.dev.blade.php Envoy.blade.php
+        - ~/.composer/vendor/bin/envoy run deploy
+
+build:staging:
+    stage: build
+    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
+    only:
+        - dev
+    script:
+        - node --version
+        #        - yarn config set cache-folder .yarn
+        - yarn
+        - echo 'RADIOPHONIX_FEATURES_CONFIG=production' > .env
+        - echo 'RADIOPHONIX_ENV=staging' >> .env
+        - echo "RADIOPHONIX_API_URL=https://staging.radiophonix.org/api/v1/" >> .env
+        - npm run build
+        - composer install --prefer-dist --quiet --no-interaction
+        - mkdir artefacts
+        - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
+    artifacts:
+        paths:
+            - ./artefacts/radiophonix.tar.bz2
+        expire_in: 1 week
+
+deploy:staging:
+    stage: deploy
+    image: edbizarro/gitlab-ci-pipeline-php:7.1
+    only:
+        - dev
+    environment:
+        name: staging
+        url: https://staging.radiophonix.org
+    before_script:
+        # Ajout de la clef ssh de déploiement
+        - 'which ssh-agent || ( sudo apt-get update -y && sudo apt-get install openssh-client -y )'
+        - eval $(ssh-agent -s)
+        - ssh-add <(echo "$STAGING_PRIVATE_KEY")
+        - mkdir -p ~/.ssh
+        - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+        # Installation de Envoy
+        - composer global require laravel/envoy:^1.4 --prefer-source
+    script:
+        - ls -al
+        - cp deploy/Envoy.staging.blade.php Envoy.blade.php
+        - ~/.composer/vendor/bin/envoy run deploy
