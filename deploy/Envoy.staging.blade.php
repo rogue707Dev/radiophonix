@@ -2,7 +2,6 @@
 
 @setup
     // Dossier racine
-    // @todo renommer le dossier en dev
     $app_dir = '/home/runcloud/webapps/staging';
 
     // Dossier contenant les releases
