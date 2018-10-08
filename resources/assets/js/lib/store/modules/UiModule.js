@@ -1,3 +1,5 @@
+import env from '~/lib/services/env';
+
 let changeClasses = (state, classes) => {
     for (const classesKey in classes) {
         if (!classes.hasOwnProperty(classesKey)) {
@@ -6,6 +8,22 @@ let changeClasses = (state, classes) => {
 
         state[classesKey] = classes[classesKey];
     }
+};
+
+let buildTitle = (text = null) => {
+    let title = 'Radiophonix ALPHA';
+
+    if (text) {
+        title = text + ' — ' + title;
+    }
+
+    let envName = env.get('ENV');
+
+    if (envName) {
+        title = `[${envName.toUpperCase()}] ${title}`;
+    }
+
+    return title;
 };
 
 const UiModule = {
@@ -17,7 +35,7 @@ const UiModule = {
         mainClass: '',
         playerClass: '',
         playlistClasses: {},
-        pageTitle: 'Radiophonix',
+        pageTitle: 'Radiophonix ALPHA',
     },
 
     mutations: {
@@ -79,11 +97,11 @@ const UiModule = {
         },
 
         resetPageTitle: ({ commit }) => {
-            commit('setPageTitle', 'Radiophonix');
+            commit('setPageTitle', buildTitle());
         },
 
         setPageTitle: ({ commit }, title) => {
-            commit('setPageTitle', title + ' — Radiophonix');
+            commit('setPageTitle', buildTitle(title));
         },
     }
 };
