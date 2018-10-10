@@ -108,7 +108,7 @@ stop:review:
         - foldername=$CI_ENVIRONMENT_SLUG
 
         # On supprime le dossier de la release
-        - ssh -p22 runcloud@radiophonix.org 'rm -rf webapps/reviews-site/"'$foldername'"'
+        - ssh -p22 runcloud@5.39.88.195 'rm -rf webapps/reviews/"'$foldername'"'
 
 build:dev:
     stage: build
