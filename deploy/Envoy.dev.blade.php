@@ -1,4 +1,4 @@
-@servers(['dev' => 'runcloud@137.74.196.193', 'local' => '127.0.0.1'])
+@servers(['dev' => 'runcloud@5.39.88.195', 'local' => '127.0.0.1'])
 
 @setup
     // Dossier racine
