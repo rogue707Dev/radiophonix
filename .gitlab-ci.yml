@@ -217,7 +217,6 @@ build:production:
         #        - yarn config set cache-folder .yarn
         - yarn
         - echo 'RADIOPHONIX_FEATURES_CONFIG=production' > .env
-        - echo 'RADIOPHONIX_ENV=production' >> .env
         - echo "RADIOPHONIX_API_URL=https://radiophonix.org/api/v1/" >> .env
         - npm run build
         - composer install --prefer-dist --quiet --no-interaction
