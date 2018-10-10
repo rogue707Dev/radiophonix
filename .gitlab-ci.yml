@@ -14,10 +14,6 @@ stages:
 test:unit:
     stage: test
     image: edbizarro/gitlab-ci-pipeline-php:7.1
-    before_script:
-        - sudo apt-get update
-        - sudo apt-get -y install autoconf sqlite3 libsqlite3-dev
-        - sudo docker-php-ext-install pdo_sqlite
     script:
         - cp .env.testing .env
         - composer install --prefer-dist --quiet --no-interaction
