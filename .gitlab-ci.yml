@@ -158,7 +158,7 @@ build:staging:
     stage: build
     image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
     only:
-        - dev
+        - master
     script:
         - node --version
         #        - yarn config set cache-folder .yarn
@@ -179,7 +179,7 @@ deploy:staging:
     stage: deploy
     image: edbizarro/gitlab-ci-pipeline-php:7.1
     only:
-        - dev
+        - master
     environment:
         name: staging
         url: https://staging.radiophonix.org
@@ -187,7 +187,7 @@ deploy:staging:
         # Ajout de la clef ssh de déploiement
         - 'which ssh-agent || ( sudo apt-get update -y && sudo apt-get install openssh-client -y )'
         - eval $(ssh-agent -s)
-        - ssh-add <(echo "$STAGING_PRIVATE_KEY")
+        - ssh-add <(echo "$DEV_PRIVATE_KEY")
         - mkdir -p ~/.ssh
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 

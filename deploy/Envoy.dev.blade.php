@@ -2,14 +2,13 @@
 
 @setup
     // Dossier racine
-    // @todo renommer le dossier en dev
-    $app_dir = '/home/runcloud/webapps/staging';
+    $app_dir = '/home/runcloud/webapps/dev';
 
     // Dossier contenant les releases
-    $releases_dir = '/home/runcloud/webapps/staging/releases';
+    $releases_dir = '/home/runcloud/webapps/dev/releases';
 
     // Dossier contenant les dossiers/fichiers partagés
-    $shared_dir = '/home/runcloud/webapps/staging/shared';
+    $shared_dir = '/home/runcloud/webapps/dev/shared';
 
     // Chaque release est dans un dossier nommé selon la date et l'heure
     $release = date('Y-m-d-H-i-s');
