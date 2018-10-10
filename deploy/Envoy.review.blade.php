@@ -1,7 +1,7 @@
-@servers(['dev' => 'runcloud@137.74.196.193', 'local' => '127.0.0.1'])
+@servers(['dev' => 'runcloud@5.39.88.195', 'local' => '127.0.0.1'])
 
 @setup
-    $releases_dir = '/home/runcloud/webapps/reviews-site';
+    $releases_dir = '/home/runcloud/webapps/reviews';
     $new_release_dir = $releases_dir . '/' . $slug;
 @endsetup
 
@@ -19,7 +19,7 @@
 
 @task('transfert_files', ['on' => 'local'])
     echo 'Transferring build files'
-    scp -P22 ./artefacts/radiophonix.tar.bz2 "runcloud@137.74.196.193:{{ $new_release_dir }}"
+    scp -P22 ./artefacts/radiophonix.tar.bz2 "runcloud@5.39.88.195:{{ $new_release_dir }}"
 @endtask
 
 @task('update_symlinks', ['on' => 'dev'])
