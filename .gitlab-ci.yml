@@ -184,6 +184,8 @@ build:staging:
 
 deploy:staging:
     stage: deploy
+    dependencies:
+        - build:staging
     image: edbizarro/gitlab-ci-pipeline-php:7.1
     only:
         - master
@@ -231,6 +233,8 @@ build:production:
 
 deploy_production:
     stage: production
+    dependencies:
+        - build:production
     image: edbizarro/gitlab-ci-pipeline-php:7.1
     only:
         - master
