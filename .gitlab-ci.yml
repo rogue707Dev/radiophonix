@@ -2,6 +2,7 @@ stages:
     - test
     - build
     - deploy
+    - production
 
 #cache:
 #    untracked: true
@@ -215,8 +216,8 @@ build:production:
             - ./artefacts/radiophonix.tar.bz2
         expire_in: 1 week
 
-deploy:production:
-    stage: deploy
+deploy_production:
+    stage: production
     image: edbizarro/gitlab-ci-pipeline-php:7.1
     only:
         - master
