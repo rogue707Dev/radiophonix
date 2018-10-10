@@ -23,7 +23,6 @@ use Radiophonix\Http\Middleware\SagaVisibilityMiddleware;
 use Radiophonix\Http\Middleware\TrimStrings;
 use Radiophonix\Http\Middleware\TrustProxies;
 use Radiophonix\Http\Middleware\VerifyCsrfToken;
-use Vinkla\Shield\ShieldMiddleware;
 
 class Kernel extends HttpKernel
 {
@@ -83,6 +82,5 @@ class Kernel extends HttpKernel
 //        'jwt.refresh' => RefreshToken::class,
         'saga.visible' => SagaVisibilityMiddleware::class,
         'saga.owner' => OwnerMiddleware::class,
-        'shield' => ShieldMiddleware::class,
     ];
 }
