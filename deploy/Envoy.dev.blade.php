@@ -33,7 +33,7 @@
 
 @task('transfert_files', ['on' => 'local'])
     echo 'Transferring build files'
-    scp -P22 ./artefacts/radiophonix.tar.bz2 "runcloud@137.74.196.193:{{ $new_release_dir }}"
+    scp -P22 ./artefacts/radiophonix.tar.bz2 "runcloud@5.39.88.195:{{ $new_release_dir }}"
 @endtask
 
 @task('update_symlinks', ['on' => 'dev'])
