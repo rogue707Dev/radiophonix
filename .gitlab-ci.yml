@@ -71,7 +71,7 @@ deploy:review:
         # Ajout de la clef ssh de déploiement
         - 'which ssh-agent || ( sudo apt-get update -y && sudo apt-get install openssh-client -y )'
         - eval $(ssh-agent -s)
-        - ssh-add <(echo "$REVIEWS_PRIVATE_KEY")
+        - ssh-add <(echo "$DEV_PRIVATE_KEY")
         - mkdir -p ~/.ssh
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
@@ -100,7 +100,7 @@ stop:review:
         # Ajout de la clef ssh de déploiement
         - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
         - eval $(ssh-agent -s)
-        - ssh-add <(echo "$REVIEWS_PRIVATE_KEY")
+        - ssh-add <(echo "$DEV_PRIVATE_KEY")
         - mkdir -p ~/.ssh
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
     script:
