@@ -33,7 +33,7 @@
             ------------------------------------------>
             <div class="text-center text-white">
                 <p class="lead text-white">
-                    <text-ellispis :text="currentTrack.title" :size="30"></text-ellispis>
+                    <text-ellispis :text="currentTrack.title" :size="28"></text-ellispis>
                 </p>
                 <p>
                     <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: currentSaga.slug } }">
