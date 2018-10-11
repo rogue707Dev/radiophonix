@@ -32,10 +32,9 @@ export function licenceIconClass(licence) {
 
 export function licenceUrl(licence) {
     licence = mapLicence(licence);
+    licence = licence.replace('cc-', '');
+    licence = licence.replace('-eu', '');
+    licence = licence.toLowerCase();
 
-    if (licence.startsWith('cc-')) {
-        licence = licence.substring(3);
-    }
-
-    return `https://creativecommons.org/licenses/${licence}/3.0/fr/`
+    return `https://creativecommons.org/licenses/${licence}/4.0/deed.fr`
 }
