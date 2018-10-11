@@ -57,6 +57,7 @@ build:review:
 deploy:review:
     stage: deploy
     image: edbizarro/gitlab-ci-pipeline-php:7.1
+    allow_failure: true
     only:
         - branches
     except:
