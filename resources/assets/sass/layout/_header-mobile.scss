@@ -15,5 +15,14 @@ le header est masquer en large up
 
     font-size: px2rem(18);
 
+    background-color: $bleu-500;
     border-bottom: 1px solid $orange-300;
+
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: auto;
+    height: $hauteur-menu-mobile;
+    z-index: z-index(300);
 }
