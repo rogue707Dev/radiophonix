@@ -70,13 +70,13 @@
                     <i aria-hidden="true" class="fa fa-list"></i>
                 </button>
                 <button class="btn btn-outline-theme btn-round" @click="previous">
-                    <i aria-hidden="true" class="fa fa-backward"></i>
+                    <i aria-hidden="true" class="fa fa-step-backward"></i>
                 </button>
                 <button class="btn btn-outline-theme btn-round btn-lg" @click="toggle">
                     <i aria-hidden="true" class="fa fa-play" :class="{'fa-play': !isPlaying, 'fa-pause': isPlaying}"></i>
                 </button>
                 <button class="btn btn-outline-theme btn-round" @click="next">
-                    <i aria-hidden="true" class="fa fa-forward"></i>
+                    <i aria-hidden="true" class="fa fa-step-forward"></i>
                 </button>
                 <button class="btn btn-outline-theme btn-round lecteur__bouton-affichage">
                     <i aria-hidden="true" class="fa fa-heart"></i>
