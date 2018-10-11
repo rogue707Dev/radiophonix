@@ -3,7 +3,6 @@
         <div class="input-group">
             <input class="form-control"
                    v-model="query"
-                   placeholder="Rechercher un faiseur, une saga, un épisode, un thème..."
                    aria-describedby="Rechercher">
             <div class="input-group-append">
                 <button class="btn btn-homepage" type="submit">
