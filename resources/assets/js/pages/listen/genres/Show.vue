@@ -3,7 +3,8 @@
 
         <banner
                 :title="genre.name"
-                subtitle="Genres">
+                subtitle="Genres"
+                type="genre">
 
             <template slot="image">
                 <cover

@@ -23,6 +23,12 @@ $banniere__padding-large: 20px;
         background-position: center -280px;
         z-index: z-index(0);
     }
+    &.var--saga:before {
+        background-image: url('/static/dev/images/motif-carre-blanc.svg');
+    }
+    &.var--genre:before {
+        background-image: url('/static/dev/images/motif-hexagone-blanc.svg');
+    }
 
 
     @include media-breakpoint-only(md) {

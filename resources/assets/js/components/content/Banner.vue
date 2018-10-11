@@ -1,6 +1,6 @@
 <template>
 
-    <div class="banniere">
+    <div class="banniere" :class="{'var--saga': type == 'saga', 'var--genre': type == 'genre'}">
         <div class="banniere__zone-visuel text-center">
 
             <slot name="image"></slot>
@@ -29,6 +29,10 @@ export default {
             required: false
         },
         subtitle: {
+            type: String,
+            require: false
+        },
+        type: {
             type: String,
             require: false
         }

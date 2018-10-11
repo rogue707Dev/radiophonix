@@ -3,7 +3,8 @@
 
         <banner
             :title="saga.name"
-            :subtitle="saga.author.name">
+            :subtitle="saga.author.name"
+            type="saga">
 
             <template slot="image">
                 <cover
