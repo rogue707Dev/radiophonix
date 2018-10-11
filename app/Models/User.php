@@ -3,14 +3,12 @@
 namespace Radiophonix\Models;
 
 use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\DatabaseNotification;
 use Illuminate\Notifications\DatabaseNotificationCollection;
 use Illuminate\Notifications\Notifiable;
 use Radiophonix\Models\Support\HasFakeId;
-use Radiophonix\Models\Support\IsSagaOwner;
-use Radiophonix\Models\Support\SagaOwner;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
 /**
@@ -19,17 +17,15 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
  * @property string $email
  * @property string $password
  * @property string $remember_token
- * @property string $bio
  * @property Carbon $created_at
  * @property Carbon $updated_at
- * @property-read Collection|Author[] $author
+ * @property-read Author $author
  * @property-read DatabaseNotificationCollection|DatabaseNotification[] $notifications
  */
-class User extends Authenticatable implements SagaOwner, JWTSubject
+class User extends Authenticatable implements JWTSubject
 {
     use Notifiable;
     use HasFakeId;
-    use IsSagaOwner;
 
     /**
      * The attributes that are mass assignable.
@@ -69,7 +65,15 @@ class User extends Authenticatable implements SagaOwner, JWTSubject
         return [
             'user' => [
                 'id' => $this->id,
-             ],
+            ],
         ];
+    }
+
+    /**
+     * @return HasOne
+     */
+    public function author()
+    {
+        return $this->hasOne(Author::class);
     }
 }
