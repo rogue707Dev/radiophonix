@@ -2,6 +2,7 @@
 
 namespace Radiophonix\Http\Controllers\Api\V1\Saga;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
 use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
@@ -25,7 +26,8 @@ class ListSagas extends ApiController
      */
     public function __invoke(Request $request)
     {
-        $sagas = Saga::visibles();
+        /** @var Saga|Builder $sagas */
+        $sagas = Saga::query()->with('team');
 
         if ($request->has('random')) {
             $sagas = $sagas->inRandomOrder()->limit(10);
@@ -40,6 +42,8 @@ class ListSagas extends ApiController
         $sagas = $sagas->filterBy($request->except('sort', 'page', 'include'));
 
         $sagas = $sagas->paginate();
+
+        $this->include('team');
 
         return $this->paginator($sagas, new SagaTransformer);
     }

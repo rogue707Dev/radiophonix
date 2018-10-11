@@ -80,7 +80,7 @@ class Kernel extends HttpKernel
         'cors' => HandleCors::class,
         'jwt.auth' => \Tymon\JWTAuth\Http\Middleware\Authenticate::class,
 //        'jwt.refresh' => RefreshToken::class,
-        'saga.visible' => SagaVisibilityMiddleware::class,
+//        'saga.visible' => SagaVisibilityMiddleware::class,
         'saga.owner' => OwnerMiddleware::class,
     ];
 }
