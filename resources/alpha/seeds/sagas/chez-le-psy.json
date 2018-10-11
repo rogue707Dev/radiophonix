@@ -34,7 +34,7 @@
                     "published_at": "2007-06-29T00:00:00+00:00",
                     "status": 3,
                     "seconds": "5min10s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s1v2.mp3",
+                    "file": "chez-le-psy/clp-saison1/Saison 1 - Séance 1.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -45,7 +45,7 @@
                     "published_at": "2007-06-30T00:00:00+00:00",
                     "status": 3,
                     "seconds": "5min07s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s2.mp3",
+                    "file": "chez-le-psy/clp-saison1/Saison 1 - Séance 2.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -56,7 +56,7 @@
                     "published_at": "2007-07-03T00:00:00+00:00",
                     "status": 3,
                     "seconds": "4min25s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s3.mp3",
+                    "file": "chez-le-psy/clp-saison1/Saison 1 - Séance 3.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -67,7 +67,7 @@
                     "published_at": "2007-07-13T00:00:00+00:00",
                     "status": 3,
                     "seconds": "5min12s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s4.mp3",
+                    "file": "chez-le-psy/clp-saison1/Saison 1 - Séance 4.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -78,7 +78,7 @@
                     "published_at": "2007-09-11T00:00:00+00:00",
                     "status": 3,
                     "seconds": "4min40s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s5.mp3",
+                    "file": "chez-le-psy/clp-saison1/Saison 1 - Séance 5.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -89,7 +89,7 @@
                     "published_at": "2007-09-21T00:00:00+00:00",
                     "status": 3,
                     "seconds": "4min48s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s6.mp3",
+                    "file": "chez-le-psy/clp-saison1/Saison 1 - Séance 6.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -100,7 +100,7 @@
                     "published_at": "2007-12-28T00:00:00+00:00",
                     "status": 3,
                     "seconds": "7min15s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s7.mp3",
+                    "file": "chez-le-psy/clp-saison1/Saison 1 - Séance 7.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -111,7 +111,7 @@
                     "published_at": "2008-02-23T00:00:00+00:00",
                     "status": 3,
                     "seconds": "3min55s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s8.mp3",
+                    "file": "chez-le-psy/clp-saison1/Saison 1 - Séance 8.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -121,8 +121,8 @@
                     "synopsis": "C'est l'apparition d'un certain Pierre Tombale dans le cabinet.",
                     "published_at": "2008-03-01T00:00:00+00:00",
                     "status": 3,
-                    "seconds": "6min20s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s9.mp3",
+                    "seconds": "7min16s",
+                    "file": "chez-le-psy/clp-saison1/Saison 1 - Séance 9.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -133,7 +133,7 @@
                     "published_at": "2008-03-05T00:00:00+00:00",
                     "status": 3,
                     "seconds": "5min37s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison1/s1s10.mp3",
+                    "file": "chez-le-psy/clp-saison1/Saison 1 - Séance 10.mp3",
                     "percentages": [],
                     "chapters": []
                 }
@@ -152,7 +152,7 @@
                     "published_at": "2008-09-01",
                     "status": 3,
                     "seconds": "8min48s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s11.mp3",
+                    "file": "chez-le-psy/clp-saison2/s2s11.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -163,7 +163,7 @@
                     "published_at": "2009-02-21",
                     "status": 3,
                     "seconds": "7min45s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s12p1.mp3",
+                    "file": "chez-le-psy/clp-saison2/s2s12p1.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -174,7 +174,7 @@
                     "published_at": "2009-02-28",
                     "status": 3,
                     "seconds": "9min26s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s12p2.mp3",
+                    "file": "chez-le-psy/clp-saison2/s2s12p2.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -185,7 +185,7 @@
                     "published_at": "2009-06-06",
                     "status": 3,
                     "seconds": "10min29s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s13.mp3",
+                    "file": "chez-le-psy/clp-saison2/s2s13.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -196,7 +196,7 @@
                     "published_at": "2010-04-03",
                     "status": 3,
                     "seconds": "14min23s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s14.mp3",
+                    "file": "chez-le-psy/clp-saison2/s2s14.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -207,7 +207,7 @@
                     "published_at": "2010-07-19",
                     "status": 3,
                     "seconds": "12min25s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s15.mp3",
+                    "file": "chez-le-psy/clp-saison2/s2s15.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -218,7 +218,7 @@
                     "published_at": "2011-04-23",
                     "status": 3,
                     "seconds": "8min17s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison2/s2s16.mp3",
+                    "file": "chez-le-psy/clp-saison2/s2s16.mp3",
                     "percentages": [],
                     "chapters": []
                 }
@@ -237,7 +237,7 @@
                     "published_at": "2013-04-01",
                     "status": 3,
                     "seconds": "4min14s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison3/s3prologue.mp3",
+                    "file": "chez-le-psy/Saison3/Saison 3 - Prologue.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -248,7 +248,7 @@
                     "published_at": "2014-11-29",
                     "status": 3,
                     "seconds": "8min05s",
-                    "file": "http://www.magoyond.com/DL/CLP-Saison3/s3s301.mp3",
+                    "file": "chez-le-psy/Saison3/Saison 3 - Séance 301.mp3",
                     "percentages": [],
                     "chapters": []
                 }
@@ -267,7 +267,7 @@
                     "published_at": "2007-07-13",
                     "status": 3,
                     "seconds": "5min16s",
-                    "file": "http://www.magoyond.com/DL/CLP-Speciales/spes1.mp3",
+                    "file": "chez-le-psy/speciales/spes1.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -278,7 +278,7 @@
                     "published_at": "2007-10-15",
                     "status": 3,
                     "seconds": "6min20s",
-                    "file": "http://www.magoyond.com/DL/CLP-Speciales/spes2.mp3",
+                    "file": "chez-le-psy/speciales/spes2.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -289,7 +289,7 @@
                     "published_at": "2007-12-03",
                     "status": 3,
                     "seconds": "5min23s",
-                    "file": "http://www.magoyond.com/DL/CLP-Speciales/spes3.mp3",
+                    "file": "chez-le-psy/speciales/spes3.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -300,7 +300,7 @@
                     "published_at": "2008-06-07",
                     "status": 3,
                     "seconds": "11min19s",
-                    "file": "http://www.magoyond.com/DL/CLP-Speciales/spes4.mp3",
+                    "file": "chez-le-psy/speciales/spes4.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -311,7 +311,7 @@
                     "published_at": "2008-12-15",
                     "status": 3,
                     "seconds": "5min26s",
-                    "file": "http://www.magoyond.com/DL/CLP-Speciales/spes5.mp3",
+                    "file": "chez-le-psy/speciales/spes5.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -322,7 +322,7 @@
                     "published_at": "2009-11-29",
                     "status": 3,
                     "seconds": "12min22s",
-                    "file": "http://www.magoyond.com/DL/CLP-Speciales/spes6.mp3",
+                    "file": "chez-le-psy/speciales/spes6.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -333,7 +333,7 @@
                     "published_at": "2010-10-15",
                     "status": 3,
                     "seconds": "3m31s",
-                    "file": "http://www.magoyond.com/DL/CLP-Speciales/spes7p1.mp3",
+                    "file": "chez-le-psy/speciales/spes7p1.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -344,7 +344,7 @@
                     "published_at": "2010-10-15",
                     "status": 3,
                     "seconds": "10min16s",
-                    "file": "http://www.magoyond.com/DL/CLP-Speciales/spes7p2.mp3",
+                    "file": "chez-le-psy/speciales/spes7p2.mp3",
                     "percentages": [],
                     "chapters": []
                 }
@@ -607,7 +607,7 @@
                     "published_at": "2010-12-19",
                     "status": 3,
                     "seconds": "6m9s",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus1.mp3",
+                    "file": "chez-le-psy/Bonus/bonus1.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -618,7 +618,7 @@
                     "published_at": "2010-05-06",
                     "status": 3,
                     "seconds": "5m36s",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus2.mp3",
+                    "file": "chez-le-psy/Bonus/bonus2.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -629,7 +629,7 @@
                     "published_at": "2010-05-06",
                     "status": 3,
                     "seconds": "5m24s",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus3.mp3",
+                    "file": "chez-le-psy/Bonus/bonus3.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -640,7 +640,7 @@
                     "published_at": "2010-05-06",
                     "status": 3,
                     "seconds": "22s",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus4.mp3",
+                    "file": "chez-le-psy/Bonus/bonus4.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -651,7 +651,7 @@
                     "published_at": "2010-05-06",
                     "status": 3,
                     "seconds": "39s",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus5.mp3",
+                    "file": "chez-le-psy/Bonus/bonus5.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -662,7 +662,7 @@
                     "published_at": "2013-03-31",
                     "status": 3,
                     "seconds": "23s",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus11.mp3",
+                    "file": "chez-le-psy/Bonus/bonus11.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -673,7 +673,7 @@
                     "published_at": "2013-03-31",
                     "status": 3,
                     "seconds": "26s",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus6.mp3",
+                    "file": "chez-le-psy/Bonus/bonus6.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -684,7 +684,7 @@
                     "published_at": "2010-05-06",
                     "status": 3,
                     "seconds": "24s",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus7.mp3",
+                    "file": "chez-le-psy/Bonus/bonus7.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -695,7 +695,7 @@
                     "published_at": "2010-05-06",
                     "status": 3,
                     "seconds": "2m",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus8.mp3",
+                    "file": "chez-le-psy/Bonus/bonus8.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -706,7 +706,7 @@
                     "published_at": "2009-03-26",
                     "status": 3,
                     "seconds": "49s",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus9.mp3",
+                    "file": "chez-le-psy/Bonus/bonus9.mp3",
                     "percentages": [],
                     "chapters": []
                 },
@@ -717,7 +717,7 @@
                     "published_at": "2010-12-19",
                     "status": 3,
                     "seconds": "7m18s",
-                    "file": "http://www.magoyond.com/DL/CLP-Bonus/bonus10.mp3",
+                    "file": "chez-le-psy/Bonus/bonus10.mp3",
                     "percentages": [],
                     "chapters": []
                 }
