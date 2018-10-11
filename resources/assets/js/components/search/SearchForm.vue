@@ -7,8 +7,8 @@
                    aria-describedby="Rechercher">
             <div class="input-group-append">
                 <button class="btn btn-homepage" type="submit">
-                    <i class="fa fa-fw fa-spinner fa-spin" v-show="isSearching"></i>
-                    <i class="fa fa-fw fa-search" v-show="!isSearching"></i>
+                    <i class="text-white fa fa-fw fa-spinner fa-spin" v-show="isSearching"></i>
+                    <i class="text-white fa fa-fw fa-search" v-show="!isSearching"></i>
                 </button>
             </div>
         </div>

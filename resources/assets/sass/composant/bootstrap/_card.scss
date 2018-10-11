@@ -16,7 +16,7 @@ $ LISTE DE CARTE
     // Une carte "moyen" par ligne max
     @include resize-card-moyen {
         grid-template-columns: repeat(auto-fill,$largeur-card-sm);
-        grid-gap: $list-card-gap-sm;
+        grid-gap: $list-card-gap $list-card-gap-sm;
     }
 
 }

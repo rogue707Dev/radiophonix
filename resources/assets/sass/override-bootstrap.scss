@@ -128,9 +128,9 @@ $grid-breakpoints: (
 
 $container-max-widths: (
         sm: 720px,
-        md: 910px, // taille max
-        lg: 911px, //+1 pour éviter le warning
-        xl: 912px //+2 pour éviter le warning
+        md: $taille-max-container, // taille max
+        lg: ($taille-max-container + 1px), //+1 pour éviter le warning
+        xl: ($taille-max-container + 2px) //+2 pour éviter le warning
 ) !default;
 
 // Body
