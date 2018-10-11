@@ -247,8 +247,41 @@
                     "synopsis": "Wallace arrive en prison et commence à prendre ses marques. Mais son premier jour n’est pas de tout repos.",
                     "published_at": "2014-11-29",
                     "status": 3,
-                    "seconds": "8min05s",
+                    "seconds": "7min56s",
                     "file": "chez-le-psy/Saison3/Saison 3 - Séance 301.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "302",
+                    "title": "Le Canapé",
+                    "synopsis": "",
+                    "published_at": "2014-11-30",
+                    "status": 3,
+                    "seconds": "14min",
+                    "file": "chez-le-psy/Saison3/Saison 3 - Séance 302.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "303",
+                    "title": "Hector",
+                    "synopsis": "",
+                    "published_at": "2014-12-01",
+                    "status": 3,
+                    "seconds": "10min",
+                    "file": "chez-le-psy/Saison3/Saison 3 - Séance 303.mp3",
+                    "percentages": [],
+                    "chapters": []
+                },
+                {
+                    "number": "304",
+                    "title": "Arcaméo",
+                    "synopsis": "",
+                    "published_at": "2014-12-02",
+                    "status": 3,
+                    "seconds": "23min",
+                    "file": "chez-le-psy/Saison3/Saison 3 - Séance 304.mp3",
                     "percentages": [],
                     "chapters": []
                 }
