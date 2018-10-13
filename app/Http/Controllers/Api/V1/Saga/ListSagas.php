@@ -35,12 +35,6 @@ class ListSagas extends ApiController
             return $this->collection($sagas->get(), new SagaTransformer);
         }
 
-        if ($request->has('sort')) {
-            $sagas = $sagas->sortBy($request->get('sort'));
-        }
-
-        $sagas = $sagas->filterBy($request->except('sort', 'page', 'include'));
-
         $sagas = $sagas->paginate();
 
         $this->include('team');

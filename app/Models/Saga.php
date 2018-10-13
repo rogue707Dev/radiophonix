@@ -3,6 +3,7 @@
 namespace Radiophonix\Models;
 
 use Carbon\Carbon;
+use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -12,8 +13,6 @@ use Laravel\Scout\Searchable;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasFakeId;
 use Radiophonix\Models\Support\HasMediaMetadata;
-use Radiophonix\Models\Support\Scopes\FilterByScope;
-use Radiophonix\Models\Support\Scopes\SortByScope;
 use Radiophonix\Models\Support\Stats\SagaStats;
 use Spatie\Image\Exceptions\InvalidManipulation;
 use Spatie\Image\Manipulations;
@@ -53,8 +52,6 @@ use Spatie\Sluggable\SlugOptions;
  */
 class Saga extends Model implements HasMedia, HasMediaMetadata
 {
-    use FilterByScope;
-    use SortByScope;
     use HasFakeId;
     use HasMediaTrait;
     use HasSlug;
@@ -191,12 +188,25 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
 
         // The scope is only active if a user is authenticated.
         if (Auth::guard('api')->check()) {
-            $query->orWhereHas('author', function ($query) {
-                $query->where('owner_id', '=', Auth::guard('api')->id());
+            $query->orWhereHas('authors', function ($query) {
+                $query->where('user_id', '=', Auth::guard('api')->id());
             });
         }
 
         return $query;
+    }
+
+    /**
+     * @param Authenticatable $user
+     * @return bool
+     */
+    public function isOwnedBy(Authenticatable $user): bool
+    {
+        $userId = $user->getAuthIdentifier();
+
+        return null !== $this->authors()
+                ->where('user_id', $userId)
+                ->first();
     }
 
     /**
@@ -208,6 +218,11 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
     {
         return $this->belongsToMany(Author::class);
     }
+
+//    public function owner()
+//    {
+//        return $this->belongsToMany(Author::class)->first();
+//    }
 
     /**
      * The list of collections in this sagas.
