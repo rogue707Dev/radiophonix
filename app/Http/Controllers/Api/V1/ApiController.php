@@ -8,6 +8,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use League\Fractal\Manager;
 use League\Fractal\Pagination\IlluminatePaginatorAdapter;
 use League\Fractal\Resource\Collection as FractalCollection;
 use League\Fractal\Resource\Item as FractalItem;
@@ -27,6 +28,14 @@ class ApiController extends Controller
 //            /** @noinspection PhpParamsInspection */
 //        }
 //    }
+
+    /**
+     * @param array|string $includes
+     */
+    protected function include($includes): void
+    {
+        app(Manager::class)->parseIncludes($includes);
+    }
 
     /**
      * Return an api response for one item.
@@ -79,7 +88,7 @@ class ApiController extends Controller
         $items = $paginator->items();
 
         if (empty($items)) {
-            abort(204);
+            return new ApiResponse(['res' => 'pas de résultats'], 404);
         }
 
         $resource = new FractalCollection($items, $transformer);

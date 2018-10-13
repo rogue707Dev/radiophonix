@@ -41,6 +41,10 @@ class AlphaSeed extends Command
     {
         \Eloquent::unguard();
 
+        $this->seedTeams();
+
+        $this->info('');
+
         $this->seedAuthors();
 
         $imports = $this->loadJsonFiles('sagas');
@@ -56,8 +60,6 @@ class AlphaSeed extends Command
 //            $this->info('');
 //            $this->info('==================================');
 //            $this->info('[SAGA] ' . $importSaga['name']);
-
-            $sagaOwner = Author::where('name', '=', $importSaga['author'])->first()->owner;
 
             $saga = new Saga();
 
@@ -76,8 +78,21 @@ class AlphaSeed extends Command
                 });
 
             $saga->visibility = Saga::VISIBILITY_PUBLIC;
-            $saga->setOwner($sagaOwner);
             $saga->save();
+
+            collect($importSaga['authors'])
+                ->each(function($authorName) use ($saga) {
+                    $author = Author::where('name', '=', $authorName)->first();
+
+                    $saga->authors()->save($author);
+                });
+
+            if (isset($importSaga['team'])) {
+                $team = Team::query()->where('name', $importSaga['team'])->first();
+
+                $saga->team()->associate($team);
+                $saga->save();
+            }
 
             collect($importSaga['images'])
                 ->filter(function ($image) {
@@ -207,6 +222,47 @@ class AlphaSeed extends Command
             });
     }
 
+    private function seedTeams(): void
+    {
+        $this->output->write('Equipes');
+
+        $this->loadJsonFiles('teams')
+            ->each(function($teamData) {
+                $rand = rand(1, 1000);
+
+                $user = User::create([
+                    'name' => 'User_' . $rand,
+                    'email' => 'user_' . $rand . '@radiophonix.org',
+                    'password' => bcrypt(Str::random(32)),
+                ]);
+
+                $team = new Team();
+                $team->name = $teamData['name'];
+                $team->bio = $teamData['bio'];
+
+                collect($teamData['links'])
+                    ->each(function ($link, $name) use ($team) {
+                        $property = 'link_' . $name;
+                        $team->$property = $link;
+                    });
+
+                $team->owner()->associate($user);
+                $team->save();
+
+                if (empty($teamData['picture'])) {
+                    $teamData['picture'] = 'author.jpg';
+                }
+
+                $filePath = Storage::disk('alpha')->url('images/authors/' . $teamData['picture']);
+
+                $team->addMedia($filePath)
+                    ->preservingOriginal()
+                    ->toMediaCollection('picture');
+
+                $this->output->write('.');
+            });
+    }
+
     private function seedAuthors(): void
     {
         $authors = $this->loadJsonFiles('authors');
@@ -214,8 +270,6 @@ class AlphaSeed extends Command
         $this->output->write('Faiseurs');
 
         $authors->each(function ($authorData) {
-            $authorType = $authorData['type'];
-
             /** @var User $user */
             $user = User::where('name', '=', $authorData['name'])
                 ->firstOrNew([
@@ -226,22 +280,11 @@ class AlphaSeed extends Command
 
             $user->save();
 
-            $sagaOwner = $user;
+            $author = new Author();
+            $author->name = $authorData['name'];
+            $author->bio = $authorData['bio'] ?? '';
 
-            if ($authorType == 'team') {
-                /** @var Team $team */
-                $team = Team::where('name', '=', $authorData['name'])
-                    ->firstOrNew([
-                        'name' => $authorData['name'],
-                    ]);
-
-                $team->owner()->associate($user);
-                $team->save();
-
-                $sagaOwner = $team;
-            }
-
-            $author = $sagaOwner->getAuthorModel();
+            $author->user()->associate($user);
 
             collect($authorData['links'])
                 ->each(function ($link, $name) use ($author) {
@@ -249,7 +292,6 @@ class AlphaSeed extends Command
                     $author->$property = $link;
                 });
 
-            $author->bio = $authorData['bio'] ?? '';
             $author->save();
 
             if (empty($authorData['picture'])) {

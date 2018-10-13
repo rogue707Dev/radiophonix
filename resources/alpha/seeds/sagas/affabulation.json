@@ -14,12 +14,13 @@
     "finished": true,
     "visibility": 0,
     "images": {
-        "cover": "Affabulation-pochette-768x768.jpg"
+        "cover": "affabulation.jpg"
     },
     "genres": [
         "Heroic fantasy"
     ],
-    "author": "Javras",
+    "authors": ["Artekyon"],
+    "team": "Javras",
     "collections": [
         {
             "number": "1",

@@ -12,10 +12,11 @@ class SagaTransformer extends Transformer
     protected $availableIncludes = [
         'genres',
         'collections',
+        'team',
     ];
 
     protected $defaultIncludes = [
-        'author',
+        'authors',
         'images',
     ];
 
@@ -54,11 +55,20 @@ class SagaTransformer extends Transformer
 
     /**
      * @param Saga $saga
-     * @return Item
+     * @return Collection
      */
-    public function includeAuthor(Saga $saga)
+    public function includeAuthors(Saga $saga)
     {
-        return $this->item($saga->author, new AuthorTransformer);
+        return $this->collection($saga->authors, new AuthorTransformer);
+    }
+
+    public function includeTeam(Saga $saga)
+    {
+        if ($saga->team === null) {
+            return null;
+        }
+
+        return $this->item($saga->team, new TeamTransformer());
     }
 
     /**

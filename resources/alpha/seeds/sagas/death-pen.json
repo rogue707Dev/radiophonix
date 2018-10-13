@@ -19,7 +19,7 @@
     "genres": [
         "Parodie"
     ],
-    "author": "Mace",
+    "authors": ["Mace"],
     "collections": [
         {
             "number": "1",

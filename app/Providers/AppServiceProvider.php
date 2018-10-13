@@ -31,17 +31,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind(Manager::class, function () {
+        $this->app->singleton(Manager::class, function () {
             $fractal = new Manager();
 
             $fractal->setSerializer(new ApiSerializer());
-
-            /** @var Request $request */
-            $request = $this->app->make(Request::class);
-
-            if ($request->has('include')) {
-                $fractal->parseIncludes($request->get('include'));
-            }
 
             return $fractal;
         });

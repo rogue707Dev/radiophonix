@@ -2,7 +2,6 @@
 
 use Radiophonix\Models\Author;
 use Radiophonix\Models\Saga;
-use Radiophonix\Models\User;
 
 class TestingSagasTableSeeder extends TestingSeeder
 {
@@ -16,46 +15,65 @@ class TestingSagasTableSeeder extends TestingSeeder
         $user1 = $this->fetchUser(1);
         $user2 = $this->fetchUser(2);
 
+        /** @var Author $author1 */
         $author1 = factory(Author::class)->make();
+        /** @var Author $author2 */
         $author2 = factory(Author::class)->make();
 
-        $author1->owner()->associate($user1)->save();
-        $author2->owner()->associate($user2)->save();
+        $author1->user()->associate($user1)->save();
+        $author2->user()->associate($user2)->save();
 
-        factory(Saga::class)->create([
-            'name' => 'Saga1_Public',
-            'visibility' => Saga::VISIBILITY_PUBLIC,
-            'author_id' => $author1->id,
-        ]);
+        $this->createSaga(
+            'Saga1_Public',
+            Saga::VISIBILITY_PUBLIC,
+            $author1
+        );
 
-        factory(Saga::class)->create([
-            'name' => 'Saga1_Hidden',
-            'visibility' => Saga::VISIBILITY_HIDDEN,
-            'author_id' => $author1->id,
-        ]);
+//        $this->createSaga(
+//            'Saga1_Hidden',
+//            Saga::VISIBILITY_HIDDEN,
+//            $author1
+//        );
+//
+//        $this->createSaga(
+//            'Saga1_Private',
+//            Saga::VISIBILITY_PRIVATE,
+//            $author1
+//        );
 
-        factory(Saga::class)->create([
-            'name' => 'Saga1_Private',
-            'visibility' => Saga::VISIBILITY_PRIVATE,
-            'author_id' => $author1->id,
-        ]);
+        $this->createSaga(
+            'Saga2_Public',
+            Saga::VISIBILITY_PUBLIC,
+            $author2
+        );
 
-        factory(Saga::class)->create([
-            'name' => 'Saga2_Public',
-            'visibility' => Saga::VISIBILITY_PUBLIC,
-            'author_id' => $author2->id,
-        ]);
+//        $this->createSaga(
+//            'Saga2_Hidden',
+//            Saga::VISIBILITY_HIDDEN,
+//            $author2
+//        );
+//
+//        $this->createSaga(
+//            'Saga2_Private',
+//            Saga::VISIBILITY_PRIVATE,
+//            $author2
+//        );
+    }
 
-        factory(Saga::class)->create([
-            'name' => 'Saga2_Hidden',
-            'visibility' => Saga::VISIBILITY_HIDDEN,
-            'author_id' => $author2->id,
-        ]);
+    /**
+     * @param string $name
+     * @param int $visibility
+     * @param Author $author
+     */
+    private function createSaga(string $name, int $visibility, Author $author)
+    {
+        /** @var Saga $saga */
+        $saga = factory(Saga::class)
+            ->create([
+                'name' => $name,
+                'visibility' => $visibility,
+            ]);
 
-        factory(Saga::class)->create([
-            'name' => 'Saga2_Private',
-            'visibility' => Saga::VISIBILITY_PRIVATE,
-            'author_id' => $author2->id,
-        ]);
+        $saga->authors()->save($author);
     }
 }

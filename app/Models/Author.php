@@ -3,14 +3,13 @@
 namespace Radiophonix\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Laravel\Scout\Searchable;
 use Radiophonix\Events\Author\AuthorSavingEvent;
-use Radiophonix\Models\Support\AuthorStats;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasFakeId;
-use Radiophonix\Models\Support\SagaOwner;
+use Radiophonix\Models\Support\Stats\AuthorStats;
 use Spatie\Image\Exceptions\InvalidManipulation;
 use Spatie\Image\Manipulations;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
@@ -24,10 +23,8 @@ use Spatie\Sluggable\SlugOptions;
  * Behind the scenes, an author can be a User or a Team.
  *
  * @property int $id
- * @property int $owner_id
  * @property string $name
  * @property string $slug
- * @property string $owner_type
  * @property string $bio
  * @property string $link_netowiki
  * @property string $link_site
@@ -36,7 +33,7 @@ use Spatie\Sluggable\SlugOptions;
  * @property string $link_twitter
  * @property \Carbon\Carbon $created_at
  * @property \Carbon\Carbon $updated_at
- * @property-read Model|\Eloquent|User|Team $owner
+ * @property-read Model|\Eloquent|User $user
  * @property-read \Illuminate\Database\Eloquent\Collection|Saga[] $sagas
  */
 class Author extends Model implements HasMedia
@@ -63,59 +60,15 @@ class Author extends Model implements HasMedia
     }
 
     /**
-     * Checks if the given object owns this instance.
-     *
-     * @param SagaOwner $owner
-     * @return bool
-     */
-    public function isOwnedBy(SagaOwner $owner)
-    {
-        if ($owner instanceof User) {
-            // If a team owns this Author, we check that the $owner User is a member of this Team
-            if ($this->owner instanceof Team) {
-                return $this->owner->hasMember($owner);
-            }
-
-            return $this->owner instanceof User && $this->owner_id == $owner->id;
-        }
-
-        if ($owner instanceof Team) {
-            return $this->owner instanceof Team && $this->owner_id == $owner->id;
-        }
-
-        return false;
-    }
-
-    /**
-     * The owner of this profile. Can be a user or a team.
-     *
-     * @return MorphTo
-     */
-    public function owner()
-    {
-        return $this->morphTo();
-    }
-
-    /**
-     * List of saga owned by this profile.
-     *
-     * @return HasMany
-     */
-    public function sagas()
-    {
-        return $this->hasMany(Saga::class);
-    }
-
-    /**
      * Get the options for generating the slug.
      */
     public function getSlugOptions(): SlugOptions
     {
         return SlugOptions::create()
             ->generateSlugsFrom(function (Author $author) {
-                return $author->owner === null
+                return $author->user === null
                     ? 'temp'
-                    : $author->owner->name;
+                    : $author->user->name;
             })
             ->saveSlugsTo('slug');
     }
@@ -137,5 +90,29 @@ class Author extends Model implements HasMedia
             ->sharpen(10)
             ->optimize()
             ->performOnCollections('picture');
+    }
+
+    /**
+     * @return BelongsTo
+     */
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    /**
+     * @return BelongsToMany
+     */
+    public function teams()
+    {
+        return $this->belongsToMany(Team::class);
+    }
+
+    /**
+     * @return BelongsToMany
+     */
+    public function sagas()
+    {
+        return $this->belongsToMany(Saga::class);
     }
 }

@@ -17,8 +17,8 @@ class CreateSagasTable extends Migration
             $table->increments('id');
             $table->string('slug')->unique();
 
-            $table->integer('author_id')->unsigned();
-            $table->foreign('author_id')->references('id')->on('authors')->onDelete('cascade');
+            $table->integer('team_id')->unsigned()->nullable();
+            $table->foreign('team_id')->references('id')->on('teams')->onDelete('cascade');
 
             $table->string('name');
             $table->text('synopsis')->nullable()->default(null);

@@ -3,7 +3,7 @@
 
         <banner
             :title="saga.name"
-            :subtitle="saga.author.name"
+            :subtitle="saga.authors[0].name"
             type="saga">
 
             <template slot="image">
@@ -98,41 +98,40 @@
 
                     <div class="d-flex flex-row">
                         <div>
-                            <router-link v-if="saga.author.id"
-                                         :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }">
+                            <router-link v-if="saga.authors[0].id"
+                                         :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }">
                                 <cover
                                         size="petit"
                                         type="faiseur"
-                                        :urlImage="saga.author.picture.thumb"
-                                        :altImage="saga.author.name">
+                                        :urlImage="saga.authors[0].picture.thumb"
+                                        :altImage="saga.authors[0].name">
                                 </cover>
                             </router-link>
                         </div>
                         <div>
                             <p class="text-primary">
-                                <i v-if="saga.author.type === 'user'" aria-hidden="true" class="fa fa-user"></i>
-                                {{ saga.author.name }}
+                                {{ saga.authors[0].name }}
                             </p>
-                            <p><text-ellipsis :text="saga.author.bio" :size="200"></text-ellipsis></p>
-                            <router-link v-if="saga.author.id"
-                                         :to="{ name: 'listen.authors.show', params: { id: saga.author.slug } }"
+                            <p><text-ellipsis :text="saga.authors[0].bio" :size="200"></text-ellipsis></p>
+                            <router-link v-if="saga.authors[0].id"
+                                         :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }"
                                          class="btn btn-outline-primary btn-sm my-3">
                                 Voir la biographie
                             </router-link>
 
-                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.author.links.site" v-if="saga.author.links.site">
+                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.site" v-if="saga.authors[0].links.site">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
                             </a>
-                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.author.links.facebook" title="Facebook" v-if="saga.author.links.facebook">
+                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.facebook" title="Facebook" v-if="saga.authors[0].links.facebook">
                                 <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
                             </a>
-                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.author.links.twitter" title="Twitter" v-if="saga.author.links.twitter">
+                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.twitter" title="Twitter" v-if="saga.authors[0].links.twitter">
                                 <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
                             </a>
-                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.author.links.netowiki" v-if="saga.author.links.netowiki">
+                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.netowiki" v-if="saga.authors[0].links.netowiki">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
                             </a>
-                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.author.links.topic" v-if="saga.author.links.topic">
+                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.topic" v-if="saga.authors[0].links.topic">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
                             </a>
                         </div>
@@ -223,11 +222,14 @@ export default {
         saga: {
             stats: {},
             links: {},
-            author: {
-                links: {},
-                picture: {},
-                bio: '',
-            },
+            authors: [
+                {
+                    name: '',
+                    links: {},
+                    picture: {},
+                    bio: '',
+                },
+            ],
             images: {
                 cover: {}
             },

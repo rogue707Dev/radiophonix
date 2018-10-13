@@ -19,7 +19,7 @@
     "genres": [
         "Espionnage"
     ],
-    "author": "Flo",
+    "authors": ["Flo"],
     "collections": [
         {
             "number": "1",

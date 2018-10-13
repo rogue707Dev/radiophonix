@@ -19,7 +19,7 @@
     "genres": [
         "Science-fiction"
     ],
-    "author": "Mitch DSM",
+    "authors": ["Mitch DSM"],
     "collections": [
         {
             "number": "1",
