@@ -10,31 +10,31 @@
 
         <div class="container">
 
-        <nav-list class="mb-4">
-            <nav-item :active="menu == 'popular'" @click="switchMenu('popular', 'sagas', 'popular')">Populaire</nav-item>
-            <nav-item :active="menu == 'recent'" @click="switchMenu('recent', 'sagas', 'recent')">Nouveau</nav-item>
-            <nav-item :active="menu == 'authors'" @click="switchMenu('authors', 'authors', 'all')">Faiseurs</nav-item>
-            <nav-item :active="menu == 'genres'" @click="switchMenu('genres', 'genres', 'all')">Genres</nav-item>
-            <nav-item :active="menu == 'discover'" @click="switchMenu('discover', 'sagas', 'discover')">Découvrir</nav-item>
-        </nav-list>
+            <nav-list class="mb-4">
+                <nav-item :active="menu == 'popular'" @click="switchMenu('popular', 'sagas', 'popular')">Populaire</nav-item>
+                <nav-item :active="menu == 'recent'" @click="switchMenu('recent', 'sagas', 'recent')">Nouveau</nav-item>
+                <nav-item :active="menu == 'authors'" @click="switchMenu('authors', 'authors', 'all')">Faiseurs</nav-item>
+                <nav-item :active="menu == 'genres'" @click="switchMenu('genres', 'genres', 'all')">Genres</nav-item>
+                <nav-item :active="menu == 'discover'" @click="switchMenu('discover', 'sagas', 'discover')">Découvrir</nav-item>
+            </nav-list>
 
-        <saga-list v-show="menu == 'popular'" :sagas="popular"></saga-list>
+            <saga-list v-show="menu == 'popular'" :sagas="popular"></saga-list>
 
-        <saga-list v-show="menu == 'recent'" :sagas="recent"></saga-list>
+            <saga-list v-show="menu == 'recent'" :sagas="recent"></saga-list>
 
-        <saga-alphabet-list v-show="menu == 'discover'" :sagas="discover"></saga-alphabet-list>
+            <saga-alphabet-list v-show="menu == 'discover'" :sagas="discover"></saga-alphabet-list>
 
-        <author-list v-show="menu == 'authors'" :authors="authors"></author-list>
+            <author-list v-show="menu == 'authors'" :authors="authors"></author-list>
 
-        <div class="list-card" v-show="menu == 'genres'">
+            <div class="list-card" v-show="menu == 'genres'">
 
-            <card-genre v-for="genre in genres"
-                        :key="genre.id"
-                        :genre="genre"></card-genre>
+                <card-genre v-for="genre in genres"
+                            :key="genre.id"
+                            :genre="genre"></card-genre>
+
+            </div>
 
         </div>
-
-    </div>
     </div>
 </template>
 
