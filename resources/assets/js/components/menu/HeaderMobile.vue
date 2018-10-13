@@ -2,8 +2,17 @@
     <div class="layout-header-mobile">
 
         <button class="btn-header-mobile var--menu" @click="toggleMenu" :class="{ 'var--actif': isMenuOpen}">
-            <i class="fa" aria-hidden="true"
-               :class="{ 'fa-close': isMenuOpen, 'fa-bars': !isMenuOpen }"></i>
+            <svg class="burger" viewBox="0 0 30 22" width="30" :class="{ 'var--actif': isMenuOpen}">
+                <path
+                        class="burger__line burger__top"
+                        d="M24.5,3.1h-19c0,0-4-0.1-4,4s4,4,4,4H15V1.6" />
+                <path
+                        class="burger__line burger__middle"
+                        d="M24.5,11.2h-19" />
+                <path
+                        class="burger__line burger__bottom"
+                        d="M5.5,19.3h19c0,0,4,0.1,4-4s-4-4-4-4H15v9.5" />
+            </svg>
             <span class="h6">Menu</span>
         </button>
 

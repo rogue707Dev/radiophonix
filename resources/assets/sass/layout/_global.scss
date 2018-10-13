@@ -75,11 +75,15 @@ $ MENU
         display: none;
 
         &.actif {
-            display: inherit;
-            grid-column: 1/4;
-            grid-row: 2/3;
+            position: fixed;
+            top: $hauteur-menu-mobile;
+            right: 0;
+            left: 0;
+            bottom: 0;
 
+            display: inherit;
             z-index: 3;
+
         }
     }
 

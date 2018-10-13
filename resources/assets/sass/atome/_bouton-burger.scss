@@ -1,0 +1,41 @@
+/*======================================================================================================================
+$ BASE BURGER
+======================================================================================================================*/
+.burger {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.burger__line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:$white;
+    stroke-width:3;
+    stroke-linecap:round;
+}
+/*======================================================================================================================
+$ NORMAL
+======================================================================================================================*/
+.burger .burger__top {
+    stroke-dasharray: 20 200;
+}
+.burger .burger__bottom {
+    stroke-dasharray: 20 200;
+}
+
+/*======================================================================================================================
+$ ACTIF
+======================================================================================================================*/
+.burger.var--actif {
+    transform: rotate(45deg);
+}
+.burger.var--actif .burger__top {
+    stroke-dashoffset: -31px;
+}
+.burger.var--actif .burger__bottom {
+    stroke-dashoffset: -31px;
+}
