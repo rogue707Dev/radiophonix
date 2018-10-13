@@ -17,6 +17,7 @@ import ListenSagaIndexView from '~/pages/listen/sagas/Index.vue';
 import ListenSagaShowView from '~/pages/listen/sagas/Show.vue';
 import ListenAuthorIndexView from '~/pages/listen/authors/Index.vue';
 import ListenAuthorShowView from '~/pages/listen/authors/Show.vue';
+import ListenTeamShowView from '~/pages/listen/teams/Show.vue';
 import ListenGenreShowView from '~/pages/listen/genres/Show.vue';
 
 // Publish pages
@@ -235,6 +236,12 @@ const routes = [
                         path: 'faiseurs/:id',
                         component: ListenAuthorShowView,
                         name: 'listen.authors.show',
+                        meta: { menu: 'listen' }
+                    },
+                    {
+                        path: 'equipes/:id',
+                        component: ListenTeamShowView,
+                        name: 'listen.teams.show',
                         meta: { menu: 'listen' }
                     },
 

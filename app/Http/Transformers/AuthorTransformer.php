@@ -25,10 +25,10 @@ class AuthorTransformer extends Transformer
             $this->defaultIncludes[] = 'sagas';
         }
 
-        $output = [
+        return [
             'id' => $author->fakeId(),
             'slug' => $author->slug,
-            'name' => $author->name, // User and Team models have a $name property
+            'name' => $author->name,
             'bio' => $author->bio,
             'links' => [
                 'netowiki' => $author->link_netowiki,
@@ -43,8 +43,6 @@ class AuthorTransformer extends Transformer
             'created_at' => $this->getFormatedDate($author->created_at),
             'updated_at' => $this->getFormatedDate($author->updated_at),
         ];
-
-        return $output;
     }
 
     /**

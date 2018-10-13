@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as IlluminateUser;
+use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasFakeId;
 use Radiophonix\Models\Support\Stats\TeamStats;
 use Spatie\Image\Exceptions\InvalidManipulation;
@@ -21,9 +22,14 @@ use Spatie\Sluggable\SlugOptions;
 
 /**
  * @property int $id
- * @property int $owner_id
  * @property string $name
+ * @property string $slug
  * @property string $bio
+ * @property string $link_netowiki
+ * @property string $link_site
+ * @property string $link_topic
+ * @property string $link_facebook
+ * @property string $link_twitter
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read Collection|Author[] $authors
@@ -34,6 +40,7 @@ class Team extends Model implements HasMedia
 {
     use HasFakeId;
     use HasSlug;
+    use FindableFromSlug;
     use HasMediaTrait;
 
     /**

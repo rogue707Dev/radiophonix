@@ -304,6 +304,15 @@ class AlphaSeed extends Command
                 ->preservingOriginal()
                 ->toMediaCollection('picture');
 
+            if (isset($authorData['teams'])) {
+                collect($authorData['teams'])
+                    ->each(function($teamName) use ($author) {
+                        $team = Team::query()->where('name', $teamName)->first();
+
+                        $author->teams()->save($team);
+                    });
+            }
+
             $this->output->write('.');
         });
     }

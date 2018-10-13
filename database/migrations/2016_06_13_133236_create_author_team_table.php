@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTeamAuthorTable extends Migration
+class CreateAuthorTeamTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,9 +12,10 @@ class CreateTeamAuthorTable extends Migration
      */
     public function up()
     {
-        Schema::create('team_author', function (Blueprint $table) {
+        Schema::create('author_team', function (Blueprint $table) {
             $table->integer('team_id')->unsigned()->index();
             $table->foreign('team_id')->references('id')->on('teams')->onDelete('cascade');
+
             $table->integer('author_id')->unsigned()->index();
             $table->foreign('author_id')->references('id')->on('authors')->onDelete('cascade');
 
