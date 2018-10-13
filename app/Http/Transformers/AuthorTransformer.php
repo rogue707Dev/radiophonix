@@ -42,8 +42,6 @@ class AuthorTransformer extends Transformer
             ],
             'created_at' => $this->getFormatedDate($author->created_at),
             'updated_at' => $this->getFormatedDate($author->updated_at),
-            // This can be used by the client to display a User or Team template
-            'type' => strtolower(class_basename($author->owner_type)),
         ];
 
         return $output;
