@@ -16,7 +16,7 @@
             </saga-stats>
         </template>
         <template slot="content" v-if="withAuthor">
-            <p>Par {{ saga.author.name }}</p>
+            <p>Par {{ saga.authors[0].name }}</p>
         </template>
 
     </Card>

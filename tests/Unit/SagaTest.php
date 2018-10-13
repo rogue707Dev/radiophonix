@@ -2,16 +2,15 @@
 
 namespace Tests\Unit;
 
-use Radiophonix\Models\Saga;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Radiophonix\Models\Author;
+use Radiophonix\Models\Saga;
 use Radiophonix\Models\User;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class SagaTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
 
     /** @test */
     public function can_make_saga_public()
@@ -55,13 +54,12 @@ class SagaTest extends TestCase
         $user = factory(User::class)->create();
 
         $author = factory(Author::class)->create([
-            'owner_id' => $user->id,
-            'owner_type' => User::class,
+            'user_id' => $user->id,
         ]);
 
-        $sagaFromFactory = factory(Saga::class)->create([
-            'author_id' => $author->id,
-        ]);
+        /** @var Saga $sagaFromFactory */
+        $sagaFromFactory = factory(Saga::class)->create();
+        $sagaFromFactory->authors()->save($author);
 
         $sagaFromSlug = Saga::fromSlug($sagaFromFactory->slug);
 
@@ -74,14 +72,14 @@ class SagaTest extends TestCase
         $user = factory(User::class)->create();
 
         $author = factory(Author::class)->create([
-            'owner_id' => $user->id,
-            'owner_type' => User::class,
+            'user_id' => $user->id,
         ]);
 
+        /** @var Saga $saga */
         $saga = factory(Saga::class)->create([
             'name' => 'Example name of Saga',
-            'author_id' => $author->id,
         ]);
+        $saga->authors()->save($author);
 
         $this->assertEquals('example-name-of-saga', $saga->slug);
     }

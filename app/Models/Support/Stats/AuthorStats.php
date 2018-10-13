@@ -1,6 +1,6 @@
 <?php
 
-namespace Radiophonix\Models\Support;
+namespace Radiophonix\Models\Support\Stats;
 
 use Radiophonix\Models\Author;
 

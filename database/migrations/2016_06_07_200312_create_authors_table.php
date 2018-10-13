@@ -18,8 +18,6 @@ class CreateAuthorsTable extends Migration
             $table->string('slug')->unique();
 
             $table->string('name');
-            $table->morphs('owner');
-
             $table->text('bio')->nullable();
 
             $table->string('link_netowiki')->nullable()->default(null);
@@ -27,6 +25,9 @@ class CreateAuthorsTable extends Migration
             $table->string('link_topic')->nullable()->default(null);
             $table->string('link_facebook')->nullable()->default(null);
             $table->string('link_twitter')->nullable()->default(null);
+
+            $table->integer('user_id')->unsigned()->index()->nullable();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
 
             $table->timestamps();
         });

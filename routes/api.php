@@ -51,7 +51,7 @@ Route::post('/search', SearchAll::class);
 
 Route::get('/sagas', ListSagas::class);
 
-Route::group(['middleware' => 'saga.visible'], function () {
+//Route::group(['middleware' => 'saga.visible'], function () {
     Route::get('/sagas/{saga}', ShowSaga::class);
     Route::get('/sagas/{saga}/collections', ListSagaCollections::class);
 
@@ -59,7 +59,7 @@ Route::group(['middleware' => 'saga.visible'], function () {
     Route::get('/collections/{collection}/tracks', ListCollectionTracks::class);
 
     Route::get('/tracks/{track}', ShowTrack::class);
-});
+//});
 
 Route::get('/genres', ListGenres::class);
 Route::get('/genres/{genre}', ShowGenre::class);
@@ -68,13 +68,13 @@ Route::get('/authors', ListAuthors::class);
 Route::get('/authors/{author}', ShowAuthor::class);
 Route::get('/authors/{author}/sagas', ListAuthorSagas::class);
 
-/*
-
-// WIP authentification
-
 Route::get('/teams', ListTeams::class);
 Route::get('/teams/{team}', ShowTeam::class);
 Route::get('/teams/{team}/sagas', ListTeamSagas::class);
+
+/*
+
+// WIP authentification
 
 Route::post('/auth/register', 'AuthController@register');
 Route::post('/auth/login', 'AuthController@authenticate');

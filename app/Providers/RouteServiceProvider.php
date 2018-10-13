@@ -50,7 +50,7 @@ class RouteServiceProvider extends ServiceProvider
         });
 
         Route::bind('team', function ($value) {
-            return Team::fromFakeId($value);
+            return Team::findFromSlugOrFakeId($value);
         });
 
         Route::bind('genre', function ($value) {

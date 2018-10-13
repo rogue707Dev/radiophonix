@@ -16,6 +16,6 @@ class SyncNameColumnListener
     {
         $author = $event->author;
 
-        $author->name = $author->owner->name;
+        $author->name = $author->user->name;
     }
 }

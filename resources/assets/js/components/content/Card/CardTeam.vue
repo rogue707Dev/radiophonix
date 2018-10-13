@@ -1,18 +1,19 @@
 <template>
-    <!-- @todo mettre un lien vers la page d'un épisode quand elle existera -->
     <Card
-        :link="{ name: 'listen.sagas.show', params: { idOrSlug: track.collection.saga.slug } }"
-        :urlImage="track.collection.saga.images.cover.thumb"
-        :altImage="track.title"
-        :title="track.title"
-        type="episode"
+        :link="{ name: 'listen.teams.show', params: { id: team.slug } }"
+        :urlImage="team.picture.thumb"
+        :altImage="team.name"
+        :title="team.name"
+        type="faiseur"
         :badge="badge"
         :size="size"
         :card-horizontal="horizontal">
 
         <template slot="stats" v-if="withStats">
-            <i aria-hidden="true" class="fa fa-clock-o"></i>
-            <track-length :seconds="track.seconds"></track-length>
+            <i aria-hidden="true" class="fa fa-microphone"></i>
+            {{ team.stats.sagas }}
+            <template v-if="team.stats.sagas > 1">Sagas</template>
+            <template v-else>Saga</template>
         </template>
 
     </Card>
@@ -20,12 +21,10 @@
 
 <script>
     import Card from '~/components/content/Card.vue';
-    import TrackLength from '~/components/track/TrackLength';
 
     export default {
         components: {
             Card,
-            TrackLength,
         },
 
         computed: {
@@ -39,7 +38,7 @@
         },
 
         props: {
-            track: {
+            team: {
                 type: Object,
                 required: true,
             },

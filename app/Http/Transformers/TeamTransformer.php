@@ -2,32 +2,65 @@
 
 namespace Radiophonix\Http\Transformers;
 
+use League\Fractal\Resource\Collection;
+use League\Fractal\Resource\Item;
 use Radiophonix\Http\Transformers\Support\Transformer;
 use Radiophonix\Models\Team;
-use Radiophonix\Services\FakeId\FakeIdManager;
 
 class TeamTransformer extends Transformer
 {
+    protected $defaultIncludes = [
+        'picture',
+    ];
+
     protected $availableIncludes = [
-        'members'
+        'authors',
+        'sagas',
     ];
 
     public function transform(Team $team)
     {
-        $fakeIdManager = app(FakeIdManager::class);
-
         return [
             'id' => $team->fakeId(),
+            'slug' => $team->slug,
             'name' => $team->name,
             'bio' => $team->bio,
-            'owner_id' => $fakeIdManager->connection('users')->encode($team->owner_id),
+            'links' => [
+                'netowiki' => $team->link_netowiki,
+                'site' => $team->link_site,
+                'topic' => $team->link_topic,
+                'facebook' => $team->link_facebook,
+                'twitter' => $team->link_twitter,
+            ],
+            'stats' => $team->stats()->toArray(),
             'created_at' => $this->getFormatedDate($team->created_at),
             'updated_at' => $this->getFormatedDate($team->updated_at),
         ];
     }
 
-    public function includeMembers(Team $team)
+    /**
+     * @param Team $team
+     * @return Item
+     */
+    public function includePicture(Team $team)
     {
-        return $this->collection($team->members, new UserTransformer);
+        return $this->item(
+            $team,
+            new SingleImageTransformer('picture', ['main', 'thumb'])
+        );
+    }
+
+    public function includeAuthors(Team $team)
+    {
+        return $this->collection($team->authors, new AuthorTransformer());
+    }
+
+    /**
+     * @param Team $team
+     * @return Collection
+     */
+    public function includeSagas(Team $team)
+    {
+        return $this->collection($team->sagas, new SagaTransformer);
     }
 }

@@ -15,7 +15,7 @@ class ShowSaga extends ApiController
      */
     public function __invoke(Saga $saga)
     {
-        $saga->load('genres');
+        $saga->load('genres', 'team');
 
         return $this->item($saga, new SagaTransformer);
     }

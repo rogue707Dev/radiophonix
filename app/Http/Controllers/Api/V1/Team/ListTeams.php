@@ -16,12 +16,6 @@ class ListTeams extends ApiController
      */
     public function __invoke()
     {
-        return $this->paginator(Team::whereHas('sagas', function (Builder $query) {
-            $query->whereHas('collections', function (Builder $query) {
-                $query->whereHas('tracks', function (Builder $query) {
-                    $query->where('status', Track::STATUS_PUBLISHED);
-                });
-            });
-        })->paginate(), new TeamTransformer);
+        return $this->collection(Team::all(), new TeamTransformer());
     }
 }

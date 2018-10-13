@@ -19,7 +19,7 @@
     "genres": [
         "Aventure"
     ],
-    "author": "Inky",
+    "authors": ["Inky"],
     "collections": [
         {
             "number": "0",

@@ -3,9 +3,9 @@
 namespace Radiophonix\Models;
 
 use Carbon\Carbon;
+use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Auth;
@@ -13,10 +13,7 @@ use Laravel\Scout\Searchable;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasFakeId;
 use Radiophonix\Models\Support\HasMediaMetadata;
-use Radiophonix\Models\Support\SagaOwner;
-use Radiophonix\Models\Support\Scopes\FilterByScope;
-use Radiophonix\Models\Support\Scopes\SortByScope;
-use Radiophonix\Models\Support\SagaStats;
+use Radiophonix\Models\Support\Stats\SagaStats;
 use Spatie\Image\Exceptions\InvalidManipulation;
 use Spatie\Image\Manipulations;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
@@ -28,7 +25,6 @@ use Spatie\Sluggable\SlugOptions;
 /**
  * @property int $id
  * @property string $slug
- * @property int $author_id
  * @property string $name
  * @property string $synopsis
  * @property Carbon $creation_date
@@ -44,7 +40,8 @@ use Spatie\Sluggable\SlugOptions;
  * @property string $last_publish_at
  * @property Carbon $created_at
  * @property Carbon $updated_at
- * @property-read Author $author
+ * @property-read Author[] $authors
+ * @property-read Team $team
  * @property-read \Illuminate\Database\Eloquent\Collection|Bravo[] $bravos
  * @property-read \Illuminate\Database\Eloquent\Collection|Collection[] $collections
  * @property-read \Illuminate\Database\Eloquent\Collection|Genre[] $genres
@@ -55,8 +52,6 @@ use Spatie\Sluggable\SlugOptions;
  */
 class Saga extends Model implements HasMedia, HasMediaMetadata
 {
-    use FilterByScope;
-    use SortByScope;
     use HasFakeId;
     use HasMediaTrait;
     use HasSlug;
@@ -120,33 +115,6 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
         ],
         'finished',
     ];
-
-    /**
-     * Saves the given owner as the Author.
-     *
-     * @param SagaOwner $owner
-     *
-     * @return self
-     */
-    public function setOwner(SagaOwner $owner)
-    {
-        $author = $owner->getAuthorModel();
-
-        $this->author()->associate($author);
-
-        return $this;
-    }
-
-    /**
-     * Return true if the given owner owns the Saga via an Author model.
-     *
-     * @param SagaOwner $owner
-     * @return bool
-     */
-    public function isOwnedBy(SagaOwner $owner)
-    {
-        return $this->author->isOwnedBy($owner);
-    }
 
     /**
      * Set the last_published_at column to the most recent published track.
@@ -220,9 +188,8 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
 
         // The scope is only active if a user is authenticated.
         if (Auth::guard('api')->check()) {
-            $query->orWhereHas('author', function ($query) {
-                $query->where('owner_id', '=', Auth::guard('api')->id());
-                $query->where('owner_type', '=', User::class);
+            $query->orWhereHas('authors', function ($query) {
+                $query->where('user_id', '=', Auth::guard('api')->id());
             });
         }
 
@@ -230,14 +197,32 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
     }
 
     /**
+     * @param Authenticatable $user
+     * @return bool
+     */
+    public function isOwnedBy(Authenticatable $user): bool
+    {
+        $userId = $user->getAuthIdentifier();
+
+        return null !== $this->authors()
+                ->where('user_id', $userId)
+                ->first();
+    }
+
+    /**
      * The profile of this saga's owner.
      *
-     * @return BelongsTo
+     * @return BelongsToMany
      */
-    public function author()
+    public function authors()
     {
-        return $this->belongsTo(Author::class);
+        return $this->belongsToMany(Author::class);
     }
+
+//    public function owner()
+//    {
+//        return $this->belongsToMany(Author::class)->first();
+//    }
 
     /**
      * The list of collections in this sagas.
@@ -267,6 +252,11 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
     public function genres()
     {
         return $this->belongsToMany(Genre::class);
+    }
+
+    public function team()
+    {
+        return $this->belongsTo(Team::class);
     }
 
     /**
