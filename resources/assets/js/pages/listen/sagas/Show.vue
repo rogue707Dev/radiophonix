@@ -222,11 +222,14 @@ export default {
         saga: {
             stats: {},
             links: {},
-            author: {
-                links: {},
-                picture: {},
-                bio: '',
-            },
+            authors: [
+                {
+                    name: '',
+                    links: {},
+                    picture: {},
+                    bio: '',
+                },
+            ],
             images: {
                 cover: {}
             },
