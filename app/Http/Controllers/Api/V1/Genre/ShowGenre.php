@@ -15,8 +15,8 @@ class ShowGenre extends ApiController
      */
     public function __invoke(Genre $genre)
     {
-        // @todo gérer via un paramètre ?with=sagas
-        $genre->load('sagas');
+        $genre->load('sagas.team', 'sagas.authors');
+        $this->include('saga', 'sagas.team', 'sagas.authors');
 
         return $this->item($genre, new GenreTransformer);
     }

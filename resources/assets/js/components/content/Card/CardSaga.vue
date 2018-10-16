@@ -16,7 +16,17 @@
             </saga-stats>
         </template>
         <template slot="content" v-if="withAuthor">
-            <p>Par {{ saga.authors[0].name }}</p>
+            <p>
+                Par
+                <router-link v-if="saga.authors[0].id"
+                             :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }">
+                    {{ saga.authors[0].name }}
+                </router-link>
+                <router-link v-if="saga.team"
+                             :to="{ name: 'listen.teams.show', params: { id: saga.team.slug } }">
+                    ({{ saga.team.name }})
+                </router-link>
+            </p>
         </template>
 
     </Card>

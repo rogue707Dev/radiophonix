@@ -37,7 +37,7 @@ class ListSagas extends ApiController
 
         $sagas = $sagas->paginate();
 
-        $this->include('team');
+        $this->include('team', 'authors');
 
         return $this->paginator($sagas, new SagaTransformer);
     }

@@ -30,9 +30,9 @@ class ApiController extends Controller
 //    }
 
     /**
-     * @param array|string $includes
+     * @param string ...$includes
      */
-    protected function include($includes): void
+    protected function include(...$includes): void
     {
         app(Manager::class)->parseIncludes($includes);
     }

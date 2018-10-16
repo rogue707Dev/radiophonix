@@ -15,9 +15,8 @@ class ShowTeam extends ApiController
      */
     public function __invoke(Team $team)
     {
-        $team->load('sagas', 'authors');
-
-        $this->include(['sagas', 'authors']);
+        $team->load('sagas.authors', 'sagas.team', 'authors');
+        $this->include('sagas', 'sagas.authors', 'sagas.team', 'authors');
 
         return $this->item($team, new TeamTransformer);
     }

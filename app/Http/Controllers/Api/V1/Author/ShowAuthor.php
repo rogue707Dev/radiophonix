@@ -17,7 +17,8 @@ class ShowAuthor extends ApiController
      */
     public function __invoke(Author $author)
     {
-        $author->load('sagas');
+        $author->load('sagas', 'sagas.authors', 'sagas.team');
+        $this->include('sagas', 'sagas.authors', 'sagas.team');
 
         return $this->item($author, new AuthorTransformer);
     }

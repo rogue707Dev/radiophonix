@@ -3,8 +3,18 @@
 
         <banner
             :title="saga.name"
-            :subtitle="saga.authors[0].name"
             type="saga">
+
+            <template slot="subtitle">
+                <router-link v-if="saga.authors[0].id"
+                             :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }">
+                    {{ saga.authors[0].name }}
+                </router-link>
+                <router-link v-if="saga.team.id"
+                             :to="{ name: 'listen.teams.show', params: { id: saga.team.slug } }">
+                    ({{ saga.team.name }})
+                </router-link>
+            </template>
 
             <template slot="image">
                 <cover
@@ -109,8 +119,16 @@
                             </router-link>
                         </div>
                         <div>
-                            <p class="text-primary">
-                                {{ saga.authors[0].name }}
+                            <p>
+                                <router-link v-if="saga.authors[0].id"
+                                             :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }"
+                                             class="text-primary">
+                                    {{ saga.authors[0].name }}
+                                </router-link>
+                                <router-link v-if="saga.team.id"
+                                             :to="{ name: 'listen.teams.show', params: { id: saga.team.slug } }">
+                                    (<span class="text-primary">{{ saga.team.name }}</span>)
+                                </router-link>
                             </p>
                             <p><text-ellipsis :text="saga.authors[0].bio" :size="200"></text-ellipsis></p>
                             <router-link v-if="saga.authors[0].id"

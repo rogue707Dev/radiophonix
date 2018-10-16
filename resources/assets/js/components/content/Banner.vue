@@ -9,7 +9,9 @@
         <div class="banniere__zone-contenu">
             <div class="text-center text-md-left">
 
-                <h2 class="h1">{{ subtitle }}</h2>
+                <h2 class="h1">
+                    <slot name="subtitle"></slot>
+                </h2>
                 <h1 class="display-2">{{ title }}</h1>
 
                 <slot></slot>
@@ -27,10 +29,6 @@ export default {
         title: {
             type: String,
             required: false
-        },
-        subtitle: {
-            type: String,
-            require: false
         },
         type: {
             type: String,
