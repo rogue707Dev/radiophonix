@@ -26,10 +26,6 @@ class SagaTransformer extends Transformer
      */
     public function transform(Saga $saga)
     {
-        if ($saga->relationLoaded('genres')) {
-            $this->defaultIncludes[] = 'genres';
-        }
-
         return [
             'id' => $saga->fakeId(),
             'slug' => $saga->slug,
@@ -64,10 +60,6 @@ class SagaTransformer extends Transformer
 
     public function includeTeam(Saga $saga)
     {
-        if ($saga->team === null) {
-            return null;
-        }
-
         return $this->item($saga->team, new TeamTransformer());
     }
 

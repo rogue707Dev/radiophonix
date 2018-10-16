@@ -17,6 +17,8 @@ class ShowSaga extends ApiController
     {
         $saga->load('genres', 'team');
 
+        $this->include(['genres', 'team']);
+
         return $this->item($saga, new SagaTransformer);
     }
 }
