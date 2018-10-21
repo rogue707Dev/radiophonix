@@ -38,7 +38,8 @@
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "^7.0",
         "symfony/css-selector": "2.8.*|3.0.*",
-        "symfony/dom-crawler": "2.8.*|3.0.*"
+        "symfony/dom-crawler": "2.8.*|3.0.*",
+        "laravel/homestead": "^7.18"
     },
     "autoload": {
         "classmap": [

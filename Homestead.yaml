@@ -7,14 +7,14 @@ keys:
     - ~/.ssh/id_rsa
 folders:
     -
-        map: './'
-        to: /home/vagrant/Code/radiophonix
-        type: "nfs"
+        map: ./
+        to: /home/vagrant/code
 sites:
     -
-        map: radiophonix.app
-        to: /home/vagrant/Code/radiophonix/public
+        map: radiophonix.test
+        to: /home/vagrant/code/public
+        php: "7.1"
 databases:
-    - radiophonix
+    - homestead
 name: radiophonix
 hostname: radiophonix
