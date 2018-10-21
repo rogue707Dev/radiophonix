@@ -10,7 +10,7 @@
                              :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }">
                     {{ saga.authors[0].name }}
                 </router-link>
-                <router-link v-if="saga.team.id"
+                <router-link v-if="saga.team"
                              :to="{ name: 'listen.teams.show', params: { id: saga.team.slug } }">
                     ({{ saga.team.name }})
                 </router-link>
@@ -125,12 +125,14 @@
                                              class="text-primary">
                                     {{ saga.authors[0].name }}
                                 </router-link>
-                                <router-link v-if="saga.team.id"
+                                <router-link v-if="saga.team"
                                              :to="{ name: 'listen.teams.show', params: { id: saga.team.slug } }">
                                     (<span class="text-primary">{{ saga.team.name }}</span>)
                                 </router-link>
                             </p>
-                            <p><text-ellipsis :text="saga.authors[0].bio" :size="200"></text-ellipsis></p>
+                            <p v-if="saga.authors[0].id">
+                                <text-ellipsis :text="saga.authors[0].bio" :size="200"></text-ellipsis>
+                            </p>
                             <router-link v-if="saga.authors[0].id"
                                          :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }"
                                          class="btn btn-outline-primary btn-sm my-3">
