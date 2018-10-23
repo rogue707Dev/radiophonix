@@ -14,6 +14,8 @@ theme:
 
 nav:
     - Accueil: index.md
+    - Installation:
+          - Index: installation/index.md
 
 markdown_extensions:
   - codehilite
