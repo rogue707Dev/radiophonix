@@ -1,0 +1,21 @@
+site_name: Radiophonix
+docs_dir: doc
+site_dir: ./public/doc
+repo_url: https://gitlab.com/Radiophonix/Radiophonix
+repo_name: Radiophonix
+
+theme:
+  name: 'material'
+  palette:
+      primary: 'deep orange'
+      accent: 'deep orange'
+  feature:
+      tabs: true
+
+nav:
+    - Accueil: index.md
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - meta

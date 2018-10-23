@@ -23,6 +23,17 @@ test:unit:
         - php artisan jwt:secret --force
         - vendor/bin/phpunit
 
+pages:
+    stage: build
+    image: cfinfrastructure/mkdocs
+    script:
+        - mkdocs build --site-dir ./public
+    artifacts:
+        paths:
+            - public
+    only:
+        - dev
+
 build:review:
     stage: build
     image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
