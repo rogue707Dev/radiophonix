@@ -26,21 +26,25 @@ cd Radiophonix/
 composer install
 
 # Installation des dépendances JavaScript
-yarn # ou `npm install`
+yarn
 
 # Configuration locale
 cp .env.example .env
 
-# Pendant le dev : (le navigateur s'ouvre automatiquement sur http://localhost:8080)
+# Pendant le dev : (le navigateur s'ouvre automatiquement sur http://localhost:8081)
 # Cette commande rebuild tout (js, vue, sass) automatiquement.
-npm run dev
+yarn run dev
 ```
 
-Pour activer les mocks de l'apiil faut dans le fichier `.env` :
+Pour activer les mocks de l'api il faut dans le fichier `.env` :
 ```
 RADIOPHONIX_API_MOCK=1
 ```
 
+Vous trouverez plus d'informations dans la [documentation][doc].
+
 ## Licence
 
 Voir le fichier [LICENSE](LICENSE)
+
+[doc]: https://radiophonix.gitlab.io/Radiophonix/

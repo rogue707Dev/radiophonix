@@ -10,6 +10,7 @@ public/storage
 public/phpmyadmin
 public/files
 public/static
+public/doc
 resources/front.html
 public/stats.json
 storage/mocks
