@@ -32,7 +32,10 @@ pages:
         paths:
             - public
     only:
-        - dev
+        refs:
+            - dev
+        changes:
+            - doc/*
 
 build:review:
     stage: build
