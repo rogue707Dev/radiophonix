@@ -11,6 +11,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Auth;
 use Laravel\Scout\Searchable;
 use Radiophonix\Models\Support\FindableFromSlug;
+use Radiophonix\Models\Support\HasCountCache;
 use Radiophonix\Models\Support\HasFakeId;
 use Radiophonix\Models\Support\HasMediaMetadata;
 use Radiophonix\Models\Support\Stats\SagaStats;
@@ -45,6 +46,9 @@ use Spatie\Sluggable\SlugOptions;
  * @property-read \Illuminate\Database\Eloquent\Collection|Bravo[] $bravos
  * @property-read \Illuminate\Database\Eloquent\Collection|Collection[] $collections
  * @property-read \Illuminate\Database\Eloquent\Collection|Genre[] $genres
+ * @property-read int $cached_tracks_count
+ * @property-read int $cached_bravos_count
+ * @property-read int $cached_collections_count
  * @method static Builder|Saga filterBy($filters)
  * @method static Builder|Saga paginate()
  * @method static Builder|Saga sortby($sort)
@@ -57,6 +61,7 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
     use HasSlug;
     use FindableFromSlug;
     use Searchable;
+    use HasCountCache;
 
     // Public sagas are always visible even when not authenticated
     const VISIBILITY_PUBLIC = 0;
@@ -285,6 +290,40 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
         }
 
         $this->attributes['finished'] = $value;
+    }
+
+    /**
+     * @return int
+     */
+    public function getCachedCollectionsCountAttribute(): int
+    {
+        return $this->cacheCount('collections', function () {
+            return $this->collections->count();
+        });
+    }
+
+    /**
+     * @return int
+     */
+    public function getCachedBravosCountAttribute(): int
+    {
+        return $this->cacheCount('bravos', function () {
+            return $this->bravos->count();
+        });
+    }
+
+    /**
+     * @return int
+     */
+    public function getCachedTracksCountAttribute(): int
+    {
+        return $this->cacheCount('tracks', function () {
+            return (int)collect($this->collections)
+                ->map(function (Collection $collection) {
+                    return $collection->cached_tracks_count;
+                })
+                ->sum();
+        });
     }
 
     /**

@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Laravel\Scout\Searchable;
 use Radiophonix\Events\Author\AuthorSavingEvent;
 use Radiophonix\Models\Support\FindableFromSlug;
+use Radiophonix\Models\Support\HasCountCache;
 use Radiophonix\Models\Support\HasFakeId;
 use Radiophonix\Models\Support\Stats\AuthorStats;
 use Spatie\Image\Exceptions\InvalidManipulation;
@@ -35,6 +36,7 @@ use Spatie\Sluggable\SlugOptions;
  * @property \Carbon\Carbon $updated_at
  * @property-read Model|\Eloquent|User $user
  * @property-read \Illuminate\Database\Eloquent\Collection|Saga[] $sagas
+ * @property-read int $cached_sagas_count
  */
 class Author extends Model implements HasMedia
 {
@@ -43,6 +45,7 @@ class Author extends Model implements HasMedia
     use HasMediaTrait;
     use FindableFromSlug;
     use Searchable;
+    use HasCountCache;
 
     /**
      * @var array
@@ -114,5 +117,15 @@ class Author extends Model implements HasMedia
     public function sagas()
     {
         return $this->belongsToMany(Saga::class);
+    }
+
+    /**
+     * @return int
+     */
+    public function getCachedSagasCountAttribute(): int
+    {
+        return $this->cacheCount('sagas', function () {
+            return $this->sagas->count();
+        });
     }
 }

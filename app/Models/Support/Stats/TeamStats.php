@@ -27,7 +27,7 @@ class TeamStats implements Arrayable
     {
         return [
             // @todo sagas visibles
-            'sagas' => $this->team->sagas()->count(),
+            'sagas' => $this->team->cached_sagas_count,
         ];
     }
 }

@@ -71,6 +71,13 @@ class Track extends Model
      */
     protected $dates = ['published_at'];
 
+    /**
+     * @var array
+     */
+    protected $touches = [
+        'collection',
+    ];
+
     public function publish()
     {
         if (!$this->isPublishable()) {

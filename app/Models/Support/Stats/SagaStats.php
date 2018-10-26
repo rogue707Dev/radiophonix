@@ -26,13 +26,7 @@ class SagaStats implements Arrayable
      */
     public function tracks(): int
     {
-        // todo cache in a db field
-
-        return (int)collect($this->saga->collections)
-            ->map(function (Collection $collection) {
-                return $collection->tracks()->count();
-            })
-            ->sum();
+        return (int)$this->saga->cached_tracks_count;
     }
 
     /**
@@ -40,7 +34,7 @@ class SagaStats implements Arrayable
      */
     public function bravos(): int
     {
-        return (int)$this->saga->bravos()->count();
+        return (int)$this->saga->cached_bravos_count;
     }
 
     /**
@@ -48,7 +42,7 @@ class SagaStats implements Arrayable
      */
     public function collections(): int
     {
-        return (int)$this->saga->collections()->count();
+        return (int)$this->saga->cached_collections_count;
     }
 
     /**

@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Radiophonix\Models\Support\CollectionType;
+use Radiophonix\Models\Support\HasCountCache;
 use Radiophonix\Models\Support\HasFakeId;
 
 /**
@@ -20,10 +21,12 @@ use Radiophonix\Models\Support\HasFakeId;
  * @property Carbon $updated_at
  * @property-read Saga $saga
  * @property-read \Illuminate\Database\Eloquent\Collection|Track[] $tracks
+ * @property-read int $cached_tracks_count
  */
 class Collection extends Model
 {
     use HasFakeId;
+    use HasCountCache;
 
     /**
      * @var array
@@ -33,6 +36,13 @@ class Collection extends Model
         'synopsis',
         'type',
         'number',
+    ];
+
+    /**
+     * @var array
+     */
+    protected $touches = [
+        'saga',
     ];
 
     /**
@@ -67,5 +77,15 @@ class Collection extends Model
         }
 
         $this->attributes['type'] = $value;
+    }
+
+    /**
+     * @return int
+     */
+    public function getCachedTracksCountAttribute(): int
+    {
+        return $this->cacheCount('tracks', function () {
+            return $this->tracks->count();
+        });
     }
 }

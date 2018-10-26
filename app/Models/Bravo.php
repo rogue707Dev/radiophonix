@@ -20,6 +20,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Bravo extends Model
 {
     /**
+     * @var array
+     */
+    protected $touches = [
+        'saga',
+    ];
+
+    /**
      * The user who's giving a bravo.
      *
      * @return BelongsTo

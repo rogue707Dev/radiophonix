@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as IlluminateUser;
 use Radiophonix\Models\Support\FindableFromSlug;
+use Radiophonix\Models\Support\HasCountCache;
 use Radiophonix\Models\Support\HasFakeId;
 use Radiophonix\Models\Support\Stats\TeamStats;
 use Spatie\Image\Exceptions\InvalidManipulation;
@@ -35,6 +36,7 @@ use Spatie\Sluggable\SlugOptions;
  * @property-read Collection|Author[] $authors
  * @property-read Collection|Saga[] $sagas
  * @property-read User $owner
+ * @property-read int $cached_sagas_count
  */
 class Team extends Model implements HasMedia
 {
@@ -42,6 +44,7 @@ class Team extends Model implements HasMedia
     use HasSlug;
     use FindableFromSlug;
     use HasMediaTrait;
+    use HasCountCache;
 
     /**
      * @var array
@@ -149,5 +152,15 @@ class Team extends Model implements HasMedia
             ->sharpen(10)
             ->optimize()
             ->performOnCollections('picture');
+    }
+
+    /**
+     * @return int
+     */
+    public function getCachedSagasCountAttribute(): int
+    {
+        return $this->cacheCount('sagas', function () {
+            return $this->sagas->count();
+        });
     }
 }

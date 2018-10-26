@@ -24,6 +24,6 @@ class AuthorStats
      */
     public function sagas(): int
     {
-        return (int)$this->author->sagas()->count();
+        return (int)$this->author->cached_sagas_count;
     }
 }
