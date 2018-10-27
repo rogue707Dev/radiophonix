@@ -87,7 +87,7 @@ class AlphaMock extends Command
             $this->storage->disk('mocks')->allFiles()
         );
 
-        $sagas = Saga::with('collections', 'author', 'genres')
+        $sagas = Saga::with('collections', 'authors', 'genres')
             ->get()
             ->map(function (Saga $saga) {
                 $collections = $saga->collections
@@ -113,7 +113,7 @@ class AlphaMock extends Command
 
         $this->createFile('sagas.json', $sagas);
 
-        $authors = Author::with('owner', 'sagas')
+        $authors = Author::with('sagas')
             ->get()
             ->map(function (Author $author) {
                 $transformer = new AuthorTransformer;
