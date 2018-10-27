@@ -2,79 +2,56 @@
     "tracks": [
         {
             "id": 2147222869,
-            "number": "1",
-            "title": "Épisode 1",
-            "synopsis": "L'Agent est enrôlé par un homme dont le nom est top secret. On lui donne une mission d'espionnage en Russie ainsi que son GUM.",
-            "published_at": "2006-08-25T15:21:54+00:00",
-            "status": 3,
-            "seconds": 214,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 1.mp3",
+            "number": "I",
+            "title": "Le Complot",
+            "synopsis": "",
+            "published_at": "2015-07-10T00:00:00+00:00",
+            "status": 2,
+            "seconds": 910,
+            "file": "https://audio.radiophonix.org/1287/1287-Episode-I-Le-Complot.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
+            "created_at": "2018-10-27T11:33:40+00:00",
+            "updated_at": "2018-10-27T11:33:40+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
                 "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00",
                 "saga": {
                     "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
+                    "slug": "douze-cent-quatre-vingt-sept",
+                    "name": "1287",
+                    "synopsis": "1287 (douze cent quatre-vingt sept) est une saga d’histoire alternative (uchronie) suivant l’évolution de la situation dans une Europe de complots et de trahison, deux ans après le couronnement de Philippe IV dit “Le Bel”, le premier Roy de France à acquérir le titre du royaume de Navarre.",
+                    "creation_date": "2002-12-01T00:00:00+00:00",
+                    "licence": "CC BY-NC-SA",
                     "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
+                        "netowiki": "https://wiki.netophonix.com/1287",
+                        "site": "http://1287.aerrond.com/",
                         "topic": null,
-                        "rss": null,
+                        "rss": "http://1287.lepodcast.fr/rss",
                         "facebook": null,
-                        "twitter": null
+                        "twitter": "https://twitter.com/aerrond/"
                     },
-                    "finished": true,
+                    "finished": false,
                     "visibility": 0,
                     "stats": {
                         "bravos": 0,
                         "collections": 1,
-                        "tracks": 30
+                        "tracks": 10
                     },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
+                    "created_at": "2018-10-27T11:33:40+00:00",
+                    "updated_at": "2018-10-27T11:33:40+00:00",
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
+                            "thumb": "/static/mocks/media/storage/980669067/conversions/1287cover-thumb.jpg",
                             "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
+                                "color": null,
+                                "type": null
                             }
                         }
                     }
@@ -83,79 +60,56 @@
         },
         {
             "id": 206107536,
-            "number": "2",
-            "title": "Épisode 2",
-            "synopsis": "L'Agent 0 active malgré lui une bombe atomique qui fait exploser son avion. Il se retrouve perdu dans une forêt et se retrouve en Enfer.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 240,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 2.mp3",
+            "number": "II",
+            "title": "Un Allié venant du Nord",
+            "synopsis": "",
+            "published_at": "2015-07-24T00:00:00+00:00",
+            "status": 2,
+            "seconds": 1010,
+            "file": "https://audio.radiophonix.org/1287/1287-Episode-II-Un-Alli%C3%A9-venant-du-Nord.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
+            "created_at": "2018-10-27T11:33:40+00:00",
+            "updated_at": "2018-10-27T11:33:40+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
                 "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00",
                 "saga": {
                     "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
+                    "slug": "douze-cent-quatre-vingt-sept",
+                    "name": "1287",
+                    "synopsis": "1287 (douze cent quatre-vingt sept) est une saga d’histoire alternative (uchronie) suivant l’évolution de la situation dans une Europe de complots et de trahison, deux ans après le couronnement de Philippe IV dit “Le Bel”, le premier Roy de France à acquérir le titre du royaume de Navarre.",
+                    "creation_date": "2002-12-01T00:00:00+00:00",
+                    "licence": "CC BY-NC-SA",
                     "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
+                        "netowiki": "https://wiki.netophonix.com/1287",
+                        "site": "http://1287.aerrond.com/",
                         "topic": null,
-                        "rss": null,
+                        "rss": "http://1287.lepodcast.fr/rss",
                         "facebook": null,
-                        "twitter": null
+                        "twitter": "https://twitter.com/aerrond/"
                     },
-                    "finished": true,
+                    "finished": false,
                     "visibility": 0,
                     "stats": {
                         "bravos": 0,
                         "collections": 1,
-                        "tracks": 30
+                        "tracks": 10
                     },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
+                    "created_at": "2018-10-27T11:33:40+00:00",
+                    "updated_at": "2018-10-27T11:33:40+00:00",
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
+                            "thumb": "/static/mocks/media/storage/980669067/conversions/1287cover-thumb.jpg",
                             "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
+                                "color": null,
+                                "type": null
                             }
                         }
                     }
@@ -164,79 +118,56 @@
         },
         {
             "id": 1523884511,
-            "number": "3",
-            "title": "Épisode 3",
-            "synopsis": "Le chef de l'agent 0 lui confie la mission de détruire un Opéra. Mais à la place, il détruit presque toute une ville.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 225,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 3.mp3",
+            "number": "III",
+            "title": "Le Secret du Kaizer",
+            "synopsis": "L’enquête continue alors que nos héros font route vers le Saint-Empire romain germanique !",
+            "published_at": "2015-08-07T00:00:00+00:00",
+            "status": 2,
+            "seconds": 1143,
+            "file": "https://audio.radiophonix.org/1287/1287-Episode-III-Le-Secret-du-Kaizer.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
+            "created_at": "2018-10-27T11:33:40+00:00",
+            "updated_at": "2018-10-27T11:33:40+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
                 "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00",
                 "saga": {
                     "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
+                    "slug": "douze-cent-quatre-vingt-sept",
+                    "name": "1287",
+                    "synopsis": "1287 (douze cent quatre-vingt sept) est une saga d’histoire alternative (uchronie) suivant l’évolution de la situation dans une Europe de complots et de trahison, deux ans après le couronnement de Philippe IV dit “Le Bel”, le premier Roy de France à acquérir le titre du royaume de Navarre.",
+                    "creation_date": "2002-12-01T00:00:00+00:00",
+                    "licence": "CC BY-NC-SA",
                     "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
+                        "netowiki": "https://wiki.netophonix.com/1287",
+                        "site": "http://1287.aerrond.com/",
                         "topic": null,
-                        "rss": null,
+                        "rss": "http://1287.lepodcast.fr/rss",
                         "facebook": null,
-                        "twitter": null
+                        "twitter": "https://twitter.com/aerrond/"
                     },
-                    "finished": true,
+                    "finished": false,
                     "visibility": 0,
                     "stats": {
                         "bravos": 0,
                         "collections": 1,
-                        "tracks": 30
+                        "tracks": 10
                     },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
+                    "created_at": "2018-10-27T11:33:40+00:00",
+                    "updated_at": "2018-10-27T11:33:40+00:00",
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
+                            "thumb": "/static/mocks/media/storage/980669067/conversions/1287cover-thumb.jpg",
                             "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
+                                "color": null,
+                                "type": null
                             }
                         }
                     }
@@ -245,79 +176,56 @@
         },
         {
             "id": 1797332506,
-            "number": "4",
-            "title": "Épisode 4",
-            "synopsis": "L'Agent 0 est en fuite, poursuivit par les agents de son chef. Il demande à son GUM d'activer la téléportation. Celui-ci le trahit et le téléporte dans le bureau de son chef.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 246,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 4.mp3",
+            "number": "IV",
+            "title": "L'Or du Comte",
+            "synopsis": "Désormais forts de nouvelles informations après leur rencontre avec le Kaizer du Saint-Empire romain germanique, nos héros font voyage vers Angoulême afin d’obtenir un support financier de la part du comte Angoumoisin.\n\nPendant ce temps là, le Roy de France fait route vers la guilde des ingénieurs de Toulouse, afin de recruter de nouveaux spécialistes pour sa prochaine campagne contre les vils bretons.",
+            "published_at": "2015-08-21T00:00:00+00:00",
+            "status": 2,
+            "seconds": 877,
+            "file": "https://audio.radiophonix.org/1287/1287-Episode-IV-LOr-du-Comte-Partie-I.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
+            "created_at": "2018-10-27T11:33:40+00:00",
+            "updated_at": "2018-10-27T11:33:40+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
                 "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00",
                 "saga": {
                     "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
+                    "slug": "douze-cent-quatre-vingt-sept",
+                    "name": "1287",
+                    "synopsis": "1287 (douze cent quatre-vingt sept) est une saga d’histoire alternative (uchronie) suivant l’évolution de la situation dans une Europe de complots et de trahison, deux ans après le couronnement de Philippe IV dit “Le Bel”, le premier Roy de France à acquérir le titre du royaume de Navarre.",
+                    "creation_date": "2002-12-01T00:00:00+00:00",
+                    "licence": "CC BY-NC-SA",
                     "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
+                        "netowiki": "https://wiki.netophonix.com/1287",
+                        "site": "http://1287.aerrond.com/",
                         "topic": null,
-                        "rss": null,
+                        "rss": "http://1287.lepodcast.fr/rss",
                         "facebook": null,
-                        "twitter": null
+                        "twitter": "https://twitter.com/aerrond/"
                     },
-                    "finished": true,
+                    "finished": false,
                     "visibility": 0,
                     "stats": {
                         "bravos": 0,
                         "collections": 1,
-                        "tracks": 30
+                        "tracks": 10
                     },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
+                    "created_at": "2018-10-27T11:33:40+00:00",
+                    "updated_at": "2018-10-27T11:33:40+00:00",
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
+                            "thumb": "/static/mocks/media/storage/980669067/conversions/1287cover-thumb.jpg",
                             "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
+                                "color": null,
+                                "type": null
                             }
                         }
                     }
@@ -326,79 +234,56 @@
         },
         {
             "id": 965594201,
-            "number": "5",
-            "title": "Épisode 5",
-            "synopsis": "Le chef de l'Agent 0 tente de tuer son employé, mais celui-ci parvient à s'enfuir. En faisant du stop, il est abordé par Pamela Fatale qui veut acheter le GUM",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 273,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 5.mp3",
+            "number": "V",
+            "title": "Les Galettes de Toulouse",
+            "synopsis": "Le Kaizer du Saint Empire germanique possède des informations concernant le terrible complot qui se trame contre le Royaume de France. Hélas, nos héros Serge de Lepuiset et son père Lord Moustache n’ont pas les moyens de le payer. Ils rencontrent alors le seigneur Morland, Comte d’Angoulême, qui serait en mesure de leur apporter cette aide financière. Après un somptueux repas de bienvenue, ils passent à la grande chapelle pour assister à la messe traditionelle de la région…",
+            "published_at": "2017-09-19T00:00:00+00:00",
+            "status": 2,
+            "seconds": 1076,
+            "file": "https://audio.radiophonix.org/1287/1287-Episode-V-Les-Galettes-de-Toulouse.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
+            "created_at": "2018-10-27T11:33:40+00:00",
+            "updated_at": "2018-10-27T11:33:40+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
                 "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00",
                 "saga": {
                     "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
+                    "slug": "douze-cent-quatre-vingt-sept",
+                    "name": "1287",
+                    "synopsis": "1287 (douze cent quatre-vingt sept) est une saga d’histoire alternative (uchronie) suivant l’évolution de la situation dans une Europe de complots et de trahison, deux ans après le couronnement de Philippe IV dit “Le Bel”, le premier Roy de France à acquérir le titre du royaume de Navarre.",
+                    "creation_date": "2002-12-01T00:00:00+00:00",
+                    "licence": "CC BY-NC-SA",
                     "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
+                        "netowiki": "https://wiki.netophonix.com/1287",
+                        "site": "http://1287.aerrond.com/",
                         "topic": null,
-                        "rss": null,
+                        "rss": "http://1287.lepodcast.fr/rss",
                         "facebook": null,
-                        "twitter": null
+                        "twitter": "https://twitter.com/aerrond/"
                     },
-                    "finished": true,
+                    "finished": false,
                     "visibility": 0,
                     "stats": {
                         "bravos": 0,
                         "collections": 1,
-                        "tracks": 30
+                        "tracks": 10
                     },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
+                    "created_at": "2018-10-27T11:33:40+00:00",
+                    "updated_at": "2018-10-27T11:33:40+00:00",
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
+                            "thumb": "/static/mocks/media/storage/980669067/conversions/1287cover-thumb.jpg",
                             "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
+                                "color": null,
+                                "type": null
                             }
                         }
                     }
@@ -407,79 +292,56 @@
         },
         {
             "id": 1176091268,
-            "number": "6",
-            "title": "Épisode 6",
-            "synopsis": "Comme le GUM ne veut pas être vendu, Pamela Fatale jette nos héros en prison. Mais un autre captif, le grand Mactadosh version 1.02, va les aider à s'enfuir.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 377,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 6.mp3",
+            "number": "VI",
+            "title": "La Dame de Fer",
+            "synopsis": "Le comte Morland et son Traducteur ont été capturés par un homme mystérieux! Nos héros Serge de Lepuiset et Lord Moustache se lancent alors à sa poursuite en direction de l’Italie. Mais alors qu’ils traversent le sud de la région du Var, ils sont pris de cours par une violente tempête…",
+            "published_at": "2017-10-23T00:00:00+00:00",
+            "status": 2,
+            "seconds": 1517,
+            "file": "https://audio.radiophonix.org/1287/1287-Episode-VI-La-Dame-de-Fer.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
+            "created_at": "2018-10-27T11:33:40+00:00",
+            "updated_at": "2018-10-27T11:33:40+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
                 "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00",
                 "saga": {
                     "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
+                    "slug": "douze-cent-quatre-vingt-sept",
+                    "name": "1287",
+                    "synopsis": "1287 (douze cent quatre-vingt sept) est une saga d’histoire alternative (uchronie) suivant l’évolution de la situation dans une Europe de complots et de trahison, deux ans après le couronnement de Philippe IV dit “Le Bel”, le premier Roy de France à acquérir le titre du royaume de Navarre.",
+                    "creation_date": "2002-12-01T00:00:00+00:00",
+                    "licence": "CC BY-NC-SA",
                     "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
+                        "netowiki": "https://wiki.netophonix.com/1287",
+                        "site": "http://1287.aerrond.com/",
                         "topic": null,
-                        "rss": null,
+                        "rss": "http://1287.lepodcast.fr/rss",
                         "facebook": null,
-                        "twitter": null
+                        "twitter": "https://twitter.com/aerrond/"
                     },
-                    "finished": true,
+                    "finished": false,
                     "visibility": 0,
                     "stats": {
                         "bravos": 0,
                         "collections": 1,
-                        "tracks": 30
+                        "tracks": 10
                     },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
+                    "created_at": "2018-10-27T11:33:40+00:00",
+                    "updated_at": "2018-10-27T11:33:40+00:00",
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
+                            "thumb": "/static/mocks/media/storage/980669067/conversions/1287cover-thumb.jpg",
                             "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
+                                "color": null,
+                                "type": null
                             }
                         }
                     }
@@ -488,79 +350,56 @@
         },
         {
             "id": 392587459,
-            "number": "7",
-            "title": "Épisode 7",
-            "synopsis": "Le chef de l'Agent 0 le retrouve et tente de le tuer à nouveau. Mais Pamela Fatale, qui passait en moto, va le faire basculer, et son arme se retourne contre les deux protagonistes, qui sont vaporisés.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 386,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 7.mp3",
+            "number": "VII",
+            "title": "Révélation divine",
+            "synopsis": "Alors que le Roy de France s’apprête à assiéger Rennes une nouvelle fois, nos héros Serge de Lepuiset et Lord Moustache filent à toute vitesse vers l’Italie pour secourir le Seigneur Morland. Il ne se doute pas que ce voyage les rapproche d’un tournant décisif dans la résolution du terrible complot menaçant le Royaume de France…",
+            "published_at": "2017-12-31T00:00:00+00:00",
+            "status": 2,
+            "seconds": 975,
+            "file": "https://audio.radiophonix.org/1287/1287-Episode-VII-Revelation-divine.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
+            "created_at": "2018-10-27T11:33:40+00:00",
+            "updated_at": "2018-10-27T11:33:40+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
                 "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00",
                 "saga": {
                     "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
+                    "slug": "douze-cent-quatre-vingt-sept",
+                    "name": "1287",
+                    "synopsis": "1287 (douze cent quatre-vingt sept) est une saga d’histoire alternative (uchronie) suivant l’évolution de la situation dans une Europe de complots et de trahison, deux ans après le couronnement de Philippe IV dit “Le Bel”, le premier Roy de France à acquérir le titre du royaume de Navarre.",
+                    "creation_date": "2002-12-01T00:00:00+00:00",
+                    "licence": "CC BY-NC-SA",
                     "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
+                        "netowiki": "https://wiki.netophonix.com/1287",
+                        "site": "http://1287.aerrond.com/",
                         "topic": null,
-                        "rss": null,
+                        "rss": "http://1287.lepodcast.fr/rss",
                         "facebook": null,
-                        "twitter": null
+                        "twitter": "https://twitter.com/aerrond/"
                     },
-                    "finished": true,
+                    "finished": false,
                     "visibility": 0,
                     "stats": {
                         "bravos": 0,
                         "collections": 1,
-                        "tracks": 30
+                        "tracks": 10
                     },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
+                    "created_at": "2018-10-27T11:33:40+00:00",
+                    "updated_at": "2018-10-27T11:33:40+00:00",
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
+                            "thumb": "/static/mocks/media/storage/980669067/conversions/1287cover-thumb.jpg",
                             "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
+                                "color": null,
+                                "type": null
                             }
                         }
                     }
@@ -569,79 +408,56 @@
         },
         {
             "id": 636667150,
-            "number": "8",
-            "title": "Épisode 8",
-            "synopsis": "L'Agent 0 et le GUM subissent une mauvaise blague du pire ennemi de l'Agent 0, un criminel en puissance, Aaron Johnson",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 293,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 8.mp3",
+            "number": "VIII",
+            "title": "Le Destin d'un Héros",
+            "synopsis": "Après avoir démantelé la source du complot perpétrée contre le Royaume de France, nos héros doivent s’enfuir de Rome et rejoindre Paris en vitesse. Cependant, les soldats du Vatican se rendent compte de la supercherie, et se retrouvent rapidement à leur trousses…",
+            "published_at": "2018-04-02T00:00:00+00:00",
+            "status": 2,
+            "seconds": 1016,
+            "file": "https://audio.radiophonix.org/1287/1287-Episode-VIII-Le-destin-d-un-heros.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
+            "created_at": "2018-10-27T11:33:40+00:00",
+            "updated_at": "2018-10-27T11:33:40+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
                 "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00",
                 "saga": {
                     "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
+                    "slug": "douze-cent-quatre-vingt-sept",
+                    "name": "1287",
+                    "synopsis": "1287 (douze cent quatre-vingt sept) est une saga d’histoire alternative (uchronie) suivant l’évolution de la situation dans une Europe de complots et de trahison, deux ans après le couronnement de Philippe IV dit “Le Bel”, le premier Roy de France à acquérir le titre du royaume de Navarre.",
+                    "creation_date": "2002-12-01T00:00:00+00:00",
+                    "licence": "CC BY-NC-SA",
                     "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
+                        "netowiki": "https://wiki.netophonix.com/1287",
+                        "site": "http://1287.aerrond.com/",
                         "topic": null,
-                        "rss": null,
+                        "rss": "http://1287.lepodcast.fr/rss",
                         "facebook": null,
-                        "twitter": null
+                        "twitter": "https://twitter.com/aerrond/"
                     },
-                    "finished": true,
+                    "finished": false,
                     "visibility": 0,
                     "stats": {
                         "bravos": 0,
                         "collections": 1,
-                        "tracks": 30
+                        "tracks": 10
                     },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
+                    "created_at": "2018-10-27T11:33:40+00:00",
+                    "updated_at": "2018-10-27T11:33:40+00:00",
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
+                            "thumb": "/static/mocks/media/storage/980669067/conversions/1287cover-thumb.jpg",
                             "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
+                                "color": null,
+                                "type": null
                             }
                         }
                     }
@@ -650,79 +466,56 @@
         },
         {
             "id": 1918808909,
-            "number": "9",
-            "title": "Épisode 9",
-            "synopsis": "L'Agent 0 reçoit une mission de la part d'Aaron Johnson. Il doit prendre une femme en photo. Mais, distrait, il rate sa mission.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 331,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 9.mp3",
+            "number": "IX",
+            "title": "La Fourberie des Bretons",
+            "synopsis": "La mission de Serge de LePuiset et de son père Lord Moustache est terminée. Le jour de la fête de la confiture est enfin arrivé, et Le Royaume de France peut se réunir dans la joie et la bonne humeur pour déguster le plus appétissant des mets de leur régions respectives. Cela n’est pas sans compter un événement de taille que le Roy n’avait pas prévu…",
+            "published_at": "2018-07-08T00:00:00+00:00",
+            "status": 2,
+            "seconds": 1064,
+            "file": "https://audio.radiophonix.org/1287/1287-Episode-IX-La-fourberie-des-bretons.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
+            "created_at": "2018-10-27T11:33:40+00:00",
+            "updated_at": "2018-10-27T11:33:40+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
                 "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00",
                 "saga": {
                     "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
+                    "slug": "douze-cent-quatre-vingt-sept",
+                    "name": "1287",
+                    "synopsis": "1287 (douze cent quatre-vingt sept) est une saga d’histoire alternative (uchronie) suivant l’évolution de la situation dans une Europe de complots et de trahison, deux ans après le couronnement de Philippe IV dit “Le Bel”, le premier Roy de France à acquérir le titre du royaume de Navarre.",
+                    "creation_date": "2002-12-01T00:00:00+00:00",
+                    "licence": "CC BY-NC-SA",
                     "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
+                        "netowiki": "https://wiki.netophonix.com/1287",
+                        "site": "http://1287.aerrond.com/",
                         "topic": null,
-                        "rss": null,
+                        "rss": "http://1287.lepodcast.fr/rss",
                         "facebook": null,
-                        "twitter": null
+                        "twitter": "https://twitter.com/aerrond/"
                     },
-                    "finished": true,
+                    "finished": false,
                     "visibility": 0,
                     "stats": {
                         "bravos": 0,
                         "collections": 1,
-                        "tracks": 30
+                        "tracks": 10
                     },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
+                    "created_at": "2018-10-27T11:33:40+00:00",
+                    "updated_at": "2018-10-27T11:33:40+00:00",
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
+                            "thumb": "/static/mocks/media/storage/980669067/conversions/1287cover-thumb.jpg",
                             "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
+                                "color": null,
+                                "type": null
                             }
                         }
                     }
@@ -731,1699 +524,56 @@
         },
         {
             "id": 11231624,
-            "number": "10",
-            "title": "Épisode 10",
-            "synopsis": "Après son échec l'Agent 0 décide à nouveau de fuir et fait des provisions. Mais Aaron Johnson décide d'envoyer son arme secrète.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 289,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 10.mp3",
+            "number": "X",
+            "title": "L'ultime Affront",
+            "synopsis": "Les vents se tournent contre le Royaume de France alors que la bataille pour la Bretagne fait rage. Nos héros devront encore une fois redoubler de courage et d’astuce pour renverser la situation. Mais comprendront-ils à temps jusqu’où les bretons sont prêt à aller pour assouvir le désir de vengeance de leur duc ?",
+            "published_at": "2018-08-17T00:00:00+00:00",
+            "status": 2,
+            "seconds": 988,
+            "file": "https://audio.radiophonix.org/1287/1287-Episode-X-Lultime-Affront.mp3",
             "percentages": [],
             "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
+            "created_at": "2018-10-27T11:33:40+00:00",
+            "updated_at": "2018-10-27T11:33:40+00:00",
             "collection": {
                 "id": 2147222869,
                 "number": "1",
                 "name": "Épisodes",
                 "synopsis": "",
                 "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00",
                 "saga": {
                     "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
+                    "slug": "douze-cent-quatre-vingt-sept",
+                    "name": "1287",
+                    "synopsis": "1287 (douze cent quatre-vingt sept) est une saga d’histoire alternative (uchronie) suivant l’évolution de la situation dans une Europe de complots et de trahison, deux ans après le couronnement de Philippe IV dit “Le Bel”, le premier Roy de France à acquérir le titre du royaume de Navarre.",
+                    "creation_date": "2002-12-01T00:00:00+00:00",
+                    "licence": "CC BY-NC-SA",
                     "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
+                        "netowiki": "https://wiki.netophonix.com/1287",
+                        "site": "http://1287.aerrond.com/",
                         "topic": null,
-                        "rss": null,
+                        "rss": "http://1287.lepodcast.fr/rss",
                         "facebook": null,
-                        "twitter": null
+                        "twitter": "https://twitter.com/aerrond/"
                     },
-                    "finished": true,
+                    "finished": false,
                     "visibility": 0,
                     "stats": {
                         "bravos": 0,
                         "collections": 1,
-                        "tracks": 30
+                        "tracks": 10
                     },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
+                    "created_at": "2018-10-27T11:33:40+00:00",
+                    "updated_at": "2018-10-27T11:33:40+00:00",
                     "images": {
                         "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
+                            "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
+                            "thumb": "/static/mocks/media/storage/980669067/conversions/1287cover-thumb.jpg",
                             "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 1362616311,
-            "number": "11",
-            "title": "Épisode 11",
-            "synopsis": "L'arme secrète d'Aaron Johnson, un chat parlant, retrouve l'Agent 0 et lui casse la figure.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 274,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 11.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 2139327538,
-            "number": "12",
-            "title": "Épisode 12",
-            "synopsis": "L'Agent 0 dort sur une pelouse et est mis en prison. Mais l'Agent Bono, un fan de toujours, paye sa caution et le libère.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 418,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 12.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 202406513,
-            "number": "13",
-            "title": "Épisode 13",
-            "synopsis": "Après être rentré chez lui, l'Agent 0 reçoit une nouvelle mission: trouver et infiltrer une base militaire ultra-secrète.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 346,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 13.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 1568417980,
-            "number": "14",
-            "title": "Épisode 14",
-            "synopsis": "Bono trouve la base et les agents l'infiltrent. Mais en voulant appeler son commanditaire pour avoir plus d'informations, il se fait repérer.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 321,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 14.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 1808303867,
-            "number": "15",
-            "title": "Épisode 15",
-            "synopsis": "L'Agent 0, piégé, est sauvé par le simple fait qu'on est le 14 Juillet. Il rappelle son commanditaire, mais ce dernier lui révèle qu'il a maintenant la réponse à sa question. L'Agent 0 rentre chez lui et montre à ses collègues un bref aperçu de sa vie passée. Son commanditaire décide de lui donner rendez-vous pour lui donner une nouvelle mission.",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 446,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 15.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 945124134,
-            "number": "16",
-            "title": "Épisode 16",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 469,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 16.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 1184964965,
-            "number": "17",
-            "title": "Épisode 17",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 587,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 17.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 386768800,
-            "number": "18",
-            "title": "Épisode 18",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 530,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 18.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 630869487,
-            "number": "19",
-            "title": "Épisode 19",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 388,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 19.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 1927690794,
-            "number": "20",
-            "title": "Épisode 20",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 507,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 20.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 57862249,
-            "number": "21",
-            "title": "Épisode 21",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 503,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 21.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 1373587156,
-            "number": "22",
-            "title": "Épisode 22",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 363,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 22.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 2116760339,
-            "number": "23",
-            "title": "Épisode 23",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 391,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 23.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 213377374,
-            "number": "24",
-            "title": "Épisode 24",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 523,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 24.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 1560567709,
-            "number": "25",
-            "title": "Épisode 25",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 512,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 25.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 1804602840,
-            "number": "26",
-            "title": "Épisode 26",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 530,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 26.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 956103175,
-            "number": "27",
-            "title": "Épisode 27",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 532,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 27.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 1229498434,
-            "number": "28",
-            "title": "Épisode 28",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 608,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 28.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 399836801,
-            "number": "29",
-            "title": "Épisode 29",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 671,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 29.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 606205132,
-            "number": "30",
-            "title": "Épisode 30",
-            "synopsis": "",
-            "published_at": "2009-10-04T15:21:54+00:00",
-            "status": 3,
-            "seconds": 888,
-            "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 30.mp3",
-            "percentages": [],
-            "chapters": [],
-            "created_at": "2018-09-25T17:58:36+00:00",
-            "updated_at": "2018-09-25T17:58:36+00:00",
-            "collection": {
-                "id": 2147222869,
-                "number": "1",
-                "name": "Épisodes",
-                "synopsis": "",
-                "type": "season",
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00",
-                "saga": {
-                    "id": 2147222869,
-                    "slug": "agent-0",
-                    "name": "Agent 0",
-                    "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
-                    "creation_date": "2006-08-25T00:00:00+00:00",
-                    "licence": "CC BY",
-                    "links": {
-                        "netowiki": "https://wiki.netophonix.com/Agent_0",
-                        "site": "http://www.flopod.fr/",
-                        "topic": null,
-                        "rss": null,
-                        "facebook": null,
-                        "twitter": null
-                    },
-                    "finished": true,
-                    "visibility": 0,
-                    "stats": {
-                        "bravos": 0,
-                        "collections": 1,
-                        "tracks": 30
-                    },
-                    "created_at": "2018-09-25T17:58:36+00:00",
-                    "updated_at": "2018-09-25T17:58:36+00:00",
-                    "author": {
-                        "id": 206107536,
-                        "slug": "flo",
-                        "name": "Flo",
-                        "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
-                        "links": {
-                            "netowiki": null,
-                            "site": null,
-                            "topic": null,
-                            "facebook": null,
-                            "twitter": null
-                        },
-                        "stats": {
-                            "sagas": 1
-                        },
-                        "created_at": "2018-09-25T17:58:34+00:00",
-                        "updated_at": "2018-09-25T17:58:34+00:00",
-                        "type": "user",
-                        "picture": {
-                            "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                            "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
-                        }
-                    },
-                    "images": {
-                        "cover": {
-                            "main": "/static/mocks/media/storage/556004678/conversions/agent0-main.jpg",
-                            "thumb": "/static/mocks/media/storage/556004678/conversions/agent0-thumb.jpg",
-                            "meta": {
-                                "color": "#FE0000",
-                                "type": "dark"
+                                "color": null,
+                                "type": null
                             }
                         }
                     }

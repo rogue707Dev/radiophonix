@@ -1,15 +1,15 @@
 [
     {
-        "id": 2147222869,
+        "id": 1523884511,
         "number": "1",
         "name": "Épisodes",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-09-25T17:58:36+00:00",
-        "updated_at": "2018-09-25T17:58:36+00:00",
+        "created_at": "2018-10-27T11:33:40+00:00",
+        "updated_at": "2018-10-27T11:33:40+00:00",
         "tracks": [
             {
-                "id": 2147222869,
+                "id": 57862249,
                 "number": "1",
                 "title": "Épisode 1",
                 "synopsis": "L'Agent est enrôlé par un homme dont le nom est top secret. On lui donne une mission d'espionnage en Russie ainsi que son GUM.",
@@ -19,11 +19,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 1.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 206107536,
+                "id": 1373587156,
                 "number": "2",
                 "title": "Épisode 2",
                 "synopsis": "L'Agent 0 active malgré lui une bombe atomique qui fait exploser son avion. Il se retrouve perdu dans une forêt et se retrouve en Enfer.",
@@ -33,11 +33,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 2.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1523884511,
+                "id": 2116760339,
                 "number": "3",
                 "title": "Épisode 3",
                 "synopsis": "Le chef de l'agent 0 lui confie la mission de détruire un Opéra. Mais à la place, il détruit presque toute une ville.",
@@ -47,11 +47,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 3.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1797332506,
+                "id": 213377374,
                 "number": "4",
                 "title": "Épisode 4",
                 "synopsis": "L'Agent 0 est en fuite, poursuivit par les agents de son chef. Il demande à son GUM d'activer la téléportation. Celui-ci le trahit et le téléporte dans le bureau de son chef.",
@@ -61,11 +61,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 4.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 965594201,
+                "id": 1560567709,
                 "number": "5",
                 "title": "Épisode 5",
                 "synopsis": "Le chef de l'Agent 0 tente de tuer son employé, mais celui-ci parvient à s'enfuir. En faisant du stop, il est abordé par Pamela Fatale qui veut acheter le GUM",
@@ -75,11 +75,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 5.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1176091268,
+                "id": 1804602840,
                 "number": "6",
                 "title": "Épisode 6",
                 "synopsis": "Comme le GUM ne veut pas être vendu, Pamela Fatale jette nos héros en prison. Mais un autre captif, le grand Mactadosh version 1.02, va les aider à s'enfuir.",
@@ -89,11 +89,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 6.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 392587459,
+                "id": 956103175,
                 "number": "7",
                 "title": "Épisode 7",
                 "synopsis": "Le chef de l'Agent 0 le retrouve et tente de le tuer à nouveau. Mais Pamela Fatale, qui passait en moto, va le faire basculer, et son arme se retourne contre les deux protagonistes, qui sont vaporisés.",
@@ -103,11 +103,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 7.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 636667150,
+                "id": 1229498434,
                 "number": "8",
                 "title": "Épisode 8",
                 "synopsis": "L'Agent 0 et le GUM subissent une mauvaise blague du pire ennemi de l'Agent 0, un criminel en puissance, Aaron Johnson",
@@ -117,11 +117,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 8.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1918808909,
+                "id": 399836801,
                 "number": "9",
                 "title": "Épisode 9",
                 "synopsis": "L'Agent 0 reçoit une mission de la part d'Aaron Johnson. Il doit prendre une femme en photo. Mais, distrait, il rate sa mission.",
@@ -131,11 +131,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 9.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 11231624,
+                "id": 606205132,
                 "number": "10",
                 "title": "Épisode 10",
                 "synopsis": "Après son échec l'Agent 0 décide à nouveau de fuir et fait des provisions. Mais Aaron Johnson décide d'envoyer son arme secrète.",
@@ -145,11 +145,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1362616311,
+                "id": 1921884427,
                 "number": "11",
                 "title": "Épisode 11",
                 "synopsis": "L'arme secrète d'Aaron Johnson, un chat parlant, retrouve l'Agent 0 et lui casse la figure.",
@@ -159,11 +159,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 11.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 2139327538,
+                "id": 52043638,
                 "number": "12",
                 "title": "Épisode 12",
                 "synopsis": "L'Agent 0 dort sur une pelouse et est mis en prison. Mais l'Agent Bono, un fan de toujours, paye sa caution et le libère.",
@@ -173,11 +173,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 12.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 202406513,
+                "id": 1348914613,
                 "number": "13",
                 "title": "Épisode 13",
                 "synopsis": "Après être rentré chez lui, l'Agent 0 reçoit une nouvelle mission: trouver et infiltrer une base militaire ultra-secrète.",
@@ -187,11 +187,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 13.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1568417980,
+                "id": 2129837040,
                 "number": "14",
                 "title": "Épisode 14",
                 "synopsis": "Bono trouve la base et les agents l'infiltrent. Mais en voulant appeler son commanditaire pour avoir plus d'informations, il se fait repérer.",
@@ -201,11 +201,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 14.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1808303867,
+                "id": 257910847,
                 "number": "15",
                 "title": "Épisode 15",
                 "synopsis": "L'Agent 0, piégé, est sauvé par le simple fait qu'on est le 14 Juillet. Il rappelle son commanditaire, mais ce dernier lui révèle qu'il a maintenant la réponse à sa question. L'Agent 0 rentre chez lui et montre à ses collègues un bref aperçu de sa vie passée. Son commanditaire décide de lui donner rendez-vous pour lui donner une nouvelle mission.",
@@ -215,11 +215,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 15.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 945124134,
+                "id": 1571538554,
                 "number": "16",
                 "title": "Épisode 16",
                 "synopsis": "",
@@ -229,11 +229,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 16.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1184964965,
+                "id": 1782035641,
                 "number": "17",
                 "title": "Épisode 17",
                 "synopsis": "",
@@ -243,11 +243,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 17.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 386768800,
+                "id": 948200164,
                 "number": "18",
                 "title": "Épisode 18",
                 "synopsis": "",
@@ -257,11 +257,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 18.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 630869487,
+                "id": 1225842467,
                 "number": "19",
                 "title": "Épisode 19",
                 "synopsis": "",
@@ -271,11 +271,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 19.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1927690794,
+                "id": 377261422,
                 "number": "20",
                 "title": "Épisode 20",
                 "synopsis": "",
@@ -285,11 +285,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 20.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 57862249,
+                "id": 617184173,
                 "number": "21",
                 "title": "Épisode 21",
                 "synopsis": "",
@@ -299,11 +299,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 21.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1373587156,
+                "id": 1968515560,
                 "number": "22",
                 "title": "Épisode 22",
                 "synopsis": "",
@@ -313,11 +313,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 22.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 2116760339,
+                "id": 60917335,
                 "number": "23",
                 "title": "Épisode 23",
                 "synopsis": "",
@@ -327,11 +327,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 23.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 213377374,
+                "id": 1343124626,
                 "number": "24",
                 "title": "Épisode 24",
                 "synopsis": "",
@@ -341,11 +341,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 24.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1560567709,
+                "id": 2124030673,
                 "number": "25",
                 "title": "Épisode 25",
                 "synopsis": "",
@@ -355,11 +355,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 25.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1804602840,
+                "id": 266772252,
                 "number": "26",
                 "title": "Épisode 26",
                 "synopsis": "",
@@ -369,11 +369,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 26.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 956103175,
+                "id": 1551060315,
                 "number": "27",
                 "title": "Épisode 27",
                 "synopsis": "",
@@ -383,11 +383,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 27.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 1229498434,
+                "id": 1793014662,
                 "number": "28",
                 "title": "Épisode 28",
                 "synopsis": "",
@@ -397,11 +397,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 28.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 399836801,
+                "id": 992733637,
                 "number": "29",
                 "title": "Épisode 29",
                 "synopsis": "",
@@ -411,11 +411,11 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 29.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             },
             {
-                "id": 606205132,
+                "id": 1236813312,
                 "number": "30",
                 "title": "Épisode 30",
                 "synopsis": "",
@@ -425,8 +425,8 @@
                 "file": "https://audio.radiophonix.org/agent-0/Agent 0, episode 30.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:36+00:00",
-                "updated_at": "2018-09-25T17:58:36+00:00"
+                "created_at": "2018-10-27T11:33:40+00:00",
+                "updated_at": "2018-10-27T11:33:40+00:00"
             }
         ]
     }

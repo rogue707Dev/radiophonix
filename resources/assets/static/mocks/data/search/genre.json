@@ -2,52 +2,52 @@
     "genres": [
         {
             "id": 2147222869,
+            "name": "Fiction historique",
+            "stats": {
+                "sagas": 1
+            },
+            "image": {
+                "main": "/static/mocks/media/storage/1300788002/conversions/Fiction-historique-main.jpg"
+            }
+        },
+        {
+            "id": 206107536,
+            "name": "Heroic fantasy",
+            "stats": {
+                "sagas": 3
+            },
+            "image": {
+                "main": "/static/mocks/media/storage/1606664188/conversions/Heroic-fantasy-main.jpg"
+            }
+        },
+        {
+            "id": 1523884511,
             "name": "Espionnage",
             "stats": {
                 "sagas": 1
             },
             "image": {
-                "main": "/static/mocks/media/storage/674797561/conversions/Espionnage-main.jpg"
+                "main": "/static/mocks/media/storage/1778317966/conversions/Espionnage-main.jpg"
             }
         },
         {
-            "id": 206107536,
+            "id": 1797332506,
             "name": "Parodie",
             "stats": {
                 "sagas": 2
             },
             "image": {
-                "main": "/static/mocks/media/storage/980669067/conversions/Parodie-main.jpg"
+                "main": "/static/mocks/media/storage/2049459544/conversions/Parodie-main.jpg"
             }
         },
         {
-            "id": 1523884511,
+            "id": 965594201,
             "name": "Contemporain",
             "stats": {
                 "sagas": 1
             },
             "image": {
-                "main": "/static/mocks/media/storage/1420631365/conversions/Contemporain-main.jpg"
-            }
-        },
-        {
-            "id": 1797332506,
-            "name": "Heroic fantasy",
-            "stats": {
-                "sagas": 2
-            },
-            "image": {
-                "main": "/static/mocks/media/storage/1725454359/conversions/Heroic-fantasy-main.jpg"
-            }
-        },
-        {
-            "id": 965594201,
-            "name": "Aventure",
-            "stats": {
-                "sagas": 1
-            },
-            "image": {
-                "main": "/static/mocks/media/storage/2049459544/conversions/Aventure-main.jpg"
+                "main": "/static/mocks/media/storage/342065258/conversions/Contemporain-main.jpg"
             }
         }
     ]

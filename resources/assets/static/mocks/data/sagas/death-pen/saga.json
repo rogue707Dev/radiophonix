@@ -1,13 +1,13 @@
 {
-    "id": 965594201,
+    "id": 392587459,
     "slug": "death-pen",
     "name": "Death Pen",
     "synopsis": "Bernard, alias Ryuuku, est un expert comptable, et il s'ennuie. Il décide alors de laisser tomber son stylo dans le monde des humains. Et c'est Raito, jeune élève modèle un rien misanthrope, qui le récupère. Mais ce stylo n'est pas ordinaire... Une des règle de la Death Not-ice est \"The human whose name is written with this pen... shall die !\" que l'on peut traduire par \"L'humain dont le nom est écrit avec ce stylo mourra\".",
     "creation_date": "2008-05-03T00:00:00+00:00",
     "licence": "CC BY-NC-ND",
     "links": {
-        "netowiki": "https://wiki.netophonix.com/Reflets_d%27Acide",
-        "site": "http://synopsite.com/",
+        "netowiki": "https://wiki.netophonix.com/Death_Pen",
+        "site": "https://maceprod.jimdo.com/death-pen/",
         "topic": null,
         "rss": null,
         "facebook": null,
@@ -20,51 +20,16 @@
         "collections": 1,
         "tracks": 10
     },
-    "created_at": "2018-09-25T17:58:40+00:00",
-    "updated_at": "2018-09-25T17:58:40+00:00",
-    "author": {
-        "id": 1797332506,
-        "slug": "jbx",
-        "name": "JBX",
-        "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
-        "links": {
-            "netowiki": "https://wiki.netophonix.com/JBX",
-            "site": "http://www.refletsdacide.com/",
-            "topic": null,
-            "facebook": null,
-            "twitter": null
-        },
-        "stats": {
-            "sagas": 2
-        },
-        "created_at": "2018-09-25T17:58:34+00:00",
-        "updated_at": "2018-09-25T17:58:34+00:00",
-        "type": "user",
-        "picture": {
-            "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
-            "thumb": "/static/mocks/media/storage/1634566833/conversions/jbx-thumb.jpg"
-        }
-    },
+    "created_at": "2018-10-27T11:33:42+00:00",
+    "updated_at": "2018-10-27T11:33:42+00:00",
     "images": {
         "cover": {
-            "main": "/static/mocks/media/storage/1778317966/conversions/bandeathpen-main.jpg",
-            "thumb": "/static/mocks/media/storage/1778317966/conversions/bandeathpen-thumb.jpg",
+            "main": "/static/mocks/media/storage/647938852/conversions/bandeathpen-main.jpg",
+            "thumb": "/static/mocks/media/storage/647938852/conversions/bandeathpen-thumb.jpg",
             "meta": {
-                "color": "#000000",
-                "type": "dark"
+                "color": null,
+                "type": null
             }
         }
-    },
-    "genres": [
-        {
-            "id": 206107536,
-            "name": "Parodie",
-            "stats": {
-                "sagas": 2
-            },
-            "image": {
-                "main": "/static/mocks/media/storage/980669067/conversions/Parodie-main.jpg"
-            }
-        }
-    ]
+    }
 }

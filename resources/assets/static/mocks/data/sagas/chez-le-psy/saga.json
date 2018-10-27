@@ -1,5 +1,5 @@
 {
-    "id": 1523884511,
+    "id": 965594201,
     "slug": "chez-le-psy",
     "name": "Chez le Psy",
     "synopsis": "Wallace Ticot, psychologue excentrique, décide d'enregistrer les délires de ses patients au moyen de cassettes. Dans les deux premières saisons, la majeure partie de la série tourne autour des consultations se déroulant dans son cabinet. Un contexte que les créateurs de Chez le Psy utilisent aussi pour intégrer des membres de la Sagasphère, et certains de leurs personnages. La saison 3 change légèrement de contexte et s'adapte à la nouvelle identité du groupe de créateurs.",
@@ -18,53 +18,18 @@
     "stats": {
         "bravos": 0,
         "collections": 9,
-        "tracks": 66
+        "tracks": 69
     },
-    "created_at": "2018-09-25T17:58:37+00:00",
-    "updated_at": "2018-09-25T17:58:37+00:00",
-    "author": {
-        "id": 1176091268,
-        "slug": "magoyond",
-        "name": "Magoyond",
-        "bio": "",
-        "links": {
-            "netowiki": null,
-            "site": null,
-            "topic": null,
-            "facebook": null,
-            "twitter": null
-        },
-        "stats": {
-            "sagas": 1
-        },
-        "created_at": "2018-09-25T17:58:34+00:00",
-        "updated_at": "2018-09-25T17:58:34+00:00",
-        "type": "team",
-        "picture": {
-            "main": "/static/mocks/media/storage/1939393859/conversions/MAGOYOND-main.jpg",
-            "thumb": "/static/mocks/media/storage/1939393859/conversions/MAGOYOND-thumb.jpg"
-        }
-    },
+    "created_at": "2018-10-27T11:33:41+00:00",
+    "updated_at": "2018-10-27T11:33:41+00:00",
     "images": {
         "cover": {
-            "main": "/static/mocks/media/storage/1300788002/conversions/chez-le-psy-main.jpg",
-            "thumb": "/static/mocks/media/storage/1300788002/conversions/chez-le-psy-thumb.jpg",
+            "main": "/static/mocks/media/storage/223274995/conversions/chez-le-psy-main.jpg",
+            "thumb": "/static/mocks/media/storage/223274995/conversions/chez-le-psy-thumb.jpg",
             "meta": {
-                "color": "#000000",
-                "type": "dark"
+                "color": null,
+                "type": null
             }
         }
-    },
-    "genres": [
-        {
-            "id": 1523884511,
-            "name": "Contemporain",
-            "stats": {
-                "sagas": 1
-            },
-            "image": {
-                "main": "/static/mocks/media/storage/1420631365/conversions/Contemporain-main.jpg"
-            }
-        }
-    ]
+    }
 }

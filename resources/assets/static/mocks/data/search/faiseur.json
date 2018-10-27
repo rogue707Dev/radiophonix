@@ -2,6 +2,28 @@
     "authors": [
         {
             "id": 2147222869,
+            "slug": "artekyon",
+            "name": "Artekyon",
+            "bio": "Artekyon découvre la saga mp3 grâce à l'un de ses amis avec le Donjon de Naheulbeuk puis les Aventuriers du NHL2987 Survivaure en 2006-2007. Il s'est ensuite aventuré sur d'autres sites de saga mp3 avec en priorité le Démon Du Rire créé par Durendal et Junior, où il découvrit la saga mp3 Kingdom Paf de Isthun qui lui donna envie de créer sa propre saga. Mais avant, il se promena sur le Netophonix et OdioArt pour donner sa voix. Il commença en 2011 avec Les archives perdues de Fallout avec l'aide de son partenaire le dieu Ascaran, où ils créent la compagnie de la saucisse. Il créa ensuite une saga mp3 qui a été abandonnée \"La guerre des détraqués\". Il découvre par la suite une parodie de Kingdom Hearts 2 écrite par Sora-desuka pour laquelle il obtient l'autorisation de la transposer en audio. C'est pour le moment son plus gros travail. Pour lui, le mixage, montage et voix sont des choses qu'il apprécie. Il a par contre du mal à créer des scénarios cohérents. Plus tard, en jouant au jeu Fable II, il se mit en tête de crée enfin, sa propre parodie, et ce fut la naissance d'Affabulation.\n\nDepuis il fait partie de Javras, mais continue à administrer le site de la compagnie de la saucisse. Il crée aussi Metal Gear Solid : Knacki Eater mais ce projet est abandonné mais risque de refaire surface.\n\nAlors que la guerre des détraqués était un échec à cause du manque d'idée pour le scénario, il décide tout de même de faire une autre saga mp3 qui n'est pas inspirer de jeux vidéos, livres ou films. In crystal Muntus voit le jour, et cette création est plutôt bien partie malgré le fait que l'histoire soit peu originale.\n\nEn 2014, Il rejoint l'équipe de Rewind & Play a ses débuts dans le but de faire de la critique de saga mp3, il est aujourd'hui encore dans l'équipe malgré ses absences dues aux études en Fac d'Arts du Spectacle. Cette même année, il devient aussi membre des Wave's Avengers faisant de lui le premier Judas de la sagasphère. De plus il crée avec Kwaam Mass Perfect 3 qui est la parodie de Mass Effect 3.\n\nEn 2015, Artekyon entame une longue pause dans la sagasphère par manque de volonté et entreprend de faire des vidéos sur Youtube pour présenter sa chronique, Sagatique, une chronique qui parle de saga mp3 qu'il estime que l'on peut en parler même sur Youtube.",
+            "links": {
+                "netowiki": "https://wiki.netophonix.com/Artekyon",
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-10-27T11:33:37+00:00",
+            "updated_at": "2018-10-27T11:33:37+00:00",
+            "picture": {
+                "main": "/static/mocks/media/storage/1462912999/conversions/author-main.jpg",
+                "thumb": "/static/mocks/media/storage/1462912999/conversions/author-thumb.jpg"
+            }
+        },
+        {
+            "id": 206107536,
             "slug": "durendal",
             "name": "Durendal",
             "bio": "Durendal est né le 13 Mars 1988 d'une maman tarée et d'un père Desprogien. Il a travaillé 3 ans dans la vente de jeux vidéos, avant d'arrêter en 2011 pour entamer des études de cinéma. Il maitrise partiellement l'infographie.",
@@ -15,16 +37,15 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-25T17:58:33+00:00",
-            "updated_at": "2018-09-25T17:58:33+00:00",
-            "type": "user",
+            "created_at": "2018-10-27T11:33:37+00:00",
+            "updated_at": "2018-10-27T11:33:37+00:00",
             "picture": {
-                "main": "/static/mocks/media/storage/1277011276/conversions/author-main.jpg",
-                "thumb": "/static/mocks/media/storage/1277011276/conversions/author-thumb.jpg"
+                "main": "/static/mocks/media/storage/1581834270/conversions/author-main.jpg",
+                "thumb": "/static/mocks/media/storage/1581834270/conversions/author-thumb.jpg"
             }
         },
         {
-            "id": 206107536,
+            "id": 1523884511,
             "slug": "flo",
             "name": "Flo",
             "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
@@ -38,16 +59,15 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-25T17:58:34+00:00",
-            "updated_at": "2018-09-25T17:58:34+00:00",
-            "type": "user",
+            "created_at": "2018-10-27T11:33:38+00:00",
+            "updated_at": "2018-10-27T11:33:38+00:00",
             "picture": {
-                "main": "/static/mocks/media/storage/1462912999/conversions/flo-main.jpg",
-                "thumb": "/static/mocks/media/storage/1462912999/conversions/flo-thumb.jpg"
+                "main": "/static/mocks/media/storage/1634566833/conversions/flo-main.jpg",
+                "thumb": "/static/mocks/media/storage/1634566833/conversions/flo-thumb.jpg"
             }
         },
         {
-            "id": 1523884511,
+            "id": 1797332506,
             "slug": "inky",
             "name": "Inky",
             "bio": "En 2006, lors d’une recherche d’images sur le net portant sur des batailles dans l’espace, il y découvre un livre audio s’intitulant La Bataille de l’Espace. De liens en liens, il découvre toutes les grandes aventures et apprend un nouveau terme : Saga mp3. En juin de la même année, il crée une aventure audio semi-humoristique au genre fantastique : Kiponie Stories. En janvier 2007, il remarque sur les forums de sagas mp3, la création très récente d’un forum réunissant les adeptes des créations audio : Netophonix. Il ne tarde pas à s’y inscrire et fait découvrir sa saga, qui est tout de suite appréciée et encouragée, ce qui met l’auteur dans de bonnes conditions pour la poursuivre. Il participe volontiers à d’autres créations mp3 et en partie à un grand projet sagasphérique, Le Choc des Zéros, pour lequel il prête certains de ses personnages.\nAprès la sortie du dernier épisode de la pré-saison de Kiponie Stories, fin décembre 2008, Inky se lance dans une science-fiction : Onidacius. Elle fut très vite abandonnée, l'auteur préférant consacrer son temps libre à sa première création. Le 14 mars 2009, il est invité sur la web-radio SynopsLive pour la diffusion du premier épisode de la deuxième saison (appelée aussi chapitre 1) de Kiponie Stories.",
@@ -61,16 +81,15 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-09-25T17:58:34+00:00",
-            "updated_at": "2018-09-25T17:58:34+00:00",
-            "type": "user",
+            "created_at": "2018-10-27T11:33:38+00:00",
+            "updated_at": "2018-10-27T11:33:38+00:00",
             "picture": {
-                "main": "/static/mocks/media/storage/1581834270/conversions/inky-main.jpg",
-                "thumb": "/static/mocks/media/storage/1581834270/conversions/inky-thumb.jpg"
+                "main": "/static/mocks/media/storage/1753359144/conversions/inky-main.jpg",
+                "thumb": "/static/mocks/media/storage/1753359144/conversions/inky-thumb.jpg"
             }
         },
         {
-            "id": 1797332506,
+            "id": 965594201,
             "slug": "jbx",
             "name": "JBX",
             "bio": "JBX (alias Zéhirmahnn) est le créateur monomaniaque de la saga « Reflets d’Acide » : il écrit les textes, interprète 95 % de ses personnages, il mixe, bricole et brode seul l’ensemble de cette aventure audio !\nIl est également scénariste (BD), co-créateur avec sa moitié (Pétulia) du Jeu de plateau, il compose-bricole des Bluettes, hymnes et autres divagations musicales, il prête sa voix dans quelques sagas mp3 (Adoprixtoxis, Velvorn, La Légende de Xantah, un bonus du Donjon de Naheulbeuk…) et joue de sa personne dans la websérie NOOB (en tant que JB dix et Lord Moneillon…), le Blog de Gaea, Sweet Brain Effect…!\nÂge : avancé mais mentalement divisé par 3.\nOrigines : Forêt Landaise.\nExpression favorite : « Très chic, très sobre… smart pour ainsi dire ! »",
@@ -82,37 +101,13 @@
                 "twitter": null
             },
             "stats": {
-                "sagas": 2
+                "sagas": 1
             },
-            "created_at": "2018-09-25T17:58:34+00:00",
-            "updated_at": "2018-09-25T17:58:34+00:00",
-            "type": "user",
+            "created_at": "2018-10-27T11:33:38+00:00",
+            "updated_at": "2018-10-27T11:33:38+00:00",
             "picture": {
-                "main": "/static/mocks/media/storage/1634566833/conversions/jbx-main.jpg",
-                "thumb": "/static/mocks/media/storage/1634566833/conversions/jbx-thumb.jpg"
-            }
-        },
-        {
-            "id": 965594201,
-            "slug": "mace",
-            "name": "Mace",
-            "bio": "Mace aime créer des histoires, de fait, depuis son plus jeune âge, il s'exerce à écrire des nouvelles. Amateur d'humour, il crée vers l'âge de neuf ans, des sketches audio en compagnie de son frère et de son cousin. Munis d'un magnétophone, ils feront notamment des parodies de publicités et d'émissions.\n\nAprès sa première écoute d'une saga mp3, qui se trouve être Banal Fantasy, il adhère au concept et se lance dans un projet similaire avec son meilleur ami, une façon pour lui de mettre en commun ses deux passions que sont le rire et la création d'histoires. Ce premier projet est une parodie du jeu vidéo Star Wars Knight Of The Old Republic. Ayant peu de maitrise dans l'audio, il créa seulement deux épisodes qu'il considère de basse qualité avant d'y mettre un terme.\n\nEn 2007, deux ans après l'arrêt de son premier projet, Mace qui s'ennuyait pendant les vacances eu l'idée de se remettre à la saga mp3 en créant Star Peace, une parodie des films Star Wars. Composée de 15 épisodes pour dix mois de travail, elle ne fut jamais publiée sur l'internet à l'exception des deux premiers épisodes. Il se lance ensuite dans une parodie de Dragon Ball Z, appelée Para Ball + ; abandonnée dès le deuxième épisode, elle ne fut, elle non plus, pas diffusée.\n\nN'ayant pas de réel projet dans lequel se lancer, il décide de commencer une série de monos parodiant principalement des jeux vidéo : Mace's Mono. On y retrouve ainsi des parodies, d'entre autres, Phoenix Wright, Trauma Center, Animal Crossing, etc. TeruHi intervient régulièrement dans ces monos, il est en effet un ami de Mace, ils se sont liés à l'occasion du casting pour Initial Fantasy XII, auquel il avait participé. C'est aussi dans le cadre de cette série qu'il publie la bande annonce d'une hypothétique saga parodiant le manga à succès Death Note. L'accueil de la part des auditeurs est plutôt bon, ce qui amènera l'auteur à finalement décider d'en faire une saga à part entière. Ainsi, le 3 mai 2008 sort le premier épisode de la saga Death Pen, un an jour pour jour après celui de Star Peace.\n\nAu cours de l'année 2010, alors que Death Pen semble au point mort à cause de divers problèmes, Mace lance un second projet nommé Credo d'Assassin. Cette saga est une parodie du célèbre jeu d' Ubisoft, Assassin's Creed. Ne voulant assumer un second projet tout seul, Mace proposa à un de ses amis, Yue, de co-écrire la saga avec lui. Le premier épisode sortit le 26 août 2010. ",
-            "links": {
-                "netowiki": "https://wiki.netophonix.com/Mace",
-                "site": "https://maceprod.jimdo.com/",
-                "topic": null,
-                "facebook": null,
-                "twitter": null
-            },
-            "stats": {
-                "sagas": 0
-            },
-            "created_at": "2018-09-25T17:58:34+00:00",
-            "updated_at": "2018-09-25T17:58:34+00:00",
-            "type": "user",
-            "picture": {
-                "main": "/static/mocks/media/storage/1753359144/conversions/mace-main.jpg",
-                "thumb": "/static/mocks/media/storage/1753359144/conversions/mace-thumb.jpg"
+                "main": "/static/mocks/media/storage/1939393859/conversions/jbx-main.jpg",
+                "thumb": "/static/mocks/media/storage/1939393859/conversions/jbx-thumb.jpg"
             }
         }
     ]

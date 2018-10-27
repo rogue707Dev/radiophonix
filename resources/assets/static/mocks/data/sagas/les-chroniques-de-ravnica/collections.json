@@ -1,15 +1,15 @@
 [
     {
-        "id": 1184964965,
+        "id": 630869487,
         "number": "1",
         "name": "Épisodes",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-09-25T17:58:40+00:00",
-        "updated_at": "2018-09-25T17:58:40+00:00",
+        "created_at": "2018-10-27T11:33:42+00:00",
+        "updated_at": "2018-10-27T11:33:42+00:00",
         "tracks": [
             {
-                "id": 1427219579,
+                "id": 1655504996,
                 "number": "1",
                 "title": "Ravnica, la cité des Guildes",
                 "synopsis": "",
@@ -19,11 +19,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 01.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 1652429478,
+                "id": 859438755,
                 "number": "2",
                 "title": "Sombre Secret",
                 "synopsis": "",
@@ -33,11 +33,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 02.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 818594021,
+                "id": 1099279598,
                 "number": "3",
                 "title": "Infiltration",
                 "synopsis": "",
@@ -47,11 +47,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 03.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 1096203552,
+                "id": 1846679853,
                 "number": "4",
                 "title": "Ordre et Chaos",
                 "synopsis": "",
@@ -61,11 +61,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 04.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 1872980847,
+                "id": 1065285480,
                 "number": "5",
                 "title": "Passage chez les Izzets",
                 "synopsis": "",
@@ -75,11 +75,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 05.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 1007671722,
+                "id": 1305126359,
                 "number": "6",
                 "title": "Au Joyeux Egorgé",
                 "synopsis": "",
@@ -89,11 +89,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 06.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 1251719145,
+                "id": 441913874,
                 "number": "7",
                 "title": "Les grandes lignes des destinées",
                 "synopsis": "",
@@ -103,11 +103,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 07.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 468214868,
+                "id": 681820241,
                 "number": "8",
                 "title": "Dans l'Antre de la Terreur",
                 "synopsis": "",
@@ -117,11 +117,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 08.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 678744723,
+                "id": 2031074972,
                 "number": "9",
                 "title": "Aux Portes de la Mort",
                 "synopsis": "",
@@ -131,11 +131,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 09.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 1992327390,
+                "id": 127691995,
                 "number": "10",
                 "title": "La Cité de la Nuit",
                 "synopsis": "",
@@ -145,11 +145,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 10.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 120421661,
+                "id": 1424546054,
                 "number": "11",
                 "title": "Sauvetage dans les Ténèbres",
                 "synopsis": "",
@@ -159,11 +159,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 11.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 1438198616,
+                "id": 1702147909,
                 "number": "12",
                 "title": "Envol",
                 "synopsis": "",
@@ -173,11 +173,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 12.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 1644534151,
+                "id": 868312448,
                 "number": "13",
                 "title": "L'Empire des gouttes",
                 "synopsis": "",
@@ -187,11 +187,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 13.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 814905282,
+                "id": 1076745167,
                 "number": "14",
                 "title": "Le Jour du Jugement",
                 "synopsis": "",
@@ -201,11 +201,11 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 14.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             },
             {
-                "id": 1107174401,
+                "id": 1857650698,
                 "number": "15",
                 "title": "La Mort du Temps",
                 "synopsis": "",
@@ -215,8 +215,8 @@
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 15.mp3",
                 "percentages": [],
                 "chapters": [],
-                "created_at": "2018-09-25T17:58:40+00:00",
-                "updated_at": "2018-09-25T17:58:40+00:00"
+                "created_at": "2018-10-27T11:33:42+00:00",
+                "updated_at": "2018-10-27T11:33:42+00:00"
             }
         ]
     }

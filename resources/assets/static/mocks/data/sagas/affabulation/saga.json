@@ -1,0 +1,35 @@
+{
+    "id": 206107536,
+    "slug": "affabulation",
+    "name": "Affabulation",
+    "synopsis": "Moineau, un jeune enfant pauvre, va subir une chose effroyable qui changera définitivement sa pauvre vie. Il sera accompagné de son chien qui parle et de Thérésa. Moineau voyagera dans le monde d'Albion.",
+    "creation_date": "2012-01-02T00:00:00+00:00",
+    "licence": "CC BY-NC-ND",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/Affabulation",
+        "site": "https://compagnie-saucisse.jimdo.com/les-sagas-mp3/affabulation/",
+        "topic": null,
+        "rss": null,
+        "facebook": null,
+        "twitter": "https://twitter.com/Artekyon"
+    },
+    "finished": true,
+    "visibility": 0,
+    "stats": {
+        "bravos": 0,
+        "collections": 1,
+        "tracks": 10
+    },
+    "created_at": "2018-10-27T11:33:40+00:00",
+    "updated_at": "2018-10-27T11:33:40+00:00",
+    "images": {
+        "cover": {
+            "main": "/static/mocks/media/storage/1420631365/conversions/affabulation-main.jpg",
+            "thumb": "/static/mocks/media/storage/1420631365/conversions/affabulation-thumb.jpg",
+            "meta": {
+                "color": null,
+                "type": null
+            }
+        }
+    }
+}
