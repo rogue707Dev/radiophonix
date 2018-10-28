@@ -25,7 +25,7 @@ class GenreStats implements Arrayable
      */
     public function sagas(): int
     {
-        return (int)$this->genre->sagas()->count();
+        return (int)$this->genre->cached_sagas_count;
     }
 
     /**

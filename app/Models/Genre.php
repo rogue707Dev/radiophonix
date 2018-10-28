@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Laravel\Scout\Searchable;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\Genre\GenreStats;
+use Radiophonix\Models\Support\HasCountCache;
 use Radiophonix\Models\Support\HasFakeId;
 use Spatie\Image\Manipulations;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
@@ -24,6 +25,7 @@ use Spatie\Sluggable\SlugOptions;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read Collection|Saga[] $sagas
+ * @property-read int $cached_sagas_count
  */
 class Genre extends Model implements HasMedia
 {
@@ -32,6 +34,7 @@ class Genre extends Model implements HasMedia
     use HasMediaTrait;
     use HasSlug;
     use FindableFromSlug;
+    use HasCountCache;
 
     /**
      * @var array
@@ -77,5 +80,15 @@ class Genre extends Model implements HasMedia
         return SlugOptions::create()
             ->generateSlugsFrom('name')
             ->saveSlugsTo('slug');
+    }
+
+    /**
+     * @return int
+     */
+    public function getCachedSagasCountAttribute(): int
+    {
+        return $this->cacheCount('sagas', function () {
+            return $this->sagas->count();
+        });
     }
 }
