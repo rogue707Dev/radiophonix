@@ -1,0 +1,174 @@
+{
+    "name": "Kingdom Bwarf",
+    "synopsis": "Rosace, un jeune garçon junkie, vit dans le Monde de Twilight Town avec ses trois amis Biker, Omlette et Pence. Mais un jour, une créature bizarre leur vola la came et c'est ici que le destin de Rosace changea. Il commença à maîtriser la Keyblade, une clef Playmobile très moche. Il apprit qu'il était lié à Soda. Soda, Ronald et Mego vont revoyager dans les mondes pour les verrouiller, tout en luttant contre les sans-queues et les syphilis mais aussi une organisation secrète.",
+    "creation_date": "2011-09-24T00:00:00+00:00",
+    "licence": "CC BY-NC-ND",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/Kingdom_Bwarf",
+        "site": "http://www.teamjavras.fr/Javras/sagas-mp3/kingdom-bwarf/",
+        "topic": null,
+        "rss": null,
+        "facebook": null,
+        "twitter": "https://twitter.com/Artekyon"
+    },
+    "finished": true,
+    "visibility": 0,
+    "images": {
+        "cover": "Kingdom_Bwarf.jpg"
+    },
+    "genres": [
+        "Parodie"
+    ],
+    "authors": ["Artekyon"],
+    "team": "Javras",
+    "collections": [
+        {
+            "number": "1",
+            "name": "Épisodes",
+            "synopsis": "",
+            "type": "season",
+            "tracks": [
+                {
+                    "number": "1",
+                    "title": "Jour 1",
+                    "synopsis": "Où commence l'histoire.",
+                    "published_at": "2011-09-24T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "8min38s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 1 Jours 1.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "2",
+                    "title": "Jour 2",
+                    "synopsis": "Où tout le monde travaille.",
+                    "published_at": "2011-09-30T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "7min17s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 2 Jour 2.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "3",
+                    "title": "Jour 3",
+                    "synopsis": "Où on assiste au tutoriel.",
+                    "published_at": "2011-10-09T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "9min33s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 3 Jour 3.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "4",
+                    "title": "Jour 4",
+                    "synopsis": "Où on assiste au tournoi de struggle.",
+                    "published_at": "2011-11-27T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "15min36s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 4 Jour 4.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "5",
+                    "title": "Jour 5",
+                    "synopsis": "Où on cherche des énigmes dans Twilight Town.",
+                    "published_at": "2012-04-10T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "19min58s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 5 Jour 5.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "6",
+                    "title": "Jour 6",
+                    "synopsis": "Où Rosace vit ses derniers instant à Twilight Town",
+                    "published_at": "2012-06-28T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "14min57s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 6 Jour 6.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "7",
+                    "title": "Le retour du Jedi",
+                    "synopsis": "Où Rosace est absent et où on part de Twilight Town.",
+                    "published_at": "2012-07-06T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "10min00s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 7.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "8",
+                    "title": "Cheyenne Cidre",
+                    "synopsis": "Où on parle avec un blanchisseur et où on change de vêtements parce qu'on pue.",
+                    "published_at": "2012-09-23T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "15min58s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 8.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "9",
+                    "title": "La Forteresse dont on se rappelle jamais",
+                    "synopsis": "Où on va dans une forteresse avec des gens qu'on connaissait.",
+                    "published_at": "2013-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "11min57s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 9.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "10",
+                    "title": "Les Huns envahissent, les autres résistent",
+                    "synopsis": "Où on commence vraiment l'aventure, mais dans un monde petit, tout petit.",
+                    "published_at": "2013-05-26T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "15min35s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 10.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "11",
+                    "title": "Madness, this is China !",
+                    "synopsis": "Où on se fait la bagarre contre les chinetoques ! Ouh c'est très raciste ça... les Huns.",
+                    "published_at": "2014-07-06T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "21min20s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 11.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "12",
+                    "title": "La bête et la Bête",
+                    "synopsis": "Où on remarque qu'un château... C'est plutôt vide de monde... ",
+                    "published_at": "2014-08-08T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "14min12s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 12.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "13",
+                    "title": "On reprend du poil de la Bête",
+                    "synopsis": "Où on cherche à comprendre les réactions de la bête. ",
+                    "published_at": "2015-04-22T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "20min56s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 13.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "14",
+                    "title": "Des affaire en Enfers",
+                    "synopsis": "",
+                    "published_at": "2011-09-24T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "16min58s",
+                    "file": "kingdom-bwarf/Kingdom Bwarf-Episode 14.mp3",
+                    "chapters": []
+                }
+            ]
+        }
+    ]
+}
