@@ -1,6 +1,6 @@
 <template>
     <Card
-        :link="{ name: 'listen.genres.show', params: { id: genre.id } }"
+        :link="{ name: 'listen.genres.show', params: { id: genre.slug } }"
         :urlImage="genre.image.main"
         :altImage="genre.name"
         :title="genre.name"

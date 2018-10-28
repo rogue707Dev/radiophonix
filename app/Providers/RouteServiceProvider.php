@@ -54,7 +54,7 @@ class RouteServiceProvider extends ServiceProvider
         });
 
         Route::bind('genre', function ($value) {
-            return Genre::fromFakeId($value);
+            return Genre::findFromSlugOrFakeId($value);
         });
 
         Route::bind('author', function ($value) {

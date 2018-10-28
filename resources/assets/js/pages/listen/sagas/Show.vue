@@ -54,7 +54,7 @@
                     <router-link tag="button"
                                  class="btn btn-outline-primary"
                                  v-if="genre"
-                                 :to="{ name: 'listen.genres.show', params: { id: genre.id } }">
+                                 :to="{ name: 'listen.genres.show', params: { id: genre.slug } }">
                         {{ genre.name }}
                     </router-link>
                 </div>

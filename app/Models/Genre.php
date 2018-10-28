@@ -7,15 +7,19 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Laravel\Scout\Searchable;
+use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\Genre\GenreStats;
 use Radiophonix\Models\Support\HasFakeId;
 use Spatie\Image\Manipulations;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 use Spatie\MediaLibrary\Models\Media;
+use Spatie\Sluggable\HasSlug;
+use Spatie\Sluggable\SlugOptions;
 
 /**
  * @property int $id
+ * @property string $slug
  * @property string $name
  * @property Carbon $created_at
  * @property Carbon $updated_at
@@ -26,6 +30,8 @@ class Genre extends Model implements HasMedia
     use HasFakeId;
     use Searchable;
     use HasMediaTrait;
+    use HasSlug;
+    use FindableFromSlug;
 
     /**
      * @var array
@@ -57,5 +63,19 @@ class Genre extends Model implements HasMedia
     public function sagas()
     {
         return $this->belongsToMany(Saga::class);
+    }
+
+    /**
+     * Slug generation configuration.
+     *
+     * @see https://github.com/spatie/laravel-sluggable
+     *
+     * @return SlugOptions
+     */
+    public function getSlugOptions(): SlugOptions
+    {
+        return SlugOptions::create()
+            ->generateSlugsFrom('name')
+            ->saveSlugsTo('slug');
     }
 }
