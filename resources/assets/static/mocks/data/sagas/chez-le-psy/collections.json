@@ -5,8 +5,8 @@
         "name": "Saison 1",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 1956346997,
@@ -17,10 +17,9 @@
                 "status": 3,
                 "seconds": 310,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 1.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 99035824,
@@ -31,10 +30,9 @@
                 "status": 3,
                 "seconds": 307,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 2.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1383307519,
@@ -45,10 +43,9 @@
                 "status": 3,
                 "seconds": 265,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 3.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1623225658,
@@ -59,10 +56,9 @@
                 "status": 3,
                 "seconds": 312,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 4.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 824976249,
@@ -73,10 +69,9 @@
                 "status": 3,
                 "seconds": 280,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 5.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1605931428,
@@ -87,10 +82,9 @@
                 "status": 3,
                 "seconds": 288,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 6.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1812287459,
@@ -101,10 +95,9 @@
                 "status": 3,
                 "seconds": 435,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 7.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 982596654,
@@ -115,10 +108,9 @@
                 "status": 3,
                 "seconds": 235,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 8.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1274931821,
@@ -129,10 +121,9 @@
                 "status": 3,
                 "seconds": 436,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 9.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 407525544,
@@ -143,10 +134,9 @@
                 "status": 3,
                 "seconds": 337,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     },
@@ -156,8 +146,8 @@
         "name": "Saison 2",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 651572503,
@@ -168,10 +158,9 @@
                 "status": 3,
                 "seconds": 528,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s11.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1998775122,
@@ -182,10 +171,9 @@
                 "status": 3,
                 "seconds": 465,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s12p1.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 93278609,
@@ -196,10 +184,9 @@
                 "status": 3,
                 "seconds": 566,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s12p2.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1377505244,
@@ -210,10 +197,9 @@
                 "status": 3,
                 "seconds": 629,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s13.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1667759131,
@@ -224,10 +210,9 @@
                 "status": 3,
                 "seconds": 863,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s14.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 838052422,
@@ -238,10 +223,9 @@
                 "status": 3,
                 "seconds": 745,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s15.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1581258885,
@@ -252,10 +236,9 @@
                 "status": 3,
                 "seconds": 497,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s16.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     },
@@ -265,8 +248,8 @@
         "name": "Saison 3",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 1823274688,
@@ -277,10 +260,9 @@
                 "status": 3,
                 "seconds": 254,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Saison3/Saison 3 - Prologue.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1027121935,
@@ -291,10 +273,9 @@
                 "status": 3,
                 "seconds": 476,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Saison3/Saison 3 - Séance 301.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1267011914,
@@ -305,10 +286,9 @@
                 "status": 3,
                 "seconds": 840,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Saison3/Saison 3 - Séance 302.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 403820425,
@@ -319,10 +299,9 @@
                 "status": 3,
                 "seconds": 600,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Saison3/Saison 3 - Séance 303.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 696106484,
@@ -333,10 +312,9 @@
                 "status": 3,
                 "seconds": 1380,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Saison3/Saison 3 - Séance 304.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     },
@@ -346,8 +324,8 @@
         "name": "Séances spéciales",
         "synopsis": "Les séances spéciales regroupent des épisodes ne suivant pas le déroulement linéaire des saisons, comme des cross-over, et des séances de noël.",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 2009754163,
@@ -358,10 +336,9 @@
                 "status": 3,
                 "seconds": 316,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes1.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 72800382,
@@ -372,10 +349,9 @@
                 "status": 3,
                 "seconds": 380,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes2.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1386395325,
@@ -386,10 +362,9 @@
                 "status": 3,
                 "seconds": 323,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes3.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1661953272,
@@ -400,10 +375,9 @@
                 "status": 3,
                 "seconds": 679,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes4.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 832295207,
@@ -414,10 +388,9 @@
                 "status": 3,
                 "seconds": 326,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes5.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1592233826,
@@ -428,10 +401,9 @@
                 "status": 3,
                 "seconds": 742,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes6.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1869905313,
@@ -442,10 +414,9 @@
                 "status": 3,
                 "seconds": 211,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes7p1.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1036004332,
@@ -456,10 +427,9 @@
                 "status": 3,
                 "seconds": 616,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes7p2.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     },
@@ -469,8 +439,8 @@
         "name": "Sur le Divan",
         "synopsis": "Les Sur le Divan, Sur le Grand Divan ou séances live sont des sketch, souvent improvisés, joués en direct par le Mago pour la webradio SynopsLive. Ces séances mettent généralement en scène des personnages des sagas des invités, ou les font directement participer.",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 1244436523,
@@ -481,10 +451,9 @@
                 "status": 3,
                 "seconds": 301,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 12_04_08.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 414807702,
@@ -495,10 +464,9 @@
                 "status": 3,
                 "seconds": 246,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 19_04_08.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 688202965,
@@ -509,10 +477,9 @@
                 "status": 3,
                 "seconds": 188,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 26_04_08.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 2006028560,
@@ -523,10 +490,9 @@
                 "status": 3,
                 "seconds": 381,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 28_06_08.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 83775327,
@@ -537,10 +503,9 @@
                 "status": 3,
                 "seconds": 658,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 03_01_09.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1430928794,
@@ -551,10 +516,9 @@
                 "status": 3,
                 "seconds": 751,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/04 Sur le Divan _ Séance live du 14_03_09.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1675029465,
@@ -565,10 +529,9 @@
                 "status": 3,
                 "seconds": 566,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/05 Sur le Divan _ Séance live du 28_03_09.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     },
@@ -578,8 +541,8 @@
         "name": "Sur le (Grand) Divan",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 807622660,
@@ -590,10 +553,9 @@
                 "status": 3,
                 "seconds": 524,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 14_11_09.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1586443843,
@@ -604,10 +566,9 @@
                 "status": 3,
                 "seconds": 525,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 12_12_09.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1864098958,
@@ -618,10 +579,9 @@
                 "status": 3,
                 "seconds": 485,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 02_01_10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1013469901,
@@ -632,10 +592,9 @@
                 "status": 3,
                 "seconds": 549,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 20_03_10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1257508616,
@@ -646,10 +605,9 @@
                 "status": 3,
                 "seconds": 343,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 03_04_10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 457244023,
@@ -660,10 +618,9 @@
                 "status": 3,
                 "seconds": 231,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 01_05_10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 699182002,
@@ -674,10 +631,9 @@
                 "status": 3,
                 "seconds": 365,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 15_05_10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1983453681,
@@ -688,10 +644,9 @@
                 "status": 3,
                 "seconds": 416,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 12_06_10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 75888188,
@@ -702,10 +657,9 @@
                 "status": 3,
                 "seconds": 356,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 24_07_10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     },
@@ -715,8 +669,8 @@
         "name": "Sur le (Coop') Divan",
         "synopsis": "Pour renouveler le concept, Le Mago proposa de faire des séances live en utilisant en improvisation des mots-clés que des auditeurs lui auront envoyé dans la journée précédent l'émission.",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 1427219579,
@@ -727,10 +681,9 @@
                 "status": 3,
                 "seconds": 516,
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan1.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1652429478,
@@ -741,10 +694,9 @@
                 "status": 3,
                 "seconds": 383,
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan2.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 818594021,
@@ -755,10 +707,9 @@
                 "status": 3,
                 "seconds": 574,
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan3.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1096203552,
@@ -769,10 +720,9 @@
                 "status": 3,
                 "seconds": 601,
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan4.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     },
@@ -782,8 +732,8 @@
         "name": "Bonus",
         "synopsis": "",
         "type": "bonus",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 1872980847,
@@ -794,10 +744,9 @@
                 "status": 3,
                 "seconds": 369,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus1.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1007671722,
@@ -808,10 +757,9 @@
                 "status": 3,
                 "seconds": 336,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus2.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1251719145,
@@ -822,10 +770,9 @@
                 "status": 3,
                 "seconds": 324,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus3.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 468214868,
@@ -836,10 +783,9 @@
                 "status": 3,
                 "seconds": 22,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus4.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 678744723,
@@ -850,10 +796,9 @@
                 "status": 3,
                 "seconds": 39,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus5.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1992327390,
@@ -864,10 +809,9 @@
                 "status": 3,
                 "seconds": 23,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus11.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 120421661,
@@ -878,10 +822,9 @@
                 "status": 3,
                 "seconds": 26,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus6.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1438198616,
@@ -892,10 +835,9 @@
                 "status": 3,
                 "seconds": 24,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus7.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1644534151,
@@ -906,10 +848,9 @@
                 "status": 3,
                 "seconds": 120,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus8.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 814905282,
@@ -920,10 +861,9 @@
                 "status": 3,
                 "seconds": 49,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus9.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1107174401,
@@ -934,10 +874,9 @@
                 "status": 3,
                 "seconds": 438,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     },
@@ -947,8 +886,8 @@
         "name": "Camisole, les musiques de Chez le Psy",
         "synopsis": "",
         "type": "music",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 1850380876,
@@ -959,10 +898,9 @@
                 "status": 3,
                 "seconds": 207,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/TicotSong (Cover By Piwil).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1020739723,
@@ -973,10 +911,9 @@
                 "status": 3,
                 "seconds": 174,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Petit Papa Noël (Calendrier de l'Avent 2007).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1294155510,
@@ -987,10 +924,9 @@
                 "status": 3,
                 "seconds": 260,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/J'suis fou ! (Liquido Cover).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 462416693,
@@ -1001,10 +937,9 @@
                 "status": 3,
                 "seconds": 211,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/The TicotSong (Rock Edit - Queen Cover).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 672946544,
@@ -1015,10 +950,9 @@
                 "status": 3,
                 "seconds": 183,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Vive le vent (Calendrier de l'avent 2008).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 2036873151,
@@ -1029,10 +963,9 @@
                 "status": 3,
                 "seconds": 96,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Le vieux (Mr Bouchaud - Wallace Ticot).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 133490170,
@@ -1043,10 +976,9 @@
                 "status": 3,
                 "seconds": 144,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Le Blues de la Secrétaire (Maryvonne).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1413567033,
@@ -1057,10 +989,9 @@
                 "status": 3,
                 "seconds": 235,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/The TicotSong (Synthé Edit - Queen Cover).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     }

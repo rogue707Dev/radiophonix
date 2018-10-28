@@ -5,8 +5,8 @@
         "name": "Pré-saison : Sur des Terres Inconnues",
         "synopsis": "Tout commence par un voyage sans intérêt. Le très jeune capitaine Alexandre Vinoqui se lance dans l'expédition du siècle : Percer les mystères du Triangle des Mersnulles et révéler au monde entier les secrets cachés par d'étranges brumes. Il prend donc la première opportunité venue et embarque avec lui son vieil ami Hanson Triviany ainsi qu’une équipe d’andouilles dégotée dans les poubelles du coin. Après deux semaines de voyage plus que désagréables, une tempête frappe soudainement leur navire et le transforme en musée sous-marin. Nos deux aventuriers amateurs se retrouvent prisonniers d’un continent mystérieux gardant des secrets inimaginables. C’est à ce moment là que les problèmes commencent...",
         "type": "season",
-        "created_at": "2018-10-27T11:33:42+00:00",
-        "updated_at": "2018-10-27T11:33:42+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 289474795,
@@ -17,10 +17,9 @@
                 "status": 3,
                 "seconds": 497,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E1.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1068361046,
@@ -31,10 +30,9 @@
                 "status": 3,
                 "seconds": 527,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E2.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1278890901,
@@ -45,10 +43,9 @@
                 "status": 3,
                 "seconds": 612,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E3.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 444989904,
@@ -59,10 +56,9 @@
                 "status": 3,
                 "seconds": 641,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E4.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 722664991,
@@ -73,10 +69,9 @@
                 "status": 3,
                 "seconds": 774,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E5.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 2021567578,
@@ -87,10 +82,9 @@
                 "status": 3,
                 "seconds": 889,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E6.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 113973913,
@@ -101,10 +95,9 @@
                 "status": 3,
                 "seconds": 966,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E7_P1.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1465370820,
@@ -115,10 +108,9 @@
                 "status": 3,
                 "seconds": 586,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E7_P2.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1705223427,
@@ -129,10 +121,9 @@
                 "status": 3,
                 "seconds": 1200,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S0_E7_P3.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     },
@@ -142,8 +133,8 @@
         "name": "La Malédiction Fantôme",
         "synopsis": "Après avoir échappé belle aux éboulements du Kret Kermesite, Andom, Alexandre, Fred-Herick ainsi que le Président de la Semi-République partent subitement chercher la cité des Anciens pour trouver des réponses à leurs questions. Mais Génofuna, l’île où est supposée se situer la cité n’est sur aucune carte. Ils décident alors de se rendre à Karst, ville de brigands et de contrebandiers mais gisement de précieuses informations. D’un autre côté Mangélos retourne chez son précepteur, Dec Cedrius. Ce dernier va mettre tout en œuvre pour contrecarrer les plans d'un mystérieux inconnu. Quant à Mangélos, il veut par dessus tout découvrir qui il était autrefois et accomplir son devoir : Éliminer le mystérieux inconnu. Dans ce chapitre, mystères et énigmes s'étoffent, le hasard devenant un prétexte pour cacher la vérité, mais nos héros ne tarderont pas à découvrir ce pour quoi ils sont là.",
         "type": "season",
-        "created_at": "2018-10-27T11:33:42+00:00",
-        "updated_at": "2018-10-27T11:33:42+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 842011470,
@@ -154,10 +145,9 @@
                 "status": 3,
                 "seconds": 1350,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S1_E1.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1084014989,
@@ -168,10 +158,9 @@
                 "status": 3,
                 "seconds": 824,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S1_E2.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 300466120,
@@ -182,10 +171,9 @@
                 "status": 3,
                 "seconds": 816,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S1_E3.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1047882807,
@@ -196,10 +184,9 @@
                 "status": 3,
                 "seconds": 985,
                 "file": "https://audio.radiophonix.org/kiponie-stories/KS_S1_E4.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     }

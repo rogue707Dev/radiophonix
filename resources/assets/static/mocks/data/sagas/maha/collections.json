@@ -5,8 +5,8 @@
         "name": "Épisodes",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:42+00:00",
-        "updated_at": "2018-10-27T11:33:42+00:00",
+        "created_at": "2018-10-28T18:09:16+00:00",
+        "updated_at": "2018-10-28T18:09:16+00:00",
         "tracks": [
             {
                 "id": 1287772786,
@@ -17,10 +17,9 @@
                 "status": 2,
                 "seconds": 35,
                 "file": "https://audio.radiophonix.org/maha/01 MAHA - Introduction.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 489523377,
@@ -31,10 +30,9 @@
                 "status": 2,
                 "seconds": 300,
                 "file": "https://audio.radiophonix.org/maha/02 MAHA - Le Pourquoi du (no) comment.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 733636348,
@@ -45,10 +43,9 @@
                 "status": 2,
                 "seconds": 180,
                 "file": "https://audio.radiophonix.org/maha/03 MAHA - La souris verte.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 2013713211,
@@ -59,10 +56,9 @@
                 "status": 2,
                 "seconds": 300,
                 "file": "https://audio.radiophonix.org/maha/04 MAHA - La Musique.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 110264678,
@@ -73,10 +69,9 @@
                 "status": 2,
                 "seconds": 120,
                 "file": "https://audio.radiophonix.org/maha/05 MAHA - L'enfer des enregistrements.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1476362149,
@@ -87,10 +82,9 @@
                 "status": 2,
                 "seconds": 420,
                 "file": "https://audio.radiophonix.org/maha/06 MAHA - Les parents, les apéros et moi, et moi, et moi....mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1682648544,
@@ -101,10 +95,9 @@
                 "status": 2,
                 "seconds": 240,
                 "file": "https://audio.radiophonix.org/maha/07 MAHA - Pierre Desproges.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 852990511,
@@ -115,10 +108,9 @@
                 "status": 2,
                 "seconds": 240,
                 "file": "https://audio.radiophonix.org/maha/08 MAHA - L'amour.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1126451306,
@@ -129,10 +121,9 @@
                 "status": 2,
                 "seconds": 120,
                 "file": "https://audio.radiophonix.org/maha/09 MAHA - Jésus.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 296756905,
@@ -143,10 +134,9 @@
                 "status": 2,
                 "seconds": 300,
                 "file": "https://audio.radiophonix.org/maha/10 MAHA - Le jour qui tiens debout.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1042060052,
@@ -157,10 +147,9 @@
                 "status": 2,
                 "seconds": 360,
                 "file": "https://audio.radiophonix.org/maha/11 MAHA - Les poètes sont des cons.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1332298067,
@@ -171,10 +160,9 @@
                 "status": 2,
                 "seconds": 240,
                 "file": "https://audio.radiophonix.org/maha/12 MAHA - La stratégie de l'échec.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 502611870,
@@ -185,10 +173,9 @@
                 "status": 2,
                 "seconds": 360,
                 "file": "https://audio.radiophonix.org/maha/13 MAHA - Pierre Desproges (encore...).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 708963805,
@@ -199,10 +186,9 @@
                 "status": 2,
                 "seconds": 240,
                 "file": "https://audio.radiophonix.org/maha/14 MAHA - Les sales gamins.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 2024692248,
@@ -213,10 +199,9 @@
                 "status": 2,
                 "seconds": 180,
                 "file": "https://audio.radiophonix.org/maha/15 MAHA - La minute de silence.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 154798151,
@@ -227,10 +212,9 @@
                 "status": 2,
                 "seconds": 420,
                 "file": "https://audio.radiophonix.org/maha/16 MAHA - Bonnané !.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1468458626,
@@ -241,10 +225,9 @@
                 "status": 2,
                 "seconds": 240,
                 "file": "https://audio.radiophonix.org/maha/17 MAHA - Le creux.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1678988481,
@@ -255,10 +238,9 @@
                 "status": 2,
                 "seconds": 180,
                 "file": "https://audio.radiophonix.org/maha/18 MAHA - Tecktoniqués.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 897515788,
@@ -269,10 +251,9 @@
                 "status": 2,
                 "seconds": 240,
                 "file": "https://audio.radiophonix.org/maha/19 MAHA - Démocratie  Non merci !.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1137442635,
@@ -283,10 +264,9 @@
                 "status": 2,
                 "seconds": 180,
                 "file": "https://audio.radiophonix.org/maha/20 MAHA - La lettre de trop.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 274181558,
@@ -297,10 +277,9 @@
                 "status": 2,
                 "seconds": 360,
                 "file": "https://audio.radiophonix.org/maha/21 MAHA - Adieu & désolé.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1050942453,
@@ -311,10 +290,9 @@
                 "status": 2,
                 "seconds": 56,
                 "file": "https://audio.radiophonix.org/maha/22 MAHA - Conclusion.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             }
         ]
     },
@@ -324,8 +302,8 @@
         "name": "Bonus",
         "synopsis": "",
         "type": "bonus",
-        "created_at": "2018-10-27T11:33:42+00:00",
-        "updated_at": "2018-10-27T11:33:42+00:00",
+        "created_at": "2018-10-28T18:09:16+00:00",
+        "updated_at": "2018-10-28T18:09:16+00:00",
         "tracks": [
             {
                 "id": 1328597040,
@@ -336,10 +314,9 @@
                 "status": 2,
                 "seconds": 70,
                 "file": "https://audio.radiophonix.org/maha/MAHA - Secret Intro.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 496805503,
@@ -350,10 +327,9 @@
                 "status": 2,
                 "seconds": 287,
                 "file": "https://audio.radiophonix.org/maha/MAHA - L'auto-interview (BONUS).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 719918266,
@@ -364,10 +340,9 @@
                 "status": 2,
                 "seconds": 30,
                 "file": "https://audio.radiophonix.org/maha/MAHA - Journal du 25 aout 2007 (BONUS).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 2071315193,
@@ -378,10 +353,9 @@
                 "status": 2,
                 "seconds": 28,
                 "file": "https://audio.radiophonix.org/maha/MAHA - Publicité (BONUS).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 163692324,
@@ -392,10 +366,9 @@
                 "status": 2,
                 "seconds": 148,
                 "file": "https://audio.radiophonix.org/maha/MAHA - Le Conte de Noël à la Misterfox.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1445883235,
@@ -406,10 +379,9 @@
                 "status": 2,
                 "seconds": 57,
                 "file": "https://audio.radiophonix.org/maha/MAHA - Wouah Wouah (BONUS).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1689967534,
@@ -420,10 +392,9 @@
                 "status": 2,
                 "seconds": 497,
                 "file": "https://audio.radiophonix.org/maha/MAHA - Making-Of (BONUS).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 889620973,
@@ -434,10 +405,9 @@
                 "status": 2,
                 "seconds": 795,
                 "file": "https://audio.radiophonix.org/maha/24 MAHA - 21.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             }
         ]
     },
@@ -447,8 +417,8 @@
         "name": "Les disputes",
         "synopsis": "Sorte d'extension de l'épisode 04, avec des exemples concrets.",
         "type": "bonus",
-        "created_at": "2018-10-27T11:33:42+00:00",
-        "updated_at": "2018-10-27T11:33:42+00:00",
+        "created_at": "2018-10-28T18:09:16+00:00",
+        "updated_at": "2018-10-28T18:09:16+00:00",
         "tracks": [
             {
                 "id": 1133733416,
@@ -459,10 +429,9 @@
                 "status": 2,
                 "seconds": 12,
                 "file": "https://audio.radiophonix.org/maha/MAHA - La dispute (BONUS).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 285201559,
@@ -473,10 +442,9 @@
                 "status": 2,
                 "seconds": 7,
                 "file": "https://audio.radiophonix.org/maha/MAHA - Encore la dispute (BONUS).mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             }
         ]
     },
@@ -486,8 +454,8 @@
         "name": "Trailers",
         "synopsis": "Soulignage d'un fait divers, puis promo...",
         "type": "bonus",
-        "created_at": "2018-10-27T11:33:42+00:00",
-        "updated_at": "2018-10-27T11:33:42+00:00",
+        "created_at": "2018-10-28T18:09:16+00:00",
+        "updated_at": "2018-10-28T18:09:16+00:00",
         "tracks": [
             {
                 "id": 558596818,
@@ -498,10 +466,9 @@
                 "status": 2,
                 "seconds": 40,
                 "file": "https://audio.radiophonix.org/maha/MAHA - Trailer 01.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1339588369,
@@ -512,10 +479,9 @@
                 "status": 2,
                 "seconds": 38,
                 "file": "https://audio.radiophonix.org/maha/MAHA - Trailer 02.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 472132956,
@@ -526,10 +492,9 @@
                 "status": 2,
                 "seconds": 29,
                 "file": "https://audio.radiophonix.org/maha/MAHA - Trailer 03.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             }
         ]
     }

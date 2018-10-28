@@ -5,8 +5,8 @@
         "name": "Chapitre 1",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:14+00:00",
+        "updated_at": "2018-10-28T18:09:14+00:00",
         "tracks": [
             {
                 "id": 369374287,
@@ -17,10 +17,9 @@
                 "status": 3,
                 "seconds": 355,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 01.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 613474954,
@@ -31,10 +30,9 @@
                 "status": 3,
                 "seconds": 394,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 02.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1979535561,
@@ -45,10 +43,9 @@
                 "status": 3,
                 "seconds": 355,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 03.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 38341940,
@@ -59,10 +56,9 @@
                 "status": 3,
                 "seconds": 352,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 04.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1356200819,
@@ -73,10 +69,9 @@
                 "status": 3,
                 "seconds": 372,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 05.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1629596094,
@@ -87,10 +82,9 @@
                 "status": 3,
                 "seconds": 380,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 06.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 260966397,
@@ -101,10 +95,9 @@
                 "status": 3,
                 "seconds": 356,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 07.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1545270328,
@@ -115,10 +108,9 @@
                 "status": 3,
                 "seconds": 329,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 08.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1835442791,
@@ -129,10 +121,9 @@
                 "status": 3,
                 "seconds": 496,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 09.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             }
         ]
     },
@@ -142,8 +133,8 @@
         "name": "Chapitre 2",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:14+00:00",
+        "updated_at": "2018-10-28T18:09:14+00:00",
         "tracks": [
             {
                 "id": 1005785250,
@@ -154,10 +145,9 @@
                 "status": 3,
                 "seconds": 345,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1214238433,
@@ -168,10 +158,9 @@
                 "status": 3,
                 "seconds": 435,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 11.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 380353324,
@@ -182,10 +171,9 @@
                 "status": 3,
                 "seconds": 373,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 12.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 658008427,
@@ -196,10 +184,9 @@
                 "status": 3,
                 "seconds": 324,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 13.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1971636182,
@@ -210,10 +197,9 @@
                 "status": 3,
                 "seconds": 299,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 14.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 34649109,
@@ -224,10 +210,9 @@
                 "status": 3,
                 "seconds": 384,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 15.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1400726096,
@@ -238,10 +223,9 @@
                 "status": 3,
                 "seconds": 345,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 16.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1640616095,
@@ -252,10 +236,9 @@
                 "status": 3,
                 "seconds": 373,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 17.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 240488154,
@@ -266,10 +249,9 @@
                 "status": 3,
                 "seconds": 371,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 18.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             }
         ]
     },
@@ -279,8 +261,8 @@
         "name": "Chapitre 3",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:14+00:00",
+        "updated_at": "2018-10-28T18:09:14+00:00",
         "tracks": [
             {
                 "id": 1554152217,
@@ -291,10 +273,9 @@
                 "status": 3,
                 "seconds": 327,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 19.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1829644612,
@@ -305,10 +286,9 @@
                 "status": 3,
                 "seconds": 288,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 20.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 999982979,
@@ -319,10 +299,9 @@
                 "status": 3,
                 "seconds": 378,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 21.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1223128526,
@@ -333,10 +312,9 @@
                 "status": 3,
                 "seconds": 394,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 22.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 426975757,
@@ -347,10 +325,9 @@
                 "status": 3,
                 "seconds": 366,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 23.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 668962888,
@@ -361,10 +338,9 @@
                 "status": 3,
                 "seconds": 389,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 24.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1949060791,
@@ -375,10 +351,9 @@
                 "status": 3,
                 "seconds": 463,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 25.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 45628658,
@@ -389,10 +364,9 @@
                 "status": 3,
                 "seconds": 522,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 26.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1392830769,
@@ -403,10 +377,9 @@
                 "status": 3,
                 "seconds": 435,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 27.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             }
         ]
     },
@@ -416,8 +389,8 @@
         "name": "Chapitre 4",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:14+00:00",
+        "updated_at": "2018-10-28T18:09:14+00:00",
         "tracks": [
             {
                 "id": 1636910972,
@@ -428,10 +401,9 @@
                 "status": 3,
                 "seconds": 409,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 28.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 251475387,
@@ -442,10 +414,9 @@
                 "status": 3,
                 "seconds": 547,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 29.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1598677990,
@@ -456,10 +427,9 @@
                 "status": 3,
                 "seconds": 502,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 30.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1842761765,
@@ -470,10 +440,9 @@
                 "status": 3,
                 "seconds": 417,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 31.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 975310432,
@@ -484,10 +453,9 @@
                 "status": 3,
                 "seconds": 375,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 32.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             }
         ]
     },
@@ -497,8 +465,8 @@
         "name": "Chapitre 5",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:14+00:00",
+        "updated_at": "2018-10-28T18:09:14+00:00",
         "tracks": [
             {
                 "id": 1217330351,
@@ -509,10 +477,9 @@
                 "status": 3,
                 "seconds": 416,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 33.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 421178090,
@@ -523,10 +490,9 @@
                 "status": 3,
                 "seconds": 330,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 34.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 644286249,
@@ -537,10 +503,9 @@
                 "status": 3,
                 "seconds": 496,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 35.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1962145172,
@@ -551,10 +516,9 @@
                 "status": 3,
                 "seconds": 464,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 36.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 90153939,
@@ -565,10 +529,9 @@
                 "status": 3,
                 "seconds": 359,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 37.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1403785246,
@@ -579,10 +542,9 @@
                 "status": 3,
                 "seconds": 421,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 38.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1614335581,
@@ -593,10 +555,9 @@
                 "status": 3,
                 "seconds": 271,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 39.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 243580056,
@@ -607,10 +568,9 @@
                 "status": 3,
                 "seconds": 404,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 40.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1594976967,
@@ -621,10 +581,9 @@
                 "status": 3,
                 "seconds": 451,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 41.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             }
         ]
     },
@@ -634,8 +593,8 @@
         "name": "Chapitre 6",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:41+00:00",
-        "updated_at": "2018-10-27T11:33:41+00:00",
+        "created_at": "2018-10-28T18:09:14+00:00",
+        "updated_at": "2018-10-28T18:09:14+00:00",
         "tracks": [
             {
                 "id": 1820182274,
@@ -646,10 +605,9 @@
                 "status": 3,
                 "seconds": 396,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 42.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 986297665,
@@ -660,10 +618,9 @@
                 "status": 3,
                 "seconds": 434,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 43.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 1263952780,
@@ -674,10 +631,9 @@
                 "status": 3,
                 "seconds": 414,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 44.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 430100939,
@@ -688,10 +644,9 @@
                 "status": 3,
                 "seconds": 424,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 45.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             },
             {
                 "id": 638488118,
@@ -702,10 +657,9 @@
                 "status": 3,
                 "seconds": 521,
                 "file": "https://audio.radiophonix.org/banal-fantasy/Banal Fantasy - Episode 46.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:41+00:00",
-                "updated_at": "2018-10-27T11:33:41+00:00"
+                "created_at": "2018-10-28T18:09:14+00:00",
+                "updated_at": "2018-10-28T18:09:14+00:00"
             }
         ]
     }

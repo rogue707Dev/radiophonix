@@ -20,8 +20,8 @@
         "collections": 2,
         "tracks": 13
     },
-    "created_at": "2018-10-27T11:33:42+00:00",
-    "updated_at": "2018-10-27T11:33:42+00:00",
+    "created_at": "2018-10-28T18:09:15+00:00",
+    "updated_at": "2018-10-28T18:09:15+00:00",
     "images": {
         "cover": {
             "main": "/static/mocks/media/storage/699624799/conversions/kiponie-stories-main.jpg",
@@ -31,5 +31,29 @@
                 "type": null
             }
         }
-    }
+    },
+    "authors": [
+        {
+            "id": 1797332506,
+            "slug": "inky",
+            "name": "Inky",
+            "bio": "En 2006, lors d’une recherche d’images sur le net portant sur des batailles dans l’espace, il y découvre un livre audio s’intitulant La Bataille de l’Espace. De liens en liens, il découvre toutes les grandes aventures et apprend un nouveau terme : Saga mp3. En juin de la même année, il crée une aventure audio semi-humoristique au genre fantastique : Kiponie Stories. En janvier 2007, il remarque sur les forums de sagas mp3, la création très récente d’un forum réunissant les adeptes des créations audio : Netophonix. Il ne tarde pas à s’y inscrire et fait découvrir sa saga, qui est tout de suite appréciée et encouragée, ce qui met l’auteur dans de bonnes conditions pour la poursuivre. Il participe volontiers à d’autres créations mp3 et en partie à un grand projet sagasphérique, Le Choc des Zéros, pour lequel il prête certains de ses personnages.\nAprès la sortie du dernier épisode de la pré-saison de Kiponie Stories, fin décembre 2008, Inky se lance dans une science-fiction : Onidacius. Elle fut très vite abandonnée, l'auteur préférant consacrer son temps libre à sa première création. Le 14 mars 2009, il est invité sur la web-radio SynopsLive pour la diffusion du premier épisode de la deuxième saison (appelée aussi chapitre 1) de Kiponie Stories.",
+            "links": {
+                "netowiki": null,
+                "site": null,
+                "topic": null,
+                "facebook": null,
+                "twitter": null
+            },
+            "stats": {
+                "sagas": 1
+            },
+            "created_at": "2018-10-28T18:09:11+00:00",
+            "updated_at": "2018-10-28T18:09:11+00:00",
+            "picture": {
+                "main": "/static/mocks/media/storage/1753359144/conversions/inky-main.jpg",
+                "thumb": "/static/mocks/media/storage/1753359144/conversions/inky-thumb.jpg"
+            }
+        }
+    ]
 }
