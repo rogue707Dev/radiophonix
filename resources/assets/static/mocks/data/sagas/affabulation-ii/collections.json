@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1523884511,
+        "number": "1",
+        "name": "Épisodes",
+        "synopsis": "",
+        "type": "season",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
+        "tracks": [
+            {
+                "id": 57862249,
+                "number": "1",
+                "title": "Un nouveau héros",
+                "synopsis": "Où on apprend que Heros sera le héros de l'histoire...",
+                "published_at": "2014-10-24T00:00:00+00:00",
+                "status": 2,
+                "seconds": 798,
+                "file": "https://audio.radiophonix.org/affabulation2/Episode 1-Un nouveau heros.mp3",
+                "chapters": [],
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
+            },
+            {
+                "id": 1373587156,
+                "number": "2",
+                "title": "Chantons la guitare à la main !",
+                "synopsis": "Où on rencontre des gitans mais aussi des gens frappés",
+                "published_at": "2015-02-11T00:00:00+00:00",
+                "status": 2,
+                "seconds": 984,
+                "file": "https://audio.radiophonix.org/affabulation2/Episode 2-Chantons_la_guitare_a_la_main.mp3",
+                "chapters": [],
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
+            },
+            {
+                "id": 2116760339,
+                "number": "3",
+                "title": "Brickwall, la ville des fous",
+                "synopsis": "Où on tente de monter sa notoriété pour se faire respecter !",
+                "published_at": "2017-08-09T00:00:00+00:00",
+                "status": 2,
+                "seconds": 686,
+                "file": "https://audio.radiophonix.org/affabulation2/Episode 3-Brickwall_la_ville_des_fous.mp3",
+                "chapters": [],
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
+            }
+        ]
+    }
+]

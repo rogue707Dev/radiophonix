@@ -13,15 +13,15 @@
     "stats": {
         "sagas": 1
     },
-    "created_at": "2018-10-28T18:09:13+00:00",
-    "updated_at": "2018-10-28T18:09:13+00:00",
+    "created_at": "2018-10-28T19:10:50+00:00",
+    "updated_at": "2018-10-28T19:10:50+00:00",
     "picture": {
         "main": "/static/mocks/media/storage/674797561/conversions/NSM_Corp-main.jpg",
         "thumb": "/static/mocks/media/storage/674797561/conversions/NSM_Corp-thumb.jpg"
     },
     "sagas": [
         {
-            "id": 1176091268,
+            "id": 392587459,
             "slug": "les-chroniques-de-ravnica",
             "name": "Les Chroniques de Ravnica",
             "synopsis": "Au cœur de Dominia siège le fleuron de la civilisation. Dans une cité dont l'origine transcende les siècles, humains, elfes, gobelins, vampires... Sont habités par le même désir d'harmonie. On se tue, on se bat... Mais toujours avec une franche et sincère amitié... Bienvenue dans Ravnica, la cité des Guildes...\n\nDans cette cité ne vivent plus que neuf guildes dans un désordre des plus complets : les Orzhov, les Izzet, les Gruul, les Azorius, les Golgari, les Rakdos, les Simic, les Boros et surtout, les Dimirs. La Dixième guilde, les Selesnya, a été détruite. Les combats entre légionnaires Boros et membres Dimirs font rage dans la ville alors qu'une menace plane sur la ville : une nouvelle guilde, dite de la Lune, s'est créée... Face à cette menance potentielle, Szadek, grand maître officieux de la ville, prit des mesures radicales : il décida d'envoyer un parfait inconnu pour la démanteler. Or, un jeune rôdeur inexpérimenté venait d'arriver dans le quartier Dimir, à la recherche d'une quête...",
@@ -42,12 +42,12 @@
                 "collections": 1,
                 "tracks": 15
             },
-            "created_at": "2018-10-28T18:09:15+00:00",
-            "updated_at": "2018-10-28T18:09:15+00:00",
+            "created_at": "2018-10-28T19:10:53+00:00",
+            "updated_at": "2018-10-28T19:10:53+00:00",
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/storage/527966861/conversions/Ravnica_ban_2011-main.jpg",
-                    "thumb": "/static/mocks/media/storage/527966861/conversions/Ravnica_ban_2011-thumb.jpg",
+                    "main": "/static/mocks/media/storage/647938852/conversions/Ravnica_ban_2011-main.jpg",
+                    "thumb": "/static/mocks/media/storage/647938852/conversions/Ravnica_ban_2011-thumb.jpg",
                     "meta": {
                         "color": null,
                         "type": null

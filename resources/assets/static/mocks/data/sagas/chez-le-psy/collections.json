@@ -1,15 +1,15 @@
 [
     {
-        "id": 11231624,
+        "id": 1362616311,
         "number": "1",
         "name": "Saison 1",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "tracks": [
             {
-                "id": 1956346997,
+                "id": 1623225658,
                 "number": "1",
                 "title": "La rencontre avec A-J Lakaille",
                 "synopsis": "Découverte des personnages principaux, première séance de Lakaille.",
@@ -18,11 +18,11 @@
                 "seconds": 310,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 1.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 99035824,
+                "id": 824976249,
                 "number": "2",
                 "title": "Premières confessions",
                 "synopsis": "Deuxième séance de Lakaille, on en apprend plus sur lui.",
@@ -31,11 +31,11 @@
                 "seconds": 307,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 2.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1383307519,
+                "id": 1605931428,
                 "number": "3",
                 "title": "Premiers tests pour Lakaille !",
                 "synopsis": "Ticot fait faire des tests à Lakaille.",
@@ -44,11 +44,11 @@
                 "seconds": 265,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 3.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1623225658,
+                "id": 1812287459,
                 "number": "4",
                 "title": "Lakaille à l'hôpital",
                 "synopsis": "Lakaille devient fan de Britney Spears et est envoyé d'urgence à l'hôpital.",
@@ -57,11 +57,11 @@
                 "seconds": 312,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 4.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 824976249,
+                "id": 982596654,
                 "number": "5",
                 "title": "La Ticotérapie",
                 "synopsis": "Ticot fait sa propre thérapie.",
@@ -70,11 +70,11 @@
                 "seconds": 280,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 5.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1605931428,
+                "id": 1274931821,
                 "number": "6",
                 "title": "Lakaille's Noble End",
                 "synopsis": "Lakaille arrive avec un bocal sur la tête.",
@@ -83,11 +83,11 @@
                 "seconds": 288,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 6.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1812287459,
+                "id": 407525544,
                 "number": "7",
                 "title": "Le Miroir (Live)",
                 "synopsis": "Lakaille affronte son reflet. Cette séance est une imitation d'une représentation théâtrale.",
@@ -96,11 +96,11 @@
                 "seconds": 435,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 7.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 982596654,
+                "id": 651572503,
                 "number": "8",
                 "title": "Rencontre avec Gérard Schkoumoune",
                 "synopsis": "Wallace Ticot reçoit un nouveau patient Gérard Schkoumoune.",
@@ -109,11 +109,11 @@
                 "seconds": 235,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 8.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1274931821,
+                "id": 1998775122,
                 "number": "9",
                 "title": "Pierre Tombale et Psy Kopat",
                 "synopsis": "C'est l'apparition d'un certain Pierre Tombale dans le cabinet.",
@@ -122,11 +122,11 @@
                 "seconds": 436,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 9.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 407525544,
+                "id": 93278609,
                 "number": "10",
                 "title": "Anniversaire et recette",
                 "synopsis": "C'est le lendemain l'anniversaire de Lakaille, il raconte à Ticot ce qu'il s'est passé. ",
@@ -135,22 +135,22 @@
                 "seconds": 337,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison1/Saison 1 - Séance 10.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             }
         ]
     },
     {
-        "id": 1362616311,
+        "id": 2139327538,
         "number": "2",
         "name": "Saison 2",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "tracks": [
             {
-                "id": 651572503,
+                "id": 1377505244,
                 "number": "11",
                 "title": "Condamné",
                 "synopsis": "Wallace est envoyé en prison. Ses patients, assistés de Maryvonne, tentent de le libérer.",
@@ -159,11 +159,11 @@
                 "seconds": 528,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s11.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1998775122,
+                "id": 1667759131,
                 "number": "12a",
                 "title": "Fortune et avenir",
                 "synopsis": "Wallace est envoyé dans le futur par son collègue, le docteur Dokteur. Rencontre avec monsieur Fortune.",
@@ -172,11 +172,11 @@
                 "seconds": 465,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s12p1.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 93278609,
+                "id": 838052422,
                 "number": "12b",
                 "title": "Fortune et avenir",
                 "synopsis": "Suite de la partie un, dans le futur.",
@@ -185,11 +185,11 @@
                 "seconds": 566,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s12p2.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1377505244,
+                "id": 1581258885,
                 "number": "13",
                 "title": "La poisse dans la peau",
                 "synopsis": "Cette séance explore le passé de Gérard Schkoumoune.",
@@ -198,11 +198,11 @@
                 "seconds": 629,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s13.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1667759131,
+                "id": 1823274688,
                 "number": "14",
                 "title": "Témoignages d'Anciens",
                 "synopsis": "Plusieurs patients secondaires défilent. Certaines répliques sont inspirées du livre Crimes Exemplaires de Max Aub.",
@@ -211,11 +211,11 @@
                 "seconds": 863,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s14.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 838052422,
+                "id": 1027121935,
                 "number": "15",
                 "title": "Retour aux sources",
                 "synopsis": "Cette séance voit un retour des monologues de Lakaille.",
@@ -224,11 +224,11 @@
                 "seconds": 745,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s15.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1581258885,
+                "id": 1267011914,
                 "number": "16",
                 "title": "Dieu, c'est moi",
                 "synopsis": "Ticot doit, dans la même journée, écouter les élucubrations d'un curé cinglé, les nouvelles mésaventures de Gérard Schkoumoune et les divagations de Lakaille. C'est Mr G, guitariste du groupe de musique MagoYond, qui assure le solo final.",
@@ -237,22 +237,22 @@
                 "seconds": 497,
                 "file": "https://audio.radiophonix.org/chez-le-psy/clp-saison2/s2s16.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             }
         ]
     },
     {
-        "id": 2139327538,
+        "id": 202406513,
         "number": "3",
         "name": "Saison 3",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "tracks": [
             {
-                "id": 1823274688,
+                "id": 403820425,
                 "number": "0",
                 "title": "Prologue",
                 "synopsis": "Après deux ans d'absence, Wallace est retrouvé et interrogé par l'Agent Sésame. MagoYondVille a beaucoup changé.",
@@ -261,11 +261,11 @@
                 "seconds": 254,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Saison3/Saison 3 - Prologue.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1027121935,
+                "id": 696106484,
                 "number": "301",
                 "title": "Nouveau cabinet",
                 "synopsis": "Wallace arrive en prison et commence à prendre ses marques. Mais son premier jour n’est pas de tout repos.",
@@ -274,11 +274,11 @@
                 "seconds": 476,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Saison3/Saison 3 - Séance 301.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1267011914,
+                "id": 2009754163,
                 "number": "302",
                 "title": "Le Canapé",
                 "synopsis": "",
@@ -287,11 +287,11 @@
                 "seconds": 840,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Saison3/Saison 3 - Séance 302.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 403820425,
+                "id": 72800382,
                 "number": "303",
                 "title": "Hector",
                 "synopsis": "",
@@ -300,11 +300,11 @@
                 "seconds": 600,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Saison3/Saison 3 - Séance 303.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 696106484,
+                "id": 1386395325,
                 "number": "304",
                 "title": "Arcaméo",
                 "synopsis": "",
@@ -313,22 +313,22 @@
                 "seconds": 1380,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Saison3/Saison 3 - Séance 304.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             }
         ]
     },
     {
-        "id": 202406513,
+        "id": 1568417980,
         "number": "4",
         "name": "Séances spéciales",
         "synopsis": "Les séances spéciales regroupent des épisodes ne suivant pas le déroulement linéaire des saisons, comme des cross-over, et des séances de noël.",
         "type": "season",
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "tracks": [
             {
-                "id": 2009754163,
+                "id": 1661953272,
                 "number": "1",
                 "title": "Séance Spéciale 1",
                 "synopsis": "Une nouvelle patiente, mademoiselle Tetaklak est une jeune fille précoce et autoritaire et cause du soucis à sa mère. Cette séance a été écrite avec Gaby.",
@@ -337,11 +337,11 @@
                 "seconds": 316,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes1.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 72800382,
+                "id": 832295207,
                 "number": "2",
                 "title": "Séance Spéciale 2",
                 "synopsis": "Lakaille apporte à Wallace son pingouin, nommé KMP. Le psychologue tente de l'hypnotiser.",
@@ -350,11 +350,11 @@
                 "seconds": 380,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes2.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1386395325,
+                "id": 1592233826,
                 "number": "3",
                 "title": "Séance Spéciale 3",
                 "synopsis": "Séance spéciale de Noël, pour le calendrier de l'avent 2007. Lakaille a décidé d'offrir deux cadeaux à son psy.",
@@ -363,11 +363,11 @@
                 "seconds": 323,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes3.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1661953272,
+                "id": 1869905313,
                 "number": "4",
                 "title": "Séance Spéciale 4",
                 "synopsis": "Ticot reçoit Lucas Salpétrière, qui arrive dans la voiture de l'agent Zéro. Il va vite se prêter au jeu. C'est un cross-over avec les sagas Agent 0 et Trimoria.",
@@ -376,11 +376,11 @@
                 "seconds": 679,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes4.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 832295207,
+                "id": 1036004332,
                 "number": "5",
                 "title": "Séance Spéciale 5",
                 "synopsis": "Séance spéciale de Noël, pour le calendrier de l'avent 2008.",
@@ -389,11 +389,11 @@
                 "seconds": 326,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes5.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1592233826,
+                "id": 1244436523,
                 "number": "6",
                 "title": "Séance Spéciale 6",
                 "synopsis": "Aslag est un nouveau patient qui souffre de son double schizophrénique, Duke Niké. Il y a aussi lieu d'une brève figuration de Lucas Salpétrière.",
@@ -402,11 +402,11 @@
                 "seconds": 742,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes6.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1869905313,
+                "id": 414807702,
                 "number": "7a",
                 "title": "Séance Spéciale 7 Cross Over Naheulbeuk",
                 "synopsis": "Ticot est envoyé en Terre de Fangh par le Docteur Dokteur. Il y rencontre le Ranger de Naheulbeuk, qui lui parle de ses péripéties avec ses compagnons. Cette séance est aussi le Résumé Audio de la saison 4 du Donjon de Naheulbeuk.",
@@ -415,11 +415,11 @@
                 "seconds": 211,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes7p1.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1036004332,
+                "id": 688202965,
                 "number": "7b",
                 "title": "Bonus Naheulbeuk",
                 "synopsis": "Ticot est envoyé en Terre de Fangh par le Docteur Dokteur. Il y rencontre le Ranger de Naheulbeuk, qui lui parle de ses péripéties avec ses compagnons. Cette séance est aussi le Résumé Audio de la saison 4 du Donjon de Naheulbeuk.",
@@ -428,22 +428,22 @@
                 "seconds": 616,
                 "file": "https://audio.radiophonix.org/chez-le-psy/speciales/spes7p2.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             }
         ]
     },
     {
-        "id": 1568417980,
+        "id": 1808303867,
         "number": "5",
         "name": "Sur le Divan",
         "synopsis": "Les Sur le Divan, Sur le Grand Divan ou séances live sont des sketch, souvent improvisés, joués en direct par le Mago pour la webradio SynopsLive. Ces séances mettent généralement en scène des personnages des sagas des invités, ou les font directement participer.",
         "type": "season",
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "tracks": [
             {
-                "id": 1244436523,
+                "id": 2006028560,
                 "number": "1",
                 "title": "Sur le Divan - Live du 12/04/08",
                 "synopsis": "Invité : Ecrivator - Oscar Go, un Inspecteur, vient voir Ticot à propos d'une affaire de saga MP3...",
@@ -452,11 +452,11 @@
                 "seconds": 301,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 12_04_08.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 414807702,
+                "id": 83775327,
                 "number": "2",
                 "title": "Sur le Divan - Live du 19/04/08",
                 "synopsis": "Invité : JBX - Lakaille est devenu prêtre, comme Trichelieu, de la saga Reflets d'Acide.",
@@ -465,11 +465,11 @@
                 "seconds": 246,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 19_04_08.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 688202965,
+                "id": 1430928794,
                 "number": "3",
                 "title": "Sur le Divan - Live du 26/04/08",
                 "synopsis": "Invité : Aspic - Ticot, au lieu de faire sa rubrique pour Synops Live, est en vacances au ski !",
@@ -478,11 +478,11 @@
                 "seconds": 188,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 26_04_08.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 2006028560,
+                "id": 1675029465,
                 "number": "4",
                 "title": "Sur le Divan - Live du 28/06/08",
                 "synopsis": "Invité : Blast - Première rencontre avec Blast, l'administrateur de Netophonix.",
@@ -491,11 +491,11 @@
                 "seconds": 381,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 28_06_08.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 83775327,
+                "id": 807622660,
                 "number": "5",
                 "title": "Sur le Divan - Live du 03/01/09",
                 "synopsis": "Invité : Knarf - Séance dans le futur où Wallace questionne un Krigonite de la saga les Aventuriers du NHL2987 Survivaure.",
@@ -504,11 +504,11 @@
                 "seconds": 658,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/Sur le Divan _ Séance live du 03_01_09.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1430928794,
+                "id": 1586443843,
                 "number": "6",
                 "title": "Sur le Divan - Live du 14/03/09",
                 "synopsis": "Invités : Kak Miortvi Pengvin, Signez, Inky, Icaryon, Aspic, Pfsm999, Judas, Claudia Pepita, BTO, Aslag Jay et Le Chat de l'équipe de Synops Live - Wallace reçoit de très nombreux patients pour une thérapie de groupe. Cette séance est disponible en vidéo[6].",
@@ -517,11 +517,11 @@
                 "seconds": 751,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/04 Sur le Divan _ Séance live du 14_03_09.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1675029465,
+                "id": 1864098958,
                 "number": "7",
                 "title": "Sur le Divan - Live du 28/03/09",
                 "synopsis": "Invité : Kak Miortvi Pengvin - Pour l'anniversaire du site de Kak, Lakaille raconte n'importe-quoi aux JO monologolimpiques.",
@@ -530,22 +530,22 @@
                 "seconds": 566,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surledivan/05 Sur le Divan _ Séance live du 28_03_09.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             }
         ]
     },
     {
-        "id": 1808303867,
+        "id": 945124134,
         "number": "6",
         "name": "Sur le (Grand) Divan",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "tracks": [
             {
-                "id": 807622660,
+                "id": 1013469901,
                 "number": "1",
                 "title": "Sur le (Grand) Divan - Live du 14/11/09",
                 "synopsis": "Invité : Aslag - Marcelin Choucroutin, restaurateur raté, consulte chez Ticot.",
@@ -554,11 +554,11 @@
                 "seconds": 524,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 14_11_09.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1586443843,
+                "id": 1257508616,
                 "number": "2",
                 "title": "Sur le (Grand) Divan - Live du 12/12/09",
                 "synopsis": "Invité : Aspic - Improvisation avec l'invité.",
@@ -567,11 +567,11 @@
                 "seconds": 525,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 12_12_09.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1864098958,
+                "id": 457244023,
                 "number": "3",
                 "title": "Sur le (Grand) Divan - Live du 02/01/10",
                 "synopsis": "Invité : Paxel - Lakaille raconte son nouvel an.",
@@ -580,11 +580,11 @@
                 "seconds": 485,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 02_01_10.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1013469901,
+                "id": 699182002,
                 "number": "4",
                 "title": "Sur le (Grand) Divan - Live du 20/03/10",
                 "synopsis": "Invité : Blast - Ticot reçoit cet administrateur du Netophonix.",
@@ -593,11 +593,11 @@
                 "seconds": 549,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 20_03_10.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1257508616,
+                "id": 1983453681,
                 "number": "5",
                 "title": "Sur le (Grand) Divan - Live du 03/04/10",
                 "synopsis": "Invité : Istria - Les daltons viennent consulter, car ils sont tous enfermés dans le corps d'une jeune femme.",
@@ -606,11 +606,11 @@
                 "seconds": 343,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 03_04_10.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 457244023,
+                "id": 75888188,
                 "number": "6",
                 "title": "Sur le (Grand) Divan - Live du 01/05/10",
                 "synopsis": "Invité : Ark - Antoine-Joseph vient consulter pour un défaut de prononciation, en ark.",
@@ -619,11 +619,11 @@
                 "seconds": 231,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 01_05_10.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 699182002,
+                "id": 1427219579,
                 "number": "7",
                 "title": "Sur le (Grand) Divan - Live du 15/05/10",
                 "synopsis": "Invité : Shadwk - Ticot, au festival de Cannes, rencontre de nombreuses personnalités, dont l'un de ses patients.",
@@ -632,11 +632,11 @@
                 "seconds": 365,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 15_05_10.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1983453681,
+                "id": 1652429478,
                 "number": "8",
                 "title": "Sur le (Grand) Divan - Live du 12/06/10",
                 "synopsis": "- Un inspecteur vient vérifier le diplôme de Ticot.",
@@ -645,11 +645,11 @@
                 "seconds": 416,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 12_06_10.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 75888188,
+                "id": 818594021,
                 "number": "9",
                 "title": "Sur le (Grand) Divan - Live du 24/07/10",
                 "synopsis": "Invité : Piwil - Maryvonne arrive en retard, Ticot a perdu ses clefs et Lakaille chante une chanson qu'il a écrit à son amoureuse.",
@@ -658,22 +658,22 @@
                 "seconds": 356,
                 "file": "https://audio.radiophonix.org/chez-le-psy/surlegranddivan/Sur le (Grand) Divan _ Séance live du 24_07_10.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             }
         ]
     },
     {
-        "id": 945124134,
+        "id": 1184964965,
         "number": "7",
         "name": "Sur le (Coop') Divan",
         "synopsis": "Pour renouveler le concept, Le Mago proposa de faire des séances live en utilisant en improvisation des mots-clés que des auditeurs lui auront envoyé dans la journée précédent l'émission.",
         "type": "season",
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "tracks": [
             {
-                "id": 1427219579,
+                "id": 1096203552,
                 "number": "1",
                 "title": "Présentation du concept - Live du 27/11/10",
                 "synopsis": "Le nouveau concept est présenté.",
@@ -682,11 +682,11 @@
                 "seconds": 516,
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan1.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1652429478,
+                "id": 1872980847,
                 "number": "1",
                 "title": "Pidza Pinno le schizophrène (Live avec une pizza) - Live du 8/01/11",
                 "synopsis": "Un homme avec deux personnalités débarque, Wallace lui donne un petit exercice.",
@@ -695,11 +695,11 @@
                 "seconds": 383,
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan2.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 818594021,
+                "id": 1007671722,
                 "number": "1",
                 "title": "Henri le mangeur de champignons (Live avec un champignon) - Live du 15/01/11",
                 "synopsis": "Un homme défoncé vient voir Wallace et fait un bad trip sur le divan.",
@@ -708,11 +708,11 @@
                 "seconds": 574,
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan3.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1096203552,
+                "id": 1251719145,
                 "number": "1",
                 "title": "Rowlan (Live avec Rowlan) - Live du 29/01/11",
                 "synopsis": "Un agent secret anglais-breton cannibale en pleine crise d'identité vient voir Wallace.",
@@ -721,22 +721,22 @@
                 "seconds": 601,
                 "file": "https://audio.radiophonix.org/chez-le-psy/coopdivan/divan4.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             }
         ]
     },
     {
-        "id": 1184964965,
+        "id": 386768800,
         "number": "8",
         "name": "Bonus",
         "synopsis": "",
         "type": "bonus",
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "tracks": [
             {
-                "id": 1872980847,
+                "id": 468214868,
                 "number": "1",
                 "title": "Ratés – Saison 1",
                 "synopsis": "",
@@ -745,11 +745,11 @@
                 "seconds": 369,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus1.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1007671722,
+                "id": 678744723,
                 "number": "2",
                 "title": "Ratés – Séance 12",
                 "synopsis": "",
@@ -758,11 +758,11 @@
                 "seconds": 336,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus2.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1251719145,
+                "id": 1992327390,
                 "number": "3",
                 "title": "Pourquoi le générique ?",
                 "synopsis": "",
@@ -771,11 +771,11 @@
                 "seconds": 324,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus3.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 468214868,
+                "id": 120421661,
                 "number": "4",
                 "title": "Générique Saison 1",
                 "synopsis": "",
@@ -784,11 +784,11 @@
                 "seconds": 22,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus4.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 678744723,
+                "id": 1438198616,
                 "number": "5",
                 "title": "Générique Saison 2",
                 "synopsis": "",
@@ -797,11 +797,11 @@
                 "seconds": 39,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus5.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1992327390,
+                "id": 1644534151,
                 "number": "11",
                 "title": "Générique Saison 3",
                 "synopsis": "",
@@ -810,11 +810,11 @@
                 "seconds": 23,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus11.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 120421661,
+                "id": 814905282,
                 "number": "6",
                 "title": "Générique S.Spéciales",
                 "synopsis": "",
@@ -823,11 +823,11 @@
                 "seconds": 26,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus6.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1438198616,
+                "id": 1107174401,
                 "number": "7",
                 "title": "Générique Live (Aspic)",
                 "synopsis": "",
@@ -836,11 +836,11 @@
                 "seconds": 24,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus7.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1644534151,
+                "id": 1850380876,
                 "number": "8",
                 "title": "Générique Électro",
                 "synopsis": "",
@@ -849,11 +849,11 @@
                 "seconds": 120,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus8.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 814905282,
+                "id": 1020739723,
                 "number": "9",
                 "title": "Délire Mégalo de Ticot",
                 "synopsis": "",
@@ -862,11 +862,11 @@
                 "seconds": 49,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus9.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1107174401,
+                "id": 1294155510,
                 "number": "10",
                 "title": "Super Noël",
                 "synopsis": "",
@@ -875,22 +875,22 @@
                 "seconds": 438,
                 "file": "https://audio.radiophonix.org/chez-le-psy/Bonus/bonus10.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             }
         ]
     },
     {
-        "id": 386768800,
+        "id": 630869487,
         "number": "9",
         "name": "Camisole, les musiques de Chez le Psy",
         "synopsis": "",
         "type": "music",
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "tracks": [
             {
-                "id": 1850380876,
+                "id": 462416693,
                 "number": "1",
                 "title": "TicotSong (Cover By Piwil)",
                 "synopsis": "",
@@ -899,11 +899,11 @@
                 "seconds": 207,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/TicotSong (Cover By Piwil).mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1020739723,
+                "id": 672946544,
                 "number": "2",
                 "title": "Petit Papa Noël (Calendrier de l'Avent 2007)",
                 "synopsis": "",
@@ -912,11 +912,11 @@
                 "seconds": 174,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Petit Papa Noël (Calendrier de l'Avent 2007).mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1294155510,
+                "id": 2036873151,
                 "number": "3",
                 "title": "J'suis fou ! (Liquido Cover)",
                 "synopsis": "",
@@ -925,11 +925,11 @@
                 "seconds": 260,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/J'suis fou ! (Liquido Cover).mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 462416693,
+                "id": 133490170,
                 "number": "4",
                 "title": "The TicotSong (Rock Edit - Queen Cover)",
                 "synopsis": "",
@@ -938,11 +938,11 @@
                 "seconds": 211,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/The TicotSong (Rock Edit - Queen Cover).mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 672946544,
+                "id": 1413567033,
                 "number": "5",
                 "title": "Vive le vent (Calendrier de l'avent 2008)",
                 "synopsis": "",
@@ -951,11 +951,11 @@
                 "seconds": 183,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Vive le vent (Calendrier de l'avent 2008).mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 2036873151,
+                "id": 1655504996,
                 "number": "6",
                 "title": "Le vieux (Mr Bouchaud - Wallace Ticot)",
                 "synopsis": "",
@@ -964,11 +964,11 @@
                 "seconds": 96,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Le vieux (Mr Bouchaud - Wallace Ticot).mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 133490170,
+                "id": 859438755,
                 "number": "7",
                 "title": "Le Blues de la Secrétaire (Maryvonne)",
                 "synopsis": "",
@@ -977,11 +977,11 @@
                 "seconds": 144,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/Le Blues de la Secrétaire (Maryvonne).mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             },
             {
-                "id": 1413567033,
+                "id": 1099279598,
                 "number": "8",
                 "title": "The TicotSong (Synthé Edit - Queen Cover)",
                 "synopsis": "",
@@ -990,8 +990,8 @@
                 "seconds": 235,
                 "file": "https://audio.radiophonix.org/chez-le-psy/camisole/The TicotSong (Synthé Edit - Queen Cover).mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:15+00:00",
-                "updated_at": "2018-10-28T18:09:15+00:00"
+                "created_at": "2018-10-28T19:10:52+00:00",
+                "updated_at": "2018-10-28T19:10:52+00:00"
             }
         ]
     }

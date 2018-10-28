@@ -1,15 +1,15 @@
 [
     {
-        "id": 956103175,
+        "id": 399836801,
         "number": "1",
         "name": "La Matruc",
         "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
         "type": "season",
-        "created_at": "2018-10-28T18:09:16+00:00",
-        "updated_at": "2018-10-28T18:09:16+00:00",
+        "created_at": "2018-10-28T19:10:54+00:00",
+        "updated_at": "2018-10-28T19:10:54+00:00",
         "tracks": [
             {
-                "id": 716217243,
+                "id": 1120015382,
                 "number": "1",
                 "title": "Épisode 1",
                 "synopsis": "",
@@ -18,11 +18,11 @@
                 "seconds": 167,
                 "file": "https://audio.radiophonix.org/matrick/matrick01.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 2065516998,
+                "id": 321831509,
                 "number": "2",
                 "title": "Épisode 2",
                 "synopsis": "",
@@ -31,11 +31,11 @@
                 "seconds": 173,
                 "file": "https://audio.radiophonix.org/matrick/matrick02.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 141108741,
+                "id": 565883024,
                 "number": "3",
                 "title": "Épisode 3",
                 "synopsis": "",
@@ -44,11 +44,11 @@
                 "seconds": 184,
                 "file": "https://audio.radiophonix.org/matrick/matrick03.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1458934848,
+                "id": 1309109983,
                 "number": "4",
                 "title": "Épisode 4",
                 "synopsis": "",
@@ -57,11 +57,11 @@
                 "seconds": 192,
                 "file": "https://audio.radiophonix.org/matrick/matrick04.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1732395663,
+                "id": 479451930,
                 "number": "5",
                 "title": "Épisode 5",
                 "synopsis": "",
@@ -70,11 +70,11 @@
                 "seconds": 189,
                 "file": "https://audio.radiophonix.org/matrick/matrick05.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 900608202,
+                "id": 771721561,
                 "number": "6",
                 "title": "Épisode 6",
                 "synopsis": "",
@@ -83,11 +83,11 @@
                 "seconds": 347,
                 "file": "https://audio.radiophonix.org/matrick/matrick06.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1111158025,
+                "id": 2051827588,
                 "number": "7",
                 "title": "Épisode 7",
                 "synopsis": "",
@@ -96,11 +96,11 @@
                 "seconds": 380,
                 "file": "https://audio.radiophonix.org/matrick/matrick07.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 277306228,
+                "id": 148428227,
                 "number": "8",
                 "title": "Épisode 8",
                 "synopsis": "",
@@ -109,11 +109,11 @@
                 "seconds": 198,
                 "file": "https://audio.radiophonix.org/matrick/matrick08.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 554895795,
+                "id": 1495564814,
                 "number": "9",
                 "title": "Épisode 9",
                 "synopsis": "",
@@ -122,11 +122,11 @@
                 "seconds": 362,
                 "file": "https://audio.radiophonix.org/matrick/matrick09.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1317005310,
+                "id": 1739681869,
                 "number": "10",
                 "title": "Épisode 10",
                 "synopsis": "",
@@ -135,11 +135,11 @@
                 "seconds": 211,
                 "file": "https://audio.radiophonix.org/matrick/matrick10.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 483152957,
+                "id": 874327688,
                 "number": "11",
                 "title": "Épisode 11",
                 "synopsis": "",
@@ -148,11 +148,11 @@
                 "seconds": 381,
                 "file": "https://audio.radiophonix.org/matrick/matrick11.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 760742520,
+                "id": 1164549367,
                 "number": "12",
                 "title": "Épisode 12",
                 "synopsis": "",
@@ -161,22 +161,22 @@
                 "seconds": 589,
                 "file": "https://audio.radiophonix.org/matrick/matrick12.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             }
         ]
     },
     {
-        "id": 1229498434,
+        "id": 606205132,
         "number": "2",
         "name": "La Matruc contre-attaque",
         "synopsis": "Suite à la conclusion de la première saison, Eo, Cris d'ET, Morve d'Anus, et Tang sont en train de réparer leur vaisseau Endaleship, qui flotte au milieu de l'océan. Mais ils sont dérangés par l'arrivée d'un autre engin, dont les occupants s'avèrent être des alliés. L'histoire que l'on pensait finie, ne fait alors que commencer...",
         "type": "season",
-        "created_at": "2018-10-28T18:09:16+00:00",
-        "updated_at": "2018-10-28T18:09:16+00:00",
+        "created_at": "2018-10-28T19:10:54+00:00",
+        "updated_at": "2018-10-28T19:10:54+00:00",
         "tracks": [
             {
-                "id": 2074407079,
+                "id": 334907698,
                 "number": "13",
                 "title": "Épisode 13",
                 "synopsis": "",
@@ -185,11 +185,11 @@
                 "seconds": 212,
                 "file": "https://audio.radiophonix.org/matrick/matrick13.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 137408226,
+                "id": 541206385,
                 "number": "14",
                 "title": "Épisode 14",
                 "synopsis": "",
@@ -198,11 +198,11 @@
                 "seconds": 219,
                 "file": "https://audio.radiophonix.org/matrick/matrick14.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1453136673,
+                "id": 1320064444,
                 "number": "15",
                 "title": "Épisode 15",
                 "synopsis": "",
@@ -211,11 +211,11 @@
                 "seconds": 194,
                 "file": "https://audio.radiophonix.org/matrick/matrick15.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1743374700,
+                "id": 523977723,
                 "number": "16",
                 "title": "Épisode 16",
                 "synopsis": "",
@@ -224,11 +224,11 @@
                 "seconds": 247,
                 "file": "https://audio.radiophonix.org/matrick/matrick16.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 880125867,
+                "id": 763834406,
                 "number": "17",
                 "title": "Épisode 17",
                 "synopsis": "",
@@ -237,11 +237,11 @@
                 "seconds": 290,
                 "file": "https://audio.radiophonix.org/matrick/matrick17.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1120015382,
+                "id": 2048126565,
                 "number": "18",
                 "title": "Épisode 18",
                 "synopsis": "",
@@ -250,11 +250,11 @@
                 "seconds": 216,
                 "file": "https://audio.radiophonix.org/matrick/matrick18.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 321831509,
+                "id": 190864544,
                 "number": "19",
                 "title": "Épisode 19",
                 "synopsis": "",
@@ -263,11 +263,11 @@
                 "seconds": 197,
                 "file": "https://audio.radiophonix.org/matrick/matrick19.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 565883024,
+                "id": 1506544367,
                 "number": "20",
                 "title": "Épisode 20",
                 "synopsis": "",
@@ -276,11 +276,11 @@
                 "seconds": 195,
                 "file": "https://audio.radiophonix.org/matrick/matrick20.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1309109983,
+                "id": 1717102378,
                 "number": "21",
                 "title": "Épisode 21",
                 "synopsis": "",
@@ -289,11 +289,11 @@
                 "seconds": 227,
                 "file": "https://audio.radiophonix.org/matrick/matrick21.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 479451930,
+                "id": 883250537,
                 "number": "22",
                 "title": "Épisode 22",
                 "synopsis": "",
@@ -302,11 +302,11 @@
                 "seconds": 245,
                 "file": "https://audio.radiophonix.org/matrick/matrick22.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 771721561,
+                "id": 1160840148,
                 "number": "23",
                 "title": "Épisode 23",
                 "synopsis": "",
@@ -315,11 +315,11 @@
                 "seconds": 490,
                 "file": "https://audio.radiophonix.org/matrick/matrick23.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 2051827588,
+                "id": 329117715,
                 "number": "24",
                 "title": "Épisode 24",
                 "synopsis": "",
@@ -328,11 +328,11 @@
                 "seconds": 189,
                 "file": "https://audio.radiophonix.org/matrick/matrick24.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 148428227,
+                "id": 552185438,
                 "number": "25",
                 "title": "Épisode 25",
                 "synopsis": "",
@@ -341,11 +341,11 @@
                 "seconds": 203,
                 "file": "https://audio.radiophonix.org/matrick/matrick25.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1495564814,
+                "id": 1903565981,
                 "number": "26",
                 "title": "Épisode 26",
                 "synopsis": "",
@@ -354,11 +354,11 @@
                 "seconds": 343,
                 "file": "https://audio.radiophonix.org/matrick/matrick26.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1739681869,
+                "id": 532859608,
                 "number": "27-28",
                 "title": "Épisode 27-28",
                 "synopsis": "",
@@ -367,11 +367,11 @@
                 "seconds": 304,
                 "file": "https://audio.radiophonix.org/matrick/matrick27_28.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 874327688,
+                "id": 741254919,
                 "number": "29",
                 "title": "Épisode 29",
                 "synopsis": "",
@@ -380,11 +380,11 @@
                 "seconds": 214,
                 "file": "https://audio.radiophonix.org/matrick/matrick29.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1164549367,
+                "id": 2059081026,
                 "number": "30",
                 "title": "Épisode 30",
                 "synopsis": "",
@@ -393,11 +393,11 @@
                 "seconds": 253,
                 "file": "https://audio.radiophonix.org/matrick/matrick30.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 334907698,
+                "id": 185058177,
                 "number": "31",
                 "title": "Épisode 31",
                 "synopsis": "",
@@ -406,11 +406,11 @@
                 "seconds": 205,
                 "file": "https://audio.radiophonix.org/matrick/matrick31.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 541206385,
+                "id": 1502851532,
                 "number": "32",
                 "title": "Épisode 32",
                 "synopsis": "",
@@ -419,11 +419,11 @@
                 "seconds": 314,
                 "file": "https://audio.radiophonix.org/matrick/matrick32.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 1320064444,
+                "id": 1725984267,
                 "number": "33",
                 "title": "Épisode 33",
                 "synopsis": "",
@@ -432,11 +432,11 @@
                 "seconds": 314,
                 "file": "https://audio.radiophonix.org/matrick/matrick33.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 523977723,
+                "id": 927784054,
                 "number": "34",
                 "title": "Épisode 34",
                 "synopsis": "",
@@ -445,22 +445,22 @@
                 "seconds": 361,
                 "file": "https://audio.radiophonix.org/matrick/matrick34.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             }
         ]
     },
     {
-        "id": 399836801,
+        "id": 1921884427,
         "number": "3",
         "name": "Bonus",
         "synopsis": "",
         "type": "bonus",
-        "created_at": "2018-10-28T18:09:16+00:00",
-        "updated_at": "2018-10-28T18:09:16+00:00",
+        "created_at": "2018-10-28T19:10:54+00:00",
+        "updated_at": "2018-10-28T19:10:54+00:00",
         "tracks": [
             {
-                "id": 763834406,
+                "id": 1171819189,
                 "number": "1",
                 "title": "Matruc - la parodie de Matrix - Bande annonce",
                 "synopsis": "",
@@ -469,11 +469,11 @@
                 "seconds": 114,
                 "file": "https://audio.radiophonix.org/matrick/matruc_trailer.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 2048126565,
+                "id": 304445680,
                 "number": "2",
                 "title": "Matrick - Teaser La matruc contre-attaque",
                 "synopsis": "",
@@ -482,11 +482,11 @@
                 "seconds": 48,
                 "file": "https://audio.radiophonix.org/matrick/matruc2_teaser.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             },
             {
-                "id": 190864544,
+                "id": 548525375,
                 "number": "3",
                 "title": "Matrick - La matruc - L'interview débile",
                 "synopsis": "",
@@ -495,8 +495,8 @@
                 "seconds": 105,
                 "file": "https://audio.radiophonix.org/matrick/matruc_interviewdeb.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:16+00:00",
-                "updated_at": "2018-10-28T18:09:16+00:00"
+                "created_at": "2018-10-28T19:10:54+00:00",
+                "updated_at": "2018-10-28T19:10:54+00:00"
             }
         ]
     }

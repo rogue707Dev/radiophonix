@@ -21,8 +21,8 @@
             "collections": 1,
             "tracks": 10
         },
-        "created_at": "2018-10-28T18:09:13+00:00",
-        "updated_at": "2018-10-28T18:09:13+00:00",
+        "created_at": "2018-10-28T19:10:51+00:00",
+        "updated_at": "2018-10-28T19:10:51+00:00",
         "images": {
             "cover": {
                 "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
@@ -49,8 +49,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:13+00:00",
-                "updated_at": "2018-10-28T18:09:13+00:00",
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/861745168/conversions/zylann-main.jpg",
                     "thumb": "/static/mocks/media/storage/861745168/conversions/zylann-thumb.jpg"
@@ -80,8 +80,8 @@
             "collections": 1,
             "tracks": 10
         },
-        "created_at": "2018-10-28T18:09:13+00:00",
-        "updated_at": "2018-10-28T18:09:14+00:00",
+        "created_at": "2018-10-28T19:10:51+00:00",
+        "updated_at": "2018-10-28T19:10:51+00:00",
         "images": {
             "cover": {
                 "main": "/static/mocks/media/storage/1420631365/conversions/affabulation-main.jpg",
@@ -105,10 +105,10 @@
                 "twitter": "https://twitter.com/TeamJavras"
             },
             "stats": {
-                "sagas": 1
+                "sagas": 3
             },
-            "created_at": "2018-10-28T18:09:11+00:00",
-            "updated_at": "2018-10-28T18:09:11+00:00",
+            "created_at": "2018-10-28T19:10:48+00:00",
+            "updated_at": "2018-10-28T19:10:48+00:00",
             "picture": {
                 "main": "/static/mocks/media/storage/1277011276/conversions/CouvJavrasUtipeee-main.jpg",
                 "thumb": "/static/mocks/media/storage/1277011276/conversions/CouvJavrasUtipeee-thumb.jpg"
@@ -128,19 +128,100 @@
                     "twitter": null
                 },
                 "stats": {
-                    "sagas": 1
+                    "sagas": 3
                 },
-                "created_at": "2018-10-28T18:09:11+00:00",
-                "updated_at": "2018-10-28T18:09:11+00:00",
+                "created_at": "2018-10-28T19:10:48+00:00",
+                "updated_at": "2018-10-28T19:10:48+00:00",
                 "picture": {
-                    "main": "/static/mocks/media/storage/1462912999/conversions/author-main.jpg",
-                    "thumb": "/static/mocks/media/storage/1462912999/conversions/author-thumb.jpg"
+                    "main": "/static/mocks/media/storage/1462912999/conversions/Artekyon_photo-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1462912999/conversions/Artekyon_photo-thumb.jpg"
                 }
             }
         ]
     },
     {
         "id": 1523884511,
+        "slug": "affabulation-ii",
+        "name": "Affabulation II",
+        "synopsis": "Après l'épopée de Moineau, le monde d'Albion est toujours en danger. Moineau étant désormais mort, son héritier au trône se nomme Logan, or celui-ci commence à gouverner le peuple avec tyrannie. Heros, son frère, va tout faire pour l'en empêcher. Cependant un autre danger encore plus gros les suit.",
+        "creation_date": "2014-10-24T00:00:00+00:00",
+        "licence": "CC BY-NC-ND",
+        "links": {
+            "netowiki": "https://wiki.netophonix.com/Affabulation_II",
+            "site": "https://compagnie-saucisse.jimdo.com/les-sagas-mp3/affabulation-ii/",
+            "topic": null,
+            "rss": null,
+            "facebook": null,
+            "twitter": "https://twitter.com/Artekyon"
+        },
+        "finished": true,
+        "visibility": 0,
+        "stats": {
+            "bravos": 0,
+            "collections": 1,
+            "tracks": 3
+        },
+        "created_at": "2018-10-28T19:10:51+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
+        "images": {
+            "cover": {
+                "main": "/static/mocks/media/storage/1725454359/conversions/affabulation2-main.jpg",
+                "thumb": "/static/mocks/media/storage/1725454359/conversions/affabulation2-thumb.jpg",
+                "meta": {
+                    "color": null,
+                    "type": null
+                }
+            }
+        },
+        "team": {
+            "id": 2147222869,
+            "slug": "javras",
+            "name": "Javras",
+            "bio": "Javras est un collectif de créateur, acteur et mixeur de saga mp3 ou autre médias pouvant être partagés sur le net, créatrice, au départ, de sagas mp3.",
+            "links": {
+                "netowiki": "https://wiki.netophonix.com/Javras_(Equipe_de_Cr%C3%A9ateurs)",
+                "site": "http://www.teamjavras.fr/Javras/",
+                "topic": null,
+                "facebook": "https://www.facebook.com/teamJavras/",
+                "twitter": "https://twitter.com/TeamJavras"
+            },
+            "stats": {
+                "sagas": 3
+            },
+            "created_at": "2018-10-28T19:10:48+00:00",
+            "updated_at": "2018-10-28T19:10:48+00:00",
+            "picture": {
+                "main": "/static/mocks/media/storage/1277011276/conversions/CouvJavrasUtipeee-main.jpg",
+                "thumb": "/static/mocks/media/storage/1277011276/conversions/CouvJavrasUtipeee-thumb.jpg"
+            }
+        },
+        "authors": [
+            {
+                "id": 2147222869,
+                "slug": "artekyon",
+                "name": "Artekyon",
+                "bio": "Artekyon découvre la saga mp3 grâce à l'un de ses amis avec le Donjon de Naheulbeuk puis les Aventuriers du NHL2987 Survivaure en 2006-2007. Il s'est ensuite aventuré sur d'autres sites de saga mp3 avec en priorité le Démon Du Rire créé par Durendal et Junior, où il découvrit la saga mp3 Kingdom Paf de Isthun qui lui donna envie de créer sa propre saga. Mais avant, il se promena sur le Netophonix et OdioArt pour donner sa voix. Il commença en 2011 avec Les archives perdues de Fallout avec l'aide de son partenaire le dieu Ascaran, où ils créent la compagnie de la saucisse. Il créa ensuite une saga mp3 qui a été abandonnée \"La guerre des détraqués\". Il découvre par la suite une parodie de Kingdom Hearts 2 écrite par Sora-desuka pour laquelle il obtient l'autorisation de la transposer en audio. C'est pour le moment son plus gros travail. Pour lui, le mixage, montage et voix sont des choses qu'il apprécie. Il a par contre du mal à créer des scénarios cohérents. Plus tard, en jouant au jeu Fable II, il se mit en tête de crée enfin, sa propre parodie, et ce fut la naissance d'Affabulation.\n\nDepuis il fait partie de Javras, mais continue à administrer le site de la compagnie de la saucisse. Il crée aussi Metal Gear Solid : Knacki Eater mais ce projet est abandonné mais risque de refaire surface.\n\nAlors que la guerre des détraqués était un échec à cause du manque d'idée pour le scénario, il décide tout de même de faire une autre saga mp3 qui n'est pas inspirer de jeux vidéos, livres ou films. In crystal Muntus voit le jour, et cette création est plutôt bien partie malgré le fait que l'histoire soit peu originale.\n\nEn 2014, Il rejoint l'équipe de Rewind & Play a ses débuts dans le but de faire de la critique de saga mp3, il est aujourd'hui encore dans l'équipe malgré ses absences dues aux études en Fac d'Arts du Spectacle. Cette même année, il devient aussi membre des Wave's Avengers faisant de lui le premier Judas de la sagasphère. De plus il crée avec Kwaam Mass Perfect 3 qui est la parodie de Mass Effect 3.\n\nEn 2015, Artekyon entame une longue pause dans la sagasphère par manque de volonté et entreprend de faire des vidéos sur Youtube pour présenter sa chronique, Sagatique, une chronique qui parle de saga mp3 qu'il estime que l'on peut en parler même sur Youtube.",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/Artekyon",
+                    "site": null,
+                    "topic": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "stats": {
+                    "sagas": 3
+                },
+                "created_at": "2018-10-28T19:10:48+00:00",
+                "updated_at": "2018-10-28T19:10:48+00:00",
+                "picture": {
+                    "main": "/static/mocks/media/storage/1462912999/conversions/Artekyon_photo-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1462912999/conversions/Artekyon_photo-thumb.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "id": 1797332506,
         "slug": "agent-0",
         "name": "Agent 0",
         "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
@@ -161,12 +242,12 @@
             "collections": 1,
             "tracks": 30
         },
-        "created_at": "2018-10-28T18:09:14+00:00",
-        "updated_at": "2018-10-28T18:09:14+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/1725454359/conversions/agent0-main.jpg",
-                "thumb": "/static/mocks/media/storage/1725454359/conversions/agent0-thumb.jpg",
+                "main": "/static/mocks/media/storage/1778317966/conversions/agent0-main.jpg",
+                "thumb": "/static/mocks/media/storage/1778317966/conversions/agent0-thumb.jpg",
                 "meta": {
                     "color": null,
                     "type": null
@@ -189,8 +270,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:11+00:00",
-                "updated_at": "2018-10-28T18:09:11+00:00",
+                "created_at": "2018-10-28T19:10:49+00:00",
+                "updated_at": "2018-10-28T19:10:49+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/1634566833/conversions/flo-main.jpg",
                     "thumb": "/static/mocks/media/storage/1634566833/conversions/flo-thumb.jpg"
@@ -199,7 +280,7 @@
         ]
     },
     {
-        "id": 1797332506,
+        "id": 965594201,
         "slug": "banal-fantasy",
         "name": "Banal Fantasy",
         "synopsis": "Crad Stripe, ex-membre du SOLDÉ, s'allie au groupe écologique radical \"Chute de Gravier\", dont le but et de détruire les réacteurs de la Shi-ra qui pompent l'énergie vitale de la planète et, du même fait, l'affaiblit. Au même moment, Kissifrotte tente de ressusciter les cellules de JENOVA, descendante des Vieilles Peaux, morts il y a de cela bien longtemps après une rude canicule. Ceci fait, tous deux essaieront de détruire la planète dans un but bien précis. L'équipe, rejointe par Ahéré et Waïkiki, va tenter d'arrêter Kissifrote, ce qu'essaie aussi la Shi-ra.",
@@ -220,12 +301,12 @@
             "collections": 6,
             "tracks": 46
         },
-        "created_at": "2018-10-28T18:09:14+00:00",
-        "updated_at": "2018-10-28T18:09:14+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/1930664737/conversions/banal-fantasy-main.jpg",
-                "thumb": "/static/mocks/media/storage/1930664737/conversions/banal-fantasy-thumb.jpg",
+                "main": "/static/mocks/media/storage/2049459544/conversions/banal-fantasy-main.jpg",
+                "thumb": "/static/mocks/media/storage/2049459544/conversions/banal-fantasy-thumb.jpg",
                 "meta": {
                     "color": null,
                     "type": null
@@ -248,8 +329,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:11+00:00",
-                "updated_at": "2018-10-28T18:09:11+00:00",
+                "created_at": "2018-10-28T19:10:49+00:00",
+                "updated_at": "2018-10-28T19:10:49+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/1581834270/conversions/author-main.jpg",
                     "thumb": "/static/mocks/media/storage/1581834270/conversions/author-thumb.jpg"
@@ -258,7 +339,7 @@
         ]
     },
     {
-        "id": 965594201,
+        "id": 1176091268,
         "slug": "chez-le-psy",
         "name": "Chez le Psy",
         "synopsis": "Wallace Ticot, psychologue excentrique, décide d'enregistrer les délires de ses patients au moyen de cassettes. Dans les deux premières saisons, la majeure partie de la série tourne autour des consultations se déroulant dans son cabinet. Un contexte que les créateurs de Chez le Psy utilisent aussi pour intégrer des membres de la Sagasphère, et certains de leurs personnages. La saison 3 change légèrement de contexte et s'adapte à la nouvelle identité du groupe de créateurs.",
@@ -279,12 +360,12 @@
             "collections": 9,
             "tracks": 69
         },
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:52+00:00",
+        "updated_at": "2018-10-28T19:10:52+00:00",
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/223274995/conversions/chez-le-psy-main.jpg",
-                "thumb": "/static/mocks/media/storage/223274995/conversions/chez-le-psy-thumb.jpg",
+                "main": "/static/mocks/media/storage/342065258/conversions/chez-le-psy-main.jpg",
+                "thumb": "/static/mocks/media/storage/342065258/conversions/chez-le-psy-thumb.jpg",
                 "meta": {
                     "color": null,
                     "type": null
@@ -307,8 +388,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:12+00:00",
-                "updated_at": "2018-10-28T18:09:12+00:00",
+                "created_at": "2018-10-28T19:10:50+00:00",
+                "updated_at": "2018-10-28T19:10:50+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/231868445/conversions/MAGOYOND-main.jpg",
                     "thumb": "/static/mocks/media/storage/231868445/conversions/MAGOYOND-thumb.jpg"
@@ -317,7 +398,7 @@
         ]
     },
     {
-        "id": 1176091268,
+        "id": 392587459,
         "slug": "les-chroniques-de-ravnica",
         "name": "Les Chroniques de Ravnica",
         "synopsis": "Au cœur de Dominia siège le fleuron de la civilisation. Dans une cité dont l'origine transcende les siècles, humains, elfes, gobelins, vampires... Sont habités par le même désir d'harmonie. On se tue, on se bat... Mais toujours avec une franche et sincère amitié... Bienvenue dans Ravnica, la cité des Guildes...\n\nDans cette cité ne vivent plus que neuf guildes dans un désordre des plus complets : les Orzhov, les Izzet, les Gruul, les Azorius, les Golgari, les Rakdos, les Simic, les Boros et surtout, les Dimirs. La Dixième guilde, les Selesnya, a été détruite. Les combats entre légionnaires Boros et membres Dimirs font rage dans la ville alors qu'une menace plane sur la ville : une nouvelle guilde, dite de la Lune, s'est créée... Face à cette menance potentielle, Szadek, grand maître officieux de la ville, prit des mesures radicales : il décida d'envoyer un parfait inconnu pour la démanteler. Or, un jeune rôdeur inexpérimenté venait d'arriver dans le quartier Dimir, à la recherche d'une quête...",
@@ -338,12 +419,12 @@
             "collections": 1,
             "tracks": 15
         },
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:53+00:00",
+        "updated_at": "2018-10-28T19:10:53+00:00",
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/527966861/conversions/Ravnica_ban_2011-main.jpg",
-                "thumb": "/static/mocks/media/storage/527966861/conversions/Ravnica_ban_2011-thumb.jpg",
+                "main": "/static/mocks/media/storage/647938852/conversions/Ravnica_ban_2011-main.jpg",
+                "thumb": "/static/mocks/media/storage/647938852/conversions/Ravnica_ban_2011-thumb.jpg",
                 "meta": {
                     "color": null,
                     "type": null
@@ -366,8 +447,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:13+00:00",
-                "updated_at": "2018-10-28T18:09:13+00:00",
+                "created_at": "2018-10-28T19:10:50+00:00",
+                "updated_at": "2018-10-28T19:10:50+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/674797561/conversions/NSM_Corp-main.jpg",
                     "thumb": "/static/mocks/media/storage/674797561/conversions/NSM_Corp-thumb.jpg"
@@ -376,7 +457,7 @@
         ]
     },
     {
-        "id": 392587459,
+        "id": 636667150,
         "slug": "death-pen",
         "name": "Death Pen",
         "synopsis": "Bernard, alias Ryuuku, est un expert comptable, et il s'ennuie. Il décide alors de laisser tomber son stylo dans le monde des humains. Et c'est Raito, jeune élève modèle un rien misanthrope, qui le récupère. Mais ce stylo n'est pas ordinaire... Une des règle de la Death Not-ice est \"The human whose name is written with this pen... shall die !\" que l'on peut traduire par \"L'humain dont le nom est écrit avec ce stylo mourra\".",
@@ -397,12 +478,12 @@
             "collections": 1,
             "tracks": 10
         },
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:53+00:00",
+        "updated_at": "2018-10-28T19:10:53+00:00",
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/647938852/conversions/bandeathpen-main.jpg",
-                "thumb": "/static/mocks/media/storage/647938852/conversions/bandeathpen-thumb.jpg",
+                "main": "/static/mocks/media/storage/699624799/conversions/bandeathpen-main.jpg",
+                "thumb": "/static/mocks/media/storage/699624799/conversions/bandeathpen-thumb.jpg",
                 "meta": {
                     "color": null,
                     "type": null
@@ -425,8 +506,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:12+00:00",
-                "updated_at": "2018-10-28T18:09:12+00:00",
+                "created_at": "2018-10-28T19:10:49+00:00",
+                "updated_at": "2018-10-28T19:10:49+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/2059235322/conversions/mace-main.jpg",
                     "thumb": "/static/mocks/media/storage/2059235322/conversions/mace-thumb.jpg"
@@ -435,7 +516,88 @@
         ]
     },
     {
-        "id": 636667150,
+        "id": 1918808909,
+        "slug": "kingdom-bwarf",
+        "name": "Kingdom Bwarf",
+        "synopsis": "Rosace, un jeune garçon junkie, vit dans le Monde de Twilight Town avec ses trois amis Biker, Omlette et Pence. Mais un jour, une créature bizarre leur vola la came et c'est ici que le destin de Rosace changea. Il commença à maîtriser la Keyblade, une clef Playmobile très moche. Il apprit qu'il était lié à Soda. Soda, Ronald et Mego vont revoyager dans les mondes pour les verrouiller, tout en luttant contre les sans-queues et les syphilis mais aussi une organisation secrète.",
+        "creation_date": "2011-09-24T00:00:00+00:00",
+        "licence": "CC BY-NC-ND",
+        "links": {
+            "netowiki": "https://wiki.netophonix.com/Kingdom_Bwarf",
+            "site": "http://www.teamjavras.fr/Javras/sagas-mp3/kingdom-bwarf/",
+            "topic": null,
+            "rss": null,
+            "facebook": null,
+            "twitter": "https://twitter.com/Artekyon"
+        },
+        "finished": true,
+        "visibility": 0,
+        "stats": {
+            "bravos": 0,
+            "collections": 1,
+            "tracks": 14
+        },
+        "created_at": "2018-10-28T19:10:53+00:00",
+        "updated_at": "2018-10-28T19:10:53+00:00",
+        "images": {
+            "cover": {
+                "main": "/static/mocks/media/storage/818417654/conversions/Kingdom_Bwarf-main.jpg",
+                "thumb": "/static/mocks/media/storage/818417654/conversions/Kingdom_Bwarf-thumb.jpg",
+                "meta": {
+                    "color": null,
+                    "type": null
+                }
+            }
+        },
+        "team": {
+            "id": 2147222869,
+            "slug": "javras",
+            "name": "Javras",
+            "bio": "Javras est un collectif de créateur, acteur et mixeur de saga mp3 ou autre médias pouvant être partagés sur le net, créatrice, au départ, de sagas mp3.",
+            "links": {
+                "netowiki": "https://wiki.netophonix.com/Javras_(Equipe_de_Cr%C3%A9ateurs)",
+                "site": "http://www.teamjavras.fr/Javras/",
+                "topic": null,
+                "facebook": "https://www.facebook.com/teamJavras/",
+                "twitter": "https://twitter.com/TeamJavras"
+            },
+            "stats": {
+                "sagas": 3
+            },
+            "created_at": "2018-10-28T19:10:48+00:00",
+            "updated_at": "2018-10-28T19:10:48+00:00",
+            "picture": {
+                "main": "/static/mocks/media/storage/1277011276/conversions/CouvJavrasUtipeee-main.jpg",
+                "thumb": "/static/mocks/media/storage/1277011276/conversions/CouvJavrasUtipeee-thumb.jpg"
+            }
+        },
+        "authors": [
+            {
+                "id": 2147222869,
+                "slug": "artekyon",
+                "name": "Artekyon",
+                "bio": "Artekyon découvre la saga mp3 grâce à l'un de ses amis avec le Donjon de Naheulbeuk puis les Aventuriers du NHL2987 Survivaure en 2006-2007. Il s'est ensuite aventuré sur d'autres sites de saga mp3 avec en priorité le Démon Du Rire créé par Durendal et Junior, où il découvrit la saga mp3 Kingdom Paf de Isthun qui lui donna envie de créer sa propre saga. Mais avant, il se promena sur le Netophonix et OdioArt pour donner sa voix. Il commença en 2011 avec Les archives perdues de Fallout avec l'aide de son partenaire le dieu Ascaran, où ils créent la compagnie de la saucisse. Il créa ensuite une saga mp3 qui a été abandonnée \"La guerre des détraqués\". Il découvre par la suite une parodie de Kingdom Hearts 2 écrite par Sora-desuka pour laquelle il obtient l'autorisation de la transposer en audio. C'est pour le moment son plus gros travail. Pour lui, le mixage, montage et voix sont des choses qu'il apprécie. Il a par contre du mal à créer des scénarios cohérents. Plus tard, en jouant au jeu Fable II, il se mit en tête de crée enfin, sa propre parodie, et ce fut la naissance d'Affabulation.\n\nDepuis il fait partie de Javras, mais continue à administrer le site de la compagnie de la saucisse. Il crée aussi Metal Gear Solid : Knacki Eater mais ce projet est abandonné mais risque de refaire surface.\n\nAlors que la guerre des détraqués était un échec à cause du manque d'idée pour le scénario, il décide tout de même de faire une autre saga mp3 qui n'est pas inspirer de jeux vidéos, livres ou films. In crystal Muntus voit le jour, et cette création est plutôt bien partie malgré le fait que l'histoire soit peu originale.\n\nEn 2014, Il rejoint l'équipe de Rewind & Play a ses débuts dans le but de faire de la critique de saga mp3, il est aujourd'hui encore dans l'équipe malgré ses absences dues aux études en Fac d'Arts du Spectacle. Cette même année, il devient aussi membre des Wave's Avengers faisant de lui le premier Judas de la sagasphère. De plus il crée avec Kwaam Mass Perfect 3 qui est la parodie de Mass Effect 3.\n\nEn 2015, Artekyon entame une longue pause dans la sagasphère par manque de volonté et entreprend de faire des vidéos sur Youtube pour présenter sa chronique, Sagatique, une chronique qui parle de saga mp3 qu'il estime que l'on peut en parler même sur Youtube.",
+                "links": {
+                    "netowiki": "https://wiki.netophonix.com/Artekyon",
+                    "site": null,
+                    "topic": null,
+                    "facebook": null,
+                    "twitter": null
+                },
+                "stats": {
+                    "sagas": 3
+                },
+                "created_at": "2018-10-28T19:10:48+00:00",
+                "updated_at": "2018-10-28T19:10:48+00:00",
+                "picture": {
+                    "main": "/static/mocks/media/storage/1462912999/conversions/Artekyon_photo-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1462912999/conversions/Artekyon_photo-thumb.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "id": 11231624,
         "slug": "kiponie-stories",
         "name": "Kiponie Stories",
         "synopsis": "Tout commence par un voyage sans intérêt. Le très jeune capitaine Alexandre Vinoqui se lance dans l'expédition du siècle : Percer les mystères du Triangle des Mersnulles et révéler au monde entier les secrets cachés par d'étranges brumes. Il prend donc la première opportunité venue et embarque avec lui son vieil ami Hanson Triviany ainsi qu’une équipe d’andouilles dégotée dans les poubelles du coin. Après deux semaines de voyage plus que désagréables, une tempête frappe soudainement leur navire et le transforme en musée sous-marin. Nos deux aventuriers amateurs se retrouvent prisonniers d’un continent mystérieux gardant des secrets inimaginables. C’est à ce moment là que les problèmes commencent...",
@@ -456,12 +618,12 @@
             "collections": 2,
             "tracks": 13
         },
-        "created_at": "2018-10-28T18:09:15+00:00",
-        "updated_at": "2018-10-28T18:09:15+00:00",
+        "created_at": "2018-10-28T19:10:53+00:00",
+        "updated_at": "2018-10-28T19:10:53+00:00",
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/699624799/conversions/kiponie-stories-main.jpg",
-                "thumb": "/static/mocks/media/storage/699624799/conversions/kiponie-stories-thumb.jpg",
+                "main": "/static/mocks/media/storage/1005496425/conversions/kiponie-stories-main.jpg",
+                "thumb": "/static/mocks/media/storage/1005496425/conversions/kiponie-stories-thumb.jpg",
                 "meta": {
                     "color": null,
                     "type": null
@@ -484,8 +646,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:11+00:00",
-                "updated_at": "2018-10-28T18:09:11+00:00",
+                "created_at": "2018-10-28T19:10:49+00:00",
+                "updated_at": "2018-10-28T19:10:49+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/1753359144/conversions/inky-main.jpg",
                     "thumb": "/static/mocks/media/storage/1753359144/conversions/inky-thumb.jpg"
@@ -494,7 +656,7 @@
         ]
     },
     {
-        "id": 1918808909,
+        "id": 1362616311,
         "slug": "maha",
         "name": "M.A.H.A",
         "synopsis": "M.A.H.A (initiales de Mystification et Apologie de l'Humanité Actuelle) est une saga mp3 créé par Misterfox. Elle se présente sous la forme de chroniques, contant les péripéties de Misterfox dans sa triste et morne vie, qui lui inspire un profond mépris envers l'humanité...\nLa saga s'est terminée le 19 avril 2008, 20 ans après la mort de Pierre Desproges.",
@@ -515,12 +677,12 @@
             "collections": 4,
             "tracks": 35
         },
-        "created_at": "2018-10-28T18:09:16+00:00",
-        "updated_at": "2018-10-28T18:09:16+00:00",
+        "created_at": "2018-10-28T19:10:53+00:00",
+        "updated_at": "2018-10-28T19:10:54+00:00",
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/1005496425/conversions/maha-main.jpg",
-                "thumb": "/static/mocks/media/storage/1005496425/conversions/maha-thumb.jpg",
+                "main": "/static/mocks/media/storage/1410984763/conversions/maha-main.jpg",
+                "thumb": "/static/mocks/media/storage/1410984763/conversions/maha-thumb.jpg",
                 "meta": {
                     "color": null,
                     "type": null
@@ -543,8 +705,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:12+00:00",
-                "updated_at": "2018-10-28T18:09:12+00:00",
+                "created_at": "2018-10-28T19:10:50+00:00",
+                "updated_at": "2018-10-28T19:10:50+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/504187695/conversions/author-main.jpg",
                     "thumb": "/static/mocks/media/storage/504187695/conversions/author-thumb.jpg"
@@ -553,7 +715,7 @@
         ]
     },
     {
-        "id": 11231624,
+        "id": 2139327538,
         "slug": "matrick",
         "name": "Matrick",
         "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
@@ -574,12 +736,12 @@
             "collections": 3,
             "tracks": 36
         },
-        "created_at": "2018-10-28T18:09:16+00:00",
-        "updated_at": "2018-10-28T18:09:16+00:00",
+        "created_at": "2018-10-28T19:10:54+00:00",
+        "updated_at": "2018-10-28T19:10:54+00:00",
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/1410984763/conversions/matrick-main.jpg",
-                "thumb": "/static/mocks/media/storage/1410984763/conversions/matrick-thumb.jpg",
+                "main": "/static/mocks/media/storage/1716729845/conversions/matrick-main.jpg",
+                "thumb": "/static/mocks/media/storage/1716729845/conversions/matrick-thumb.jpg",
                 "meta": {
                     "color": null,
                     "type": null
@@ -602,8 +764,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:13+00:00",
-                "updated_at": "2018-10-28T18:09:13+00:00",
+                "created_at": "2018-10-28T19:10:50+00:00",
+                "updated_at": "2018-10-28T19:10:50+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/556004678/conversions/author-main.jpg",
                     "thumb": "/static/mocks/media/storage/556004678/conversions/author-thumb.jpg"
@@ -612,7 +774,7 @@
         ]
     },
     {
-        "id": 1362616311,
+        "id": 202406513,
         "slug": "messina",
         "name": "Messina",
         "synopsis": "Messina est un univers créé par MimiRyudo. La principale partie actuellement (chapitre 2) en est une saga MP3 en 10 épisodes, écrite par MimiRyudo et réalisée par Celebo Anarion. L'histoire se situe à Messina (rien à voir avec le Messina moderne) à l'époque où les aventuriers pouvaient encore mener leurs quêtes et où les licornes leur murmuraient des prophéties...",
@@ -633,12 +795,12 @@
             "collections": 3,
             "tracks": 19
         },
-        "created_at": "2018-10-28T18:09:17+00:00",
-        "updated_at": "2018-10-28T18:09:17+00:00",
+        "created_at": "2018-10-28T19:10:54+00:00",
+        "updated_at": "2018-10-28T19:10:54+00:00",
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/1716729845/conversions/banniere_messina-main.jpg",
-                "thumb": "/static/mocks/media/storage/1716729845/conversions/banniere_messina-thumb.jpg",
+                "main": "/static/mocks/media/storage/1888383623/conversions/banniere_messina-main.jpg",
+                "thumb": "/static/mocks/media/storage/1888383623/conversions/banniere_messina-thumb.jpg",
                 "meta": {
                     "color": null,
                     "type": null
@@ -661,8 +823,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:12+00:00",
-                "updated_at": "2018-10-28T18:09:12+00:00",
+                "created_at": "2018-10-28T19:10:50+00:00",
+                "updated_at": "2018-10-28T19:10:50+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/350792372/conversions/MimiRyudo-main.jpg",
                     "thumb": "/static/mocks/media/storage/350792372/conversions/MimiRyudo-thumb.jpg"
@@ -671,7 +833,7 @@
         ]
     },
     {
-        "id": 2139327538,
+        "id": 1568417980,
         "slug": "reflets-dacide",
         "name": "Reflets d'Acide",
         "synopsis": "Wrandrall cherche désespérément des compagnons de route pour sa quête : ils devront braver vents et marées pour aller explorer une grotte. Nul ne sait ce qui les attend sur cette route, ni ce qu'ils trouveront au fond de cette grotte… Une seule chose est sûre, c'est qu'ils n'ont aucune idée de ce dans quoi ils se sont embarqués.",
@@ -692,12 +854,12 @@
             "collections": 1,
             "tracks": 16
         },
-        "created_at": "2018-10-28T18:09:17+00:00",
-        "updated_at": "2018-10-28T18:09:17+00:00",
+        "created_at": "2018-10-28T19:10:54+00:00",
+        "updated_at": "2018-10-28T19:10:55+00:00",
         "images": {
             "cover": {
-                "main": "/static/mocks/media/storage/1888383623/conversions/reflets-d-acide-main.jpg",
-                "thumb": "/static/mocks/media/storage/1888383623/conversions/reflets-d-acide-thumb.jpg",
+                "main": "/static/mocks/media/storage/45727057/conversions/reflets-d-acide-main.jpg",
+                "thumb": "/static/mocks/media/storage/45727057/conversions/reflets-d-acide-thumb.jpg",
                 "meta": {
                     "color": null,
                     "type": null
@@ -720,8 +882,8 @@
                 "stats": {
                     "sagas": 1
                 },
-                "created_at": "2018-10-28T18:09:12+00:00",
-                "updated_at": "2018-10-28T18:09:12+00:00",
+                "created_at": "2018-10-28T19:10:49+00:00",
+                "updated_at": "2018-10-28T19:10:49+00:00",
                 "picture": {
                     "main": "/static/mocks/media/storage/1939393859/conversions/jbx-main.jpg",
                     "thumb": "/static/mocks/media/storage/1939393859/conversions/jbx-thumb.jpg"

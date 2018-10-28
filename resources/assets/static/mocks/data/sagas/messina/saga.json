@@ -1,5 +1,5 @@
 {
-    "id": 1362616311,
+    "id": 202406513,
     "slug": "messina",
     "name": "Messina",
     "synopsis": "Messina est un univers créé par MimiRyudo. La principale partie actuellement (chapitre 2) en est une saga MP3 en 10 épisodes, écrite par MimiRyudo et réalisée par Celebo Anarion. L'histoire se situe à Messina (rien à voir avec le Messina moderne) à l'époque où les aventuriers pouvaient encore mener leurs quêtes et où les licornes leur murmuraient des prophéties...",
@@ -20,12 +20,12 @@
         "collections": 3,
         "tracks": 19
     },
-    "created_at": "2018-10-28T18:09:17+00:00",
-    "updated_at": "2018-10-28T18:09:17+00:00",
+    "created_at": "2018-10-28T19:10:54+00:00",
+    "updated_at": "2018-10-28T19:10:54+00:00",
     "images": {
         "cover": {
-            "main": "/static/mocks/media/storage/1716729845/conversions/banniere_messina-main.jpg",
-            "thumb": "/static/mocks/media/storage/1716729845/conversions/banniere_messina-thumb.jpg",
+            "main": "/static/mocks/media/storage/1888383623/conversions/banniere_messina-main.jpg",
+            "thumb": "/static/mocks/media/storage/1888383623/conversions/banniere_messina-thumb.jpg",
             "meta": {
                 "color": null,
                 "type": null
@@ -48,8 +48,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-10-28T18:09:12+00:00",
-            "updated_at": "2018-10-28T18:09:12+00:00",
+            "created_at": "2018-10-28T19:10:50+00:00",
+            "updated_at": "2018-10-28T19:10:50+00:00",
             "picture": {
                 "main": "/static/mocks/media/storage/350792372/conversions/MimiRyudo-main.jpg",
                 "thumb": "/static/mocks/media/storage/350792372/conversions/MimiRyudo-thumb.jpg"

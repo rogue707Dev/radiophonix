@@ -13,15 +13,15 @@
     "stats": {
         "sagas": 1
     },
-    "created_at": "2018-10-28T18:09:11+00:00",
-    "updated_at": "2018-10-28T18:09:11+00:00",
+    "created_at": "2018-10-28T19:10:49+00:00",
+    "updated_at": "2018-10-28T19:10:49+00:00",
     "picture": {
         "main": "/static/mocks/media/storage/1753359144/conversions/inky-main.jpg",
         "thumb": "/static/mocks/media/storage/1753359144/conversions/inky-thumb.jpg"
     },
     "sagas": [
         {
-            "id": 636667150,
+            "id": 11231624,
             "slug": "kiponie-stories",
             "name": "Kiponie Stories",
             "synopsis": "Tout commence par un voyage sans intérêt. Le très jeune capitaine Alexandre Vinoqui se lance dans l'expédition du siècle : Percer les mystères du Triangle des Mersnulles et révéler au monde entier les secrets cachés par d'étranges brumes. Il prend donc la première opportunité venue et embarque avec lui son vieil ami Hanson Triviany ainsi qu’une équipe d’andouilles dégotée dans les poubelles du coin. Après deux semaines de voyage plus que désagréables, une tempête frappe soudainement leur navire et le transforme en musée sous-marin. Nos deux aventuriers amateurs se retrouvent prisonniers d’un continent mystérieux gardant des secrets inimaginables. C’est à ce moment là que les problèmes commencent...",
@@ -42,12 +42,12 @@
                 "collections": 2,
                 "tracks": 13
             },
-            "created_at": "2018-10-28T18:09:15+00:00",
-            "updated_at": "2018-10-28T18:09:15+00:00",
+            "created_at": "2018-10-28T19:10:53+00:00",
+            "updated_at": "2018-10-28T19:10:53+00:00",
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/storage/699624799/conversions/kiponie-stories-main.jpg",
-                    "thumb": "/static/mocks/media/storage/699624799/conversions/kiponie-stories-thumb.jpg",
+                    "main": "/static/mocks/media/storage/1005496425/conversions/kiponie-stories-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1005496425/conversions/kiponie-stories-thumb.jpg",
                     "meta": {
                         "color": null,
                         "type": null

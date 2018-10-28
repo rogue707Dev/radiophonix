@@ -15,7 +15,7 @@
         "slug": "heroic-fantasy",
         "name": "Heroic fantasy",
         "stats": {
-            "sagas": 3
+            "sagas": 4
         },
         "image": {
             "main": "/static/mocks/media/storage/1606664188/conversions/Heroic-fantasy-main.jpg"
@@ -29,7 +29,7 @@
             "sagas": 1
         },
         "image": {
-            "main": "/static/mocks/media/storage/1778317966/conversions/Espionnage-main.jpg"
+            "main": "/static/mocks/media/storage/1930664737/conversions/Espionnage-main.jpg"
         }
     },
     {
@@ -37,10 +37,10 @@
         "slug": "parodie",
         "name": "Parodie",
         "stats": {
-            "sagas": 2
+            "sagas": 3
         },
         "image": {
-            "main": "/static/mocks/media/storage/2049459544/conversions/Parodie-main.jpg"
+            "main": "/static/mocks/media/storage/223274995/conversions/Parodie-main.jpg"
         }
     },
     {
@@ -51,7 +51,7 @@
             "sagas": 1
         },
         "image": {
-            "main": "/static/mocks/media/storage/342065258/conversions/Contemporain-main.jpg"
+            "main": "/static/mocks/media/storage/527966861/conversions/Contemporain-main.jpg"
         }
     },
     {
@@ -62,7 +62,7 @@
             "sagas": 1
         },
         "image": {
-            "main": "/static/mocks/media/storage/818417654/conversions/Aventure-main.jpg"
+            "main": "/static/mocks/media/storage/1292061312/conversions/Aventure-main.jpg"
         }
     },
     {
@@ -73,7 +73,7 @@
             "sagas": 1
         },
         "image": {
-            "main": "/static/mocks/media/storage/1292061312/conversions/Monologue-main.jpg"
+            "main": "/static/mocks/media/storage/1597936978/conversions/Monologue-main.jpg"
         }
     },
     {
@@ -84,7 +84,7 @@
             "sagas": 1
         },
         "image": {
-            "main": "/static/mocks/media/storage/1597936978/conversions/Science-fiction-main.jpg"
+            "main": "/static/mocks/media/storage/1768542316/conversions/Science-fiction-main.jpg"
         }
     },
     {
@@ -95,7 +95,7 @@
             "sagas": 1
         },
         "image": {
-            "main": "/static/mocks/media/storage/1768542316/conversions/M%C3%A9di%C3%A9val-fantastique-main.jpg"
+            "main": "/static/mocks/media/storage/2074284862/conversions/M%C3%A9di%C3%A9val-fantastique-main.jpg"
         }
     }
 ]

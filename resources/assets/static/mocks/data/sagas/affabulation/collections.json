@@ -5,8 +5,8 @@
         "name": "Épisodes",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-28T18:09:14+00:00",
-        "updated_at": "2018-10-28T18:09:14+00:00",
+        "created_at": "2018-10-28T19:10:51+00:00",
+        "updated_at": "2018-10-28T19:10:51+00:00",
         "tracks": [
             {
                 "id": 1362616311,
@@ -18,8 +18,8 @@
                 "seconds": 710,
                 "file": "https://audio.radiophonix.org/affabulation/Episode 01-Une nouvelle vie commence.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:14+00:00",
-                "updated_at": "2018-10-28T18:09:14+00:00"
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00"
             },
             {
                 "id": 2139327538,
@@ -31,8 +31,8 @@
                 "seconds": 345,
                 "file": "https://audio.radiophonix.org/affabulation/Episode 02-Que l'histoire commence.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:14+00:00",
-                "updated_at": "2018-10-28T18:09:14+00:00"
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00"
             },
             {
                 "id": 202406513,
@@ -44,8 +44,8 @@
                 "seconds": 346,
                 "file": "https://audio.radiophonix.org/affabulation/Episode 03-Retour difficile.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:14+00:00",
-                "updated_at": "2018-10-28T18:09:14+00:00"
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00"
             },
             {
                 "id": 1568417980,
@@ -57,8 +57,8 @@
                 "seconds": 443,
                 "file": "https://audio.radiophonix.org/affabulation/Episode 04-En route pour Oakfield.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:14+00:00",
-                "updated_at": "2018-10-28T18:09:14+00:00"
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00"
             },
             {
                 "id": 1808303867,
@@ -70,8 +70,8 @@
                 "seconds": 498,
                 "file": "https://audio.radiophonix.org/affabulation/Episode 05-Le heros de la force.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:14+00:00",
-                "updated_at": "2018-10-28T18:09:14+00:00"
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00"
             },
             {
                 "id": 945124134,
@@ -83,8 +83,8 @@
                 "seconds": 745,
                 "file": "https://audio.radiophonix.org/affabulation/Episode 06-Carth et la Fleche.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:14+00:00",
-                "updated_at": "2018-10-28T18:09:14+00:00"
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00"
             },
             {
                 "id": 1184964965,
@@ -96,8 +96,8 @@
                 "seconds": 578,
                 "file": "https://audio.radiophonix.org/affabulation/Episode 07-In your fleche.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:14+00:00",
-                "updated_at": "2018-10-28T18:09:14+00:00"
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00"
             },
             {
                 "id": 386768800,
@@ -109,8 +109,8 @@
                 "seconds": 615,
                 "file": "https://audio.radiophonix.org/affabulation/Episode 08-La porte du Cullis.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:14+00:00",
-                "updated_at": "2018-10-28T18:09:14+00:00"
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00"
             },
             {
                 "id": 630869487,
@@ -122,8 +122,8 @@
                 "seconds": 639,
                 "file": "https://audio.radiophonix.org/affabulation/Episode 09-Le dernier avant la fin.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:14+00:00",
-                "updated_at": "2018-10-28T18:09:14+00:00"
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00"
             },
             {
                 "id": 1927690794,
@@ -135,8 +135,8 @@
                 "seconds": 1338,
                 "file": "https://audio.radiophonix.org/affabulation/Episode 10-The fucking final fight in your ears.mp3",
                 "chapters": [],
-                "created_at": "2018-10-28T18:09:14+00:00",
-                "updated_at": "2018-10-28T18:09:14+00:00"
+                "created_at": "2018-10-28T19:10:51+00:00",
+                "updated_at": "2018-10-28T19:10:51+00:00"
             }
         ]
     }
