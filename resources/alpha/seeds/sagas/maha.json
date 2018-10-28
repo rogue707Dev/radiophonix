@@ -35,7 +35,6 @@
                     "status": 2,
                     "seconds": "35s",
                     "file": "maha/01 MAHA - Introduction.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -46,7 +45,6 @@
                     "status": 2,
                     "seconds": "5min16",
                     "file": "maha/02 MAHA - Le Pourquoi du (no) comment.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -57,7 +55,6 @@
                     "status": 2,
                     "seconds": "3min39",
                     "file": "maha/03 MAHA - La souris verte.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -68,7 +65,6 @@
                     "status": 2,
                     "seconds": "5min47",
                     "file": "maha/04 MAHA - La Musique.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -79,7 +75,6 @@
                     "status": 2,
                     "seconds": "2min35",
                     "file": "maha/05 MAHA - L'enfer des enregistrements.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -90,7 +85,6 @@
                     "status": 2,
                     "seconds": "7min57",
                     "file": "maha/06 MAHA - Les parents, les apéros et moi, et moi, et moi....mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -101,7 +95,6 @@
                     "status": 2,
                     "seconds": "4min39",
                     "file": "maha/07 MAHA - Pierre Desproges.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -112,7 +105,6 @@
                     "status": 2,
                     "seconds": "4min16",
                     "file": "maha/08 MAHA - L'amour.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -123,7 +115,6 @@
                     "status": 2,
                     "seconds": "2min47",
                     "file": "maha/09 MAHA - Jésus.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -134,7 +125,6 @@
                     "status": 2,
                     "seconds": "5min28",
                     "file": "maha/10 MAHA - Le jour qui tiens debout.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -145,7 +135,6 @@
                     "status": 2,
                     "seconds": "6min34",
                     "file": "maha/11 MAHA - Les poètes sont des cons.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -156,7 +145,6 @@
                     "status": 2,
                     "seconds": "4min44",
                     "file": "maha/12 MAHA - La stratégie de l'échec.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -167,7 +155,6 @@
                     "status": 2,
                     "seconds": "6min53",
                     "file": "maha/13 MAHA - Pierre Desproges (encore...).mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -178,7 +165,6 @@
                     "status": 2,
                     "seconds": "4min07",
                     "file": "maha/14 MAHA - Les sales gamins.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -189,7 +175,6 @@
                     "status": 2,
                     "seconds": "3min34",
                     "file": "maha/15 MAHA - La minute de silence.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -200,7 +185,6 @@
                     "status": 2,
                     "seconds": "7min02",
                     "file": "maha/16 MAHA - Bonnané !.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -211,7 +195,6 @@
                     "status": 2,
                     "seconds": "4min46",
                     "file": "maha/17 MAHA - Le creux.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -222,7 +205,6 @@
                     "status": 2,
                     "seconds": "3min16",
                     "file": "maha/18 MAHA - Tecktoniqués.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -233,7 +215,6 @@
                     "status": 2,
                     "seconds": "4min39",
                     "file": "maha/19 MAHA - Démocratie  Non merci !.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -244,7 +225,6 @@
                     "status": 2,
                     "seconds": "3min59",
                     "file": "maha/20 MAHA - La lettre de trop.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -255,7 +235,6 @@
                     "status": 2,
                     "seconds": "6min12",
                     "file": "maha/21 MAHA - Adieu & désolé.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -266,7 +245,6 @@
                     "status": 2,
                     "seconds": "56s",
                     "file": "maha/22 MAHA - Conclusion.mp3",
-                    "percentages": [],
                     "chapters": []
                 }
             ]
@@ -285,7 +263,6 @@
                     "status": 2,
                     "seconds": "1m10s",
                     "file": "maha/MAHA - Secret Intro.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -296,7 +273,6 @@
                     "status": 2,
                     "seconds": "4m47s",
                     "file": "maha/MAHA - L'auto-interview (BONUS).mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -307,7 +283,6 @@
                     "status": 2,
                     "seconds": "30s",
                     "file": "maha/MAHA - Journal du 25 aout 2007 (BONUS).mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -318,7 +293,6 @@
                     "status": 2,
                     "seconds": "28s",
                     "file": "maha/MAHA - Publicité (BONUS).mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -329,7 +303,6 @@
                     "status": 2,
                     "seconds": "2m28s",
                     "file": "maha/MAHA - Le Conte de Noël à la Misterfox.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -340,7 +313,6 @@
                     "status": 2,
                     "seconds": "57s",
                     "file": "maha/MAHA - Wouah Wouah (BONUS).mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -351,7 +323,6 @@
                     "status": 2,
                     "seconds": "8m17s",
                     "file": "maha/MAHA - Making-Of (BONUS).mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -362,7 +333,6 @@
                     "status": 2,
                     "seconds": "13m15s",
                     "file": "maha/24 MAHA - 21.mp3",
-                    "percentages": [],
                     "chapters": []
                 }
             ]
@@ -381,7 +351,6 @@
                     "status": 2,
                     "seconds": "12s",
                     "file": "maha/MAHA - La dispute (BONUS).mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -392,7 +361,6 @@
                     "status": 2,
                     "seconds": "7s",
                     "file": "maha/MAHA - Encore la dispute (BONUS).mp3",
-                    "percentages": [],
                     "chapters": []
                 }
             ]
@@ -411,7 +379,6 @@
                     "status": 2,
                     "seconds": "40s",
                     "file": "maha/MAHA - Trailer 01.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -422,7 +389,6 @@
                     "status": 2,
                     "seconds": "38s",
                     "file": "maha/MAHA - Trailer 02.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -433,7 +399,6 @@
                     "status": 2,
                     "seconds": "29s",
                     "file": "maha/MAHA - Trailer 03.mp3",
-                    "percentages": [],
                     "chapters": []
                 }
             ]

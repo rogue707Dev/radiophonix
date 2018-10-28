@@ -22,7 +22,6 @@ class TrackTableSeeder extends Seeder
                     'published_at' => $this->faker->dateTimeThisDecade(),
                     'length' => $length,
                     'chapters' => $this->createChapters($length),
-                    'percentages' => $this->createPercentages(),
                 ]);
 
                 $track->collection()->associate($collection);
@@ -46,18 +45,5 @@ class TrackTableSeeder extends Seeder
         }
 
         return $chapters;
-    }
-
-    private function createPercentages()
-    {
-        return $this->faker->randomElements(
-            [
-                ['title' => 'Ecriture', 'value' => $this->faker->numberBetween(0, 100)],
-                ['title' => 'Enregistrement', 'value' => $this->faker->numberBetween(0, 100)],
-                ['title' => 'Musique', 'value' => $this->faker->numberBetween(0, 100)],
-                ['title' => 'Mixage', 'value' => $this->faker->numberBetween(0, 100)],
-            ],
-            $this->faker->numberBetween(2, 4)
-        );
     }
 }

@@ -19,7 +19,6 @@ use Radiophonix\Models\Support\HasFakeId;
  * @property int $status
  * @property int $length
  * @property string $url
- * @property array $percentages
  * @property array $chapters
  * @property Carbon $created_at
  * @property Carbon $updated_at
@@ -46,7 +45,6 @@ class Track extends Model
      * @var array
      */
     protected $casts = [
-        'percentages' => 'array',
         'chapters' => 'array',
         'status' => 'int',
     ];
@@ -61,7 +59,6 @@ class Track extends Model
         'published_at',
         'status',
         'length',
-        'percentages',
         'chapters',
         'url',
     ];
