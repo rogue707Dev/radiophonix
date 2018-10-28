@@ -43,6 +43,9 @@
         <main-menu-item name="help" route="help" icon="info" class="layout-menu__item">
             Aide
         </main-menu-item>
+        <main-menu-item name="news" route="news" icon="info" class="layout-menu__item">
+            Nouveautés
+        </main-menu-item>
     </ul>
 </template>
 

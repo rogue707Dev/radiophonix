@@ -10,6 +10,7 @@ import LoginView from '~/pages/Login.vue';
 import ContributeView from '~/pages/Contribute.vue';
 import HelpView from '~/pages/Help.vue';
 import SearchView from '~/pages/Search.vue';
+import NewsView from '~/pages/News.vue';
 
 // Listen pages
 import ListenLayout from '~/pages/listen/Layout.vue';
@@ -181,6 +182,12 @@ const routes = [
                 component: HelpView,
                 name: 'help',
                 meta: { menu: 'help' }
+            },
+            {
+                path: 'nouveautes',
+                component: NewsView,
+                name: 'news',
+                meta: { menu: 'news' }
             },
             {
                 path: 'recherche',
