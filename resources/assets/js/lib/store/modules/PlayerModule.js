@@ -189,6 +189,7 @@ const PlayerModule = {
             if (nextTrack) {
                 dispatch('play', {
                     track: nextTrack,
+                    autoStart: true,
                 });
             } else {
                 commit('stop');
@@ -203,6 +204,7 @@ const PlayerModule = {
             if (nextTrack) {
                 dispatch('play', {
                     track: nextTrack,
+                    autoStart: true,
                 });
             }
 
