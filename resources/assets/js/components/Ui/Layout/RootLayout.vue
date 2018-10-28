@@ -22,6 +22,10 @@
             <slot></slot>
         </div>
 
+        <div class="layout-global__lecteur-footer">
+            <player-footer></player-footer>
+        </div>
+
     </div>
 
 </template>
@@ -32,6 +36,7 @@
     import HeaderMobile from '~/components/menu/HeaderMobile.vue';
     import PlayerNormal from '~/components/player/PlayerNormal.vue';
     import PlayerPlaylist from '~/components/player/PlayerPlaylist.vue';
+    import PlayerFooter from '~/components/player/PlayerFooter.vue';
 
     export default {
         components: {
@@ -39,6 +44,7 @@
             HeaderMobile,
             PlayerNormal,
             PlayerPlaylist,
+            PlayerFooter,
         },
 
         computed: {

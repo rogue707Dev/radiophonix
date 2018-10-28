@@ -4,14 +4,13 @@ le header est masquer en large up
 ======================================================================================================================*/
 .layout-header-mobile {
     display:grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr;
     grid-template-rows: auto;
-
-    height: 100%;
 
     text-align: center;
     align-items: center;
     justify-items: center;
+    padding-right: $btn-navigation;
 
     font-size: px2rem(18);
 

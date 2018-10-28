@@ -1,0 +1,16 @@
+/*======================================================================================================================
+$ CONTENEUR
+le header est masquer en large up
+======================================================================================================================*/
+.layout-player-footer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+    @include media-breakpoint-up(lg) {
+        display: none;
+    }
+}

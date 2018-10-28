@@ -1,7 +1,7 @@
 <template>
     <div class="layout-header-mobile">
 
-        <button class="btn-header-mobile var--menu" @click="toggleMenu" :class="{ 'var--actif': isMenuOpen}">
+        <button class="btn-navigation var--menu" @click="toggleMenu" :class="{ 'var--actif': isMenuOpen}">
             <svg class="burger" viewBox="0 0 30 22" width="30" :class="{ 'var--actif': isMenuOpen}">
                 <path
                         class="burger__line burger__top"
@@ -16,23 +16,10 @@
             <span class="h6">Menu</span>
         </button>
 
-
         <svg width="150px" height="25px" class="fill--blanc mb-1">
             <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
             <use xlink:href="#logo-part2of2"></use>
         </svg>
-
-
-        <button class="btn-header-mobile var--aside" @click="togglePlayer" :class="{ 'var--actif': isPlayerOpen}">
-            <template v-if="isPlayerOpen">
-                <i class="fa fa-close" aria-hidden="true"></i>
-            </template>
-            <template v-else>
-                <svg width="25px" height="25px" class="fill--blanc">
-                    <use xlink:href="#radio"></use>
-                </svg>
-            </template>
-        </button>
 
     </div>
 </template>
