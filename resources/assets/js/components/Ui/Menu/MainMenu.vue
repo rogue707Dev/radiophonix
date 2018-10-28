@@ -43,8 +43,9 @@
         <main-menu-item name="help" route="help" icon="info" class="layout-menu__item">
             Aide
         </main-menu-item>
-        <main-menu-item name="news" route="news" icon="info" class="layout-menu__item">
+        <main-menu-item name="news" route="news" icon="puzzle" class="layout-menu__item var--nouveau">
             Nouveautés
+            <i class="fa fa-circle"></i>
         </main-menu-item>
     </ul>
 </template>

@@ -123,6 +123,35 @@ $ LIEN HOVER
 }
 
 
+/*-----------------------------------------------------------------------------
+$ LIEN AVEC POINT de nouveauté
+-----------------------------------------------------------------------------*/
+.layout-menu__item.var--nouveau {
+    position: relative;
+
+    .fa {
+        position: absolute;
+        color: $rouge;
+    }
+
+    @include media-breakpoint-down(md) {
+        .fa {
+            top: 5px;
+            left: 10px;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .fa {
+            top: 15px;
+            right: 10px;
+        }
+    }
+
+
+}
+
+
 
 
 /*======================================================================================================================

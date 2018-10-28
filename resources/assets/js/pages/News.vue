@@ -1,7 +1,7 @@
 <template>
     <div>
         <headband
-            urlImage="/static/home/faq.jpg"
+            urlImage="/static/home/puzzle.jpg"
             title="Nouveautés"
             subtitle="Quoi de neuf sur Radiophonix ?">
         </headband>
