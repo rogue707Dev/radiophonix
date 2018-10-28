@@ -35,7 +35,6 @@
                     "status": 2,
                     "seconds": 823,
                     "file": "RDA/RDA01.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -46,7 +45,6 @@
                     "status": 2,
                     "seconds": 770,
                     "file": "RDA/RDA02.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -57,7 +55,6 @@
                     "status": 2,
                     "seconds": 1020,
                     "file": "RDA/RDA03.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -68,7 +65,6 @@
                     "status": 2,
                     "seconds": 616,
                     "file": "RDA/RDA04.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -79,7 +75,6 @@
                     "status": 2,
                     "seconds": 783,
                     "file": "RDA/RDA05.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -90,7 +85,6 @@
                     "status": 2,
                     "seconds": 757,
                     "file": "RDA/RDA06.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -101,7 +95,6 @@
                     "status": 2,
                     "seconds": 806,
                     "file": "RDA/RDA07.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -112,7 +105,6 @@
                     "status": 2,
                     "seconds": 1003,
                     "file": "RDA/RDA08.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -123,7 +115,6 @@
                     "status": 2,
                     "seconds": 1290,
                     "file": "RDA/RDA09.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -134,7 +125,6 @@
                     "status": 2,
                     "seconds": 1593,
                     "file": "RDA/RDA10.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -145,7 +135,6 @@
                     "status": 2,
                     "seconds": 2123,
                     "file": "RDA/RDA11.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -156,7 +145,6 @@
                     "status": 2,
                     "seconds": 2574,
                     "file": "RDA/RDA12.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -167,7 +155,6 @@
                     "status": 2,
                     "seconds": 3248,
                     "file": "RDA/RDA13.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -178,7 +165,6 @@
                     "status": 2,
                     "seconds": 3704,
                     "file": "RDA/RDA14.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -189,7 +175,6 @@
                     "status": 2,
                     "seconds": "1h15m1s",
                     "file": "RDA/RDA15.mp3",
-                    "percentages": [],
                     "chapters": []
                 },
                 {
@@ -200,7 +185,6 @@
                     "status": 2,
                     "seconds": "1h52m52s",
                     "file": "RDA/RDA16-FINAL.mp3",
-                    "percentages": [],
                     "chapters": []
                 }
             ]

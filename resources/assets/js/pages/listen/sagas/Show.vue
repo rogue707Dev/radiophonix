@@ -23,8 +23,8 @@
                         :urlImage="saga.images.cover.main"
                         :altImage="saga.name">
                 </cover>
-                <div class="fitre--bleu d-lg-none"></div>
-                <button class="pa-centrer btn btn-outline-theme btn-round btn-lg d-lg-none" @click="playSaga">
+                <div class="fitre--bleu"></div>
+                <button class="pa-centrer btn btn-outline-theme btn-round btn-lg" @click="playSaga">
                     <i aria-hidden="true" class="fa fa-play"></i>
                 </button>
             </template>
@@ -217,6 +217,7 @@
 import { mapActions, mapState } from 'vuex';
 import api from '~/lib/api';
 import { licenceUrl } from '~/lib/services/licence';
+import ticks from '~/lib/services/storage/ticks';
 import TrackLength from '~/components/track/TrackLength.vue';
 import Banner from '~/components/content/Banner.vue';
 import LicenceIcon from '~/components/licence/LicenceIcon.vue';
@@ -314,9 +315,42 @@ export default {
         },
 
         playSaga() {
+            let tick = ticks.get(this.saga.id);
+            let track = {};
+            let percentage = 0;
+
+            if (tick) {
+                for (const collectionKey in this.collections) {
+                    if (!this.collections.hasOwnProperty(collectionKey)) {
+                        continue;
+                    }
+
+                    const tracks = this.collections[collectionKey].tracks || [];
+
+                    for (const trackKey in tracks) {
+                        if (!tracks.hasOwnProperty(trackKey)) {
+                            continue;
+                        }
+
+                        const trackItem = tracks[trackKey];
+
+                        if (trackItem.id == tick.track) {
+                            track = trackItem;
+                            break;
+                        }
+                    }
+                }
+
+                percentage = tick.percentage;
+            } else {
+                track = this.collections[0].tracks[0];
+            }
+
             this.play({
-                track: this.collections[0].tracks[0],
+                autoStart: true,
                 saga: this.saga,
+                track: track,
+                seekPercentage: percentage,
             });
         },
 

@@ -39,7 +39,6 @@ import PublishTrackPublishingView from '~/pages/publish/track/Publishing.vue';
 import PublishTrackInformationsView from '~/pages/publish/track/Informations.vue';
 import PublishTrackFileView from '~/pages/publish/track/File.vue';
 import PublishTrackDateView from '~/pages/publish/track/Date.vue';
-import PublishTrackPercentagesView from '~/pages/publish/track/Percentages.vue';
 import PublishTrackChaptersView from '~/pages/publish/track/Chapters.vue';
 
 // Documentation views
@@ -153,12 +152,6 @@ const routes = [
                                 path: 'date-de-publication',
                                 name: 'publish.track.date',
                                 component: PublishTrackDateView,
-                                meta: { auth: true }
-                            },
-                            {
-                                path: 'pourcentages',
-                                name: 'publish.track.percentages',
-                                component: PublishTrackPercentagesView,
                                 meta: { auth: true }
                             },
                             {

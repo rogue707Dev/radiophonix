@@ -13,8 +13,8 @@
     "stats": {
         "sagas": 1
     },
-    "created_at": "2018-10-27T11:33:38+00:00",
-    "updated_at": "2018-10-27T11:33:38+00:00",
+    "created_at": "2018-10-28T18:09:11+00:00",
+    "updated_at": "2018-10-28T18:09:11+00:00",
     "picture": {
         "main": "/static/mocks/media/storage/1753359144/conversions/inky-main.jpg",
         "thumb": "/static/mocks/media/storage/1753359144/conversions/inky-thumb.jpg"
@@ -42,8 +42,8 @@
                 "collections": 2,
                 "tracks": 13
             },
-            "created_at": "2018-10-27T11:33:42+00:00",
-            "updated_at": "2018-10-27T11:33:42+00:00",
+            "created_at": "2018-10-28T18:09:15+00:00",
+            "updated_at": "2018-10-28T18:09:15+00:00",
             "images": {
                 "cover": {
                     "main": "/static/mocks/media/storage/699624799/conversions/kiponie-stories-main.jpg",

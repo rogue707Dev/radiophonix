@@ -5,8 +5,8 @@
         "name": "La Matruc",
         "synopsis": "Le jeune Eo, informaticien de talent, issu de la culture geek, se retrouve un soir confronté à son destin, suite à certaines manifestations douteuses venant de son ordinateur. Débute ainsi l'aventure parsemée de nouvelles rencontres, d'embuches et d'énigmes, pour ce héros qui ne manque pas d'humour et d'insouciance dans un monde à la fois réel et virtuel...",
         "type": "season",
-        "created_at": "2018-10-27T11:33:43+00:00",
-        "updated_at": "2018-10-27T11:33:43+00:00",
+        "created_at": "2018-10-28T18:09:16+00:00",
+        "updated_at": "2018-10-28T18:09:16+00:00",
         "tracks": [
             {
                 "id": 716217243,
@@ -17,10 +17,9 @@
                 "status": 3,
                 "seconds": 167,
                 "file": "https://audio.radiophonix.org/matrick/matrick01.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 2065516998,
@@ -31,10 +30,9 @@
                 "status": 3,
                 "seconds": 173,
                 "file": "https://audio.radiophonix.org/matrick/matrick02.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 141108741,
@@ -45,10 +43,9 @@
                 "status": 3,
                 "seconds": 184,
                 "file": "https://audio.radiophonix.org/matrick/matrick03.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1458934848,
@@ -59,10 +56,9 @@
                 "status": 3,
                 "seconds": 192,
                 "file": "https://audio.radiophonix.org/matrick/matrick04.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1732395663,
@@ -73,10 +69,9 @@
                 "status": 3,
                 "seconds": 189,
                 "file": "https://audio.radiophonix.org/matrick/matrick05.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 900608202,
@@ -87,10 +82,9 @@
                 "status": 3,
                 "seconds": 347,
                 "file": "https://audio.radiophonix.org/matrick/matrick06.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1111158025,
@@ -101,10 +95,9 @@
                 "status": 3,
                 "seconds": 380,
                 "file": "https://audio.radiophonix.org/matrick/matrick07.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 277306228,
@@ -115,10 +108,9 @@
                 "status": 3,
                 "seconds": 198,
                 "file": "https://audio.radiophonix.org/matrick/matrick08.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 554895795,
@@ -129,10 +121,9 @@
                 "status": 3,
                 "seconds": 362,
                 "file": "https://audio.radiophonix.org/matrick/matrick09.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1317005310,
@@ -143,10 +134,9 @@
                 "status": 3,
                 "seconds": 211,
                 "file": "https://audio.radiophonix.org/matrick/matrick10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 483152957,
@@ -157,10 +147,9 @@
                 "status": 3,
                 "seconds": 381,
                 "file": "https://audio.radiophonix.org/matrick/matrick11.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 760742520,
@@ -171,10 +160,9 @@
                 "status": 3,
                 "seconds": 589,
                 "file": "https://audio.radiophonix.org/matrick/matrick12.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             }
         ]
     },
@@ -184,8 +172,8 @@
         "name": "La Matruc contre-attaque",
         "synopsis": "Suite à la conclusion de la première saison, Eo, Cris d'ET, Morve d'Anus, et Tang sont en train de réparer leur vaisseau Endaleship, qui flotte au milieu de l'océan. Mais ils sont dérangés par l'arrivée d'un autre engin, dont les occupants s'avèrent être des alliés. L'histoire que l'on pensait finie, ne fait alors que commencer...",
         "type": "season",
-        "created_at": "2018-10-27T11:33:43+00:00",
-        "updated_at": "2018-10-27T11:33:43+00:00",
+        "created_at": "2018-10-28T18:09:16+00:00",
+        "updated_at": "2018-10-28T18:09:16+00:00",
         "tracks": [
             {
                 "id": 2074407079,
@@ -196,10 +184,9 @@
                 "status": 3,
                 "seconds": 212,
                 "file": "https://audio.radiophonix.org/matrick/matrick13.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 137408226,
@@ -210,10 +197,9 @@
                 "status": 3,
                 "seconds": 219,
                 "file": "https://audio.radiophonix.org/matrick/matrick14.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1453136673,
@@ -224,10 +210,9 @@
                 "status": 3,
                 "seconds": 194,
                 "file": "https://audio.radiophonix.org/matrick/matrick15.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1743374700,
@@ -238,10 +223,9 @@
                 "status": 3,
                 "seconds": 247,
                 "file": "https://audio.radiophonix.org/matrick/matrick16.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 880125867,
@@ -252,10 +236,9 @@
                 "status": 3,
                 "seconds": 290,
                 "file": "https://audio.radiophonix.org/matrick/matrick17.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1120015382,
@@ -266,10 +249,9 @@
                 "status": 3,
                 "seconds": 216,
                 "file": "https://audio.radiophonix.org/matrick/matrick18.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 321831509,
@@ -280,10 +262,9 @@
                 "status": 3,
                 "seconds": 197,
                 "file": "https://audio.radiophonix.org/matrick/matrick19.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 565883024,
@@ -294,10 +275,9 @@
                 "status": 3,
                 "seconds": 195,
                 "file": "https://audio.radiophonix.org/matrick/matrick20.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1309109983,
@@ -308,10 +288,9 @@
                 "status": 3,
                 "seconds": 227,
                 "file": "https://audio.radiophonix.org/matrick/matrick21.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 479451930,
@@ -322,10 +301,9 @@
                 "status": 3,
                 "seconds": 245,
                 "file": "https://audio.radiophonix.org/matrick/matrick22.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 771721561,
@@ -336,10 +314,9 @@
                 "status": 3,
                 "seconds": 490,
                 "file": "https://audio.radiophonix.org/matrick/matrick23.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 2051827588,
@@ -350,10 +327,9 @@
                 "status": 3,
                 "seconds": 189,
                 "file": "https://audio.radiophonix.org/matrick/matrick24.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 148428227,
@@ -364,10 +340,9 @@
                 "status": 3,
                 "seconds": 203,
                 "file": "https://audio.radiophonix.org/matrick/matrick25.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1495564814,
@@ -378,10 +353,9 @@
                 "status": 3,
                 "seconds": 343,
                 "file": "https://audio.radiophonix.org/matrick/matrick26.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1739681869,
@@ -392,10 +366,9 @@
                 "status": 3,
                 "seconds": 304,
                 "file": "https://audio.radiophonix.org/matrick/matrick27_28.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 874327688,
@@ -406,10 +379,9 @@
                 "status": 3,
                 "seconds": 214,
                 "file": "https://audio.radiophonix.org/matrick/matrick29.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1164549367,
@@ -420,10 +392,9 @@
                 "status": 3,
                 "seconds": 253,
                 "file": "https://audio.radiophonix.org/matrick/matrick30.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 334907698,
@@ -434,10 +405,9 @@
                 "status": 3,
                 "seconds": 205,
                 "file": "https://audio.radiophonix.org/matrick/matrick31.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 541206385,
@@ -448,10 +418,9 @@
                 "status": 3,
                 "seconds": 314,
                 "file": "https://audio.radiophonix.org/matrick/matrick32.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 1320064444,
@@ -462,10 +431,9 @@
                 "status": 3,
                 "seconds": 314,
                 "file": "https://audio.radiophonix.org/matrick/matrick33.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 523977723,
@@ -476,10 +444,9 @@
                 "status": 3,
                 "seconds": 361,
                 "file": "https://audio.radiophonix.org/matrick/matrick34.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             }
         ]
     },
@@ -489,8 +456,8 @@
         "name": "Bonus",
         "synopsis": "",
         "type": "bonus",
-        "created_at": "2018-10-27T11:33:43+00:00",
-        "updated_at": "2018-10-27T11:33:43+00:00",
+        "created_at": "2018-10-28T18:09:16+00:00",
+        "updated_at": "2018-10-28T18:09:16+00:00",
         "tracks": [
             {
                 "id": 763834406,
@@ -501,10 +468,9 @@
                 "status": 3,
                 "seconds": 114,
                 "file": "https://audio.radiophonix.org/matrick/matruc_trailer.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 2048126565,
@@ -515,10 +481,9 @@
                 "status": 3,
                 "seconds": 48,
                 "file": "https://audio.radiophonix.org/matrick/matruc2_teaser.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             },
             {
                 "id": 190864544,
@@ -529,10 +494,9 @@
                 "status": 3,
                 "seconds": 105,
                 "file": "https://audio.radiophonix.org/matrick/matruc_interviewdeb.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:43+00:00",
-                "updated_at": "2018-10-27T11:33:43+00:00"
+                "created_at": "2018-10-28T18:09:16+00:00",
+                "updated_at": "2018-10-28T18:09:16+00:00"
             }
         ]
     }

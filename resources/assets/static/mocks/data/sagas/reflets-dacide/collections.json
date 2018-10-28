@@ -5,8 +5,8 @@
         "name": "Saison 1",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:44+00:00",
-        "updated_at": "2018-10-27T11:33:44+00:00",
+        "created_at": "2018-10-28T18:09:17+00:00",
+        "updated_at": "2018-10-28T18:09:17+00:00",
         "tracks": [
             {
                 "id": 754331620,
@@ -17,10 +17,9 @@
                 "status": 2,
                 "seconds": 823,
                 "file": "https://audio.radiophonix.org/RDA/RDA01.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 2101517347,
@@ -31,10 +30,9 @@
                 "status": 2,
                 "seconds": 770,
                 "file": "https://audio.radiophonix.org/RDA/RDA02.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 196037230,
@@ -45,10 +43,9 @@
                 "status": 2,
                 "seconds": 1020,
                 "file": "https://audio.radiophonix.org/RDA/RDA03.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 1480276141,
@@ -59,10 +56,9 @@
                 "status": 2,
                 "seconds": 616,
                 "file": "https://audio.radiophonix.org/RDA/RDA04.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 1720162024,
@@ -73,10 +69,9 @@
                 "status": 2,
                 "seconds": 783,
                 "file": "https://audio.radiophonix.org/RDA/RDA05.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 924074839,
@@ -87,10 +82,9 @@
                 "status": 2,
                 "seconds": 757,
                 "file": "https://audio.radiophonix.org/RDA/RDA06.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 1147154834,
@@ -101,10 +95,9 @@
                 "status": 2,
                 "seconds": 806,
                 "file": "https://audio.radiophonix.org/RDA/RDA07.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 315420625,
@@ -115,10 +108,9 @@
                 "status": 2,
                 "seconds": 1003,
                 "file": "https://audio.radiophonix.org/RDA/RDA08.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 593058844,
@@ -129,10 +121,9 @@
                 "status": 2,
                 "seconds": 1290,
                 "file": "https://audio.radiophonix.org/RDA/RDA09.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 1906641499,
@@ -143,10 +134,9 @@
                 "status": 2,
                 "seconds": 1593,
                 "file": "https://audio.radiophonix.org/RDA/RDA10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 506591366,
@@ -157,10 +147,9 @@
                 "status": 2,
                 "seconds": 2123,
                 "file": "https://audio.radiophonix.org/RDA/RDA11.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 748574405,
@@ -171,10 +160,9 @@
                 "status": 2,
                 "seconds": 2574,
                 "file": "https://audio.radiophonix.org/RDA/RDA12.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 2112488192,
@@ -185,10 +173,9 @@
                 "status": 2,
                 "seconds": 3248,
                 "file": "https://audio.radiophonix.org/RDA/RDA13.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 175567183,
@@ -199,10 +186,9 @@
                 "status": 2,
                 "seconds": 3704,
                 "file": "https://audio.radiophonix.org/RDA/RDA14.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 1489153930,
@@ -213,10 +199,9 @@
                 "status": 2,
                 "seconds": 4501,
                 "file": "https://audio.radiophonix.org/RDA/RDA15.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             },
             {
                 "id": 1764695497,
@@ -227,10 +212,9 @@
                 "status": 2,
                 "seconds": 6772,
                 "file": "https://audio.radiophonix.org/RDA/RDA16-FINAL.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:44+00:00",
-                "updated_at": "2018-10-27T11:33:44+00:00"
+                "created_at": "2018-10-28T18:09:17+00:00",
+                "updated_at": "2018-10-28T18:09:17+00:00"
             }
         ]
     }

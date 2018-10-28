@@ -87,7 +87,9 @@ class AlphaMock extends Command
             $this->storage->disk('mocks')->allFiles()
         );
 
-        $sagas = Saga::with('collections', 'authors', 'genres')
+        $this->fractal->parseIncludes(['team', 'authors']);
+
+        $sagas = Saga::with('collections', 'authors', 'genres', 'team')
             ->get()
             ->map(function (Saga $saga) {
                 $collections = $saga->collections

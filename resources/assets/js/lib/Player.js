@@ -1,7 +1,7 @@
 import { Howl } from 'howler';
 import store from '~/lib/store';
 import flash from '~/lib/services/flash';
-import storage from "~/lib/services/storage";
+import ticks from "~/lib/services/storage/ticks";
 
 class Player {
     constructor() {
@@ -16,6 +16,8 @@ class Player {
                     const howl = this.howls[key];
 
                     howl.stop();
+
+                    delete this.howls[key];
                 }
             }
         }
@@ -53,12 +55,13 @@ class Player {
         }
 
         this.currentTrack = track;
+
+        return this.howls[track.id];
     }
 
     play(track) {
-        this.load(track);
-
-        this.howls[track.id].play();
+        let howl = this.load(track);
+        setTimeout(() => howl.play(), 500);
     }
 
     currentHowl() {
@@ -145,7 +148,7 @@ class Player {
     }
 
     storePercentage() {
-        storage.set('currentPercentage', this.percentage());
+        ticks.savePercentage(this.percentage());
     }
 }
 

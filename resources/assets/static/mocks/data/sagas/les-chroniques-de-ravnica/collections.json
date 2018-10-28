@@ -5,8 +5,8 @@
         "name": "Épisodes",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:42+00:00",
-        "updated_at": "2018-10-27T11:33:42+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 1655504996,
@@ -17,10 +17,9 @@
                 "status": 3,
                 "seconds": 651,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 01.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 859438755,
@@ -31,10 +30,9 @@
                 "status": 3,
                 "seconds": 333,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 02.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1099279598,
@@ -45,10 +43,9 @@
                 "status": 3,
                 "seconds": 455,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 03.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1846679853,
@@ -59,10 +56,9 @@
                 "status": 3,
                 "seconds": 521,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 04.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1065285480,
@@ -73,10 +69,9 @@
                 "status": 3,
                 "seconds": 390,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 05.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1305126359,
@@ -87,10 +82,9 @@
                 "status": 3,
                 "seconds": 320,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 06.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 441913874,
@@ -101,10 +95,9 @@
                 "status": 3,
                 "seconds": 395,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 07.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 681820241,
@@ -115,10 +108,9 @@
                 "status": 3,
                 "seconds": 513,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 08.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 2031074972,
@@ -129,10 +121,9 @@
                 "status": 3,
                 "seconds": 653,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 09.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 127691995,
@@ -143,10 +134,9 @@
                 "status": 3,
                 "seconds": 831,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1424546054,
@@ -157,10 +147,9 @@
                 "status": 3,
                 "seconds": 492,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 11.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1702147909,
@@ -171,10 +160,9 @@
                 "status": 3,
                 "seconds": 750,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 12.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 868312448,
@@ -185,10 +173,9 @@
                 "status": 3,
                 "seconds": 1001,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 13.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1076745167,
@@ -199,10 +186,9 @@
                 "status": 3,
                 "seconds": 1615,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 14.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1857650698,
@@ -213,10 +199,9 @@
                 "status": 3,
                 "seconds": 1087,
                 "file": "https://audio.radiophonix.org/chroniques-ravnica/Episode 15.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     }

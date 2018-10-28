@@ -1,6 +1,7 @@
 [
     {
         "id": 2147222869,
+        "slug": "fiction-historique",
         "name": "Fiction historique",
         "stats": {
             "sagas": 1
@@ -11,6 +12,7 @@
     },
     {
         "id": 206107536,
+        "slug": "heroic-fantasy",
         "name": "Heroic fantasy",
         "stats": {
             "sagas": 3
@@ -21,6 +23,7 @@
     },
     {
         "id": 1523884511,
+        "slug": "espionnage",
         "name": "Espionnage",
         "stats": {
             "sagas": 1
@@ -31,6 +34,7 @@
     },
     {
         "id": 1797332506,
+        "slug": "parodie",
         "name": "Parodie",
         "stats": {
             "sagas": 2
@@ -41,6 +45,7 @@
     },
     {
         "id": 965594201,
+        "slug": "contemporain",
         "name": "Contemporain",
         "stats": {
             "sagas": 1
@@ -51,6 +56,7 @@
     },
     {
         "id": 1176091268,
+        "slug": "aventure",
         "name": "Aventure",
         "stats": {
             "sagas": 1
@@ -61,6 +67,7 @@
     },
     {
         "id": 392587459,
+        "slug": "monologue",
         "name": "Monologue",
         "stats": {
             "sagas": 1
@@ -71,6 +78,7 @@
     },
     {
         "id": 636667150,
+        "slug": "science-fiction",
         "name": "Science-fiction",
         "stats": {
             "sagas": 1
@@ -81,8 +89,8 @@
     },
     {
         "id": 1918808909,
-        "name": "Médiéval-fantastique",
         "slug": "medieval-fantastique",
+        "name": "Médiéval-fantastique",
         "stats": {
             "sagas": 1
         },

@@ -5,8 +5,8 @@
         "name": "Épisodes",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:40+00:00",
-        "updated_at": "2018-10-27T11:33:40+00:00",
+        "created_at": "2018-10-28T18:09:13+00:00",
+        "updated_at": "2018-10-28T18:09:13+00:00",
         "tracks": [
             {
                 "id": 2147222869,
@@ -17,10 +17,9 @@
                 "status": 2,
                 "seconds": 910,
                 "file": "https://audio.radiophonix.org/1287/1287-Episode-I-Le-Complot.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:40+00:00",
-                "updated_at": "2018-10-27T11:33:40+00:00"
+                "created_at": "2018-10-28T18:09:13+00:00",
+                "updated_at": "2018-10-28T18:09:13+00:00"
             },
             {
                 "id": 206107536,
@@ -31,10 +30,9 @@
                 "status": 2,
                 "seconds": 1010,
                 "file": "https://audio.radiophonix.org/1287/1287-Episode-II-Un-Alli%C3%A9-venant-du-Nord.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:40+00:00",
-                "updated_at": "2018-10-27T11:33:40+00:00"
+                "created_at": "2018-10-28T18:09:13+00:00",
+                "updated_at": "2018-10-28T18:09:13+00:00"
             },
             {
                 "id": 1523884511,
@@ -45,10 +43,9 @@
                 "status": 2,
                 "seconds": 1143,
                 "file": "https://audio.radiophonix.org/1287/1287-Episode-III-Le-Secret-du-Kaizer.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:40+00:00",
-                "updated_at": "2018-10-27T11:33:40+00:00"
+                "created_at": "2018-10-28T18:09:13+00:00",
+                "updated_at": "2018-10-28T18:09:13+00:00"
             },
             {
                 "id": 1797332506,
@@ -59,10 +56,9 @@
                 "status": 2,
                 "seconds": 877,
                 "file": "https://audio.radiophonix.org/1287/1287-Episode-IV-LOr-du-Comte-Partie-I.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:40+00:00",
-                "updated_at": "2018-10-27T11:33:40+00:00"
+                "created_at": "2018-10-28T18:09:13+00:00",
+                "updated_at": "2018-10-28T18:09:13+00:00"
             },
             {
                 "id": 965594201,
@@ -73,10 +69,9 @@
                 "status": 2,
                 "seconds": 1076,
                 "file": "https://audio.radiophonix.org/1287/1287-Episode-V-Les-Galettes-de-Toulouse.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:40+00:00",
-                "updated_at": "2018-10-27T11:33:40+00:00"
+                "created_at": "2018-10-28T18:09:13+00:00",
+                "updated_at": "2018-10-28T18:09:13+00:00"
             },
             {
                 "id": 1176091268,
@@ -87,10 +82,9 @@
                 "status": 2,
                 "seconds": 1517,
                 "file": "https://audio.radiophonix.org/1287/1287-Episode-VI-La-Dame-de-Fer.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:40+00:00",
-                "updated_at": "2018-10-27T11:33:40+00:00"
+                "created_at": "2018-10-28T18:09:13+00:00",
+                "updated_at": "2018-10-28T18:09:13+00:00"
             },
             {
                 "id": 392587459,
@@ -101,10 +95,9 @@
                 "status": 2,
                 "seconds": 975,
                 "file": "https://audio.radiophonix.org/1287/1287-Episode-VII-Revelation-divine.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:40+00:00",
-                "updated_at": "2018-10-27T11:33:40+00:00"
+                "created_at": "2018-10-28T18:09:13+00:00",
+                "updated_at": "2018-10-28T18:09:13+00:00"
             },
             {
                 "id": 636667150,
@@ -115,10 +108,9 @@
                 "status": 2,
                 "seconds": 1016,
                 "file": "https://audio.radiophonix.org/1287/1287-Episode-VIII-Le-destin-d-un-heros.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:40+00:00",
-                "updated_at": "2018-10-27T11:33:40+00:00"
+                "created_at": "2018-10-28T18:09:13+00:00",
+                "updated_at": "2018-10-28T18:09:13+00:00"
             },
             {
                 "id": 1918808909,
@@ -129,10 +121,9 @@
                 "status": 2,
                 "seconds": 1064,
                 "file": "https://audio.radiophonix.org/1287/1287-Episode-IX-La-fourberie-des-bretons.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:40+00:00",
-                "updated_at": "2018-10-27T11:33:40+00:00"
+                "created_at": "2018-10-28T18:09:13+00:00",
+                "updated_at": "2018-10-28T18:09:13+00:00"
             },
             {
                 "id": 11231624,
@@ -143,10 +134,9 @@
                 "status": 2,
                 "seconds": 988,
                 "file": "https://audio.radiophonix.org/1287/1287-Episode-X-Lultime-Affront.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:40+00:00",
-                "updated_at": "2018-10-27T11:33:40+00:00"
+                "created_at": "2018-10-28T18:09:13+00:00",
+                "updated_at": "2018-10-28T18:09:13+00:00"
             }
         ]
     }

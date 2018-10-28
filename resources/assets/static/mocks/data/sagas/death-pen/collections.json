@@ -5,8 +5,8 @@
         "name": "Épisodes",
         "synopsis": "",
         "type": "season",
-        "created_at": "2018-10-27T11:33:42+00:00",
-        "updated_at": "2018-10-27T11:33:42+00:00",
+        "created_at": "2018-10-28T18:09:15+00:00",
+        "updated_at": "2018-10-28T18:09:15+00:00",
         "tracks": [
             {
                 "id": 1057390153,
@@ -17,10 +17,9 @@
                 "status": 2,
                 "seconds": 470,
                 "file": "https://audio.radiophonix.org/death-pen/Death Pen 01.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1301425332,
@@ -31,10 +30,9 @@
                 "status": 2,
                 "seconds": 306,
                 "file": "https://audio.radiophonix.org/death-pen/Death Pen 02.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 452893427,
@@ -45,10 +43,9 @@
                 "status": 2,
                 "seconds": 389,
                 "file": "https://audio.radiophonix.org/death-pen/Death Pen 03.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 726366014,
@@ -59,10 +56,9 @@
                 "status": 2,
                 "seconds": 331,
                 "file": "https://audio.radiophonix.org/death-pen/Death Pen 04.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 2044142973,
@@ -73,10 +69,9 @@
                 "status": 2,
                 "seconds": 554,
                 "file": "https://audio.radiophonix.org/death-pen/Death Pen 05.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 102994872,
@@ -87,10 +82,9 @@
                 "status": 2,
                 "seconds": 492,
                 "file": "https://audio.radiophonix.org/death-pen/Death Pen 06.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1420837351,
@@ -101,10 +95,9 @@
                 "status": 2,
                 "seconds": 676,
                 "file": "https://audio.radiophonix.org/death-pen/Death Pen 07.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1696349730,
@@ -115,10 +108,9 @@
                 "status": 2,
                 "seconds": 815,
                 "file": "https://audio.radiophonix.org/death-pen/Death Pen 08.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 845737057,
@@ -129,10 +121,9 @@
                 "status": 2,
                 "seconds": 628,
                 "file": "https://audio.radiophonix.org/death-pen/Death Pen 09.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             },
             {
                 "id": 1089821356,
@@ -143,10 +134,9 @@
                 "status": 2,
                 "seconds": 451,
                 "file": "https://audio.radiophonix.org/death-pen/Death Pen 10.mp3",
-                "percentages": [],
                 "chapters": [],
-                "created_at": "2018-10-27T11:33:42+00:00",
-                "updated_at": "2018-10-27T11:33:42+00:00"
+                "created_at": "2018-10-28T18:09:15+00:00",
+                "updated_at": "2018-10-28T18:09:15+00:00"
             }
         ]
     }

@@ -1,6 +1,6 @@
 import AudioPlayer from '~/lib/Player';
 import api from '~/lib/api';
-import storage from '~/lib/services/storage';
+import ticks from '~/lib/services/storage/ticks';
 import store from "~/lib/store/index";
 
 const pageTitle = (saga, track) => track.title + ' ⊙ ' + saga.name;
@@ -85,15 +85,18 @@ const PlayerModule = {
     actions: {
         async play({ state, commit }, payload) {
             if (payload.track.id === state.currentTrack.id) {
+
+                if (!state.isPlaying) {
+                    commit('play');
+                }
                 return;
             }
 
             commit('setCurrentTrack', payload.track);
+            AudioPlayer.load(state.currentTrack, payload.seekPercentage);
+            commit('setPercentage', payload.seekPercentage || 0);
 
-            if (payload.autoStart === false) {
-                AudioPlayer.load(state.currentTrack, payload.seekPercentage);
-            } else {
-                commit('setPercentage', 0);
+            if (payload.autoStart) {
                 commit('setTime', '00:00');
                 commit('play');
             }
@@ -113,8 +116,11 @@ const PlayerModule = {
                 pageTitle(state.currentSaga, state.currentTrack)
             );
 
-            storage.set('currentTrackId', state.currentTrack.id);
-            storage.set('currentSagaId', state.currentSaga.id);
+            ticks.saveTrack(
+                state.currentSaga.id,
+                state.currentTrack.id,
+                payload.seekPercentage || 0
+            );
 
             // Collections are fetch every time a track is played to make
             // sure we are up to date.
