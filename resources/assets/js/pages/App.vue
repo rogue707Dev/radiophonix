@@ -7,7 +7,7 @@
 <script>
     import {mapState} from 'vuex';
     import api from '~/lib/api';
-    import storage from '~/lib/services/storage';
+    import ticks from '~/lib/services/storage/ticks';
 
     export default {
         computed: {
@@ -21,14 +21,20 @@
 
         methods: {
             async loadCurrentTrack() {
-                let currentTrackId = storage.get('currentTrackId');
-                let currentSagaId = storage.get('currentSagaId');
+                let currentTick = ticks.current();
+
+                if (!currentTick) {
+                    return;
+                }
+
+                let currentTrackId = currentTick.track;
+                let currentSagaId = currentTick.saga;
 
                 if (!currentTrackId || !currentSagaId) {
                     return;
                 }
 
-                let currentPercentage = storage.get('currentPercentage', 0);
+                let currentPercentage = currentTick.percentage;
 
                 let sagaResult = api.sagas.get(currentSagaId);
                 let trackResult = api.tracks.get(currentTrackId);
