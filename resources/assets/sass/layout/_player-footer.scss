@@ -10,6 +10,9 @@ le header est masquer en large up
     align-items: center;
     justify-items: center;
 
+    background-color: $bleu-500;
+    border-top: 1px solid $orange-300;
+
     @include media-breakpoint-up(lg) {
         display: none;
     }
