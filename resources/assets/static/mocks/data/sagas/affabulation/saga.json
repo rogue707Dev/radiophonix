@@ -20,8 +20,8 @@
         "collections": 1,
         "tracks": 10
     },
-    "created_at": "2018-10-28T18:09:13+00:00",
-    "updated_at": "2018-10-28T18:09:14+00:00",
+    "created_at": "2018-10-28T19:10:51+00:00",
+    "updated_at": "2018-10-28T19:10:51+00:00",
     "images": {
         "cover": {
             "main": "/static/mocks/media/storage/1420631365/conversions/affabulation-main.jpg",
@@ -45,10 +45,10 @@
             "twitter": "https://twitter.com/TeamJavras"
         },
         "stats": {
-            "sagas": 1
+            "sagas": 3
         },
-        "created_at": "2018-10-28T18:09:11+00:00",
-        "updated_at": "2018-10-28T18:09:11+00:00",
+        "created_at": "2018-10-28T19:10:48+00:00",
+        "updated_at": "2018-10-28T19:10:48+00:00",
         "picture": {
             "main": "/static/mocks/media/storage/1277011276/conversions/CouvJavrasUtipeee-main.jpg",
             "thumb": "/static/mocks/media/storage/1277011276/conversions/CouvJavrasUtipeee-thumb.jpg"
@@ -68,13 +68,13 @@
                 "twitter": null
             },
             "stats": {
-                "sagas": 1
+                "sagas": 3
             },
-            "created_at": "2018-10-28T18:09:11+00:00",
-            "updated_at": "2018-10-28T18:09:11+00:00",
+            "created_at": "2018-10-28T19:10:48+00:00",
+            "updated_at": "2018-10-28T19:10:48+00:00",
             "picture": {
-                "main": "/static/mocks/media/storage/1462912999/conversions/author-main.jpg",
-                "thumb": "/static/mocks/media/storage/1462912999/conversions/author-thumb.jpg"
+                "main": "/static/mocks/media/storage/1462912999/conversions/Artekyon_photo-main.jpg",
+                "thumb": "/static/mocks/media/storage/1462912999/conversions/Artekyon_photo-thumb.jpg"
             }
         }
     ]

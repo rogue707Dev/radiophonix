@@ -1,0 +1,64 @@
+{
+    "name": "Affabulation II",
+    "synopsis": "Après l'épopée de Moineau, le monde d'Albion est toujours en danger. Moineau étant désormais mort, son héritier au trône se nomme Logan, or celui-ci commence à gouverner le peuple avec tyrannie. Heros, son frère, va tout faire pour l'en empêcher. Cependant un autre danger encore plus gros les suit.",
+    "creation_date": "2014-10-24T00:00:00+00:00",
+    "licence": "CC BY-NC-ND",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/Affabulation_II",
+        "site": "https://compagnie-saucisse.jimdo.com/les-sagas-mp3/affabulation-ii/",
+        "topic": null,
+        "rss": null,
+        "facebook": null,
+        "twitter": "https://twitter.com/Artekyon"
+    },
+    "finished": true,
+    "visibility": 0,
+    "images": {
+        "cover": "affabulation2.png"
+    },
+    "genres": [
+        "Heroic fantasy"
+    ],
+    "authors": ["Artekyon"],
+    "team": "Javras",
+    "collections": [
+        {
+            "number": "1",
+            "name": "Épisodes",
+            "synopsis": "",
+            "type": "season",
+            "tracks": [
+                {
+                    "number": "1",
+                    "title": "Un nouveau héros",
+                    "synopsis": "Où on apprend que Heros sera le héros de l'histoire...",
+                    "published_at": "2014-10-24T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "13min18s",
+                    "file": "affabulation2/Episode 1-Un nouveau heros.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "2",
+                    "title": "Chantons la guitare à la main !",
+                    "synopsis": "Où on rencontre des gitans mais aussi des gens frappés",
+                    "published_at": "2015-02-11T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "16min24s",
+                    "file": "affabulation2/Episode 2-Chantons_la_guitare_a_la_main.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "3",
+                    "title": "Brickwall, la ville des fous",
+                    "synopsis": "Où on tente de monter sa notoriété pour se faire respecter !",
+                    "published_at": "2017-08-09T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "11min26s",
+                    "file": "affabulation2/Episode 3-Brickwall_la_ville_des_fous.mp3",
+                    "chapters": []
+                }
+            ]
+        }
+    ]
+}

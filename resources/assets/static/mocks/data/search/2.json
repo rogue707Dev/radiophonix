@@ -22,8 +22,8 @@
                 "collections": 1,
                 "tracks": 10
             },
-            "created_at": "2018-10-28T18:09:13+00:00",
-            "updated_at": "2018-10-28T18:09:13+00:00",
+            "created_at": "2018-10-28T19:10:51+00:00",
+            "updated_at": "2018-10-28T19:10:51+00:00",
             "images": {
                 "cover": {
                     "main": "/static/mocks/media/storage/980669067/conversions/1287cover-main.jpg",
@@ -57,8 +57,8 @@
                 "collections": 1,
                 "tracks": 10
             },
-            "created_at": "2018-10-28T18:09:13+00:00",
-            "updated_at": "2018-10-28T18:09:14+00:00",
+            "created_at": "2018-10-28T19:10:51+00:00",
+            "updated_at": "2018-10-28T19:10:51+00:00",
             "images": {
                 "cover": {
                     "main": "/static/mocks/media/storage/1420631365/conversions/affabulation-main.jpg",
@@ -72,6 +72,41 @@
         },
         {
             "id": 1523884511,
+            "slug": "affabulation-ii",
+            "name": "Affabulation II",
+            "synopsis": "Après l'épopée de Moineau, le monde d'Albion est toujours en danger. Moineau étant désormais mort, son héritier au trône se nomme Logan, or celui-ci commence à gouverner le peuple avec tyrannie. Heros, son frère, va tout faire pour l'en empêcher. Cependant un autre danger encore plus gros les suit.",
+            "creation_date": "2014-10-24T00:00:00+00:00",
+            "licence": "CC BY-NC-ND",
+            "links": {
+                "netowiki": "https://wiki.netophonix.com/Affabulation_II",
+                "site": "https://compagnie-saucisse.jimdo.com/les-sagas-mp3/affabulation-ii/",
+                "topic": null,
+                "rss": null,
+                "facebook": null,
+                "twitter": "https://twitter.com/Artekyon"
+            },
+            "finished": true,
+            "visibility": 0,
+            "stats": {
+                "bravos": 0,
+                "collections": 1,
+                "tracks": 3
+            },
+            "created_at": "2018-10-28T19:10:51+00:00",
+            "updated_at": "2018-10-28T19:10:52+00:00",
+            "images": {
+                "cover": {
+                    "main": "/static/mocks/media/storage/1725454359/conversions/affabulation2-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1725454359/conversions/affabulation2-thumb.jpg",
+                    "meta": {
+                        "color": null,
+                        "type": null
+                    }
+                }
+            }
+        },
+        {
+            "id": 1797332506,
             "slug": "agent-0",
             "name": "Agent 0",
             "synopsis": "Une agence d'espionnage recrute l'Agent 0 et lui confie un gadget ultra-moderne pour mener à bien les missions dont il a la charge. Cependant, l'Agent 0 n'a pas les meilleures capacités en tant que membre de l'Agence.\nUn jour emprisonné, il est libéré par un adolescent sous condition de l'accompagner dans ses missions.",
@@ -92,12 +127,12 @@
                 "collections": 1,
                 "tracks": 30
             },
-            "created_at": "2018-10-28T18:09:14+00:00",
-            "updated_at": "2018-10-28T18:09:14+00:00",
+            "created_at": "2018-10-28T19:10:52+00:00",
+            "updated_at": "2018-10-28T19:10:52+00:00",
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/storage/1725454359/conversions/agent0-main.jpg",
-                    "thumb": "/static/mocks/media/storage/1725454359/conversions/agent0-thumb.jpg",
+                    "main": "/static/mocks/media/storage/1778317966/conversions/agent0-main.jpg",
+                    "thumb": "/static/mocks/media/storage/1778317966/conversions/agent0-thumb.jpg",
                     "meta": {
                         "color": null,
                         "type": null
@@ -106,7 +141,7 @@
             }
         },
         {
-            "id": 1797332506,
+            "id": 965594201,
             "slug": "banal-fantasy",
             "name": "Banal Fantasy",
             "synopsis": "Crad Stripe, ex-membre du SOLDÉ, s'allie au groupe écologique radical \"Chute de Gravier\", dont le but et de détruire les réacteurs de la Shi-ra qui pompent l'énergie vitale de la planète et, du même fait, l'affaiblit. Au même moment, Kissifrotte tente de ressusciter les cellules de JENOVA, descendante des Vieilles Peaux, morts il y a de cela bien longtemps après une rude canicule. Ceci fait, tous deux essaieront de détruire la planète dans un but bien précis. L'équipe, rejointe par Ahéré et Waïkiki, va tenter d'arrêter Kissifrote, ce qu'essaie aussi la Shi-ra.",
@@ -127,47 +162,12 @@
                 "collections": 6,
                 "tracks": 46
             },
-            "created_at": "2018-10-28T18:09:14+00:00",
-            "updated_at": "2018-10-28T18:09:14+00:00",
+            "created_at": "2018-10-28T19:10:52+00:00",
+            "updated_at": "2018-10-28T19:10:52+00:00",
             "images": {
                 "cover": {
-                    "main": "/static/mocks/media/storage/1930664737/conversions/banal-fantasy-main.jpg",
-                    "thumb": "/static/mocks/media/storage/1930664737/conversions/banal-fantasy-thumb.jpg",
-                    "meta": {
-                        "color": null,
-                        "type": null
-                    }
-                }
-            }
-        },
-        {
-            "id": 965594201,
-            "slug": "chez-le-psy",
-            "name": "Chez le Psy",
-            "synopsis": "Wallace Ticot, psychologue excentrique, décide d'enregistrer les délires de ses patients au moyen de cassettes. Dans les deux premières saisons, la majeure partie de la série tourne autour des consultations se déroulant dans son cabinet. Un contexte que les créateurs de Chez le Psy utilisent aussi pour intégrer des membres de la Sagasphère, et certains de leurs personnages. La saison 3 change légèrement de contexte et s'adapte à la nouvelle identité du groupe de créateurs.",
-            "creation_date": "2007-06-29T00:00:00+00:00",
-            "licence": "CC BY-NC 2.0 FR",
-            "links": {
-                "netowiki": "https://wiki.netophonix.com/Chez_le_Psy",
-                "site": "http://www.magoyond.com/",
-                "topic": "https://forum.netophonix.com/ftopic996.html",
-                "rss": null,
-                "facebook": "https://www.facebook.com/magoyond",
-                "twitter": "https://twitter.com/magoyond"
-            },
-            "finished": false,
-            "visibility": 0,
-            "stats": {
-                "bravos": 0,
-                "collections": 9,
-                "tracks": 69
-            },
-            "created_at": "2018-10-28T18:09:15+00:00",
-            "updated_at": "2018-10-28T18:09:15+00:00",
-            "images": {
-                "cover": {
-                    "main": "/static/mocks/media/storage/223274995/conversions/chez-le-psy-main.jpg",
-                    "thumb": "/static/mocks/media/storage/223274995/conversions/chez-le-psy-thumb.jpg",
+                    "main": "/static/mocks/media/storage/2049459544/conversions/banal-fantasy-main.jpg",
+                    "thumb": "/static/mocks/media/storage/2049459544/conversions/banal-fantasy-thumb.jpg",
                     "meta": {
                         "color": null,
                         "type": null
@@ -190,13 +190,13 @@
                 "twitter": null
             },
             "stats": {
-                "sagas": 1
+                "sagas": 3
             },
-            "created_at": "2018-10-28T18:09:11+00:00",
-            "updated_at": "2018-10-28T18:09:11+00:00",
+            "created_at": "2018-10-28T19:10:48+00:00",
+            "updated_at": "2018-10-28T19:10:48+00:00",
             "picture": {
-                "main": "/static/mocks/media/storage/1462912999/conversions/author-main.jpg",
-                "thumb": "/static/mocks/media/storage/1462912999/conversions/author-thumb.jpg"
+                "main": "/static/mocks/media/storage/1462912999/conversions/Artekyon_photo-main.jpg",
+                "thumb": "/static/mocks/media/storage/1462912999/conversions/Artekyon_photo-thumb.jpg"
             }
         },
         {
@@ -214,8 +214,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-10-28T18:09:11+00:00",
-            "updated_at": "2018-10-28T18:09:11+00:00",
+            "created_at": "2018-10-28T19:10:49+00:00",
+            "updated_at": "2018-10-28T19:10:49+00:00",
             "picture": {
                 "main": "/static/mocks/media/storage/1581834270/conversions/author-main.jpg",
                 "thumb": "/static/mocks/media/storage/1581834270/conversions/author-thumb.jpg"
@@ -236,8 +236,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-10-28T18:09:11+00:00",
-            "updated_at": "2018-10-28T18:09:11+00:00",
+            "created_at": "2018-10-28T19:10:49+00:00",
+            "updated_at": "2018-10-28T19:10:49+00:00",
             "picture": {
                 "main": "/static/mocks/media/storage/1634566833/conversions/flo-main.jpg",
                 "thumb": "/static/mocks/media/storage/1634566833/conversions/flo-thumb.jpg"
@@ -258,8 +258,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-10-28T18:09:11+00:00",
-            "updated_at": "2018-10-28T18:09:11+00:00",
+            "created_at": "2018-10-28T19:10:49+00:00",
+            "updated_at": "2018-10-28T19:10:49+00:00",
             "picture": {
                 "main": "/static/mocks/media/storage/1753359144/conversions/inky-main.jpg",
                 "thumb": "/static/mocks/media/storage/1753359144/conversions/inky-thumb.jpg"
@@ -280,8 +280,8 @@
             "stats": {
                 "sagas": 1
             },
-            "created_at": "2018-10-28T18:09:12+00:00",
-            "updated_at": "2018-10-28T18:09:12+00:00",
+            "created_at": "2018-10-28T19:10:49+00:00",
+            "updated_at": "2018-10-28T19:10:49+00:00",
             "picture": {
                 "main": "/static/mocks/media/storage/1939393859/conversions/jbx-main.jpg",
                 "thumb": "/static/mocks/media/storage/1939393859/conversions/jbx-thumb.jpg"

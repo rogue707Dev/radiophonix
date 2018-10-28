@@ -26,6 +26,8 @@ class ListSagas extends ApiController
      */
     public function __invoke(Request $request)
     {
+        $this->include('team', 'authors');
+
         /** @var Saga|Builder $sagas */
         $sagas = Saga::query()->with('team');
 
@@ -36,8 +38,6 @@ class ListSagas extends ApiController
         }
 
         $sagas = $sagas->paginate();
-
-        $this->include('team', 'authors');
 
         return $this->paginator($sagas, new SagaTransformer);
     }
