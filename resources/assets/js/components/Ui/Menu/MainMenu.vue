@@ -46,19 +46,32 @@
         <main-menu-item name="news"
                         route="news"
                         icon="puzzle"
-                        class="layout-menu__item var--nouveau">
+                        class="layout-menu__item"
+                        :class="{'var--nouveau': hasUnreadNews}">
             Nouveautés
-            <i class="fa fa-circle"></i>
+            <i class="fa fa-circle" v-if="hasUnreadNews"></i>
         </main-menu-item>
     </ul>
 </template>
 
 <script>
+    import { mapState } from 'vuex';
     import MainMenuItem from '~/components/Ui/Menu/MainMenuItem';
+    import news from '~/lib/services/storage/news';
 
     export default {
         components: {
             MainMenuItem,
         },
+
+        computed: {
+            ...mapState('ui', [
+                'hasUnreadNews',
+            ]),
+        },
+
+        mounted() {
+            news.loadLastRead();
+        }
     }
 </script>

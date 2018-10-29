@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 
 import routes from '~/routing/routes';
 import store from '~/lib/store';
+import news from '~/lib/services/storage/news';
 
 Vue.use(VueRouter);
 
@@ -18,7 +19,12 @@ let router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
+    if (to.name === 'news') {
+        news.read();
+    }
+
     store.dispatch('ui/closeMenu');
+
     next();
 });
 

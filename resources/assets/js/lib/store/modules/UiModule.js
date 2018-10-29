@@ -36,6 +36,7 @@ const UiModule = {
         playerClass: '',
         playlistClasses: {},
         pageTitle: 'Radiophonix ALPHA',
+        hasUnreadNews: true,
     },
 
     mutations: {
@@ -54,6 +55,8 @@ const UiModule = {
         closePlaylist: (state) => state.playlistClasses.actif = false,
 
         setPageTitle: (state, title) => state.pageTitle = title,
+
+        setHasUnreadNews: (state, read) => state.hasUnreadNews = read,
     },
 
     actions: {
@@ -102,6 +105,14 @@ const UiModule = {
 
         setPageTitle: ({ commit }, title) => {
             commit('setPageTitle', buildTitle(title));
+        },
+
+        masNewsAsRead: ({commit}) => {
+            commit('setHasUnreadNews', false);
+        },
+
+        masNewsAsUnread: ({commit}) => {
+            commit('setHasUnreadNews', true);
         },
     }
 };

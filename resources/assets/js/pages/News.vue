@@ -63,7 +63,7 @@
                         </li>
                         <li>
                             Des urls plus lisibles pour les genres
-                            (merci à <lien-merge-request num="40">Quoc-Viet</lien-merge-request> pour sa première contribution !)
+                            (merci à <lien-merge-request :num="40">Quoc-Viet</lien-merge-request> pour sa première contribution !)
                         <li>
                             Une <a href="https://radiophonix.gitlab.io/Radiophonix/" class="lien-paragraphe">première ébauche de documentation</a> pour le développement.
                         </li>
