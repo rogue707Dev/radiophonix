@@ -13,6 +13,10 @@
         {
             "name": "Pierre TL",
             "homepage": "http://www.pierre.tl"
+        },
+        {
+            "name": "Quoc-Viet Phan",
+            "homepage": "https://gitlab.com/AzOoDev"
         }
     ],
     "require": {
