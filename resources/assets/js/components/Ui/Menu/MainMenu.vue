@@ -46,7 +46,7 @@
         <main-menu-item name="news"
                         route="news"
                         icon="puzzle"
-                        class="layout-menu__item">
+                        class="layout-menu__item var--nouveau">
             Nouveautés
             <i class="fa fa-circle"></i>
         </main-menu-item>
