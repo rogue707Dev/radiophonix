@@ -15,7 +15,7 @@
 
                     <h3 class="h3">Amélioration du player en mobile</h3>
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 mb-2">
                             <p>
                                 Lors d'une lecture d'un épisode en mobile, une barre est maintenant
                                 affichée en bas de l'écran pour accéder au player.<br/>
