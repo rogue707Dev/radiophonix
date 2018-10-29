@@ -32,9 +32,9 @@
                             l'écoute des sagas.<br/>
                             <br/>
                             Ce projet est inspiré par les diverses tentatives de site similaire qui
-                            n'ont hélas jamais vu le jour, notamment l'<a title="Lien wiki Agoraphonix" href="https://wiki.netophonix.com/Agoraphonix">Agoraphonix</a>.<br/>
+                            n'ont hélas jamais vu le jour, notamment l'<a title="Lien wiki Agoraphonix" href="https://wiki.netophonix.com/Agoraphonix" class="lien-paragraphe">Agoraphonix</a>.<br/>
                             Le nom du projet est bien évidemment inspiré de
-                            <a title="Lien Netophonix" href="https://netophonix.com/">Netophonix</a>.
+                            <a title="Lien Netophonix" href="https://netophonix.com/" class="lien-paragraphe">Netophonix</a>.
                         </p>
                     </blockquote>
 
