@@ -26,7 +26,7 @@
                         <div class="col-6">
                             <div class="card mb-4 mb-lg-0">
                                 <img class="card-img-top"
-                                     src="/static/home/nouveau-player-mobile/nouveau-player-mobile-ferme.jpg"
+                                     src="/static/news/nouveau-player-mobile/nouveau-player-mobile-ferme.jpg"
                                      alt="Player fermé">
                                 <div class="card-footer text-muted">
                                     Player audio fermé
@@ -36,7 +36,7 @@
                         <div class="col-6">
                             <div class="card mb-4 mb-lg-0">
                                 <img class="card-img-top"
-                                     src="/static/home/nouveau-player-mobile/nouveau-player-mobile-ouvert.jpg"
+                                     src="/static/news/nouveau-player-mobile/nouveau-player-mobile-ouvert.jpg"
                                      alt="Player ouvert">
                                 <div class="card-footer text-muted">
                                     Player audio ouvert
@@ -45,7 +45,7 @@
                         </div>
                     </div>
 
-                    <h3 class="h3">Les autres nouveautés</h3>
+                    <h3 class="h3 mt-3">Les autres nouveautés</h3>
                     <ul>
                         <li>Le temps de lecture de chaque saga est enregistré (il manque une indication visuelle)</li>
                         <li>L'équipe d'une saga est désormais affichée</li>
@@ -65,7 +65,7 @@
                             Des urls plus lisibles pour les genres
                             (merci à <lien-merge-request num="40">Quoc-Viet</lien-merge-request> pour sa première contribution !)
                         <li>
-                            Une <a href="https://radiophonix.gitlab.io/Radiophonix/">première ébauche de documentation</a> pour le développement.
+                            Une <a href="https://radiophonix.gitlab.io/Radiophonix/" class="lien-paragraphe">première ébauche de documentation</a> pour le développement.
                         </li>
                         <li>
                             Cette page de nouveautés !
