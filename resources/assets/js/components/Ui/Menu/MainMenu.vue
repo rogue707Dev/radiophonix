@@ -46,34 +46,19 @@
         <main-menu-item name="news"
                         route="news"
                         icon="puzzle"
-                        class="layout-menu__item"
-                        :class="{'var--nouveau': hasUnreadNews}"
-                        @click="markNewsAsRead">
+                        class="layout-menu__item">
             Nouveautés
-            <i class="fa fa-circle" v-if="hasUnreadNews"></i>
+            <i class="fa fa-circle"></i>
         </main-menu-item>
     </ul>
 </template>
 
 <script>
     import MainMenuItem from '~/components/Ui/Menu/MainMenuItem';
-    import news from '~/lib/services/storage/news';
 
     export default {
         components: {
             MainMenuItem,
         },
-
-        computed: {
-            hasUnreadNews() {
-                return news.hasUnread();
-            },
-        },
-
-        methods: {
-            markNewsAsRead() {
-                news.read();
-            },
-        }
     }
 </script>
