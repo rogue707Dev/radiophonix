@@ -26,7 +26,7 @@
                          v-for="track in collection.tracks"
                          :key="track.id"
                          :class="{'actif': track.id == currentTrack.id}"
-                         @click="play({track})">
+                         @click="play({track, autoStart: true})">
 
                         <div class="col-1 text-center">
                             <i v-if="track.id == currentTrack.id" class="fa fa-volume-up"></i>
@@ -60,7 +60,6 @@ import { mapState, mapActions } from 'vuex';
 import TrackLength from '~/components/track/TrackLength.vue';
 import TextEllispis from '~/components/text/TextEllipsis.vue';
 
-
 export default {
     components: {
         TrackLength,
@@ -85,4 +84,3 @@ export default {
     }
 }
 </script>
-
