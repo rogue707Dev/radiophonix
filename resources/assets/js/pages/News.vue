@@ -23,20 +23,20 @@
                                 lecture/pause.
                             </p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-4">
                             <div class="card mb-4 mb-lg-0">
                                 <img class="card-img-top"
-                                     src="/static/news/nouveau-player-mobile/nouveau-player-mobile-ferme.jpg"
+                                     src="/static/news/nouveau-player-mobile/nouveau-player-mobile-ferme.png"
                                      alt="Player fermé">
                                 <div class="card-footer text-muted">
                                     Player audio fermé
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-4">
                             <div class="card mb-4 mb-lg-0">
                                 <img class="card-img-top"
-                                     src="/static/news/nouveau-player-mobile/nouveau-player-mobile-ouvert.jpg"
+                                     src="/static/news/nouveau-player-mobile/nouveau-player-mobile-ouvert.png"
                                      alt="Player ouvert">
                                 <div class="card-footer text-muted">
                                     Player audio ouvert
