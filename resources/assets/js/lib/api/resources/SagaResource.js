@@ -13,7 +13,7 @@ SagaResource.popular = function (page) {
 
     return this.client.get(url, {
         page: page,
-        // todo sort by bravos
+        // todo sort by likes
     });
 };
 

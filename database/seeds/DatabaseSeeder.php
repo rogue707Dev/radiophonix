@@ -6,7 +6,7 @@ class DatabaseSeeder extends Seeder
 {
     protected $tables = [
         'authors',
-        'bravos',
+        'likes',
         'collections',
         'genre_saga',
         'genres',
@@ -38,7 +38,7 @@ class DatabaseSeeder extends Seeder
         $this->call(SagaTableSeeder::class);
         $this->call(CollectionTableSeeder::class);
         $this->call(TrackTableSeeder::class);
-        $this->call(BravoTableSeeder::class);
+        $this->call(LikeTableSeeder::class);
 
         Eloquent::reguard();
     }

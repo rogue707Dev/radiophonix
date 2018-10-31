@@ -43,11 +43,11 @@ use Spatie\Sluggable\SlugOptions;
  * @property Carbon $updated_at
  * @property-read Author[] $authors
  * @property-read Team $team
- * @property-read \Illuminate\Database\Eloquent\Collection|Bravo[] $bravos
+ * @property-read \Illuminate\Database\Eloquent\Collection|Like[] $likes
  * @property-read \Illuminate\Database\Eloquent\Collection|Collection[] $collections
  * @property-read \Illuminate\Database\Eloquent\Collection|Genre[] $genres
  * @property-read int $cached_tracks_count
- * @property-read int $cached_bravos_count
+ * @property-read int $cached_likes_count
  * @property-read int $cached_collections_count
  * @method static Builder|Saga filterBy($filters)
  * @method static Builder|Saga paginate()
@@ -240,13 +240,13 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
     }
 
     /**
-     * All the bravos.
+     * All the likes.
      *
      * @return HasMany
      */
-    public function bravos()
+    public function likes()
     {
-        return $this->hasMany(Bravo::class);
+        return $this->hasMany(Like::class);
     }
 
     /**
@@ -305,10 +305,10 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
     /**
      * @return int
      */
-    public function getCachedBravosCountAttribute(): int
+    public function getCachedLikesCountAttribute(): int
     {
-        return $this->cacheCount('bravos', function () {
-            return $this->bravos->count();
+        return $this->cacheCount('likes', function () {
+            return $this->likes->count();
         });
     }
 

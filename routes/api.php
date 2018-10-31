@@ -3,9 +3,9 @@
 use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthors;
 use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthorSagas;
 use Radiophonix\Http\Controllers\Api\V1\Author\ShowAuthor;
-use Radiophonix\Http\Controllers\Api\V1\Bravo\AddBravo;
-use Radiophonix\Http\Controllers\Api\V1\Bravo\ListUserBravos;
-use Radiophonix\Http\Controllers\Api\V1\Bravo\RemoveBravo;
+use Radiophonix\Http\Controllers\Api\V1\Like\AddLike;
+use Radiophonix\Http\Controllers\Api\V1\Like\ListUserLikes;
+use Radiophonix\Http\Controllers\Api\V1\Like\RemoveLike;
 use Radiophonix\Http\Controllers\Api\V1\Collection\DestroyCollection;
 use Radiophonix\Http\Controllers\Api\V1\Collection\ListCollectionTracks;
 use Radiophonix\Http\Controllers\Api\V1\Collection\ShowCollection;
@@ -109,10 +109,10 @@ Route::group(['middleware' => ['jwt.auth']], function () {
         Route::delete('/sagas/{saga}', DestroySaga::class);
     });
 
-    // Bravos
-    Route::get('/bravos', ListUserBravos::class);
-    Route::post('/sagas/{saga}/bravos', AddBravo::class);
-    Route::delete('/sagas/{saga}/bravos', RemoveBravo::class);
+    // Likes
+    Route::get('/likes', ListUserLikes::class);
+    Route::post('/sagas/{saga}/likes', AddLike::class);
+    Route::delete('/sagas/{saga}/likes', RemoveLike::class);
 
     // Subscriptions
     Route::get('/subscriptions', ListUserSubscriptions::class);

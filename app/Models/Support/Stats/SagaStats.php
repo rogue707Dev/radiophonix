@@ -32,9 +32,9 @@ class SagaStats implements Arrayable
     /**
      * @return int
      */
-    public function bravos(): int
+    public function likes(): int
     {
-        return (int)$this->saga->cached_bravos_count;
+        return (int)$this->saga->cached_likes_count;
     }
 
     /**
@@ -51,7 +51,7 @@ class SagaStats implements Arrayable
     public function toArray(): array
     {
         return [
-            'bravos' => $this->bravos(),
+            'likes' => $this->likes(),
             'collections' => $this->collections(),
             'tracks' => $this->tracks(),
         ];

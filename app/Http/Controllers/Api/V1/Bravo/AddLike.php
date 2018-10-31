@@ -1,14 +1,14 @@
 <?php
 
-namespace Radiophonix\Http\Controllers\Api\V1\Bravo;
+namespace Radiophonix\Http\Controllers\Api\V1\Like;
 
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
-use Radiophonix\Models\Bravo;
+use Radiophonix\Models\Like;
 use Radiophonix\Models\Saga;
 use Symfony\Component\HttpFoundation\Response;
 
-class AddBravo extends ApiController
+class AddLike extends ApiController
 {
     /**
      * @param Saga $saga
@@ -20,20 +20,20 @@ class AddBravo extends ApiController
             throw new ModelNotFoundException;
         }
 
-        $bravo = Bravo::where('user_id', '=', $this->user()->id)
+        $like = Like::where('user_id', '=', $this->user()->id)
             ->where('saga_id', $saga->id)
             ->first();
 
-        if ($bravo != null) {
+        if ($like != null) {
             return $this->ok();
         }
 
-        $bravo = new Bravo;
+        $like = new Like;
 
-        $bravo->saga()->associate($saga);
-        $bravo->user()->associate($this->user());
+        $like->saga()->associate($saga);
+        $like->user()->associate($this->user());
 
-        $bravo->save();
+        $like->save();
 
         return $this->ok();
     }

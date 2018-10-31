@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
- * A Bravo is given by a User to a specific Saga.
+ * A Like is given by a User to a specific Saga.
  *
  * @property int $id
  * @property int $saga_id
@@ -17,7 +17,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property-read Saga $saga
  * @property-read User $user
  */
-class Bravo extends Model
+class Like extends Model
 {
     /**
      * @var array
@@ -27,7 +27,7 @@ class Bravo extends Model
     ];
 
     /**
-     * The user who's giving a bravo.
+     * The user who's giving a like.
      *
      * @return BelongsTo
      */

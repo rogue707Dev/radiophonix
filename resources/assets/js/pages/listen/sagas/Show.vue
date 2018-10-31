@@ -32,7 +32,7 @@
             <div class="btn-toolbar mt-3 justify-content-center justify-content-md-start">
                 <div class="statistic-container btn-group btn-group-sm mb-2 mr-2">
                     <button type="button" class="btn btn-outline-secondary disabled">
-                        {{ saga.stats.bravos }} <i aria-hidden="true" class="fa fa-heart"></i>
+                        {{ saga.stats.likes }} <i aria-hidden="true" class="fa fa-heart"></i>
                     </button>
                 </div>
                 <div class="statistic-container btn-group btn-group-sm mb-2 mr-2">

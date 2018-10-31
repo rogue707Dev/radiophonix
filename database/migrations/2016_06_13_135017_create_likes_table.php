@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBravosTable extends Migration
+class CreateLikesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,7 +12,7 @@ class CreateBravosTable extends Migration
      */
     public function up()
     {
-        Schema::create('bravos', function (Blueprint $table) {
+        Schema::create('likes', function (Blueprint $table) {
             $table->increments('id');
 
             $table->unsignedInteger('saga_id');
@@ -32,6 +32,6 @@ class CreateBravosTable extends Migration
      */
     public function down()
     {
-        Schema::drop('bravos');
+        Schema::drop('likes');
     }
 }

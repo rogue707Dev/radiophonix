@@ -1,10 +1,10 @@
 <?php
 
-use Radiophonix\Models\Bravo;
+use Radiophonix\Models\Like;
 use Radiophonix\Models\Saga;
 use Radiophonix\Models\User;
 
-class BravoTableSeeder extends Seeder
+class LikeTableSeeder extends Seeder
 {
     public function run()
     {
@@ -19,11 +19,11 @@ class BravoTableSeeder extends Seeder
                 );
 
             foreach ($randomUsers as $randomUser) {
-                $bravo = new Bravo;
+                $like = new Like;
 
-                $bravo->user()->associate($randomUser);
-                $bravo->saga()->associate($saga);
-                $bravo->save();
+                $like->user()->associate($randomUser);
+                $like->saga()->associate($saga);
+                $like->save();
             }
         }
     }

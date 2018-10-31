@@ -12,10 +12,10 @@ export default {
     sagas: SagaResource,
     tracks: TrackResource,
 
-    bravos: {
-        all: () => http.get('/bravos'),
-        add: (sagaId) => http.post('/sagas/' + sagaId + '/bravos'),
-        remove: (sagaId) => http.delete('/sagas/' + sagaId + '/bravos'),
+    likes: {
+        all: () => http.get('/likes'),
+        add: (sagaId) => http.post('/sagas/' + sagaId + '/likes'),
+        remove: (sagaId) => http.delete('/sagas/' + sagaId + '/likes'),
     },
 
     teams: {
