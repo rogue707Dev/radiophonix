@@ -3,10 +3,12 @@ import env from '~/lib/services/env';
 const configs = {
     development: {
         login: true,
+        algolia: false,
     },
 
     production: {
         login: false,
+        algolia: false,
     }
 };
 

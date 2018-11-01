@@ -4,7 +4,7 @@
                 urlImage="/static/home/radio.jpg"
                 title="Écouter">
             <div class="search-headband">
-                <search-form></search-form>
+                <search-form algolia="dark"></search-form>
             </div>
         </headband>
 

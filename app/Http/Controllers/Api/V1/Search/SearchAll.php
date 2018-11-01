@@ -77,7 +77,7 @@ class SearchAll extends ApiController
     {
         $sagas = Saga
             ::search($query)
-            ->where('visibility', '=', Saga::VISIBILITY_PUBLIC)
+//            ->where('visibility', '=', Saga::VISIBILITY_PUBLIC)
             ->get();
 
         return $sagas;
@@ -90,6 +90,8 @@ class SearchAll extends ApiController
     private function searchAuthors($query): Collection
     {
         $authors = Author::search($query)->get();
+
+        $authors->load('teams');
 
         return $authors;
     }
@@ -113,7 +115,7 @@ class SearchAll extends ApiController
     {
         $tracks = Track::search($query)
             // We only want published tracks
-            ->where('published_at', '>=', Carbon::now())
+//            ->where('published_at', '>=', Carbon::now())
             ->get()
             // Each track's collection and saga will be included in the
             // response

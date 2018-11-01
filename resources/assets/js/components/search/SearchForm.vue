@@ -12,6 +12,9 @@
                 </button>
             </div>
         </div>
+        <a href="https://www.algolia.com" target="_blank" v-if="algolia" v-feature="'algolia'">
+            <img :src="algoliaLogo" alt="Algolia" class="mt-2" />
+        </a>
     </form>
 </template>
 
@@ -19,6 +22,14 @@
     import { mapState } from 'vuex';
 
     export default {
+        props: {
+            algolia: {
+                type: String,
+                required: false,
+                default: '',
+            },
+        },
+
         data: () => ({
             query: '',
         }),
@@ -27,6 +38,10 @@
             ...mapState('search', [
                 'isSearching',
             ]),
+
+            algoliaLogo() {
+                return '/static/images/algolia/algolia-' + this.algolia + '.svg';
+            }
         },
 
         methods: {

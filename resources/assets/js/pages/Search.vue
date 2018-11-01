@@ -6,7 +6,7 @@
             urlImage="/static/home/recherche.jpg"
             title="Rechercher">
             <div class="search-headband">
-                <search-form></search-form>
+                <search-form algolia="dark"></search-form>
             </div>
         </headband>
 
@@ -16,7 +16,7 @@
             title="Résultats"
             subtitle="">
             <div class="search-headband">
-                <search-form></search-form>
+                <search-form algolia="dark"></search-form>
             </div>
         </headband>
 

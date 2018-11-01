@@ -35,7 +35,8 @@
         "laravel/scout": "^4.0",
         "yab/laravel-scout-mysql-driver": "^2.0.5",
         "league/color-extractor": "^0.3.2",
-        "marcw/rss-writer": "^0.4.0"
+        "marcw/rss-writer": "^0.4.0",
+        "algolia/algoliasearch-client-php": "^1.27"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
