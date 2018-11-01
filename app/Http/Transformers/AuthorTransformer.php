@@ -9,8 +9,19 @@ use Radiophonix\Models\Author;
 
 class AuthorTransformer extends Transformer
 {
+    /**
+     * @var array
+     */
     protected $defaultIncludes = [
         'picture',
+    ];
+
+    /**
+     * @var array
+     */
+    protected $availableIncludes = [
+        'sagas',
+        'teams',
     ];
 
     /**
@@ -21,10 +32,6 @@ class AuthorTransformer extends Transformer
      */
     public function transform(Author $author)
     {
-        if ($author->relationLoaded('sagas')) {
-            $this->defaultIncludes[] = 'sagas';
-        }
-
         return [
             'id' => $author->fakeId(),
             'slug' => $author->slug,
@@ -64,5 +71,14 @@ class AuthorTransformer extends Transformer
     public function includeSagas(Author $author)
     {
         return $this->collection($author->sagas, new SagaTransformer);
+    }
+
+    /**
+     * @param Author $author
+     * @return Collection
+     */
+    public function includeTeams(Author $author)
+    {
+        return $this->collection($author->teams, new TeamTransformer());
     }
 }

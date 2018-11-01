@@ -44,12 +44,20 @@
                 </div>
             </div>
 
-            <div class="row" v-if="author.sagas">
-                <div class="col-xl-12">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6" v-if="author.sagas">
 
                     <h2 class="h1 mb-4">Sagas</h2>
 
                     <saga-list :sagas="author.sagas"></saga-list>
+
+                </div>
+
+                <div class="col-xl-6 col-lg-6" v-if="author.teams.length">
+
+                    <h2 class="h1 mb-4">Équipes</h2>
+
+                    <team-list :teams="author.teams"></team-list>
 
                 </div>
             </div>
@@ -61,9 +69,10 @@
 
 <script>
 import api from '~/lib/api'
-import Banner from '~/components/content/Banner.vue';
-import SagaList from '~/components/saga/SagaList.vue';
-import Cover from '~/components/content/Cover.vue';
+import Banner from '~/components/content/Banner';
+import SagaList from '~/components/saga/SagaList';
+import TeamList from '~/components/content/List/TeamList';
+import Cover from '~/components/content/Cover';
 
 function nl2br(str) {
     return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1<br/>$2');
@@ -73,7 +82,8 @@ export default {
     components: {
         Banner,
         SagaList,
-        Cover
+        TeamList,
+        Cover,
     },
 
     data: () => ({

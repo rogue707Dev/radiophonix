@@ -43,6 +43,7 @@
                         <router-link :to="{ name: 'listen.authors.show', params: { id: 'yond' } }"
                                      class="lien-paragraphe">Yond</router-link>
                     </li>
+                    <li>Affichage des équipes d'un faiseur sur sa page</li>
                     <li>...</li>
                 </ul>
             </news-entry>

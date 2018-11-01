@@ -2,6 +2,8 @@
 
 namespace Radiophonix\Models;
 
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -20,9 +22,6 @@ use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 
 /**
- * This class is used as a container for the public information about a saga's author.
- * Behind the scenes, an author can be a User or a Team.
- *
  * @property int $id
  * @property string $name
  * @property string $slug
@@ -32,10 +31,11 @@ use Spatie\Sluggable\SlugOptions;
  * @property string $link_topic
  * @property string $link_facebook
  * @property string $link_twitter
- * @property \Carbon\Carbon $created_at
- * @property \Carbon\Carbon $updated_at
+ * @property Carbon $created_at
+ * @property Carbon $updated_at
  * @property-read Model|\Eloquent|User $user
- * @property-read \Illuminate\Database\Eloquent\Collection|Saga[] $sagas
+ * @property-read Collection|Saga[] $sagas
+ * @property-read Collection|Team[] $teams
  * @property-read int $cached_sagas_count
  */
 class Author extends Model implements HasMedia
