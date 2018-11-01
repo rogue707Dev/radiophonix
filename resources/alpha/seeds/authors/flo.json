@@ -2,8 +2,8 @@
     "name": "Flo",
     "bio": "Les premiers épisodes créés par Flo sortaient au rythme d'un épisode par semaine. D'abord diffusés sur un espace Podomatic (qui propose des blogs personnalisables conçus pour du Podcast), ses créations sont désormais hébergées sur un site web complet : Flopod. Le travail de Flo est très apprécié par le membres du Netophonix puisque ses 5 sagas se classent dans le top 50 de la liste des sagas du forum. En dehors de la réalisation de sagas, il propose des détournements vidéos, des dessins et des expériences d'animation.",
     "links": {
-        "netowiki": null,
-        "site": null,
+        "netowiki": "https://wiki.netophonix.com/Flo",
+        "site": "http://flopod.fr/",
         "topic": null,
         "facebook": null,
         "twitter": null
