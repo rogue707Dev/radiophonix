@@ -77,6 +77,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->mapWebRoutes();
         $this->mapApiRoutes();
+        $this->mapRssRoutes();
 
         // Allows the frontend to work with direct links (since Vuejs is using
         // the html5 mode)
@@ -111,5 +112,12 @@ class RouteServiceProvider extends ServiceProvider
         Route::prefix('api/v1')
             ->middleware(['bindings', 'cors'])
             ->group(base_path('routes/api.php'));
+    }
+
+    protected function mapRssRoutes()
+    {
+        Route::prefix('rss')
+            ->middleware(['bindings'])
+            ->group(base_path('routes/rss.php'));
     }
 }

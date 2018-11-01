@@ -37,7 +37,7 @@ class SagaTransformer extends Transformer
                 'netowiki' => $saga->link_netowiki,
                 'site' => $saga->link_site,
                 'topic' => $saga->link_topic,
-                'rss' => $saga->link_rss,
+                'rss' => route('rss.saga', ['saga' => $saga->slug]),
                 'facebook' => $saga->link_facebook,
                 'twitter' => $saga->link_twitter,
             ],

@@ -34,7 +34,8 @@
         "jenssegers/optimus": "^0.2.3",
         "laravel/scout": "^4.0",
         "yab/laravel-scout-mysql-driver": "^2.0.5",
-        "league/color-extractor": "^0.3.2"
+        "league/color-extractor": "^0.3.2",
+        "marcw/rss-writer": "^0.4.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",

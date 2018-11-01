@@ -33,12 +33,11 @@ use Spatie\Sluggable\SlugOptions;
  * @property string $link_netowiki
  * @property string $link_site
  * @property string $link_topic
- * @property string $link_rss
  * @property string $link_facebook
  * @property string $link_twitter
  * @property bool $finished
  * @property int $visibility
- * @property string $last_publish_at
+ * @property Carbon $last_publish_at
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read Author[] $authors
@@ -83,7 +82,6 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
         'link_netowiki',
         'link_site',
         'link_topic',
-        'link_rss',
         'link_facebook',
         'link_twitter',
         'finished',
