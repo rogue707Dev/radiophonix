@@ -27,6 +27,9 @@
                 </div>
             </div>
         </li>
+        <main-menu-item name="home" route="home" icon="maison" class="layout-menu__item">
+            Accueil
+        </main-menu-item>
         <main-menu-item name="search" route="search" icon="rechercher" class="layout-menu__item">
             Rechercher
         </main-menu-item>
