@@ -130,15 +130,14 @@
                                     (<span class="text-primary">{{ saga.team.name }}</span>)
                                 </router-link>
                             </p>
-                            <p v-if="saga.authors[0].id">
+                            <p class="mb-3" v-if="saga.authors[0].id">
                                 <text-ellipsis :text="saga.authors[0].bio" :size="200"></text-ellipsis>
                             </p>
                             <router-link v-if="saga.authors[0].id"
                                          :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }"
-                                         class="btn btn-outline-primary btn-sm my-3">
+                                         class="btn btn-outline-primary btn-sm mb-2">
                                 Voir la biographie
                             </router-link>
-
                             <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.site" v-if="saga.authors[0].links.site">
                                 <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
                             </a>
