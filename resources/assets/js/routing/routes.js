@@ -169,7 +169,7 @@ const routes = [
                 path: 'connexion',
                 component: LoginView,
                 name: 'login',
-                meta: { menu: 'listen' }
+                meta: { menu: 'login' }
             },
             {
                 path: 'contribuer',
