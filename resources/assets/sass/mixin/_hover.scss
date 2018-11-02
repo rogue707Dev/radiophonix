@@ -1,15 +1,28 @@
 /*======================================================================================================================
 $ HOVER
 ======================================================================================================================*/
-@mixin survol($not:"") {
+@mixin survol($not:"", $not2:"") {
     @include media-breakpoint-up(lg) {
 
         @if $not != ""  {
 
-            &:focus:not(#{$not}),
-            &:hover:not(#{$not}) {
-                cursor: pointer;
-                @content;
+            @if $not2 != ""  {
+
+                &:focus:not(#{$not}):not(#{$not2}),
+                &:hover:not(#{$not}):not(#{$not2}) {
+                    cursor: pointer;
+                    @content;
+                }
+            }
+
+            @else {
+
+                &:focus:not(#{$not}),
+                &:hover:not(#{$not}) {
+                    cursor: pointer;
+                    @content;
+                }
+
             }
         }
 

@@ -109,7 +109,7 @@ $ LIEN HOVER
 -----------------------------------------------------------------------------*/
 .layout-menu__item {
 
-    @include survol(".actif"){
+    @include survol(".actif", ".var--logout"){
         color: $blanc;
 
         @include menu__bande-halo {
@@ -151,79 +151,99 @@ $ LIEN AVEC POINT de nouveauté
 
 }
 
-
-
-
 /*======================================================================================================================
-$ ITEM LOGIN
+$ ITEM LOGIN/LOGOUT
 ======================================================================================================================*/
-.layout-menu__item-log {
-    display: flex;
+
+/*-----------------------------------------------------------------------------
+$ LOGIN
+-----------------------------------------------------------------------------*/
+.layout-menu__item.var--login {
+    @include media-breakpoint-down(md) {
+        border-top: 1px dotted $bleu-200;
+    }
+    @include menu__bande-halo {
+        background-color: $bleu-200;
+    }
+    border-bottom: 1px dotted $bleu-200;
+}
+
+/*-----------------------------------------------------------------------------
+$ LOGOUT
+-----------------------------------------------------------------------------*/
+.layout-menu__item.var--logout {
+    align-items: flex-end;
+    border-bottom: 1px dotted $bleu-200;
+}
+.layout-menu__item__avatar {
+    width: $largeur-menu;
+
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------
+$ AFFICHAGE DU SOUS MENU
+-----------------------------------------------------------------------------*/
+@include media-breakpoint-up(lg) {
+    .layout-menu__item.var--logout:hover .layout-menu__navigation{
+        display: grid;
+    }
+}
+
+/*-----------------------------------------------------------------------------
+$ SOUS MENU
+-----------------------------------------------------------------------------*/
+
+
+.layout-menu__navigation {
+
+    @include media-breakpoint-down(md) {
+        display: grid;
+    }
+
+    @include media-breakpoint-up(lg) {
+        display: none;
+        position: fixed;
+        top:0;
+        left: 0;
+    }
+
+
+    min-height: $largeur-menu;
+    grid-template-columns: $largeur-menu 150px;
+    background-color: $bleu-400;
+}
+
+.layout-menu__navigation__img {
+    display: grid;
+    justify-content: center;
     align-items: center;
+    height: 100%;
 
-    svg {
-        fill: $bleu-500;
-    }
-    background: linear-gradient(to right, $orange-200 0%, $orange-100 50%);
-
-
-    color: $bleu-500;
-
-    @include media-breakpoint-up(lg) {
-        flex-direction: column;
-        justify-content: center;
-        min-height: ($largeur-menu - $largeur-bande-menu);
-        font-size: $texte-normal;
-        text-transform: uppercase;
+    img {
+        width: 60px;
     }
 
-    @include media-breakpoint-up(lg) {
+    .cover.var--faiseur:before {
+        border-color: $orange-100;
+    }
 
-        @include menu__bande-halo {
-            background-color: $orange-300;
-
-        }
-
+    &:hover + .layout-menu__navigation__lien .layout-menu__navigation__lien__profil {
+        color: $blanc;
     }
 }
 
-.layout-menu__item-log2 {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 $bleu-300;
-    @include media-breakpoint-up(lg) {
-    }
-}
+.layout-menu__navigation__lien {
+    padding: $espacement-standard--petit;
+    display: grid;
+    align-items: center;
+    font-size: px2rem(14);
+    text-transform: capitalize;
 
-.layout-menu__item-log3 {
-    background:$primary;
-    color: $blanc;
-    svg {
-        fill: $blanc;
-        margin-bottom: 0;
-    }
-
-    border-bottom: 1px solid $bleu-500;
-    box-shadow: 0 1px 0 0 $primary;
-    @include media-breakpoint-up(lg) {
-        @include menu__bande-halo {
-            display: none;
-        }
-    }
-}
-
-.layout-menu__item-log4 {
-    background:$orange-100;
-    color: $bleu-500;
-    svg {
-        fill: $bleu-500;
-        margin-bottom: 0;
-    }
-
-    border-bottom: 1px solid $bleu-500;
-    box-shadow: 0 1px 0 0 $orange-100;
-    @include media-breakpoint-up(lg) {
-        @include menu__bande-halo {
-            display: none;
-        }
+    a:hover{
+        color: $blanc;
     }
 }

@@ -1,33 +1,32 @@
 <template>
     <ul class="layout-conteneur__menu">
-<!--
-        <li class="layout-menu__item-log">
-            <svg width="30px" height="30px">
-                <use xlink:href="#login2"></use>
-            </svg>
-            Connexion
-        </li>
-
-        <main-menu-item name="home" route="home" icon="login2" class="layout-menu__item layout-menu__item-log2">
-            Connexion
-        </main-menu-item>
--->
         <main-menu-item name="login"
                         route="login"
-                        icon="login2"
-                        class="layout-menu__item layout-menu__item-log3"
+                        icon="login"
+                        class="layout-menu__item var--login"
                         v-feature="'login'">
             Connexion
         </main-menu-item>
-         <!--
-        <main-menu-item name="home" route="home" icon="login2" class="layout-menu__item layout-menu__item-log4">
-            Connexion
-        </main-menu-item>
--->
-
-        <main-menu-item name="home" route="home" icon="maison" class="layout-menu__item">
-            Accueil
-        </main-menu-item>
+        <li class="layout-menu__item var--logout" v-feature="'login'">
+            <img class="layout-menu__item__avatar" alt="" src="/static/home/avatar-defaut.png">
+            <div class="layout-menu__navigation">
+                <a href="#profil" class="layout-menu__navigation__img">
+                    <div class="cover var--petit var--faiseur">
+                        <div class="cover__mask">
+                            <img src="/static/home/avatar-defaut.png">
+                        </div>
+                    </div>
+                </a>
+                <div class="layout-menu__navigation__lien">
+                    <a href="#profil" class="layout-menu__navigation__lien__profil">
+                        <i aria-hidden="true" class="fa fa-user"></i> Profil
+                    </a>
+                    <a href="#deco">
+                        <i aria-hidden="true" class="fa fa-lock"></i> Deconnexion
+                    </a>
+                </div>
+            </div>
+        </li>
         <main-menu-item name="search" route="search" icon="rechercher" class="layout-menu__item">
             Rechercher
         </main-menu-item>

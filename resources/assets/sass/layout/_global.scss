@@ -70,6 +70,7 @@ $ MENU
 ======================================================================================================================*/
 .layout-global__menu {
     background: $bleu-500 linear-gradient(to right, rgba($bleu-400,1) 0%,rgba($bleu-400,1) 5px,rgba($bleu-400,0) 5px);
+    z-index: 3; // au dessu de layout-global__lecteur et layout-global__playlist
 
     @include media-breakpoint-down(md) {
         display: none;
@@ -82,7 +83,6 @@ $ MENU
             bottom: 0;
 
             display: inherit;
-            z-index: 3;
 
         }
     }
