@@ -6,11 +6,22 @@ repo_name: Radiophonix
 
 theme:
   name: 'material'
+  logo: 'images/logo.png'
   palette:
-      primary: 'deep orange'
-      accent: 'deep orange'
+      primary: 'light green'
+      accent: 'deep purple'
   feature:
       tabs: true
+
+extra_css:
+    - 'stylesheets/extra.css'
+
+extra:
+    social:
+    - type: 'gitlab'
+      link: 'https://gitlab.com/Radiophonix/Radiophonix'
+    - type: 'twitter'
+      link: 'https://twitter.com/RadiophonixOrg'
 
 nav:
     - Accueil: index.md
