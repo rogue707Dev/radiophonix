@@ -16,6 +16,10 @@ nav:
     - Accueil: index.md
     - Installation:
           - Index: installation/index.md
+          - API sur Windows: installation/api/windows.md
+          - API sur Mac: installation/api/mac.md
+          - API sur Linux: installation/api/linux.md
+          - Front: installation/front.md
     - Feature flags:
       - Index: feature/index.md
 
