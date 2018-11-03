@@ -16,6 +16,8 @@ nav:
     - Accueil: index.md
     - Installation:
           - Index: installation/index.md
+    - Feature flags:
+      - Index: feature/index.md
 
 markdown_extensions:
   - codehilite
