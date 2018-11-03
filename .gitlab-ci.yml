@@ -33,7 +33,7 @@ pages:
             - public
     only:
         changes:
-            - ./doc/**
+            - ./doc/**/*
             - ./mkdocs.yml
         refs:
             - dev
