@@ -111,6 +111,8 @@ $ BANNIERE COVER
 /*======================================================================================================================
 $ ZONE CONTENU
 ======================================================================================================================*/
+$margin-left-zone-contenu: 30px;
+
 .banniere__zone-contenu {
     display: grid;
     align-items: center;
@@ -120,6 +122,63 @@ $ ZONE CONTENU
 
 
     @include media-breakpoint-up(md) {
-        margin-left: 30px;
+        margin-left: $margin-left-zone-contenu;
     }
+}
+
+/*-----------------------------------------------------------------------------
+$ BANDE
+-----------------------------------------------------------------------------*/
+.banniere__zone-contenu__bande {
+    @include reset-ul;
+    position: relative;
+    padding: 12px 0;
+    display: flex;
+    flex-wrap: wrap;
+    @include media-breakpoint-down(sm) {
+        justify-content: center;
+    }
+    @include media-breakpoint-up(md) {
+        background-color: $white;
+        margin-top: $espacement-standard--petit;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .banniere__zone-contenu__bande__item {
+        padding: 0 $espacement-standard--petit;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .banniere__zone-contenu__bande:before,
+    .banniere__zone-contenu__bande:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: $margin-left-zone-contenu;
+        background-color: $white;
+    }
+
+    .banniere__zone-contenu__bande:before {
+        right: 100%;
+    }
+
+    .banniere__zone-contenu__bande:after {
+        left: 100%;
+    }
+
+
+    .banniere__zone-contenu__bande__item {
+        &:first-child:before {
+            display: none;
+        }
+        &:before {
+            display: inline-block;
+            padding: 0 8px;
+            content: "/";
+        }
+    }
+
 }

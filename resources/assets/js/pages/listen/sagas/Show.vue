@@ -29,44 +29,38 @@
                 </button>
             </template>
 
-            <div class="btn-toolbar mt-3 justify-content-center justify-content-md-start">
-                <div class="statistic-container btn-group btn-group-sm mb-2 mr-2">
-                    <button type="button" class="btn btn-outline-secondary disabled">
-                        {{ saga.stats.likes }} <i aria-hidden="true" class="fa fa-heart"></i>
-                    </button>
-                </div>
-                <div class="statistic-container btn-group btn-group-sm mb-2 mr-2">
-                    <template v-if="saga.stats.collections == 1">
-                        <button type="button" class="btn btn-outline-secondary disabled">
-                            {{ saga.stats.tracks }} épisodes
-                        </button>
-                    </template>
-                    <template v-else>
-                        <button type="button" class="btn btn-outline-secondary disabled">
-                            {{ saga.stats.collections }} saisons
-                        </button>
-                        <button type="button" class="btn btn-outline-secondary disabled">
-                            {{ saga.stats.tracks }} épisodes
-                        </button>
-                    </template>
-                </div>
-                <div class="statistic-container btn-group btn-group-sm mb-2 mr-2">
-                    <router-link tag="button"
-                                 class="btn btn-outline-primary"
+            <ul class="banniere__zone-contenu__bande">
+                <li class="banniere__zone-contenu__bande__item">
+                    {{ saga.stats.likes }} <i aria-hidden="true" class="fa fa-heart"></i>
+                </li>
+                <template v-if="saga.stats.collections == 1">
+                    <li class="banniere__zone-contenu__bande__item">
+                        {{ saga.stats.tracks }} épisodes
+                    </li>
+                </template>
+                <template v-else>
+                    <li class="banniere__zone-contenu__bande__item">
+                        {{ saga.stats.collections }} saisons
+                    </li>
+                    <li class="banniere__zone-contenu__bande__item">
+                        {{ saga.stats.tracks }} épisodes
+                    </li>
+                </template>
+                <li class="banniere__zone-contenu__bande__item" v-if="saga.finished">
+                    Terminée
+                </li>
+                <li class="banniere__zone-contenu__bande__item">
+                    <router-link tag="a"
+                                 class="text-primary"
                                  v-if="genre"
                                  :to="{ name: 'listen.genres.show', params: { id: genre.slug } }">
                         {{ genre.name }}
                     </router-link>
-                </div>
-                <div class="statistic-container btn-group btn-group-sm mb-2" v-if="saga.finished">
-                    <button type="button" class="btn btn-outline-secondary disabled">
-                        Terminée
-                    </button>
-                </div>
-            </div>
+                </li>
+            </ul>
 
             <div v-if="saga.licence">
-                <a :href="licenceUrl" class="skin-icon-cc">
+                <a :href="licenceUrl" class="text-primary skin-icon-cc">
                     <licence-icon :licence="saga.licence"></licence-icon>
                 </a>
             </div>

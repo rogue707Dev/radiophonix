@@ -842,19 +842,6 @@
                 <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
             </div>
 
-            <div>
-                <doc-titre url="/components/buttons/#active-state">
-                    Outline pour afficher des statistique
-                </doc-titre>
-                <div class="btn-toolbar">
-                    <div class="statistic-container btn-group btn-group-sm mr-2">
-                        <button type="button" class="btn btn-outline-secondary disabled">6 saisons</button>
-                    </div>
-                    <div class="statistic-container btn-group btn-group-sm mr-2">
-                        <button class="btn btn-outline-primary">Lien</button>
-                    </div>
-                </div>
-            </div>
             <hr class="my-5">
 
 

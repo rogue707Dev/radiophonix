@@ -72,21 +72,3 @@ fa = class commune a toute les icon font awesome
 .btn:not(.btn-round):not(.btn-homepage) i.fa {
     margin-right: 5px;
 }
-
-
-/*======================================================================================================================
-$ STATISTIQUE DE SAGA
-======================================================================================================================*/
-.statistic-container {
-    .btn-outline-primary:not(:hover) {
-        color: $bleu-300;
-        border-color: $orange-300;
-        background-color: $white;
-    }
-    .btn-outline-secondary.disabled {
-        opacity: 1;
-        background-color: $white;
-        border-color: $bleu-200;
-
-    }
-}
