@@ -23,7 +23,7 @@ virtuelles comme [VirtualBox][virtualbox].
 
 ##### Avec PHP
 
-Si PHP (en version 7.1) est installé sur votre PC, vous pouvez utiliser l'image
+Si PHP (en version 7.2) est installé sur votre PC, vous pouvez utiliser l'image
 Vagrant fournie directement dans le repository de [Radiophonix][vagrantfile].
 
 Cette image est basée sur [Homestead][homestead] et contient tout ce qu'il faut
@@ -66,7 +66,7 @@ sites:
     -
         map: radiophonix.test
         to: /home/vagrant/code/radiophonix/public
-        php: "7.1"
+        php: "7.2"
 ```
 
 Il faut aussi configurer ce domaine dans les hosts du PC :
@@ -108,10 +108,32 @@ sites:
     -
         map: radiophonix.test
         to: /home/vagrant/code/radiophonix/public
-        php: "7.1"
+        php: "7.2"
 
 databases:
     - homestead
+```
+
+##### Imagick
+
+Il faut ensuite installer Imagick sur la VM :
+
+```bash
+# Se rendre dans le dossier contenant Homestead
+$ cd homestead
+
+# Se connecter à la VM
+$ vagrant ssh
+```
+
+Une fois dans la VM :
+
+```bash
+# Installation de imagick
+vagrant@homestead:~$ sudo apt-get update && sudo apt-get install -y imagemagick php-imagick
+
+# Reboot de PHP et Nginx
+vagrant@homestead:~$ sudo service php7.2-fpm restart && sudo service nginx restart
 ```
 
 #### Via Valet
@@ -156,10 +178,10 @@ vagrant@homestead:~$ cd code/radiophonix
 vagrant@homestead:~/code/radiophonix$ composer install
 
 # Créé un lien symbolique pour les uploads
-vagrant@homestead:~/code/radiophonix$ php7.1 artisan storage:link
+vagrant@homestead:~/code/radiophonix$ php artisan storage:link
 
 # Rempli la base de données de sagas
-vagrant@homestead:~/code/radiophonix$ php7.1 artisan alpha:refresh
+vagrant@homestead:~/code/radiophonix$ php artisan alpha:refresh
 ```
 
 #### Avec Valet
