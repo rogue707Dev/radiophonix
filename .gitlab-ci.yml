@@ -36,6 +36,7 @@ pages:
             - dev
         changes:
             - doc/*
+            - mkdocs.yml
 
 build:review:
     stage: build
