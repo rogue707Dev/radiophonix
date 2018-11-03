@@ -32,11 +32,11 @@ pages:
         paths:
             - public
     only:
+        changes:
+            - ./doc/**
+            - ./mkdocs.yml
         refs:
             - dev
-        changes:
-            - doc/*
-            - mkdocs.yml
 
 build:review:
     stage: build
