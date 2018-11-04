@@ -1,8 +1,9 @@
 site_name: Radiophonix
-docs_dir: doc
-site_dir: ./public/doc
+docs_dir: docs
+site_dir: ./public/docs
 repo_url: https://gitlab.com/Radiophonix/Radiophonix
 repo_name: Radiophonix
+edit_uri: edit/dev/docs
 
 theme:
   name: 'material'

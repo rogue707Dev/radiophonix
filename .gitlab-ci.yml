@@ -35,7 +35,7 @@ pages:
     only:
 #        changes:
 #            - mkdocs.yml
-#            - doc/**/*
+#            - docs/**/*
         refs:
             - dev
 
