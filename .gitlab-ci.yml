@@ -33,9 +33,9 @@ pages:
         paths:
             - public
     only:
-        changes:
-            - mkdocs.yml
-            - doc/**/*
+#        changes:
+#            - mkdocs.yml
+#            - doc/**/*
         refs:
             - dev
 
