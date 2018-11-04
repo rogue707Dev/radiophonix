@@ -1,6 +1,6 @@
-title: Installation - Radiophonix
+title: Contribuer au projet - Radiophonix
 
-# Installation
+# Contribuer au projet
 
 Pour développer Radiophonix il faut tout d'abord installer un environnement de
 développement.

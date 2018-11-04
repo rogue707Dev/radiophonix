@@ -26,12 +26,12 @@ extra:
 
 nav:
     - Accueil: index.md
-    - Installation:
-          - Index: installation/index.md
-          - API sur Windows: installation/api/windows.md
-          - API sur Mac: installation/api/mac.md
-          - API sur Linux: installation/api/linux.md
-          - Front: installation/front.md
+    - Contribuer:
+          - Index: contribuer/index.md
+          - API sur Windows: contribuer/api/windows.md
+          - API sur Mac: contribuer/api/mac.md
+          - API sur Linux: contribuer/api/linux.md
+          - Front: contribuer/front.md
     - Feature flags:
       - Index: feature/index.md
 
