@@ -1,3 +1,5 @@
+title: Installation - Radiophonix
+
 # Installation
 
 Pour développer Radiophonix il faut tout d'abord installer un environnement de
