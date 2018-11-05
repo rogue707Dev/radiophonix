@@ -1,12 +1,6 @@
 <template>
     <ul class="layout-conteneur__menu">
-        <main-menu-item name="login"
-                        route="login"
-                        icon="login"
-                        class="layout-menu__item var--login"
-                        v-feature="'login'">
-            Connexion
-        </main-menu-item>
+        <!--Afficher si connecter-->
         <li class="layout-menu__item var--logout" v-feature="'login'">
             <img class="layout-menu__item__avatar" alt="" src="/static/home/avatar-defaut.png">
             <div class="layout-menu__navigation">
@@ -27,6 +21,14 @@
                 </div>
             </div>
         </li>
+        <!--Afficher si non déconnecter-->
+        <main-menu-item name="login"
+                        route="login"
+                        icon="login"
+                        class="layout-menu__item var--login"
+                        v-feature="'login'">
+            Connexion
+        </main-menu-item>
         <main-menu-item name="home" route="home" icon="maison" class="layout-menu__item">
             Accueil
         </main-menu-item>
