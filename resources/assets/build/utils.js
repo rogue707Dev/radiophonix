@@ -6,32 +6,36 @@ exports.assetsPath = function (_path) {
     var assetsSubDirectory = process.env.NODE_ENV === 'production'
         ? config.build.assetsSubDirectory
         : config.dev.assetsSubDirectory;
-    return path.posix.join(assetsSubDirectory, _path)
+
+    return path.posix.join(assetsSubDirectory, _path);
 };
 
 exports.cssLoaders = function (options) {
     options = options || {};
+
     // generate loader string to be used with extract text plugin
     function generateLoaders(loaders) {
         var sourceLoader = loaders.map(function (loader) {
             var extraParamChar;
+
             if (/\?/.test(loader)) {
                 loader = loader.replace(/\?/, '-loader?');
-                extraParamChar = '&'
+                extraParamChar = '&';
             } else {
                 loader = loader + '-loader';
-                extraParamChar = '?'
+                extraParamChar = '?';
             }
-            return loader + (options.sourceMap ? extraParamChar + 'sourceMap' : '')
+
+            return loader + (options.sourceMap ? extraParamChar + 'sourceMap' : '');
         }).join('!');
 
         // Extract CSS when that option is specified
         // (which is the case during production build)
         if (options.extract) {
-            return ExtractTextPlugin.extract('vue-style-loader', sourceLoader)
-        } else {
-            return ['vue-style-loader', sourceLoader].join('!')
+            return ExtractTextPlugin.extract('vue-style-loader', sourceLoader);
         }
+
+        return ['vue-style-loader', sourceLoader].join('!');
     }
 
     // http://vuejs.github.io/vue-loader/en/configurations/extract-css.html
@@ -50,12 +54,15 @@ exports.cssLoaders = function (options) {
 exports.styleLoaders = function (options) {
     var output = [];
     var loaders = exports.cssLoaders(options);
+
     for (var extension in loaders) {
         var loader = loaders[extension];
+
         output.push({
             test: new RegExp('\\.' + extension + '$'),
             loader: loader
-        })
+        });
     }
-    return output
+
+    return output;
 };

@@ -37,9 +37,11 @@ compiler.plugin('compilation', function (compilation) {
 // proxy api requests
 Object.keys(proxyTable).forEach(function (context) {
     var options = proxyTable[context];
+
     if (typeof options === 'string') {
         options = {target: options}
     }
+
     app.use(proxyMiddleware(context, options))
 });
 
@@ -62,7 +64,9 @@ module.exports = app.listen(port, function (err) {
         console.log(err);
         return
     }
+
     var uri = 'http://localhost:' + port;
+
     console.log('Listening at ' + uri + '\n');
 
     // when env is testing, don't need open it

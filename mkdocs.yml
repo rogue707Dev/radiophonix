@@ -1,21 +1,39 @@
 site_name: Radiophonix
-docs_dir: doc
-site_dir: ./public/doc
+docs_dir: docs
+site_dir: ./public/docs
 repo_url: https://gitlab.com/Radiophonix/Radiophonix
 repo_name: Radiophonix
+edit_uri: edit/dev/docs
 
 theme:
   name: 'material'
+  logo: 'images/logo.png'
   palette:
-      primary: 'deep orange'
-      accent: 'deep orange'
+      primary: 'light green'
+      accent: 'deep purple'
   feature:
       tabs: true
 
+extra_css:
+    - 'stylesheets/extra.css'
+
+extra:
+    social:
+    - type: 'gitlab'
+      link: 'https://gitlab.com/Radiophonix/Radiophonix'
+    - type: 'twitter'
+      link: 'https://twitter.com/RadiophonixOrg'
+
 nav:
     - Accueil: index.md
-    - Installation:
-          - Index: installation/index.md
+    - Contribuer:
+          - Index: contribuer/index.md
+          - API sur Windows: contribuer/api/windows.md
+          - API sur Mac: contribuer/api/mac.md
+          - API sur Linux: contribuer/api/linux.md
+          - Front: contribuer/front.md
+    - Feature flags:
+      - Index: feature/index.md
 
 markdown_extensions:
   - codehilite

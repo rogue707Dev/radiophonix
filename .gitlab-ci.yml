@@ -26,16 +26,18 @@ test:unit:
 pages:
     stage: build
     image: cfinfrastructure/mkdocs
+    allow_failure: true
     script:
         - mkdocs build --site-dir ./public
     artifacts:
         paths:
             - public
     only:
+#        changes:
+#            - mkdocs.yml
+#            - docs/**/*
         refs:
             - dev
-        changes:
-            - doc/*
 
 build:review:
     stage: build

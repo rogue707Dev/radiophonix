@@ -1,5 +1,3 @@
-import Vue from 'vue';
-
 const zero = (n) => {
     if (n < 10) {
         return '0' + n;
@@ -8,7 +6,7 @@ const zero = (n) => {
     return n;
 };
 
-const formatDate = function (value) {
+export function formatDate(value) {
     if (value) {
         let date = new Date(value);
 
@@ -20,9 +18,9 @@ const formatDate = function (value) {
     }
 
     return '';
-};
+}
 
-const formatTime = function (value) {
+export function formatTime(value) {
     if (value) {
         let date = new Date(value);
 
@@ -33,12 +31,4 @@ const formatTime = function (value) {
     }
 
     return '';
-};
-
-Vue.filter('formatDate', function (value) {
-    return formatDate(value);
-});
-
-Vue.filter('formatTime', function (value) {
-    return formatTime(value);
-});
+}
