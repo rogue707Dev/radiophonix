@@ -151,8 +151,7 @@ $ BANDE
 }
 
 @include media-breakpoint-up(md) {
-    .banniere__zone-contenu__bande:before,
-    .banniere__zone-contenu__bande:after {
+    .banniere__zone-contenu__bande:before {
         content: "";
         position: absolute;
         top: 0;
@@ -165,10 +164,6 @@ $ BANDE
         right: 100%;
     }
 
-    .banniere__zone-contenu__bande:after {
-        left: 100%;
-    }
-
 
     .banniere__zone-contenu__bande__item {
         &:first-child:before {
@@ -177,7 +172,7 @@ $ BANDE
         &:before {
             display: inline-block;
             padding: 0 8px;
-            content: "/";
+            content: "\02D7";
         }
     }
 

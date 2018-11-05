@@ -46,8 +46,11 @@
                         {{ saga.stats.tracks }} épisodes
                     </li>
                 </template>
+                <li class="banniere__zone-contenu__bande__item">
+                    <i aria-hidden="true" class="fa fa-calendar"></i> {{ saga.creation_date | formatDate }}
+                </li>
                 <li class="banniere__zone-contenu__bande__item" v-if="saga.finished">
-                    Terminée
+                    Saga terminée
                 </li>
                 <li class="banniere__zone-contenu__bande__item">
                     <router-link tag="a"
@@ -59,9 +62,12 @@
                 </li>
             </ul>
 
-            <div v-if="saga.licence">
-                <a :href="licenceUrl" class="text-primary skin-icon-cc">
-                    <licence-icon :licence="saga.licence"></licence-icon>
+            <div class="mt-3">
+                <a :href="licenceUrl" title="Creative commons" class="btn btn-outline-secondary btn-sm mb-2" v-if="saga.licence">
+                    <i aria-hidden="true" class="fa fa-creative-commons"></i>&nbsp;{{saga.licence.substr(3, saga.licence.lenght)}}
+                </a>
+                <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.rss" v-if="saga.links.rss">
+                    <i aria-hidden="true" class="fa fa-rss"></i>&nbsp;Flux RSS
                 </a>
             </div>
 
@@ -71,32 +77,30 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="h1 mb-4">Synopsis</h2>
-                    <p class="text-primary"><i aria-hidden="true" class="fa fa-calendar"></i>
-                        {{ saga.creation_date | formatDate }}</p>
-                    <p class="mb-3">{{ saga.synopsis }}</p>
+                    <h2 class="h1 mb-2">Synopsis</h2>
+                    <p class="mb-2">{{ saga.synopsis }}</p>
+                    <a class="text-blue-500" title="Encyclopédie communautaire sur les sagas MP3" :href="saga.links.netowiki" v-if="saga.links.netowiki">
+                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp&nbsp;Netowiki <br>
+                    </a>
+                    <a class="text-blue-500" title="Forum sur les sagas MP3" :href="saga.links.topic" v-if="saga.links.topic">
+                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp&nbsp;Netophonix <br>
+                    </a>
+
+
+                    <h2 class="h1 mt-4 mb-2" v-if="saga.links">Liens officiels</h2>
                     <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.site" v-if="saga.links.site">
-                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
+                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp&nbsp;Site web
                     </a>
                     <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.facebook" title="Facebook" v-if="saga.links.facebook">
-                        <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
+                        <i aria-hidden="true" class="fa fa-facebook"></i>&nbsp;Facebook
                     </a>
                     <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.twitter" title="Twitter" v-if="saga.links.twitter">
-                        <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
-                    </a>
-                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.netowiki" v-if="saga.links.netowiki">
-                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
-                    </a>
-                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.topic" v-if="saga.links.topic">
-                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
-                    </a>
-                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.rss" v-if="saga.links.rss">
-                        <i aria-hidden="true" class="fa fa-rss"></i>&nbsp;Flux RSS
+                        <i aria-hidden="true" class="fa fa-twitter"></i>&nbsp;Twitter
                     </a>
                 </div>
                 <div class="col-md-6">
 
-                    <h2 class="h1 mb-4">Faiseur</h2>
+                    <h2 class="h1 mb-2">Faiseur</h2>
 
 
 
@@ -129,24 +133,9 @@
                             </p>
                             <router-link v-if="saga.authors[0].id"
                                          :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }"
-                                         class="btn btn-outline-primary btn-sm mb-2">
+                                         class="btn btn-outline-secondary btn-sm">
                                 Voir la biographie
                             </router-link>
-                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.site" v-if="saga.authors[0].links.site">
-                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Site officiel
-                            </a>
-                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.facebook" title="Facebook" v-if="saga.authors[0].links.facebook">
-                                <i aria-hidden="true" class="fa fa-facebook"></i> Facebook
-                            </a>
-                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.twitter" title="Twitter" v-if="saga.authors[0].links.twitter">
-                                <i aria-hidden="true" class="fa fa-twitter"></i> Twitter
-                            </a>
-                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.netowiki" v-if="saga.authors[0].links.netowiki">
-                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
-                            </a>
-                            <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.authors[0].links.topic" v-if="saga.authors[0].links.topic">
-                                <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
-                            </a>
                         </div>
                     </div>
 
