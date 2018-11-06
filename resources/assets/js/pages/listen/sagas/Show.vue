@@ -63,9 +63,9 @@
             </ul>
 
             <div class="mt-3">
-                <a :href="licenceUrl" title="Creative commons" class="btn btn-outline-secondary btn-sm mb-2" v-if="saga.licence">
-                    <i aria-hidden="true" class="fa fa-creative-commons"></i>&nbsp;{{saga.licence.substr(3, saga.licence.lenght)}}
-                </a>
+                <licence-link :licence="saga.licence"
+                              class="btn btn-outline-secondary btn-sm mb-2"
+                              v-if="saga.licence" />
                 <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.rss" v-if="saga.links.rss">
                     <i aria-hidden="true" class="fa fa-rss"></i>&nbsp;Flux RSS
                 </a>
@@ -197,7 +197,7 @@ import { licenceUrl } from '~/lib/services/licence';
 import ticks from '~/lib/services/storage/ticks';
 import TrackLength from '~/components/track/TrackLength.vue';
 import Banner from '~/components/content/Banner.vue';
-import LicenceIcon from '~/components/licence/LicenceIcon.vue';
+import LicenceLink from '~/components/licence/LicenceLink.vue';
 import TextEllipsis from '~/components/text/TextEllipsis.vue';
 import CollectionType from '~/components/collection/CollectionType';
 import NavList from '~/components/Ui/Nav/NavList';
@@ -208,7 +208,7 @@ export default {
     components: {
         TrackLength,
         Banner,
-        LicenceIcon,
+        LicenceLink,
         TextEllipsis,
         CollectionType,
         NavList,
