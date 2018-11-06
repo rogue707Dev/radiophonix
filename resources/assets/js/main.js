@@ -1,4 +1,11 @@
+// Vue
 import Vue from 'vue';
+
+// Bootstrap-Vue
+import BootstrapVue from 'bootstrap-vue';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+
+// Radiophonix
 import store from '~/lib/store';
 import router from '~/routing/router';
 import * as filters from '~/lib/vue/filters';
@@ -12,6 +19,8 @@ Object.keys(filters).forEach(key => {
 Object.keys(directives).forEach(key => {
     Vue.directive(key, directives[key]);
 });
+
+Vue.use(BootstrapVue);
 
 export default new Vue({
     router,

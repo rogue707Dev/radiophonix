@@ -48,13 +48,15 @@
                         {{ saga.stats.tracks }} épisodes
                     </li>
                 </template>
-                <li class="banniere__zone-contenu__bande__item">
+                <li class="banniere__zone-contenu__bande__item"
+                    v-b-tooltip.hover.top title="Date de création">
                     <i aria-hidden="true" class="fa fa-calendar"></i> {{ saga.creation_date | formatDate }}
                 </li>
                 <li class="banniere__zone-contenu__bande__item" v-if="saga.finished">
                     Saga terminée
                 </li>
-                <li class="banniere__zone-contenu__bande__item">
+                <li class="banniere__zone-contenu__bande__item"
+                    v-b-tooltip.hover.top title="Genre">
                     <router-link tag="a"
                                  class="text-primary"
                                  v-if="genre"
