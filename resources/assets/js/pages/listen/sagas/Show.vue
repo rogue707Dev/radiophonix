@@ -97,39 +97,37 @@
                 </div>
                 <div class="col-md-6">
 
-                    <h2 class="h1 mb-2">Faiseur</h2>
+                    <h2 class="h1 mb-2" v-if="saga.authors.length > 1">Faiseurs</h2>
+                    <h2 class="h1 mb-2" v-else>Faiseur</h2>
 
 
 
-                    <div class="d-flex flex-row">
+                    <div class="d-flex flex-row"
+                         v-for="author in saga.authors"
+                         :key="author.id"
+                         v-if="author.id">
                         <div>
-                            <router-link v-if="saga.authors[0].id"
-                                         :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }">
+                            <router-link
+                                         :to="{ name: 'listen.authors.show', params: { id: author.slug } }">
                                 <cover
                                         size="petit"
                                         type="faiseur"
-                                        :urlImage="saga.authors[0].picture.thumb"
-                                        :altImage="saga.authors[0].name">
+                                        :urlImage="author.picture.thumb"
+                                        :altImage="author.name">
                                 </cover>
                             </router-link>
                         </div>
                         <div>
                             <p>
-                                <router-link v-if="saga.authors[0].id"
-                                             :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }"
+                                <router-link :to="{ name: 'listen.authors.show', params: { id: author.slug } }"
                                              class="text-primary">
-                                    {{ saga.authors[0].name }}
-                                </router-link>
-                                <router-link v-if="saga.team"
-                                             :to="{ name: 'listen.teams.show', params: { id: saga.team.slug } }">
-                                    (<span class="text-primary">{{ saga.team.name }}</span>)
+                                    {{ author.name }}
                                 </router-link>
                             </p>
-                            <p class="mb-3" v-if="saga.authors[0].id">
-                                <text-ellipsis :text="saga.authors[0].bio" :size="200"></text-ellipsis>
+                            <p class="mb-3">
+                                <text-ellipsis :text="author.bio" :size="200"></text-ellipsis>
                             </p>
-                            <router-link v-if="saga.authors[0].id"
-                                         :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }"
+                            <router-link :to="{ name: 'listen.authors.show', params: { id: author.slug } }"
                                          class="btn btn-outline-secondary btn-sm">
                                 Voir la biographie
                             </router-link>
