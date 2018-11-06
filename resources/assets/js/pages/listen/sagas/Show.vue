@@ -10,10 +10,12 @@
                              :to="{ name: 'listen.authors.show', params: { id: saga.authors[0].slug } }">
                     {{ saga.authors[0].name }}
                 </router-link>
-                <router-link v-if="saga.team"
-                             :to="{ name: 'listen.teams.show', params: { id: saga.team.slug } }">
-                    ({{ saga.team.name }})
-                </router-link>
+                <span v-if="saga.team">
+                    &bull;
+                    <router-link :to="{ name: 'listen.teams.show', params: { id: saga.team.slug } }">
+                        {{ saga.team.name }}
+                    </router-link>
+                </span>
             </template>
 
             <template slot="image">
