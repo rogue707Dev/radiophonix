@@ -40,7 +40,6 @@ class AuthorTransformer extends Transformer
             'links' => [
                 'netowiki' => $author->link_netowiki,
                 'site' => $author->link_site,
-                'topic' => $author->link_topic,
                 'facebook' => $author->link_facebook,
                 'twitter' => $author->link_twitter,
             ],

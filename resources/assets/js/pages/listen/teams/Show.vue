@@ -38,9 +38,6 @@
                     <a class="btn btn-outline-secondary btn-sm mb-2" :href="team.links.netowiki" v-if="team.links.netowiki">
                         <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netowiki
                     </a>
-                    <a class="btn btn-outline-secondary btn-sm mb-2" :href="team.links.topic" v-if="team.links.topic">
-                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;Netophonix
-                    </a>
                 </div>
             </div>
 

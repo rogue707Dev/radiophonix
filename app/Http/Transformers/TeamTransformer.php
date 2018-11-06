@@ -28,7 +28,6 @@ class TeamTransformer extends Transformer
             'links' => [
                 'netowiki' => $team->link_netowiki,
                 'site' => $team->link_site,
-                'topic' => $team->link_topic,
                 'facebook' => $team->link_facebook,
                 'twitter' => $team->link_twitter,
             ],

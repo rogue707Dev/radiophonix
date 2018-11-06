@@ -28,7 +28,6 @@ use Spatie\Sluggable\SlugOptions;
  * @property string $bio
  * @property string $link_netowiki
  * @property string $link_site
- * @property string $link_topic
  * @property string $link_facebook
  * @property string $link_twitter
  * @property Carbon $created_at

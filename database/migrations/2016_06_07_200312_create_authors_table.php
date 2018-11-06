@@ -22,7 +22,6 @@ class CreateAuthorsTable extends Migration
 
             $table->string('link_netowiki')->nullable()->default(null);
             $table->string('link_site')->nullable()->default(null);
-            $table->string('link_topic')->nullable()->default(null);
             $table->string('link_facebook')->nullable()->default(null);
             $table->string('link_twitter')->nullable()->default(null);
 

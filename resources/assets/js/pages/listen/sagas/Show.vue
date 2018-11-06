@@ -82,9 +82,6 @@
                     <a class="text-blue-500" title="Encyclopédie communautaire sur les sagas MP3" :href="saga.links.netowiki" v-if="saga.links.netowiki">
                         <i aria-hidden="true" class="fa fa-globe"></i>&nbsp&nbsp;Netowiki <br>
                     </a>
-                    <a class="text-blue-500" title="Forum sur les sagas MP3" :href="saga.links.topic" v-if="saga.links.topic">
-                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp&nbsp;Netophonix <br>
-                    </a>
 
 
                     <h2 class="h1 mt-4 mb-2" v-if="saga.links">Liens officiels</h2>

@@ -34,7 +34,6 @@ $factory->define(Saga::class, function (Faker $faker) {
         'synopsis' => $faker->text,
         'link_site' => $faker->url,
         'link_netowiki' => $faker->url,
-        'link_topic' => $faker->url,
         'link_facebook' => $faker->url,
         'link_twitter' => $faker->url,
         'creation_date' => $faker->dateTimeThisDecade(),

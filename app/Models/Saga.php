@@ -32,7 +32,6 @@ use Spatie\Sluggable\SlugOptions;
  * @property string $licence
  * @property string $link_netowiki
  * @property string $link_site
- * @property string $link_topic
  * @property string $link_facebook
  * @property string $link_twitter
  * @property bool $finished
@@ -81,7 +80,6 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
         'licence',
         'link_netowiki',
         'link_site',
-        'link_topic',
         'link_facebook',
         'link_twitter',
         'finished',
