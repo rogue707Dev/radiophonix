@@ -1,0 +1,221 @@
+{
+    "name": "Adoprixtoxis",
+    "synopsis": "Un vaisseau spatial arrive à proximité de la planète Adoprixtoxis pour une mission de routine. Mais tout ne va pas se passer comme prévu… Et même RIEN ne va se passer comme prévu. Échoué sur la planète, l’équipage du vaisseau, composé d’incompétents notoires, devra survivre et trouver le moyen de rentrer sur Terre.",
+    "creation_date": "2002-01-01T00:00:00+00:00",
+    "licence": "CC BY-NC 2.0 FR",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/Adoprixtoxis",
+        "site": "http://www.capitainegloomy.com",
+        "facebook": "https://www.facebook.com/NicoTik0/",
+        "twitter": "https://twitter.com/NicoTik0"
+    },
+    "finished": true,
+    "visibility": 0,
+    "images": {
+        "cover": "Adoprixtoxis.png"
+    },
+    "genres": [
+        "Science-fiction"
+    ],
+    "authors": ["Nico", "Matt"],
+    "collections": [
+        {
+            "number": "1",
+            "name": "Épisodes",
+            "synopsis": "",
+            "type": "season",
+            "tracks": [
+                {
+                    "number": "1",
+                    "title": "Le Naufrage",
+                    "synopsis": "Le Capitaine Gloomy et son équipage arrivent en vue de la planète Adoprixtoxis pour y accomplir une mission de routine. Mais tout ne va pas se passer comme prévu…",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "8m36s",
+                    "file": "adoprixtoxis/01v2 - Adoprixtoxis LE NAUFRAGE.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "2",
+                    "title": "Rencontre du 3e type",
+                    "synopsis": "Nos héros, fraîchement crashés sur Adoprixtoxis, commencent à explorer cette mystérieuse planète.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "14m5s",
+                    "file": "adoprixtoxis/02v2 - Adoprixtoxis RENCONTRE DU 3e TYPE.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "3",
+                    "title": "\"On a pas trouvé de titre\"",
+                    "synopsis": "Kevin n’est pas Mort ! Pendant qu’il s’écrase à son tour sur Adoprixtoxis Zluglu et Gloomy chassent de quoi sustenter les groupe.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "6m9s",
+                    "file": "adoprixtoxis/03-Adoprixtoxis-ON-A-PAS-TROUVE-DE-TITRE.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "4",
+                    "title": "La grande évasion",
+                    "synopsis": "Kellogs, Syphilis et KROTE ont étés enfermés dans la plus pire prison de toute la galaxie ! Gloomy et Kevin, aidés de Zluglu, tentent de s’y infiltrer pour les libérer.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "7m31s",
+                    "file": "adoprixtoxis/04-Adoprixtoxis-LA-GRANDE-EVASION.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "5",
+                    "title": "Les égouts",
+                    "synopsis": "Après leur évasion « spectaculaire », nos héros poursuivent leur chemin à travers les égouts.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "8m31s",
+                    "file": "adoprixtoxis/05 - Adoprixtoxis LES EGOUTS.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "6",
+                    "title": "La suite du cinquième",
+                    "synopsis": "Sortis des égouts, nos héros se retrouvent dans ce qui semble être un laboratoire désert. La suite va vous surprendre… Ou pas… Ou bien si… Enfin peut-être… Vous nous direz…",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "8m23s",
+                    "file": "adoprixtoxis/06-Adoprixtoxis LA SUITE DU 5e .mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "7",
+                    "title": "Les abysses",
+                    "synopsis": "Nos héros ont appris qu’un Terrien, seul survivant du crash du vaisseau qu’ils étaient sensés secourir, est maintenu en captivité dans la Zone 51 et demi. A bord d’un sous-marin, ils tentent de rejoindre ce mystérieux complexe caché au fond de l’océan.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "8m1s",
+                    "file": "adoprixtoxis/07-Adoprixtoxis-LES ABYSSES 1.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "8",
+                    "title": "LA ZONE 51 et Demi…",
+                    "synopsis": "La Zone 51 et demi se dresse devant nos héros et… Euh…Non… Attends… Ils sont dedans, donc elle ne se dresse pas devant eux… Mais vous voyez l’idée quoi… Ils sont dans la zone et… Bah ils vont l’explorer quoi.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "9m29s",
+                    "file": "adoprixtoxis/08 - Adoprixtoxis LA ZONE 51.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "9",
+                    "title": "Le 9e épisode",
+                    "synopsis": "Enfermés dans une cellule de la Zone 51 et demi, nos héros se retrouvent confrontés au maître des lieux.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "7m48s",
+                    "file": "adoprixtoxis/09 - Adoprixtoxis LE 9e EPISODE.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "10",
+                    "title": "Glagla",
+                    "synopsis": "Fraîchement échappés de la Zone 51 et demi, nos héros se retrouvent perdus en plein cercle polaire.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "9m1s",
+                    "file": "adoprixtoxis/10 - Adoprixtoxis GLAGLA 1.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "11",
+                    "title": "Terminus",
+                    "synopsis": "Après avoir été sauvé du froid par le réseau de transport en commun de la planète, nos héros poursuivent leur fuite en avant en métro.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "8m43s",
+                    "file": "adoprixtoxis/11 - Adoprixtoxis TERMINUS.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "12",
+                    "title": "Vroum !!!",
+                    "synopsis": "Poursuivis par les soldats de Vador (Qui a définitivement beaucoup trop d’importance dans cette série), le groupe se retrouve au coeur d’une course poursuite à haute vitesse !",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "8m2s",
+                    "file": "adoprixtoxis/12 - Adoprixtoxis VROUM.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "13",
+                    "title": "Blanquette de veau",
+                    "synopsis": "Les effets du trou noir à proximité de la planète Adoprixtoxis sont de plus en plus inquiétants et précipitent nos héros dans des contrées inattendues.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "11m24s",
+                    "file": "adoprixtoxis/13 - Adoprixtoxis BLANQUETTE DE VEAU.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "14",
+                    "title": "L’épave",
+                    "synopsis": "Il est temps pour Zluglu d’expliquer des explications au sujet de ses agissements inexplicables.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "15m30s",
+                    "file": "adoprixtoxis/14 - Adoprixtoxis EPAVE.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "15",
+                    "title": "Phase 2",
+                    "synopsis": "Adoprixtoxis est sur le point d’être engloutie par le trou noir. Prisonniers d’une épave, le groupe doit trouver un moyen de s’en échapper, mais d’autres dangers les attendent dans le vide spatial.",
+                    "published_at": "2002-01-01T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "15m57s",
+                    "file": "adoprixtoxis/15 - Adoprixtoxis PHASE 2.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "16",
+                    "title": "Hyperspace",
+                    "synopsis": "Le groupe s’est infiltré à bord de la station spatiale Zurpienne, celle-là même qui a englouti Adoprixtoxis en générant un trou noir artificiel. Il leur faut maintenant un plan pour s’échapper sans attirer l’attention et rejoindre la Terre.",
+                    "published_at": "2008-02-03T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "19m58s",
+                    "file": "adoprixtoxis/16 - Adoprixtoxis HYPERESPACE.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "17",
+                    "title": "Le début de la fin",
+                    "synopsis": "La station spatiale Zurpienne ayant détruit Adoprixtoxis arrive aux abords de la planète Terre. Nos héros aux prises avec Phobizer, seigneur des Zurpiens. Pourront-ils s’échapper ? Quelle menace pèse sur la Terre ?",
+                    "published_at": "2008-08-07T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "22m22s",
+                    "file": "adoprixtoxis/17- Adoprixtoxis LE DEBUT DE LA FIN.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "18a",
+                    "title": "Mega battle – Part 1",
+                    "synopsis": "La Terre est menacée par un trou noir généré par la station Zurpienne. Le groupe est menacé par le Kiki de Phobizer. L’escadrille Terrienne est menacée par des chasseurs ennemis. La bataille pour la planète mère de l’humanité ne fait que commencer… Et va se terminer aussi d’une façon ou d’une autre vu que c’est le dernier épisode…",
+                    "published_at": "2009-09-12T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "19m58s",
+                    "file": "adoprixtoxis/18 - Adoprixtoxis MEGA BATTLE-part1.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "18b",
+                    "title": "Mega battle – Part 2",
+                    "synopsis": "La Terre est menacée par un trou noir généré par la station Zurpienne. Le groupe est menacé par le Kiki de Phobizer. L’escadrille Terrienne est menacée par des chasseurs ennemis. La bataille pour la planète mère de l’humanité ne fait que commencer… Et va se terminer aussi d’une façon ou d’une autre vu que c’est le dernier épisode…",
+                    "published_at": "2009-09-12T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "15m16s",
+                    "file": "adoprixtoxis/18 - Adoprixtoxis MEGA BATTLE-part2.mp3",
+                    "chapters": []
+                }
+            ]
+        }
+    ]
+}
