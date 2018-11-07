@@ -17,7 +17,8 @@
     "genres": [
         "Heroic fantasy"
     ],
-    "authors": ["NSM Corp"],
+    "authors": ["Alinor", "Szadec"],
+    "team": "NSM Corp",
     "collections": [
         {
             "number": "1",
