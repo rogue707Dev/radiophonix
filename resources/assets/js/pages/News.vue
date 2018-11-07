@@ -44,6 +44,17 @@
                                      class="lien-paragraphe">Yond</router-link>
                     </li>
                     <li>Affichage des équipes d'un faiseur sur sa page</li>
+                    <li>
+                        Ajout de plusieurs faiseurs manquant :
+                        <router-link :to="{ name: 'listen.authors.show', params: { id: 'mathieu-quintin' } }"
+                                     class="lien-paragraphe">Mathieu Quintin</router-link>,
+                        <router-link :to="{ name: 'listen.authors.show', params: { id: 'alinor' } }"
+                                     class="lien-paragraphe">Alinor</router-link>,
+                        <router-link :to="{ name: 'listen.authors.show', params: { id: 'szadec' } }"
+                                     class="lien-paragraphe">Szadec</router-link> et
+                        <router-link :to="{ name: 'listen.authors.show', params: { id: 'luneral' } }"
+                                     class="lien-paragraphe">Luneral</router-link>
+                    </li>
                     <li>...</li>
                 </ul>
             </news-entry>
