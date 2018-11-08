@@ -4,20 +4,19 @@ stages:
     - deploy
     - production
 
-#cache:
-#    untracked: true
-#    key: "$CI_PROJECT_ID"
-#    paths:
-#        - vendor/
-#        - node_modules/
-#        - .yarn
+cache:
+    untracked: true
+    key: "$CI_PROJECT_ID"
+    paths:
+        - composer-cache/
+        - .yarn
 
 test:unit:
     stage: test
     image: edbizarro/gitlab-ci-pipeline-php:7.1
     script:
         - cp .env.testing .env
-        - composer install --prefer-dist --quiet --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --quiet --no-interaction
         - touch storage/database.sqlite
         - php artisan key:generate
         - php artisan jwt:secret --force
@@ -52,15 +51,14 @@ build:review:
         url: http://$CI_ENVIRONMENT_SLUG.radiophonix.org
     script:
         - node --version
-#        - yarn config set cache-folder .yarn
-        - yarn
+        - yarn --pure-lockfile --cache-folder .yarn
         - echo 'RADIOPHONIX_FEATURES_CONFIG=development' > .env
         - echo 'RADIOPHONIX_ENV=review' >> .env
         - echo -n 'RADIOPHONIX_API_URL=http://' >> .env
         - echo -n $CI_ENVIRONMENT_SLUG >> .env
         - echo -n '.radiophonix.org/api/v1/' >> .env
         - npm run build
-        - composer install --prefer-dist --quiet --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --quiet --no-interaction
         - mkdir artefacts
         - cp deploy/Envoy.review.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
@@ -94,7 +92,7 @@ deploy:review:
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
         # Installation de Envoy
-        - composer global require laravel/envoy:^1.4 --prefer-source
+        - COMPOSER_CACHE_DIR=composer-cache composer global require laravel/envoy:^1.4 --prefer-source
     script:
         # Chaque release est dans un dossier nommé selon le slug de la review
         - echo $CI_ENVIRONMENT_SLUG
@@ -135,13 +133,12 @@ build:dev:
         - dev
     script:
         - node --version
-        #        - yarn config set cache-folder .yarn
-        - yarn
+        - yarn --pure-lockfile --cache-folder .yarn
         - echo 'RADIOPHONIX_FEATURES_CONFIG=development' > .env
         - echo 'RADIOPHONIX_ENV=dev' >> .env
         - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" >> .env
         - npm run build
-        - composer install --prefer-dist --quiet --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --quiet --no-interaction
         - mkdir artefacts
         - cp deploy/Envoy.dev.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
@@ -170,7 +167,7 @@ deploy:dev:
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
         # Installation de Envoy
-        - composer global require laravel/envoy:^1.4 --prefer-source
+        - COMPOSER_CACHE_DIR=composer-cache composer global require laravel/envoy:^1.4 --prefer-source
     script:
         - ls -al
         - cp ./artefacts/Envoy.blade.php Envoy.blade.php
@@ -183,13 +180,12 @@ build:staging:
         - master
     script:
         - node --version
-        #        - yarn config set cache-folder .yarn
-        - yarn
+        - yarn --pure-lockfile --cache-folder .yarn
         - echo 'RADIOPHONIX_FEATURES_CONFIG=production' > .env
         - echo 'RADIOPHONIX_ENV=staging' >> .env
         - echo "RADIOPHONIX_API_URL=https://staging.radiophonix.org/api/v1/" >> .env
         - npm run build
-        - composer install --prefer-dist --quiet --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --quiet --no-interaction
         - mkdir artefacts
         - cp deploy/Envoy.staging.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
@@ -220,7 +216,7 @@ deploy:staging:
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
         # Installation de Envoy
-        - composer global require laravel/envoy:^1.4 --prefer-source
+        - COMPOSER_CACHE_DIR=composer-cache composer global require laravel/envoy:^1.4 --prefer-source
     script:
         - ls -al
         - cp ./artefacts/Envoy.blade.php Envoy.blade.php
@@ -233,12 +229,11 @@ build:production:
         - master
     script:
         - node --version
-        #        - yarn config set cache-folder .yarn
-        - yarn
+        - yarn --pure-lockfile --cache-folder .yarn
         - echo 'RADIOPHONIX_FEATURES_CONFIG=production' > .env
         - echo "RADIOPHONIX_API_URL=https://radiophonix.org/api/v1/" >> .env
         - npm run build
-        - composer install --prefer-dist --quiet --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --quiet --no-interaction
         - mkdir artefacts
         - cp deploy/Envoy.production.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
@@ -270,7 +265,7 @@ deploy_production:
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
         # Installation de Envoy
-        - composer global require laravel/envoy:^1.4 --prefer-source
+        - COMPOSER_CACHE_DIR=composer-cache composer global require laravel/envoy:^1.4 --prefer-source
     script:
         - ls -al
         - cp ./artefacts/Envoy.blade.php Envoy.blade.php
