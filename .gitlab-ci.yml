@@ -16,7 +16,7 @@ test:unit:
     image: edbizarro/gitlab-ci-pipeline-php:7.1
     script:
         - cp .env.testing .env
-        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --quiet --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction
         - touch storage/database.sqlite
         - php artisan key:generate
         - php artisan jwt:secret --force
@@ -58,7 +58,7 @@ build:review:
         - echo -n $CI_ENVIRONMENT_SLUG >> .env
         - echo -n '.radiophonix.org/api/v1/' >> .env
         - npm run build
-        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --quiet --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction
         - mkdir artefacts
         - cp deploy/Envoy.review.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
@@ -138,7 +138,7 @@ build:dev:
         - echo 'RADIOPHONIX_ENV=dev' >> .env
         - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" >> .env
         - npm run build
-        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --quiet --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction
         - mkdir artefacts
         - cp deploy/Envoy.dev.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
@@ -185,7 +185,7 @@ build:staging:
         - echo 'RADIOPHONIX_ENV=staging' >> .env
         - echo "RADIOPHONIX_API_URL=https://staging.radiophonix.org/api/v1/" >> .env
         - npm run build
-        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --quiet --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction
         - mkdir artefacts
         - cp deploy/Envoy.staging.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
@@ -233,7 +233,7 @@ build:production:
         - echo 'RADIOPHONIX_FEATURES_CONFIG=production' > .env
         - echo "RADIOPHONIX_API_URL=https://radiophonix.org/api/v1/" >> .env
         - npm run build
-        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --quiet --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction
         - mkdir artefacts
         - cp deploy/Envoy.production.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
