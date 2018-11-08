@@ -11,6 +11,7 @@ import ContributeView from '~/pages/Contribute.vue';
 import HelpView from '~/pages/Help.vue';
 import SearchView from '~/pages/Search.vue';
 import NewsView from '~/pages/News.vue';
+import RoadmapView from '~/pages/Roadmap.vue';
 
 // Listen pages
 import ListenLayout from '~/pages/listen/Layout.vue';
@@ -188,6 +189,12 @@ const routes = [
                 component: NewsView,
                 name: 'news',
                 meta: { menu: 'news' }
+            },
+            {
+                path: 'roadmap',
+                component: RoadmapView,
+                name: 'roadmap',
+                meta: { menu: 'roadmap' }
             },
             {
                 path: 'recherche',

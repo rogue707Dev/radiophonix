@@ -41,11 +41,8 @@
         <main-menu-item name="publish" route="publish" icon="edit" class="layout-menu__item">
             Publier
         </main-menu-item>
-        <main-menu-item name="contribute" route="contribute" icon="contribuer" class="layout-menu__item">
-            Contribuer
-        </main-menu-item>
         <main-menu-item name="help" route="help" icon="info" class="layout-menu__item">
-            Aide
+            FAQ
         </main-menu-item>
         <main-menu-item name="news"
                         route="news"
@@ -54,6 +51,12 @@
                         :class="{'var--nouveau': hasUnreadNews}">
             Nouveautés
             <i class="fa fa-circle" v-if="hasUnreadNews"></i>
+        </main-menu-item>
+        <main-menu-item name="roadmap" route="roadmap" icon="puzzle" class="layout-menu__item">
+            Roadmap
+        </main-menu-item>
+        <main-menu-item name="contribute" route="contribute" icon="contribuer" class="layout-menu__item">
+            Contribuer
         </main-menu-item>
     </ul>
 </template>
