@@ -37,7 +37,7 @@ class ListSagas extends ApiController
             return $this->collection($sagas->get(), new SagaTransformer);
         }
 
-        $sagas = $sagas->paginate();
+        $sagas = $sagas->paginate(25);
 
         return $this->paginator($sagas, new SagaTransformer);
     }
