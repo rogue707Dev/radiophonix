@@ -82,11 +82,19 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2 class="h1 mb-2">Synopsis</h2>
-                    <p class="mb-2">{{ saga.synopsis }}</p>
-                    <a class="text-blue-500" title="Encyclopédie communautaire sur les sagas MP3" :href="saga.links.netowiki" v-if="saga.links.netowiki">
-                        <i aria-hidden="true" class="fa fa-globe"></i>&nbsp&nbsp;Netowiki <br>
-                    </a>
-
+                    <blockquote class="blockquote">
+                        <p>{{ saga.synopsis }}</p>
+                        <footer class="blockquote-footer">
+                            <a
+                                class="lien-paragraphe"
+                                title="Encyclopédie communautaire sur les sagas MP3"
+                                :href="saga.links.netowiki"
+                                v-b-tooltip.hover.top
+                                v-if="saga.links.netowiki">
+                                Netowiki
+                            </a>
+                        </footer>
+                    </blockquote>
 
                     <h2 class="h1 mt-4 mb-2" v-if="saga.links">Liens officiels</h2>
                     <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.site" v-if="saga.links.site">
