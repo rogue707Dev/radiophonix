@@ -17,7 +17,7 @@ class EventServiceProvider extends ServiceProvider
      */
     protected $listen = [
         MediaHasBeenAdded::class => [
-            ImageColorListener::class,
+//            ImageColorListener::class,
         ],
         AuthorSavingEvent::class => [
             SyncNameColumnListener::class,
