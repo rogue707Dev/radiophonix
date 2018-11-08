@@ -22,6 +22,14 @@ test:unit:
         - php artisan jwt:secret --force
         - vendor/bin/phpunit
 
+test:composer-outdated:
+    stage: test
+    image: edbizarro/gitlab-ci-pipeline-php:7.1
+    allow_failure: true
+    script:
+    - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction
+    - composer show -mlDo --strict
+
 pages:
     stage: build
     image: cfinfrastructure/mkdocs
