@@ -1,0 +1,111 @@
+{
+    "name": "La légende de Xantah",
+    "synopsis": "L’équipage d’un vaisseau retrouve une capsule de sauvetage à la dérive dans l’espace depuis plus de 300 ans. Ce qu’ils découvriront à l’intérieur les précipitera dans une périlleuse quête commencée des siècles auparavant : La poursuite de Xantah, un astre légendaire convoité par les plus grandes puissances de la galaxie.",
+    "creation_date": "2010-01-01T00:00:00+00:00",
+    "licence": "CC BY-NC 2.0 FR",
+    "links": {
+        "netowiki": "https://wiki.netophonix.com/La_légende_de_Xantah",
+        "site": "http://www.capitainegloomy.com",
+        "facebook": "https://www.facebook.com/NicoTik0/",
+        "twitter": "https://twitter.com/NicoTik0"
+    },
+    "finished": false,
+    "visibility": 0,
+    "images": {
+        "cover": "Xantah.png"
+    },
+    "genres": [
+        "Science-fiction"
+    ],
+    "authors": ["Nico", "Matt"],
+    "collections": [
+        {
+            "number": "1",
+            "name": "Épisodes",
+            "synopsis": "",
+            "type": "season",
+            "tracks": [
+                {
+                    "number": "01",
+                    "title": "La Capsule",
+                    "synopsis": "L’équipage d’un vaisseau découvre une capsule de sauvetage à la dérive dans l’espace depuis des siècles. Le contenu de cette capsule va les entraîner malgré eux sur la piste d’un des plus grands mystères de la galaxie : Xantah, l’astre de légende.",
+                    "published_at": "2010-12-25T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "17m47s",
+                    "file": "xantah/01-Xantah LA CAPSULE.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "02",
+                    "title": "La Légende",
+                    "synopsis": "La moitié de la galaxie est à la recherche de nos héros et ceux-ci tentent de survivre malgré la prime mise sur leurs têtes. Qui est ce naufragé retrouvé dans la capsule ? Pourquoi est-il recherché ? Qu’est-ce que Xantah ?",
+                    "published_at": "2011-06-17T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "19m3s",
+                    "file": "xantah/02-Xantah-LA-LEGENDE.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "03",
+                    "title": "Le Vaisseau Fantôme",
+                    "synopsis": "Le naufragé est réveillé, mais semble avoir perdu tout souvenir de sa vie antérieure. Pas plus avancé, l’équipage décide de remonter la piste de la capsule en retrouvant le lieu d’où elle a été éjectée 300 ans plus tôt.",
+                    "published_at": "2012-02-23T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "19m57s",
+                    "file": "xantah/03-Xantah-LE-VAISSEAU-FANTOME.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "04",
+                    "title": "Toxine",
+                    "synopsis": "Pris au piège à bord d’un vaisseau fantôme hostile, Gloomy et Rosten tentent de retrouver Kannitsh mais l’étau des Xvarxiate semble se resserrer sur nos héros.",
+                    "published_at": "2012-11-11T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "20m56s",
+                    "file": "xantah/04-Xantah-TOXINE.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "05",
+                    "title": "La Clef",
+                    "synopsis": "Les Xvarxiates ont pris le contrôle du vaisseau fantôme. Rosten et Gloomy n’ont aucune chance de s’échapper. Seul espoir : un vieux naufragé extra terrestre étrangement familier.",
+                    "published_at": "2013-07-24T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "26m32s",
+                    "file": "xantah/05-Xantah-LA-CLEF.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "06",
+                    "title": "Green18",
+                    "synopsis": "La clef a pris le contrôle du vaisseau. Après un saut hyperspatial incontrôlé, le Grey Lady se retrouve à proximité d’une planète où se déroule la plus grande compétition sportive de la galaxie…",
+                    "published_at": "2014-11-16T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "22m22s",
+                    "file": "xantah/06-Xantah-GREEN-18.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "07",
+                    "title": "Farra",
+                    "synopsis": "Les affrontements sur Green 18 se poursuivent et rendent l’exploration de la planète difficile pour Rosten et Gonto qui, en plus, ont perdu la trace de Gloomy…",
+                    "published_at": "2015-10-15T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "33m56s",
+                    "file": "xantah/07-Xantah-FARRA.mp3",
+                    "chapters": []
+                },
+                {
+                    "number": "08",
+                    "title": "Hard Reboot",
+                    "synopsis": "La couverture de nos héros est tombée et nombre de forces convergent vers Green18 pour s’en disputer la capture. Rosten et Gonto envisagent une impossible exfiltration et Gloomy, toujours introuvable, poursuit son exploration souterraine en compagnie de la mystérieuse Farra.",
+                    "published_at": "2018-08-31T00:00:00+00:00",
+                    "status": 2,
+                    "seconds": "56m3s",
+                    "file": "xantah/08-Xantah-HARD-REBOOT.mp3",
+                    "chapters": []
+                }
+            ]
+        }
+    ]
+}

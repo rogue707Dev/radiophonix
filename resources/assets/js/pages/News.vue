@@ -33,6 +33,14 @@
                 <h3 class="h3 mt-3">Les autres nouveautés</h3>
                 <ul>
                     <li>
+                        Deux nouvelles sagas :
+                        <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: 'adoprixtoxis' } }"
+                                     class="lien-paragraphe">Adoprixtoxis</router-link>
+                        et
+                        <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: 'la-legende-de-xantah' } }"
+                                     class="lien-paragraphe">La légende de Xantah</router-link>
+                    </li>
+                    <li>
                         Correction des faiseurs de la saga
                         <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: 'chez-le-psy' } }"
                                      class="lien-paragraphe">Chez le psy</router-link>
