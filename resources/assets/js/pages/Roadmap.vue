@@ -36,7 +36,12 @@
 
             <h2 class="h1">
                 Version Alpha
-                <span class="badge badge-success badge-sm">en cours</span>
+                <a href="https://gitlab.com/Radiophonix/Radiophonix/boards/463758"
+                   class="badge badge-warning badge-sm"
+                   target="_blank">
+                    <i class="fa fa-gitlab"></i>
+                    en cours
+                </a>
             </h2>
 
             <p class="mt-2 mb-2">
@@ -63,10 +68,21 @@
 
             <hr class="mt-5">
 
-            <h2 class="h1">Version Beta</h2>
+            <h2 class="h1">
+                Version Beta
+
+                <a href="https://gitlab.com/Radiophonix/Radiophonix/boards/463759"
+                   class="badge badge-info badge-sm"
+                   target="_blank">
+                    <i class="fa fa-gitlab"></i>
+                    à venir
+                </a>
+            </h2>
 
             <p class="mt-2 mb-2">
                 Finalisation de la zone auditeur du site avec inscription/connexion.
+                <a href="https://gitlab.com/Radiophonix/Radiophonix/boards/463759"
+                   class="lien-paragraphe">Suivre le développement</a>
             </p>
 
             <ul class="list-unstyled pl-4">
