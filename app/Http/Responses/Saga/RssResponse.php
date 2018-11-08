@@ -136,7 +136,7 @@ class RssResponse implements Responsable
             ->setType('audio/mp3');
 
         $item = (new Item())
-            ->setTitle($track->title)
+            ->setTitle($track->number . ' - ' . $track->title)
             ->setDescription($track->synopsis)
             ->setEnclosure($enclosure)
             ->setPubDate($track->published_at);
