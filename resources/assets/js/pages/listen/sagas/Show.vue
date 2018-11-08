@@ -130,11 +130,12 @@
                             </p>
                             <p class="mb-3">
                                 <text-ellipsis :text="author.bio" :size="200"></text-ellipsis>
+                                <br>
+                                <router-link :to="{ name: 'listen.authors.show', params: { id: author.slug } }"
+                                             class="lien-paragraphe">
+                                    Voir la biographie
+                                </router-link>
                             </p>
-                            <router-link :to="{ name: 'listen.authors.show', params: { id: author.slug } }"
-                                         class="btn btn-outline-secondary btn-sm">
-                                Voir la biographie
-                            </router-link>
                         </div>
                     </div>
 
