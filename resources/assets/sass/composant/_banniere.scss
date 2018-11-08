@@ -124,6 +124,10 @@ $margin-left-zone-contenu: 30px;
     @include media-breakpoint-up(md) {
         margin-left: $margin-left-zone-contenu;
     }
+
+    .btn-outline-secondary:not(:hover) {
+        background-color: $white;
+    }
 }
 
 /*-----------------------------------------------------------------------------
