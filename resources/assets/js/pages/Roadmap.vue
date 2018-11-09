@@ -36,6 +36,7 @@
 
             <h2 class="h1">
                 Version Alpha
+
                 <a href="https://gitlab.com/Radiophonix/Radiophonix/boards/463758"
                    class="badge badge-warning badge-sm"
                    target="_blank">
@@ -105,7 +106,16 @@
 
             <hr class="mt-5">
 
-            <h2 class="h1">Publication de sagas</h2>
+            <h2 class="h1">
+                Publication de sagas
+
+                <a href="https://gitlab.com/Radiophonix/Radiophonix/boards/854424"
+                   class="badge badge-info badge-sm"
+                   target="_blank">
+                    <i class="fa fa-gitlab"></i>
+                    à venir
+                </a>
+            </h2>
 
             <p class="mt-2 mb-2">
                 Une fois la phase de Beta terminée, le développement de la zone
