@@ -267,7 +267,7 @@ class AlphaSeed extends Command
     {
         $authors = $this->loadJsonFiles('authors');
 
-        $this->output->write('Faiseurs');
+        $this->output->write('Auteurs');
 
         $authors->each(function ($authorData) {
             /** @var User $user */

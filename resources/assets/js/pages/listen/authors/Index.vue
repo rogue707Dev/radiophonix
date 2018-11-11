@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Faiseurs</h1>
+        <h1>Auteurs</h1>
 
         <ul>
             <li v-for="author in authors">

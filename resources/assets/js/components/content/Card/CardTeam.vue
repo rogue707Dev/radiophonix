@@ -4,7 +4,7 @@
         :urlImage="team.picture.thumb"
         :altImage="team.name"
         :title="team.name"
-        type="faiseur"
+        type="auteur"
         :badge="badge"
         :size="size"
         :card-horizontal="horizontal">

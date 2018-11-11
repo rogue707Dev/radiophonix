@@ -66,7 +66,7 @@
                     <p>
                         L'API est écrite en PHP à l'aide de <a href="https://laravel.com/" class="lien-paragraphe">Laravel</a>.<br />
                         <br />
-                        Elle permet d'intéragir avec les données de Radiophonix (sagas, saisons, épisodes, faiseurs, etc.).<br />
+                        Elle permet d'intéragir avec les données de Radiophonix (sagas, saisons, épisodes, auteurs, etc.).<br />
                         <br />
                         Le code est disponible sur <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">GitLab</a>
                     </p>

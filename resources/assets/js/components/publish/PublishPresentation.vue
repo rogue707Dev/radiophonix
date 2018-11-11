@@ -39,7 +39,7 @@
                         <li>Afficher les pourcentages d'avancement du prochain épisode</li>
                         <li>Lister les différents participants à une saga</li>
                         <li>Renseigner les informations de la saga (liens, licence, synopsis, etc)</li>
-                        <li>Avoir plusieurs faiseurs par saga</li>
+                        <li>Avoir plusieurs auteurs par saga</li>
                         <li>Uploader une image de couverture selon la saga, la saison ou l'épisode</li>
                         <li>Et beaucoup d'autres choses...</li>
                     </ul>

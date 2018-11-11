@@ -169,7 +169,7 @@ class AlphaMock extends Command
 
         $authors = Author::take(5)->get();
         $this->createFile(
-            'search/faiseur.json',
+            'search/auteur.json',
             $this->transform(
                 (new SearchResult())->addResultSet('authors', $authors, new AuthorTransformer()),
                 $transformer

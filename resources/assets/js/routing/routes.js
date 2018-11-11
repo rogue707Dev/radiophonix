@@ -106,7 +106,7 @@ const routes = [
                                 meta: { auth: true }
                             },
                             {
-                                path: 'faiseurs',
+                                path: 'auteurs',
                                 name: 'publish.saga.authors',
                                 component: PublishSagaAuthorsView,
                                 meta: { auth: true }
@@ -227,13 +227,13 @@ const routes = [
                     },
 
                     {
-                        path: 'faiseurs',
+                        path: 'auteurs',
                         component: ListenAuthorIndexView,
                         name: 'listen.authors.index',
                         meta: { menu: 'listen' }
                     },
                     {
-                        path: 'faiseurs/:id',
+                        path: 'auteurs/:id',
                         component: ListenAuthorShowView,
                         name: 'listen.authors.show',
                         meta: { menu: 'listen' }

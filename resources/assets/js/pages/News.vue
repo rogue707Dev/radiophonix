@@ -41,7 +41,7 @@
                                      class="lien-paragraphe">La légende de Xantah</router-link>
                     </li>
                     <li>
-                        Correction des faiseurs de la saga
+                        Correction des auteurs de la saga
                         <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: 'chez-le-psy' } }"
                                      class="lien-paragraphe">Chez le psy</router-link>
                         :
@@ -51,9 +51,9 @@
                         <router-link :to="{ name: 'listen.authors.show', params: { id: 'yond' } }"
                                      class="lien-paragraphe">Yond</router-link>
                     </li>
-                    <li>Affichage des équipes d'un faiseur sur sa page</li>
+                    <li>Affichage des équipes d'un auteur sur sa page</li>
                     <li>
-                        Ajout de plusieurs faiseurs manquant :
+                        Ajout de plusieurs auteurs manquant :
                         <router-link :to="{ name: 'listen.authors.show', params: { id: 'mathieu-quintin' } }"
                                      class="lien-paragraphe">Mathieu Quintin</router-link>,
                         <router-link :to="{ name: 'listen.authors.show', params: { id: 'alinor' } }"

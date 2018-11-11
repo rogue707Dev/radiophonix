@@ -94,7 +94,7 @@
                     Enregistrer l'avancement de la lecture sur le compte
                 </roadmap-task>
                 <roadmap-task status="todo">
-                    Système de "like" pour les sagas, les faiseurs, etc.
+                    Système de "like" pour les sagas, les auteurs, etc.
                 </roadmap-task>
                 <roadmap-task status="todo">
                     Possibilité de s'abonner à une saga
@@ -154,7 +154,7 @@
                     Permettre la gestion de versions d'épisodes
                 </roadmap-task>
                 <roadmap-task status="todo">
-                    Donner accès aux sagas existantes à leurs faiseurs
+                    Donner accès aux sagas existantes à leurs auteurs
                 </roadmap-task>
                 <roadmap-task status="todo">
                     Et plein d'autres choses !

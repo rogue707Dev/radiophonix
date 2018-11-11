@@ -4,7 +4,7 @@
         :urlImage="author.picture.thumb"
         :altImage="author.name"
         :title="author.name"
-        type="faiseur"
+        type="auteur"
         :badge="badge"
         :size="size"
         :card-horizontal="horizontal">

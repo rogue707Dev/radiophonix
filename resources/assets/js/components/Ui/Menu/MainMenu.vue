@@ -5,7 +5,7 @@
             <img class="layout-menu__item__avatar" alt="" src="/static/home/avatar-defaut.png">
             <div class="layout-menu__navigation">
                 <a href="#profil" class="layout-menu__navigation__img">
-                    <div class="cover var--petit var--faiseur">
+                    <div class="cover var--petit var--auteur">
                         <div class="cover__mask">
                             <img src="/static/home/avatar-defaut.png">
                         </div>

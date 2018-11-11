@@ -115,8 +115,8 @@
                 </div>
                 <div class="col-md-6">
 
-                    <h2 class="h1 mb-2" v-if="saga.authors.length > 1">Faiseurs</h2>
-                    <h2 class="h1 mb-2" v-else>Faiseur</h2>
+                    <h2 class="h1 mb-2" v-if="saga.authors.length > 1">Auteurs</h2>
+                    <h2 class="h1 mb-2" v-else>Auteur</h2>
 
 
 
@@ -129,7 +129,7 @@
                                          :to="{ name: 'listen.authors.show', params: { id: author.slug } }">
                                 <cover
                                         size="petit"
-                                        type="faiseur"
+                                        type="auteur"
                                         :urlImage="author.picture.thumb"
                                         :altImage="author.name">
                                 </cover>

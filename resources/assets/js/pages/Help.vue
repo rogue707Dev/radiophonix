@@ -54,11 +54,6 @@
                         </footer>
                     </blockquote>
 
-                    <h2 class="h1 mb-2 mt-5">Qu'est-ce qu'un faiseur ?</h2>
-                    <p>
-                        Faiseur est le terme utilisé pour désigner un créateur de saga.<br/>
-                    </p>
-
                     <h2 class="h1 mb-2 mt-5">Une plateforme libre et gratuite ?</h2>
                     <p>
                         Radiophonix est développé de façon ouverte sur

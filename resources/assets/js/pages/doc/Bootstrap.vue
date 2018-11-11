@@ -35,7 +35,7 @@
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
             </div>
-            <div class="cover var--petit var--faiseur">
+            <div class="cover var--petit var--auteur">
                 <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
@@ -57,7 +57,7 @@
 
 
             <h1 class="display-3">Cover : Moyenne</h1>
-            <div class="cover var--moyen var--faiseur">
+            <div class="cover var--moyen var--auteur">
                 <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
@@ -112,7 +112,7 @@
 
                 <a href="#" class="card var--horizontal">
                     <div class="card-cover">
-                        <div class="cover var--petit var--faiseur">
+                        <div class="cover var--petit var--auteur">
                             <div class="cover__mask">
                                 <img src="http://facetheforce.today/random/340?r=2">
                             </div>
@@ -125,7 +125,7 @@
                     <div class="card-body">
                         <p class="h3 text-body">
                             Pen Of Chaos
-                            <span class="badge badge-light badge-sm">Faiseur</span>
+                            <span class="badge badge-light badge-sm">Auteur</span>
                         </p>
                         <p class="text-primary h5">
                             <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries
@@ -219,7 +219,7 @@
 
                 <a href="#" class="card">
                     <div class="card-cover">
-                        <div class="cover var--moyen var--faiseur">
+                        <div class="cover var--moyen var--auteur">
                             <div class="cover__mask">
                                 <img src="http://facetheforce.today/random/340?r=2">
                             </div>
@@ -232,7 +232,7 @@
                     <div class="card-body">
                         <p class="h3 text-body">
                             Pen Of Chaos
-                            <span class="badge badge-light badge-sm">Faiseur</span>
+                            <span class="badge badge-light badge-sm">Auteur</span>
                         </p>
                         <p class="text-primary h5">
                             <i aria-hidden="true" class="fa fa-file-audio-o"></i> 2 Séries

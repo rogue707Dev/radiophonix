@@ -8,7 +8,7 @@
             <template slot="image">
                 <cover
                         size="banniere"
-                        type="faiseur"
+                        type="auteur"
                         :urlImage="author.picture.main"
                         :altImage="author.name">
                 </cover>

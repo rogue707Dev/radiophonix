@@ -39,7 +39,7 @@ $ PETIT
         }
     }
     /*---------------------------------*/
-    &.var--faiseur {
+    &.var--auteur {
         &:before {
             @include taille(78px);
         }
@@ -86,7 +86,7 @@ $ MOYEN
         }
     }
     /*---------------------------------*/
-    &.var--faiseur {
+    &.var--auteur {
         &:before {
             @include taille(138px);
         }
@@ -133,7 +133,7 @@ $ MOYEN ou 2 ne passent meme plus a cote à cote
             }
         }
         /*---------------------------------*/
-        &.var--faiseur {
+        &.var--auteur {
             &:before {
                 @include taille(90px);
             }
@@ -180,7 +180,7 @@ $ BANNIERE
         }
     }
     /*---------------------------------*/
-    &.var--faiseur {
+    &.var--auteur {
         &:before {
             display: none;
         }
@@ -214,7 +214,7 @@ $couleur-contour: $bleu-200;
     border: 1px solid $couleur-contour;
 }
 
-.cover.var--faiseur:before {
+.cover.var--auteur:before {
     border: 1px solid $couleur-contour;
     border-radius: 50%;
 }
@@ -237,8 +237,8 @@ $ MASK
     @include pa-centre();
 }
 
-.cover.var--faiseur .cover__mask {
-    mask-image: url('/static/dev/images/masque-faiseur.svg');
+.cover.var--auteur .cover__mask {
+    mask-image: url('/static/dev/images/masque-auteur.svg');
 }
 
 .cover.var--episode .cover__mask {
