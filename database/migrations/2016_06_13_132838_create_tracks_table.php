@@ -27,7 +27,6 @@ class CreateTracksTable extends Migration
             $table->integer('status')->default(Track::STATUS_DRAFT);
             $table->integer('length')->default(0);
             $table->string('url')->nullable();
-            $table->text('chapters')->nullable();
 
             $table->timestamps();
         });

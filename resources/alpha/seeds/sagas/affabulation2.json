@@ -33,8 +33,7 @@
                     "published_at": "2014-10-24T00:00:00+00:00",
                     "status": 2,
                     "seconds": "13min18s",
-                    "file": "affabulation2/Episode 1-Un nouveau heros.mp3",
-                    "chapters": []
+                    "file": "affabulation2/Episode 1-Un nouveau heros.mp3"
                 },
                 {
                     "number": "2",
@@ -43,8 +42,7 @@
                     "published_at": "2015-02-11T00:00:00+00:00",
                     "status": 2,
                     "seconds": "16min24s",
-                    "file": "affabulation2/Episode 2-Chantons_la_guitare_a_la_main.mp3",
-                    "chapters": []
+                    "file": "affabulation2/Episode 2-Chantons_la_guitare_a_la_main.mp3"
                 },
                 {
                     "number": "3",
@@ -53,8 +51,7 @@
                     "published_at": "2017-08-09T00:00:00+00:00",
                     "status": 2,
                     "seconds": "11min26s",
-                    "file": "affabulation2/Episode 3-Brickwall_la_ville_des_fous.mp3",
-                    "chapters": []
+                    "file": "affabulation2/Episode 3-Brickwall_la_ville_des_fous.mp3"
                 }
             ]
         }

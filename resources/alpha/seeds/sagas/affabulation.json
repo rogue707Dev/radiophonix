@@ -33,8 +33,7 @@
                     "published_at": "2012-01-02T00:00:00+00:00",
                     "status": 2,
                     "seconds": "11min50s",
-                    "file": "affabulation/Episode 01-Une nouvelle vie commence.mp3",
-                    "chapters": []
+                    "file": "affabulation/Episode 01-Une nouvelle vie commence.mp3"
                 },
                 {
                     "number": "2",
@@ -43,8 +42,7 @@
                     "published_at": "2012-03-16T00:00:00+00:00",
                     "status": 2,
                     "seconds": "5min45s",
-                    "file": "affabulation/Episode 02-Que l'histoire commence.mp3",
-                    "chapters": []
+                    "file": "affabulation/Episode 02-Que l'histoire commence.mp3"
                 },
                 {
                     "number": "3",
@@ -53,8 +51,7 @@
                     "published_at": "2012-03-16T00:00:00+00:00",
                     "status": 2,
                     "seconds": "5min46s",
-                    "file": "affabulation/Episode 03-Retour difficile.mp3",
-                    "chapters": []
+                    "file": "affabulation/Episode 03-Retour difficile.mp3"
                 },
                 {
                     "number": "4",
@@ -63,8 +60,7 @@
                     "published_at": "2012-03-16T00:00:00+00:00",
                     "status": 2,
                     "seconds": "7min23s",
-                    "file": "affabulation/Episode 04-En route pour Oakfield.mp3",
-                    "chapters": []
+                    "file": "affabulation/Episode 04-En route pour Oakfield.mp3"
                 },
                 {
                     "number": "5",
@@ -73,8 +69,7 @@
                     "published_at": "2012-05-19T00:00:00+00:00",
                     "status": 2,
                     "seconds": "08min18s",
-                    "file": "affabulation/Episode 05-Le heros de la force.mp3",
-                    "chapters": []
+                    "file": "affabulation/Episode 05-Le heros de la force.mp3"
                 },
                 {
                     "number": "6",
@@ -83,8 +78,7 @@
                     "published_at": "2012-05-20T00:00:00+00:00",
                     "status": 2,
                     "seconds": "12min25s",
-                    "file": "affabulation/Episode 06-Carth et la Fleche.mp3",
-                    "chapters": []
+                    "file": "affabulation/Episode 06-Carth et la Fleche.mp3"
                 },
                 {
                     "number": "7",
@@ -93,8 +87,7 @@
                     "published_at": "2012-11-02T00:00:00+00:00",
                     "status": 2,
                     "seconds": "09min38s",
-                    "file": "affabulation/Episode 07-In your fleche.mp3",
-                    "chapters": []
+                    "file": "affabulation/Episode 07-In your fleche.mp3"
                 },
                 {
                     "number": "8",
@@ -103,8 +96,7 @@
                     "published_at": "2013-03-03T00:00:00+00:00",
                     "status": 2,
                     "seconds": "10min15s",
-                    "file": "affabulation/Episode 08-La porte du Cullis.mp3",
-                    "chapters": []
+                    "file": "affabulation/Episode 08-La porte du Cullis.mp3"
                 },
                 {
                     "number": "9",
@@ -113,8 +105,7 @@
                     "published_at": "2013-04-26T00:00:00+00:00",
                     "status": 2,
                     "seconds": "10min39s",
-                    "file": "affabulation/Episode 09-Le dernier avant la fin.mp3",
-                    "chapters": []
+                    "file": "affabulation/Episode 09-Le dernier avant la fin.mp3"
                 },
                 {
                     "number": "10",
@@ -123,8 +114,7 @@
                     "published_at": "2013-07-13T00:00:00+00:00",
                     "status": 2,
                     "seconds": "22min18s",
-                    "file": "affabulation/Episode 10-The fucking final fight in your ears.mp3",
-                    "chapters": []
+                    "file": "affabulation/Episode 10-The fucking final fight in your ears.mp3"
                 }
             ]
         }

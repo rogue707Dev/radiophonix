@@ -41,7 +41,6 @@ import PublishTrackPublishingView from '~/pages/publish/track/Publishing.vue';
 import PublishTrackInformationsView from '~/pages/publish/track/Informations.vue';
 import PublishTrackFileView from '~/pages/publish/track/File.vue';
 import PublishTrackDateView from '~/pages/publish/track/Date.vue';
-import PublishTrackChaptersView from '~/pages/publish/track/Chapters.vue';
 
 // Documentation views
 import DocumentationBootstrapView from '~/pages/doc/Bootstrap.vue';
@@ -154,12 +153,6 @@ const routes = [
                                 path: 'date-de-publication',
                                 name: 'publish.track.date',
                                 component: PublishTrackDateView,
-                                meta: { auth: true }
-                            },
-                            {
-                                path: 'chapitres',
-                                name: 'publish.track.chapters',
-                                component: PublishTrackChaptersView,
                                 meta: { auth: true }
                             }
                         ]

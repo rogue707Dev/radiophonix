@@ -32,8 +32,7 @@
                     "published_at": "2008-05-03T00:00:00+00:00",
                     "status": 2,
                     "seconds": "7m50s",
-                    "file": "death-pen/Death Pen 01.mp3",
-                    "chapters": []
+                    "file": "death-pen/Death Pen 01.mp3"
                 },
                 {
                     "number": "2",
@@ -42,8 +41,7 @@
                     "published_at": "2008-05-03T00:00:00+00:00",
                     "status": 2,
                     "seconds": "5m6s",
-                    "file": "death-pen/Death Pen 02.mp3",
-                    "chapters": []
+                    "file": "death-pen/Death Pen 02.mp3"
                 },
                 {
                     "number": "3",
@@ -52,8 +50,7 @@
                     "published_at": "2008-05-03T00:00:00+00:00",
                     "status": 2,
                     "seconds": "6m29s",
-                    "file": "death-pen/Death Pen 03.mp3",
-                    "chapters": []
+                    "file": "death-pen/Death Pen 03.mp3"
                 },
                 {
                     "number": "4",
@@ -62,8 +59,7 @@
                     "published_at": "2008-05-03T00:00:00+00:00",
                     "status": 2,
                     "seconds": "5m31s",
-                    "file": "death-pen/Death Pen 04.mp3",
-                    "chapters": []
+                    "file": "death-pen/Death Pen 04.mp3"
                 },
                 {
                     "number": "5",
@@ -72,8 +68,7 @@
                     "published_at": "2008-05-03T00:00:00+00:00",
                     "status": 2,
                     "seconds": "9m14s",
-                    "file": "death-pen/Death Pen 05.mp3",
-                    "chapters": []
+                    "file": "death-pen/Death Pen 05.mp3"
                 },
                 {
                     "number": "6",
@@ -82,8 +77,7 @@
                     "published_at": "2008-05-03T00:00:00+00:00",
                     "status": 2,
                     "seconds": "8m12s",
-                    "file": "death-pen/Death Pen 06.mp3",
-                    "chapters": []
+                    "file": "death-pen/Death Pen 06.mp3"
                 },
                 {
                     "number": "7",
@@ -92,8 +86,7 @@
                     "published_at": "2009-10-15T00:00:00+00:00",
                     "status": 2,
                     "seconds": "11m16s",
-                    "file": "death-pen/Death Pen 07.mp3",
-                    "chapters": []
+                    "file": "death-pen/Death Pen 07.mp3"
                 },
                 {
                     "number": "8",
@@ -102,8 +95,7 @@
                     "published_at": "2011-01-16T00:00:00+00:00",
                     "status": 2,
                     "seconds": "13m35s",
-                    "file": "death-pen/Death Pen 08.mp3",
-                    "chapters": []
+                    "file": "death-pen/Death Pen 08.mp3"
                 },
                 {
                     "number": "9",
@@ -112,8 +104,7 @@
                     "published_at": "2011-06-30T00:00:00+00:00",
                     "status": 2,
                     "seconds": "10m28s",
-                    "file": "death-pen/Death Pen 09.mp3",
-                    "chapters": []
+                    "file": "death-pen/Death Pen 09.mp3"
                 },
                 {
                     "number": "10",
@@ -122,8 +113,7 @@
                     "published_at": "2013-08-22T00:00:00+00:00",
                     "status": 2,
                     "seconds": "7m31s",
-                    "file": "death-pen/Death Pen 10.mp3",
-                    "chapters": []
+                    "file": "death-pen/Death Pen 10.mp3"
                 }
             ]
         }

@@ -23,7 +23,6 @@ class TrackTransformer extends Transformer
             'status' => (int)$track->status ?? Track::STATUS_DRAFT,
             'seconds' => (int)$track->length ?? 0,
             'file' => $track->url,
-            'chapters' => $track->chapters ?? [],
             'created_at' => $this->getFormatedDate($track->created_at),
             'updated_at' => $this->getFormatedDate($track->updated_at),
         ];

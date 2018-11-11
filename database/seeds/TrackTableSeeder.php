@@ -21,29 +21,11 @@ class TrackTableSeeder extends Seeder
                     'synopsis' => $this->faker->text(800),
                     'published_at' => $this->faker->dateTimeThisDecade(),
                     'length' => $length,
-                    'chapters' => $this->createChapters($length),
                 ]);
 
                 $track->collection()->associate($collection);
                 $track->save();
             }
         }
-    }
-
-    private function createChapters($maxLength)
-    {
-        $minimum = 0;
-        $chapters = [];
-
-        while ($minimum < $maxLength) {
-            $chapters[] = [
-                'title' => $this->faker->paragraph(1),
-                'start_at' => $minimum
-            ];
-
-            $minimum = $this->faker->numberBetween(++$minimum, $maxLength);
-        }
-
-        return $chapters;
     }
 }
