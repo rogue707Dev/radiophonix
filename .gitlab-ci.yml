@@ -67,7 +67,7 @@ build:review:
         - echo -n '.radiophonix.org/api/v1/' >> .env
         - npm run build
         - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-dev
-        - mkdir artefacts
+        - mkdir -p artefacts
         - cp deploy/Envoy.review.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
     artifacts:
@@ -147,7 +147,7 @@ build:dev:
         - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" >> .env
         - npm run build
         - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-dev
-        - mkdir artefacts
+        - mkdir -p artefacts
         - cp deploy/Envoy.dev.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
     artifacts:
@@ -194,7 +194,7 @@ build:staging:
         - echo "RADIOPHONIX_API_URL=https://staging.radiophonix.org/api/v1/" >> .env
         - npm run build
         - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-dev
-        - mkdir artefacts
+        - mkdir -p artefacts
         - cp deploy/Envoy.staging.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
     artifacts:
@@ -242,7 +242,7 @@ build:production:
         - echo "RADIOPHONIX_API_URL=https://radiophonix.org/api/v1/" >> .env
         - npm run build
         - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-dev
-        - mkdir artefacts
+        - mkdir -p artefacts
         - cp deploy/Envoy.production.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .
     artifacts:
