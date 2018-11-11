@@ -6,7 +6,7 @@ stages:
 
 cache:
     untracked: true
-    key: "$CI_PROJECT_ID"
+    key: "$CI_PROJECT_ID-$CI_JOB_STAGE"
     paths:
         - composer-cache/
         - .yarn
