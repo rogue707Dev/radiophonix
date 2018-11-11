@@ -27,12 +27,16 @@ export default {
         let ticks = storage.get('ticks', {});
         let currentTick = storage.get('currentTick');
 
-        return ticks[currentTick] || null;
+        return new Promise(resolve => {
+            resolve(ticks[currentTick] || null);
+        });
     },
 
     get: (sagaId) => {
         let ticks = storage.get('ticks', {});
 
-        return ticks[sagaId] || null;
+        return new Promise(resolve => {
+            resolve(ticks[sagaId] || null);
+        });
     },
 };

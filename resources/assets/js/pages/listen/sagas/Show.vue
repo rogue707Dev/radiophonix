@@ -295,8 +295,8 @@ export default {
             }
         },
 
-        playSaga() {
-            let tick = ticks.get(this.saga.id);
+        async playSaga() {
+            let tick = await ticks.get(this.saga.id);
             let track = {};
             let percentage = 0;
 

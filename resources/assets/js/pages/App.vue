@@ -21,7 +21,7 @@
 
         methods: {
             async loadCurrentTrack() {
-                let currentTick = ticks.current();
+                let currentTick = await ticks.current();
 
                 if (!currentTick) {
                     return;
