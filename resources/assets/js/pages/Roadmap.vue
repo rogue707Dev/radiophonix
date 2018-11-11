@@ -151,7 +151,13 @@
                     Repenser la gestion des fichiers audio (actuellement uploadés à la main)
                 </roadmap-task>
                 <roadmap-task status="todo">
+                    Permettre la gestion de versions d'épisodes
+                </roadmap-task>
+                <roadmap-task status="todo">
                     Donner accès aux sagas existantes à leurs faiseurs
+                </roadmap-task>
+                <roadmap-task status="todo">
+                    Et plein d'autres choses !
                 </roadmap-task>
             </ul>
 
