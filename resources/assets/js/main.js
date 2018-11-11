@@ -12,6 +12,11 @@ import * as filters from '~/lib/vue/filters';
 import * as directives from '~/lib/vue/directives';
 import AppView from '~/pages/App.vue';
 
+// Inclusion du SASS
+// Il est important de l'inclure depuis le JavaScript et pas depuis
+// un fichier .vue pour avoir une génération correcte des source maps.
+require('../sass/app.scss');
+
 Object.keys(filters).forEach(key => {
     Vue.filter(key, filters[key]);
 });
