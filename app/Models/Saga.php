@@ -273,6 +273,18 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
     }
 
     /**
+     * @param string $type
+     * @return \Illuminate\Database\Eloquent\Collection|Collection[]
+     */
+    public function getCollections(string $type)
+    {
+        return $this->collections()
+            ->with('tracks')
+            ->where('type', '=', $type)
+            ->get();
+    }
+
+    /**
      * Slug generation configuration.
      *
      * @see https://github.com/spatie/laravel-sluggable

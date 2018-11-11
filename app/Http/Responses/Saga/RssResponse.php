@@ -20,6 +20,7 @@ use MarcW\RssWriter\Extension\Itunes\ItunesWriter;
 use MarcW\RssWriter\RssWriter;
 use Radiophonix\Models\Author;
 use Radiophonix\Models\Saga;
+use Radiophonix\Models\Support\CollectionType;
 use Radiophonix\Models\Track;
 
 class RssResponse implements Responsable
@@ -108,9 +109,11 @@ class RssResponse implements Responsable
         $channel->addExtension($itunesChannel);
         $channel->addExtension($atomLink);
 
+        $seasons = $this->saga->getCollections(CollectionType::SEASON);
+
         $index = 0;
-        foreach ($this->saga->collections as $collection) {
-            foreach ($collection->tracks as $track) {
+        foreach ($seasons as $season) {
+            foreach ($season->tracks as $track) {
                 $channel->addItem($this->buildItem($track, $image, ++$index));
             }
         }

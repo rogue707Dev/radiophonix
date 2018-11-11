@@ -23,7 +23,7 @@ class CreateCollectionsTable extends Migration
 
             $table->string('name');
             $table->text('synopsis')->nullable();
-            $table->string('type')->default('Saison');
+            $table->string('type')->default('season');
 
             $table->timestamps();
         });
