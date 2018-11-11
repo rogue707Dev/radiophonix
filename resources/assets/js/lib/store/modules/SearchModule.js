@@ -1,10 +1,25 @@
 import api from '~/lib/api';
+import storage from '~/lib/services/storage';
+
+const totalResults = (results) => {
+    return results.sagas.length
+        + results.authors.length
+        + results.genres.length
+        + results.tracks.length;
+};
 
 const SearchModule = {
     namespaced: true,
 
     state: {
         isSearching: false,
+
+        // Le contenu du champ de recherche
+        currentQuery: null,
+
+        // La dernière recherche (même si aucun résultat)
+        lastQuery: null,
+        hasFoundNoResult: false,
         queries: [],
         results: {
             sagas: [],
@@ -15,10 +30,27 @@ const SearchModule = {
     },
 
     mutations: {
-        addQuery(state, query) {
-            state.queries.push(query);
+        setCurrentQuery: (state, query) => state.currentQuery = query,
+        setLastQuery: (state, query) => state.lastQuery = query,
+        setQueries: (state, queries) => state.queries = Object.assign([], queries),
 
-            // todo garder les 10 derniers
+        addQuery(state, query) {
+            if (!query) {
+                return;
+            }
+
+
+            if (query === state.queries[0]) {
+                return;
+            }
+
+            state.queries.unshift(query);
+            state.currentQuery = query;
+            state.lastQuery = query;
+
+            state.queries = Object.assign(state.queries.slice(-10));
+
+            storage.set('search', state.queries);
         },
 
         setResults(state, results) {
@@ -26,6 +58,8 @@ const SearchModule = {
             state.results.authors = Object.assign([], results.authors || []);
             state.results.genres = Object.assign([], results.genres || []);
             state.results.tracks = Object.assign([], results.tracks || []);
+
+            state.hasFoundNoResult = totalResults(results) === 0;
         },
 
         setIsSearching: (state, isSearching) => state.isSearching = isSearching,
@@ -33,31 +67,37 @@ const SearchModule = {
 
     actions: {
         async doSearch({ commit }, query) {
-            commit('addQuery', query);
+            commit('setCurrentQuery', query);
+            commit('setLastQuery', query);
             commit('setIsSearching', true);
 
             try {
                 let result = await api.search(query);
+
                 commit('setResults', result.data);
+
+                if (totalResults(result.data) > 0) {
+                    commit('addQuery', query);
+                }
             } catch (e) {
-                console.log('Erreur de recherche', e);
-                // @todo
+                commit('setResults', {});
+
             } finally {
                 commit('setIsSearching', false);
             }
+        },
+
+        clearQueries({commit}) {
+            commit('setQueries', []);
+            commit('setCurrentQuery', null);
+            commit('setLastQuery', null);
+            storage.remove('search');
         }
     },
 
     getters: {
-        lastQuery(state) {
-            return state.queries[state.queries.length - 1] || null;
-        },
-
         hasResults(state) {
-            return state.results.sagas.length > 0
-                || state.results.authors.length > 0
-                || state.results.genres.length > 0
-                || state.results.tracks.length > 0;
+            return totalResults(state.results) > 0;
         },
 
         highlights(state) {

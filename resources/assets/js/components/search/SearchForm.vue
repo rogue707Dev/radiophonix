@@ -30,14 +30,24 @@
             },
         },
 
-        data: () => ({
-            query: '',
-        }),
-
         computed: {
             ...mapState('search', [
                 'isSearching',
+                'lastQuery',
             ]),
+
+            query: {
+                get () {
+                    if (this.$route.name !== 'search') {
+                        return null;
+                    }
+
+                    return this.$store.state.search.currentQuery;
+                },
+                set (value) {
+                    this.$store.commit('search/setCurrentQuery', value);
+                },
+            },
 
             algoliaLogo() {
                 return '/static/images/algolia/algolia-' + this.algolia + '.svg';
@@ -49,19 +59,14 @@
                 this.$store.dispatch('search/doSearch', this.query);
 
                 if (this.$route.name !== 'search') {
-                    this.$router.push({
-                        name: 'search',
-                        params: {
-                            query: this.query,
-                        }
-                    });
+                    this.$router.push({name: 'search'});
                 }
             },
         },
 
         mounted() {
-            if (this.$route.params.query) {
-                this.query = this.$route.params.query;
+            if (this.lastQuery && this.$route.name !== 'home') {
+                this.query = this.lastQuery;
             }
         }
     }

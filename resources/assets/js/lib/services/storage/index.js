@@ -18,10 +18,12 @@ export default {
             return defaultValue;
         }
 
-        if (value[0] === '{') {
+        if (value[0] === '{' || value[0] === '[') {
             value = JSON.parse(value);
         }
 
         return value;
-    }
+    },
+
+    remove: key => storage.removeItem(makeKey(key)),
 };

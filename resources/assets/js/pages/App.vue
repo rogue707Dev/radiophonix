@@ -8,6 +8,7 @@
     import {mapState} from 'vuex';
     import api from '~/lib/api';
     import ticks from '~/lib/services/storage/ticks';
+    import storage from '~/lib/services/storage';
 
     export default {
         computed: {
@@ -17,6 +18,7 @@
         },
         created: function () {
             this.loadCurrentTrack();
+            this.loadLastSearchQueries();
         },
 
         methods: {
@@ -50,6 +52,16 @@
                         seekPercentage: currentPercentage,
                     }
                 );
+            },
+
+            loadLastSearchQueries() {
+                let queries = storage.get('search', []);
+
+                if (!queries) {
+                    return;
+                }
+
+                this.$store.commit('search/setQueries', queries);
             },
         }
     }

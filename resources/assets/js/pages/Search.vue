@@ -22,7 +22,14 @@
 
         <div class="container">
 
-            <div v-if="hasResults">
+            <p class="lead text-center mt-md-5 mt-5"
+               v-if="isSearching">
+                <i class="fa fa-spinner fa-spin fa-5x mt-md-5 mb-md-5 mb-4"></i>
+                <br/>
+                Recherche en cours...
+            </p>
+
+            <div v-else-if="hasResults">
                 <h1 class="h1 mb-4">Meilleurs résultats</h1>
                 <div class="list-card">
                     <card-saga v-if="highlights.saga.id"
@@ -79,9 +86,33 @@
             </div>
 
             <template v-else>
-                <h1 class="h1 mb-4">Les plus populaires</h1>
+                <p class="lead text-center mt-md-5 mt-5" v-if="queries.length === 0">
+                    <i class="fa fa-fw fa-search fa-5x mt-md-5 mb-md-5 mb-4"></i>
+                    <br/>
+                    <span v-if="hasFoundNoResult">
+                        Aucun résultat pour &laquo; {{ lastQuery }} &raquo;
+                    </span>
+                    <span v-else>
+                        Rechercher des sagas, des épisodes, des auteurs, des genres...
+                    </span>
+                </p>
+                <div v-else>
+                    <h1 class="h1 mb-4">Recherches récentes</h1>
 
-                <saga-list :sagas="popular"></saga-list>
+                    <div class="list-group list-group-flush">
+                        <button class="list-group-item list-group-item-action"
+                                v-for="(query, index) in queries"
+                                :key="index"
+                                @click="search(query)">
+                            {{ query }}
+                        </button>
+                    </div>
+
+                    <button class="btn btn-outline-secondary btn-sm mt-4"
+                            @click="clearQueries">
+                        Effacer les recherches récentes
+                    </button>
+                </div>
             </template>
 
         </div>
@@ -91,8 +122,7 @@
 </template>
 
 <script>
-import { mapState, mapGetters } from 'vuex';
-import api from '~/lib/api';
+import { mapState, mapGetters, mapActions } from 'vuex';
 import SagaList from '~/components/saga/SagaList.vue';
 import Headband from '~/components/content/Headband.vue';
 import SearchForm from '~/components/search/SearchForm';
@@ -112,14 +142,13 @@ export default {
         CardGenre,
     },
 
-    data: () => ({
-        popular: [],
-    }),
-
     computed: {
         ...mapState('search', [
             'results',
             'isSearching',
+            'queries',
+            'hasFoundNoResult',
+            'lastQuery',
         ]),
 
         ...mapGetters('search', [
@@ -131,23 +160,13 @@ export default {
     },
 
     methods: {
-        async fetchPopular() {
-            if (this.isSearching) {
-                return;
-            }
+        ...mapActions('search', [
+            'clearQueries',
+        ]),
 
-            if (this.hasResults) {
-                return;
-            }
-
-            let result = await api.sagas.popular();
-
-            this.popular = result.data;
-        }
-    },
-
-    mounted() {
-        this.fetchPopular();
+        search(query) {
+            this.$store.dispatch('search/doSearch', query);
+        },
     },
 }
 </script>
