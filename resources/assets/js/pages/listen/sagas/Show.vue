@@ -73,6 +73,12 @@
                 <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.rss" v-if="saga.links.rss">
                     <i aria-hidden="true" class="fa fa-rss"></i>&nbsp;Flux RSS
                 </a>
+                <button class="btn btn-outline-secondary btn-sm mb-2"
+                        v-if="currentTick"
+                        @click="playSaga">
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                    Reprendre la lecture
+                </button>
             </div>
 
         </banner>
@@ -178,7 +184,12 @@
                              v-for="track in collection.tracks" :key="track.id">
                             <div class="ml-3 text-right" v-html="formatTrackNumber(track.number)"></div>
                             <div>
-                                <span class="font-weight-bold">{{ track.title }}</span>
+                                <span class="font-weight-bold">
+                                    {{ track.title }}
+                                </span>
+                                <span v-if="isCurrentTick(track)">
+                                    (épisode en cours)
+                                </span>
                                 <p>{{ track.synopsis }}</p>
                             </div>
                             <span class="episode-item--temps text-primary">
@@ -247,6 +258,7 @@ export default {
         },
         collections: [],
         currentCollectionType: null,
+        currentTick: null,
     }),
 
     computed: {
@@ -293,6 +305,8 @@ export default {
             if (this.collections.length > 0) {
                 this.currentCollectionType = this.collections[0].type;
             }
+
+            this.currentTick = await ticks.get(this.saga.id);
         },
 
         async playSaga() {
@@ -337,7 +351,32 @@ export default {
 
         formatTrackNumber(trackNumber) {
             return trackNumber.replace(/\s/g, '&nbsp;');
-        }
+        },
+
+        isCurrentTick(track) {
+            if (null === this.currentTick) {
+                return false;
+            }
+
+            let currentSaga = this.$store.state.player.currentSaga;
+
+            if (!currentSaga.id) {
+                return false;
+            }
+
+            // Si la saga en cours de lecture est celle de la page en cours
+            // alors on n'affiche pas le tick car l'épisode est déjà affiché
+            // comme étant celui en cours de lecture.
+            if (currentSaga.id == this.currentTick.saga) {
+                return false;
+            }
+
+            if (track.id == this.currentTick.track) {
+                return true;
+            }
+
+            return false;
+        },
     },
 
     created: function () {
