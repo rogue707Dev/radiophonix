@@ -6,23 +6,21 @@
 </template>
 
 <script>
-import { licenceUrl } from '~/lib/services/licence';
-
 export default {
     props: {
         licence: {
-            type: String,
+            type: Object,
             required: true,
         }
     },
 
     computed: {
         url() {
-            return licenceUrl(this.licence || '');
+            return this.licence.url;
         },
 
         name() {
-            return this.licence.substr(3, this.licence.lenght);
+            return this.licence.name.substr(3, this.licence.name.lenght);
         }
     }
 }

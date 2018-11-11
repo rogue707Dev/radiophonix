@@ -14,6 +14,8 @@ use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasCountCache;
 use Radiophonix\Models\Support\HasFakeId;
 use Radiophonix\Models\Support\HasMediaMetadata;
+use Radiophonix\Models\Support\Licence\Licence;
+use Radiophonix\Models\Support\Licence\LicenceMapper;
 use Radiophonix\Models\Support\Stats\SagaStats;
 use Spatie\Image\Exceptions\InvalidManipulation;
 use Spatie\Image\Manipulations;
@@ -116,6 +118,16 @@ class Saga extends Model implements HasMedia, HasMediaMetadata
         ],
         'finished',
     ];
+
+    /**
+     * @return Licence
+     */
+    public function getLicence(): Licence
+    {
+        $mapper = new LicenceMapper();
+
+        return $mapper->map($this);
+    }
 
     /**
      * Set the last_published_at column to the most recent published track.

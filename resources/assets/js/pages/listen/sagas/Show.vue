@@ -206,7 +206,6 @@
 <script>
 import { mapActions, mapState } from 'vuex';
 import api from '~/lib/api';
-import { licenceUrl } from '~/lib/services/licence';
 import ticks from '~/lib/services/storage/ticks';
 import TrackLength from '~/components/track/TrackLength.vue';
 import Banner from '~/components/content/Banner.vue';
@@ -262,14 +261,6 @@ export default {
             }
 
             return this.saga.genres[0] || null;
-        },
-
-        licenceUrl() {
-            if (!this.saga.licence) {
-                return null;
-            }
-
-            return licenceUrl(this.saga.licence);
         },
 
         collectionTypes() {
