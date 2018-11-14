@@ -23,13 +23,10 @@
         "php": ">=7.1.0",
         "laravel/framework": "5.7.*",
         "fideloper/proxy": "^4.0",
-        "laravel/tinker": "~1.0",
         "tymon/jwt-auth": "^1.0@dev",
         "league/fractal": "^0.16.0",
         "barryvdh/laravel-cors": "^0.11.2",
-        "barryvdh/laravel-ide-helper": "^2.2",
         "spatie/laravel-sluggable": "^2.1",
-        "doctrine/dbal": "~2.3",
         "spatie/laravel-medialibrary": "^7.0.0",
         "jenssegers/optimus": "^0.2.3",
         "laravel/scout": "^5.0",
@@ -39,6 +36,9 @@
         "algolia/algoliasearch-client-php": "^1.27"
     },
     "require-dev": {
+        "laravel/tinker": "~1.0",
+        "barryvdh/laravel-ide-helper": "^2.2",
+        "doctrine/dbal": "~2.3",
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
