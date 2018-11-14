@@ -8,15 +8,17 @@
 
         <div class="container">
 
-            <news-entry date="XX novembre 2018" class="mb-5">
+            <news-entry date="14 novembre 2018" class="mb-5">
                 <h3 class="h3 mt-3">Flux RSS</h3>
 
-                <p>
+                <p class="pl-lg-4">
                     Un flux RSS est maintenant généré automatiquement pour chaque saga !<br/>
+                    <br>
                     Cela vous permet d'utiliser une application mobile de podcast pour écouter
                     sur mobile au lieu d'utiliser le site.<br/>
                     L'avantage par rapport au site est qu'il est possible de télécharger les
                     épisodes pour pouvoir les écouter sans internet.<br/>
+                    <br/>
                     Vous pouvez par exemple utiliser
                     <i class="fa fa-android"></i>
                     <a href="https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=fr"
@@ -27,7 +29,15 @@
                        class="lien-paragraphe">Apple Podcasts</a>
                     comme applications.<br />
                     <br />
-                    Le lien RSS d'une saga est disponible sur sa page.
+                    Le lien RSS d'une saga est disponible sur sa page via un bouton en haut de la fiche.
+                </p>
+
+                <h3 class="h3 mt-3">Une roadmap</h3>
+
+                <p class="pl-lg-4">
+                    Une <router-link :to="{ name: 'roadmap' }" class="lien-paragraphe">page de roadmap</router-link> fait sont apparition !
+                    <br>
+                    Cette page vous permet de suivre l'avancement du projet et ce qui est prévu pour l'avenir.
                 </p>
 
                 <h3 class="h3 mt-3">Les autres nouveautés</h3>
@@ -63,7 +73,9 @@
                         <router-link :to="{ name: 'listen.authors.show', params: { id: 'luneral' } }"
                                      class="lien-paragraphe">Luneral</router-link>
                     </li>
-                    <li>...</li>
+                    <li>
+                        Une amélioration de la <router-link :to="{ name: 'search' }" class="lien-paragraphe">page de recherche</router-link>
+                    </li>
                 </ul>
             </news-entry>
 
@@ -71,13 +83,13 @@
 
             <news-entry date="29 octobre 2018">
                 <h3 class="h3 mt-3">Amélioration du player en mobile</h3>
-                <p>
+                <p class="pl-lg-4">
                     Lors d'une lecture d'un épisode en mobile, une barre est maintenant
                     affichée en bas de l'écran pour accéder au player.<br/>
                     Cette barre permet d'ouvrir le player en plein écran et de faire
                     lecture/pause.
                 </p>
-                <div class="row">
+                <div class="row pl-lg-4">
                     <div class="col-4">
                         <div class="card mb-4 mb-lg-0">
                             <img class="card-img-top"
