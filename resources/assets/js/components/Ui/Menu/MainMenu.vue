@@ -52,7 +52,7 @@
             Nouveautés
             <i class="fa fa-circle" v-if="hasUnreadNews"></i>
         </main-menu-item>
-        <main-menu-item name="roadmap" route="roadmap" icon="puzzle" class="layout-menu__item">
+        <main-menu-item name="roadmap" route="roadmap" icon="directions" class="layout-menu__item">
             Roadmap
         </main-menu-item>
         <main-menu-item name="contribute" route="contribute" icon="contribuer" class="layout-menu__item">

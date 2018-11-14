@@ -4,37 +4,31 @@
             urlImage="/static/home/roadmap.jpg"
             title="Roadmap"
             subtitle="Suivez l'avancement du projet">
-            <ul class="list-inline">
-                <li class="list-inline-item">
-                    <i class="fa fa-fw fa-stop-circle text-info"></i> à faire
-                </li>
-                <li class="list-inline-item">
-                    <i class="fa fa-fw fa-play-circle text-warning"></i> en cours
-                </li>
-                <li class="list-inline-item">
-                    <i class="fa fa-fw fa-check-circle text-success"></i> fait !
-                </li>
-            </ul>
         </headband>
 
         <div class="container">
 
-            <p class="lead">
-                Radiophonix est actuellement en <span class="badge badge-warning">Alpha</span>
+            <h1 class="h1">
+                Radiophonix est actuellement en Alpha
+            </h1>
+
+            <p class="mt-3">
+                Vous pouvez participer à la création du site en contribuant au <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">code sur GitLab</a> ou en
+                <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">signalant les bugs</a> rencontrés.<br />
+                Vous pouvez également rejoindre le <lien-discord /> !
             </p>
 
             <p class="mt-3">
-                Vous pouvez participer à la création du site en contribuant au code sur GitLab ou en
-                signalant les bugs rencontrés.<br />
-                <br />
-                Pour voir le code c'est <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">par ici</a> !<br/>
-                Pour signaler des bugs c'est <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">par ici</a> !<br />
-                Vous pouvez également rejoindre le <lien-discord /> !
+                <i class="fa fa-fw fa-stop-circle text-info"></i> = à faire
+                <br>
+                <i class="fa fa-fw fa-play-circle text-warning"></i> = en cours
+                <br>
+                <i class="fa fa-fw fa-check-circle text-success"></i> = fait !
             </p>
 
             <hr class="mt-5">
 
-            <h2 class="h1">
+            <h2 class="h2">
                 Version Alpha
 
                 <a href="https://gitlab.com/Radiophonix/Radiophonix/boards/463758"
@@ -69,7 +63,7 @@
 
             <hr class="mt-5">
 
-            <h2 class="h1">
+            <h2 class="h2">
                 Version Beta
 
                 <a href="https://gitlab.com/Radiophonix/Radiophonix/boards/463759"
@@ -106,7 +100,7 @@
 
             <hr class="mt-5">
 
-            <h2 class="h1">
+            <h2 class="h2">
                 Publication de sagas
 
                 <a href="https://gitlab.com/Radiophonix/Radiophonix/boards/854424"
@@ -163,7 +157,7 @@
 
             <hr class="mt-5">
 
-            <h2 class="h1">Applications mobiles</h2>
+            <h2 class="h2">Applications mobiles</h2>
 
             <p class="mt-2 mb-2">
                 C'est pas pour tout de suite !
