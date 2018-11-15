@@ -19,6 +19,7 @@ use MarcW\RssWriter\Extension\Itunes\ItunesOwner;
 use MarcW\RssWriter\Extension\Itunes\ItunesWriter;
 use MarcW\RssWriter\RssWriter;
 use Radiophonix\Models\Author;
+use Radiophonix\Models\Collection;
 use Radiophonix\Models\Saga;
 use Radiophonix\Models\Support\CollectionType;
 use Radiophonix\Models\Track;
@@ -60,7 +61,7 @@ class RssResponse implements Responsable
         $channel = $this->buildChannel();
 
         $response = new Response();
-        $response->header('Content-Type', 'text/xml');
+        $response->header('Content-Type', 'application/rss+xml; charset=utf-8');
         $response->setContent($writer->writeChannel($channel));
 
         return $response;
@@ -114,7 +115,11 @@ class RssResponse implements Responsable
         $index = 0;
         foreach ($seasons as $season) {
             foreach ($season->tracks as $track) {
-                $channel->addItem($this->buildItem($track, $image, ++$index));
+                $withSeason = $seasons->count() > 1 ? $season : null;
+
+                $channel->addItem(
+                    $this->buildItem($track, $image, ++$index, $withSeason)
+                );
             }
         }
 
@@ -122,12 +127,13 @@ class RssResponse implements Responsable
     }
 
     /**
-     * @param $track
-     * @param $image
-     * @param $index
+     * @param Track $track
+     * @param Image $image
+     * @param int $index
+     * @param Collection|null $season
      * @return Item
      */
-    private function buildItem(Track $track, Image $image, int $index): Item
+    private function buildItem(Track $track, Image $image, int $index, ?Collection $season): Item
     {
         $enclosure = (new Enclosure())
             ->setUrl($track->url)
@@ -138,14 +144,28 @@ class RssResponse implements Responsable
             ->setLength(0)
             ->setType('audio/mp3');
 
+        $description = $track->synopsis;
+
+        if ($season) {
+            $description .= vsprintf(
+                "\n\n%s - Épisode %s",
+                [
+                    $season->name,
+                    $track->number,
+                ]
+            );
+        }
+
+        $description = trim($description);
+
         $item = (new Item())
-            ->setTitle($track->number . ' - ' . $track->title)
-            ->setDescription($track->synopsis)
+            ->setTitle($track->title)
+            ->setDescription($description)
             ->setEnclosure($enclosure)
             ->setPubDate($track->published_at);
 
         $itunesItem = (new ItunesItem())
-            ->setSummary($track->synopsis)
+            ->setSummary($description)
             ->setExplicit('no')
             ->setImage($image->getUrl())
             ->setAuthor($this->author->name)
