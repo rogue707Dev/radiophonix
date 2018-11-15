@@ -154,6 +154,13 @@ class RssResponse implements Responsable
                     $track->number,
                 ]
             );
+        } else {
+            $description .= vsprintf(
+                "\n\nÉpisode %s",
+                [
+                    $track->number,
+                ]
+            );
         }
 
         $description = trim($description);
