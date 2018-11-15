@@ -29,8 +29,7 @@
                          @click="play({track, autoStart: true})">
 
                         <div class="col-1 text-center">
-                            <i v-if="track.id == currentTrack.id" class="fa fa-volume-up"></i>
-                            <template v-else>{{ track.number }}</template>
+                            {{ track.number }}
                         </div>
                         <div class="col">
                             <text-ellispis :text="track.title" :size="25"></text-ellispis>
