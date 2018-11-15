@@ -179,11 +179,12 @@
                         </h3>
 
                         <div class="episode-item"
-                             @click="play({track, saga, autoStart: true})"
                              :class="{'actif': track.id == currentTrack.id}"
                              v-for="track in collection.tracks" :key="track.id">
-                            <div class="ml-3 text-right" v-html="formatTrackNumber(track.number)"></div>
-                            <div>
+                            <div class="ml-3 text-right"
+                                 @click="play({track, saga, autoStart: true})"
+                                 v-html="formatTrackNumber(track.number)"></div>
+                            <div @click="play({track, saga, autoStart: true})">
                                 <span class="font-weight-bold">
                                     {{ track.title }}
                                 </span>
@@ -192,18 +193,18 @@
                                 </span>
                                 <p>{{ track.synopsis }}</p>
                             </div>
-                            <span class="episode-item--temps text-primary">
+                            <span class="episode-item--temps text-primary" @click="play({track, saga, autoStart: true})">
                                 <i aria-hidden="true" class="fa fa-clock-o"></i>
                                 <track-length :seconds="track.seconds"></track-length>
                             </span>
                             <div class="mr-lg-3">
-                                <div v-if="track.id == currentTrack.id" class="skin-icon-fa__cercle text-primary">
-                                    <i aria-hidden="true" class="fa fa-spin fa-refresh" v-if="isLoading"></i>
-                                    <i aria-hidden="true" class="fa fa-volume-up" v-else></i>
-                                </div>
-                                <div v-else class="skin-icon-fa__cercle">
-                                    <i aria-hidden="true" class="fa fa-play"></i>
-                                </div>
+                                <a :href="track.file"
+                                    v-b-tooltip.hover
+                                    title="Télécharger l'épisode">
+                                    <div class="skin-icon-fa__cercle">
+                                        <fa-icon icon="fa-download" label="Télécharger l'épisode"></fa-icon>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                 </div>
@@ -226,6 +227,7 @@ import CollectionType from '~/components/collection/CollectionType';
 import NavList from '~/components/Ui/Nav/NavList';
 import NavItem from '~/components/Ui/Nav/NavItem';
 import Cover from '~/components/content/Cover.vue';
+import FaIcon from '~/components/Ui/Icon/FaIcon.vue';
 
 export default {
     components: {
@@ -237,6 +239,7 @@ export default {
         NavList,
         NavItem,
         Cover,
+        FaIcon,
     },
 
     data: () => ({
