@@ -13,7 +13,6 @@ use Laravel\Scout\Searchable;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasCountCache;
 use Radiophonix\Models\Support\HasFakeId;
-use Radiophonix\Models\Support\HasMediaMetadata;
 use Radiophonix\Models\Support\Licence\Licence;
 use Radiophonix\Models\Support\Licence\LicenceMapper;
 use Radiophonix\Models\Support\Stats\SagaStats;
@@ -54,7 +53,7 @@ use Spatie\Sluggable\SlugOptions;
  * @method static Builder|Saga sortby($sort)
  * @method static Builder|Saga visibles()
  */
-class Saga extends Model implements HasMedia, HasMediaMetadata
+class Saga extends Model implements HasMedia
 {
     use HasFakeId;
     use HasMediaTrait;

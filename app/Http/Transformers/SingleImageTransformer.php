@@ -3,7 +3,6 @@
 namespace Radiophonix\Http\Transformers;
 
 use Radiophonix\Http\Transformers\Support\Transformer;
-use Radiophonix\Models\Support\HasMediaMetadata;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 
@@ -45,10 +44,14 @@ class SingleImageTransformer extends Transformer
             $image[$size] = $modelWithMedia->getFirstMediaUrl($this->mediaCollection, $size);
         }
 
-        if ($modelWithMedia instanceof HasMediaMetadata) {
+        $media = $modelWithMedia->getFirstMedia($this->mediaCollection);
+
+        if ($media->hasCustomProperty('color')
+            && $media->hasCustomProperty('color')
+        ) {
             $image['meta'] = [
-                'color' => $modelWithMedia->getFirstMedia('cover')->getCustomProperty('color'),
-                'type' => $modelWithMedia->getFirstMedia('cover')->getCustomProperty('color_type'),
+                'color' => $media->getCustomProperty('color'),
+                'type' => $media->getCustomProperty('color_type'),
             ];
         }
 
