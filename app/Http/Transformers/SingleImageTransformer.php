@@ -46,6 +46,10 @@ class SingleImageTransformer extends Transformer
 
         $media = $modelWithMedia->getFirstMedia($this->mediaCollection);
 
+        if (null === $media) {
+            return $image;
+        }
+
         if ($media->hasCustomProperty('color')
             && $media->hasCustomProperty('color')
         ) {
