@@ -16,10 +16,12 @@
             <span class="h6">Menu</span>
         </button>
 
-        <svg width="150px" height="25px" class="fill--blanc mb-1">
-            <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
-            <use xlink:href="#logo-part2of2"></use>
-        </svg>
+        <router-link :to="{ name: 'home' }">
+            <svg width="150px" height="25px" class="fill--blanc mb-1">
+                <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
+                <use xlink:href="#logo-part2of2"></use>
+            </svg>
+        </router-link>
 
     </div>
 </template>
