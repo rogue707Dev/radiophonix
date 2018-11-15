@@ -2,9 +2,10 @@
 
 namespace Radiophonix\Models\Support\Stats;
 
+use Illuminate\Contracts\Support\Arrayable;
 use Radiophonix\Models\Author;
 
-class AuthorStats
+class AuthorStats implements Arrayable
 {
     /**
      * @var Author
@@ -25,5 +26,15 @@ class AuthorStats
     public function sagas(): int
     {
         return (int)$this->author->cached_sagas_count;
+    }
+
+    /**
+     * @return array
+     */
+    public function toArray(): array
+    {
+        return [
+            'sagas' => $this->sagas(),
+        ];
     }
 }

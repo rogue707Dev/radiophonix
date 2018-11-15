@@ -1,6 +1,6 @@
 <?php
 
-namespace Radiophonix\Models\Support\Genre;
+namespace Radiophonix\Models\Support\Stats;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Radiophonix\Models\Genre;

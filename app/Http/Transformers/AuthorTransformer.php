@@ -43,9 +43,7 @@ class AuthorTransformer extends Transformer
                 'facebook' => $author->link_facebook,
                 'twitter' => $author->link_twitter,
             ],
-            'stats' => [
-                'sagas' => $author->stats()->sagas(),
-            ],
+            'stats' => $author->stats()->toArray(),
             'created_at' => $this->getFormatedDate($author->created_at),
             'updated_at' => $this->getFormatedDate($author->updated_at),
         ];
