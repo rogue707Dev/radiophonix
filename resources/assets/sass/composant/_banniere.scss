@@ -6,14 +6,49 @@ $banniere__padding-large: 20px;
 
 .banniere {
     position: relative;
+    display: grid;
+    grid-template-columns: $banniere__taille-visuel 1fr;
+}
+
+/*======================================================================================================================
+$ IMAGE DE FOND
+======================================================================================================================*/
+.banniere__fond {
+    width: 800px;
+    height: 800px;
+
+    position : absolute;
+    top:0;
+    left:0;
+
+    background-image: url('/static/dev/images/motif-cercle-blanc.svg');
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-position: center center;
+
+    &.var--saga {
+        background-image: url('/static/dev/images/motif-carre-blanc.svg');
+    }
+    &.var--genre {
+        background-image: url('/static/dev/images/motif-hexagone-blanc.svg');
+    }
+
+    @include media-breakpoint-up(lg) {
+        top: -280px;
+        left:-280px;
+    }
+
+}
+
+
+/*
+.banniere__fond {
+    position: relative;
     z-index: z-index(0);
     background: $bleu-100;
     padding: $banniere__padding-large;
     min-height: $largeur-sidebar;
     color: $bleu-500;
-
-    display: flex;
-    flex-direction: column;
 
     &:before {
         @include content-absolute-cover;
@@ -53,8 +88,8 @@ $banniere__padding-large: 20px;
     }
 
     @include media-breakpoint-up(lg) {
-        margin-right: 0;
-        margin-left: 0;
+        //margin-right: 0;
+        //margin-left: 0;
     }
 
     @include media-breakpoint-down(md) {
@@ -62,50 +97,17 @@ $banniere__padding-large: 20px;
     }
 
 }
-
+*/
 
 
 /*======================================================================================================================
 $ ZONE VISUEL
 ======================================================================================================================*/
-.banniere__zone-visuel {
-    flex-basis: $banniere__taille-visuel;
-    height: $banniere__taille-visuel;
-
-    margin-top: auto;
-    margin-bottom: auto;
-
-    z-index: z-index(1);
-
-    position: relative;
-
-    @include media-breakpoint-down(sm) {
-        width: $banniere__taille-visuel;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    @include media-breakpoint-only(md) {
-
-    }
-
-    @include media-breakpoint-up(lg) {
-        min-width: $banniere__taille-visuel;
-    }
+.banniere__visuel {
+    // Annule la partie masquer de l'image pour l'aligner au contenu
+    margin-top: -23px;
+    margin-left: -23px;
 }
-
-
-
-
-/*======================================================================================================================
-$ BANNIERE COVER
-======================================================================================================================*/
-.banniere__zone-visuel .cover {
-    position: absolute;
-    top: -23px;
-    left: -23px;
-}
-
 
 
 /*======================================================================================================================

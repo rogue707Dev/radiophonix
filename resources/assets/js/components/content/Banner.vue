@@ -1,21 +1,29 @@
 <template>
+    <div class="bg-light">
+        <div class="container banniere">
 
-    <div class="banniere" :class="{'var--saga': type == 'saga', 'var--genre': type == 'genre'}">
-        <div class="banniere__zone-visuel text-center">
+            <div class="banniere__fond" :class="{'var--saga': type == 'saga', 'var--genre': type == 'genre'}"></div>
 
-            <slot name="image"></slot>
+            <div class="banniere__visuel">
+                <slot class="banniere__test" name="image"></slot>
+            </div>
 
-        </div>
-        <div class="banniere__zone-contenu">
-            <div class="text-center text-md-left">
+            <!--
+            <div class="banniere__zone-visuel text-center">
+                <slot name="image"></slot>
+            </div>-->
 
-                <h2 class="h1">
-                    <slot name="subtitle"></slot>
-                </h2>
-                <h1 class="display-2">{{ title }}</h1>
+            <div class="banniere__zone-contenu">
+                <div class="text-center text-md-left">
 
-                <slot></slot>
+                    <h2 class="h1">
+                        <slot name="subtitle"></slot>
+                    </h2>
+                    <h1 class="display-2">{{ title }}</h1>
 
+                    <slot></slot>
+
+                </div>
             </div>
         </div>
     </div>

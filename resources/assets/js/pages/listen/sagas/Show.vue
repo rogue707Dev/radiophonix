@@ -25,10 +25,6 @@
                         :urlImage="saga.images.cover.main"
                         :altImage="saga.name">
                 </cover>
-                <div class="fitre--bleu"></div>
-                <button class="pa-centrer btn btn-outline-theme btn-round btn-lg" @click="playSaga">
-                    <i aria-hidden="true" class="fa fa-play"></i>
-                </button>
             </template>
 
             <ul class="banniere__zone-contenu__bande">
@@ -67,18 +63,17 @@
             </ul>
 
             <div class="mt-3">
+                <button class="btn btn-outline-secondary btn-sm mb-2" @click="playSaga">
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                    <span v-if="currentTick">Reprendre la lecture</span>
+                    <span v-else>Écouter</span>
+                </button>
                 <licence-link :licence="saga.licence"
                               class="btn btn-outline-secondary btn-sm mb-2"
                               v-if="saga.licence" />
                 <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.rss" v-if="saga.links.rss">
                     <i aria-hidden="true" class="fa fa-rss"></i>&nbsp;Flux RSS
                 </a>
-                <button class="btn btn-outline-secondary btn-sm mb-2"
-                        v-if="currentTick"
-                        @click="playSaga">
-                    <i class="fa fa-play" aria-hidden="true"></i>
-                    Reprendre la lecture
-                </button>
             </div>
 
         </banner>

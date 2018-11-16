@@ -356,7 +356,7 @@
             </div>
             <div class="jumbotron var--bg-image" style="background-image: url(&quot;/static/home/ecouter.jpeg&quot;);">
                 <div class="jumbotron-bg-image__filtre">
-                    <div class="jumbotron-bg-image__content">
+                    <div class="container jumbotron-bg-image__content">
                         .jumboron.var--bg-image
                         <br>
                         Avec un structure pour centrer le texte et ajouter un filtre au bg
