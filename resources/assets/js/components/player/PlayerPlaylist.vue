@@ -8,7 +8,7 @@
 
             <div class="lecteur__playlist__menu">
                 <button data-v-5f801cbc="" type="button" class="btn btn-dark btn-sm" @click="closePlaylist">
-                    <i aria-hidden="true" class="fa fa-arrow-left"></i>&nbsp;Revenir au player
+                    <i aria-hidden="true" class="fa fa-arrow-left"></i>&nbsp;Revenir au lecteur
                 </button>
             </div>
 

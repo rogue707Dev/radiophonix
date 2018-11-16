@@ -82,11 +82,11 @@
             <hr>
 
             <news-entry date="29 octobre 2018">
-                <h3 class="h3 mt-3">Amélioration du player en mobile</h3>
+                <h3 class="h3 mt-3">Amélioration du lecteur en mobile</h3>
                 <p class="pl-lg-4">
                     Lors d'une lecture d'un épisode en mobile, une barre est maintenant
-                    affichée en bas de l'écran pour accéder au player.<br/>
-                    Cette barre permet d'ouvrir le player en plein écran et de faire
+                    affichée en bas de l'écran pour accéder au lecteur.<br/>
+                    Cette barre permet d'ouvrir le lecteur en plein écran et de faire
                     lecture/pause.
                 </p>
                 <div class="row pl-lg-4">
@@ -94,9 +94,9 @@
                         <div class="card mb-4 mb-lg-0">
                             <img class="card-img-top"
                                  src="/static/news/nouveau-player-mobile/nouveau-player-mobile-ferme.png"
-                                 alt="Player fermé">
+                                 alt="Lecteur fermé">
                             <div class="card-footer text-muted">
-                                Player audio fermé
+                                Lecteur audio fermé
                             </div>
                         </div>
                     </div>
@@ -104,9 +104,9 @@
                         <div class="card mb-4 mb-lg-0">
                             <img class="card-img-top"
                                  src="/static/news/nouveau-player-mobile/nouveau-player-mobile-ouvert.png"
-                                 alt="Player ouvert">
+                                 alt="Lecteur ouvert">
                             <div class="card-footer text-muted">
-                                Player audio ouvert
+                                Lecteur audio ouvert
                             </div>
                         </div>
                     </div>
