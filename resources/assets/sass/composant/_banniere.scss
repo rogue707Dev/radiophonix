@@ -7,7 +7,20 @@ $banniere__padding-large: 20px;
 .banniere {
     position: relative;
     display: grid;
-    grid-template-columns: $banniere__taille-visuel 1fr;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+
+    @include media-breakpoint-down(md) {
+        margin-top:0; // annule la marge de .container
+    }
+
+    @include media-breakpoint-up(lg) {
+        grid-template-columns: $banniere__taille-visuel 1fr;
+        grid-template-rows: 1fr;
+        justify-items: start;
+    }
 }
 
 /*======================================================================================================================
@@ -18,8 +31,7 @@ $ IMAGE DE FOND
     height: 800px;
 
     position : absolute;
-    top:0;
-    left:0;
+    top:-278px;
 
     background-image: url('/static/dev/images/motif-cercle-blanc.svg');
     background-repeat: no-repeat;
@@ -104,9 +116,11 @@ $ IMAGE DE FOND
 $ ZONE VISUEL
 ======================================================================================================================*/
 .banniere__visuel {
-    // Annule la partie masquer de l'image pour l'aligner au contenu
-    margin-top: -23px;
-    margin-left: -23px;
+    @include media-breakpoint-up(lg) {
+        // Annule la partie masquer de l'image pour l'aligner au contenu
+        margin-top  : -23px;
+        margin-left : -23px;
+    }
 }
 
 
@@ -122,8 +136,11 @@ $margin-left-zone-contenu: 30px;
 
     z-index: z-index(1);
 
+    @include media-breakpoint-down(md) {
+        margin-bottom: $espacement-standard;
+    }
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         margin-left: $margin-left-zone-contenu;
     }
 
