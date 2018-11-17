@@ -306,13 +306,6 @@
                 <i class="cc cc-by-nc-nd"></i>
                 <i class="cc cc-by-nc-sa"></i>
             </a>
-            <h2 class="h1 mt-3">Font Awesome</h2>
-            <div class="skin-icon-fa__cercle">
-                <i aria-hidden="true" class="fa fa-volume-up"></i>
-            </div>
-            <div class="skin-icon-fa__cercle">
-                <i aria-hidden="true" class="fa fa-play"></i>
-            </div>
             <hr class="my-5">
 
 

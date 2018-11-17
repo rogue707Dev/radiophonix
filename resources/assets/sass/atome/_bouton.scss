@@ -64,11 +64,3 @@ $ OUTLINE ROUND
     }
 
 }
-
-/*======================================================================================================================
-$ TEXTE DE BOUTON PRECEDE D'UNE ICON FONT AWESOME
-fa = class commune a toute les icon font awesome
-======================================================================================================================*/
-.btn:not(.btn-round):not(.btn-homepage) i.fa {
-    margin-right: 5px;
-}

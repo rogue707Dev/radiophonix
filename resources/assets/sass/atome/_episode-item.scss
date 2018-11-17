@@ -1,49 +1,62 @@
 /*======================================================================================================================
 $ ITEM EPISODE
 ======================================================================================================================*/
+$largeur-mini-bouton-a-droite: 1100px;
 
 /*-----------------------------------------------------------------------------
-$ NORMAL
+$ CONTENEUR
 -----------------------------------------------------------------------------*/
 .episode-item {
     display: grid;
-    grid-template-columns: minmax(32px, auto) 1fr auto auto;
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: auto auto;
     grid-column-gap: $espacement-standard;
-    align-items: center;
-
-    border-bottom: 1px solid $bleu-100;
+    grid-row-gap: $espacement-standard--petit;
+    align-items: flex-start;
     padding: $espacement-standard--petit 0;
 
-    &:last-child {
-        border-bottom: 0;
-    }
-
-    @include survol(".actif") {
-
-        .skin-icon-fa__cercle {
-            color: $primary;
-        }
-
-        .liste-episode__titre {
-            color: $primary;
-        }
+    @media screen and (min-width: $largeur-mini-bouton-a-droite) {
+        grid-template-columns: minmax(32px, auto) 1fr auto auto;
+        grid-template-rows: auto;
     }
 }
 
-/*-----------------------------------------------------------------------------
-$ TEMPS EPISODE
------------------------------------------------------------------------------*/
-@include media-breakpoint-down(md){
-    .episode-item--temps {
-        grid-column: 2 / 4;
-        grid-row: 2 / 3;
+.episode-item:not(:last-child) {
+    border-bottom: 1px solid $bleu-100;
+}
 
+
+/*-----------------------------------------------------------------------------
+$ PLACEMENT
+-----------------------------------------------------------------------------*/
+.episode-item__content {
+    grid-column: 2/4;
+    grid-row: 1;
+
+    @media screen and (min-width: $largeur-mini-bouton-a-droite) {
+        grid-column: 2/3;
+        grid-row: 1;
     }
 }
 
-/*-----------------------------------------------------------------------------
-$ ACTIF
------------------------------------------------------------------------------*/
-.episode-item.actif {
-    background-color: $bleu-100;
+.episode-item__etat-lecture {
+    grid-column: 2/3;
+    grid-row: 2;
+
+    @media screen and (min-width: $largeur-mini-bouton-a-droite) {
+        grid-column: 3/4;
+        grid-row: 1;
+        align-self: center;
+    }
+}
+
+.episode-item__download {
+    grid-column: 3/4;
+    grid-row: 2;
+
+    @media screen and (min-width: $largeur-mini-bouton-a-droite) {
+        grid-column: 4/5;
+        grid-row: 1;
+        align-self: center;
+    }
 }

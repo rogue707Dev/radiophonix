@@ -5,18 +5,3 @@ a mettre en conteneur d'icone CC
 .skin-icon-cc {
     font-size: px2rem(50);
 }
-
-
-/*======================================================================================================================
-$ Font Awesome
-a mettre en conteneur d'icone FA
-======================================================================================================================*/
-.skin-icon-fa__cercle {
-    @include btn-round(25px);
-    border:1px solid $bleu-200;
-    color: $bleu-300;
-
-    .fa-play {
-        padding-left: 3px;
-    }
-}
