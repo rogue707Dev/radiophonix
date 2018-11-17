@@ -6,7 +6,7 @@
                 subtitle="Vous êtes perdu ?">
         </headband>
 
-        <div class="containerXXX">
+        <div class="container">
 
             <div class="row">
                 <div class="col-12 col-xl-10">

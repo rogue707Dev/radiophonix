@@ -3,6 +3,7 @@ $ BASE
 ======================================================================================================================*/
 $decalage-mask-cover: 23px;
 $grid-column-gap-de-banniere: 30px;
+$taille-image-fond: 800px;
 
 .banniere {
     position: relative;
@@ -28,15 +29,15 @@ $grid-column-gap-de-banniere: 30px;
 $ IMAGE DE FOND en absolute
 ======================================================================================================================*/
 .banniere__fond {
-    width: 800px;
-    height: 800px;
+    width: 100%;
+    height: $taille-image-fond;
 
     position : absolute;
     top:-278px;
 
     background-image: url('/static/dev/images/motif-cercle-blanc.svg');
     background-repeat: no-repeat;
-    background-size: 800px 800px;
+    background-size: $taille-image-fond $taille-image-fond;
     background-position: center center;
 
     &.var--saga {
@@ -44,6 +45,11 @@ $ IMAGE DE FOND en absolute
     }
     &.var--genre {
         background-image: url('/static/dev/images/motif-hexagone-blanc.svg');
+    }
+
+    // Sans, en moins de "$taille-image-fond" un scroll horizontal s'affocherai
+    @media screen and (min-width: $taille-image-fond) {
+        width: $taille-image-fond;
     }
 
     @include media-breakpoint-up(lg) {

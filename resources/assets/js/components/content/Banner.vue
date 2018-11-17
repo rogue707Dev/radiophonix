@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-light d-none">
+    <div class="bg-light">
         <div class="container banniere">
 
             <div class="banniere__fond" :class="{'var--saga': type == 'saga', 'var--genre': type == 'genre'}"></div>
