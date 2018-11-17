@@ -10,7 +10,7 @@
             </template>
         </button>
 
-        <div class="text-center text-white py-2">
+        <div class="text-center text-white py-2" @click="togglePlayer">
             <strong>
                 <text-ellispis :text="currentTrack.title" :size="28"></text-ellispis>
             </strong>
