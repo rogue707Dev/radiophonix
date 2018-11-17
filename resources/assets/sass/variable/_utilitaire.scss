@@ -21,6 +21,10 @@ $taille-max-container: 910px;
 
 $btn-navigation: 60px;
 
+// TODO trouver les variables bootstrap
+$padding-container-sm: 15px;
+$padding-container-lg: 20px;
+
 
 /*======================================================================================================================
 $ TAILLE DE TEXTE
@@ -37,9 +41,6 @@ $largeur-card: 200px;
 $largeur-card-horizontal: 300px;
 $largeur-conteneur-cover: 100px;
 $list-card-gap: 20px;
-
-
-$padding-container-sm: 15px; // TODO trouver la variable bootstrap
 
 $card-moyenne-1-par-ligne-max: (($padding-container-sm + $largeur-card + $list-card-gap + $largeur-card + $padding-container-sm) - 1 );
 $card-moyenne-2-par-ligne-max: (($padding-container-sm + $largeur-card + $list-card-gap + $largeur-card + $list-card-gap + $largeur-card + $padding-container-sm) - 1 );

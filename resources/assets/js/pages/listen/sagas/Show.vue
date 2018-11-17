@@ -27,31 +27,31 @@
                 </cover>
             </template>
 
-            <ul class="banniere__zone-contenu__bande">
-                <li class="banniere__zone-contenu__bande__item">
+            <ul class="banniere__contenu__bande">
+                <li class="banniere__contenu__bande__item">
                     {{ saga.stats.likes }} <i aria-hidden="true" class="fa fa-heart"></i>
                 </li>
                 <template v-if="saga.stats.collections == 1">
-                    <li class="banniere__zone-contenu__bande__item">
+                    <li class="banniere__contenu__bande__item">
                         {{ saga.stats.tracks }} épisodes
                     </li>
                 </template>
                 <template v-else>
-                    <li class="banniere__zone-contenu__bande__item">
+                    <li class="banniere__contenu__bande__item">
                         {{ saga.stats.collections }} saisons
                     </li>
-                    <li class="banniere__zone-contenu__bande__item">
+                    <li class="banniere__contenu__bande__item">
                         {{ saga.stats.tracks }} épisodes
                     </li>
                 </template>
-                <li class="banniere__zone-contenu__bande__item"
+                <li class="banniere__contenu__bande__item"
                     v-b-tooltip.hover.top title="Date de création">
                     <i aria-hidden="true" class="fa fa-calendar"></i> {{ saga.creation_date | formatDate }}
                 </li>
-                <li class="banniere__zone-contenu__bande__item" v-if="saga.finished">
+                <li class="banniere__contenu__bande__item" v-if="saga.finished">
                     Saga terminée
                 </li>
-                <li class="banniere__zone-contenu__bande__item"
+                <li class="banniere__contenu__bande__item"
                     v-b-tooltip.hover.top title="Genre">
                     <router-link tag="a"
                                  class="text-primary"
