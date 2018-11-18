@@ -16,6 +16,7 @@
                     <!-- Le nom de la saison n'est affiché que s'il y en a plusieurs -->
                     <div class="row"
                         v-if="currentSaga.stats.collections > 1">
+                        <div class="col-1"></div>
                         <div class="col h1">
                             {{ collection.name }}
                         </div>
