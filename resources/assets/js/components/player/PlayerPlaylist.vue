@@ -6,10 +6,9 @@
         //////////////////////////////////////////////////////////////-->
         <template v-if="currentTrack.id">
 
-            <div class="playlist__menu">
-                <button data-v-5f801cbc="" type="button" class="btn btn-dark btn-sm" @click="closePlaylist">
-                    <i aria-hidden="true" class="fa fa-arrow-left"></i>&nbsp;Revenir au lecteur
-                </button>
+            <div class="playlist__menu" @click="closePlaylist">
+                <i aria-hidden="true" class="fa fa-angle-down text-dark font-weight-bold mr-2"></i>
+                <span class="text-dark">Revenir au lecteur</span>
             </div>
 
             <div class="playlist__liste">

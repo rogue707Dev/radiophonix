@@ -22,3 +22,9 @@ le header est masquer en large up
         display: none;
     }
 }
+
+.lecteur-footer-navigation__contenu {
+    text-align: center;
+    color: $white;
+    height: $hauteur-menu-player;
+}

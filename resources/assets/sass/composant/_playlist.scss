@@ -6,6 +6,7 @@ $ PLAYLIST
 
     @include media-breakpoint-down(md) {
         @include degrade-vertical--orange--fonce-moyen;
+        z-index: 2; // pour passer au dessus de .lecteur-footer-navigation
     }
 }
 
@@ -15,7 +16,7 @@ $ MENU PLAYLIST - retour au player
 .playlist__menu {
 
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     align-items: center;
     justify-content: center;
 
@@ -23,8 +24,8 @@ $ MENU PLAYLIST - retour au player
 
     position: fixed;
     top: $hauteur-menu-mobile;
-    padding: 0 $padding-sidebar;
     border-bottom: 1px solid $bleu-400;
+    padding: 0 $padding-sidebar;
 
     @include media-breakpoint-down(md) {
         left:0;
@@ -56,7 +57,7 @@ $ LISTE DE MORCEAU
         top: $hauteur-menu-mobile + $hauteur-fermer-playlist;
         left:0;
         right: 0;
-        bottom: $hauteur-menu-player;
+        bottom: 0;
 
         overflow-y: scroll;
         overflow-x: hidden;
@@ -78,6 +79,25 @@ $ LISTE DE MORCEAU
             padding: 0 $padding-sidebar;
 
         }
+    }
+}
+
+
+
+
+/*-----------------------------------------------------------------------------
+$ LISTE DE MORCEAU
+-----------------------------------------------------------------------------*/
+.playlist__controle {
+    position: fixed;
+    bottom:0;
+    left:0;
+    right: 0;
+    height: $hauteur-menu-mobile;
+    background-color: red;
+
+    @include media-breakpoint-up(lg) {
+        display: none;
     }
 }
 
