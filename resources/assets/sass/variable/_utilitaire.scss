@@ -17,6 +17,8 @@ $hauteur-menu-player: 38px;
 
 $btn-navigation: 60px;
 
+$padding-container-sm: 15px; // TODO trouver la variable bootstrap
+
 
 /*======================================================================================================================
 $ TAILLE DE TEXTE
@@ -34,12 +36,11 @@ $largeur-card-horizontal: 300px;
 $largeur-conteneur-cover: 100px;
 $list-card-gap: 20px;
 
-
-$padding-container-sm: 15px; // TODO trouver la variable bootstrap
-
-$card-moyenne-1-par-ligne-max: (($padding-container-sm + $largeur-card + $list-card-gap + $largeur-card + $padding-container-sm) - 1 );
-$card-moyenne-2-par-ligne-max: (($padding-container-sm + $largeur-card + $list-card-gap + $largeur-card + $list-card-gap + $largeur-card + $padding-container-sm) - 1 );
+$deux-cartes-50pct-par-ligne: (($padding-container-sm + $largeur-card + $list-card-gap + $largeur-card + $padding-container-sm) - 1 );
+$deux-cartes-moyenne-par-ligne: (($padding-container-sm + $largeur-card + $list-card-gap + $largeur-card + $list-card-gap + $largeur-card + $padding-container-sm) - 1 );
 
 //pour que 2 card passent quand meme cote a cote
 $list-card-gap-sm: 6px;
 $largeur-card-sm: ((320px - ($padding-container-sm * 2 + $list-card-gap-sm)) / 2);//320 taille mini en mobile
+
+$card-petite-1-par-ligne-max: (($padding-container-sm + $largeur-card-sm + $list-card-gap + $largeur-card-sm + $padding-container-sm) - 1 );

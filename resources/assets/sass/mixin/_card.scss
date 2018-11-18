@@ -1,8 +1,14 @@
 /*======================================================================================================================
 $ REDIMENTIONNE LES CARTES "MOYEN" QUAND 2 NE PASSENT MEME PLUS COTE A COTE
 ======================================================================================================================*/
-@mixin resize-card-moyen {
-    @media screen and (max-width: $card-moyenne-1-par-ligne-max) {
+@mixin deux-cartes-50pct-par-ligne {
+    @media screen and (max-width: $deux-cartes-50pct-par-ligne) {
+        @content;
+    }
+}
+
+@mixin deux-cartes-petite-par-ligne {
+    @media screen and (max-width: $card-petite-1-par-ligne-max) {
         @content;
     }
 }

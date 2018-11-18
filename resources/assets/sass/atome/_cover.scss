@@ -118,9 +118,9 @@ $ MOYEN
 }
 
 /*-----------------------------------------------------------------------------
-$ MOYEN ou 2 ne passent meme plus a cote à cote
+$ Deux carte 50% par ligne
 -----------------------------------------------------------------------------*/
-@include resize-card-moyen {
+@include deux-cartes-50pct-par-ligne {
     .cover.var--moyen {
         @include taille(110px);
         /*---------------------------------*/
