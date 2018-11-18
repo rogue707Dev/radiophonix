@@ -2,9 +2,7 @@
 $ PLAYLIST
 ======================================================================================================================*/
 .playlist {
-    padding: 0 $padding-layout-sidebar;
-
-    @include disposition-player;
+    padding: 0 $padding-sidebar;
 
     @include media-breakpoint-down(md) {
         @include degrade-vertical--orange--fonce-moyen;
@@ -21,23 +19,28 @@ $ MENU PLAYLIST - retour au player
     align-items: center;
     justify-content: center;
 
-    height: $hauteur-playlist-menu;
+    height: $hauteur-fermer-playlist;
 
-    @include media-breakpoint-up(lg) {
+    position: fixed;
+    top: $hauteur-menu-mobile;
+    padding: 0 $padding-sidebar;
+    border-bottom: 1px solid $bleu-400;
 
-        position: fixed;
-        top: 0;
-        left: $largeur-menu;
-        width: $largeur-sidebar;
-        padding: 0 $padding-layout-sidebar;
-        border-bottom: 1px solid $bleu-400;
+    @include media-breakpoint-down(md) {
+        left:0;
+        right: 0;
     }
 
     @include media-breakpoint-up(lg) {
+        top: 0;
+        left: $largeur-menu;
+        width: $largeur-sidebar;
+
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
             display: none;
         }
     }
+
 }
 
 
@@ -48,10 +51,23 @@ $ LISTE DE MORCEAU
 -----------------------------------------------------------------------------*/
 .playlist__liste {
 
+    @include media-breakpoint-down(md) {
+        position: fixed;
+        top: $hauteur-menu-mobile + $hauteur-fermer-playlist;
+        left:0;
+        right: 0;
+        bottom: $hauteur-menu-player;
+
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        padding: 0 $padding-sidebar;
+    }
+
     @include media-breakpoint-up(lg) {
         @media screen and (max-height: $playlist-taille-mini-hauteur-pour-affichage) {
             position: fixed;
-            top: $hauteur-playlist-menu;
+            top: $hauteur-fermer-playlist;
             bottom: 0;
             left: $largeur-menu;
             width: $largeur-sidebar;
@@ -59,7 +75,7 @@ $ LISTE DE MORCEAU
             overflow-y: scroll;
             overflow-x: hidden;
 
-            padding: 0 $padding-layout-sidebar;
+            padding: 0 $padding-sidebar;
 
         }
     }

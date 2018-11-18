@@ -7,16 +7,20 @@ $largeur-cover: 280px;
     display: grid;
     row-gap: 20px;
     margin: 0 auto;
-    padding: 20px 20px $padding-layout-sidebar;
+    padding: 20px 20px $padding-sidebar;
 
     &.var--playlist-inactif {
         justify-content: space-around;
     }
 
-    @include disposition-player;
-
-    @include media-breakpoint-down(md){
+    @include media-breakpoint-down(md) {
         @include degrade-vertical--orange--fonce-moyen;
+        position: fixed;
+        top: $hauteur-menu-mobile;
+        bottom: $hauteur-menu-player;
+        width: 100%;
+        overflow-y: auto;
+
         text-align: center;
         align-content: start;
     }

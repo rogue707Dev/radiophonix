@@ -1,24 +1,19 @@
 /*======================================================================================================================
 $ LAYOUT GLOBAL
 ======================================================================================================================*/
+$largeur-bande-menu: 5px;
 $largeur-menu: 90px;
 
 $largeur-sidebar: 320px;
-
-$largeur-bande-menu: 5px;
+$padding-sidebar: 15px;
+$hauteur-lecteur: $largeur-sidebar + 180px;
+$playlist-taille-mini-hauteur-pour-affichage : $hauteur-lecteur + 168px; //168px correspond a 4 lignes
+$largeur-max-contenu: 910px;
 
 $hauteur-menu-mobile: 50px;
-$hauteur-meunu-player: 38px;
+$hauteur-fermer-playlist: 40px;
+$hauteur-menu-player: 38px;
 
-$padding-layout-sidebar: 15px;
-
-$hauteur-lecteur: $largeur-sidebar + 180px;
-
-$hauteur-playlist-menu: 40px;
-
-$playlist-taille-mini-hauteur-pour-affichage : $hauteur-lecteur + 168px; //168px correspond a 4 lignes
-
-$taille-max-container: 910px;
 
 $btn-navigation: 60px;
 

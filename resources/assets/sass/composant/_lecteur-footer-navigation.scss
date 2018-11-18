@@ -16,7 +16,7 @@ le header est masquer en large up
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: $hauteur-meunu-player;
+    height: $hauteur-menu-player;
 
     @include media-breakpoint-up(lg) {
         display: none;
