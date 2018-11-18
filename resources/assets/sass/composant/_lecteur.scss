@@ -51,6 +51,20 @@ $ COVER
     height: $largeur-cover;
     justify-self: center;
 }
+
+.lecteur__cover__loader {
+    @include cover;
+    @include filtre-bleu;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: $white;
+
+    .fa {
+        font-size: px2rem(50);
+    }
+}
+
 .lecteur__cover__bouton {
     position: absolute;
     bottom: 0;

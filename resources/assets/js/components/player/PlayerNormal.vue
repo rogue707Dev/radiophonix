@@ -19,6 +19,11 @@
             <div class="lecteur__cover">
                 <img :src="currentSaga.images.cover.main" alt="" width="280px" height="280px">
 
+                <div class="lecteur__cover__loader" v-if="isLoading">
+                    <i class="fa fa-spinner fa-spin"></i>
+                    <span class="mt-2 lead text-white">Chargement</span>
+                </div>
+
                 <div class="lecteur__cover__bouton">
                     <button class="btn btn-outline-theme btn-round btn-sm mb-3 lecteur__bouton-affichage" @click="openPlaylist">
                         <i aria-hidden="true" class="fa fa-list"></i>
@@ -158,6 +163,7 @@ export default {
         'currentCollections',
         'currentPercentage',
         'currentTime',
+        'isLoading',
     ]),
 
     methods: {
