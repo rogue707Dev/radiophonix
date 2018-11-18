@@ -13,9 +13,10 @@ $largeur-cover: 280px;
         justify-content: space-around;
     }
 
+    @include disposition-player;
+
     @include media-breakpoint-down(md){
         @include degrade-vertical--orange--fonce-moyen;
-        width: 100%;
         text-align: center;
         align-content: start;
     }

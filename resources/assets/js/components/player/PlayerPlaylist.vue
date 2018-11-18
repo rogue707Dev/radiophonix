@@ -1,18 +1,18 @@
 <template>
-    <div class="lecteur__playlist justify-content-around">
+    <div class="playlist justify-content-around">
 
         <!--//////////////////////////////////////////////////////////////
         PLAYLIST
         //////////////////////////////////////////////////////////////-->
         <template v-if="currentTrack.id">
 
-            <div class="lecteur__playlist__menu">
+            <div class="playlist__menu">
                 <button data-v-5f801cbc="" type="button" class="btn btn-dark btn-sm" @click="closePlaylist">
                     <i aria-hidden="true" class="fa fa-arrow-left"></i>&nbsp;Revenir au lecteur
                 </button>
             </div>
 
-            <div class="lecteur__playlist__liste">
+            <div class="playlist__liste">
                 <template v-for="collection in currentCollections">
                     <!-- Le nom de la saison n'est affiché que s'il y en a plusieurs -->
                     <div class="row"
@@ -22,7 +22,7 @@
                         </div>
                     </div>
 
-                    <div class="row lecteur__playlist__morceau a-curseur"
+                    <div class="row playlist__morceau a-curseur"
                          v-for="track in collection.tracks"
                          :key="track.id"
                          :class="{'actif': track.id == currentTrack.id}"

@@ -1,5 +1,5 @@
 <template>
-    <div class="layout-player-footer" v-if="currentSaga.images.cover.main">
+    <div class="lecteur-footer-navigation" v-if="currentSaga.images.cover.main">
 
         <button type="button" class="btn-navigation var--player" @click="togglePlayer" :class="{ 'var--actif': isPlayerOpen}">
             <template v-if="isPlayerOpen">

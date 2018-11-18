@@ -1,7 +1,7 @@
 /*======================================================================================================================
 $ CONTENEUR
 ======================================================================================================================*/
-.layout-conteneur__menu {
+.menu {
     @include reset-ul;
 
     @include media-breakpoint-down(md) {
@@ -36,7 +36,7 @@ $ ITEM NORMAL
 /*-----------------------------------------------------------------------------
 $ LIEN NORMAL
 -----------------------------------------------------------------------------*/
-.layout-menu__item {
+.menu__item {
     display: flex;
     align-items: center;
     color: $bleu-200;
@@ -78,7 +78,7 @@ $ LIEN NORMAL
 /*-----------------------------------------------------------------------------
 $ LIEN ACTIF
 -----------------------------------------------------------------------------*/
-.layout-menu__item.actif {
+.menu__item.actif {
     background-color: $bleu-400;
     color: $blanc;
 
@@ -107,7 +107,7 @@ $ LIEN ACTIF
 /*-----------------------------------------------------------------------------
 $ LIEN HOVER
 -----------------------------------------------------------------------------*/
-.layout-menu__item {
+.menu__item {
 
     @include survol(".actif", ".var--logout"){
         color: $blanc;
@@ -126,7 +126,7 @@ $ LIEN HOVER
 /*-----------------------------------------------------------------------------
 $ LIEN AVEC POINT de nouveauté
 -----------------------------------------------------------------------------*/
-.layout-menu__item.var--nouveau {
+.menu__item.var--nouveau {
     position: relative;
 
     .fa {
@@ -158,7 +158,7 @@ $ ITEM LOGIN/LOGOUT
 /*-----------------------------------------------------------------------------
 $ LOGIN
 -----------------------------------------------------------------------------*/
-.layout-menu__item.var--login {
+.menu__item.var--login {
     @include media-breakpoint-down(md) {
         border-top: 1px dotted $bleu-200;
     }
@@ -171,11 +171,11 @@ $ LOGIN
 /*-----------------------------------------------------------------------------
 $ LOGOUT
 -----------------------------------------------------------------------------*/
-.layout-menu__item.var--logout {
+.menu__item.var--logout {
     align-items: flex-end;
     border-bottom: 1px dotted $bleu-200;
 }
-.layout-menu__item__avatar {
+.menu__item__avatar {
     width: $largeur-menu;
 
     @include media-breakpoint-down(md) {
@@ -188,7 +188,7 @@ $ LOGOUT
 $ AFFICHAGE DU SOUS MENU
 -----------------------------------------------------------------------------*/
 @include media-breakpoint-up(lg) {
-    .layout-menu__item.var--logout:hover .layout-menu__navigation{
+    .menu__item.var--logout:hover .menu__nivo2{
         display: grid;
     }
 }
@@ -196,9 +196,7 @@ $ AFFICHAGE DU SOUS MENU
 /*-----------------------------------------------------------------------------
 $ SOUS MENU
 -----------------------------------------------------------------------------*/
-
-
-.layout-menu__navigation {
+.menu__nivo2 {
 
     @include media-breakpoint-down(md) {
         display: grid;
@@ -217,7 +215,7 @@ $ SOUS MENU
     background-color: $bleu-400;
 }
 
-.layout-menu__navigation__img {
+.menu__nivo2__img {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -231,12 +229,12 @@ $ SOUS MENU
         border-color: $orange-100;
     }
 
-    &:hover + .layout-menu__navigation__lien .layout-menu__navigation__lien__profil {
+    &:hover + .menu__nivo2__lien .menu__nivo2__lien__profil {
         color: $blanc;
     }
 }
 
-.layout-menu__navigation__lien {
+.menu__nivo2__lien {
     padding: $espacement-standard--petit;
     display: grid;
     align-items: center;

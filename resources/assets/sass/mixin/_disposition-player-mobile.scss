@@ -1,0 +1,12 @@
+/*======================================================================================================================
+$ DISPOSITION PLAYER MEDIUM DOWN
+======================================================================================================================*/
+@mixin disposition-player {
+    @include media-breakpoint-down(md) {
+        position: fixed;
+        top: $hauteur-menu-mobile;
+        bottom: $hauteur-meunu-player;
+        width: 100%;
+        overflow-y: auto;
+    }
+}

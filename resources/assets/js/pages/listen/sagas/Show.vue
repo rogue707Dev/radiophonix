@@ -170,7 +170,7 @@
                         <nav-item :active="true">Épisodes</nav-item>
                     </nav-list>
                 </div>
-                <div class="col-12 mb-5"
+                <div class="col-12"
                      v-for="collection in collectionTypes[currentCollectionType]"
                      :key="collection.id">
                         <h3 class="h3 mb-2 mt-3"

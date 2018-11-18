@@ -5,7 +5,7 @@ $ GLOBAL
 
     display:grid;
     grid-template-columns: 60px auto 60px;
-    grid-template-rows: $hauteur-menu-mobile auto auto;
+    grid-template-rows: $hauteur-menu-mobile auto $hauteur-meunu-player;
     height:100vh;
 
 
@@ -134,7 +134,6 @@ $ PLAYLIST
 
     &.actif {
         display: inherit;
-
         grid-column: 1/4;
         grid-row: 2/4;
     }
@@ -152,7 +151,6 @@ $ PLAYLIST
 
             z-index: 2; // au dessus de .layout-global__lecteur
 
-            overflow-x: auto;
             overflow-x: hidden;
         }
 
@@ -190,7 +188,7 @@ $ MAIN
 .layout-global__main {
 
     grid-column: 1/4;
-    grid-row: 2/4;
+    grid-row: 2/3;
 
     @include media-breakpoint-up(lg) {
 
@@ -211,10 +209,8 @@ $ MAIN
 $ MAIN
 ======================================================================================================================*/
 .layout-global__lecteur-footer {
-
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    grid-column: 1/4;
+    grid-row: 3/4;
 
     &.inactif {
         display: none;
