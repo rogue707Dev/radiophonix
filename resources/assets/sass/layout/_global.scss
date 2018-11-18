@@ -210,8 +210,11 @@ $ MAIN
 $ MAIN
 ======================================================================================================================*/
 .layout-global__lecteur-footer {
-    grid-column: 1/4;
-    grid-row: 3/4;
+
+    @include media-breakpoint-down(md) {
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
 
     &.inactif {
         display: none;
