@@ -60,8 +60,9 @@ $ COVER
     align-content: center;
     color: $white;
 
-    .fa {
+    .fa-fw {
         font-size: px2rem(50);
+        margin-left: 10px; //correction alignement
     }
 }
 

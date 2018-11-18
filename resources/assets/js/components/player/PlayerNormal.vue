@@ -20,7 +20,7 @@
                 <img :src="currentSaga.images.cover.main" alt="" width="280px" height="280px">
 
                 <div class="lecteur__cover__loader" v-if="isLoading">
-                    <i class="fa fa-spinner fa-spin"></i>
+                    <i class="fa fa-fw fa-spinner fa-spin"></i>
                     <span class="mt-2 lead text-white">Chargement</span>
                 </div>
 
