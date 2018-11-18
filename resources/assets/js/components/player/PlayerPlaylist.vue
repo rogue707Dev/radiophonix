@@ -38,7 +38,13 @@
                             </p>
                         </div>
                         <div class="col-auto pr-4">
-                            <track-length :seconds="track.seconds" class="h5"></track-length>
+                            <template v-if="track.id == currentTrack.id">
+                                <i v-if="isLoading"  class="fa fa-fw fa-spinner fa-spin"></i>
+                                <track-length v-else :seconds="track.seconds" class="h5"></track-length>
+                            </template>
+                            <tempplate v-else>
+                                <track-length :seconds="track.seconds" class="h5"></track-length>
+                            </tempplate>
                         </div>
 
                     </div>
@@ -69,7 +75,8 @@ export default {
         'isPlaying',
         'currentTrack',
         'currentCollections',
-        'currentSaga'
+        'currentSaga',
+        'isLoading',
     ]),
 
     methods: {
