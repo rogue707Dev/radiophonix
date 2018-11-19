@@ -1,5 +1,5 @@
 <template>
-    <div class="layout-header-mobile">
+    <div class="header-mobile">
 
         <button class="btn-navigation var--menu" @click="toggleMenu" :class="{ 'var--actif': isMenuOpen}">
             <svg class="burger" viewBox="0 0 30 22" width="30" :class="{ 'var--actif': isMenuOpen}">

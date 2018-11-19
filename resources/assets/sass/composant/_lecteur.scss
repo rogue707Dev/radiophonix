@@ -1,19 +1,26 @@
 /*======================================================================================================================
 $ CONTENEUR
 ======================================================================================================================*/
+$largeur-cover: 280px;
+
 .lecteur {
     display: grid;
     row-gap: 20px;
     margin: 0 auto;
-    padding: 20px 20px $padding-layout-sidebar;
+    padding: 20px 20px $padding-sidebar;
 
     &.var--playlist-inactif {
         justify-content: space-around;
     }
 
-    @include media-breakpoint-down(md){
+    @include media-breakpoint-down(md) {
         @include degrade-vertical--orange--fonce-moyen;
+        position: fixed;
+        top: $hauteur-menu-mobile;
+        bottom: $hauteur-menu-player;
         width: 100%;
+        overflow-y: auto;
+
         text-align: center;
         align-content: start;
     }
@@ -35,13 +42,53 @@ $ CONTENEUR
         }
     }
 }
+/*======================================================================================================================
+$ COVER
+======================================================================================================================*/
+.lecteur__cover {
+    position: relative;
+    width: $largeur-cover;
+    height: $largeur-cover;
+    justify-self: center;
+}
 
+.lecteur__cover__loader {
+    @include cover;
+    @include filtre-bleu;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: $white;
 
+    .fa-fw {
+        font-size: px2rem(50);
+        margin-left: 10px; //correction alignement
+    }
+}
+
+.lecteur__cover__bouton {
+    position: absolute;
+    bottom: 0;
+    right: -15px; // moitié des boutons
+
+    display: flex;
+    flex-direction: column;
+}
 
 /*======================================================================================================================
-$ DISPOSITION de base
+$ CONTENU
 ======================================================================================================================*/
-.lecteur__disposition {
+.lecteur__contenu {
+    width: $largeur-cover;
+    display: grid;
+    row-gap: 20px;
+    margin: 0 auto;
+}
+
+/*======================================================================================================================
+$ CONTROLE
+======================================================================================================================*/
+.lecteur__controle {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -72,24 +119,14 @@ $ BOUTON SUPLEMENTAIRE
     }
 }
 
-// afficher seulement dans le cas inverse
-.lecteur__bouton-masque {
-    display: none !important;
-
-    @include media-breakpoint-up(lg) {
-        @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
-            display: inline-flex !important;
-        }
-    }
-}
-
 
 /*======================================================================================================================
 $ BARRE de progression
 ======================================================================================================================*/
 .lecteur__progression {
     display: grid;
-    grid-template-columns: 35px 1fr 35px;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: $espacement-standard--petit;
     align-items: center;
     color: $bleu-400;
 }

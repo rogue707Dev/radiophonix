@@ -53,7 +53,7 @@
                 <roadmap-task status="done">
                     Avoir un lecteur audio fonctionnel
                 </roadmap-task>
-                <roadmap-task status="doing">
+                <roadmap-task status="done">
                     Générer un flux RSS de podcast pour chaque saga
                 </roadmap-task>
                 <roadmap-task status="done">
@@ -81,10 +81,10 @@
             </p>
 
             <ul class="list-unstyled pl-4">
-                <roadmap-task status="todo">
+                <roadmap-task status="doing">
                     Pouvoir s'inscrire sur le site
                 </roadmap-task>
-                <roadmap-task status="todo">
+                <roadmap-task status="doing">
                     Enregistrer l'avancement de la lecture sur le compte
                 </roadmap-task>
                 <roadmap-task status="todo">

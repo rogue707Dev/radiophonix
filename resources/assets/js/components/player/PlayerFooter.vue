@@ -1,5 +1,5 @@
 <template>
-    <div class="layout-player-footer" v-if="currentSaga.images.cover.main">
+    <div class="lecteur-footer-navigation" v-if="currentSaga.images.cover.main">
 
         <button type="button" class="btn-navigation var--player" @click="togglePlayer" :class="{ 'var--actif': isPlayerOpen}">
             <template v-if="isPlayerOpen">
@@ -10,7 +10,7 @@
             </template>
         </button>
 
-        <div class="text-center text-white py-2">
+        <div class="lecteur-footer-navigation__contenu py-2" @click="togglePlayer">
             <strong>
                 <text-ellispis :text="currentTrack.title" :size="28"></text-ellispis>
             </strong>

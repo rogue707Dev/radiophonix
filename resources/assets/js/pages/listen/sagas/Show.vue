@@ -165,7 +165,7 @@
                         <nav-item :active="true">Épisodes</nav-item>
                     </nav-list>
                 </div>
-                <div class="col-12 mb-5"
+                <div class="col-12"
                      v-for="collection in collectionTypes[currentCollectionType]"
                      :key="collection.id">
                         <h3 class="h3 mb-2 mt-3"
@@ -174,33 +174,43 @@
                         </h3>
 
                         <div class="episode-item"
-                             :class="{'actif': track.id == currentTrack.id}"
                              v-for="track in collection.tracks" :key="track.id">
-                            <div class="ml-3 text-right"
-                                 @click="play({track, saga, autoStart: true})"
-                                 v-html="formatTrackNumber(track.number)"></div>
-                            <div @click="play({track, saga, autoStart: true})">
+                            <div class="ml-xl-3 text-right" v-html="formatTrackNumber(track.number)"></div>
+
+                            <div class="episode-item__content">
                                 <span class="font-weight-bold">
                                     {{ track.title }}
                                 </span>
-                                <span v-if="isCurrentTick(track)">
-                                    (épisode en cours)
-                                </span>
+                                &nbsp;•&nbsp;<track-length :seconds="track.seconds"></track-length>
                                 <p>{{ track.synopsis }}</p>
                             </div>
-                            <span class="episode-item--temps text-primary" @click="play({track, saga, autoStart: true})">
-                                <i aria-hidden="true" class="fa fa-clock-o"></i>
-                                <track-length :seconds="track.seconds"></track-length>
+
+                            <div class="episode-item__etat-lecture">
+                                <span
+                                        v-if="track.id == currentTrack.id"
+                                        class="text-primary border border-primary rounded p-1">
+                                Épisode en cours
                             </span>
-                            <div class="mr-lg-3">
+                                <button
+                                        v-else
+                                        class="btn btn-sm"
+                                        :class="{'btn-outline-primary': isCurrentTick(track), 'btn-outline-secondary': !isCurrentTick(track)}"
+                                        @click="play({track, saga, autoStart: true})">
+                                    <i class="fa fa-play pr-1" aria-hidden="true"></i>
+                                    <span v-if="isCurrentTick(track)">Reprendre la lecture</span>
+                                    <span v-else>Écouter</span>
+                                </button>
+                            </div>
+
+                            <div class="episode-item__download">
                                 <a :href="track.file"
-                                    v-b-tooltip.hover
-                                    title="Télécharger l'épisode">
-                                    <div class="skin-icon-fa__cercle">
-                                        <fa-icon icon="fa-download" label="Télécharger l'épisode"></fa-icon>
-                                    </div>
+                                   target="_blank"
+                                   class="btn btn-outline-secondary btn-sm mr-xl-3">
+                                    <i aria-hidden="true" class="fa fa-download"></i>
+                                    Télécharger
                                 </a>
                             </div>
+
                         </div>
                 </div>
             </div>

@@ -16,71 +16,82 @@
             <!----------------------------------------
             Jaquette et bouton supplémentaire
             ------------------------------------------>
-            <div class="pr">
+            <div class="lecteur__cover">
                 <img :src="currentSaga.images.cover.main" alt="" width="280px" height="280px">
 
-                <!--Bouton ajouter en favoris-->
-                <button class="btn btn-outline-theme btn-round btn-lg pa-centrer lecteur__bouton-masque">
-                    <i aria-hidden="true" class="fa fa-heart"></i>
-                </button>
+                <div class="lecteur__cover__loader" v-if="isLoading">
+                    <i class="fa fa-fw fa-spinner fa-spin"></i>
+                    <span class="mt-2 lead text-white">Chargement</span>
+                </div>
 
-            </div>
+                <div class="lecteur__cover__bouton">
+                    <button class="btn btn-outline-theme btn-round btn-sm mb-3 lecteur__bouton-affichage" @click="openPlaylist">
+                        <i aria-hidden="true" class="fa fa-list"></i>
+                    </button>
 
+                    <!--Bouton ajouter en favoris-->
+                    <button class="btn btn-outline-theme btn-round btn-sm mb-3">
+                        <i aria-hidden="true" class="fa fa-heart"></i>
+                    </button>
 
-
-            <!----------------------------------------
-            Info du morceau
-            ------------------------------------------>
-            <div class="text-center text-white">
-                <p class="lead text-white">
-                    <text-ellispis :text="currentTrack.title" :size="28"></text-ellispis>
-                </p>
-                <p>
-                    <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: currentSaga.slug } }">
-                        <i>{{ currentSaga.name }}</i>
+                    <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: currentSaga.slug } }"
+                                 class="btn btn-outline-theme btn-round btn-sm mb-3">
+                        <i aria-hidden="true" class="fa fa-info"></i>
                     </router-link>
-                </p>
-                <p>
-                    <template v-if="currentSaga.stats.collections > 1">
-                        Saison {{ currentCollection.number }} épisode {{ currentTrack.number }}
-                    </template>
-                    <template v-else>
-                        Épisode {{ currentTrack.number }}
-                    </template>
-                </p>
+                </div>
+
             </div>
 
-            <!----------------------------------------
-            Progession
-            ------------------------------------------>
-            <div class="lecteur__progression text-white h5">
-                <span>{{ currentTime }}</span>
-                <progress class="lecteur__progression__barre"
-                          @click="seek"
-                          :value="currentPercentage"
-                          max="100"></progress>
-                <track-length class="text-right" :seconds="currentTrack.seconds"></track-length>
-            </div>
 
-            <!----------------------------------------
-            Controle
-            ------------------------------------------>
-            <div class="lecteur__disposition">
-                <button class="btn btn-outline-theme btn-round lecteur__bouton-affichage" @click="openPlaylist">
-                    <i aria-hidden="true" class="fa fa-list"></i>
-                </button>
-                <button class="btn btn-outline-theme btn-round" @click="previous">
-                    <i aria-hidden="true" class="fa fa-step-backward"></i>
-                </button>
-                <button class="btn btn-outline-theme btn-round btn-lg" @click="toggle">
-                    <i aria-hidden="true" class="fa fa-play" :class="{'fa-play': !isPlaying, 'fa-pause': isPlaying}"></i>
-                </button>
-                <button class="btn btn-outline-theme btn-round" @click="next">
-                    <i aria-hidden="true" class="fa fa-step-forward"></i>
-                </button>
-                <button class="btn btn-outline-theme btn-round lecteur__bouton-affichage">
-                    <i aria-hidden="true" class="fa fa-heart"></i>
-                </button>
+            <div class="lecteur__contenu">
+                <!----------------------------------------
+                Info du morceau
+                ------------------------------------------>
+                <div class="text-center text-white">
+                    <p class="lead text-white">
+                        <text-ellispis :text="currentTrack.title" :size="28"></text-ellispis>
+                    </p>
+                    <p>
+                        <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: currentSaga.slug } }">
+                            <i>{{ currentSaga.name }}</i>
+                        </router-link>
+                    </p>
+                    <p>
+                        <template v-if="currentSaga.stats.collections > 1">
+                            Saison {{ currentCollection.number }} épisode {{ currentTrack.number }}
+                        </template>
+                        <template v-else>
+                            Épisode {{ currentTrack.number }}
+                        </template>
+                    </p>
+                </div>
+
+                <!----------------------------------------
+                Progession
+                ------------------------------------------>
+                <div class="lecteur__progression text-white h5">
+                    <span>{{ currentTime }}</span>
+                    <progress class="lecteur__progression__barre"
+                              @click="seek"
+                              :value="currentPercentage"
+                              max="100"></progress>
+                    <track-length class="text-right" :seconds="currentTrack.seconds"></track-length>
+                </div>
+
+                <!----------------------------------------
+                Controle
+                ------------------------------------------>
+                <div class="lecteur__controle">
+                    <button class="btn btn-outline-theme btn-round" @click="previous">
+                        <i aria-hidden="true" class="fa fa-step-backward"></i>
+                    </button>
+                    <button class="btn btn-outline-theme btn-round btn-lg" @click="toggle">
+                        <i aria-hidden="true" class="fa fa-play" :class="{'fa-play': !isPlaying, 'fa-pause': isPlaying}"></i>
+                    </button>
+                    <button class="btn btn-outline-theme btn-round" @click="next">
+                        <i aria-hidden="true" class="fa fa-step-forward"></i>
+                    </button>
+                </div>
             </div>
 
         </template>
@@ -152,6 +163,7 @@ export default {
         'currentCollections',
         'currentPercentage',
         'currentTime',
+        'isLoading',
     ]),
 
     methods: {

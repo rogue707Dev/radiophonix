@@ -128,9 +128,9 @@ $grid-breakpoints: (
 
 $container-max-widths: (
         sm: 720px,
-        md: $taille-max-container, // taille max
-        lg: ($taille-max-container + 1px), //+1 pour éviter le warning
-        xl: ($taille-max-container + 2px) //+2 pour éviter le warning
+        md: $largeur-max-contenu, // taille max
+        lg: ($largeur-max-contenu + 1px), //+1 pour éviter le warning
+        xl: ($largeur-max-contenu + 2px) //+2 pour éviter le warning
 ) !default;
 
 // Body
@@ -187,3 +187,6 @@ $input-btn-focus-width: 0;
 
 // Cards
 $card-border-radius: 0;
+
+// Tooltips
+$tooltip-bg: $bleu-500;

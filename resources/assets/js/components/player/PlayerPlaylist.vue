@@ -1,28 +1,28 @@
 <template>
-    <div class="lecteur__playlist justify-content-around">
+    <div class="playlist justify-content-around">
 
         <!--//////////////////////////////////////////////////////////////
         PLAYLIST
         //////////////////////////////////////////////////////////////-->
         <template v-if="currentTrack.id">
 
-            <div class="lecteur__playlist__menu">
-                <button data-v-5f801cbc="" type="button" class="btn btn-dark btn-sm" @click="closePlaylist">
-                    <i aria-hidden="true" class="fa fa-arrow-left"></i>&nbsp;Revenir au lecteur
-                </button>
+            <div class="playlist__menu" @click="closePlaylist">
+                <i aria-hidden="true" class="fa fa-angle-down text-dark font-weight-bold mr-2"></i>
+                <span class="text-dark">Revenir au lecteur</span>
             </div>
 
-            <div class="lecteur__playlist__liste">
+            <div class="playlist__liste">
                 <template v-for="collection in currentCollections">
                     <!-- Le nom de la saison n'est affiché que s'il y en a plusieurs -->
                     <div class="row"
                         v-if="currentSaga.stats.collections > 1">
+                        <div class="col-1"></div>
                         <div class="col h1">
                             {{ collection.name }}
                         </div>
                     </div>
 
-                    <div class="row lecteur__playlist__morceau a-curseur"
+                    <div class="row playlist__morceau a-curseur"
                          v-for="track in collection.tracks"
                          :key="track.id"
                          :class="{'actif': track.id == currentTrack.id}"
@@ -38,7 +38,13 @@
                             </p>
                         </div>
                         <div class="col-auto pr-4">
-                            <track-length :seconds="track.seconds" class="h5"></track-length>
+                            <template v-if="track.id == currentTrack.id">
+                                <i v-if="isLoading"  class="fa fa-fw fa-spinner fa-spin"></i>
+                                <track-length v-else :seconds="track.seconds" class="h5"></track-length>
+                            </template>
+                            <tempplate v-else>
+                                <track-length :seconds="track.seconds" class="h5"></track-length>
+                            </tempplate>
                         </div>
 
                     </div>
@@ -69,7 +75,8 @@ export default {
         'isPlaying',
         'currentTrack',
         'currentCollections',
-        'currentSaga'
+        'currentSaga',
+        'isLoading',
     ]),
 
     methods: {

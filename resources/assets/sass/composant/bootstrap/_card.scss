@@ -7,15 +7,21 @@ $ LISTE DE CARTE
     grid-template-columns: repeat(auto-fill,minmax($largeur-card, 1fr));
     grid-gap: $list-card-gap;
 
-    // Deux cartes "moyen" par ligne max
-    @media screen and (max-width: $card-moyenne-2-par-ligne-max) {
+    // Deux cartes par ligne
+    @media screen and (max-width: $deux-cartes-moyenne-par-ligne) {
         grid-template-columns: repeat(auto-fill,$largeur-card);
         justify-content: space-around;
     }
 
-    // Une carte "moyen" par ligne max
-    @include resize-card-moyen {
-        grid-template-columns: repeat(auto-fill,$largeur-card-sm);
+    // Deux carte 50% par ligne
+    @include deux-cartes-50pct-par-ligne {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: $list-card-gap;
+    }
+
+    // Un carte par ligne
+    @include deux-cartes-petite-par-ligne {
+        grid-template-columns: 1fr;
         grid-gap: $list-card-gap $list-card-gap-sm;
     }
 
@@ -24,8 +30,8 @@ $ LISTE DE CARTE
 .list-card .card {
     width: $largeur-card;
 
-    @include resize-card-moyen {
-        width: $largeur-card-sm;
+    @include deux-cartes-50pct-par-ligne {
+        width: 100%;
     }
 }
 
@@ -71,7 +77,7 @@ $ CONTENEUR à cover
     justify-items: center;
     align-items: center;
 
-    @include resize-card-moyen {
+    @include deux-cartes-50pct-par-ligne {
         height: $largeur-card-sm;
     }
 }
@@ -92,7 +98,7 @@ $ BOUTON
     justify-content: space-between;
     color: $bleu-200;
 
-    @include resize-card-moyen {
+    @include deux-cartes-50pct-par-ligne {
         top: ($largeur-card-sm - 20px);
     }
 

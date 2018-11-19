@@ -1,23 +1,19 @@
 /*======================================================================================================================
 $ LAYOUT GLOBAL
 ======================================================================================================================*/
+$largeur-bande-menu: 5px;
 $largeur-menu: 90px;
 
 $largeur-sidebar: 320px;
-
-$largeur-bande-menu: 5px;
+$padding-sidebar: 15px;
+$hauteur-lecteur: $largeur-sidebar + 180px;
+$playlist-taille-mini-hauteur-pour-affichage : $hauteur-lecteur + 168px; //168px correspond a 4 lignes
+$largeur-max-contenu: 910px;
 
 $hauteur-menu-mobile: 50px;
+$hauteur-fermer-playlist: 40px;
+$hauteur-menu-player: 38px;
 
-$padding-layout-sidebar: 15px;
-
-$hauteur-lecteur: $largeur-sidebar + 180px;
-
-$hauteur-playlist-menu: 40px;
-
-$playlist-taille-mini-hauteur-pour-affichage : $hauteur-lecteur + 168px; //168px correspond a 4 lignes
-
-$taille-max-container: 910px;
 
 $btn-navigation: 60px;
 
@@ -42,9 +38,11 @@ $largeur-card-horizontal: 300px;
 $largeur-conteneur-cover: 100px;
 $list-card-gap: 20px;
 
-$card-moyenne-1-par-ligne-max: (($padding-container-sm + $largeur-card + $list-card-gap + $largeur-card + $padding-container-sm) - 1 );
-$card-moyenne-2-par-ligne-max: (($padding-container-sm + $largeur-card + $list-card-gap + $largeur-card + $list-card-gap + $largeur-card + $padding-container-sm) - 1 );
+$deux-cartes-50pct-par-ligne: (($padding-container-sm + $largeur-card + $list-card-gap + $largeur-card + $padding-container-sm) - 1 );
+$deux-cartes-moyenne-par-ligne: (($padding-container-sm + $largeur-card + $list-card-gap + $largeur-card + $list-card-gap + $largeur-card + $padding-container-sm) - 1 );
 
 //pour que 2 card passent quand meme cote a cote
 $list-card-gap-sm: 6px;
 $largeur-card-sm: ((320px - ($padding-container-sm * 2 + $list-card-gap-sm)) / 2);//320 taille mini en mobile
+
+$card-petite-1-par-ligne-max: (($padding-container-sm + $largeur-card-sm + $list-card-gap + $largeur-card-sm + $padding-container-sm) - 1 );

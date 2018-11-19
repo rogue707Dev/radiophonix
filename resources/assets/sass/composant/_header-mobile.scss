@@ -2,18 +2,26 @@
 $ CONTENEUR
 le header est masquer en large up
 ======================================================================================================================*/
-.layout-player-footer {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
+.header-mobile {
+    display:grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
 
     text-align: center;
     align-items: center;
     justify-items: center;
+    padding-right: $btn-navigation;
+
+    font-size: px2rem(18);
 
     background-color: $bleu-500;
-    border-top: 1px solid $orange-300;
+    border-bottom: 1px solid $orange-300;
 
-    @include media-breakpoint-up(lg) {
-        display: none;
-    }
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: auto;
+    height: $hauteur-menu-mobile;
+    z-index: z-index(300);
 }
