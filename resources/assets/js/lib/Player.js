@@ -45,8 +45,9 @@ class Player {
                     store.dispatch('player/next');
                 },
                 onload: () => {
+                    store.dispatch('player/stopLoading');
+
                     if (seekPercentage) {
-                        store.dispatch('player/stopLoading');
                         this.seekPercentage(seekPercentage);
                         store.dispatch('player/refresh');
                     }
