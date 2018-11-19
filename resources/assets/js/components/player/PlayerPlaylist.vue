@@ -38,13 +38,9 @@
                             </p>
                         </div>
                         <div class="col-auto pr-4">
-                            <template v-if="track.id == currentTrack.id">
-                                <i v-if="isLoading"  class="fa fa-fw fa-spinner fa-spin"></i>
-                                <track-length v-else :seconds="track.seconds" class="h5"></track-length>
-                            </template>
-                            <tempplate v-else>
-                                <track-length :seconds="track.seconds" class="h5"></track-length>
-                            </tempplate>
+                            <i v-if="track.id == currentTrack.id && isLoading"
+                               class="fa fa-fw fa-spinner fa-spin"></i>
+                            <track-length v-else :seconds="track.seconds" class="h5"></track-length>
                         </div>
 
                     </div>
