@@ -7,10 +7,7 @@ $ SURCHARGE
         margin-bottom: $espacement-standard;
     }
     @include media-breakpoint-up(lg) {
-        color: $bleu-300;
         padding: $espacement-standard;
-        margin-left: 0;
-        margin-right: 0;
     }
 }
 

@@ -1,183 +1,144 @@
 /*======================================================================================================================
 $ BASE
 ======================================================================================================================*/
-$banniere__taille-visuel: 200px;
-$banniere__padding-large: 20px;
+$decalage-mask-cover: 23px;
+$grid-column-gap-de-banniere: 30px;
+$taille-image-fond: 800px;
 
 .banniere {
     position: relative;
-    z-index: z-index(0);
-    background: $bleu-100;
-    padding: $banniere__padding-large;
-    min-height: $largeur-sidebar;
-    color: $bleu-500;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: $grid-column-gap-de-banniere;
+    justify-items: center;
 
-    display: flex;
-    flex-direction: column;
-
-    &:before {
-        @include content-absolute-cover;
-        background-image: url('/static/dev/images/motif-cercle-blanc.svg');
-        background-repeat: no-repeat;
-        background-size: 800px 800px;
-        background-position: center -280px;
-        z-index: z-index(0);
+    @include media-breakpoint-down(md) {
+        // annule la marge de .container
+        margin-top: 0;
     }
-    &.var--saga:before {
+
+    @include media-breakpoint-up(lg) {
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 1fr;
+        justify-items: start;
+    }
+}
+
+/*======================================================================================================================
+$ IMAGE DE FOND en absolute
+======================================================================================================================*/
+.banniere__fond {
+    width: 100%;
+    height: $taille-image-fond;
+
+    position : absolute;
+    top:-278px;
+
+    background-image: url('/static/dev/images/motif-cercle-blanc.svg');
+    background-repeat: no-repeat;
+    background-size: $taille-image-fond $taille-image-fond;
+    background-position: center center;
+
+    &.var--saga {
         background-image: url('/static/dev/images/motif-carre-blanc.svg');
     }
-    &.var--genre:before {
+    &.var--genre {
         background-image: url('/static/dev/images/motif-hexagone-blanc.svg');
     }
 
-
-    @include media-breakpoint-only(md) {
-        &:before {
-            background-position: -265px center;
-        }
-    }
-
-
-    @include media-breakpoint-up(lg) {
-        &:before {
-            background-position: -280px center;
-        }
-    }
-
-    @include media-breakpoint-up(md) {
-        flex-direction: row;
-    }
-
-    @include media-breakpoint-only(md) {
-        padding: 0 35px;
+    // Sans, en moins de "$taille-image-fond" un scroll horizontal s'affocherai
+    @media screen and (min-width: $taille-image-fond) {
+        width: $taille-image-fond;
     }
 
     @include media-breakpoint-up(lg) {
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    @include media-breakpoint-down(md) {
-        margin-bottom: $espacement-standard;
+        top: -280px;
+        left:-280px;
     }
 
 }
-
 
 
 /*======================================================================================================================
-$ ZONE VISUEL
+$ ZONE COVER
 ======================================================================================================================*/
-.banniere__zone-visuel {
-    flex-basis: $banniere__taille-visuel;
-    height: $banniere__taille-visuel;
-
-    margin-top: auto;
-    margin-bottom: auto;
-
-    z-index: z-index(1);
-
-    position: relative;
-
-    @include media-breakpoint-down(sm) {
-        width: $banniere__taille-visuel;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    @include media-breakpoint-only(md) {
-
-    }
-
+.banniere__cover {
     @include media-breakpoint-up(lg) {
-        min-width: $banniere__taille-visuel;
+        // Annule la partie masquer de l'image pour l'aligner au contenu a gauche
+        margin-top  : -($decalage-mask-cover);
+        margin-left : -($decalage-mask-cover);
     }
 }
-
-
-
-
-/*======================================================================================================================
-$ BANNIERE COVER
-======================================================================================================================*/
-.banniere__zone-visuel .cover {
-    position: absolute;
-    top: -23px;
-    left: -23px;
-}
-
 
 
 /*======================================================================================================================
 $ ZONE CONTENU
 ======================================================================================================================*/
-$margin-left-zone-contenu: 30px;
-
-.banniere__zone-contenu {
+.banniere__contenu {
     display: grid;
-    align-items: center;
-    flex-grow: 1;
-
+    align-content: center;
+    width: 100%;
     z-index: z-index(1);
 
-
-    @include media-breakpoint-up(md) {
-        margin-left: $margin-left-zone-contenu;
+    @include media-breakpoint-down(md) {
+        margin-bottom: $espacement-standard;
     }
-
-    .btn-outline-secondary:not(:hover) {
-        background-color: $white;
+    @include media-breakpoint-up(lg) {
+        //etre aligner avec la cover
+        margin-top  : -($decalage-mask-cover);
     }
 }
 
 /*-----------------------------------------------------------------------------
-$ BANDE
+$ SURCHARGE
 -----------------------------------------------------------------------------*/
-.banniere__zone-contenu__bande {
-    @include reset-ul;
-    position: relative;
-    padding: 12px 0;
-    display: flex;
-    flex-wrap: wrap;
-    @include media-breakpoint-down(sm) {
-        justify-content: center;
-    }
-    @include media-breakpoint-up(md) {
-        background-color: $white;
-        margin-top: $espacement-standard--petit;
-    }
+.banniere__contenu .btn-outline-secondary:not(:hover) {
+    background-color: $white;
 }
 
-@include media-breakpoint-down(sm) {
-    .banniere__zone-contenu__bande__item {
-        padding: 0 $espacement-standard--petit;
+/*-----------------------------------------------------------------------------
+$ BANDE D'INFO
+-----------------------------------------------------------------------------*/
+.banniere__contenu__bande {
+    @include reset-ul;
+
+    position: relative;
+    padding: 12px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: $white;
+    margin-top: $espacement-standard--petit;
+
+    @include media-breakpoint-down(md) {
+        justify-content: center;
+        //annule les marge de .container
+        margin-right: -($padding-container-sm);
+        margin-left: -($padding-container-sm);
     }
 }
 
 @include media-breakpoint-up(md) {
-    .banniere__zone-contenu__bande:before {
+    .banniere__contenu__bande:before {
         content: "";
         position: absolute;
         top: 0;
+        right: 100%;
         bottom: 0;
-        width: $margin-left-zone-contenu;
+        width: $grid-column-gap-de-banniere;
         background-color: $white;
     }
-
-    .banniere__zone-contenu__bande:before {
-        right: 100%;
-    }
-
-
-    .banniere__zone-contenu__bande__item {
-        &:first-child:before {
-            display: none;
-        }
-        &:before {
-            display: inline-block;
-            padding: 0 8px;
-            content: "\2022";
-        }
-    }
-
 }
+
+.banniere__contenu__bande__item:not(:first-child):before {
+    content: "\2022";
+    display: inline-block;
+    padding: 0 8px;
+}
+
+
+
+
+

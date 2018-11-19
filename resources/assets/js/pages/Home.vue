@@ -3,7 +3,7 @@
 
 
         <div class="jumbotron">
-            <div class="container--homepage text-center">
+            <div class="container container--homepage text-center">
                 <svg class="logo-home">
                     <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
                     <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
