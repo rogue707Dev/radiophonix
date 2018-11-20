@@ -36,11 +36,6 @@ cp .env.example .env
 yarn run dev
 ```
 
-Pour activer les mocks de l'api il faut dans le fichier `.env` :
-```
-RADIOPHONIX_API_MOCK=1
-```
-
 Vous trouverez plus d'informations dans la [documentation][doc].
 
 ## Licence

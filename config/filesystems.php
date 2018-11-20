@@ -61,11 +61,6 @@ return [
             'url' => realpath(__DIR__ . '/../resources/alpha'),
         ],
 
-        'mocks' => [
-            'driver' => 'local',
-            'root'   => __DIR__ . '/../resources/assets/static/mocks',
-        ],
-
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),

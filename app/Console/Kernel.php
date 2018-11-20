@@ -4,7 +4,6 @@ namespace Radiophonix\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
-use Radiophonix\Console\Commands\AlphaMock;
 use Radiophonix\Console\Commands\AlphaRefresh;
 use Radiophonix\Console\Commands\AlphaSeed;
 use Radiophonix\Console\Commands\PublishTracks;
@@ -19,7 +18,6 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         PublishTracks::class,
         AlphaSeed::class,
-        AlphaMock::class,
         AlphaRefresh::class,
     ];
 
