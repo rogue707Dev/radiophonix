@@ -47,7 +47,7 @@
                 <roadmap-task status="doing">
                     Une navigation agréable sur le site
                 </roadmap-task>
-                <roadmap-task status="doing">
+                <roadmap-task status="done">
                     Finaliser la mise en page d'une saga
                 </roadmap-task>
                 <roadmap-task status="done">

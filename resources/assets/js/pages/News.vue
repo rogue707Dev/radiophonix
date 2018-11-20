@@ -8,6 +8,17 @@
 
         <div class="container">
 
+            <news-entry date="XX novembre 2018" class="mb-5">
+                <ul class="mt-3">
+                    <li>Le corps du site est maintenant centré sur les grands écrans</li>
+                    <li>Indicateur de chargement sur le lecteur</li>
+                    <li>Refonte de la liste des épisodes sur la page d'une saga</li>
+                    <li>Ajout d'un lien de téléchargement des épisodes</li>
+                </ul>
+            </news-entry>
+
+            <hr>
+
             <news-entry date="14 novembre 2018" class="mb-5">
                 <h3 class="h3 mt-3">Flux RSS</h3>
 
