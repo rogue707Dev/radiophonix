@@ -8,7 +8,7 @@
 
         <div class="container">
 
-            <news-entry date="XX novembre 2018" class="mb-5">
+            <news-entry date="20 novembre 2018" class="mb-5">
                 <ul class="mt-3">
                     <li>Le corps du site est maintenant centré sur les grands écrans</li>
                     <li>Indicateur de chargement sur le lecteur</li>
