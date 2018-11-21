@@ -5,9 +5,6 @@ namespace Radiophonix\Models;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\DatabaseNotification;
-use Illuminate\Notifications\DatabaseNotificationCollection;
-use Illuminate\Notifications\Notifiable;
 use Radiophonix\Models\Support\HasFakeId;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
@@ -20,11 +17,9 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read Author $author
- * @property-read DatabaseNotificationCollection|DatabaseNotification[] $notifications
  */
 class User extends Authenticatable implements JWTSubject
 {
-    use Notifiable;
     use HasFakeId;
 
     /**

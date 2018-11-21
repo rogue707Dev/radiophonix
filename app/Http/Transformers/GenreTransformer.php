@@ -53,9 +53,6 @@ class GenreTransformer extends Transformer
      */
     public function includeSagas(Genre $genre)
     {
-        // @todo faire ça de façon plus globale
-        $sagas = $genre->sagas()->visibles()->get();
-
-        return $this->collection($sagas, new SagaTransformer());
+        return $this->collection($genre->sagas, new SagaTransformer());
     }
 }

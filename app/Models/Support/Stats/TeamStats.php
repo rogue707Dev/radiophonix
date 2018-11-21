@@ -26,7 +26,6 @@ class TeamStats implements Arrayable
     public function toArray(): array
     {
         return [
-            // @todo sagas visibles
             'sagas' => $this->team->cached_sagas_count,
         ];
     }

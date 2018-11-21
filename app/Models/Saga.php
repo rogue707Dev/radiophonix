@@ -50,7 +50,6 @@ use Spatie\Sluggable\SlugOptions;
  * @method static Builder|Saga filterBy($filters)
  * @method static Builder|Saga paginate()
  * @method static Builder|Saga sortby($sort)
- * @method static Builder|Saga visibles()
  */
 class Saga extends Model implements HasMedia
 {

@@ -15,7 +15,6 @@ class ListTeamSagas extends ApiController
      */
     public function __invoke(Team $team)
     {
-        // @todo sagas visibles
         $sagas = $team->sagas()->with('team')->get();
 
         return $this->collection($sagas, new SagaTransformer);
