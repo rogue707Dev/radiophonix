@@ -10,7 +10,7 @@
         <div class="container">
 
             <p class="lead">
-                Radiophonix est actuellement en <span class="badge badge-warning">Alpha</span>
+                Radiophonix est actuellement en <span class="badge badge-warning">Beta</span>
             </p>
 
             <p class="mt-3">

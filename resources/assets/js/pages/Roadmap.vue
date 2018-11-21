@@ -9,7 +9,7 @@
         <div class="container">
 
             <h1 class="h1">
-                Radiophonix est actuellement en Alpha
+                Radiophonix est actuellement en Beta
             </h1>
 
             <p class="mt-3">
@@ -35,7 +35,7 @@
                    class="badge badge-warning badge-sm"
                    target="_blank">
                     <i class="fa fa-gitlab"></i>
-                    en cours
+                    fait !
                 </a>
             </h2>
 
@@ -44,7 +44,7 @@
             </p>
 
             <ul class="list-unstyled pl-4">
-                <roadmap-task status="doing">
+                <roadmap-task status="done">
                     Une navigation agréable sur le site
                 </roadmap-task>
                 <roadmap-task status="done">
@@ -70,7 +70,7 @@
                    class="badge badge-info badge-sm"
                    target="_blank">
                     <i class="fa fa-gitlab"></i>
-                    à venir
+                    en cours
                 </a>
             </h2>
 

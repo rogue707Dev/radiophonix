@@ -81,7 +81,7 @@
                         Certaines sagas ont des liens direct vers leurs fichiers. Dans
                         ce cas ces liens sont utilisés.<br/>
                         D'autres sagas n'ayant pas de liens, nous avons hébergés les
-                        fichiers le temps de l'alpha pour que le lecteur fonctionne.
+                        fichiers le temps de la beta pour que le lecteur fonctionne.
                     </p>
 
                 </div>

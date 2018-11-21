@@ -70,10 +70,10 @@
                         </p>
                     </blockquote>
 
-                    <h2 class="h1">Version Alpha</h2>
+                    <h2 class="h1">Version Beta</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
-                            Le site est actuellement en version Alpha, où seule l'écoute de sagas
+                            Le site est actuellement en version Beta, où seule l'écoute de sagas
                             est possible.<br/>
                             Nous avons fait attention à ce que les sagas présentes actuellement sur
                             le site aient toutes une licence Creative Commons.<br/>
@@ -151,7 +151,7 @@
         <div class="container" v-feature="'contribuer'">
             <div class="row mb-5">
                 <div class="col-12">
-                    <p>Radiophonix est actuellement en <span class="badge badge-warning">Alpha</span></p>
+                    <p>Radiophonix est actuellement en <span class="badge badge-warning">Beta</span></p>
                 </div>
             </div>
             <div class="row">

@@ -11,7 +11,7 @@ let changeClasses = (state, classes) => {
 };
 
 let buildTitle = (text = null) => {
-    let title = 'Radiophonix ALPHA';
+    let title = 'Radiophonix BETA';
 
     if (text) {
         title = text + ' — ' + title;
@@ -35,7 +35,7 @@ const UiModule = {
         mainClass: '',
         playerClass: '',
         playlistClasses: {},
-        pageTitle: 'Radiophonix ALPHA',
+        pageTitle: 'Radiophonix BETA',
         hasUnreadNews: true,
     },
 
