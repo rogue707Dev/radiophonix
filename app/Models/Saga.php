@@ -45,7 +45,6 @@ use Spatie\Sluggable\SlugOptions;
  * @property-read \Illuminate\Database\Eloquent\Collection|Collection[] $collections
  * @property-read \Illuminate\Database\Eloquent\Collection|Genre[] $genres
  * @property-read int $cached_tracks_count
- * @property-read int $cached_likes_count
  * @property-read int $cached_collections_count
  * @method static Builder|Saga filterBy($filters)
  * @method static Builder|Saga paginate()
@@ -259,16 +258,6 @@ class Saga extends Model implements HasMedia
     {
         return $this->cacheCount('collections', function () {
             return $this->collections->count();
-        });
-    }
-
-    /**
-     * @return int
-     */
-    public function getCachedLikesCountAttribute(): int
-    {
-        return $this->cacheCount('likes', function () {
-            return $this->likes->count();
         });
     }
 

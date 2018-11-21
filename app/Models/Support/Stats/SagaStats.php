@@ -34,7 +34,7 @@ class SagaStats implements Arrayable
      */
     public function likes(): int
     {
-        return (int)$this->saga->cached_likes_count;
+        return 0;
     }
 
     /**
