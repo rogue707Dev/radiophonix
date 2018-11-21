@@ -31,7 +31,6 @@ class CreateSagasTable extends Migration
             $table->string('link_twitter')->nullable()->default(null);
 
             $table->boolean('finished')->default(false);
-            $table->integer('visibility')->default(Saga::VISIBILITY_PRIVATE);
 
             $table->dateTime('last_publish_at')->nullable()->default(null);
 

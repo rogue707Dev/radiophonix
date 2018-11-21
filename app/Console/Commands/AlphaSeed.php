@@ -77,7 +77,6 @@ class AlphaSeed extends Command
                     $saga->$property = $link;
                 });
 
-            $saga->visibility = Saga::VISIBILITY_PUBLIC;
             $saga->save();
 
             collect($importSaga['authors'])

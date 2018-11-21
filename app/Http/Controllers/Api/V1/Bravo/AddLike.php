@@ -2,7 +2,6 @@
 
 namespace Radiophonix\Http\Controllers\Api\V1\Like;
 
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
 use Radiophonix\Models\Like;
 use Radiophonix\Models\Saga;
@@ -16,10 +15,6 @@ class AddLike extends ApiController
      */
     public function __invoke(Saga $saga)
     {
-        if ($saga->visibility != Saga::VISIBILITY_PUBLIC) {
-            throw new ModelNotFoundException;
-        }
-
         $like = Like::where('user_id', '=', $this->user()->id)
             ->where('saga_id', $saga->id)
             ->first();

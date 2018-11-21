@@ -19,7 +19,6 @@ class UpdateSagaRequest extends Request
 
         return [
             'name' => 'required|max:255|unique:sagas,name,' . $saga->id,
-            'visibility' => 'in:0,1,2',
             'finished' => 'boolean',
             'creation_date' => 'date_format:Y-m-d'
         ];

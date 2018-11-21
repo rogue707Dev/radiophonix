@@ -17,10 +17,6 @@ class RemoveLike extends ApiController
      */
     public function __invoke(Saga $saga)
     {
-        if (!$saga->isPublic()) {
-            throw new ModelNotFoundException;
-        }
-
         /** @var Like $like */
         $like = Like::where('user_id', '=', $this->user()->id)
             ->where('saga_id', $saga->id)

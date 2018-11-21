@@ -36,7 +36,6 @@ use Spatie\Sluggable\SlugOptions;
  * @property string $link_facebook
  * @property string $link_twitter
  * @property bool $finished
- * @property int $visibility
  * @property Carbon $last_publish_at
  * @property Carbon $created_at
  * @property Carbon $updated_at
@@ -62,15 +61,6 @@ class Saga extends Model implements HasMedia
     use Searchable;
     use HasCountCache;
 
-    // Public sagas are always visible even when not authenticated
-    const VISIBILITY_PUBLIC = 0;
-
-    // Hidden sagas are only visible by direct link and not in lists
-    const VISIBILITY_HIDDEN = 1;
-
-    // Private sagas are only visible to owners of the saga
-    const VISIBILITY_PRIVATE = 2;
-
     /**
      * @var array
      */
@@ -84,7 +74,6 @@ class Saga extends Model implements HasMedia
         'link_facebook',
         'link_twitter',
         'finished',
-        'visibility',
     ];
 
     /**
@@ -92,31 +81,12 @@ class Saga extends Model implements HasMedia
      */
     protected $casts = [
         'finished' => 'boolean',
-        'visibility' => 'int',
     ];
 
     /**
      * @var array
      */
     protected $dates = ['created_at', 'updated_at', 'creation_date'];
-
-    /**
-     * @var array
-     */
-    protected $sortable = ['name', 'last_publish_at'];
-
-    /**
-     * @var array
-     */
-    protected $filterable = [
-        'licence',
-        'visibility' => [
-            'public' => self::VISIBILITY_PUBLIC,
-            'hidden' => self::VISIBILITY_HIDDEN,
-            'private' => self::VISIBILITY_PRIVATE,
-        ],
-        'finished',
-    ];
 
     /**
      * @return Licence
@@ -178,34 +148,6 @@ class Saga extends Model implements HasMedia
             ->fit(Manipulations::FIT_CONTAIN, 200, 200)
             ->optimize()
             ->performOnCollections('cover');
-    }
-
-    /**
-     * Add a scope to query only visible sagas depending on the current user.
-     *
-     * Usage: Saga::visibles()->get();
-     *
-     * Since it's a scope, it can be chained with other methods:
-     *
-     * Saga::visibles()->where('name', 'john')->orderBy('slug')->get();
-     *
-     * Saga::where('id', '>', 10)->visibles()->get();
-     *
-     * @param Builder $query
-     * @return Builder
-     */
-    public function scopeVisibles(Builder $query)
-    {
-        $query = $query->where('visibility', '=', self::VISIBILITY_PUBLIC);
-
-        // The scope is only active if a user is authenticated.
-        if (Auth::guard('api')->check()) {
-            $query->orWhereHas('authors', function ($query) {
-                $query->where('user_id', '=', Auth::guard('api')->id());
-            });
-        }
-
-        return $query;
     }
 
     /**
@@ -343,29 +285,5 @@ class Saga extends Model implements HasMedia
                 })
                 ->sum();
         });
-    }
-
-    /**
-     * @return bool
-     */
-    public function isPublic(): bool
-    {
-        return $this->visibility === self::VISIBILITY_PUBLIC;
-    }
-
-    /**
-     * @return bool
-     */
-    public function isHidden(): bool
-    {
-        return $this->visibility === self::VISIBILITY_HIDDEN;
-    }
-
-    /**
-     * @return bool
-     */
-    public function isPrivate(): bool
-    {
-        return $this->visibility === self::VISIBILITY_PRIVATE;
     }
 }

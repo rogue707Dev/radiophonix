@@ -19,7 +19,6 @@ class SagaTableSeeder extends Seeder
 
             factory(Saga::class)->create([
                 'name' => $this->faker->name,
-                'visibility' => Saga::VISIBILITY_PUBLIC,
                 'author_id' => $author->id,
             ]);
         }

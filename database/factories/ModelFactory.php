@@ -38,7 +38,6 @@ $factory->define(Saga::class, function (Faker $faker) {
         'link_twitter' => $faker->url,
         'creation_date' => $faker->dateTimeThisDecade(),
         'licence' => $faker->randomElement(['CC-Zero', 'CC-BY', 'CC-BY-SA']),
-        'visibility' => $faker->randomElement([Saga::VISIBILITY_PUBLIC, Saga::VISIBILITY_HIDDEN, Saga::VISIBILITY_PRIVATE])
     ];
 });
 

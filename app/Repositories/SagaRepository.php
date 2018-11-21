@@ -44,8 +44,6 @@ class SagaRepository
             $saga->setOwner($this->guard->user());
         }
 
-        $saga->visibility = Saga::VISIBILITY_PRIVATE;
-
         $saga->save();
 
         return $saga;

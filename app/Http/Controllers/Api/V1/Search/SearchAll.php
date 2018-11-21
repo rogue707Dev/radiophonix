@@ -75,12 +75,7 @@ class SearchAll extends ApiController
      */
     private function searchSagas($query): Collection
     {
-        $sagas = Saga
-            ::search($query)
-//            ->where('visibility', '=', Saga::VISIBILITY_PUBLIC)
-            ->get();
-
-        return $sagas;
+        return Saga::search($query)->get();
     }
 
     /**

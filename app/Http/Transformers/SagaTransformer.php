@@ -41,7 +41,6 @@ class SagaTransformer extends Transformer
                 'twitter' => $saga->link_twitter,
             ],
             'finished' => $saga->finished,
-            'visibility' => (int)$saga->visibility,
             'stats' => $saga->stats()->toArray(),
             'created_at' => $this->getFormatedDate($saga->created_at),
             'updated_at' => $this->getFormatedDate($saga->updated_at),

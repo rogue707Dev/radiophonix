@@ -17,9 +17,7 @@ use Radiophonix\Http\Middleware\Acceptable;
 use Radiophonix\Http\Middleware\Authenticate;
 use Radiophonix\Http\Middleware\CheckForMaintenanceMode;
 use Radiophonix\Http\Middleware\EncryptCookies;
-use Radiophonix\Http\Middleware\OwnerMiddleware;
 use Radiophonix\Http\Middleware\RedirectIfAuthenticated;
-use Radiophonix\Http\Middleware\SagaVisibilityMiddleware;
 use Radiophonix\Http\Middleware\TrimStrings;
 use Radiophonix\Http\Middleware\TrustProxies;
 use Radiophonix\Http\Middleware\VerifyCsrfToken;
@@ -80,7 +78,5 @@ class Kernel extends HttpKernel
         'cors' => HandleCors::class,
         'jwt.auth' => \Tymon\JWTAuth\Http\Middleware\Authenticate::class,
 //        'jwt.refresh' => RefreshToken::class,
-//        'saga.visible' => SagaVisibilityMiddleware::class,
-        'saga.owner' => OwnerMiddleware::class,
     ];
 }

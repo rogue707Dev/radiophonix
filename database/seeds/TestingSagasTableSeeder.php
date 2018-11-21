@@ -25,53 +25,25 @@ class TestingSagasTableSeeder extends TestingSeeder
 
         $this->createSaga(
             'Saga1_Public',
-            Saga::VISIBILITY_PUBLIC,
             $author1
         );
 
-//        $this->createSaga(
-//            'Saga1_Hidden',
-//            Saga::VISIBILITY_HIDDEN,
-//            $author1
-//        );
-//
-//        $this->createSaga(
-//            'Saga1_Private',
-//            Saga::VISIBILITY_PRIVATE,
-//            $author1
-//        );
-
         $this->createSaga(
             'Saga2_Public',
-            Saga::VISIBILITY_PUBLIC,
             $author2
         );
-
-//        $this->createSaga(
-//            'Saga2_Hidden',
-//            Saga::VISIBILITY_HIDDEN,
-//            $author2
-//        );
-//
-//        $this->createSaga(
-//            'Saga2_Private',
-//            Saga::VISIBILITY_PRIVATE,
-//            $author2
-//        );
     }
 
     /**
      * @param string $name
-     * @param int $visibility
      * @param Author $author
      */
-    private function createSaga(string $name, int $visibility, Author $author)
+    private function createSaga(string $name, Author $author)
     {
         /** @var Saga $saga */
         $saga = factory(Saga::class)
             ->create([
                 'name' => $name,
-                'visibility' => $visibility,
             ]);
 
         $saga->authors()->save($author);

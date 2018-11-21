@@ -17,10 +17,6 @@ class UnsubscribeToSaga extends ApiController
      */
     public function __invoke(Saga $saga)
     {
-        if ($saga->visibility != Saga::VISIBILITY_PUBLIC) {
-            throw new ModelNotFoundException;
-        }
-
         $subscription = Subscription::where('user_id', '=', $this->user()->id)
             ->where('saga_id', '=', $saga->id)
             ->first();

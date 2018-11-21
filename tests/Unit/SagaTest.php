@@ -13,42 +13,6 @@ class SagaTest extends TestCase
     use RefreshDatabase;
 
     /** @test */
-    public function can_make_saga_public()
-    {
-        $saga = factory(Saga::class)->make([
-            'visibility' => Saga::VISIBILITY_PUBLIC,
-        ]);
-
-        $this->assertTrue($saga->isPublic());
-        $this->assertFalse($saga->isHidden());
-        $this->assertFalse($saga->isPrivate());
-    }
-
-    /** @test */
-    public function can_make_saga_hidden()
-    {
-        $saga = factory(Saga::class)->make([
-            'visibility' => Saga::VISIBILITY_HIDDEN,
-        ]);
-
-        $this->assertFalse($saga->isPublic());
-        $this->assertTrue($saga->isHidden());
-        $this->assertFalse($saga->isPrivate());
-    }
-
-    /** @test */
-    public function can_make_saga_private()
-    {
-        $saga = factory(Saga::class)->make([
-            'visibility' => Saga::VISIBILITY_PRIVATE,
-        ]);
-
-        $this->assertFalse($saga->isPublic());
-        $this->assertFalse($saga->isHidden());
-        $this->assertTrue($saga->isPrivate());
-    }
-
-    /** @test */
     public function can_retrieve_saga_from_slug()
     {
         $user = factory(User::class)->create();
