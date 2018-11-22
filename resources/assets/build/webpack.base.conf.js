@@ -47,6 +47,10 @@ module.exports = {
     module: {
         loaders: [
             {
+                test: /\.scss$/,
+                loader: 'postcss-loader!sass-loader?sourceMap'
+            },
+            {
                 test: /\.vue$/,
                 loader: 'vue'
             },
