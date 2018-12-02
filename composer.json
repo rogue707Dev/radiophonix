@@ -33,7 +33,8 @@
         "yab/laravel-scout-mysql-driver": "^2.0.5",
         "league/color-extractor": "^0.3.2",
         "marcw/rss-writer": "^0.4.0",
-        "algolia/algoliasearch-client-php": "^1.27"
+        "algolia/algoliasearch-client-php": "^1.27",
+        "laravel/telescope": "^1.0"
     },
     "require-dev": {
         "laravel/tinker": "~1.0",

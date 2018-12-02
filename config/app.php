@@ -141,6 +141,7 @@ return [
         Radiophonix\Providers\AuthServiceProvider::class,
         Radiophonix\Providers\BroadcastServiceProvider::class,
         Radiophonix\Providers\EventServiceProvider::class,
+        Radiophonix\Providers\TelescopeServiceProvider::class,
         Radiophonix\Providers\RouteServiceProvider::class,
         Radiophonix\Providers\S3ServiceProvider::class,
 
