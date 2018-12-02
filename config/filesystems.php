@@ -70,6 +70,16 @@ return [
             'url' => env('AWS_URL'),
         ],
 
+        'backups-local' => [
+            'driver' => 'local',
+            'root' => storage_path('app/backups'),
+        ],
+
+        'backups-dropbox' => [
+            'driver' => 'dropbox',
+            'authorizationToken' => env('DROPBOX_AUTHORIZATION_TOKEN', ''),
+        ],
+
     ],
 
 ];

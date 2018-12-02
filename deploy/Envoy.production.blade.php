@@ -56,8 +56,7 @@
     /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan storage:link
 
     echo 'Running migrations'
-    /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan migrate:fresh --force --no-interaction
-    /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan alpha:seed
+    /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan migrate --force --no-interaction
 
     /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan scout:mysql-index
 @endtask
