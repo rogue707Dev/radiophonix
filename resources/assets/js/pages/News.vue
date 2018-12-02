@@ -8,6 +8,14 @@
 
         <div class="container">
 
+            <news-entry date="2 décembre 2018" class="mb-5">
+                <p class="pl-lg-4 mt-3">
+                    Le développement de l'alpha est terminé et la beta peut démarrer !<br>
+                    Vous pouvez suivre l'avancement du projet sur la
+                    <router-link :to="{ name: 'roadmap' }" class="lien-paragraphe">roadmap !</router-link>
+                </p>
+            </news-entry>
+
             <news-entry date="20 novembre 2018" class="mb-5">
                 <ul class="mt-3">
                     <li>Le corps du site est maintenant centré sur les grands écrans</li>
