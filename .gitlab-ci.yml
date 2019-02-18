@@ -50,6 +50,7 @@ build:review:
     stage: build
     image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
     only:
+        - branches
         - merge_requests
     except:
         - master
@@ -81,6 +82,7 @@ deploy:review:
     image: edbizarro/gitlab-ci-pipeline-php:7.1
     allow_failure: true
     only:
+        - branches
         - merge_requests
     except:
         - master
@@ -110,6 +112,7 @@ deploy:review:
 stop:review:
     stage: deploy
     only:
+        - branches
         - merge_requests
     except:
         - master
