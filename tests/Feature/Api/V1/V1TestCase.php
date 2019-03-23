@@ -52,7 +52,7 @@ abstract class V1TestCase extends TestCase
         'saga2-private-collection2',
     ];
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 

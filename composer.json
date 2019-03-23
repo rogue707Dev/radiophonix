@@ -21,7 +21,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "laravel/framework": "5.7.*",
+        "laravel/framework": "5.8.*",
         "fideloper/proxy": "^4.0",
         "tymon/jwt-auth": "^1.0@dev",
         "league/fractal": "^0.16.0",
@@ -33,10 +33,10 @@
         "yab/laravel-scout-mysql-driver": "^2.0.5",
         "league/color-extractor": "^0.3.2",
         "marcw/rss-writer": "^0.4.0",
-        "algolia/algoliasearch-client-php": "^1.27",
-        "laravel/telescope": "^1.0",
-        "spatie/laravel-backup": "^5.11",
-        "spatie/flysystem-dropbox": "^1.0"
+        "spatie/flysystem-dropbox": "^1.0",
+        "laravel/telescope": "^2.0",
+        "spatie/laravel-backup": "^6.1",
+        "algolia/algoliasearch-client-php": "^2.2"
     },
     "require-dev": {
         "laravel/tinker": "~1.0",
