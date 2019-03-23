@@ -36,7 +36,8 @@
         "spatie/flysystem-dropbox": "^1.0",
         "laravel/telescope": "^2.0",
         "spatie/laravel-backup": "^6.1",
-        "algolia/algoliasearch-client-php": "^2.2"
+        "algolia/algoliasearch-client-php": "^2.2",
+        "laravel-notification-channels/discord": "^1.0"
     },
     "require-dev": {
         "laravel/tinker": "~1.0",

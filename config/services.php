@@ -43,4 +43,8 @@ return [
         'bucket' => env('S3_BUCKET')
     ],
 
+    'discord' => [
+        'token' => env('DISCORD_API_TOKEN'),
+    ],
+
 ];

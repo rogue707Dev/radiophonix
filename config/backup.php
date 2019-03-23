@@ -1,5 +1,7 @@
 <?php
 
+use NotificationChannels\Discord\DiscordChannel;
+
 return [
 
     'backup' => [
@@ -8,7 +10,7 @@ return [
          * The name of this application. You can use this name to monitor
          * the backups.
          */
-        'name' => config('app.name'),
+        'name' => env('APP_NAME', 'Radiophonix'),
 
         'source' => [
 
@@ -35,7 +37,7 @@ return [
                 /*
                  * Determines if symlinks should be followed.
                  */
-                'followLinks' => false,
+                'follow_links' => false,
             ],
 
             /*
@@ -99,28 +101,36 @@ return [
 
     /*
      * You can get notified when specific events occur. Out of the box you can use 'mail' and 'slack'.
-     * For Slack you need to install guzzlehttp/guzzle.
+     * For Slack you need to install guzzlehttp/guzzle and laravel/slack-notification-channel.
      *
      * You can also use your own notification classes, just make sure the class is named after one of
      * the `Spatie\Backup\Events` classes.
      */
     'notifications' => [
 
-        // @todo setup emails
         'notifications' => [
-            \Spatie\Backup\Notifications\Notifications\BackupHasFailed::class         => [],
-            \Spatie\Backup\Notifications\Notifications\UnhealthyBackupWasFound::class => [],
-            \Spatie\Backup\Notifications\Notifications\CleanupHasFailed::class        => [],
-            \Spatie\Backup\Notifications\Notifications\BackupWasSuccessful::class     => [],
-            \Spatie\Backup\Notifications\Notifications\HealthyBackupWasFound::class   => [],
-            \Spatie\Backup\Notifications\Notifications\CleanupWasSuccessful::class    => [],
+            \Radiophonix\Notifications\Backup\BackupHasFailed::class => [DiscordChannel::class],
+            \Radiophonix\Notifications\Backup\UnhealthyBackupWasFound::class => [DiscordChannel::class],
+            \Radiophonix\Notifications\Backup\CleanupHasFailed::class => [DiscordChannel::class],
+            \Radiophonix\Notifications\Backup\BackupWasSuccessful::class => [DiscordChannel::class],
+            \Radiophonix\Notifications\Backup\HealthyBackupWasFound::class => [DiscordChannel::class],
+            \Radiophonix\Notifications\Backup\CleanupWasSuccessful::class => [DiscordChannel::class],
+
+            // @todo setup emails ?
+//            \Spatie\Backup\Notifications\Notifications\BackupHasFailed::class => [],
+//            \Spatie\Backup\Notifications\Notifications\UnhealthyBackupWasFound::class => [],
+//            \Spatie\Backup\Notifications\Notifications\CleanupHasFailed::class => [],
+//            \Spatie\Backup\Notifications\Notifications\BackupWasSuccessful::class => [],
+//            \Spatie\Backup\Notifications\Notifications\HealthyBackupWasFound::class => [],
+//            \Spatie\Backup\Notifications\Notifications\CleanupWasSuccessful::class => [],
         ],
 
         /*
          * Here you can specify the notifiable to which the notifications should be sent. The default
          * notifiable will use the variables specified in this config file.
          */
-        'notifiable' => \Spatie\Backup\Notifications\Notifiable::class,
+//        'notifiable' => \Spatie\Backup\Notifications\Notifiable::class,
+        'notifiable' => \Radiophonix\Notifications\Backup\BackupNotifiable::class,
 
         'mail' => [
             'to' => 'your@example.com',
@@ -146,20 +156,24 @@ return [
      * If a backup does not meet the specified requirements the
      * UnHealthyBackupWasFound event will be fired.
      */
-    'monitorBackups' => [
+    'monitor_backups' => [
         [
-            'name' => config('app.name'),
-            'disks' => ['local'],
-            'newestBackupsShouldNotBeOlderThanDays' => 1,
-            'storageUsedMayNotBeHigherThanMegabytes' => 5000,
+            'name' => env('APP_NAME', 'Radiophonix'),
+            'disks' => ['backups-dropbox'],
+            'health_checks' => [
+                \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumAgeInDays::class => 1,
+                \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumStorageInMegabytes::class => 5000,
+            ],
         ],
 
         /*
         [
             'name' => 'name of the second app',
             'disks' => ['local', 's3'],
-            'newestBackupsShouldNotBeOlderThanDays' => 1,
-            'storageUsedMayNotBeHigherThanMegabytes' => 5000,
+            'health_checks' => [
+                \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumAgeInDays::class => 1,
+                \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumStorageInMegabytes::class => 5000,
+            ],
         ],
         */
     ],
@@ -176,38 +190,38 @@ return [
          */
         'strategy' => \Spatie\Backup\Tasks\Cleanup\Strategies\DefaultStrategy::class,
 
-        'defaultStrategy' => [
+        'default_strategy' => [
 
             /*
              * The number of days for which backups must be kept.
              */
-            'keepAllBackupsForDays' => 7,
+            'keep_all_backups_for_days' => 7,
 
             /*
              * The number of days for which daily backups must be kept.
              */
-            'keepDailyBackupsForDays' => 16,
+            'keep_daily_backups_for_days' => 16,
 
             /*
              * The number of weeks for which one weekly backup must be kept.
              */
-            'keepWeeklyBackupsForWeeks' => 8,
+            'keep_weekly_backups_for_weeks' => 8,
 
             /*
              * The number of months for which one monthly backup must be kept.
              */
-            'keepMonthlyBackupsForMonths' => 4,
+            'keep_monthly_backups_for_months' => 4,
 
             /*
              * The number of years for which one yearly backup must be kept.
              */
-            'keepYearlyBackupsForYears' => 2,
+            'keep_yearly_backups_for_years' => 2,
 
             /*
              * After cleaning up the backups remove the oldest backup until
              * this amount of megabytes has been reached.
              */
-            'deleteOldestBackupsWhenUsingMoreMegabytesThan' => 5000,
+            'delete_oldest_backups_when_using_more_megabytes_than' => 5000,
         ],
     ],
 ];

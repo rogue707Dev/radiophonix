@@ -47,6 +47,10 @@ use Radiophonix\Http\Controllers\Api\V1\Track\StoreTrack;
 use Radiophonix\Http\Controllers\Api\V1\Track\UpdateTrack;
 use Radiophonix\Http\Controllers\Api\V1\User\ShowCurrentUser;
 
+Route::get('/dd', function () {
+    return app(\NotificationChannels\Discord\Discord::class)->getPrivateChannel('108969883852623872');
+});
+
 Route::post('/search', SearchAll::class);
 
 Route::get('/sagas', ListSagas::class);
