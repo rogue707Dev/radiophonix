@@ -13,7 +13,7 @@ cache:
 
 test:unit:
     stage: test
-    image: edbizarro/gitlab-ci-pipeline-php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.2
     script:
         - cp .env.testing .env
         - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-suggest
@@ -24,7 +24,7 @@ test:unit:
 
 test:composer-outdated:
     stage: test
-    image: edbizarro/gitlab-ci-pipeline-php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.2
     allow_failure: true
     script:
     - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-suggest
@@ -48,7 +48,7 @@ pages:
 
 build:review:
     stage: build
-    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
+    image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine-lts
     only:
         - branches
     except:
@@ -78,7 +78,7 @@ build:review:
 
 deploy:review:
     stage: deploy
-    image: edbizarro/gitlab-ci-pipeline-php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.2
     allow_failure: true
     only:
         - branches
@@ -136,7 +136,7 @@ stop:review:
 
 build:dev:
     stage: build
-    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
+    image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine-lts
     only:
         - dev
     script:
@@ -158,7 +158,7 @@ build:dev:
 
 deploy:dev:
     stage: deploy
-    image: edbizarro/gitlab-ci-pipeline-php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.2
     only:
         - dev
     environment:
@@ -183,7 +183,7 @@ deploy:dev:
 
 build:staging:
     stage: build
-    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
+    image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine-lts
     only:
         - master
     script:
@@ -207,7 +207,7 @@ deploy:staging:
     stage: deploy
     dependencies:
         - build:staging
-    image: edbizarro/gitlab-ci-pipeline-php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.2
     only:
         - master
     environment:
@@ -232,7 +232,7 @@ deploy:staging:
 
 build:production:
     stage: build
-    image: edbizarro/gitlab-ci-pipeline-php:7.1-alpine-lts
+    image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine-lts
     only:
         - master
     script:
@@ -255,7 +255,7 @@ deploy_production:
     stage: production
     dependencies:
         - build:production
-    image: edbizarro/gitlab-ci-pipeline-php:7.1
+    image: edbizarro/gitlab-ci-pipeline-php:7.2
     only:
         - master
     when: manual
