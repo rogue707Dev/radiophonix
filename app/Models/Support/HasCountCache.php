@@ -20,7 +20,7 @@ trait HasCountCache
      */
     private function cacheCount(string $id, Closure $count): int
     {
-        return (int)Cache::remember($this->cacheKey($id), 15, $count);
+        return (int)Cache::remember($this->cacheKey($id), now()->addSeconds(15), $count);
     }
 
     /**

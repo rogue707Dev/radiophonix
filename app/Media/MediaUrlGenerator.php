@@ -2,6 +2,7 @@
 
 namespace Radiophonix\Media;
 
+use Illuminate\Support\Str;
 use Spatie\MediaLibrary\UrlGenerator\LocalUrlGenerator;
 
 class MediaUrlGenerator extends LocalUrlGenerator
@@ -11,6 +12,6 @@ class MediaUrlGenerator extends LocalUrlGenerator
      */
     public function getUrl(): string
     {
-        return str_start(parent::getUrl(), $this->config->get('app.url'));
+        return Str::start(parent::getUrl(), $this->config->get('app.url'));
     }
 }

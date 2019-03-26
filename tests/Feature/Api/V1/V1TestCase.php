@@ -4,6 +4,7 @@ namespace Tests\Feature\Api\V1;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\TestResponse;
+use Illuminate\Support\Str;
 use Radiophonix\Models\Collection;
 use Radiophonix\Models\User;
 use Tests\TestCase;
@@ -97,6 +98,6 @@ abstract class V1TestCase extends TestCase
             $headers = ['Authorization' => 'Bearer ' . \JWTAuth::fromUser($this->currentUser)];
         }
 
-        return $this->json($method, '/api/' . $version . str_start($path, '/'), $data, $headers);
+        return $this->json($method, '/api/' . $version . Str::start($path, '/'), $data, $headers);
     }
 }
