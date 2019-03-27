@@ -31,6 +31,7 @@
     "howler": "^2.0.5",
     "sweetalert": "^2.1.0",
     "vue": "^2.1.0",
+    "vue-form": "^4.10.1",
     "vue-infinite-scroll": "^2.0.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"

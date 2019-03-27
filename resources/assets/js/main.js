@@ -5,6 +5,9 @@ import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 
+// Forms
+import VueForm from 'vue-form';
+
 // Radiophonix
 import store from '~/lib/store';
 import router from '~/routing/router';
@@ -26,6 +29,7 @@ Object.keys(directives).forEach(key => {
 });
 
 Vue.use(BootstrapVue);
+Vue.use(VueForm);
 
 export default new Vue({
     router,

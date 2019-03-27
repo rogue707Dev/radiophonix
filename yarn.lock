@@ -2082,15 +2082,15 @@ express@^4.13.3:
     utils-merge "1.0.0"
     vary "~1.1.1"
 
+extend@3.0.2, extend@~3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
+  integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
+
 extend@~3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
   integrity sha1-p1Xqe8Gt/MWjHOfnYtuq3F5jZEQ=
-
-extend@~3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
-  integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
 
 external-editor@^2.0.1:
   version "2.2.0"
@@ -5001,6 +5001,11 @@ schema-utils@^1.0.0:
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
 
+scope-eval@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/scope-eval/-/scope-eval-1.0.0.tgz#e182db1a1ef26f3e79d4bf48423b25e22839f0ff"
+  integrity sha1-4YLbGh7ybz551L9IQjsl4ig58P8=
+
 scss-tokenizer@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/scss-tokenizer/-/scss-tokenizer-0.2.3.tgz#8eb06db9a9723333824d3f5530641149847ce5d1"
@@ -5655,6 +5660,14 @@ vue-eslint-parser@2.0.0-beta.7:
     eslint-scope "^3.7.1"
     espree "^3.3.2"
     lodash "^4.17.4"
+
+vue-form@^4.10.1:
+  version "4.10.1"
+  resolved "https://registry.yarnpkg.com/vue-form/-/vue-form-4.10.1.tgz#062a9655d7004361f3122341509e3105f8a7f0e8"
+  integrity sha512-/dMvwuSp5Ht7qS5MWKV3NCH5Dy8KBU1m/9th0zBRYByRo6AKHvrheEBFfB1ibamP6eSHdErYI3fIruAY+obw+w==
+  dependencies:
+    extend "3.0.2"
+    scope-eval "1.0.0"
 
 vue-functional-data-merge@^2.0.5:
   version "2.0.7"
