@@ -72,13 +72,13 @@ Route::get('/teams', ListTeams::class);
 Route::get('/teams/{team}', ShowTeam::class);
 Route::get('/teams/{team}/sagas', ListTeamSagas::class);
 
-/*
 
 // WIP authentification
 
-Route::post('/auth/register', 'AuthController@register');
-Route::post('/auth/login', 'AuthController@authenticate');
+Route::post('/auth/register', \Radiophonix\Http\Controllers\Api\V1\Auth\RegisterUser::class);
+//Route::post('/auth/login', 'AuthController@authenticate');
 
+/*
 Route::group(['middleware' => ['jwt.auth']], function () {
     // Auth
     Route::post('/logout', 'AuthController@logout');
