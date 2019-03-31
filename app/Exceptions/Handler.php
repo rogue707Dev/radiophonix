@@ -3,20 +3,20 @@
 namespace Radiophonix\Exceptions;
 
 use Exception;
+use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Auth\AuthenticationException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Http\Request;
+use Illuminate\Session\TokenMismatchException;
+use Illuminate\Validation\ValidationException;
 use Radiophonix\Http\ApiResponse;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Exception\HttpException;
 use Tymon\JWTAuth\Exceptions\JWTException;
-use Illuminate\Auth\AuthenticationException;
-use Illuminate\Validation\ValidationException;
-use Illuminate\Session\TokenMismatchException;
-use Illuminate\Auth\Access\AuthorizationException;
 use Tymon\JWTAuth\Exceptions\TokenExpiredException;
 use Tymon\JWTAuth\Exceptions\TokenInvalidException;
-use Illuminate\Database\Eloquent\ModelNotFoundException;
-use Symfony\Component\HttpKernel\Exception\HttpException;
-use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
 {
@@ -95,23 +95,24 @@ class Handler extends ExceptionHandler
                     $message = 'Validation error';
                     $errors = json_decode($e->getResponse()->getContent(), true);
                 }
+            } elseif ($e instanceof ValidationException) {
+                $errors = $e->errors();
+                $statusCode = $e->status;
+                $message = $e->getMessage();
             }
-            // elseif ($e instanceof ValidationException) {
-
-            // }
 
             $data = [
                 'message' => $message,
                 'status_code' => $statusCode
             ];
 
-            if (config('app.debug')) {
-                $data['trace'] = $e->getTraceAsString();
-                $data['class'] = get_class($e);
-            }
-
             if (is_array($errors)) {
                 $data['errors'] = $errors;
+            }
+
+            if (config('app.debug')) {
+                $data['trace'] = explode("\n", $e->getTraceAsString());
+                $data['class'] = get_class($e);
             }
 
             return new ApiResponse($data, $statusCode);
