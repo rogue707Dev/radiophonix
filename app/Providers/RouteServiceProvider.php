@@ -110,7 +110,7 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapApiRoutes()
     {
         Route::prefix('api/v1')
-            ->middleware(['bindings', 'cors'])
+            ->middleware(['api', 'bindings', 'cors'])
             ->group(base_path('routes/api.php'));
     }
 

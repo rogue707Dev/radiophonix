@@ -1,5 +1,7 @@
 <?php
 
+use Radiophonix\Http\Controllers\Api\V1\Auth\LoginUser;
+use Radiophonix\Http\Controllers\Api\V1\Auth\RegisterUser;
 use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthors;
 use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthorSagas;
 use Radiophonix\Http\Controllers\Api\V1\Author\ShowAuthor;
@@ -75,8 +77,8 @@ Route::get('/teams/{team}/sagas', ListTeamSagas::class);
 
 // WIP authentification
 
-Route::post('/auth/register', \Radiophonix\Http\Controllers\Api\V1\Auth\RegisterUser::class);
-//Route::post('/auth/login', 'AuthController@authenticate');
+Route::post('/auth/register', RegisterUser::class);
+Route::post('/auth/login', LoginUser::class)->name('login');
 
 /*
 Route::group(['middleware' => ['jwt.auth']], function () {
