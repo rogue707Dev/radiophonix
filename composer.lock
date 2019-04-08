@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "462208ba421b2d1b8ca1d8130c77bc6e",
+    "content-hash": "02bb809883e01c5cd7723f3b8b334e8e",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -4208,7 +4208,7 @@
         },
         {
             "name": "tymon/jwt-auth",
-            "version": "dev-develop",
+            "version": "1.0.0-rc.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tymondesigns/jwt-auth.git",
@@ -4338,12 +4338,12 @@
             "version": "v2.0.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/YABhq/laravel-scout-mysql-driver.git",
+                "url": "https://github.com/yabhq/laravel-scout-mysql-driver.git",
                 "reference": "b039768cdcec690135d3c9853fdff844f1d1d8ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/YABhq/laravel-scout-mysql-driver/zipball/b039768cdcec690135d3c9853fdff844f1d1d8ad",
+                "url": "https://api.github.com/repos/yabhq/laravel-scout-mysql-driver/zipball/b039768cdcec690135d3c9853fdff844f1d1d8ad",
                 "reference": "b039768cdcec690135d3c9853fdff844f1d1d8ad",
                 "shasum": ""
             },
@@ -7321,7 +7321,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "tymon/jwt-auth": 20
+        "tymon/jwt-auth": 5
     },
     "prefer-stable": false,
     "prefer-lowest": false,
