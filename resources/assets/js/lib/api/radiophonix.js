@@ -4,6 +4,7 @@ import CollectionResource from './resources/CollectionResource';
 import GenreResource from './resources/GenreResource';
 import SagaResource from './resources/SagaResource';
 import TrackResource from './resources/TrackResource';
+import store from '~/lib/store';
 
 export default {
     authors: AuthorResource,
@@ -46,18 +47,13 @@ export default {
                 email: email,
                 password: password
             }).then((res) => {
-                localStorage.setItem('token', res.data.token);
+                store.dispatch('auth/setToken', res.data.access_token);
 
                 return res;
             });
         },
         register: (data) => http.post('/auth/register', data),
         logout: () => http.post('/auth/logout'),
-        refresh: () => {
-            return http.post('/auth/refresh').then((res) => {
-                localStorage.setItem('token', res.data.token);
-            });
-        }
     },
 
     me: () => http.get('/me'),

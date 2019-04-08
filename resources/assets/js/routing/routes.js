@@ -29,6 +29,8 @@ import AuthLayoutView from '~/pages/auth/Layout.vue';
 import LoginView from '~/pages/auth/Login.vue';
 import RegisterView from '~/pages/auth/Register.vue';
 
+import UserProfile from '~/pages/user/Profile.vue';
+
 // Publish pages
 import PublishLayout from '~/pages/publish/Layout.vue';
 import PublishHomeView from '~/pages/publish/Home.vue';
@@ -185,6 +187,12 @@ const routes = [
                         meta: { menu: 'register' }
                     },
                 ]
+            },
+            {
+                path: 'profile',
+                component: UserProfile,
+                name: 'profile',
+                meta: { menu: 'contribute', auth: true }
             },
             {
                 path: 'aide',

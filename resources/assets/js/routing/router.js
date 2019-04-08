@@ -29,10 +29,7 @@ router.beforeEach((to, from, next) => {
 });
 
 router.beforeEach((to, from, next) => {
-    // return next();
-    if (to.meta.auth && (router.app.$store.state.token == undefined)) {
-        window.console.log('Not authenticated');
-
+    if (to.meta.auth && !router.app.$store.getters['auth/isAuthenticated']) {
         next({
             path: '/connexion',
             query: {
