@@ -66,7 +66,11 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $e)
     {
-        if ($request->isJson() || $request->wantsJson() || $request->isXmlHttpRequest()) {
+        if ($request->isJson()
+            || $request->wantsJson()
+            || $request->isXmlHttpRequest()
+            || config('app.debug')
+        ) {
             $statusCode = 500;
             $message = $e->getMessage() ?? 'Internal error';
             $errors = false;
