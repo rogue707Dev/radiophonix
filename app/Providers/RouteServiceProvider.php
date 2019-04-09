@@ -46,7 +46,7 @@ class RouteServiceProvider extends ServiceProvider
         });
 
         Route::bind('user', function ($value) {
-            return User::fromFakeId($value);
+            return User::fromNameOrFakeId($value);
         });
 
         Route::bind('team', function ($value) {
