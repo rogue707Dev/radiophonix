@@ -19,7 +19,8 @@ class RemoveLike extends ApiController
     {
         /** @var Like $like */
         $like = Like::where('user_id', '=', $this->user()->id)
-            ->where('saga_id', $saga->id)
+            ->where('likeable_type', 'saga')
+            ->where('likeable_id', $saga->id)
             ->first();
 
         if ($like != null) {
