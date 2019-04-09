@@ -228,7 +228,7 @@ class AlphaSeed extends Command
         $this->output->write('Utilisateurs');
 
         User::create([
-            'name' => 'John Smith',
+            'name' => 'John-Smith',
             'email' => 'john.smith@radiophonix.org',
             'password' => bcrypt('password'),
         ]);
