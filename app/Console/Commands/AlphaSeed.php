@@ -41,8 +41,10 @@ class AlphaSeed extends Command
     {
         \Eloquent::unguard();
 
-        $this->seedTeams();
+        $this->seedUsers();
+        $this->info('');
 
+        $this->seedTeams();
         $this->info('');
 
         $this->seedAuthors();
@@ -221,18 +223,29 @@ class AlphaSeed extends Command
             });
     }
 
+    private function seedUsers(): void
+    {
+        $this->output->write('Utilisateurs');
+
+        User::create([
+            'name' => 'John Smith',
+            'email' => 'john.smith@radiophonix.org',
+            'password' => bcrypt('password'),
+        ]);
+    }
+
     private function seedTeams(): void
     {
         $this->output->write('Equipes');
 
         $this->loadJsonFiles('teams')
             ->each(function($teamData) {
-                $rand = rand(1, 1000);
+                $slug = Str::slug($teamData['name']);
 
                 $user = User::create([
-                    'name' => 'User_' . $rand,
-                    'email' => 'user_' . $rand . '@radiophonix.org',
-                    'password' => bcrypt(Str::random(32)),
+                    'name' => 'User_' . $slug,
+                    'email' => 'user_' . $slug . '@radiophonix.org',
+                    'password' => bcrypt('password'),
                 ]);
 
                 $team = new Team();
@@ -273,8 +286,8 @@ class AlphaSeed extends Command
             $user = User::where('name', '=', $authorData['name'])
                 ->firstOrNew([
                     'name' => $authorData['name'],
-                    'email' => 'author_' . rand(1, 100) . '_' . Str::slug($authorData['name']) . '@radiophonix.org',
-                    'password' => bcrypt(Str::random(32)),
+                    'email' => 'author_' . Str::slug($authorData['name']) . '@radiophonix.org',
+                    'password' => bcrypt('password'),
                 ]);
 
             $user->save();
