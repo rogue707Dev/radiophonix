@@ -22,14 +22,11 @@ class LoginUser extends ApiController
             throw new UnauthorizedHttpException('Token', 'Identifiants invalides');
         }
 
-        /** @var User $user */
-        $user = auth()->user();
-
         return $this->item(
             new LoginDto(
                 $token,
                 auth()->factory()->getTTL(),
-                $user
+                $this->user()
             ),
             new LoginTransformer()
         );

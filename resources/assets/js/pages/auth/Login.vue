@@ -157,7 +157,7 @@
                         {
                             name: 'profile',
                             params: {
-                                user: res.data.username,
+                                user: res.data.user.name,
                             },
                         },
                     );
