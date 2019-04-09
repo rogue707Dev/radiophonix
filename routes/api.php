@@ -48,6 +48,7 @@ use Radiophonix\Http\Controllers\Api\V1\Track\ShowTrack;
 use Radiophonix\Http\Controllers\Api\V1\Track\StoreTrack;
 use Radiophonix\Http\Controllers\Api\V1\Track\UpdateTrack;
 use Radiophonix\Http\Controllers\Api\V1\User\ShowCurrentUser;
+use Radiophonix\Http\Controllers\Api\V1\User\ShowProfile;
 
 Route::post('/search', SearchAll::class);
 
@@ -74,6 +75,9 @@ Route::get('/teams', ListTeams::class);
 Route::get('/teams/{team}', ShowTeam::class);
 Route::get('/teams/{team}/sagas', ListTeamSagas::class);
 
+// Profiles
+
+Route::get('/profile/{user}', ShowProfile::class);
 
 // WIP authentification
 
