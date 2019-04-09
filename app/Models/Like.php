@@ -20,13 +20,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Like extends Model
 {
     /**
-     * @var array
-     */
-    protected $touches = [
-        'saga',
-    ];
-
-    /**
      * The user who's giving a like.
      *
      * @return BelongsTo
@@ -36,13 +29,8 @@ class Like extends Model
         return $this->belongsTo(User::class);
     }
 
-    /**
-     * The concerned saga.
-     *
-     * @return BelongsTo
-     */
-    public function saga()
+    public function likeable()
     {
-        return $this->belongsTo(Saga::class);
+        return $this->morphTo();
     }
 }
