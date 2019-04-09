@@ -189,10 +189,10 @@ const routes = [
                 ]
             },
             {
-                path: 'profile',
+                path: 'profil/:user',
                 component: UserProfile,
                 name: 'profile',
-                meta: { menu: 'contribute', auth: true }
+                meta: { menu: 'contribute' }
             },
             {
                 path: 'aide',
@@ -299,7 +299,8 @@ const routes = [
     },
     {
         path: '*',
-        component: NotFoundView
+        component: NotFoundView,
+        name: '404',
     }
 ];
 

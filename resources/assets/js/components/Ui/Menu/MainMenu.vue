@@ -1,18 +1,17 @@
 <template>
     <ul class="menu">
-        <!--Afficher si connecter-->
         <li class="menu__item var--logout" v-feature="'login'" v-if="isAuthenticated">
-            <img class="menu__item__avatar" alt="" src="/static/home/avatar-defaut.png">
+            <img class="menu__item__avatar" alt="Avatar" :src="user.avatar" />
             <div class="menu__nivo2">
-                <router-link :to="{ name: 'profile' }" class="menu__nivo2__img">
+                <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__img">
                     <div class="cover var--petit var--auteur">
                         <div class="cover__mask">
-                            <img src="/static/home/avatar-defaut.png">
+                            <img alt="Avatar" :src="user.avatar" />
                         </div>
                     </div>
                 </router-link>
                 <div class="menu__nivo2__lien">
-                    <router-link :to="{ name: 'profile' }" class="menu__nivo2__lien__profil">
+                    <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__lien__profil">
                         <i aria-hidden="true" class="fa fa-user"></i> Profil
                     </router-link>
                     <a @click="logout">
@@ -75,6 +74,10 @@
 
             ...mapGetters('auth', [
                 'isAuthenticated',
+            ]),
+
+            ...mapState('auth', [
+                'user',
             ]),
         },
 

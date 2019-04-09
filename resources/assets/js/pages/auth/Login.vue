@@ -152,8 +152,15 @@
                 api.auth.login(
                     this.model.email,
                     this.model.password
-                ).then(() => {
-                    this.$router.push({name: 'profile'});
+                ).then((res) => {
+                    this.$router.push(
+                        {
+                            name: 'profile',
+                            params: {
+                                user: res.data.username,
+                            },
+                        },
+                    );
                 }).catch((e) => {
                     if (!e.response) {
                         console.log(e);

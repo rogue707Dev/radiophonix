@@ -4,6 +4,7 @@ import CollectionResource from './resources/CollectionResource';
 import GenreResource from './resources/GenreResource';
 import SagaResource from './resources/SagaResource';
 import TrackResource from './resources/TrackResource';
+import ProfileResource from './resources/ProfileResource';
 import store from '~/lib/store';
 
 export default {
@@ -12,6 +13,7 @@ export default {
     genres: GenreResource,
     sagas: SagaResource,
     tracks: TrackResource,
+    profile: ProfileResource,
 
     likes: {
         all: () => http.get('/likes'),
@@ -48,6 +50,7 @@ export default {
                 password: password
             }).then((res) => {
                 store.dispatch('auth/setToken', res.data.access_token);
+                store.dispatch('auth/setUser', res.data.user);
 
                 return res;
             });

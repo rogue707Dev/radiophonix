@@ -2,6 +2,7 @@ import storage from '~/lib/services/storage';
 
 const state = {
     token: storage.get('token'),
+    user: storage.get('user'),
 };
 
 const getters = {
@@ -24,10 +25,16 @@ const actions = {
         commit('setToken', null);
         storage.remove('token');
     },
+
+    setUser({ commit }, user) {
+        commit('setUser', user);
+        storage.set('user', user);
+    },
 };
 
 const mutations = {
     setToken: (state, token) => state.token = token,
+    setUser: (state, user) => state.user = user,
 };
 
 export default {
