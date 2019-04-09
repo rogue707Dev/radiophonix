@@ -2,9 +2,12 @@
 
 namespace Radiophonix\Http\Controllers\Api\V1\Auth;
 
+use Radiophonix\Dto\LoginDto;
 use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
 use Radiophonix\Http\Requests\Auth\LoginUserRequest;
+use Radiophonix\Http\Transformers\LoginTransformer;
+use Radiophonix\Models\User;
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
 
 class LoginUser extends ApiController
@@ -19,10 +22,16 @@ class LoginUser extends ApiController
             throw new UnauthorizedHttpException('Token', 'Identifiants invalides');
         }
 
-        return $this->simple([
-            'access_token' => $token,
-            'token_type' => 'bearer',
-            'expires_in' => auth()->factory()->getTTL() * 60,
-        ]);
+        /** @var User $user */
+        $user = auth()->user();
+
+        return $this->item(
+            new LoginDto(
+                $token,
+                auth()->factory()->getTTL(),
+                $user
+            ),
+            new LoginTransformer()
+        );
     }
 }
