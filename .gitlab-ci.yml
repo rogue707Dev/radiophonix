@@ -65,7 +65,7 @@ build:review:
         - echo -n 'RADIOPHONIX_API_URL=http://' >> .env
         - echo -n $CI_ENVIRONMENT_SLUG >> .env
         - echo -n '.radiophonix.org/api/v1/' >> .env
-        - npm run build
+        - yarn run build-dev
         - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-dev
         - mkdir -p artefacts
         - cp deploy/Envoy.review.blade.php artefacts/Envoy.blade.php

@@ -20,6 +20,7 @@
   "licence": "MIT",
   "scripts": {
     "dev": "node resources/assets/build/dev-server.js",
+    "build-dev": "node resources/assets/build/build-dev.js",
     "build": "node resources/assets/build/build.js"
   },
   "dependencies": {
