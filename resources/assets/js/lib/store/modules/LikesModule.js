@@ -47,7 +47,7 @@ const actions = {
 };
 
 const mutations = {
-    setAll: (state, likes) => state.likes = likes,
+    setAll: (state, likes) => state.likes = Object.assign({}, likes),
 
     add: (state, { type, id }) => {
         if (!state.likes[type]) {
