@@ -42,10 +42,6 @@ $ DEGRADER
 $ HALO
 ======================================================================================================================*/
 
-@mixin halo--orange-clair {
-    box-shadow: 0 0 3px 0 $orange-100;
-}
-
 @mixin halo--bleu-clair {
     box-shadow: 0 0 3px 0 $bleu-300;
 }

@@ -1,4 +1,22 @@
 /*======================================================================================================================
+$ COULEUR
+======================================================================================================================*/
+$fond-large: $bleu-500;
+
+$normal: $bleu-200;
+$normal-fond: $bleu-400;
+
+$actif: $blanc;
+$actif-fond: $bleu-400;
+$actif-bordure: $rouge-200;
+
+$survol: $blanc;
+
+$nouveau: $rouge-200;
+$mise-en-avant: $bleu-200;
+
+
+/*======================================================================================================================
 $ CONTENEUR
 ======================================================================================================================*/
 .menu {
@@ -7,7 +25,7 @@ $ CONTENEUR
     @include media-breakpoint-down(md) {
         z-index: z-index(100);
         width: 100%;
-        background-color: $bleu-400;
+        background-color: $normal-fond;
     }
 
     @include media-breakpoint-up(lg) {
@@ -27,8 +45,6 @@ $ CONTENEUR
 }
 
 
-
-
 /*======================================================================================================================
 $ ITEM NORMAL
 ======================================================================================================================*/
@@ -39,20 +55,15 @@ $ LIEN NORMAL
 .menu__item {
     display: flex;
     align-items: center;
-    color: $bleu-200;
+    color: $normal;
 
     svg {
-        fill: $bleu-200;
+        fill: $normal;
     }
 
     @include media-breakpoint-down(md) {
         flex-direction: row;
         padding: $espacement-standard--petit;
-
-        &:not(:last-child) {
-            border-bottom: 1px solid $bleu-500;
-        }
-
 
         svg {
             width: 20px;
@@ -79,26 +90,19 @@ $ LIEN NORMAL
 $ LIEN ACTIF
 -----------------------------------------------------------------------------*/
 .menu__item.actif {
-    background-color: $bleu-400;
-    color: $blanc;
+    background-color: $actif-fond;
+    color: $actif;
 
-    @include media-breakpoint-down(md) {
-        @include menu__bande-halo {
-            background-color: $orange-100;
-        }
+
+    @include menu__bande {
+        background-color: $actif-bordure;
     }
-
-    @include media-breakpoint-up(lg) {
-
-        @include menu__bande-halo {
-            @include degrade-horizontale--orange--fonce-claire;
-
-        }
-
+    &:before{
+        box-shadow: none;
     }
 
     svg {
-        fill: $blanc;
+        fill: $actif;
     }
 
 }
@@ -110,14 +114,14 @@ $ LIEN HOVER
 .menu__item {
 
     @include survol(".actif", ".var--logout"){
-        color: $blanc;
+        color: $survol;
 
-        @include menu__bande-halo {
-            background-color: $orange-100;
+        @include menu__bande {
+            background-color: $survol;
         }
 
         svg {
-            fill: $blanc;
+            fill: $survol;
         }
     }
 }
@@ -131,7 +135,7 @@ $ LIEN AVEC POINT de nouveauté
 
     .fa {
         position: absolute;
-        color: $rouge;
+        color: $nouveau;
     }
 
     @include media-breakpoint-down(md) {
@@ -159,13 +163,9 @@ $ ITEM LOGIN/LOGOUT
 $ LOGIN
 -----------------------------------------------------------------------------*/
 .menu__item.var--login {
-    @include media-breakpoint-down(md) {
-        border-top: 1px dotted $bleu-200;
+    @include menu__bande {
+        background-color: $mise-en-avant;
     }
-    @include menu__bande-halo {
-        background-color: $bleu-200;
-    }
-    border-bottom: 1px dotted $bleu-200;
 }
 
 /*-----------------------------------------------------------------------------
@@ -173,7 +173,11 @@ $ LOGOUT
 -----------------------------------------------------------------------------*/
 .menu__item.var--logout {
     align-items: flex-end;
-    border-bottom: 1px dotted $bleu-200;
+
+    .cover.var--petit{
+        width: $largeur-menu;
+        height: $largeur-menu;
+    }
 }
 .menu__item__avatar {
     width: $largeur-menu;
@@ -200,6 +204,7 @@ $ SOUS MENU
 
     @include media-breakpoint-down(md) {
         display: grid;
+        background-color: $normal-fond;
     }
 
     @include media-breakpoint-up(lg) {
@@ -207,12 +212,12 @@ $ SOUS MENU
         position: fixed;
         top:0;
         left: 0;
+        background-color: $fond-large;
     }
 
 
     min-height: $largeur-menu;
     grid-template-columns: $largeur-menu 150px;
-    background-color: $bleu-400;
 }
 
 .menu__nivo2__img {
@@ -226,11 +231,11 @@ $ SOUS MENU
     }
 
     .cover.var--auteur:before {
-        border-color: $orange-100;
+        border-color: $survol;
     }
 
     &:hover + .menu__nivo2__lien .menu__nivo2__lien__profil {
-        color: $blanc;
+        color: $survol;
     }
 }
 
@@ -242,6 +247,6 @@ $ SOUS MENU
     text-transform: capitalize;
 
     a:hover{
-        color: $blanc;
+        color: $survol;
     }
 }

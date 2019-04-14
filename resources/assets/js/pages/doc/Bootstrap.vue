@@ -28,6 +28,80 @@
         <div class="container">
 
 
+            <h1 class="display-3">Couleur</h1>
+
+            <h1 class="display-4">Texte</h1>
+            <div style="background:#fff">
+                <div style="color:#627485">background:#fff; color:#627485 : TEXTE</div>
+                <div style="color:#262f38">background:#fff; color:#262f38 : LIEN</div>
+                <s style=" color:#e25956">background:#fff; color:#e25956 <strong>KO</strong></s>
+                <div style="color:#D73F3C">background:#fff; color:#D73F3C : ACTION<strong>OK</strong></div>
+            </div>
+
+            <h1 class="display-4">Menu</h1>
+            <div style="background:#262f38;">
+                <div style=" color:#bdcadb">background:#262f38; color:#bdcadbU</div>
+                <div style=" color:#fff">background:#262f38; color:#fff</div>
+                <div style=" color:#FE5F4D">background:#262f38; color:#FE5F4D</div>
+                <div style=" color:#F2695E">background:#262f38; color:#F2695E</div>
+                <div style=" color:#f2c09e">background:#262f38; color:#f2c09e</div>
+                <div style=" color:#f0b888">background:#262f38; color:#f0b888</div>
+            </div>
+            <div style="background:#3a4651;">
+                <div style=" color:#fff">background:#3a4651; color:#fff</div>
+            </div>
+
+            <h1 class="display-4">Logo et banniere</h1>
+            <div style="background:#3a4651;">
+                <div style=" color:#fff">background:#EBEFF4; color:#fff : couleuir logo et banniere</div>
+                <div style=" color:#F19C7C">background:#EBEFF4; color:#F19C7C</div>
+            </div>
+
+
+
+
+            <h1 class="display-4">Bouton ? </h1>
+            <div style="background:#e25956;">
+                <div style=" color:#fff">background:#e25956; color:#fff : KO</div>
+            </div>
+            <div style="background:#CD4A47;">
+                <div style=" color:#fff">background:#CD4A47; color:#fff : OK</div>
+            </div>
+            <div style="background:#D73F3C;">
+                <div style=" color:#fff">background:#D73F3C; color:#fff : OK</div>
+            </div>
+
+
+
+            <h1 class="display-4">Player ? </h1>
+            <div style="background:#eda280;">
+                <div style=" color:#fff">background:#eda280; color:#fff : KO</div>
+                <div style=" color:#3a4651">background:#eda280; color:#3a4651 : OK</div>
+                <div style=" color:#262f38">background:#eda280; color:#262f38 : OK</div>
+                <s style=" color:#627485">background:#eda280; color:#627485 : KO</s>
+                <div style=" color:#35485E">background:#eda280; color:#35485E : OK</div>
+            </div>
+
+            <div style="background:#F19C7C;">
+                <div style=" color:#fff">background:#F19C7C; color:#fff : KO</div>
+                <div style=" color:#3a4651">background:#F19C7C; color:#3a4651 : OK</div>
+                <div style=" color:#262f38">background:#F19C7C; color:#262f38 : OK</div>
+                <s style=" color:#627485">background:#F19C7C; color:#627485 : KO</s>
+                <div style=" color:#304661">background:#F19C7C; color:#304661 : OK</div>
+            </div>
+
+
+
+            #
+
+
+
+
+
+
+
+
+
 
             <h1 class="display-3">Cover : Petite</h1>
             <div class="cover var--petit var--saga">
