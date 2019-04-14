@@ -24,6 +24,8 @@ const actions = {
     logout({ commit }) {
         commit('setToken', null);
         storage.remove('token');
+        storage.remove('user');
+        storage.remove('user.likes');
     },
 
     setUser({ commit }, user) {

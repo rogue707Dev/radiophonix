@@ -29,7 +29,12 @@
 
             <ul class="banniere__contenu__bande">
                 <li class="banniere__contenu__bande__item">
-                    {{ saga.stats.likes }} <i aria-hidden="true" class="fa fa-heart"></i>
+                    {{ saga.stats.likes }}
+                    <button aria-hidden="true"
+                            class="fa fa-heart"
+                            :class="likeButtonClass"
+                            :disabled="likeButtonLoading"
+                            @click="toggleLike"></button>
                 </li>
                 <template v-if="saga.stats.collections == 1">
                     <li class="banniere__contenu__bande__item">
@@ -221,20 +226,20 @@
 </template>
 
 <script>
-import { mapActions, mapState } from 'vuex';
-import api from '~/lib/api';
-import ticks from '~/lib/services/storage/ticks';
-import TrackLength from '~/components/track/TrackLength.vue';
-import Banner from '~/components/content/Banner.vue';
-import LicenceLink from '~/components/licence/LicenceLink.vue';
-import TextEllipsis from '~/components/text/TextEllipsis.vue';
-import CollectionType from '~/components/collection/CollectionType';
-import NavList from '~/components/Ui/Nav/NavList';
-import NavItem from '~/components/Ui/Nav/NavItem';
-import Cover from '~/components/content/Cover.vue';
-import FaIcon from '~/components/Ui/Icon/FaIcon.vue';
+    import {mapActions, mapGetters, mapState} from 'vuex';
+    import api from '~/lib/api';
+    import ticks from '~/lib/services/storage/ticks';
+    import TrackLength from '~/components/track/TrackLength.vue';
+    import Banner from '~/components/content/Banner.vue';
+    import LicenceLink from '~/components/licence/LicenceLink.vue';
+    import TextEllipsis from '~/components/text/TextEllipsis.vue';
+    import CollectionType from '~/components/collection/CollectionType';
+    import NavList from '~/components/Ui/Nav/NavList';
+    import NavItem from '~/components/Ui/Nav/NavItem';
+    import Cover from '~/components/content/Cover.vue';
+    import FaIcon from '~/components/Ui/Icon/FaIcon.vue';
 
-export default {
+    export default {
     components: {
         TrackLength,
         Banner,
@@ -267,12 +272,17 @@ export default {
         collections: [],
         currentCollectionType: null,
         currentTick: null,
+        likeButtonLoading: false,
     }),
 
     computed: {
         ...mapState('player', [
             'currentTrack',
             'isLoading',
+        ]),
+
+        ...mapGetters('likes', [
+            'isLiked',
         ]),
 
         genre() {
@@ -293,7 +303,17 @@ export default {
             }
 
             return collections;
-        }
+        },
+
+        likeButtonClass() {
+            if (this.likeButtonLoading) {
+                return 'fa-circle-o-notch fa-spin';
+            }
+
+            if (this.isLiked('saga', this.saga.id)) {
+                return 'var--actif';
+            }
+        },
     },
 
     methods: {
@@ -384,6 +404,34 @@ export default {
             }
 
             return false;
+        },
+
+        async toggleLike() {
+            this.likeButtonLoading = true;
+
+            if (this.isLiked('saga', this.saga.id)) {
+                await this.$store.dispatch(
+                    'likes/remove',
+                    {
+                        type: 'saga',
+                        id: this.saga.id,
+                    }
+                );
+
+                this.saga.stats.likes--;
+            } else {
+                await this.$store.dispatch(
+                    'likes/add',
+                    {
+                        type: 'saga',
+                        id: this.saga.id,
+                    }
+                );
+
+                this.saga.stats.likes++;
+            }
+
+            this.likeButtonLoading = false;
         },
     },
 

@@ -16,9 +16,10 @@ export default {
     profile: ProfileResource,
 
     likes: {
-        all: () => http.get('/likes'),
-        add: (sagaId) => http.post('/sagas/' + sagaId + '/likes'),
-        remove: (sagaId) => http.delete('/sagas/' + sagaId + '/likes'),
+        saga: {
+            add: (sagaId) => http.post('/likes/saga/' + sagaId),
+            remove: (sagaId) => http.delete('/likes/saga/' + sagaId),
+        },
     },
 
     teams: {
@@ -51,6 +52,7 @@ export default {
             }).then((res) => {
                 store.dispatch('auth/setToken', res.data.access_token);
                 store.dispatch('auth/setUser', res.data.user);
+                store.dispatch('likes/setAll', res.data.likes);
 
                 return res;
             });
