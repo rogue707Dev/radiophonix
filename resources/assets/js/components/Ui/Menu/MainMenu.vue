@@ -1,6 +1,6 @@
 <template>
     <ul class="menu">
-        <li class="menu__item var--logout" v-feature="'login'" v-if="isAuthenticated">
+        <li class="menu__item var--logout" v-feature="'login'" v-if="isAuthenticated && user">
             <img class="menu__item__avatar" alt="Avatar" :src="user.avatar" />
             <div class="menu__nivo2">
                 <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__img">
@@ -22,7 +22,7 @@
         </li>
         <!--Afficher si non déconnecter-->
         <main-menu-item name="login" route="login" class="menu__item var--sans-icon" v-feature="'login'"
-                        v-if="!isAuthenticated">
+                        v-else>
             Connexion
         </main-menu-item>
         <main-menu-item name="register" route="register" class="menu__item var--sans-icon" v-feature="'login'">
