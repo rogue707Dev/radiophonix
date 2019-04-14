@@ -2,13 +2,14 @@
 
 namespace Radiophonix\Services\FakeId;
 
-use Illuminate\Contracts\Config\Repository;
+use Illuminate\Contracts\Config\Repository as Config;
+use Illuminate\Support\Str;
 use Radiophonix\Exceptions\FakeId\FakeIdException;
 
 class FakeIdManager
 {
     /**
-     * @var Repository
+     * @var Config
      */
     private $config;
 
@@ -17,7 +18,7 @@ class FakeIdManager
      */
     private $connections;
 
-    public function __construct(Repository $config)
+    public function __construct(Config $config)
     {
         $this->config = $config;
     }
@@ -29,6 +30,8 @@ class FakeIdManager
      */
     public function connection(string $name): FakeIdConnection
     {
+        $name = $this->name($name);
+
         if (!isset($this->connections[$name])) {
             $config = $this->config->get('fakeid.connections.' . $name);
 
@@ -44,5 +47,15 @@ class FakeIdManager
         }
 
         return $this->connections[$name];
+    }
+
+    private function name(string $name): string
+    {
+        if ($name !== 'media'
+        ) {
+            $name = Str::finish($name, 's');
+        }
+
+        return $name;
     }
 }

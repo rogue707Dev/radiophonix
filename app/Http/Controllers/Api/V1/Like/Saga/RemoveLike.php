@@ -1,13 +1,14 @@
 <?php
 
-namespace Radiophonix\Http\Controllers\Api\V1\Like;
+namespace Radiophonix\Http\Controllers\Api\V1\Like\Saga;
 
 use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
 use Radiophonix\Http\Transformers\LikesTransformer;
+use Radiophonix\Models\Saga;
 use Radiophonix\Repositories\LikeRepository;
 
-class ListUserLikes extends ApiController
+class RemoveLike extends ApiController
 {
     /** @var LikeRepository */
     private $repository;
@@ -17,8 +18,14 @@ class ListUserLikes extends ApiController
         $this->repository = $repository;
     }
 
-    public function __invoke(): ApiResponse
+    public function __invoke(Saga $saga): ApiResponse
     {
+        $like = $this->repository->forUserAndLikeable($this->user(), $saga);
+
+        if ($like != null) {
+            $like->delete();
+        }
+
         return $this->item(
             $this->repository->forUser($this->user()),
             new LikesTransformer

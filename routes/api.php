@@ -5,49 +5,20 @@ use Radiophonix\Http\Controllers\Api\V1\Auth\RegisterUser;
 use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthors;
 use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthorSagas;
 use Radiophonix\Http\Controllers\Api\V1\Author\ShowAuthor;
-use Radiophonix\Http\Controllers\Api\V1\Like\AddLike;
-use Radiophonix\Http\Controllers\Api\V1\Like\ListUserLikes;
-use Radiophonix\Http\Controllers\Api\V1\Like\RemoveLike;
-use Radiophonix\Http\Controllers\Api\V1\Collection\DestroyCollection;
 use Radiophonix\Http\Controllers\Api\V1\Collection\ListCollectionTracks;
 use Radiophonix\Http\Controllers\Api\V1\Collection\ShowCollection;
-use Radiophonix\Http\Controllers\Api\V1\Collection\StoreCollection;
-use Radiophonix\Http\Controllers\Api\V1\Collection\UpdateCollection;
 use Radiophonix\Http\Controllers\Api\V1\Genre\ListGenres;
 use Radiophonix\Http\Controllers\Api\V1\Genre\ShowGenre;
-use Radiophonix\Http\Controllers\Api\V1\Invite\AcceptInvite;
-use Radiophonix\Http\Controllers\Api\V1\Invite\DeclineInvite;
-use Radiophonix\Http\Controllers\Api\V1\Invite\ListInvites;
-use Radiophonix\Http\Controllers\Api\V1\Invite\ListTeamPendingInvites;
-use Radiophonix\Http\Controllers\Api\V1\Invite\SendInvite;
-use Radiophonix\Http\Controllers\Api\V1\Notification\DestroyNotification;
-use Radiophonix\Http\Controllers\Api\V1\Notification\ListUserNotifications;
-use Radiophonix\Http\Controllers\Api\V1\Notification\MarkNotificationAsRead;
-use Radiophonix\Http\Controllers\Api\V1\Saga\DestroySaga;
+use Radiophonix\Http\Controllers\Api\V1\Like\ListUserLikes;
+use Radiophonix\Http\Controllers\Api\V1\Like\Saga;
 use Radiophonix\Http\Controllers\Api\V1\Saga\ListSagaCollections;
 use Radiophonix\Http\Controllers\Api\V1\Saga\ListSagas;
 use Radiophonix\Http\Controllers\Api\V1\Saga\ShowSaga;
-use Radiophonix\Http\Controllers\Api\V1\Saga\StoreSaga;
-use Radiophonix\Http\Controllers\Api\V1\Saga\UpdateSaga;
 use Radiophonix\Http\Controllers\Api\V1\Search\SearchAll;
-use Radiophonix\Http\Controllers\Api\V1\Subscription\ListUserSubscriptions;
-use Radiophonix\Http\Controllers\Api\V1\Subscription\SubscribeToSaga;
-use Radiophonix\Http\Controllers\Api\V1\Subscription\UnsubscribeToSaga;
-use Radiophonix\Http\Controllers\Api\V1\Team\DestroyTeam;
 use Radiophonix\Http\Controllers\Api\V1\Team\ListTeams;
 use Radiophonix\Http\Controllers\Api\V1\Team\ListTeamSagas;
 use Radiophonix\Http\Controllers\Api\V1\Team\ShowTeam;
-use Radiophonix\Http\Controllers\Api\V1\Team\StoreTeam;
-use Radiophonix\Http\Controllers\Api\V1\Team\UpdateTeam;
-use Radiophonix\Http\Controllers\Api\V1\Tick\CurrentTick;
-use Radiophonix\Http\Controllers\Api\V1\Tick\DoTick;
-use Radiophonix\Http\Controllers\Api\V1\Tick\ListTicks;
-use Radiophonix\Http\Controllers\Api\V1\Tick\ShowTickForSaga;
-use Radiophonix\Http\Controllers\Api\V1\Track\DestroyTrack;
 use Radiophonix\Http\Controllers\Api\V1\Track\ShowTrack;
-use Radiophonix\Http\Controllers\Api\V1\Track\StoreTrack;
-use Radiophonix\Http\Controllers\Api\V1\Track\UpdateTrack;
-use Radiophonix\Http\Controllers\Api\V1\User\ShowCurrentUser;
 use Radiophonix\Http\Controllers\Api\V1\User\ShowProfile;
 
 Route::post('/search', SearchAll::class);
@@ -117,8 +88,8 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 //
 //    // Likes
     Route::get('/likes', ListUserLikes::class);
-    Route::post('/sagas/{saga}/likes', AddLike::class);
-    Route::delete('/sagas/{saga}/likes', RemoveLike::class);
+    Route::post('/likes/saga/{saga}', Saga\AddLike::class);
+    Route::delete('/likes/saga/{saga}', Saga\RemoveLike::class);
 //
 //    // Subscriptions
 //    Route::get('/subscriptions', ListUserSubscriptions::class);
