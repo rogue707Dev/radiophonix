@@ -58,6 +58,10 @@ const mutations = {
     },
 
     remove: (state, { type, id }) => {
+        if (!state.likes[type]) {
+            state.likes[type] = [];
+        }
+
         let index = state.likes[type].indexOf(id);
 
         if (index !== -1) {

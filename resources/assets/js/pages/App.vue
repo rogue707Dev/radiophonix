@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    import {mapState} from 'vuex';
+    import { mapState, mapGetters } from 'vuex';
     import api from '~/lib/api';
     import ticks from '~/lib/services/storage/ticks';
     import storage from '~/lib/services/storage';
@@ -15,10 +15,18 @@
             ...mapState('ui', [
                 'pageTitle',
             ]),
+
+            ...mapGetters('auth', [
+                'isAuthenticated',
+            ]),
         },
         created: function () {
             this.loadCurrentTrack();
             this.loadLastSearchQueries();
+
+            if (this.isAuthenticated) {
+                this.loadLikes();
+            }
         },
 
         methods: {
@@ -62,6 +70,12 @@
                 }
 
                 this.$store.commit('search/setQueries', queries);
+            },
+
+            async loadLikes() {
+                let res = await api.likes.all();
+
+                this.$store.dispatch('likes/setAll', res.data);
             },
         }
     }

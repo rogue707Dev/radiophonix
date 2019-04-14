@@ -16,6 +16,7 @@ export default {
     profile: ProfileResource,
 
     likes: {
+        all: () => http.get('/likes'),
         saga: {
             add: (sagaId) => http.post('/likes/saga/' + sagaId),
             remove: (sagaId) => http.delete('/likes/saga/' + sagaId),
