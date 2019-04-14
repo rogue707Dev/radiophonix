@@ -35,7 +35,6 @@
             <div style="background:#262f38">
                 <div style="color:#FFFFFF">$blanc: #FFFFFF</div>
                 <div style="color:#bdcadb">$bleu-200: #bdcadb;</div>
-                <div style="color:#FE5F4D">$rouge-200: #FE5F4D</div>
             </div>
 
             <h1 class="display-4 mt-2">$rouge-300: #D73F3C;</h1>

@@ -25,7 +25,7 @@
         <main-menu-item name="login"
                         route="login"
                         icon="login"
-                        class="menu__item var--login"
+                        class="menu__item"
                         v-feature="'login'">
             Connexion
         </main-menu-item>

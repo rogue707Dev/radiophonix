@@ -8,13 +8,12 @@ $normal-fond: $bleu-400;
 
 $actif: $blanc;
 $actif-fond: $bleu-400;
-$actif-bordure: $rouge-200;
+$actif-bordure: $orange-250;
 
 $survol: $blanc;
+$survol-bordure: $bleu-200;
 
-$nouveau: $rouge-200;
-$mise-en-avant: $bleu-200;
-
+$nouveau: $orange-250;
 
 /*======================================================================================================================
 $ CONTENEUR
@@ -117,7 +116,7 @@ $ LIEN HOVER
         color: $survol;
 
         @include menu__bande {
-            background-color: $survol;
+            background-color: $survol-bordure;
         }
 
         svg {
@@ -158,15 +157,6 @@ $ LIEN AVEC POINT de nouveauté
 /*======================================================================================================================
 $ ITEM LOGIN/LOGOUT
 ======================================================================================================================*/
-
-/*-----------------------------------------------------------------------------
-$ LOGIN
------------------------------------------------------------------------------*/
-.menu__item.var--login {
-    @include menu__bande {
-        background-color: $mise-en-avant;
-    }
-}
 
 /*-----------------------------------------------------------------------------
 $ LOGOUT
