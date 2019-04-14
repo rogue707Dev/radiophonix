@@ -109,12 +109,12 @@ $ NORMAL
 -----------------------------------------------------------------------------*/
 .playlist__morceau {
     padding:$espacement-standard--petit 0;
-    border-bottom: 1px solid rgba($bleu-400, 0.4);
-    color: $bleu-400;
+    border-bottom: 1px solid rgba($bleu-500, 0.4);
+    color: $bleu-500;
 
     @include media-breakpoint-down(sm) {
         &:first-child {
-            border-top: 1px solid rgba($bleu-400, 0.4);
+            border-top: 1px solid rgba($bleu-500, 0.4);
         }
     }
 

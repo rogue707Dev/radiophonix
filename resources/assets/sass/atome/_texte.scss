@@ -74,9 +74,3 @@ $ COULEUR
 .text-body {
     @include text-color($body-color);// couleur body
 }
-.text-blue-500 {
-    @include text-color($bleu-500);
-}
-.text-orange-300 {
-    @include text-color($orange-300);
-}

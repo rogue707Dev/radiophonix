@@ -2,20 +2,20 @@
     <div>
 
 
-        <div class="jumbotron">
+        <headband urlImage="/static/home/radio.jpg">
             <div class="container container--homepage text-center">
                 <svg class="logo-home">
                     <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
-                    <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
+                    <use class="fill--logo-blanc" xlink:href="#logo-part2of2"></use>
                 </svg>
-                <div class="display-4 text-body">
+                <div class="baseline">
                     Toutes vos sagas au même endroit
                 </div>
                 <div class="search-homepage my-5">
                     <search-form></search-form>
                 </div>
             </div>
-        </div>
+        </headband>
 
 
         <div class="container">

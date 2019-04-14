@@ -15,22 +15,23 @@ $ Color system
 ======================================================================================================================*/
 
 // Theme Color
-$orange-100: #f2c09e;
-$orange-200: #f0b888;
-$orange-300: #eb937b;
+$orange-100: #f2c09e; // a trier
+$orange-200: #f0b888; // a trier
+$orange-250: #F19C7C;
+$orange-300: #eb937b; // a trier
+
+$blanc: #ffffff;
+
+$rouge-200: #FE5F4D;
+$rouge-300: #D73F3C;
+$rouge-400: #CA342D;
 
 $bleu-100: #ebeff4;
 $bleu-200: #bdcadb;
-$bleu-300: #627485; // ok texte
+$bleu-300: #627485;
+$bleu-350: #5C6F80;
 $bleu-400: #3a4651;
-$bleu-500: #262f38; // ok lien
-
-$blanc: #ffffff;
-$rouge: #e25956;
-
-$rouge-200: #FE5F4D; // menu
-$rouge-300: #D73F3C; //ok texte
-
+$bleu-500: #262f38;
 
 
 // stylelint-disable
@@ -88,14 +89,14 @@ $colors: map-merge((
 ), $colors);
 
 
-$primary:       $rouge;
+$primary:       $rouge-300;
 $secondary:     $bleu-300;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $bleu-100; //$gray-100 !default;
-$dark:          $gray-800 !default;
+$dark:          $bleu-500; //$gray-800 !default;
 
 
 $theme-colors: () !default;
@@ -172,7 +173,7 @@ $blockquote-font-size: $texte-normal;
 
 // Jumbotron
 $jumbotron-padding: $espacement-standard;
-$jumbotron-bg: $bleu-100;
+$jumbotron-bg: $bleu-400;
 
 // Progress bars;
 $progress-height: $texte-normal;

@@ -59,7 +59,7 @@ $color-card: $bleu-100;
 
 a.card {
     @include survol(){
-        border-color: $bleu-200;
+        border-color: $bleu-300;
     }
 }
 
@@ -89,27 +89,27 @@ $ BOUTON
 ======================================================================================================================*/
 .card-button {
     position: absolute;
-    top: ($largeur-card - 20px);
+    top: 177px;
     left: 0;
     right: 0;
-    padding: 0 10px 5px;
+    padding: 0 8px 5px;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    color: $bleu-200;
+    color: $bleu-350;
 
     @include deux-cartes-50pct-par-ligne {
         top: ($largeur-card-sm - 20px);
     }
 
     .fa {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        transition: box-shadow 0.2s;
+
         @include survol(){
-            color: $primary;
-        }
-    }
-    .fa.fa-heart.var--actif {
-        @include survol(){
-            color: $bleu-200;
+            box-shadow: 0 0 0 2px $bleu-100, 0 0 0 3px $rouge-400;
         }
     }
 

@@ -15,8 +15,8 @@
             </cover>
         </div>
         <div class="card-button">
-            <i aria-hidden="true" class="fa fa-plus"></i>
-            <i aria-hidden="true" class="fa fa-heart"></i>
+            <button aria-hidden="true" class="fa fa-plus"></button>
+            <button aria-hidden="true" class="fa fa-heart"></button>
         </div>
         <div class="card-body">
             <span v-if="badge" class="badge badge-light badge-sm text-capitalize">{{ type }}</span>

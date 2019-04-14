@@ -1,26 +1,8 @@
 <template>
     <div>
 
-        <div class="alert alert-warning">
-            -> analyse en cour : la home page
-            <ol>
-                <li>
-                    utiliser les card a la place des truc de saga ?
-                </li>
-                <li>
-                    utilser media a la place des mini affichage saga
-                </li>
-            </ol>
-
-            <span class="text-primary"> -> ne pas oublier de faire une repasser coté scss apres celle html/vue</span>
-            <br>
-            -> supprimer les commentaire "(issues#57)" dans les scss
-        </div>
-
-
-
         <div class="jumbotron" id="ancre-radiophonix">
-            <h1 class="display-1">Composent Radiophonix</h1>
+            <h1 class="display-1 text-white">Composent Radiophonix</h1>
             <p>
                 <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/" role="button">Documentation de Bootstrap</a>
             </p>
@@ -28,52 +10,40 @@
         <div class="container">
 
 
-            <h1 class="display-3">Couleur</h1>
+            <h1 class="display-3">Couleur accessible</h1>
 
-            <h1 class="display-4">Texte</h1>
+            <h1 class="display-4 mt-2">$blanc: #ffffff;</h1>
             <div style="background:#fff">
-                <div style="color:#627485">background:#fff; color:#627485 : TEXTE</div>
-                <div style="color:#262f38">background:#fff; color:#262f38 : LIEN</div>
-                <s style=" color:#e25956">background:#fff; color:#e25956 <strong>KO</strong></s>
-                <div style="color:#D73F3C">background:#fff; color:#D73F3C : ACTION<strong>OK</strong></div>
+                <div style="color:#627485">$bleu-300: #627485</div>
+                <div style="color:#262f38">$bleu-500: #262f38</div>
+                <div style="color:#D73F3C">$rouge-300: #D73F3C</div>
             </div>
 
-            <h1 class="display-4">Menu</h1>
-            <div style="background:#262f38;">
-                <div style=" color:#bdcadb">background:#262f38; color:#bdcadbU</div>
-                <div style=" color:#fff">background:#262f38; color:#fff</div>
-                <div style=" color:#FE5F4D">background:#262f38; color:#FE5F4D</div>
-                <div style=" color:#F2695E">background:#262f38; color:#F2695E</div>
-                <div style=" color:#f2c09e">background:#262f38; color:#f2c09e</div>
-                <div style=" color:#f0b888">background:#262f38; color:#f0b888</div>
-            </div>
-            <div style="background:#3a4651;">
-                <div style=" color:#fff">background:#3a4651; color:#fff</div>
+            <h1 class="display-4 mt-2">$bleu-100: #ebeff4;</h1>
+            <div style="background:#ebeff4">
+                <div style="color:#5C6F80">$bleu-350: #5C6F80;</div>
+                <div style="color:#CA342D">$rouge-400: #CA342D;</div>
             </div>
 
-            <h1 class="display-4">Logo et banniere</h1>
-            <div style="background:#3a4651;">
-                <div style=" color:#fff">background:#EBEFF4; color:#fff : couleuir logo et banniere</div>
-                <div style=" color:#F19C7C">background:#EBEFF4; color:#F19C7C</div>
+            <h1 class="display-4 mt-2">$bleu-400: #3a4651;</h1>
+            <div style="background:#3a4651">
+                <div style="color:#FFFFFF">$blanc: #FFFFFF</div>
+                <div style="color:#F19C7C">$orange-250: #F19C7C;</div>
             </div>
 
-
-
-
-            <h1 class="display-4">Bouton ? </h1>
-            <div style="background:#e25956;">
-                <div style=" color:#fff">background:#e25956; color:#fff : KO</div>
-            </div>
-            <div style="background:#CD4A47;">
-                <div style=" color:#fff">background:#CD4A47; color:#fff : OK</div>
-            </div>
-            <div style="background:#D73F3C;">
-                <div style=" color:#fff">background:#D73F3C; color:#fff : OK</div>
+            <h1 class="display-4 mt-2">$bleu-500: #262f38;</h1>
+            <div style="background:#262f38">
+                <div style="color:#FFFFFF">$blanc: #FFFFFF</div>
+                <div style="color:#bdcadb">$bleu-200: #bdcadb;</div>
+                <div style="color:#FE5F4D">$rouge-200: #FE5F4D</div>
             </div>
 
+            <h1 class="display-4 mt-2">$rouge-300: #D73F3C;</h1>
+            <div style="background:#D73F3C">
+                <div style="color:#FFFFFF">$blanc: #FFFFFF</div>
+            </div>
 
-
-            <h1 class="display-4">Player ? </h1>
+            <h1 class="display-4 mt-2">ASIDE - Wip</h1>
             <div style="background:#eda280;">
                 <div style=" color:#fff">background:#eda280; color:#fff : KO</div>
                 <div style=" color:#3a4651">background:#eda280; color:#3a4651 : OK</div>
@@ -89,10 +59,6 @@
                 <s style=" color:#627485">background:#F19C7C; color:#627485 : KO</s>
                 <div style=" color:#304661">background:#F19C7C; color:#304661 : OK</div>
             </div>
-
-
-
-            #
 
 
 
@@ -436,14 +402,16 @@
 
 
             <h1 class="display-3">SVG</h1>
-            <svg width="280px" height="50px">
-                <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
-                <use class="fill--logo-bleu" xlink:href="#logo-part2of2"></use>
-            </svg>
-            <div style="background-color: #3a4651">
-                <svg width="280px" height="50px" class="fill--blanc">
+            <div style="background-color: #F19C7C">
+                <svg width="280px" height="50px" class="fill--logo-bleu">
                     <use xlink:href="#logo-part1of2"></use>
                     <use xlink:href="#logo-part2of2"></use>
+                </svg>
+            </div>
+            <div style="background-color: #262f38">
+                <svg width="280px" height="50px">
+                    <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
+                    <use class="fill--logo-blanc" xlink:href="#logo-part2of2"></use>
                 </svg>
             </div>
             <hr class="my-5">
@@ -495,32 +463,27 @@
                     <td>.h1</td>
                     <td class="h1">Hello</td>
                     <td>h</td>
-                    <td class="text-blue-500">#262f38 <br>$bleu-500</td>
                 </tr>
                 <tr>
                     <td>.h2</td>
                     <td class="h2">Hello</td>
                     <td>h</td>
-                    <td class="text-blue-500">#262f38 <br>$bleu-500</td>
                 </tr>
                 <tr>
                     <td>.h3</td>
                     <td class="h3">Hello</td>
                     <td>h</td>
-                    <td class="text-blue-500">#262f38 <br>$bleu-500</td>
                 </tr>
                 <tr>
                     <td>.h4</td>
                     <td class="h4">Hello</td>
                     <td>h</td>
-                    <td class="text-blue-500">#262f38 <br>$bleu-500</td>
                 </tr>
 
                 <tr>
                     <td>.lead</td>
                     <td class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</td>
                     <td>paragraphe</td>
-                    <td class="text-blue-500">#262f38 <br>$bleu-500</td>
                 </tr>
                 <tr>
                     <td>(default)</td>
@@ -556,14 +519,10 @@
                     <div class="col">
                         <p>Texte par defaut</p>
                         <p class="text-body">.text-body</p>
-                        <p class="text-blue-500">.text-blue-500</p>
-                        <p class="text-orange-300">.text-orange-300</p>
                     </div>
                     <div class="col" style="background-color: #EBEFF4">
                         <p><a href="#" class="lien-paragraphe">.lien-paragraphe</a></p>
                         <p><a href="#" class="text-body">Lien couleur body (defaut)</a></p>
-                        <p><a href="#" class="text-blue-500">Lien bleu-500</a></p>
-                        <p><a href="#" class="text-orange-300">Lien orange-300</a></p>
                     </div>
                 </div>
                 <br>
@@ -848,7 +807,7 @@
                 <button type="button" class="btn btn-light btn-lg">Light</button>
                 <button type="button" class="btn btn-dark btn-lg">Dark</button>
                 <button type="button" class="btn btn-link btn-lg">Link</button>
-                <button type="button" class="btn btn-homepage btn-lg">Homepage</button>
+                <button type="button" class="btn btn-primary btn-lg">Homepage</button>
             </div>
 
             <div>
@@ -862,7 +821,6 @@
                 <button type="button" class="btn btn-light">Light</button>
                 <button type="button" class="btn btn-dark">Dark</button>
                 <button type="button" class="btn btn-link">Link</button>
-                <button type="button" class="btn btn-homepage">Homepage</button>
             </div>
 
             <div>
@@ -876,7 +834,6 @@
                 <button type="button" class="btn btn-light btn-sm">Light</button>
                 <button type="button" class="btn btn-dark btn-sm">Dark</button>
                 <button type="button" class="btn btn-link btn-sm">Link</button>
-                <button type="button" class="btn btn-homepage btn-sm">Homepage</button>
             </div>
 
             <div>

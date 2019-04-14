@@ -1,13 +1,8 @@
 /*======================================================================================================================
-$ COLORATION
+$ SURCHARGE
 ======================================================================================================================*/
-.fill--blanc,
-.fill--logo-blanc {
-    fill: $blanc;
-}
-.fill--logo-orange {
-    fill: $orange-250;
-}
-.fill--logo-bleu {
-    fill: $bleu-500;
+.btn-primary {
+    background-color: $orange-250;
+    border-color: $orange-250;
+    color: $bleu-500;
 }

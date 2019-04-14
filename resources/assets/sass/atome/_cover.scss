@@ -5,16 +5,15 @@ $ BASE
     position: relative;
     display: inline-block;
     overflow: hidden;
-    //border:1px solid red;
 }
 
 a:hover,
 a:focus {
     .cover:before {
-        border-color: $primary;
+        border-color: $rouge-400;
     }
     .cover svg {
-        stroke: $primary;
+        stroke: $rouge-400;
     }
 }
 
@@ -202,7 +201,7 @@ $ BANNIERE
 /*======================================================================================================================
 $ CONTOUR
 ======================================================================================================================*/
-$couleur-contour: $bleu-200;
+$couleur-contour: $bleu-350;
 
 .cover:before {
     content: "";

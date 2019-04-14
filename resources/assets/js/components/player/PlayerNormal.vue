@@ -21,7 +21,7 @@
 
                 <div class="lecteur__cover__loader" v-if="isLoading">
                     <i class="fa fa-fw fa-spinner fa-spin"></i>
-                    <span class="mt-2 lead text-white">Chargement</span>
+                    <span class="mt-2 lead text-dark">Chargement</span>
                 </div>
 
                 <div class="lecteur__cover__bouton">
@@ -47,8 +47,8 @@
                 <!----------------------------------------
                 Info du morceau
                 ------------------------------------------>
-                <div class="text-center text-white">
-                    <p class="lead text-white">
+                <div class="text-center text-dark">
+                    <p class="lead text-dark">
                         <text-ellispis :text="currentTrack.title" :size="28"></text-ellispis>
                     </p>
                     <p>
@@ -69,7 +69,7 @@
                 <!----------------------------------------
                 Progession
                 ------------------------------------------>
-                <div class="lecteur__progression text-white h5">
+                <div class="lecteur__progression text-dark h5">
                     <span>{{ currentTime }}</span>
                     <progress class="lecteur__progression__barre"
                               @click="seek"
@@ -107,14 +107,14 @@
             <!----------------------------------------
             Logo et baseline
             ------------------------------------------>
-            <div class="text-center text-white">
-                <svg width="280px" height="50px" class="fill--blanc">
+            <div class="text-center text-dark">
+                <svg width="280px" height="50px" class="fill--logo-bleu">
                     <use xlink:href="#logo-part1of2"></use>
                     <use xlink:href="#logo-part2of2"></use>
                 </svg>
                 <br>
-                <span class="lead text-white">
-                    Toutes vos sagas au même endroit !
+                <span class="lead text-dark">
+                    Toutes vos sagas au même endroit
                 </span>
             </div>
 
