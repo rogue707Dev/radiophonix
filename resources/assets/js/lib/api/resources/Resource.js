@@ -1,59 +1,53 @@
-import ResourceClient from './ResourceClient';
-
 class Resource {
-    static build(methods) {
+    static build(axios, methods) {
         const resource = new Resource;
 
         if (methods.all) {
             resource.all = function (params) {
-                return this.client.get(`${methods.all}`, params);
+                return axios.get(`${methods.all}`, params);
             };
         }
 
         if (methods.get) {
-            resource.get = function (id, params) {
-                let url = this.buildUrl(methods.get, {
+            resource.get = (id, params) => {
+                let url = Resource.buildUrl(methods.get, {
                     id: id
                 });
 
-                return this.client.get(url, params);
+                return axios.get(url, params);
             };
         }
 
         if (methods.create) {
             resource.create = function (data) {
-                return this.client.post(`${methods.create}`, data);
+                return axios.post(`${methods.create}`, data);
             };
         }
 
         if (methods.update) {
-            resource.update = function (id, data) {
-                let url = this.buildUrl(methods.update, {
+            resource.update = (id, data) => {
+                let url = Resource.buildUrl(methods.update, {
                     id: id
                 });
 
-                return this.client.put(url, data);
+                return axios.put(url, data);
             };
         }
 
         if (methods.delete) {
-            resource.delete = function (id) {
-                let url = this.buildUrl(methods.delete, {
+            resource.delete = (id) => {
+                let url = Resource.buildUrl(methods.delete, {
                     id: id
                 });
 
-                return this.client.delete(url);
+                return axios.delete(url);
             };
         }
 
         return resource;
     }
 
-    constructor() {
-        this.client = new ResourceClient();
-    }
-
-    buildUrl(url, vars) {
+    static buildUrl(url, vars) {
         for (let key in vars) {
             if (vars.hasOwnProperty(key)) {
                 let value = vars[key];

@@ -1,38 +1,40 @@
 import Resource from './Resource';
 
-const SagaResource = Resource.build({
-    all: '/sagas',
-    get: '/sagas/:id',
-    create: '/sagas',
-    update: '/sagas/:id',
-    delete: '/sagas/:id'
-});
-
-SagaResource.popular = function (page) {
-    let url = this.buildUrl('/sagas');
-
-    return this.client.get(url, {
-        page: page,
-        // todo sort by likes
+export default (axios) => {
+    let SagaResource = Resource.build(axios, {
+        all: '/sagas',
+        get: '/sagas/:id',
+        create: '/sagas',
+        update: '/sagas/:id',
+        delete: '/sagas/:id'
     });
+
+    SagaResource.popular = function (page) {
+        let url = Resource.buildUrl('/sagas');
+
+        return axios.get(url, {
+            page: page,
+            // todo sort by likes
+        });
+    };
+
+    SagaResource.recent = function (page) {
+        let url = Resource.buildUrl('/sagas');
+
+        return axios.get(url, {
+            page: page,
+            sort: '+last_published_at',
+        });
+    };
+
+    SagaResource.discover = function (page) {
+        let url = Resource.buildUrl('/sagas');
+
+        return axios.get(url, {
+            page: page,
+            sort: '+name',
+        });
+    };
+
+    return SagaResource;
 };
-
-SagaResource.recent = function (page) {
-    let url = this.buildUrl('/sagas');
-
-    return this.client.get(url, {
-        page: page,
-        sort: '+last_published_at',
-    });
-};
-
-SagaResource.discover = function (page) {
-    let url = this.buildUrl('/sagas');
-
-    return this.client.get(url, {
-        page: page,
-        sort: '+name',
-    });
-};
-
-export default SagaResource;

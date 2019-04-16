@@ -1,18 +1,20 @@
 import Resource from './Resource';
 
-let TrackResource = Resource.build({
-    get: '/tracks/:id',
-    create: '/collections/:id/tracks',
-    update: '/tracks/:id',
-    delete: '/tracks/:id'
-});
-
-TrackResource.all = function (collectionId, params) {
-    let url = this.buildUrl('/collections/:collectionId/tracks', {
-        collectionId: collectionId
+export default (axios) => {
+    let TrackResource = Resource.build(axios, {
+        get: '/tracks/:id',
+        create: '/collections/:id/tracks',
+        update: '/tracks/:id',
+        delete: '/tracks/:id'
     });
 
-    return this.client.get(url, params);
-};
+    TrackResource.all = function (collectionId, params) {
+        let url = Resource.buildUrl('/collections/:collectionId/tracks', {
+            collectionId: collectionId
+        });
 
-export default TrackResource;
+        return axios.get(url, params);
+    };
+
+    return TrackResource;
+};

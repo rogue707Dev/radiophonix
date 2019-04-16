@@ -1,7 +1,9 @@
 import Resource from './Resource';
 
-let ProfileResource = Resource.build({
-    get: '/profile/:id',
-});
+export default (axios) => {
+    let ProfileResource = Resource.build(axios, {
+        get: '/profile/:id',
+    });
 
-export default ProfileResource;
+    return ProfileResource;
+};
