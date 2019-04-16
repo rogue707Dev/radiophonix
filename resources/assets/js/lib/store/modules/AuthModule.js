@@ -7,7 +7,9 @@ const state = {
 
 const getters = {
     isAuthenticated(state) {
-        return state.token !== null && (state.token + '').length > 0;
+        return state.token !== undefined
+            && state.token !== null
+            && (state.token + '').length > 0;
     },
 };
 
