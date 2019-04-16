@@ -7,6 +7,10 @@ const state = {
 
 const getters = {
     isLiked: (state) => (type, id) => {
+        if (!state.likes) {
+            return false;
+        }
+
         if (!state.likes[type]) {
             return false;
         }
