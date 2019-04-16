@@ -161,6 +161,8 @@ build:dev:
     image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine-lts
     only:
         - dev
+    except:
+        - schedules
     script:
         - node --version
         - yarn --pure-lockfile --cache-folder .yarn
@@ -183,6 +185,8 @@ deploy:dev:
     image: edbizarro/gitlab-ci-pipeline-php:7.2
     only:
         - dev
+    except:
+        - schedules
     environment:
         name: dev
         url: https://dev.radiophonix.org
