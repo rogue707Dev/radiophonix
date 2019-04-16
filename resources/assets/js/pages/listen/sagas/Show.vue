@@ -254,7 +254,9 @@
 
     data: () => ({
         saga: {
-            stats: {},
+            stats: {
+                likes: 0,
+            },
             links: {},
             authors: [
                 {
