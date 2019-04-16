@@ -1,6 +1,7 @@
 <?php
 
 use Radiophonix\Http\Controllers\Api\V1\Auth\LoginUser;
+use Radiophonix\Http\Controllers\Api\V1\Auth\RefreshToken;
 use Radiophonix\Http\Controllers\Api\V1\Auth\RegisterUser;
 use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthors;
 use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthorSagas;
@@ -54,6 +55,7 @@ Route::get('/profile/{user}', ShowProfile::class);
 
 Route::post('/auth/register', RegisterUser::class);
 Route::post('/auth/login', LoginUser::class)->name('login');
+Route::get('/auth/refresh', RefreshToken::class);
 
 ///*
 Route::group(['middleware' => ['jwt.auth']], function () {
