@@ -99,6 +99,7 @@ return [
         ],
         'username' => [
             'unique' => 'Ce nom d\'utilisateur est déjà utilisé',
+            'alpha_dash' => 'Le nom d\'utilisateur ne peut contenir que des lettres, chiffres, tirets et underscores',
         ],
     ],
 
