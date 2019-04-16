@@ -6,7 +6,7 @@
 
 <script>
     import { mapState, mapGetters } from 'vuex';
-    import api from '~/lib/api';
+    import api from "~/lib/api/site";
     import ticks from '~/lib/services/storage/ticks';
     import storage from '~/lib/services/storage';
 
