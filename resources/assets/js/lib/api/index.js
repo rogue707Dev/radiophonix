@@ -6,7 +6,12 @@ let api = factory();
 api.config.onResponse((response) => {
     return response;
 }, (error) => {
-    router.push({ name: 'login' });
+    if (error.config
+        && error.response
+        && error.response.status === 401
+    ) {
+        router.push({ name: 'login' });
+    }
 
     return Promise.reject(error);
 });
