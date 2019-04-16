@@ -1,3 +1,19 @@
+# Exemple de configuration
+#
+# foo:
+#   dependencies:
+#   stage:
+#   image:
+#   allow_failure:
+#   when:
+#   only:
+#   except:
+#   environment:
+#   variables:
+#   before_script:
+#   script:
+#   artifacts:
+
 stages:
     - test
     - build
@@ -14,6 +30,8 @@ cache:
 test:unit:
     stage: test
     image: edbizarro/gitlab-ci-pipeline-php:7.2
+    except:
+        - schedules
     script:
         - cp .env.testing .env
         - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-suggest
@@ -26,25 +44,29 @@ test:composer-outdated:
     stage: test
     image: edbizarro/gitlab-ci-pipeline-php:7.2
     allow_failure: true
+    only:
+        - schedules
     script:
-    - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-suggest
-    - composer show -mlDo --strict
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-suggest
+        - composer show -mlDo --strict
 
 pages:
     stage: build
     image: cfinfrastructure/mkdocs
     allow_failure: true
+    only:
+        #        changes:
+        #            - mkdocs.yml
+        #            - docs/**/*
+        refs:
+            - dev
+    except:
+        - schedules
     script:
         - mkdocs build --site-dir ./public
     artifacts:
         paths:
             - public
-    only:
-#        changes:
-#            - mkdocs.yml
-#            - docs/**/*
-        refs:
-            - dev
 
 build:review:
     stage: build
@@ -109,12 +131,12 @@ deploy:review:
 
 stop:review:
     stage: deploy
+    when: manual
     only:
         - branches
     except:
         - master
         - dev
-    when: manual
     environment:
         name: review/$CI_COMMIT_REF_NAME
         action: stop
@@ -204,9 +226,9 @@ build:staging:
         expire_in: 1 week
 
 deploy:staging:
-    stage: deploy
     dependencies:
         - build:staging
+    stage: deploy
     image: edbizarro/gitlab-ci-pipeline-php:7.2
     only:
         - master
@@ -252,13 +274,13 @@ build:production:
         expire_in: 1 week
 
 deploy_production:
-    stage: production
     dependencies:
         - build:production
+    stage: production
     image: edbizarro/gitlab-ci-pipeline-php:7.2
+    when: manual
     only:
         - master
-    when: manual
     environment:
         name: production
         url: https://radiophonix.org
