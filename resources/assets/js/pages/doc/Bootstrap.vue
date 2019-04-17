@@ -335,23 +335,6 @@
 
 
 
-
-
-            <h1 class="display-3">Skin icon</h1>
-            <h2 class="h1">Creative Commons</h2>
-            <a href="#" class="skin-icon-cc">
-                <i class="cc cc-BY"></i>
-                <i class="cc cc-by-nc"></i>
-                <i class="cc cc-by-nc-nd"></i>
-                <i class="cc cc-by-nc-sa"></i>
-            </a>
-            <hr class="my-5">
-
-
-
-
-
-
             <h1 class="display-3">Nav</h1>
             Peut etre aussi réalisé en ul li voir source
             <nav class="nav mb-4">
