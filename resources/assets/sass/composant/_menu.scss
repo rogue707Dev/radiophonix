@@ -10,6 +10,7 @@ $actif: $blanc;
 $actif-fond: $bleu-400;
 
 $survol: $blanc;
+$survol-bande: linear-gradient(to bottom, $bleu-200 0%, $bleu-100 100%);
 
 $nouveau: $orange-250;
 
@@ -119,7 +120,7 @@ $ LIEN HOVER
         color: $survol;
 
         @include menu__bande {
-            background: linear-gradient(to bottom, $bleu-200 0%, $bleu-100 100%);
+            background: $survol-bande;
         }
 
         svg {
@@ -185,9 +186,18 @@ $ LOGOUT
 $ AFFICHAGE DU SOUS MENU
 -----------------------------------------------------------------------------*/
 @include media-breakpoint-up(lg) {
+
+    .menu__item.var--logout:hover {
+        @include menu__bande {
+            background: $bleu-400;
+            z-index: 1;
+        }
+    }
+
     .menu__item.var--logout:hover .menu__nivo2{
         display: grid;
     }
+
 }
 
 /*-----------------------------------------------------------------------------
