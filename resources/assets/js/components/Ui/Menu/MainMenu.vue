@@ -20,14 +20,14 @@
                 </div>
             </div>
         </li>
-        <!--Afficher si non déconnecter-->
-        <main-menu-item name="login" route="login" class="menu__item var--sans-icon" v-feature="'login'"
-                        v-else>
-            Connexion
-        </main-menu-item>
-        <main-menu-item name="register" route="register" class="menu__item var--sans-icon" v-feature="'login'">
-            Inscription
-        </main-menu-item>
+        <template v-else>
+            <main-menu-item name="login" route="login" class="menu__item var--sans-icon" v-feature="'login'">
+                Connexion
+            </main-menu-item>
+            <main-menu-item name="register" route="register" class="menu__item var--sans-icon" v-feature="'login'">
+                Inscription
+            </main-menu-item>
+        </template>
         <main-menu-item name="home" route="home" icon="maison" class="menu__item">
             Accueil
         </main-menu-item>
