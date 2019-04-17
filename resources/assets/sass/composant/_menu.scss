@@ -194,6 +194,12 @@ $ AFFICHAGE DU SOUS MENU
         }
     }
 
+    .menu__item.var--logout.actif:hover {
+        @include menu__bande {
+            @include degrade-vertical--orange--fonce-moyen;
+        }
+    }
+
     .menu__item.var--logout:hover .menu__nivo2{
         display: grid;
     }
