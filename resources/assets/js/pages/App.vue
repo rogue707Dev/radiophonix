@@ -1,11 +1,33 @@
 <template>
     <div v-page-title="pageTitle">
+        <b-modal ref="modal-must-register" :hide-header="true" footer-class="modal-must-register-footer">
+            <h2 class="text-center display-4 mb-4 mt-4">S'inscrire sur Radiophonix</h2>
+            <div class="text-center mb-3">
+                <p class="mb-4">
+                    {{ mustRegisterModalText }}
+                </p>
+
+                <router-link :to="{ name: 'register' }" class="btn btn-primary">
+                    Inscription
+                </router-link>
+            </div>
+
+            <template slot="modal-footer">
+                <div>
+                    Vous avez déjà un compte ?
+                    <router-link :to="{ name: 'login' }" class="lien-paragraphe">
+                        Connexion
+                    </router-link>
+                </div>
+            </template>
+        </b-modal>
+
         <router-view></router-view>
     </div>
 </template>
 
 <script>
-    import { mapState, mapGetters } from 'vuex';
+    import {mapGetters, mapState} from 'vuex';
     import api from "~/lib/api/site";
     import ticks from '~/lib/services/storage/ticks';
     import storage from '~/lib/services/storage';
@@ -14,6 +36,7 @@
         computed: {
             ...mapState('ui', [
                 'pageTitle',
+                'mustRegisterModalText',
             ]),
 
             ...mapGetters('auth', [
@@ -27,6 +50,16 @@
             if (this.isAuthenticated) {
                 this.loadLikes();
             }
+        },
+
+        mounted() {
+            this.$store.subscribe((mutation, state) => {
+                if (mutation.type === 'ui/setMustRegisterModal'
+                    && mutation.payload === true
+                ) {
+                    this.$refs['modal-must-register'].show();
+                }
+            });
         },
 
         methods: {

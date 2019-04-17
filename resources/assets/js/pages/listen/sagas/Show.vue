@@ -30,11 +30,10 @@
             <ul class="banniere__contenu__bande">
                 <li class="banniere__contenu__bande__item">
                     {{ saga.stats.likes }}
-                    <button aria-hidden="true"
-                            class="fa fa-heart"
-                            :class="likeButtonClass"
-                            :disabled="likeButtonLoading"
-                            @click="toggleLike"></button>
+                    <like-button likeable-type="saga"
+                                 :likeable-id="saga.id"
+                                 @liked="saga.stats.likes++"
+                                 @unliked="saga.stats.likes--"/>
                 </li>
                 <template v-if="saga.stats.collections == 1">
                     <li class="banniere__contenu__bande__item">
@@ -58,8 +57,7 @@
                 </li>
                 <li class="banniere__contenu__bande__item"
                     v-b-tooltip.hover.top title="Genre">
-                    <router-link tag="a"
-                                 class="text-primary"
+                    <router-link class="text-primary"
                                  v-if="genre"
                                  :to="{ name: 'listen.genres.show', params: { id: genre.slug } }">
                         {{ genre.name }}
@@ -238,6 +236,7 @@
     import NavItem from '~/components/Ui/Nav/NavItem';
     import Cover from '~/components/content/Cover.vue';
     import FaIcon from '~/components/Ui/Icon/FaIcon.vue';
+    import LikeButton from '~/components/Like/LikeButton.vue';
 
     export default {
     components: {
@@ -250,10 +249,12 @@
         NavItem,
         Cover,
         FaIcon,
+        LikeButton,
     },
 
     data: () => ({
         saga: {
+            id: 0,
             stats: {
                 likes: 0,
             },
@@ -406,34 +407,6 @@
             }
 
             return false;
-        },
-
-        async toggleLike() {
-            this.likeButtonLoading = true;
-
-            if (this.isLiked('saga', this.saga.id)) {
-                await this.$store.dispatch(
-                    'likes/remove',
-                    {
-                        type: 'saga',
-                        id: this.saga.id,
-                    }
-                );
-
-                this.saga.stats.likes--;
-            } else {
-                await this.$store.dispatch(
-                    'likes/add',
-                    {
-                        type: 'saga',
-                        id: this.saga.id,
-                    }
-                );
-
-                this.saga.stats.likes++;
-            }
-
-            this.likeButtonLoading = false;
         },
     },
 
