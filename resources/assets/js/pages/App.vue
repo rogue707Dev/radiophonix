@@ -110,6 +110,21 @@
 
                 this.$store.dispatch('likes/setAll', res.data);
             },
-        }
+
+            closeMustRegisterModal() {
+                // On ferme la modal avec un petit délai pour qu'elle se
+                // ferme une fois sur la page de connexion ou inscription.
+                setTimeout(
+                    () => {
+                        this.$refs['modal-must-register'].hide();
+                    },
+                    130
+                );
+            }
+        },
+
+        watch: {
+            '$route': 'closeMustRegisterModal'
+        },
     }
 </script>
