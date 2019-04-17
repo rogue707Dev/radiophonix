@@ -8,10 +8,8 @@ $normal-fond: $bleu-400;
 
 $actif: $blanc;
 $actif-fond: $bleu-400;
-$actif-bordure: $orange-250;
 
 $survol: $blanc;
-$survol-bordure: $bleu-200;
 
 $nouveau: $orange-250;
 
@@ -84,6 +82,11 @@ $ LIEN NORMAL
 
 }
 
+.menu__item.var--sans-icon {
+    @include media-breakpoint-up(lg) {
+        min-height: 50px;
+    }
+}
 
 /*-----------------------------------------------------------------------------
 $ LIEN ACTIF
@@ -94,7 +97,7 @@ $ LIEN ACTIF
 
 
     @include menu__bande {
-        background-color: $actif-bordure;
+        @include degrade-vertical--orange--fonce-moyen;
     }
     &:before{
         box-shadow: none;
@@ -116,7 +119,7 @@ $ LIEN HOVER
         color: $survol;
 
         @include menu__bande {
-            background-color: $survol-bordure;
+            background: linear-gradient(to bottom, $bleu-200 0%, $bleu-100 100%);
         }
 
         svg {

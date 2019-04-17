@@ -2,7 +2,16 @@
 $ SURCHARGE
 ======================================================================================================================*/
 .btn-primary {
-    background-color: $orange-250;
+    @include degrade-vertical--orange--fonce-moyen;
     border-color: $orange-250;
-    color: $bleu-500;
+    color: $black;
+    font-weight: 600;
+    font-size: px2rem(14);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: linear-gradient(to bottom, $orange-250 0%, $orange-250 100%);
+    border-color: $orange-300;
+    color: $black;
 }
