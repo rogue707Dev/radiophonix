@@ -1,6 +1,6 @@
 <template>
     <router-link :to="to" tag="li" :class="clazz">
-        <menu-icon :name="icon" width="30" height="30"></menu-icon>
+        <menu-icon v-if="icon" :name="icon" width="30" height="30"></menu-icon>
         <slot></slot>
     </router-link>
 </template>

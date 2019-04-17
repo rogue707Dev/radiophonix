@@ -22,12 +22,11 @@
             </div>
         </li>
         <!--Afficher si non déconnecter-->
-        <main-menu-item name="login"
-                        route="login"
-                        icon="login"
-                        class="menu__item"
-                        v-feature="'login'">
+        <main-menu-item name="login" route="login" class="menu__item var--sans-icon" v-feature="'login'">
             Connexion
+        </main-menu-item>
+        <main-menu-item name="" route="" class="menu__item var--sans-icon">
+            Inscription
         </main-menu-item>
         <main-menu-item name="home" route="home" icon="maison" class="menu__item">
             Accueil
