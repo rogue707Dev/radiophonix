@@ -25,7 +25,7 @@
         <main-menu-item name="login" route="login" class="menu__item var--sans-icon" v-feature="'login'">
             Connexion
         </main-menu-item>
-        <main-menu-item name="" route="" class="menu__item var--sans-icon">
+        <main-menu-item name="register" route="register" class="menu__item var--sans-icon" v-feature="'login'">
             Inscription
         </main-menu-item>
         <main-menu-item name="home" route="home" icon="maison" class="menu__item">
