@@ -49,6 +49,7 @@ return [
 
     'discord' => [
         'token' => env('DISCORD_API_TOKEN'),
+        'channel' => env('DISCORD_BACKUP_CHANNEL_ID'),
     ],
 
 ];

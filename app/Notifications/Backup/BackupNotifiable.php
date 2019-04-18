@@ -8,6 +8,6 @@ class BackupNotifiable extends Notifiable
 {
     public function routeNotificationForDiscord()
     {
-        return env('DISCORD_BACKUP_CHANNEL_ID');
+        return config('services.discord.channel');
     }
 }
