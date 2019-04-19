@@ -1,6 +1,8 @@
 <template>
     <div v-page-title="pageTitle">
         <b-modal ref="modal-must-register" :hide-header="true" footer-class="modal-must-register-footer">
+            <b-button-close @click="closeMustRegisterModal"></b-button-close>
+
             <h2 class="text-center display-4 mb-4 mt-4">S'inscrire sur Radiophonix</h2>
             <div class="text-center mb-3">
                 <p class="mb-4">
@@ -53,7 +55,7 @@
         },
 
         mounted() {
-            this.$store.subscribe((mutation, state) => {
+            this.$store.subscribe((mutation) => {
                 if (mutation.type === 'ui/setMustRegisterModal'
                     && mutation.payload === true
                 ) {
