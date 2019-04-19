@@ -7,11 +7,14 @@ import NotFoundView from '~/pages/errors/404.vue';
 // Root level pages
 import HomeView from '~/pages/Home.vue';
 import LoginView from '~/pages/Login.vue';
-import ContributeView from '~/pages/Contribute.vue';
 import HelpView from '~/pages/Help.vue';
 import SearchView from '~/pages/Search.vue';
 import NewsView from '~/pages/News.vue';
-import RoadmapView from '~/pages/Roadmap.vue';
+
+// Contribute pages
+import ContributeLayoutView from '~/pages/Contribute/Layout.vue';
+import ContributeView from '~/pages/Contribute/Contribute.vue';
+import RoadmapView from '~/pages/Contribute/Roadmap.vue';
 
 // Listen pages
 import ListenLayout from '~/pages/listen/Layout.vue';
@@ -166,28 +169,35 @@ const routes = [
                 meta: { menu: 'login' }
             },
             {
-                path: 'contribuer',
-                component: ContributeView,
-                name: 'contribute',
-                meta: { menu: 'contribute' }
-            },
-            {
                 path: 'aide',
                 component: HelpView,
                 name: 'help',
                 meta: { menu: 'help' }
             },
             {
+                path: '',
+                component: ContributeLayoutView,
+                name: 'contribute-index',
+                children: [
+                    {
+                        path: 'contribuer',
+                        component: ContributeView,
+                        name: 'contribute',
+                        meta: { menu: 'contribute' }
+                    },
+                    {
+                        path: 'roadmap',
+                        component: RoadmapView,
+                        name: 'roadmap',
+                        meta: { menu: 'contribute' }
+                    },
+                ]
+            },
+            {
                 path: 'nouveautes',
                 component: NewsView,
                 name: 'news',
                 meta: { menu: 'news' }
-            },
-            {
-                path: 'roadmap',
-                component: RoadmapView,
-                name: 'roadmap',
-                meta: { menu: 'roadmap' }
             },
             {
                 path: 'recherche',
