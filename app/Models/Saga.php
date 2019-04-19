@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Laravel\Scout\Searchable;
+use Radiophonix\Events\Like\UserLikedSaga;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasCountCache;
 use Radiophonix\Models\Support\HasFakeId;
@@ -278,5 +279,17 @@ class Saga extends Model implements HasMedia
         return $this->cacheCount('likes', function () {
             return $this->likes->count();
         });
+    }
+
+    public function addLikeFrom(User $user): void
+    {
+        $like = new Like;
+
+        $like->likeable()->associate($this);
+        $like->user()->associate($user);
+
+        $like->save();
+
+        event(new UserLikedSaga($user, $this));
     }
 }

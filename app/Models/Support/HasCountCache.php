@@ -37,4 +37,9 @@ trait HasCountCache
             $id
         );
     }
+
+    public function clearCountCache(string $key): void
+    {
+        Cache::forget($this->cacheKey($key));
+    }
 }

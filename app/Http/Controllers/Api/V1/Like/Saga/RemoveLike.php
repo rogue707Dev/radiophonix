@@ -2,6 +2,7 @@
 
 namespace Radiophonix\Http\Controllers\Api\V1\Like\Saga;
 
+use Radiophonix\Events\Like\UserUnlikedSaga;
 use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
 use Radiophonix\Http\Transformers\LikesTransformer;
@@ -24,6 +25,8 @@ class RemoveLike extends ApiController
 
         if ($like != null) {
             $like->delete();
+
+            event(new UserUnlikedSaga($this->user(), $saga));
         }
 
         return $this->item(

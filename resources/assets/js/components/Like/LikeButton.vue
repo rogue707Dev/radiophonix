@@ -1,15 +1,21 @@
 <template>
     <button aria-hidden="true"
-            class="fa fa-heart"
-            :class="buttonClass"
+            class="fa"
             :disabled="isLoading"
-            @click="toggleLike"></button>
+            @click="toggleLike">
+        <fa-icon :icon="buttonClass" label="Bouton j'aime" />
+    </button>
 </template>
 
 <script>
     import { mapGetters } from 'vuex';
+    import FaIcon from "~/components/Ui/Icon/FaIcon";
 
     export default {
+        components: {
+            FaIcon,
+        },
+
         props: {
             likeableId: {
                 type: Number,
@@ -40,8 +46,10 @@
                 }
 
                 if (this.isLiked(this.likeableType, this.likeableId)) {
-                    return 'var--actif';
+                    return 'fa-heart var--actif';
                 }
+
+                return 'fa-heart';
             },
         },
 

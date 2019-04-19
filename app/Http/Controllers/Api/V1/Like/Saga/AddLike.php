@@ -27,12 +27,7 @@ class AddLike extends ApiController
             return $this->likes();
         }
 
-        $like = new Like;
-
-        $like->likeable()->associate($saga);
-        $like->user()->associate($this->user());
-
-        $like->save();
+        $saga->addLikeFrom($this->user());
 
         return $this->likes();
     }

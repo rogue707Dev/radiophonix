@@ -31,9 +31,7 @@
                 <li class="banniere__contenu__bande__item">
                     {{ saga.stats.likes }}
                     <like-button likeable-type="saga"
-                                 :likeable-id="saga.id"
-                                 @liked="saga.stats.likes++"
-                                 @unliked="saga.stats.likes--"/>
+                                 :likeable-id="saga.id"/>
                 </li>
                 <template v-if="saga.stats.collections == 1">
                     <li class="banniere__contenu__bande__item">
@@ -412,6 +410,19 @@
 
     created: function () {
         this.fetchData();
+    },
+
+    mounted() {
+        this.$store.subscribe((mutation) => {
+            if ((mutation.type === 'likes/add' || mutation.type === 'likes/remove')
+                && mutation.payload.type === 'saga'
+                && mutation.payload.id === this.saga.id
+            ) {
+                mutation.type === 'likes/add'
+                    ? this.saga.stats.likes++
+                    : this.saga.stats.likes--;
+            }
+        });
     },
 
     watch: {
