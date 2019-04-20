@@ -116,7 +116,7 @@ $ LIEN HOVER
 -----------------------------------------------------------------------------*/
 .menu__item {
 
-    @include survol(".actif", ".var--logout"){
+    @include survol(".actif"){
         color: $survol;
 
         @include menu__bande {
@@ -159,48 +159,50 @@ $ LIEN AVEC POINT de nouveauté
 }
 
 /*======================================================================================================================
-$ ITEM LOGIN/LOGOUT
+$ ITEM PROFIL
 ======================================================================================================================*/
 
 /*-----------------------------------------------------------------------------
-$ LOGOUT
+$ AVATAR
 -----------------------------------------------------------------------------*/
-.menu__item.var--logout {
+.menu__item.var--profil {
     align-items: flex-end;
-
-    .cover.var--petit{
-        width: $largeur-menu;
-        height: $largeur-menu;
-    }
 }
-.menu__item__avatar {
+
+.menu__item.var--profil .cover.var--petit{
     width: $largeur-menu;
-
-    @include media-breakpoint-down(md) {
-        display: none;
-    }
+    height: ($largeur-menu - $largeur-bande-menu);
 }
 
+.menu__item.var--profil .cover.var--petit:before {
+    width: 66px;
+    height: 66px;
+    border-color: $normal;
+}
+
+/*----- HOVER -----*/
+.menu__item.var--profil:hover .cover.var--auteur:before{
+    border-color: $survol;
+}
+
+/*----- ACTIF -----*/
+.menu__item.var--profil.actif .cover.var--petit:before{
+    border-color: $actif;
+}
+
+/*----- ACTIF & HOVER -----*/
+.menu__item.var--profil.actif:hover {
+    @include menu__bande {
+        @include degrade-vertical--orange--fonce-moyen;
+    }
+}
 
 /*-----------------------------------------------------------------------------
-$ AFFICHAGE DU SOUS MENU
+$ AFFICHAGE SOUS MENU
 -----------------------------------------------------------------------------*/
 @include media-breakpoint-up(lg) {
 
-    .menu__item.var--logout:hover {
-        @include menu__bande {
-            background: $bleu-400;
-            z-index: 1;
-        }
-    }
-
-    .menu__item.var--logout.actif:hover {
-        @include menu__bande {
-            @include degrade-vertical--orange--fonce-moyen;
-        }
-    }
-
-    .menu__item.var--logout:hover .menu__nivo2{
+    .menu__item.var--profil:hover .menu__nivo2{
         display: grid;
     }
 
@@ -210,6 +212,13 @@ $ AFFICHAGE DU SOUS MENU
 $ SOUS MENU
 -----------------------------------------------------------------------------*/
 .menu__nivo2 {
+    padding: $espacement-standard--petit;
+    display: none;
+    align-items: center;
+    min-height: $largeur-menu;
+    font-size: px2rem(14);
+    text-transform: capitalize;
+    color: $normal;
 
     @include media-breakpoint-down(md) {
         display: grid;
@@ -220,42 +229,25 @@ $ SOUS MENU
         display: none;
         position: fixed;
         top:0;
-        left: 0;
+        left: $largeur-menu;
         background-color: $fond-large;
     }
-
-
-    min-height: $largeur-menu;
-    grid-template-columns: $largeur-menu 150px;
+}
+.menu__nivo2 .menu__nivo2__deconnexion {
+    background-color: transparent;
+    border: 0;
+    color: $normal;
+    padding: 0;
 }
 
-.menu__nivo2__img {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
-    img {
-        width: 60px;
-    }
-
-    .cover.var--auteur:before {
-        border-color: $survol;
-    }
-
-    &:hover + .menu__nivo2__lien .menu__nivo2__lien__profil {
-        color: $survol;
-    }
+/*----- HOVER -----*/
+.menu__nivo2 .menu__nivo2__profil:hover,
+.menu__nivo2 .menu__nivo2__deconnexion:hover,
+.menu__item--profil__avatar:hover + .menu__nivo2 .menu__nivo2__profil{
+    color: $survol;
 }
 
-.menu__nivo2__lien {
-    padding: $espacement-standard--petit;
-    display: grid;
-    align-items: center;
-    font-size: px2rem(14);
-    text-transform: capitalize;
-
-    a:hover{
-        color: $survol;
-    }
+/*----- ACTIF -----*/
+.menu__item.var--profil.actif .menu__nivo2{
+    background-color: $actif-fond;
 }

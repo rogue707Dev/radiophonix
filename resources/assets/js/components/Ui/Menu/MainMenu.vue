@@ -1,26 +1,23 @@
 <template>
     <ul class="menu">
-        <li class="menu__item var--logout"
+        <li class="menu__item var--profil"
             :class="{actif: $route.meta.menu === 'profile'}"
             v-feature="'login'"
             v-if="isAuthenticated && user">
-            <img class="menu__item__avatar" alt="Avatar" :src="user.avatar" />
-            <div class="menu__nivo2">
-                <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__img">
-                    <div class="cover var--petit var--auteur">
-                        <div class="cover__mask">
-                            <img alt="Avatar" :src="user.avatar" />
-                        </div>
+            <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__item--profil__avatar">
+                <div class="cover var--petit var--auteur">
+                    <div class="cover__mask">
+                        <img alt="Avatar" :src="user.avatar" />
                     </div>
-                </router-link>
-                <div class="menu__nivo2__lien">
-                    <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__lien__profil">
-                        <i aria-hidden="true" class="fa fa-user"></i> Profil
-                    </router-link>
-                    <a @click="logout">
-                        <i aria-hidden="true" class="fa fa-lock"></i> Déconnexion
-                    </a>
                 </div>
+            </router-link>
+            <div class="menu__nivo2">
+                <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__profil">
+                    <i aria-hidden="true" class="fa fa-user"></i> Profil
+                </router-link>
+                <button @click="logout" class="menu__nivo2__deconnexion">
+                    <i aria-hidden="true" class="fa fa-lock"></i> Déconnexion
+                </button>
             </div>
         </li>
         <template v-else>
