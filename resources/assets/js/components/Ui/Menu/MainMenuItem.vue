@@ -16,15 +16,15 @@
         props: {
             route: {
                 type: String,
-                required: true
+                required: true,
             },
             name: {
                 type: String,
-                required: true
+                required: true,
             },
             icon: {
                 type: String,
-                required: true
+                required: false,
             },
         },
 

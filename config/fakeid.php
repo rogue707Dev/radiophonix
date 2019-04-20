@@ -59,6 +59,12 @@ return [
             'xor' => env('FAKEID_MEDIA_XOR', 1158087893),
         ],
 
+        'likes' => [
+            'prime' => env('FAKEID_LIKE_PRIME', 152740249),
+            'inverse' => env('FAKEID_LIKE_INVERSE', 381493929),
+            'xor' => env('FAKEID_LIKE_XOR', 1158087893),
+        ],
+
     ],
 
 ];

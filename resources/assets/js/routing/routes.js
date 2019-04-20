@@ -6,7 +6,6 @@ import NotFoundView from '~/pages/errors/404.vue';
 
 // Root level pages
 import HomeView from '~/pages/Home.vue';
-import LoginView from '~/pages/Login.vue';
 import HelpView from '~/pages/Help.vue';
 import SearchView from '~/pages/Search.vue';
 import NewsView from '~/pages/News.vue';
@@ -24,6 +23,13 @@ import ListenAuthorIndexView from '~/pages/listen/authors/Index.vue';
 import ListenAuthorShowView from '~/pages/listen/authors/Show.vue';
 import ListenTeamShowView from '~/pages/listen/teams/Show.vue';
 import ListenGenreShowView from '~/pages/listen/genres/Show.vue';
+
+// Auth pages
+import AuthLayoutView from '~/pages/auth/Layout.vue';
+import LoginView from '~/pages/auth/Login.vue';
+import RegisterView from '~/pages/auth/Register.vue';
+
+import UserProfile from '~/pages/user/Profile.vue';
 
 // Publish pages
 import PublishLayout from '~/pages/publish/Layout.vue';
@@ -163,10 +169,30 @@ const routes = [
                 ]
             },
             {
-                path: 'connexion',
-                component: LoginView,
-                name: 'login',
-                meta: { menu: 'login' }
+                path: '',
+                component: AuthLayoutView,
+                name: 'auth',
+                meta: { menu: 'auth' },
+                children: [
+                    {
+                        path: 'connexion',
+                        component: LoginView,
+                        name: 'login',
+                        meta: { menu: 'login' }
+                    },
+                    {
+                        path: 'inscription',
+                        component: RegisterView,
+                        name: 'register',
+                        meta: { menu: 'register' }
+                    },
+                ]
+            },
+            {
+                path: 'profil/:user',
+                component: UserProfile,
+                name: 'profile',
+                meta: { menu: 'contribute' }
             },
             {
                 path: 'aide',
@@ -273,7 +299,8 @@ const routes = [
     },
     {
         path: '*',
-        component: NotFoundView
+        component: NotFoundView,
+        name: '404',
     }
 ];
 

@@ -46,7 +46,7 @@ class RouteServiceProvider extends ServiceProvider
         });
 
         Route::bind('user', function ($value) {
-            return User::fromFakeId($value);
+            return User::fromNameOrFakeId($value);
         });
 
         Route::bind('team', function ($value) {
@@ -110,7 +110,7 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapApiRoutes()
     {
         Route::prefix('api/v1')
-            ->middleware(['bindings', 'cors'])
+            ->middleware(['api', 'bindings', 'cors'])
             ->group(base_path('routes/api.php'));
     }
 

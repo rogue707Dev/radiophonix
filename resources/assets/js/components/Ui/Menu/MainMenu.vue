@@ -1,33 +1,33 @@
 <template>
     <ul class="menu">
-        <!--Afficher si connecter-->
-        <li class="menu__item var--logout" v-feature="'login'">
-            <img class="menu__item__avatar" alt="" src="/static/home/avatar-defaut.png">
+        <li class="menu__item var--logout" v-feature="'login'" v-if="isAuthenticated && user">
+            <img class="menu__item__avatar" alt="Avatar" :src="user.avatar" />
             <div class="menu__nivo2">
-                <a href="#profil" class="menu__nivo2__img">
+                <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__img">
                     <div class="cover var--petit var--auteur">
                         <div class="cover__mask">
-                            <img src="/static/home/avatar-defaut.png">
+                            <img alt="Avatar" :src="user.avatar" />
                         </div>
                     </div>
-                </a>
+                </router-link>
                 <div class="menu__nivo2__lien">
-                    <a href="#profil" class="menu__nivo2__lien__profil">
+                    <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__lien__profil">
                         <i aria-hidden="true" class="fa fa-user"></i> Profil
-                    </a>
-                    <a href="#deco">
-                        <i aria-hidden="true" class="fa fa-lock"></i> Deconnexion
+                    </router-link>
+                    <a @click="logout">
+                        <i aria-hidden="true" class="fa fa-lock"></i> Déconnexion
                     </a>
                 </div>
             </div>
         </li>
-        <!--Afficher si non déconnecter-->
-        <main-menu-item name="login" route="login" class="menu__item var--sans-icon" v-feature="'login'">
-            Connexion
-        </main-menu-item>
-        <main-menu-item name="register" route="register" class="menu__item var--sans-icon" v-feature="'login'">
-            Inscription
-        </main-menu-item>
+        <template v-else>
+            <main-menu-item name="login" route="login" class="menu__item var--sans-icon" v-feature="'login'">
+                Connexion
+            </main-menu-item>
+            <main-menu-item name="register" route="register" class="menu__item var--sans-icon" v-feature="'login'">
+                Inscription
+            </main-menu-item>
+        </template>
         <main-menu-item name="home" route="home" icon="maison" class="menu__item">
             Accueil
         </main-menu-item>
@@ -58,7 +58,7 @@
 </template>
 
 <script>
-    import { mapState } from 'vuex';
+    import { mapState, mapGetters } from 'vuex';
     import MainMenuItem from '~/components/Ui/Menu/MainMenuItem';
     import news from '~/lib/services/storage/news';
 
@@ -71,10 +71,25 @@
             ...mapState('ui', [
                 'hasUnreadNews',
             ]),
+
+            ...mapGetters('auth', [
+                'isAuthenticated',
+            ]),
+
+            ...mapState('auth', [
+                'user',
+            ]),
         },
 
         mounted() {
             news.loadLastRead();
-        }
+        },
+
+        methods: {
+            logout() {
+                this.$store.dispatch('auth/logout');
+                this.$router.push({name: 'home'});
+            },
+        },
     }
 </script>

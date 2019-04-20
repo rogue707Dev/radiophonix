@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Support\Facades\Auth;
 use Laravel\Scout\Searchable;
+use Radiophonix\Events\Like\UserLikedSaga;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasCountCache;
 use Radiophonix\Models\Support\HasFakeId;
@@ -46,6 +46,7 @@ use Spatie\Sluggable\SlugOptions;
  * @property-read \Illuminate\Database\Eloquent\Collection|Genre[] $genres
  * @property-read int $cached_tracks_count
  * @property-read int $cached_collections_count
+ * @property-read int $cached_likes_count
  * @method static Builder|Saga filterBy($filters)
  * @method static Builder|Saga paginate()
  * @method static Builder|Saga sortby($sort)
@@ -186,14 +187,9 @@ class Saga extends Model implements HasMedia
         return $this->hasMany(Collection::class);
     }
 
-    /**
-     * All the likes.
-     *
-     * @return HasMany
-     */
     public function likes()
     {
-        return $this->hasMany(Like::class);
+        return $this->morphMany(Like::class, 'likeable');
     }
 
     /**
@@ -273,5 +269,27 @@ class Saga extends Model implements HasMedia
                 })
                 ->sum();
         });
+    }
+
+    /**
+     * @return int
+     */
+    public function getCachedLikesCountAttribute(): int
+    {
+        return $this->cacheCount('likes', function () {
+            return $this->likes->count();
+        });
+    }
+
+    public function addLikeFrom(User $user): void
+    {
+        $like = new Like;
+
+        $like->likeable()->associate($this);
+        $like->user()->associate($user);
+
+        $like->save();
+
+        event(new UserLikedSaga($user, $this));
     }
 }

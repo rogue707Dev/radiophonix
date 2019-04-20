@@ -57,7 +57,7 @@ class Kernel extends HttpKernel
 
         'api' => [
             Acceptable::class,
-//            'throttle:60,1',
+            'throttle:60,1',
         ],
     ];
 
@@ -76,7 +76,5 @@ class Kernel extends HttpKernel
         'guest' => RedirectIfAuthenticated::class,
         'throttle' => ThrottleRequests::class,
         'cors' => HandleCors::class,
-        'jwt.auth' => \Tymon\JWTAuth\Http\Middleware\Authenticate::class,
-//        'jwt.refresh' => RefreshToken::class,
     ];
 }

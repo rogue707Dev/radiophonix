@@ -37,6 +37,8 @@ const UiModule = {
         playlistClasses: {},
         pageTitle: 'Radiophonix BETA',
         hasUnreadNews: true,
+        mustRegisterModalOpen: false,
+        mustRegisterModalText: '',
     },
 
     mutations: {
@@ -57,6 +59,9 @@ const UiModule = {
         setPageTitle: (state, title) => state.pageTitle = title,
 
         setHasUnreadNews: (state, read) => state.hasUnreadNews = read,
+
+        setMustRegisterModal: (state, isOpen) => state.mustRegisterModalOpen = isOpen,
+        setMustRegisterModalText: (state, text) => state.mustRegisterModalText = text,
     },
 
     actions: {
@@ -110,9 +115,16 @@ const UiModule = {
         masNewsAsRead: ({commit}) => {
             commit('setHasUnreadNews', false);
         },
-
         masNewsAsUnread: ({commit}) => {
             commit('setHasUnreadNews', true);
+        },
+
+        openMustRegisterModal: ({commit}, text) => {
+            commit('setMustRegisterModal', true);
+            commit('setMustRegisterModalText', text);
+        },
+        closeMustRegisterModal: ({commit}) => {
+            commit('setMustRegisterModal', false);
         },
     }
 };

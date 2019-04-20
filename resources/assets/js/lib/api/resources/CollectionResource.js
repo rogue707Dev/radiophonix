@@ -1,18 +1,20 @@
 import Resource from './Resource';
 
-let CollectionResource = Resource.build({
-    get: '/collections/:id',
-    create: '/sagas/:id/collections',
-    update: '/collections/:id',
-    delete: '/collections/:id'
-});
-
-CollectionResource.all = function (sagaId, params) {
-    let url = this.buildUrl('/sagas/:sagaId/collections', {
-        sagaId: sagaId
+export default (axios) => {
+    let CollectionResource = Resource.build(axios, {
+        get: '/collections/:id',
+        create: '/sagas/:id/collections',
+        update: '/collections/:id',
+        delete: '/collections/:id',
     });
 
-    return this.client.get(url, params);
-};
+    CollectionResource.all = (sagaId, params) => {
+        let url = Resource.buildUrl('/sagas/:sagaId/collections', {
+            sagaId: sagaId
+        });
 
-export default CollectionResource;
+        return axios.get(url, params);
+    };
+
+    return CollectionResource;
+};

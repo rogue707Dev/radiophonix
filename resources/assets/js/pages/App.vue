@@ -1,12 +1,36 @@
 <template>
     <div v-page-title="pageTitle">
+        <b-modal ref="modal-must-register" :hide-header="true" footer-class="modal-must-register-footer">
+            <b-button-close @click="closeMustRegisterModal"></b-button-close>
+
+            <h2 class="text-center display-4 mb-4 mt-4">S'inscrire sur Radiophonix</h2>
+            <div class="text-center mb-3">
+                <p class="mb-4">
+                    {{ mustRegisterModalText }}
+                </p>
+
+                <router-link :to="{ name: 'register' }" class="btn btn-primary">
+                    Inscription
+                </router-link>
+            </div>
+
+            <template slot="modal-footer">
+                <div>
+                    Vous avez déjà un compte ?
+                    <router-link :to="{ name: 'login' }" class="lien-paragraphe">
+                        Connexion
+                    </router-link>
+                </div>
+            </template>
+        </b-modal>
+
         <router-view></router-view>
     </div>
 </template>
 
 <script>
-    import {mapState} from 'vuex';
-    import api from '~/lib/api';
+    import {mapGetters, mapState} from 'vuex';
+    import api from "~/lib/api/site";
     import ticks from '~/lib/services/storage/ticks';
     import storage from '~/lib/services/storage';
 
@@ -14,11 +38,30 @@
         computed: {
             ...mapState('ui', [
                 'pageTitle',
+                'mustRegisterModalText',
+            ]),
+
+            ...mapGetters('auth', [
+                'isAuthenticated',
             ]),
         },
         created: function () {
             this.loadCurrentTrack();
             this.loadLastSearchQueries();
+
+            if (this.isAuthenticated) {
+                this.loadLikes();
+            }
+        },
+
+        mounted() {
+            this.$store.subscribe((mutation) => {
+                if (mutation.type === 'ui/setMustRegisterModal'
+                    && mutation.payload === true
+                ) {
+                    this.$refs['modal-must-register'].show();
+                }
+            });
         },
 
         methods: {
@@ -63,6 +106,27 @@
 
                 this.$store.commit('search/setQueries', queries);
             },
-        }
+
+            async loadLikes() {
+                let res = await api.likes.all();
+
+                this.$store.dispatch('likes/setAll', res.data);
+            },
+
+            closeMustRegisterModal() {
+                // On ferme la modal avec un petit délai pour qu'elle se
+                // ferme une fois sur la page de connexion ou inscription.
+                setTimeout(
+                    () => {
+                        this.$refs['modal-must-register'].hide();
+                    },
+                    130
+                );
+            }
+        },
+
+        watch: {
+            '$route': 'closeMustRegisterModal'
+        },
     }
 </script>

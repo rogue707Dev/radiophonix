@@ -89,6 +89,7 @@ export default {
             picture: {},
             sagas: [],
             bio: '',
+            teams: [],
         }
     }),
 

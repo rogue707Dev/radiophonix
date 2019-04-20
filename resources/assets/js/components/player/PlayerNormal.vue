@@ -30,9 +30,9 @@
                     </button>
 
                     <!--Bouton ajouter en favoris-->
-                    <button class="btn btn-outline-theme btn-round btn-sm mb-3">
-                        <i aria-hidden="true" class="fa fa-heart"></i>
-                    </button>
+                    <like-button class="btn btn-outline-theme btn-round btn-sm mb-3"
+                                 likeable-type="saga"
+                                 :likeable-id="currentSaga.id"></like-button>
 
                     <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: currentSaga.slug } }"
                                  class="btn btn-outline-theme btn-round btn-sm mb-3">
@@ -144,9 +144,11 @@ import { mapState, mapActions } from 'vuex';
 import Player from '~/lib/Player';
 import TextEllispis from '~/components/text/TextEllipsis.vue';
 import TrackLength from '~/components/track/TrackLength.vue';
+import LikeButton from "~/components/Like/LikeButton";
 
 export default {
     components: {
+        LikeButton,
         TextEllispis,
         TrackLength,
     },

@@ -4,8 +4,11 @@ namespace Radiophonix\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Radiophonix\Events\Author\AuthorSavingEvent;
+use Radiophonix\Events\Like\UserLikedSaga;
+use Radiophonix\Events\Like\UserUnlikedSaga;
 use Radiophonix\Listeners\Author\SyncNameColumnListener;
 use Radiophonix\Listeners\ImageColorListener;
+use Radiophonix\Listeners\Like\ClearSagaCachedLikedCount;
 use Spatie\MediaLibrary\Events\MediaHasBeenAdded;
 
 class EventServiceProvider extends ServiceProvider
@@ -21,6 +24,12 @@ class EventServiceProvider extends ServiceProvider
         ],
         AuthorSavingEvent::class => [
             SyncNameColumnListener::class,
+        ],
+        UserLikedSaga::class => [
+            ClearSagaCachedLikedCount::class,
+        ],
+        UserUnlikedSaga::class => [
+            ClearSagaCachedLikedCount::class,
         ],
     ];
 

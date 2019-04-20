@@ -29,7 +29,9 @@
 
             <ul class="banniere__contenu__bande">
                 <li class="banniere__contenu__bande__item">
-                    {{ saga.stats.likes }} <i aria-hidden="true" class="fa fa-heart"></i>
+                    {{ saga.stats.likes }}
+                    <like-button likeable-type="saga"
+                                 :likeable-id="saga.id"/>
                 </li>
                 <template v-if="saga.stats.collections == 1">
                     <li class="banniere__contenu__bande__item">
@@ -53,8 +55,7 @@
                 </li>
                 <li class="banniere__contenu__bande__item"
                     v-b-tooltip.hover.top title="Genre">
-                    <router-link tag="a"
-                                 class="text-primary"
+                    <router-link class="text-primary"
                                  v-if="genre"
                                  :to="{ name: 'listen.genres.show', params: { id: genre.slug } }">
                         {{ genre.name }}
@@ -221,20 +222,21 @@
 </template>
 
 <script>
-import { mapActions, mapState } from 'vuex';
-import api from '~/lib/api';
-import ticks from '~/lib/services/storage/ticks';
-import TrackLength from '~/components/track/TrackLength.vue';
-import Banner from '~/components/content/Banner.vue';
-import LicenceLink from '~/components/licence/LicenceLink.vue';
-import TextEllipsis from '~/components/text/TextEllipsis.vue';
-import CollectionType from '~/components/collection/CollectionType';
-import NavList from '~/components/Ui/Nav/NavList';
-import NavItem from '~/components/Ui/Nav/NavItem';
-import Cover from '~/components/content/Cover.vue';
-import FaIcon from '~/components/Ui/Icon/FaIcon.vue';
+    import {mapActions, mapGetters, mapState} from 'vuex';
+    import api from '~/lib/api';
+    import ticks from '~/lib/services/storage/ticks';
+    import TrackLength from '~/components/track/TrackLength.vue';
+    import Banner from '~/components/content/Banner.vue';
+    import LicenceLink from '~/components/licence/LicenceLink.vue';
+    import TextEllipsis from '~/components/text/TextEllipsis.vue';
+    import CollectionType from '~/components/collection/CollectionType';
+    import NavList from '~/components/Ui/Nav/NavList';
+    import NavItem from '~/components/Ui/Nav/NavItem';
+    import Cover from '~/components/content/Cover.vue';
+    import FaIcon from '~/components/Ui/Icon/FaIcon.vue';
+    import LikeButton from '~/components/Like/LikeButton.vue';
 
-export default {
+    export default {
     components: {
         TrackLength,
         Banner,
@@ -245,11 +247,15 @@ export default {
         NavItem,
         Cover,
         FaIcon,
+        LikeButton,
     },
 
     data: () => ({
         saga: {
-            stats: {},
+            id: 0,
+            stats: {
+                likes: 0,
+            },
             links: {},
             authors: [
                 {
@@ -267,12 +273,17 @@ export default {
         collections: [],
         currentCollectionType: null,
         currentTick: null,
+        likeButtonLoading: false,
     }),
 
     computed: {
         ...mapState('player', [
             'currentTrack',
             'isLoading',
+        ]),
+
+        ...mapGetters('likes', [
+            'isLiked',
         ]),
 
         genre() {
@@ -293,7 +304,17 @@ export default {
             }
 
             return collections;
-        }
+        },
+
+        likeButtonClass() {
+            if (this.likeButtonLoading) {
+                return 'fa-circle-o-notch fa-spin';
+            }
+
+            if (this.isLiked('saga', this.saga.id)) {
+                return 'var--actif';
+            }
+        },
     },
 
     methods: {
@@ -389,6 +410,19 @@ export default {
 
     created: function () {
         this.fetchData();
+    },
+
+    mounted() {
+        this.$store.subscribe((mutation) => {
+            if ((mutation.type === 'likes/add' || mutation.type === 'likes/remove')
+                && mutation.payload.type === 'saga'
+                && mutation.payload.id === this.saga.id
+            ) {
+                mutation.type === 'likes/add'
+                    ? this.saga.stats.likes++
+                    : this.saga.stats.likes--;
+            }
+        });
     },
 
     watch: {
