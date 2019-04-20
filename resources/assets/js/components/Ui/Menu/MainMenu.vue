@@ -1,6 +1,9 @@
 <template>
     <ul class="menu">
-        <li class="menu__item var--logout" v-feature="'login'" v-if="isAuthenticated && user">
+        <li class="menu__item var--logout"
+            :class="{actif: $route.meta.menu === 'profile'}"
+            v-feature="'login'"
+            v-if="isAuthenticated && user">
             <img class="menu__item__avatar" alt="Avatar" :src="user.avatar" />
             <div class="menu__nivo2">
                 <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__img">

@@ -192,7 +192,7 @@ const routes = [
                 path: 'profil/:user',
                 component: UserProfile,
                 name: 'profile',
-                meta: { menu: 'contribute' }
+                meta: { menu: 'profile' }
             },
             {
                 path: 'aide',
