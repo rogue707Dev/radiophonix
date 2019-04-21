@@ -1,26 +1,33 @@
 <template>
     <ul class="menu">
-        <li class="menu__item var--profil"
-            :class="{actif: $route.meta.menu === 'profile'}"
-            v-feature="'login'"
-            v-if="isAuthenticated && user">
-            <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__item--profil__avatar">
-                <div class="cover var--petit var--auteur">
-                    <div class="cover__mask">
-                        <img alt="Avatar" :src="user.avatar" />
+        <template v-if="isAuthenticated && user">
+            <li class="menu__item var--profil"
+                :class="{actif: $route.meta.menu === 'profile'}"
+                v-feature="'login'">
+                <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__item--profil__avatar">
+                    <div class="cover var--petit var--auteur">
+                        <div class="cover__mask">
+                            <img alt="Avatar" :src="user.avatar" />
+                        </div>
                     </div>
-                </div>
-            </router-link>
-            <div class="menu__nivo2">
-                <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__profil">
-                    <i aria-hidden="true" class="fa fa-user"></i> Profil
                 </router-link>
-                <button @click="logout" class="menu__nivo2__deconnexion">
-                    <i aria-hidden="true" class="fa fa-lock"></i> Déconnexion
-                </button>
-            </div>
-        </li>
+                <div class="menu__nivo2">
+                    <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__profil">
+                        <i aria-hidden="true" class="fa fa-user"></i> Profil
+                    </router-link>
+                    <button @click="logout" class="menu__nivo2__deconnexion">
+                        <i aria-hidden="true" class="fa fa-lock"></i> Déconnexion
+                    </button>
+                </div>
+            </li>
+            <main-menu-item name="home" route="home" icon="maison" class="menu__item">
+                Accueil
+            </main-menu-item>
+        </template>
         <template v-else>
+            <main-menu-item name="home" route="home" icon="maison" class="menu__item">
+                Accueil
+            </main-menu-item>
             <main-menu-item name="login" route="login" class="menu__item var--sans-icon" v-feature="'login'">
                 Connexion
             </main-menu-item>
@@ -28,9 +35,6 @@
                 Inscription
             </main-menu-item>
         </template>
-        <main-menu-item name="home" route="home" icon="maison" class="menu__item">
-            Accueil
-        </main-menu-item>
         <main-menu-item name="search" route="search" icon="rechercher" class="menu__item">
             Rechercher
         </main-menu-item>
