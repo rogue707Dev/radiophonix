@@ -8,7 +8,7 @@
         <p class="mt-3">
             Vous pouvez participer à la création du site en contribuant au <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">code sur GitLab</a> ou en
             <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">signalant les bugs</a> rencontrés.<br />
-            Vous pouvez également rejoindre le <lien-discord /> !
+            Vous pouvez également rejoindre le <discord-invite /> !
         </p>
 
         <p class="mt-3">
@@ -74,14 +74,17 @@
         </p>
 
         <ul class="list-unstyled pl-4">
-            <roadmap-task status="doing">
+            <roadmap-task status="done">
                 Pouvoir s'inscrire sur le site
             </roadmap-task>
             <roadmap-task status="doing">
                 Enregistrer l'avancement de la lecture sur le compte
             </roadmap-task>
-            <roadmap-task status="todo">
+            <roadmap-task status="doing">
                 Système de "like" pour les sagas, les auteurs, etc.
+            </roadmap-task>
+            <roadmap-task status="todo">
+                Avoir une page de profil personnalisée
             </roadmap-task>
             <roadmap-task status="todo">
                 Possibilité de s'abonner à une saga
@@ -177,13 +180,13 @@
 <script>
     import Headband from '~/components/content/Headband';
     import RoadmapTask from '~/components/News/RoadmapTask';
-    import LienDiscord from '~/components/doc/LienDiscord';
+    import DiscordInvite from '~/components/Social/Discord/DiscordInvite';
 
     export default {
         components: {
             Headband,
             RoadmapTask,
-            LienDiscord,
+            DiscordInvite,
         },
     }
 </script>

@@ -5,24 +5,42 @@
             Radiophonix est actuellement en <span class="badge badge-warning">Beta</span>
         </p>
 
-        <p class="mt-3">
+        <p class="mt-3 mb-5">
             Les contributions sont les bienvenues !<br />
-            Vous pouvez participer à la création du site en contribuant au code sur GitLab ou en
-            signalant les bugs rencontrés.<br />
+            Il est possible de contribuer au projet de plusieurs façons.
+        </p>
+
+        <h2 class="h2">Suggestions et bugs</h2>
+        <hr>
+
+        <p class="mt-3">
+            Envoyez nous vos idées et suggestions pour le projet !<br />
+            <br />
+        </p>
+
+        <social-cards />
+
+        <h2 class="h2 mt-5">Le code</h2>
+        <hr>
+
+        <p class="mt-3">
+            Le code source de tout le site est open-source et libre d'accès sur
+            <a class="lien-paragraphe" href="https://gitlab.com/Radiophonix/Radiophonix">GitLab</a>.
+            <br />
+            Tout est développé de façon publique,
+            <a class="lien-paragraphe" href="https://gitlab.com/Radiophonix/Radiophonix/commits/dev">le code</a>
+            et <a class="lien-paragraphe" href="https://gitlab.com/Radiophonix/Radiophonix/issues">la gestion du projet</a>.<br />
             <br />
             La plateforme est composée de deux briques essentielles : le site et l'API.<br/>
-            <br/>
-            Pour voir le code c'est <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">par ici</a> !<br/>
-            Pour signaler des bugs c'est <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">par ici</a> !<br />
-            Vous pouvez également rejoindre le <lien-discord /> !
+            <br />
         </p>
 
         <div class="row mt-3">
-            <div class="col">
+            <div class="col-12 col-md-6">
 
-                <h2 class="h1 mb-4">
+                <h3 class="h3 mb-4">
                     <span class="text-success">{</span> Site <span class="text-success">}</span>
-                </h2>
+                </h3>
 
                 <p>
                     Le site est écrit en JavaScript à l'aide de <a href="https://vuejs.org" class="lien-paragraphe">Vue.js</a><br/>
@@ -34,9 +52,9 @@
                 </p>
 
             <pre class="mt-4 bg-light" style="padding: 5px;"><code>&lt;<span class="text-success">template</span>&gt;
-&lt;<span class="text-success">player</span>&gt;
-    &lt;<span class="text-success">button</span> @<span class="text-warning">click</span>="play"&gt;C'est parti !&lt;<span class="text-success">button</span>&gt;
-&lt;/<span class="text-success">player</span>&gt;
+    &lt;<span class="text-success">player</span>&gt;
+        &lt;<span class="text-success">button</span> @<span class="text-warning">click</span>="play"&gt;C'est parti !&lt;<span class="text-success">button</span>&gt;
+    &lt;/<span class="text-success">player</span>&gt;
 &lt;/<span class="text-success">template</span>&gt;
 
 &lt;<span class="text-success">script</span>&gt;
@@ -47,13 +65,11 @@
 </code></pre>
 
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
+            <div class="col-12 col-md-6">
 
-                <h2 class="h1 mb-4">
+                <h3 class="h3 mb-4">
                     <span class="text-success">{</span> API <span class="text-success">}</span>
-                </h2>
+                </h3>
 
                 <p>
                     L'API est écrite en PHP à l'aide de <a href="https://laravel.com/" class="lien-paragraphe">Laravel</a>.<br />
@@ -69,10 +85,10 @@
 
 <span class="text-danger">class</span> Radiophonix
 {
-<span class="text-danger">public function</span> api()
-{
-    <span class="text-danger">return new</span> Saga();
-}
+    <span class="text-danger">public function</span> api(): Saga
+    {
+        <span class="text-danger">return new</span> Saga();
+    }
 }
 </code></pre>
 
@@ -84,12 +100,16 @@
 
 <script>
     import Headband from '~/components/content/Headband.vue';
-    import LienDiscord from '~/components/doc/LienDiscord';
+    import DiscordInvite from '~/components/Social/Discord/DiscordInvite';
+    import FaIcon from "~/components/Ui/Icon/FaIcon";
+    import SocialCards from "~/components/Social/SocialCards";
 
     export default {
         components: {
+            SocialCards,
+            FaIcon,
             Headband,
-            LienDiscord,
+            DiscordInvite,
         },
     }
 </script>

@@ -12,8 +12,8 @@
             <div class="row">
                 <div class="col-12">
                     <p>
-                        Radiophonix ne va pas se limiter à l'écoute de sagas MP3 !<br>
-                        Le site servira également à la publication. <br>
+                        Radiophonix ne va pas se limiter à l'écoute de sagas MP3 !<br />
+                        Le site servira également à la publication. <br />
                         Les créateurs auront accès à une interface permettant de publier des sagas,
                         avec toutes les infos liées.
                     </p>
@@ -41,7 +41,11 @@
                         <li>Renseigner les informations de la saga (liens, licence, synopsis, etc)</li>
                         <li>Avoir plusieurs auteurs par saga</li>
                         <li>Uploader une image de couverture selon la saga, la saison ou l'épisode</li>
-                        <li>Et beaucoup d'autres choses...</li>
+                        <li>
+                            <router-link :to="{ name: 'roadmap' }" class="lien-paragraphe">
+                                Et beaucoup d'autres choses...
+                            </router-link>
+                        </li>
                     </ul>
                 </div>
             </div>
