@@ -31,6 +31,8 @@
             <a class="lien-paragraphe" href="https://gitlab.com/Radiophonix/Radiophonix/commits/dev">le code</a>
             et <a class="lien-paragraphe" href="https://gitlab.com/Radiophonix/Radiophonix/issues">la gestion du projet</a>.<br />
             <br />
+            N'hésitez pas à lire <a href="https://radiophonix.gitlab.io/Radiophonix/contribuer/" class="lien-paragraphe">la documentation</a>.<br />
+            <br />
             La plateforme est composée de deux briques essentielles : le site et l'API.<br/>
             <br />
         </p>
