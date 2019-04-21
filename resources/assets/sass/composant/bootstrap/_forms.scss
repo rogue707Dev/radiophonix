@@ -1,0 +1,22 @@
+/*======================================================================================================================
+$ FORMULAIRE
+======================================================================================================================*/
+
+.input-group .btn-outline-primary {
+    border-color: $input-border-color;
+}
+
+
+.form-control:focus ~ .input-group-append .btn-outline-primary{
+    border-color: $input-focus-border-color;
+}
+
+
+.form-control.is-valid ~ .input-group-append .btn-outline-primary{
+    border-color: $success;
+}
+
+
+.form-control.is-invalid ~ .input-group-append .btn-outline-primary{
+    border-color: $danger;
+}

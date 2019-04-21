@@ -2,16 +2,24 @@
 $ SURCHARGE
 ======================================================================================================================*/
 .btn-primary {
-    @include degrade-vertical--orange--fonce-moyen;
+    @include degrade-vertical--orange-bas;
     border-color: $orange-250;
     color: $black;
     font-weight: 600;
     font-size: px2rem(14);
 }
 
+
+.input-group .btn-outline-primary {
+    color: $body-color;
+}
+
 .btn-primary:hover,
-.btn-primary:focus {
-    background: linear-gradient(to bottom, $orange-250 0%, $orange-250 100%);
+.btn-primary:focus,
+.input-group .btn-outline-primary:hover,
+.input-group .btn-outline-primary:focus
+{
+    @include degrade-vertical--orange-haut;
     border-color: $orange-300;
     color: $black;
 }
