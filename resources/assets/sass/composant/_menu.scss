@@ -98,7 +98,7 @@ $ LIEN ACTIF
 
 
     @include menu__bande {
-        @include degrade-vertical--orange--fonce-moyen;
+        @include degrade-vertical--orange-bas;
     }
     &:before{
         box-shadow: none;
@@ -193,7 +193,7 @@ $ AVATAR
 /*----- ACTIF & HOVER -----*/
 .menu__item.var--profil.actif:hover {
     @include menu__bande {
-        @include degrade-vertical--orange--fonce-moyen;
+        @include degrade-vertical--orange-bas;
     }
 }
 

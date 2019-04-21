@@ -14,7 +14,7 @@ $largeur-cover: 280px;
     }
 
     @include media-breakpoint-down(md) {
-        @include degrade-vertical--orange--fonce-moyen;
+        @include degrade-vertical--orange-bas;
         position: fixed;
         top: $hauteur-menu-mobile;
         bottom: $hauteur-menu-player;

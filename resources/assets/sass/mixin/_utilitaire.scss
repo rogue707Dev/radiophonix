@@ -27,12 +27,16 @@ $ RESET UL
 $ DEGRADER
 ======================================================================================================================*/
 
-@mixin degrade-horizontale--orange--fonce-claire {
+@mixin degrade-horizontal--orange {
     background: linear-gradient(to right, $orange-300 0%, $orange-100 100%);
 }
 
-@mixin degrade-vertical--orange--fonce-moyen {
+@mixin degrade-vertical--orange-bas {
     background: linear-gradient(to bottom, $orange-300 0%, $orange-200 100%);
+}
+
+@mixin degrade-vertical--orange-haut {
+    background: linear-gradient(to top, $orange-300 0%, $orange-200 100%);
 }
 
 

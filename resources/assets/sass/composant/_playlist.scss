@@ -5,7 +5,7 @@ $ PLAYLIST
     padding: 0 $padding-sidebar;
 
     @include media-breakpoint-down(md) {
-        @include degrade-vertical--orange--fonce-moyen;
+        @include degrade-vertical--orange-bas;
         z-index: 2; // pour passer au dessus de .lecteur-footer-navigation
     }
 }
