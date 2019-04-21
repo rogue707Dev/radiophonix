@@ -15,6 +15,7 @@ use Radiophonix\Http\ApiResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Tymon\JWTAuth\Exceptions\JWTException;
+use Tymon\JWTAuth\Exceptions\TokenBlacklistedException;
 use Tymon\JWTAuth\Exceptions\TokenExpiredException;
 use Tymon\JWTAuth\Exceptions\TokenInvalidException;
 
@@ -80,13 +81,18 @@ class Handler extends ExceptionHandler
             if ($e instanceof HttpException) {
                 $statusCode = $e->getStatusCode();
             } elseif ($e instanceof JWTException) {
-                $statusCode = $e->getStatusCode();
+                $statusCode = Response::HTTP_FORBIDDEN;
                 $message = 'Token not provided';
 
                 if ($e instanceof TokenExpiredException) {
                     $message = 'Token expired';
+                    $statusCode = Response::HTTP_UNAUTHORIZED;
                 } elseif ($e instanceof TokenInvalidException) {
                     $message = 'Token invalid';
+                    $statusCode = Response::HTTP_UNPROCESSABLE_ENTITY;
+                } elseif ($e instanceof TokenBlacklistedException) {
+                    $message = 'Token blacklisted';
+                    $statusCode = Response::HTTP_UNAUTHORIZED;
                 }
             } elseif ($e instanceof ModelNotFoundException) {
                 $statusCode = 404;
