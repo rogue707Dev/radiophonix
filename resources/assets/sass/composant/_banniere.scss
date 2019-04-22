@@ -12,6 +12,7 @@ $taille-image-fond: 800px;
     grid-template-rows: auto auto;
     grid-column-gap: $grid-column-gap-de-banniere;
     justify-items: center;
+    overflow: hidden;
 
     @include media-breakpoint-down(md) {
         // annule la marge de .container
