@@ -342,6 +342,8 @@
 
             <h1 class="display-3">Nav</h1>
             Peut etre aussi réalisé en ul li voir source
+            <br>
+            Les textes sont de la meme taille qu'un <code>.h1</code>
             <nav class="nav mb-4">
                 <span class="nav-link active">active</span>
                 <span class="nav-link">normal</span>
