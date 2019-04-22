@@ -25,17 +25,16 @@
                 </div>
 
                 <div class="lecteur__cover__bouton">
-                    <button class="btn btn-outline-theme btn-round btn-sm mb-3 lecteur__bouton-affichage" @click="openPlaylist">
+                    <button class="btn btn-outline-theme btn-lecteur btn-sm mb-3 lecteur__bouton-affichage" @click="openPlaylist">
                         <i aria-hidden="true" class="fa fa-list"></i>
                     </button>
 
-                    <!--Bouton ajouter en favoris-->
-                    <like-button class="btn btn-outline-theme btn-round btn-sm mb-3"
+                    <like-button class="btn btn-outline-theme btn-lecteur btn-sm mb-3"
                                  likeable-type="saga"
                                  :likeable-id="currentSaga.id"></like-button>
 
                     <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: currentSaga.slug } }"
-                                 class="btn btn-outline-theme btn-round btn-sm mb-3">
+                                 class="btn btn-outline-theme btn-lecteur btn-sm mb-3">
                         <i aria-hidden="true" class="fa fa-info"></i>
                     </router-link>
                 </div>
@@ -71,7 +70,7 @@
                 Progession
                 ------------------------------------------>
                 <div class="progression text-dark h5">
-                    <span>{{ currentTime }}</span>
+                    <span class="text-left">{{ currentTime }}</span>
                     <progress class="progression__barre var--lecteur"
                               @click="seek"
                               :value="currentPercentage"
@@ -83,13 +82,13 @@
                 Controle
                 ------------------------------------------>
                 <div class="lecteur__controle">
-                    <button class="btn btn-outline-theme btn-round" @click="previous">
+                    <button class="btn btn-outline-theme btn-lecteur" @click="previous">
                         <i aria-hidden="true" class="fa fa-step-backward"></i>
                     </button>
-                    <button class="btn btn-outline-theme btn-round btn-lg" @click="toggle">
+                    <button class="btn btn-outline-theme btn-lecteur btn-lg" @click="toggle">
                         <i aria-hidden="true" class="fa fa-play" :class="{'fa-play': !isPlaying, 'fa-pause': isPlaying}"></i>
                     </button>
-                    <button class="btn btn-outline-theme btn-round" @click="next">
+                    <button class="btn btn-outline-theme btn-lecteur" @click="next">
                         <i aria-hidden="true" class="fa fa-step-forward"></i>
                     </button>
                 </div>
@@ -129,7 +128,7 @@
             ------------------------------------------>
             <div class="row justify-content-center mb-5">
                 <div class="col-auto">
-                    <router-link :to="{ name: 'search' }" tag="button" class="btn btn-outline-theme btn-round btn-lg">
+                    <router-link :to="{ name: 'search' }" tag="button" class="btn btn-outline-theme btn-lecteur btn-lg">
                         <i aria-hidden="true" class="fa fa-search"></i>
                     </router-link>
                 </div>

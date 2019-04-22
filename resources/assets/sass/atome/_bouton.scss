@@ -7,26 +7,30 @@ $ OUTLINE CUSTOM
 }
 
 /*======================================================================================================================
-$ OUTLINE ROUND
+$ LECTEUR
 ======================================================================================================================*/
-[class*=btn-outline-].btn-round {
-    @include btn-round(38px);
+[class*=btn-outline-].btn-lecteur {
+    @include btn-lecteur(38px);
 
     &.btn-sm {
-        @include btn-round(31px);
+        @include btn-lecteur(31px);
     }
     &.btn-lg {
-        @include btn-round(48px);
+        @include btn-lecteur(48px);
     }
 }
 
 
-// THEME RADIOPHONIX
-.btn-outline-theme.btn-round {
-    box-shadow: 0 0 5px 0 $primary;
-    border: none;
-    color: $bleu-400;
+/*-----------------------------------------------------------------------------
+$ STANDARD
+-----------------------------------------------------------------------------*/
+.btn-outline-theme.btn-lecteur {
     background-color: $white;
+    color: $bleu-400;
+
+    border-radius: 5px;
+    border: 1px solid $orange-300;
+    box-shadow: 0px 1px 2px 0 $bleu-300, inset 0px 1px 0 0 $bleu-100;
 
     &:hover {
         color: $primary;
@@ -34,13 +38,30 @@ $ OUTLINE ROUND
     &:focus {
         color: $bleu-400;
     }
+    &:active {
+        box-shadow: inset -1px 1px 0 0  $bleu-100;
+        border-top: 2px solid #eda681;
+    }
+}
+
+/*-----------------------------------------------------------------------------
+$ A COTE DE LA JAQUETTE
+-----------------------------------------------------------------------------*/
+.lecteur__cover__bouton .btn-outline-theme.btn-lecteur {
+    border-radius: 2px;
+
+    box-shadow: 1px 1px 0 0 $bleu-300;
+
+    &:active {
+        box-shadow: -1px -1px 0 0 $bleu-300;
+    }
 }
 
 
 
 
 //$ HARMONISE LA POSITION DANS DES BOUTONS ROND
-.btn-round {
+.btn-lecteur {
 
     .fa-play:not(.fa-pause) {
         padding-left: 3px;

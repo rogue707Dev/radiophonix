@@ -750,26 +750,26 @@
             <a href="http://getbootstrap.com/docs/4.0/components/buttons/#examples" class="display-2">Boutons</a>
             <div>
                 <h3 class="h1 mt-4">Rond pour icone</h3>
-                <button type="button" class="btn btn-outline-primary btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-secondary btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-success btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-danger btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-warning btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-info btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-light btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-dark btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-primary btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-secondary btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-success btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-danger btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-warning btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-info btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-light btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-outline-dark btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
                 <br>
                 <br>
                 <div class="row">
                     <div class="col-6">
-                        <button type="button" class="btn btn-outline-theme btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-theme btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
                         <br>
                         .btn-outline-theme
                     </div>
                     <div class="col-6">
-                        <button type="button" class="btn btn-outline-primary btn-round btn-sm"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                        <button type="button" class="btn btn-outline-warning btn-round"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                        <button type="button" class="btn btn-outline-theme btn-round btn-lg"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-primary btn-lecteur btn-sm"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-warning btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-theme btn-lecteur btn-lg"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
                         <br>
                         Existe en petit, normal et grand
                     </div>

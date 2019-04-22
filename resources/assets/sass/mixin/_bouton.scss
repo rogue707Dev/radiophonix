@@ -1,10 +1,9 @@
 /*======================================================================================================================
 $ BASE BOUTON ROND
 ======================================================================================================================*/
-@mixin btn-round($largeur) {
+@mixin btn-lecteur($largeur) {
     width: $largeur;
     height: $largeur;
-    border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
