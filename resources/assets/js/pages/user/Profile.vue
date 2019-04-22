@@ -106,8 +106,8 @@
 
 
             <nav class="nav mb-2">
-                <span class="nav-link active">Episode en cours</span>
-                <span class="nav-link">Like</span>
+                <span class="nav-link active">En cours</span>
+                <span class="nav-link">Favoris</span>
             </nav>
 
             <div class="episode-item var--en-cours">
