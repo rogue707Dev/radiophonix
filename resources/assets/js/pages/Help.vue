@@ -32,7 +32,7 @@
                         professionnels, passionnés de sagas MP3.<br/>
                         Faire des sites est notre métier depuis plusieurs années, ce qui
                         nous permet de développer ce projet.<br/>
-                        Rejoignez-nous sur <lien-discord /> !
+                        Rejoignez-nous sur <discord-invite /> !
                     </p>
 
                     <h2 class="h1 mb-2 mt-5">Qu'est-ce qu'une Saga MP3 ?</h2>
@@ -73,7 +73,7 @@
                         <a href="https://gitlab.com/Radiophonix/Radiophonix/issues" class="lien-paragraphe">En signalant des bugs</a><br/>
                         <a href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">En contribuant au code</a><br/>
                         Si vous ne savez pas programmer vous pouvez aussi aider !<br/>
-                        Rejoignez-nous sur <lien-discord /> pour signaler des bugs et partager votre avis.
+                        Rejoignez-nous sur <discord-invite /> pour signaler des bugs et partager votre avis.
                     </p>
 
                     <h2 class="h1 mb-2 mt-5">Où sont hébergés les fichiers ?</h2>
@@ -93,12 +93,12 @@
 
 <script>
     import Headband from '~/components/content/Headband.vue';
-    import LienDiscord from '~/components/doc/LienDiscord';
+    import DiscordInvite from '~/components/Social/Discord/DiscordInvite';
 
     export default {
         components: {
             Headband,
-            LienDiscord,
+            DiscordInvite,
         },
     }
 </script>

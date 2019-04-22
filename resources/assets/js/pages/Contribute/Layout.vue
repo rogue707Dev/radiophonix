@@ -4,7 +4,7 @@
         <headband
             urlImage="/static/home/contribuer.jpeg"
             title="Participer au projet"
-            subtitle="Contribuer au code sur GitLab ou signaler les bugs">
+            subtitle="Contribuer au code ou faire des suggestions">
         </headband>
 
         <div class="container">

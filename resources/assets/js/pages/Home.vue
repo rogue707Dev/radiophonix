@@ -65,13 +65,11 @@
                             professionnels, passionnés de sagas MP3.<br/>
                             Faire des sites est notre métier depuis plusieurs années, ce qui
                             nous permet de développer ce projet.<br/>
-
-                            Rejoignez-nous sur <lien-discord /> !
                         </p>
                     </blockquote>
 
                     <h2 class="h1 mb-2">Version Beta</h2>
-                    <blockquote class="blockquote mb-5">
+                    <blockquote class="blockquote">
                         <p class="mb-0X">
                             Le site est actuellement en version Beta, où seule l'écoute de sagas
                             est possible.<br/>
@@ -81,7 +79,6 @@
                             <br/>
                             N'hésitez pas à laisser des remarques, signaler des bugs et
                             faire des suggestions. On ne demande que ça !<br/>
-                            Le plus simple est de nous rejoindre sur <lien-discord />.<br/>
                             <br/>
                             Radiophonix est un projet open source :
                             <a title="Lien GitLab" class="lien-paragraphe" href="https://gitlab.com/Radiophonix/Radiophonix">
@@ -91,7 +88,11 @@
                         </p>
                     </blockquote>
 
-                    Pour plus d'informations, allez voir la <router-link :to="{ name: 'help' }" class="lien-paragraphe">FAQ</router-link>.
+                    <p class="mb-3">
+                        Pour plus d'informations, allez voir la <router-link :to="{ name: 'help' }" class="lien-paragraphe">FAQ</router-link>.
+                    </p>
+
+                    <social-cards />
                 </div>
             </div>
 
@@ -138,60 +139,6 @@
 
 
 
-
-
-
-
-        <headband v-feature="'contribuer'"
-                urlImage="/static/home/contribuer.jpeg"
-                title="Contribuer"
-                subtitle="Le site est open source et les contributions sont les bienvenues">
-        </headband>
-
-        <div class="container" v-feature="'contribuer'">
-            <div class="row mb-5">
-                <div class="col-12">
-                    <p>Radiophonix est actuellement en <span class="badge badge-warning">Beta</span></p>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-12 col-md-6">
-                    <p>
-                        Les contributions sont les bienvenues !<br />
-                        <br>
-                        Vous pouvez participer à la création du site sur <a title="Lien GitLab" href="https://gitlab.com/Radiophonix/Radiophonix" class="lien-paragraphe">GitLab</a>.<br/>
-                        <br>
-                        Vous pouvez aussi signaler les bugs rencontrés.
-                    </p>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <p>Global</p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-success" role="progressbar" :style="{ width: '30%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">30%</div>
-                    </div>
-
-                    <p>API</p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-success" role="progressbar" :style="{ width: '80%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-                    </div>
-
-                    <p>Gestion de compte</p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-success" role="progressbar" :style="{ width: '5%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">5%</div>
-                    </div>
-
-                    <p>Publication</p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-success" role="progressbar" :style="{ width: '5%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">5%</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
     </div>
 </template>
 
@@ -200,16 +147,18 @@ import api from '~/lib/api';
 import SagaList from '~/components/saga/SagaList.vue';
 import Headband from '~/components/content/Headband.vue';
 import PublishPresentation from '~/components/publish/PublishPresentation.vue';
-import LienDiscord from '~/components/doc/LienDiscord';
+import DiscordInvite from '~/components/Social/Discord/DiscordInvite';
 import SearchForm from '~/components/search/SearchForm';
 import CardGenre from '~/components/content/Card/CardGenre';
+import SocialCards from "~/components/Social/SocialCards";
 
 export default {
     components: {
+        SocialCards,
         SagaList,
         Headband,
         PublishPresentation,
-        LienDiscord,
+        DiscordInvite,
         SearchForm,
         CardGenre,
     },
