@@ -60,3 +60,21 @@ $ PLACEMENT
         align-self: center;
     }
 }
+
+
+/*======================================================================================================================
+$ ITEM EPISODE EN COURS (PROFIl)
+======================================================================================================================*/
+
+.episode-item.var--en-cours .episode-item__cover {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.episode-item.var--en-cours .episode-item__content,
+.episode-item.var--en-cours .episode-item__etat-lecture,
+.episode-item.var--en-cours .episode-item__download {
+    @media screen and (min-width: $largeur-mini-bouton-a-droite) {
+        grid-row: 1/3;
+    }
+}
