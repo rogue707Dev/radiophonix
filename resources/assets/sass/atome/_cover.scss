@@ -27,7 +27,7 @@ $ TAILLE
 $ PETIT
 -----------------------------------------------------------------------------*/
 .cover.var--petit {
-    @include taille(94px);
+    @include taille($taille-cover-petit);
     /*---------------------------------*/
     &.var--saga {
         &:before {
@@ -67,6 +67,16 @@ $ PETIT
         }
     }
     /*---------------------------------*/
+    &.var--badge {
+        &:before {
+            @include taille(80px);
+            top: 7px;
+            left: 9px;
+        }
+        img {
+            @include taille(80px);
+        }
+    }
 }
 
 
@@ -228,6 +238,11 @@ $couleur-contour: $bleu-350;
     stroke: $couleur-contour;
 }
 
+.cover.var--badge:before {
+    border: 1px solid $couleur-contour;
+    transform: perspective(10px) rotateY(1deg);
+}
+
 /*======================================================================================================================
 $ MASK
   Fonctionne pas sur IE et edge bien sur, mais osef
@@ -246,4 +261,8 @@ $ MASK
 
 .cover.var--genre .cover__mask {
     mask-image: url('/static/dev/images/masque-genre.svg');
+}
+
+.cover.var--badge .cover__mask {
+    mask-image: url('/static/dev/images/masque-badge.svg');
 }

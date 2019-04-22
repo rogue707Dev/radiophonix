@@ -1,0 +1,63 @@
+/*======================================================================================================================
+$ BADGE
+======================================================================================================================*/
+.layout-badge {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: $espacement-standard;
+
+    width: $taille-cover-petit * 3;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    @media screen and (min-width: $taille-cover-petit * 5) {
+        width: $taille-cover-petit * 5;
+    }
+
+    @media screen and (min-width: $taille-cover-petit * 7) {
+        width: $taille-cover-petit * 7;
+    }
+
+    @media screen and (min-width: $taille-cover-petit * 9) {
+        width: $taille-cover-petit * 9;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    $interface-large: $largeur-menu + $largeur-sidebar;
+    @include media-breakpoint-up(lg){
+
+        @media screen and (min-width: $interface-large + ($taille-cover-petit * 5)) {
+            width: $taille-cover-petit * 5;
+        }
+
+        @media screen and (min-width: $interface-large + ($taille-cover-petit * 7)) {
+            width: $taille-cover-petit * 7;
+        }
+
+        @media screen and (min-width: $interface-large + ($taille-cover-petit * 9)) {
+            width: $taille-cover-petit * 9;
+        }
+
+    }
+}
+
+
+.layout-badge .layout-badge__item {
+    margin-left: -6px;
+    margin-top: -6px;
+}
+
+.layout-badge .layout-badge__item:nth-child(even) {
+    transform:scaleX(-1);
+    margin-left: -10px;
+    img{
+        transform:scaleX(-1);
+    }
+}
+
+.layout-badge .layout-badge__item:first-child {
+    margin-left: -8px;
+}

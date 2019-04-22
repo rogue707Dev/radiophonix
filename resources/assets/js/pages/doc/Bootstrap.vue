@@ -90,6 +90,11 @@
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>
             </div>
+            <div class="cover var--petit var--badge">
+                <div class="cover__mask">
+                    <img src="http://facetheforce.today/random/340?r=2">
+                </div>
+            </div>
             <hr class="my-5">
 
 
