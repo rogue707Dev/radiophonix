@@ -22,7 +22,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <h2 class="h1">Qu'est-ce que Radiophonix ?</h2>
+                    <h2 class="h1 mb-2">Qu'est-ce que Radiophonix ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
                             Radiophonix est une plateforme libre et gratuite de partage et
@@ -38,7 +38,7 @@
                         </p>
                     </blockquote>
 
-                    <h2 class="h1">Qu'est-ce qu'une Saga MP3 ?</h2>
+                    <h2 class="h1 mb-2">Qu'est-ce qu'une Saga MP3 ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
                             Une saga mp3 est le nom donné à une histoire se déroulant dans
@@ -57,7 +57,7 @@
                         </footer>
                     </blockquote>
 
-                    <h2 class="h1">Qui êtes-vous ?</h2>
+                    <h2 class="h1 mb-2">Qui êtes-vous ?</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
                             Nous sommes un développeur web (<a href="http://mopolo.fr/" class="lien-paragraphe">Nathan</a>)
@@ -70,7 +70,7 @@
                         </p>
                     </blockquote>
 
-                    <h2 class="h1">Version Beta</h2>
+                    <h2 class="h1 mb-2">Version Beta</h2>
                     <blockquote class="blockquote mb-5">
                         <p class="mb-0X">
                             Le site est actuellement en version Beta, où seule l'écoute de sagas
@@ -107,15 +107,15 @@
         <div class="container">
             <div class="row mt-5 mb-5">
                 <div class="col-12">
-                    <h2 class="h1 mb-4">Quelques exemples de Saga :</h2>
+                    <h2 class="h1 mb-2">Quelques exemples de Saga :</h2>
                     <saga-list :sagas="sagas"></saga-list>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h2 class="h1">Découvrez quelques genres</h2>
+                    <h2 class="h1 mb-2">Découvrez quelques genres</h2>
 
-                    <div class="list-card my-5">
+                    <div class="list-card mb-5">
 
                         <card-genre v-for="genre in getGenresRow(0)"
                                     :key="genre.id"

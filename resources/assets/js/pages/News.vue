@@ -8,16 +8,16 @@
 
         <div class="container">
 
-            <news-entry date="2 décembre 2018" class="mb-5">
-                <p class="pl-lg-4 mt-3">
+            <news-entry date="2 décembre 2018">
+                <p class="pl-lg-4 mt-2">
                     Le développement de l'alpha est terminé et la beta peut démarrer !<br>
                     Vous pouvez suivre l'avancement du projet sur la
                     <router-link :to="{ name: 'roadmap' }" class="lien-paragraphe">roadmap !</router-link>
                 </p>
             </news-entry>
 
-            <news-entry date="20 novembre 2018" class="mb-5">
-                <ul class="mt-3">
+            <news-entry date="20 novembre 2018" class="mt-4">
+                <ul class="mt-2">
                     <li>Le corps du site est maintenant centré sur les grands écrans</li>
                     <li>Indicateur de chargement sur le lecteur</li>
                     <li>Refonte de la liste des épisodes sur la page d'une saga</li>
@@ -27,17 +27,15 @@
 
             <hr>
 
-            <news-entry date="14 novembre 2018" class="mb-5">
-                <h3 class="h3 mt-3">Flux RSS</h3>
+            <news-entry date="14 novembre 2018" class="mt-4">
+                <h3 class="h2 pl-lg-4 mt-2 mb-1">Flux RSS</h3>
 
                 <p class="pl-lg-4">
                     Un flux RSS est maintenant généré automatiquement pour chaque saga !<br/>
-                    <br>
                     Cela vous permet d'utiliser une application mobile de podcast pour écouter
                     sur mobile au lieu d'utiliser le site.<br/>
                     L'avantage par rapport au site est qu'il est possible de télécharger les
                     épisodes pour pouvoir les écouter sans internet.<br/>
-                    <br/>
                     Vous pouvez par exemple utiliser
                     <i class="fa fa-android"></i>
                     <a href="https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=fr"
@@ -47,11 +45,10 @@
                     <a href="https://itunes.apple.com/fr/app/apple-podcasts/id525463029"
                        class="lien-paragraphe">Apple Podcasts</a>
                     comme applications.<br />
-                    <br />
                     Le lien RSS d'une saga est disponible sur sa page via un bouton en haut de la fiche.
                 </p>
 
-                <h3 class="h3 mt-3">Une roadmap</h3>
+                <h3 class="h2 pl-lg-4 mt-2 mb-1">Une roadmap</h3>
 
                 <p class="pl-lg-4">
                     Une <router-link :to="{ name: 'roadmap' }" class="lien-paragraphe">page de roadmap</router-link> fait sont apparition !
@@ -59,7 +56,7 @@
                     Cette page vous permet de suivre l'avancement du projet et ce qui est prévu pour l'avenir.
                 </p>
 
-                <h3 class="h3 mt-3">Les autres nouveautés</h3>
+                <h3 class="h2 pl-lg-4 mt-2 mb-1">Les autres nouveautés</h3>
                 <ul>
                     <li>
                         Deux nouvelles sagas :
@@ -100,8 +97,8 @@
 
             <hr>
 
-            <news-entry date="29 octobre 2018">
-                <h3 class="h3 mt-3">Amélioration du lecteur en mobile</h3>
+            <news-entry date="29 octobre 2018" class="mt-4">
+                <h3 class="h2 pl-lg-4 mt-2 mb-1">Amélioration du lecteur en mobile</h3>
                 <p class="pl-lg-4">
                     Lors d'une lecture d'un épisode en mobile, une barre est maintenant
                     affichée en bas de l'écran pour accéder au lecteur.<br/>
@@ -131,7 +128,7 @@
                     </div>
                 </div>
 
-                <h3 class="h3 mt-3">Les autres nouveautés</h3>
+                <h3 class="h2 pl-lg-4 mt-2 mb-1">Les autres nouveautés</h3>
                 <ul>
                     <li>Le temps de lecture de chaque saga est enregistré (il manque une indication visuelle)</li>
                     <li>L'équipe d'une saga est désormais affichée</li>
