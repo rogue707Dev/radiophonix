@@ -78,8 +78,7 @@
     "webpack-stats-plugin": "^0.1.4"
   },
   "engines": {
-    "node": ">= 8.12.0",
-    "npm": ">= 6.4.1"
+    "node": ">= 8.12.0"
   },
   "browserslist": [
     "last 1 version",
