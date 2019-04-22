@@ -14,7 +14,7 @@ class LikesTransformer extends Transformer
      */
     public function transform(Collection $likes): array
     {
-        return $likes
+        return Collection::wrap($likes)
             ->map(function (Like $like) {
                 $fakeId = $this->fakeId()
                     ->connection($like->likeable_type)
@@ -27,8 +27,9 @@ class LikesTransformer extends Transformer
             })
             ->groupBy('type')
             ->map(function (Collection $likes) {
-                return $likes->pluck('id');
+                return $likes->sortBy('id')->pluck('id')->all();
             })
+            ->union(['saga' => []])
             ->all();
     }
 }

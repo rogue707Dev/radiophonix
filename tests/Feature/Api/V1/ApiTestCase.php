@@ -2,6 +2,7 @@
 
 namespace Tests\Feature\Api\V1;
 
+use Illuminate\Contracts\Auth\Authenticatable as UserContract;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Collection as LaravelCollection;
@@ -14,6 +15,36 @@ use Tests\TestCase;
 abstract class ApiTestCase extends TestCase
 {
     use RefreshDatabase;
+
+    /** @var UserContract */
+    private $user;
+
+    public function actingAsUserWithInvalidToken(): self
+    {
+        $this->user = 'invalid';
+
+        return $this;
+    }
+
+    public function actingAs(UserContract $user, $driver = null): self
+    {
+        $this->user = $user;
+
+        return $this;
+    }
+
+    public function json($method, $uri, array $data = [], array $headers = [])
+    {
+        if ($this->user instanceof UserContract) {
+            $headers['Authorization'] = 'Bearer ' . auth('api')->login($this->user);
+        }
+
+        if ($this->user === 'invalid') {
+            $headers['Authorization'] = 'Bearer invalid';
+        }
+
+        return parent::json($method, $uri, $data, $headers);
+    }
 
     /**
      * @param mixed $data

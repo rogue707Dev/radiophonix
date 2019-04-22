@@ -89,7 +89,7 @@ class Handler extends ExceptionHandler
                     $statusCode = Response::HTTP_UNAUTHORIZED;
                 } elseif ($e instanceof TokenInvalidException) {
                     $message = 'Token invalid';
-                    $statusCode = Response::HTTP_UNPROCESSABLE_ENTITY;
+                    $statusCode = Response::HTTP_UNAUTHORIZED;
                 } elseif ($e instanceof TokenBlacklistedException) {
                     $message = 'Token blacklisted';
                     $statusCode = Response::HTTP_UNAUTHORIZED;
