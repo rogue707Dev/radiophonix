@@ -169,7 +169,7 @@ build:dev:
         - echo 'RADIOPHONIX_FEATURES_CONFIG=development' > .env
         - echo 'RADIOPHONIX_ENV=dev' >> .env
         - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" >> .env
-        - npm run build-dev
+        - yarn run build-dev
         - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-dev
         - mkdir -p artefacts
         - cp deploy/Envoy.dev.blade.php artefacts/Envoy.blade.php
@@ -218,7 +218,7 @@ build:staging:
         - echo 'RADIOPHONIX_FEATURES_CONFIG=production' > .env
         - echo 'RADIOPHONIX_ENV=staging' >> .env
         - echo "RADIOPHONIX_API_URL=https://staging.radiophonix.org/api/v1/" >> .env
-        - npm run build
+        - yarn run build
         - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-dev
         - mkdir -p artefacts
         - cp deploy/Envoy.staging.blade.php artefacts/Envoy.blade.php
@@ -266,7 +266,7 @@ build:production:
         - yarn --pure-lockfile --cache-folder .yarn
         - echo 'RADIOPHONIX_FEATURES_CONFIG=production' > .env
         - echo "RADIOPHONIX_API_URL=https://radiophonix.org/api/v1/" >> .env
-        - npm run build
+        - yarn run build
         - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-dev
         - mkdir -p artefacts
         - cp deploy/Envoy.production.blade.php artefacts/Envoy.blade.php
