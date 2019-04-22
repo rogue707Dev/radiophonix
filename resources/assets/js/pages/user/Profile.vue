@@ -26,12 +26,21 @@
 
             <div class="layout-badge">
 
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
+                <div class="cover var--petit var--badge layout-badge__item"
+                     data-toggle="popover"
+                     data-placement="bottom"
+                     data-trigger="hover"
+                     title="Popover title"
+                     data-content="And here's some amazing content. It's very engaging. Right?">
                     <div class="cover__mask">
                         <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
                     </div>
                 </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
+                <div class="cover var--petit var--badge layout-badge__item"
+                     data-toggle="popover"
+                     data-placement="bottom"
+                     title="Popover title"
+                     data-content="And here's some amazing content. It's very engaging. Right?">
                     <div class="cover__mask">
                         <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
                     </div>
