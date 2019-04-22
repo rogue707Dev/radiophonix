@@ -1,0 +1,93 @@
+/*======================================================================================================================
+$ DISPOSITION
+======================================================================================================================*/
+.progression {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10px auto;
+    grid-column-gap: $espacement-standard--petit;
+    align-items: center;
+}
+.progression *:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 2;
+}
+.progression *:nth-child(2) {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+.progression *:nth-child(3) {
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+
+
+/*======================================================================================================================
+$ APPARENCE DE BASE
+======================================================================================================================*/
+.progression {
+    color: $bleu-400;
+}
+.progression__barre {
+    height: 10px;
+    width: 100%;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+/*======================================================================================================================
+$ NORMAL
+======================================================================================================================*/
+
+/*-----------------------------------------------------------------------------
+$ DESIGN FOND
+-----------------------------------------------------------------------------*/
+.progression__barre {
+    @include progression__fond-barre;
+}
+.progression__barre::-webkit-progress-bar {
+    @include progression__fond-barre;
+}
+
+/*-----------------------------------------------------------------------------
+$ DESIGN BARRE
+/*---------------------------------------------------------------------------*/
+.progression__barre::-webkit-progress-value {
+    @include progression__barre;
+}
+.progression__barre::-moz-progress-bar {
+    @include progression__barre;
+}
+
+
+
+/*======================================================================================================================
+$ LECTEUR
+======================================================================================================================*/
+
+
+/*-----------------------------------------------------------------------------
+$ DESIGN FOND
+-----------------------------------------------------------------------------*/
+.progression__barre.var--lecteur {
+    @include progression--lecteur__fond-barre;
+}
+
+.progression__barre.var--lecteur::-webkit-progress-bar {
+    @include progression--lecteur__fond-barre;
+}
+
+
+/*-----------------------------------------------------------------------------
+$ DESIGN BARRE
+/*---------------------------------------------------------------------------*/
+.progression__barre.var--lecteur::-webkit-progress-value {
+    @include progression--lecteur__barre;
+}
+.progression__barre.var--lecteur::-moz-progress-bar {
+    @include progression--lecteur__barre;
+}

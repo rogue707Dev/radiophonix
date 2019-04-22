@@ -5,7 +5,6 @@ $largeur-cover: 280px;
 
 .lecteur {
     display: grid;
-    row-gap: 20px;
     margin: 0 auto;
     padding: 20px 20px $padding-sidebar;
 
@@ -81,7 +80,7 @@ $ CONTENU
 .lecteur__contenu {
     width: $largeur-cover;
     display: grid;
-    row-gap: 20px;
+    row-gap: 15px;
     margin: 0 auto;
 }
 
@@ -117,35 +116,4 @@ $ BOUTON SUPLEMENTAIRE
             display: none !important;
         }
     }
-}
-
-
-/*======================================================================================================================
-$ BARRE de progression
-======================================================================================================================*/
-.lecteur__progression {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-column-gap: $espacement-standard--petit;
-    align-items: center;
-    color: $bleu-400;
-}
-.lecteur__progression__barre {
-    background-color: $primary;
-    border: 0;
-    height: 10px;
-    width: 100%;
-
-    &:hover {
-        cursor: pointer;
-    }
-}
-.lecteur__progression__barre::-webkit-progress-bar {
-    background-color: $primary;
-}
-.lecteur__progression__barre::-webkit-progress-value {
-    background: $bleu-400;
-}
-.lecteur__progression__barre::-moz-progress-bar {
-    background: $bleu-400;
 }

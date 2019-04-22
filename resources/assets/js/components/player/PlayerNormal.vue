@@ -44,6 +44,7 @@
 
 
             <div class="lecteur__contenu">
+
                 <!----------------------------------------
                 Info du morceau
                 ------------------------------------------>
@@ -69,9 +70,9 @@
                 <!----------------------------------------
                 Progession
                 ------------------------------------------>
-                <div class="lecteur__progression text-dark h5">
+                <div class="progression text-dark h5">
                     <span>{{ currentTime }}</span>
-                    <progress class="lecteur__progression__barre"
+                    <progress class="progression__barre var--lecteur"
                               @click="seek"
                               :value="currentPercentage"
                               max="100"></progress>
