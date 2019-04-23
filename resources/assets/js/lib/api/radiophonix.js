@@ -1,11 +1,11 @@
+import store from '~/lib/store';
 import AuthorResource from './resources/AuthorResource';
 import CollectionResource from './resources/CollectionResource';
 import GenreResource from './resources/GenreResource';
 import SagaResource from './resources/SagaResource';
 import TrackResource from './resources/TrackResource';
-import ProfileResource from './resources/ProfileResource';
 import TeamResource from './resources/TeamResource';
-import store from '~/lib/store';
+import ProfileResource from './resources/ProfileResource';
 
 class Radiophonix {
     constructor(axios) {
@@ -16,8 +16,9 @@ class Radiophonix {
         this.genres = GenreResource(axios);
         this.sagas = SagaResource(axios);
         this.tracks = TrackResource(axios);
-        this.profile = ProfileResource(axios);
         this.teams = TeamResource(axios);
+
+        this.profile = ProfileResource(axios);
     }
 
     get likes() {
