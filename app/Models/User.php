@@ -5,6 +5,7 @@ namespace Radiophonix\Models;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Support\Collection;
 use Radiophonix\Models\Support\HasFakeId;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
@@ -18,6 +19,7 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read Author $author
+ * @property-read Collection|Badge[] $badges
  */
 class User extends Authenticatable implements JWTSubject
 {
@@ -76,6 +78,11 @@ class User extends Authenticatable implements JWTSubject
     public function author()
     {
         return $this->hasOne(Author::class);
+    }
+
+    public function badges()
+    {
+        return $this->belongsToMany(Badge::class, 'user_badges');
     }
 
     public function getAvatarAttribute()
