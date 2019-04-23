@@ -6,6 +6,7 @@ use Radiophonix\Http\Controllers\Api\V1\Auth\RegisterUser;
 use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthors;
 use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthorSagas;
 use Radiophonix\Http\Controllers\Api\V1\Author\ShowAuthor;
+use Radiophonix\Http\Controllers\Api\V1\Badge\ListUserBadges;
 use Radiophonix\Http\Controllers\Api\V1\Collection\ListCollectionTracks;
 use Radiophonix\Http\Controllers\Api\V1\Collection\ShowCollection;
 use Radiophonix\Http\Controllers\Api\V1\Genre\ListGenres;
@@ -19,6 +20,7 @@ use Radiophonix\Http\Controllers\Api\V1\Search\SearchAll;
 use Radiophonix\Http\Controllers\Api\V1\Team\ListTeams;
 use Radiophonix\Http\Controllers\Api\V1\Team\ListTeamSagas;
 use Radiophonix\Http\Controllers\Api\V1\Team\ShowTeam;
+use Radiophonix\Http\Controllers\Api\V1\Tick\SaveTick;
 use Radiophonix\Http\Controllers\Api\V1\Track\ShowTrack;
 use Radiophonix\Http\Controllers\Api\V1\User\ShowProfile;
 
@@ -35,6 +37,8 @@ Route::get('/sagas', ListSagas::class);
 
     Route::get('/tracks/{track}', ShowTrack::class);
 //});
+
+//Route::get('/ticks');
 
 Route::get('/genres', ListGenres::class);
 Route::get('/genres/{genre}', ShowGenre::class);
@@ -87,12 +91,15 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 //        Route::put('/sagas/{saga}', UpdateSaga::class);
 //        Route::delete('/sagas/{saga}', DestroySaga::class);
 //    });
-//
-//    // Likes
+
+    // Likes
     Route::get('/likes', ListUserLikes::class);
     Route::post('/likes/saga/{saga}', Saga\AddLike::class);
     Route::delete('/likes/saga/{saga}', Saga\RemoveLike::class);
-//
+
+    // Badges
+    Route::get('/badges', ListUserBadges::class);
+
 //    // Subscriptions
 //    Route::get('/subscriptions', ListUserSubscriptions::class);
 //    Route::post('/sagas/{saga}/subscriptions', SubscribeToSaga::class);
@@ -117,9 +124,9 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 //    Route::get('/ticks', ListTicks::class);
 //    Route::get('/ticks/current', CurrentTick::class);
 //    Route::get('/ticks/{saga}', ShowTickForSaga::class);
-//    Route::group(['middleware' => 'throttle:10,1'], function () {
-//        Route::post('/ticks/{track}', DoTick::class);
-//    });
+    Route::group(['middleware' => 'throttle:10,1'], function () {
+        Route::post('/ticks/{track}', SaveTick::class);
+    });
 });
 
 //*/

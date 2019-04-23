@@ -2,21 +2,28 @@
 
 namespace Radiophonix\Http\Transformers;
 
+use League\Fractal\Resource\Collection;
 use League\Fractal\Resource\Item;
 use Radiophonix\Http\Transformers\Support\Transformer;
 use Radiophonix\Models\Author;
+use Radiophonix\Models\Badge;
 use Radiophonix\Models\User;
 
 class ProfileTransformer extends Transformer
 {
-    protected $availableIncludes = ['author'];
+    protected $availableIncludes = [
+        'author',
+        'badges',
+    ];
 
     public function transform(User $user): array
     {
-        $includes = [];
+        $includes = [
+            'badges',
+        ];
 
         if ($user->author instanceof Author) {
-            $includes = ['author'];
+            $includes[] = 'author';
         }
 
         $this->setDefaultIncludes($includes);
@@ -33,5 +40,13 @@ class ProfileTransformer extends Transformer
     public function includeAuthor(User $user): Item
     {
         return $this->item($user->author, new AuthorTransformer());
+    }
+
+    public function includeBadges(User $user): Collection
+    {
+        // @todo remplacer par les vrai badges
+        $badges = Badge::query()->inRandomOrder()->take(rand(1, 15))->get();
+
+        return $this->collection($badges, new BadgeTransformer());
     }
 }
