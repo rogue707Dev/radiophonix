@@ -3,12 +3,12 @@
 namespace Radiophonix\Console\Commands;
 
 use Carbon\Carbon;
-use DatabaseSeeder;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Radiophonix\Models\Author;
+use Radiophonix\Models\Badge;
 use Radiophonix\Models\Collection;
 use Radiophonix\Models\Genre;
 use Radiophonix\Models\Saga;
@@ -48,10 +48,23 @@ class AlphaSeed extends Command
         $this->info('');
 
         $this->seedAuthors();
+        $this->info('');
 
+        $this->seedSagas();
+        $this->info('');
+
+        $this->seedBadges();
+        $this->info('');
+
+        \Eloquent::reguard();
+
+        return true;
+    }
+
+    private function seedSagas()
+    {
         $imports = $this->loadJsonFiles('sagas');
 
-        $this->info('');
         $this->output->write('Sagas');
 
         $genres = [];
@@ -82,7 +95,7 @@ class AlphaSeed extends Command
             $saga->save();
 
             collect($importSaga['authors'])
-                ->each(function($authorName) use ($saga) {
+                ->each(function ($authorName) use ($saga) {
                     $author = Author::where('name', '=', $authorName)->first();
 
                     $saga->authors()->save($author);
@@ -110,7 +123,7 @@ class AlphaSeed extends Command
 //                    $this->info("\t[MEDIA] Saga::$name ($filePath)");
 
                     $saga->addMedia($filePath)
-                        ->withCustomProperties(['colors' => true])
+//                        ->withCustomProperties(['colors' => true])
                         ->preservingOriginal()
                         ->toMediaCollection($name);
 
@@ -188,12 +201,6 @@ class AlphaSeed extends Command
 
             $this->output->write('.');
         });
-
-        $this->info('');
-
-        \Eloquent::reguard();
-
-        return true;
     }
 
     /**
@@ -211,7 +218,7 @@ class AlphaSeed extends Command
      */
     private function loadJsonFiles($path)
     {
-        return collect(Storage::disk('alpha')->files('seeds/' . $path))
+        $data = collect(Storage::disk('alpha')->files('seeds/' . $path))
             ->filter(function ($path) {
                 return substr($path, -5) === '.json';
             })
@@ -221,6 +228,8 @@ class AlphaSeed extends Command
                     true
                 );
             });
+
+        return $data->shuffle();
     }
 
     private function seedUsers(): void
@@ -239,7 +248,7 @@ class AlphaSeed extends Command
         $this->output->write('Equipes');
 
         $this->loadJsonFiles('teams')
-            ->each(function($teamData) {
+            ->each(function ($teamData) {
                 $slug = Str::slug($teamData['name']);
 
                 $user = User::create([
@@ -318,7 +327,7 @@ class AlphaSeed extends Command
 
             if (isset($authorData['teams'])) {
                 collect($authorData['teams'])
-                    ->each(function($teamName) use ($author) {
+                    ->each(function ($teamName) use ($author) {
                         $team = Team::query()->where('name', $teamName)->first();
 
                         $author->teams()->save($team);
@@ -327,5 +336,19 @@ class AlphaSeed extends Command
 
             $this->output->write('.');
         });
+    }
+
+    private function seedBadges()
+    {
+        $this->output->write('Badges');
+
+        factory(Badge::class)->times(30)->create();
+
+        $badges = Badge::all();
+        $users = User::all();
+
+        foreach ($users as $user) {
+            $user->badges()->attach($badges->random(rand(1, 15)));
+        }
     }
 }
