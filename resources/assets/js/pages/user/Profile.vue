@@ -7,8 +7,7 @@
                 <cover
                         size="banniere"
                         type="auteur"
-                        :urlImage="profile.avatar"
-                        :altImage="Avatar">
+                        :urlImage="profile.avatar">
                 </cover>
             </template>
 
