@@ -26,100 +26,19 @@
             <div class="layout-badge">
 
                 <div class="cover var--petit var--badge layout-badge__item"
-                     v-b-popover.hover.top="'Pour être venu nous voir en personne à l\'évènement.'"
-                     title="MP3@Paris 2019">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item"
-                     v-b-popover.hover.bottom="'Pour être venu nous voir en personne à l\'évènement.'"
-                     title="MP3@Paris 2019">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" id="badge-1">
-                    <b-tooltip target="badge-1">
-                        <div class="text-left">
-                            <h2 style="font-size: 1rem;">MP3@Paris 2019</h2>
-                            <p>
-                                Pour être venu nous voir en personne à l'évènement.
-                            </p>
-                        </div>
-                    </b-tooltip>
+                     v-for="badge in profile.badges"
+                     :id="'badge-popover-' + badge.key">
+                    <b-popover :target="'badge-popover-' + badge.key"
+                               triggers="hover focus"
+                               placement="top"
+                               :title="badge.title"
+                                :content="badge.description"></b-popover>
 
                     <div class="cover__mask">
                         <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
                     </div>
                 </div>
-                <div class="cover var--petit var--badge layout-badge__item" id="badge-2">
-                    <b-popover target="badge-2" triggers="hover focus" placement="top">
-                        <h2 class="h2">MP3@Paris 2019</h2>
-                        <p>
-                            Pour être venu nous voir en personne à l'évènement.
-                        </p>
-                    </b-popover>
 
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
-                <div class="cover var--petit var--badge layout-badge__item" v-b-tooltip.hover.top title="Badge">
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                    </div>
-                </div>
             </div>
 
 
@@ -203,6 +122,7 @@
         data: () => ({
             profile: {
                 author: {},
+                badges: [],
             },
         }),
 
