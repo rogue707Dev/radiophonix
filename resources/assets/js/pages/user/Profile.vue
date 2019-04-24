@@ -14,7 +14,7 @@
             <div class="mt-3">
                 <button class="btn btn-outline-secondary btn-sm mb-2">
                     <i class="fa fa-cog" aria-hidden="true"></i>
-                    Editer le profile
+                    Éditer le profil
                 </button>
             </div>
         </banner>
