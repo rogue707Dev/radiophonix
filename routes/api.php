@@ -19,6 +19,8 @@ use Radiophonix\Http\Controllers\Api\V1\Search\SearchAll;
 use Radiophonix\Http\Controllers\Api\V1\Team\ListTeams;
 use Radiophonix\Http\Controllers\Api\V1\Team\ListTeamSagas;
 use Radiophonix\Http\Controllers\Api\V1\Team\ShowTeam;
+use Radiophonix\Http\Controllers\Api\V1\Tick\ListTicks;
+use Radiophonix\Http\Controllers\Api\V1\Tick\SaveTick;
 use Radiophonix\Http\Controllers\Api\V1\Track\ShowTrack;
 use Radiophonix\Http\Controllers\Api\V1\User\ShowProfile;
 
@@ -115,12 +117,12 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 //        Route::post('/tracks/{track}/upload', 'UploadController@track');
 //    });
 //
-//    // Audio player
-//    Route::get('/ticks', ListTicks::class);
+    // Audio player
+    Route::get('/ticks', ListTicks::class);
 //    Route::get('/ticks/current', CurrentTick::class);
 //    Route::get('/ticks/{saga}', ShowTickForSaga::class);
-//    Route::group(['middleware' => 'throttle:10,1'], function () {
-//        Route::post('/ticks/{track}', SaveTick::class);
+//    Route::group(['middleware' => 'throttle:15,1'], function () {
+        Route::post('/ticks/{track}', SaveTick::class);
 //    });
 });
 

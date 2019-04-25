@@ -7,12 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
- * @property int $id
+ * @property string $uuid
  * @property int $user_id
  * @property int $saga_id
  * @property int $track_id
- * @property int $seconds
- * @property bool $finished
+ * @property int $progress
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read Saga $saga
@@ -21,14 +20,16 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  */
 class Tick extends Model
 {
-    /**
-     * @var array
-     */
-    protected $fillable = ['seconds'];
+    /** @var string */
+    protected $primaryKey = 'uuid';
+
+    /** @var string */
+    protected $keyType = 'string';
+
+    /** @var bool */
+    public $incrementing = false;
 
     /**
-     * The User who's listening to this Track
-     *
      * @return BelongsTo
      */
     public function user()
@@ -37,18 +38,6 @@ class Tick extends Model
     }
 
     /**
-     * The associated Saga
-     *
-     * @return BelongsTo
-     */
-    public function saga()
-    {
-        return $this->belongsTo(Saga::class);
-    }
-
-    /**
-     * The associated Track
-     *
      * @return BelongsTo
      */
     public function track()

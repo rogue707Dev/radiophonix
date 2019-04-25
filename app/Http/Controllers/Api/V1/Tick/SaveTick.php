@@ -3,34 +3,35 @@
 namespace Radiophonix\Http\Controllers\Api\V1\Tick;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
+use Radiophonix\Http\Requests\Tick\SaveTickRequest;
 use Radiophonix\Models\Tick;
 use Radiophonix\Models\Track;
 use Symfony\Component\HttpFoundation\Response;
 
-class DoTick extends ApiController
+class SaveTick extends ApiController
 {
     /**
-     * @param Request $request
+     * @param SaveTickRequest $request
      * @param Track $track
      * @return Response
      */
-    public function __invoke(Request $request, Track $track)
+    public function __invoke(SaveTickRequest $request, Track $track)
     {
         /** @var Tick $tick */
-        $tick = Tick::where('user_id', '=', $this->user()->id)
+        $tick = Tick::query()->where('user_id', '=', $this->user()->id)
             ->where('track_id', $track->id)
             ->first();
 
-        if ($tick == null) {
-            $tick = new Tick;
+        if (null === $tick) {
+            $tick = new Tick();
+            $tick->uuid = Str::orderedUuid();
         }
-
-        $data = $request->all();
 
         $tick->user()->associate($this->user());
         $tick->track()->associate($track);
-        $tick->seconds = $data['seconds'];
+        $tick->progress = (int)$request->get('progress');
 
         $tick->save();
 

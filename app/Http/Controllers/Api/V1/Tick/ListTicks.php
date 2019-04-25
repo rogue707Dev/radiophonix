@@ -14,7 +14,9 @@ class ListTicks extends ApiController
      */
     public function __invoke()
     {
-        $ticks = Tick::where('user_id', '=', $this->user()->id)
+        $ticks = Tick::query()
+            ->with('track')
+            ->where('user_id', '=', $this->user()->id)
             ->get();
 
         return $this->collection($ticks, new TickTransformer);
