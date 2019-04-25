@@ -40,7 +40,8 @@ export default () => {
 
         return response;
     }, (error) => {
-        if (error.config
+        if (store.getters['auth/isAuthenticated']
+            && error.config
             && error.response
             && error.response.status === 401
         ) {
