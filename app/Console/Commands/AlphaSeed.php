@@ -2,6 +2,7 @@
 
 namespace Radiophonix\Console\Commands;
 
+use Artisan;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
@@ -342,13 +343,11 @@ class AlphaSeed extends Command
     {
         $this->output->write('Badges');
 
-        factory(Badge::class)->times(30)->create();
+        Artisan::call('badge:sync');
 
-        $badges = Badge::all();
-        $users = User::all();
+        $user = User::fromNameOrFakeId('John-Smith');
+        $user->badges()->attach(Badge::all());
 
-        foreach ($users as $user) {
-            $user->badges()->attach($badges->random(rand(1, 15)));
-        }
+        $this->output->write('.');
     }
 }

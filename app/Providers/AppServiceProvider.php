@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 use League\Fractal\Manager;
+use Radiophonix\Badge\BadgeRegistry;
 use Radiophonix\Http\Serializers\ApiSerializer;
 use Radiophonix\Models;
 use Radiophonix\Models\Support\Observers\TrackObserver;
@@ -53,5 +54,7 @@ class AppServiceProvider extends ServiceProvider
 
             return $fractal;
         });
+
+        $this->app->singleton(BadgeRegistry::class);
     }
 }

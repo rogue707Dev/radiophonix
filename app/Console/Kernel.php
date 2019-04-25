@@ -6,6 +6,7 @@ use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 use Radiophonix\Console\Commands\AlphaRefresh;
 use Radiophonix\Console\Commands\AlphaSeed;
+use Radiophonix\Console\Commands\Badge\SyncCommand;
 use Radiophonix\Console\Commands\PublishTracks;
 
 class Kernel extends ConsoleKernel
@@ -19,6 +20,7 @@ class Kernel extends ConsoleKernel
         PublishTracks::class,
         AlphaSeed::class,
         AlphaRefresh::class,
+        SyncCommand::class,
     ];
 
     /**

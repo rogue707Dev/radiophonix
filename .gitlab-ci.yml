@@ -170,7 +170,7 @@ build:dev:
         - echo 'RADIOPHONIX_ENV=dev' >> .env
         - echo "RADIOPHONIX_API_URL=https://dev.radiophonix.org/api/v1/" >> .env
         - yarn run build-dev
-        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-dev
         - mkdir -p artefacts
         - cp deploy/Envoy.dev.blade.php artefacts/Envoy.blade.php
         - tar -jcf artefacts/radiophonix.tar.bz2 --exclude=./artefacts --exclude=./node_modules --exclude=./.yarn --exclude=./tests --exclude=./.git --exclude=./server.php .

@@ -44,9 +44,6 @@ class ProfileTransformer extends Transformer
 
     public function includeBadges(User $user): Collection
     {
-        // @todo remplacer par les vrai badges
-        $badges = Badge::query()->inRandomOrder()->take(rand(1, 15))->get();
-
-        return $this->collection($badges, new BadgeTransformer());
+        return $this->collection($user->badges, new BadgeTransformer());
     }
 }
