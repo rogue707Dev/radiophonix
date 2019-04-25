@@ -70,7 +70,7 @@ class Handler extends ExceptionHandler
         if ($request->isJson()
             || $request->wantsJson()
             || $request->isXmlHttpRequest()
-            || config('app.debug')
+            || app()->environment('production')
         ) {
             $statusCode = 500;
             $message = $e->getMessage() ?? 'Internal error';
@@ -121,8 +121,8 @@ class Handler extends ExceptionHandler
             }
 
             if (config('app.debug')) {
-                $data['trace'] = explode("\n", $e->getTraceAsString());
                 $data['class'] = get_class($e);
+                $data['trace'] = explode("\n", $e->getTraceAsString());
             }
 
             return new ApiResponse($data, $statusCode);
