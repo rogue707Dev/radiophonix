@@ -126,4 +126,8 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 //    });
 });
 
+Route::any('{any}', function() {
+    abort(404);
+})->where('any', '.*');
+
 //*/
