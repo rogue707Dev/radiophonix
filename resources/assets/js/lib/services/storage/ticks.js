@@ -7,7 +7,7 @@ export default {
         ticks[sagaId] = {
             saga: sagaId + '',
             track: trackId + '',
-            percentage: percentage,
+            progress: parseInt(percentage * 1000),
         };
 
         storage.set('ticks', ticks);
@@ -18,7 +18,7 @@ export default {
         let ticks = storage.get('ticks');
         let currentTick = storage.get('currentTick');
 
-        ticks[currentTick].percentage = percentage;
+        ticks[currentTick].progress = parseInt(percentage * 1000);
 
         storage.set('ticks', ticks);
     },
@@ -26,17 +26,33 @@ export default {
     current: () => {
         let ticks = storage.get('ticks', {});
         let currentTick = storage.get('currentTick');
+        let tick = ticks[currentTick] || null;
 
-        return new Promise(resolve => {
-            resolve(ticks[currentTick] || null);
-        });
+        if (!tick) {
+            return Promise.resolve(null);
+        }
+
+        tick.percentage = tick.progress / 1000;
+
+        return Promise.resolve(tick);
     },
 
     get: (sagaId) => {
         let ticks = storage.get('ticks', {});
+        let tick = ticks[sagaId] || null;
 
-        return new Promise(resolve => {
-            resolve(ticks[sagaId] || null);
-        });
+        if (!tick) {
+            return Promise.resolve(null);
+        }
+
+        tick.percentage = tick.progress / 1000;
+
+        return Promise.resolve(tick);
+    },
+
+    all: () => {
+        let ticks = storage.get('ticks', []);
+
+        return Promise.resolve(Object.values(ticks));
     },
 };

@@ -140,11 +140,12 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex';
+import { mapState, mapActions, mapGetters } from 'vuex';
 import Player from '~/lib/Player';
 import TextEllispis from '~/components/text/TextEllipsis.vue';
 import TrackLength from '~/components/track/TrackLength.vue';
 import LikeButton from "~/components/Like/LikeButton";
+import api from '~/lib/api';
 
 export default {
     components: {
@@ -157,16 +158,22 @@ export default {
         totalSteps: 100,
     }),
 
-    computed: mapState('player', [
-        'isPlaying',
-        'currentTrack',
-        'currentSaga',
-        'currentCollection',
-        'currentCollections',
-        'currentPercentage',
-        'currentTime',
-        'isLoading',
-    ]),
+    computed: {
+        ...mapState('player', [
+            'isPlaying',
+            'currentTrack',
+            'currentSaga',
+            'currentCollection',
+            'currentCollections',
+            'currentPercentage',
+            'currentTime',
+            'isLoading',
+        ]),
+
+        ...mapGetters('auth', [
+            'isAuthenticated',
+        ]),
+    },
 
     methods: {
         ...mapActions('player', [
@@ -203,22 +210,49 @@ export default {
             Player.storePercentage();
         },
 
-        startLoop() {
+        startLoops() {
             let vm = this;
 
-            let loop = setInterval(function () {
+            let loopForView = setInterval(function () {
                 vm.$store.dispatch('player/refresh');
                 Player.storePercentage();
 
                 if (!vm.$store.state.player.isPlaying) {
-                    clearInterval(loop);
+                    clearInterval(loopForView);
                 }
             }, 1000);
+
+            if (!this.isAuthenticated) {
+                return;
+            }
+
+            let tickIsSending = false;
+
+            let loopForTicks = setInterval(function () {
+                if (tickIsSending) {
+                    return;
+                }
+
+                tickIsSending = true;
+
+                api.ticks
+                    .savePercentage(
+                        vm.$store.state.player.currentTrack.id,
+                        Player.percentage()
+                    )
+                    .then(() => {
+                        tickIsSending = false;
+                    });
+
+                if (!vm.$store.state.player.isPlaying) {
+                    clearInterval(loopForTicks);
+                }
+            }, 5000);
         },
     },
 
     watch: {
-        'isPlaying': 'startLoop',
+        'isPlaying': 'startLoops',
     },
 
     created() {

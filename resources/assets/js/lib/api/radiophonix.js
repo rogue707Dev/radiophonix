@@ -7,6 +7,7 @@ import TrackResource from './resources/TrackResource';
 import TeamResource from './resources/TeamResource';
 import ProfileResource from './resources/ProfileResource';
 import BadgeResource from "~/lib/api/resources/BadgeResource";
+import TickResource from "~/lib/api/resources/TickResource";
 
 class Radiophonix {
     constructor(axios) {
@@ -21,6 +22,7 @@ class Radiophonix {
 
         this.profile = ProfileResource(axios);
         this.badges = BadgeResource(axios);
+        this.ticks = TickResource(axios);
     }
 
     get likes() {
