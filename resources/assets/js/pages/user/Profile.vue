@@ -11,7 +11,7 @@
                 </cover>
             </template>
 
-            <div class="mt-3">
+            <div class="mt-3" v-if="isProfileOfCurrentUser">
                 <button class="btn btn-outline-secondary btn-sm mb-2">
                     <i class="fa fa-cog" aria-hidden="true"></i>
                     Éditer le profil
@@ -114,6 +114,7 @@
 </template>
 
 <script>
+    import { mapGetters } from 'vuex';
     import api from '~/lib/api';
     import Banner from '~/components/content/Banner.vue';
     import Cover from '~/components/content/Cover.vue';
@@ -128,7 +129,29 @@
 
         components: {
             Banner,
-            Cover
+            Cover,
+        },
+
+        computed: {
+            ...mapGetters('auth', [
+                'isAuthenticated',
+            ]),
+
+            isProfileOfCurrentUser() {
+                if (!this.isAuthenticated) {
+                    return false;
+                }
+
+                if (!this.$store.state.auth.user) {
+                    return false;
+                }
+
+                if (!this.$store.state.auth.user.name) {
+                    return false;
+                }
+
+                return this.$store.state.auth.user.name === this.$route.params.user;
+            },
         },
 
         methods: {
