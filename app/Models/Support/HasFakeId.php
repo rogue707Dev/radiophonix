@@ -4,7 +4,7 @@ namespace Radiophonix\Models\Support;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Query\Builder;
-use Radiophonix\Services\FakeId\FakeIdManager;
+use Radiophonix\Domain\Services\FakeId\FakeIdManager;
 
 /**
  * This trait can be used on Models to allow them to have a fake id based on

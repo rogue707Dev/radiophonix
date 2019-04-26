@@ -1,6 +1,6 @@
 <?php
 
-namespace Radiophonix\Badge;
+namespace Radiophonix\Domain\Badge;
 
 use Radiophonix\Models\User;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Radiophonix\Http\Transformers;
+namespace Radiophonix\Http\Transformers\Image;
 
 use Radiophonix\Http\Transformers\Support\Transformer;
 use Spatie\MediaLibrary\HasMedia\HasMedia;

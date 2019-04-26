@@ -1,9 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Radiophonix\Http\Transformers;
+namespace Radiophonix\Http\Transformers\Profile;
 
 use Illuminate\Support\Collection;
+use Radiophonix\Http\Transformers\SagaTransformer;
 use Radiophonix\Http\Transformers\Support\Transformer;
 use Radiophonix\Models\Like;
 

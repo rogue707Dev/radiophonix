@@ -1,8 +1,8 @@
 <?php
 
-namespace Radiophonix\Badge\Badges;
+namespace Radiophonix\Domain\Badge\Badges;
 
-use Radiophonix\Badge\BadgeGiver;
+use Radiophonix\Domain\Badge\BadgeGiver;
 use Radiophonix\Models\User;
 
 class Mp3AtParis2019Badge implements BadgeGiver

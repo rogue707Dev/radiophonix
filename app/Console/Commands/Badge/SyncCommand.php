@@ -3,8 +3,8 @@
 namespace Radiophonix\Console\Commands\Badge;
 
 use Illuminate\Console\Command;
-use Radiophonix\Badge\BadgeRegistry;
-use Radiophonix\Badge\BadgeType;
+use Radiophonix\Domain\Badge\BadgeRegistry;
+use Radiophonix\Domain\Badge\BadgeType;
 use Radiophonix\Models\Badge;
 
 class SyncCommand extends Command

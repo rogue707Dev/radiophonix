@@ -3,7 +3,7 @@
 namespace Radiophonix\Http\Transformers;
 
 use League\Fractal\Resource\Item;
-use Radiophonix\Dto\LoginDto;
+use Radiophonix\Domain\Dto\LoginDto;
 use Radiophonix\Http\Transformers\Support\Transformer;
 
 class LoginTransformer extends Transformer

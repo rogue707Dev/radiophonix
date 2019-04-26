@@ -1,12 +1,13 @@
 <?php
 
-namespace Radiophonix\Http\Transformers;
+namespace Radiophonix\Http\Transformers\Profile;
 
 use League\Fractal\Resource\Collection;
 use League\Fractal\Resource\Item;
+use Radiophonix\Http\Transformers\AuthorTransformer;
+use Radiophonix\Http\Transformers\BadgeTransformer;
 use Radiophonix\Http\Transformers\Support\Transformer;
 use Radiophonix\Models\Author;
-use Radiophonix\Models\Badge;
 use Radiophonix\Models\User;
 
 class ProfileTransformer extends Transformer

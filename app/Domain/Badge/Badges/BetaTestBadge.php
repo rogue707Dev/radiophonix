@@ -1,9 +1,9 @@
 <?php
 
-namespace Radiophonix\Badge\Badges;
+namespace Radiophonix\Domain\Badge\Badges;
 
 use Illuminate\Support\Facades\Date;
-use Radiophonix\Badge\BadgeGiver;
+use Radiophonix\Domain\Badge\BadgeGiver;
 use Radiophonix\Models\User;
 
 class BetaTestBadge implements BadgeGiver

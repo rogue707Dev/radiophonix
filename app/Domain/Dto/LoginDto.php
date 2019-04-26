@@ -1,6 +1,6 @@
 <?php
 
-namespace Radiophonix\Dto;
+namespace Radiophonix\Domain\Dto;
 
 use Illuminate\Support\Collection;
 use Radiophonix\Models\Like;

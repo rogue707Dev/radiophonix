@@ -1,6 +1,6 @@
 <?php
 
-namespace Radiophonix\Search;
+namespace Radiophonix\Domain\Search;
 
 use Illuminate\Support\Collection;
 use Radiophonix\Http\Transformers\Support\Transformer;

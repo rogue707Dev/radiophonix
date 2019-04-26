@@ -5,7 +5,7 @@ namespace Radiophonix\Http\Transformers\Support;
 use DateTime;
 use DateTimeInterface;
 use League\Fractal\TransformerAbstract;
-use Radiophonix\Services\FakeId\FakeIdManager;
+use Radiophonix\Domain\Services\FakeId\FakeIdManager;
 
 abstract class Transformer extends TransformerAbstract
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Radiophonix\Services\FakeId;
+namespace Radiophonix\Domain\Services\FakeId;
 
 use Jenssegers\Optimus\Optimus;
 

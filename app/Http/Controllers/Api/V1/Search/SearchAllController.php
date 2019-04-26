@@ -2,9 +2,9 @@
 
 namespace Radiophonix\Http\Controllers\Api\V1\Search;
 
-use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\QueryException;
+use Radiophonix\Domain\Search\SearchResult;
 use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
 use Radiophonix\Http\Requests\SearchRequest;
@@ -17,7 +17,6 @@ use Radiophonix\Models\Author;
 use Radiophonix\Models\Genre;
 use Radiophonix\Models\Saga;
 use Radiophonix\Models\Track;
-use Radiophonix\Search\SearchResult;
 
 class SearchAllController extends ApiController
 {

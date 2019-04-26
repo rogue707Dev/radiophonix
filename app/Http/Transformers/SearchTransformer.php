@@ -3,9 +3,9 @@
 namespace Radiophonix\Http\Transformers;
 
 use League\Fractal\Resource\Collection;
+use Radiophonix\Domain\Search\ResultSet;
+use Radiophonix\Domain\Search\SearchResult;
 use Radiophonix\Http\Transformers\Support\Transformer;
-use Radiophonix\Search\ResultSet;
-use Radiophonix\Search\SearchResult;
 
 class SearchTransformer extends Transformer
 {

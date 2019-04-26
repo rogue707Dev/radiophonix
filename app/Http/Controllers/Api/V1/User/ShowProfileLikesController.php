@@ -5,7 +5,7 @@ namespace Radiophonix\Http\Controllers\Api\V1\User;
 
 use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
-use Radiophonix\Http\Transformers\ProfileLikesTransformer;
+use Radiophonix\Http\Transformers\Profile\ProfileLikesTransformer;
 use Radiophonix\Models\User;
 use Radiophonix\Repositories\LikeRepository;
 

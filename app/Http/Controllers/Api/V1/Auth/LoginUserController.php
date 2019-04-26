@@ -2,7 +2,7 @@
 
 namespace Radiophonix\Http\Controllers\Api\V1\Auth;
 
-use Radiophonix\Dto\LoginDto;
+use Radiophonix\Domain\Dto\LoginDto;
 use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
 use Radiophonix\Http\Requests\Auth\LoginUserRequest;

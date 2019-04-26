@@ -4,6 +4,7 @@ namespace Radiophonix\Http\Transformers;
 
 use League\Fractal\Resource\Collection;
 use League\Fractal\Resource\Item;
+use Radiophonix\Http\Transformers\Image\SingleImageTransformer;
 use Radiophonix\Http\Transformers\Support\Transformer;
 use Radiophonix\Models\Author;
 

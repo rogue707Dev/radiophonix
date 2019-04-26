@@ -1,10 +1,8 @@
 <?php
 
-namespace Radiophonix\Search;
+namespace Radiophonix\Domain\Search;
 
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\App;
-use League\Fractal\TransformerAbstract;
 use Radiophonix\Http\Transformers\Support\Transformer;
 
 class SearchResult
