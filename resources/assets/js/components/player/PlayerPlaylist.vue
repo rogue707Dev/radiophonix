@@ -14,11 +14,10 @@
             <div class="playlist__liste">
                 <template v-for="collection in currentCollections">
                     <!-- Le nom de la saison n'est affiché que s'il y en a plusieurs -->
-                    <div class="row"
+                    <div class="row" style="background: #3a4651;padding-top: 5px;padding-bottom: 5px;"
                         v-if="currentSaga.stats.collections > 1">
-                        <div class="col-1"></div>
-                        <div class="col h1">
-                            {{ collection.name }}
+                        <div class="col h4">
+                            <text-ellispis :text="collection.name" :size="40" style="color: #fff;"></text-ellispis>
                         </div>
                     </div>
 
