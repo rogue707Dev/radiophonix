@@ -50,7 +50,7 @@ class ApiResponse extends Response
             $content = json_encode($fractal->createData($content)->toArray(), JSON_PRETTY_PRINT);
         } elseif ($content instanceof Jsonable) {
             $content = $content->toJson(JSON_PRETTY_PRINT);
-        } else {
+        } elseif (null !== $content) {
             $content = json_encode($content, JSON_PRETTY_PRINT);
         }
 

@@ -20,15 +20,6 @@ use Tymon\JWTAuth\JWTAuth;
 
 class ApiController extends Controller
 {
-//    public function __construct()
-//    {
-//        if (App::environment() == 'testing') {
-//            $jwt = app(JWTAuth::class);
-//            $jwt->setRequest(Route::getCurrentRequest());
-//            /** @noinspection PhpParamsInspection */
-//        }
-//    }
-
     /**
      * @param string ...$includes
      */
@@ -97,16 +88,9 @@ class ApiController extends Controller
         return new ApiResponse($resource);
     }
 
-    /**
-     * Return an empty HTTP 204 response
-     *
-     * @return \Symfony\Component\HttpFoundation\Response
-     */
-    protected function ok()
+    protected function ok(): ApiResponse
     {
-        $response = new Response(null);
-
-        return $response->setStatusCode(204);
+        return new ApiResponse(null, 204);
     }
 
     /**
@@ -115,7 +99,7 @@ class ApiController extends Controller
      * @param mixed $data
      * @return ApiResponse
      */
-    protected function simple($data)
+    protected function simple($data): ApiResponse
     {
         return new ApiResponse($data);
     }
