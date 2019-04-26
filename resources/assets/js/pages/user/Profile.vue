@@ -41,71 +41,58 @@
 
             </div>
 
+            <nav-list class="mb-2">
+                <nav-item :active="tab === 'ticks'"
+                          @click="tab = 'ticks'"
+                          v-if="isProfileOfCurrentUser">
+                    En cours
+                </nav-item>
+                <nav-item :active="tab === 'favorites'"
+                          @click="tab = 'favorites'">
+                    Favoris
+                </nav-item>
+            </nav-list>
 
-
-            <nav class="nav mb-2">
-                <span class="nav-link active">En cours</span>
-                <span class="nav-link">Favoris</span>
-            </nav>
-
-            <div class="episode-item var--en-cours">
-                <div class="episode-item__cover">
-                    <div class="cover var--petit var--episode">
-                        <div class="cover__mask">
-                            <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
+            <div v-if="tab === 'ticks' && isProfileOfCurrentUser">
+                <template v-if="ticks.length === 0">
+                    Pas d'écoute en cours
+                </template>
+                <template v-else>
+                    <div class="episode-item var--en-cours" v-for="tick in ticks">
+                        <div class="episode-item__cover">
+                            <div class="cover var--petit var--episode">
+                                <div class="cover__mask">
+                                    <img :src="tick.saga.images.cover.thumb" :alt="tick.saga.name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episode-item__content align-content-center h-100 d-grid">
+                            <div>
+                                {{ tick.saga.name }}&nbsp;•&nbsp;<span class="font-weight-bold">{{ tick.track.title }}</span>
+                                <div class="progression text-dark h5 mt-1">
+                                    <track-length :seconds="tickCurrentSeconds(tick)"></track-length>
+                                    <progress :value="tick.progress" max="100000" class="progression__barre"></progress>
+                                    <track-length :seconds="tick.track.seconds" class="text-right"></track-length>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episode-item__etat-lecture">
+                            <button class="btn btn-sm btn-outline-secondary"
+                                    @click="play({track: tick.track, saga: tick.saga, autoStart: true, seekPercentage: tick.progress / 1000})">
+                                <i aria-hidden="true" class="fa fa-play pr-1"></i><span>Écouter</span>
+                            </button>
+                        </div>
+                        <div class="episode-item__download">
+                            <a :href="tick.track.file" target="_blank" class="btn btn-outline-secondary btn-sm mr-xl-3">
+                                <i aria-hidden="true" class="fa fa-download"></i>Télécharger
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="episode-item__content align-content-center h-100 d-grid">
-                    <div>
-                        Zylann&nbsp;•&nbsp;<span class="font-weight-bold">Le Complot</span>
-                        <div class="progression text-dark h5 mt-1">
-                            <span>06:55</span>
-                            <progress value="45.63106796116505" max="100" class="progression__barre"></progress>
-                            <span class="text-right">15:10</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="episode-item__etat-lecture">
-                    <button class="btn btn-sm btn-outline-secondary">
-                        <i aria-hidden="true" class="fa fa-play pr-1"></i><span>Écouter</span>
-                    </button>
-                </div>
-                <div class="episode-item__download">
-                    <a href="https://audio.radiophonix.org/1287/1287-Episode-I-Le-Complot.mp3" target="_blank" class="btn btn-outline-secondary btn-sm mr-xl-3">
-                        <i aria-hidden="true" class="fa fa-download"></i>Télécharger
-                    </a>
-                </div>
+                </template>
             </div>
 
-            <div class="episode-item var--en-cours">
-                <div class="episode-item__cover">
-                    <div class="cover var--petit var--episode">
-                        <div class="cover__mask">
-                            <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
-                        </div>
-                    </div>
-                </div>
-                <div class="episode-item__content align-content-center h-100 d-grid">
-                    <div>
-                        Zylann&nbsp;•&nbsp;<span class="font-weight-bold">Le Complot</span>
-                        <div class="progression text-dark h5 mt-1">
-                            <span>06:55</span>
-                            <progress value="60" max="100" class="progression__barre"></progress>
-                            <span class="text-right">15:10</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="episode-item__etat-lecture">
-                    <button class="btn btn-sm btn-outline-secondary">
-                        <i aria-hidden="true" class="fa fa-play pr-1"></i><span>Écouter</span>
-                    </button>
-                </div>
-                <div class="episode-item__download">
-                    <a href="https://audio.radiophonix.org/1287/1287-Episode-I-Le-Complot.mp3" target="_blank" class="btn btn-outline-secondary btn-sm mr-xl-3">
-                        <i aria-hidden="true" class="fa fa-download"></i>Télécharger
-                    </a>
-                </div>
+            <div v-if="tab === 'favorites'">
+                Todo...
             </div>
 
         </div>
@@ -114,10 +101,13 @@
 </template>
 
 <script>
-    import { mapGetters } from 'vuex';
+    import { mapGetters, mapActions } from 'vuex';
     import api from '~/lib/api';
     import Banner from '~/components/content/Banner.vue';
     import Cover from '~/components/content/Cover.vue';
+    import TrackLength from "../../components/track/TrackLength";
+    import NavList from '~/components/Ui/Nav/NavList';
+    import NavItem from '~/components/Ui/Nav/NavItem';
 
     export default {
         data: () => ({
@@ -125,11 +115,16 @@
                 author: {},
                 badges: [],
             },
+            ticks: [],
+            tab: '',
         }),
 
         components: {
+            TrackLength,
             Banner,
             Cover,
+            NavList,
+            NavItem,
         },
 
         computed: {
@@ -155,6 +150,10 @@
         },
 
         methods: {
+            ...mapActions('player', [
+                'play'
+            ]),
+
             async loadProfile() {
                 try {
                     let result = await api.profile.get(this.$route.params.user);
@@ -164,11 +163,29 @@
                         name: '404',
                     });
                 }
-            }
+            },
+
+            async loadTicks() {
+                let result = await api.ticks.all();
+
+                this.ticks = result.data;
+            },
+
+            tickCurrentSeconds(tick) {
+                return Math.floor(tick.track.seconds * tick.progress / 100000);
+            },
         },
 
         created() {
             this.loadProfile();
+
+            if (this.isProfileOfCurrentUser) {
+                this.tab = 'ticks';
+
+                this.loadTicks();
+            } else {
+                this.tab = 'favorites';
+            }
         },
     }
 </script>

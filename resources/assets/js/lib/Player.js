@@ -96,7 +96,7 @@ class Player {
 
         let seek = this.currentHowl().seek() || 0;
 
-        return this.formatTime(Math.round(seek));
+        return this.formatTime(Math.floor(seek));
     }
 
     percentage() {

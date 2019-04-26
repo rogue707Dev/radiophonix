@@ -15,5 +15,11 @@ export default (axios) => {
         });
     };
 
+    TickResource.current = function () {
+        let url = Resource.buildUrl('/ticks/current');
+
+        return axios.get(url);
+    };
+
     return TickResource;
 };

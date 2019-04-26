@@ -14,7 +14,8 @@ class CurrentTick extends ApiController
      */
     public function __invoke()
     {
-        $tick = Tick::where('user_id', '=', $this->user()->id)
+        $tick = Tick::query()
+            ->where('user_id', '=', $this->user()->id)
             ->orderBy('updated_at', 'desc')
             ->firstOrFail();
 
