@@ -18,6 +18,7 @@ use MarcW\RssWriter\Extension\Itunes\ItunesItem;
 use MarcW\RssWriter\Extension\Itunes\ItunesOwner;
 use MarcW\RssWriter\Extension\Itunes\ItunesWriter;
 use MarcW\RssWriter\RssWriter;
+use Radiophonix\Domain\Rss\XMLWriter;
 use Radiophonix\Models\Author;
 use Radiophonix\Models\Collection;
 use Radiophonix\Models\Saga;
@@ -186,7 +187,10 @@ class RssResponse implements Responsable
      */
     private function makeWriter(): RssWriter
     {
-        $rssWriter = new RssWriter(null, [], true);
+        $xmlWriter = new XMLWriter();
+        $xmlWriter->openMemory();
+
+        $rssWriter = new RssWriter($xmlWriter, [], true);
         $rssWriter->registerWriter(new CoreWriter());
         $rssWriter->registerWriter(new ItunesWriter());
 //        $rssWriter->registerWriter(new SyWriter());
