@@ -1,69 +1,42 @@
 <?php
 
-use Radiophonix\Http\Controllers\Api\V1\Auth\LoginUser;
-use Radiophonix\Http\Controllers\Api\V1\Auth\RefreshToken;
-use Radiophonix\Http\Controllers\Api\V1\Auth\RegisterUser;
-use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthors;
-use Radiophonix\Http\Controllers\Api\V1\Author\ListAuthorSagas;
-use Radiophonix\Http\Controllers\Api\V1\Author\ShowAuthor;
-use Radiophonix\Http\Controllers\Api\V1\Collection\ListCollectionTracks;
-use Radiophonix\Http\Controllers\Api\V1\Collection\ShowCollection;
-use Radiophonix\Http\Controllers\Api\V1\Genre\ListGenres;
-use Radiophonix\Http\Controllers\Api\V1\Genre\ShowGenre;
-use Radiophonix\Http\Controllers\Api\V1\Like\ListUserLikes;
-use Radiophonix\Http\Controllers\Api\V1\Like\Saga;
-use Radiophonix\Http\Controllers\Api\V1\NotFoundAction;
-use Radiophonix\Http\Controllers\Api\V1\Saga\ListSagaCollections;
-use Radiophonix\Http\Controllers\Api\V1\Saga\ListSagas;
-use Radiophonix\Http\Controllers\Api\V1\Saga\ShowSaga;
-use Radiophonix\Http\Controllers\Api\V1\Search\SearchAll;
-use Radiophonix\Http\Controllers\Api\V1\Team\ListTeams;
-use Radiophonix\Http\Controllers\Api\V1\Team\ListTeamSagas;
-use Radiophonix\Http\Controllers\Api\V1\Team\ShowTeam;
-use Radiophonix\Http\Controllers\Api\V1\Tick\CurrentTick;
-use Radiophonix\Http\Controllers\Api\V1\Tick\ListTicks;
-use Radiophonix\Http\Controllers\Api\V1\Tick\SaveTick;
-use Radiophonix\Http\Controllers\Api\V1\Track\ShowTrack;
-use Radiophonix\Http\Controllers\Api\V1\User\ShowProfile;
-use Radiophonix\Http\Controllers\Api\V1\User\ShowProfileLikes;
+use Radiophonix\Http\Controllers\Api\V1;
 
-Route::post('/search', SearchAll::class);
+Route::post('/search', V1\Search\SearchAll::class);
 
-Route::get('/sagas', ListSagas::class);
+Route::get('/sagas', V1\Saga\ListSagas::class);
 
 //Route::group(['middleware' => 'saga.visible'], function () {
-    Route::get('/sagas/{saga}', ShowSaga::class);
-    Route::get('/sagas/{saga}/collections', ListSagaCollections::class);
+    Route::get('/sagas/{saga}', V1\Saga\ShowSaga::class);
+    Route::get('/sagas/{saga}/collections', V1\Saga\ListSagaCollections::class);
 
-    Route::get('/collections/{collection}', ShowCollection::class);
-    Route::get('/collections/{collection}/tracks', ListCollectionTracks::class);
+    Route::get('/collections/{collection}', V1\Collection\ShowCollection::class);
+    Route::get('/collections/{collection}/tracks', V1\Collection\ListCollectionTracks::class);
 
-    Route::get('/tracks/{track}', ShowTrack::class);
+    Route::get('/tracks/{track}', V1\Track\ShowTrack::class);
 //});
 
-//Route::get('/ticks');
+Route::get('/genres', V1\Genre\ListGenres::class);
+Route::get('/genres/{genre}', V1\Genre\ShowGenre::class);
 
-Route::get('/genres', ListGenres::class);
-Route::get('/genres/{genre}', ShowGenre::class);
+Route::get('/authors', V1\Author\ListAuthors::class);
+Route::get('/authors/{author}', V1\Author\ShowAuthor::class);
+Route::get('/authors/{author}/sagas', V1\Author\ListAuthorSagas::class);
 
-Route::get('/authors', ListAuthors::class);
-Route::get('/authors/{author}', ShowAuthor::class);
-Route::get('/authors/{author}/sagas', ListAuthorSagas::class);
-
-Route::get('/teams', ListTeams::class);
-Route::get('/teams/{team}', ShowTeam::class);
-Route::get('/teams/{team}/sagas', ListTeamSagas::class);
+Route::get('/teams', V1\Team\ListTeams::class);
+Route::get('/teams/{team}', V1\Team\ShowTeam::class);
+Route::get('/teams/{team}/sagas', V1\Team\ListTeamSagas::class);
 
 // Profiles
 
-Route::get('/profile/{user}', ShowProfile::class);
-Route::get('/profile/{user}/likes', ShowProfileLikes::class);
+Route::get('/profile/{user}', V1\User\ShowProfile::class);
+Route::get('/profile/{user}/likes', V1\User\ShowProfileLikes::class);
 
 // WIP authentification
 
-Route::post('/auth/register', RegisterUser::class);
-Route::post('/auth/login', LoginUser::class)->name('login');
-Route::get('/auth/refresh', RefreshToken::class);
+Route::post('/auth/register', V1\Auth\RegisterUser::class);
+Route::post('/auth/login', V1\Auth\LoginUser::class)->name('login');
+Route::get('/auth/refresh', V1\Auth\RefreshToken::class);
 
 ///*
 Route::group(['middleware' => ['jwt.auth']], function () {
@@ -97,9 +70,9 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 //    });
 
     // Likes
-    Route::get('/likes', ListUserLikes::class);
-    Route::post('/likes/saga/{saga}', Saga\AddLike::class);
-    Route::delete('/likes/saga/{saga}', Saga\RemoveLike::class);
+    Route::get('/likes', V1\Like\ListUserLikes::class);
+    Route::post('/likes/saga/{saga}', V1\Like\Saga\AddLike::class);
+    Route::delete('/likes/saga/{saga}', V1\Like\Saga\RemoveLike::class);
 
 //    // Subscriptions
 //    Route::get('/subscriptions', ListUserSubscriptions::class);
@@ -122,14 +95,14 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 //    });
 //
     // Audio player
-    Route::get('/ticks', ListTicks::class);
-    Route::get('/ticks/current', CurrentTick::class);
+    Route::get('/ticks', V1\Tick\ListTicks::class);
+    Route::get('/ticks/current', V1\Tick\CurrentTick::class);
 //    Route::get('/ticks/{saga}', ShowTickForSaga::class);
 //    Route::group(['middleware' => 'throttle:15,1'], function () {
-        Route::post('/ticks/{track}', SaveTick::class);
+        Route::post('/ticks/{track}', V1\Tick\SaveTick::class);
 //    });
 });
 
-Route::any('{any}', NotFoundAction::class)->where('any', '.*');
+Route::any('{any}', V1\NotFoundAction::class)->where('any', '.*');
 
 //*/
