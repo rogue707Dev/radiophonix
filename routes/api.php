@@ -25,6 +25,7 @@ use Radiophonix\Http\Controllers\Api\V1\Tick\ListTicks;
 use Radiophonix\Http\Controllers\Api\V1\Tick\SaveTick;
 use Radiophonix\Http\Controllers\Api\V1\Track\ShowTrack;
 use Radiophonix\Http\Controllers\Api\V1\User\ShowProfile;
+use Radiophonix\Http\Controllers\Api\V1\User\ShowProfileLikes;
 
 Route::post('/search', SearchAll::class);
 
@@ -56,6 +57,7 @@ Route::get('/teams/{team}/sagas', ListTeamSagas::class);
 // Profiles
 
 Route::get('/profile/{user}', ShowProfile::class);
+Route::get('/profile/{user}/likes', ShowProfileLikes::class);
 
 // WIP authentification
 

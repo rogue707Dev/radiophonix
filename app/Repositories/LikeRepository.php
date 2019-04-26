@@ -27,9 +27,13 @@ class LikeRepository
         $type = collect(Relation::morphMap())
             ->search(get_class($likeable));
 
-        return Like::where('user_id', '=', $user->getAuthIdentifier())
+        /** @var Like|null $like */
+        $like = Like::query()
+            ->where('user_id', '=', $user->getAuthIdentifier())
             ->where('likeable_type', $type)
             ->where('likeable_id', $likeable->id)
             ->first();
+
+        return $like;
     }
 }

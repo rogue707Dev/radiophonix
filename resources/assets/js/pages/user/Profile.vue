@@ -92,7 +92,19 @@
             </div>
 
             <div v-if="tab === 'favorites'">
-                Todo...
+                <div class="list-card-horizontal" v-if="likes">
+                    <template v-if="likes.saga.length > 0">
+                        <card-saga v-for="saga in likes.saga"
+                                   :key="saga.id"
+                                   :saga="saga"
+                                   :badge="true"
+                                   :horizontal="true"
+                                   :with-author="false"></card-saga>
+                    </template>
+                </div>
+                <div v-else>
+                    Pas de favoris
+                </div>
             </div>
 
         </div>
@@ -108,6 +120,7 @@
     import TrackLength from "../../components/track/TrackLength";
     import NavList from '~/components/Ui/Nav/NavList';
     import NavItem from '~/components/Ui/Nav/NavItem';
+    import CardSaga from '~/components/content/Card/CardSaga';
 
     export default {
         data: () => ({
@@ -117,6 +130,7 @@
             },
             ticks: [],
             tab: '',
+            likes: null,
         }),
 
         components: {
@@ -125,6 +139,7 @@
             Cover,
             NavList,
             NavItem,
+            CardSaga,
         },
 
         computed: {
@@ -165,6 +180,11 @@
                 }
             },
 
+            async loadLikes() {
+                let result = await api.profile.likes(this.$route.params.user);
+                this.likes = result.data;
+            },
+
             async loadTicks() {
                 let result = await api.ticks.all();
 
@@ -178,6 +198,7 @@
 
         created() {
             this.loadProfile();
+            this.loadLikes();
 
             if (this.isProfileOfCurrentUser) {
                 this.tab = 'ticks';
