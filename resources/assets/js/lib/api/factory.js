@@ -44,6 +44,7 @@ export default () => {
             && error.config
             && error.response
             && error.response.status === 401
+            && !error.config.url.includes('/api/v1/auth/refresh')
         ) {
             return radiophonix.auth.refreshToken()
                 .then(res => {
