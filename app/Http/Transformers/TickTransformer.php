@@ -10,25 +10,23 @@ class TickTransformer extends Transformer
 {
     protected $defaultIncludes = [
         'track',
+        'saga',
     ];
 
-    /**
-     * @param Tick $tick
-     * @return array
-     */
-    public function transform(Tick $tick)
+    public function transform(Tick $tick): array
     {
         return [
             'progress' => (int)$tick->progress,
         ];
     }
 
-    /**
-     * @param Tick $tick
-     * @return Item
-     */
-    public function includeTrack(Tick $tick)
+    public function includeTrack(Tick $tick): Item
     {
         return $this->item($tick->track, new TrackTransformer);
+    }
+
+    public function includeSaga(Tick $tick): Item
+    {
+        return $this->item($tick->track->collection->saga, new SagaTransformer());
     }
 }
