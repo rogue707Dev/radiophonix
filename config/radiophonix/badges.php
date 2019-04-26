@@ -22,4 +22,9 @@ return [
         'class' => Badges\BetaTestBadge::class,
     ],
 
+    'altruiste' => [
+        'title' => 'Altruiste',
+        'description' => 'Pour avoir contribué au projet Radiophonix',
+    ],
+
 ];
