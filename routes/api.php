@@ -12,6 +12,7 @@ use Radiophonix\Http\Controllers\Api\V1\Genre\ListGenres;
 use Radiophonix\Http\Controllers\Api\V1\Genre\ShowGenre;
 use Radiophonix\Http\Controllers\Api\V1\Like\ListUserLikes;
 use Radiophonix\Http\Controllers\Api\V1\Like\Saga;
+use Radiophonix\Http\Controllers\Api\V1\NotFoundAction;
 use Radiophonix\Http\Controllers\Api\V1\Saga\ListSagaCollections;
 use Radiophonix\Http\Controllers\Api\V1\Saga\ListSagas;
 use Radiophonix\Http\Controllers\Api\V1\Saga\ShowSaga;
@@ -126,8 +127,6 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 //    });
 });
 
-Route::any('{any}', function() {
-    abort(404);
-})->where('any', '.*');
+Route::any('{any}', NotFoundAction::class)->where('any', '.*');
 
 //*/
