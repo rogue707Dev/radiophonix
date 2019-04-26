@@ -21,6 +21,10 @@ const getCurrentTick = function () {
 
 export default {
     saveTrack: (sagaId, trackId, percentage = 0) => {
+        if (store.getters['auth/isAuthenticated']) {
+            return;
+        }
+
         let ticks = storage.get('ticks', {});
 
         ticks[sagaId] = {
@@ -34,6 +38,10 @@ export default {
     },
 
     savePercentage: (percentage) => {
+        if (store.getters['auth/isAuthenticated']) {
+            return;
+        }
+
         let ticks = storage.get('ticks');
         let currentTick = storage.get('currentTick');
 

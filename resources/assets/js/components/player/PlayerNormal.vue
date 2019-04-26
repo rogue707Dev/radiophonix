@@ -213,9 +213,19 @@ export default {
         startLoops() {
             let vm = this;
 
-            let loopForView = setInterval(function () {
+            let doLoop = () => {
                 vm.$store.dispatch('player/refresh');
-                Player.storePercentage();
+            };
+
+            if (!this.isAuthenticated) {
+                doLoop = () => {
+                    vm.$store.dispatch('player/refresh');
+                    Player.storePercentage();
+                };
+            }
+
+            let loopForView = setInterval(function () {
+                doLoop();
 
                 if (!vm.$store.state.player.isPlaying) {
                     clearInterval(loopForView);
