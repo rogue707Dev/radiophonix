@@ -27,7 +27,7 @@ class BadgeRegistry
                         $key,
                         $data['title'],
                         $data['description'],
-                        app($data['class'])
+                        isset($data['class']) ? app($data['class']) : null
                     )
                 ];
             });
