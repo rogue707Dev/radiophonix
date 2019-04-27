@@ -125,10 +125,6 @@
                     return '';
                 }
 
-                if ((field.$touched || field.$submitted) && field.$valid) {
-                    return 'is-valid';
-                }
-
                 if ((field.$touched || field.$submitted) && field.$invalid) {
                     return 'is-invalid';
                 }
