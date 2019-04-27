@@ -26,7 +26,7 @@
   "dependencies": {
     "axios": "^0.15.3",
     "bootstrap": "^4.3.0",
-    "bootstrap-vue": "^2.0.0-rc.16",
+    "bootstrap-vue": "^2.0.0-rc.19",
     "font-awesome": "^4.7.0",
     "howler": "^2.0.5",
     "sweetalert": "^2.1.0",
