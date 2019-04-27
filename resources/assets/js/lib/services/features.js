@@ -4,7 +4,7 @@ const configs = {
     development: {
         login: true,
         algolia: false,
-        feedback: false,
+        feedback: true,
     },
 
     production: {
