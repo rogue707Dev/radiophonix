@@ -1,4 +1,5 @@
 import env from '~/lib/services/env';
+import Vue from 'vue';
 
 let changeClasses = (state, classes) => {
     for (const classesKey in classes) {
@@ -39,6 +40,7 @@ const UiModule = {
         hasUnreadNews: true,
         mustRegisterModalOpen: false,
         mustRegisterModalText: '',
+        feedbackModalDefaultType: 'bug',
     },
 
     mutations: {
@@ -62,6 +64,8 @@ const UiModule = {
 
         setMustRegisterModal: (state, isOpen) => state.mustRegisterModalOpen = isOpen,
         setMustRegisterModalText: (state, text) => state.mustRegisterModalText = text,
+
+        setFeedbackModalDefaultType: (state, type) => state.feedbackModalDefaultType = type,
     },
 
     actions: {
@@ -125,6 +129,10 @@ const UiModule = {
         },
         closeMustRegisterModal: ({commit}) => {
             commit('setMustRegisterModal', false);
+        },
+
+        setFeedbackModalDefaultType: ({commit}, type) => {
+            commit('setFeedbackModalDefaultType', type);
         },
     }
 };

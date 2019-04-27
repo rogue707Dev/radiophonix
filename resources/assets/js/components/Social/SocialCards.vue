@@ -28,19 +28,17 @@
             </a>
         </div>
 
-        <div class="card">
-            <a href="mailto:contact@radiophonix.org">
-                <div class="card-body text-center">
-                    <h5 class="card-title pb-2">
-                        <fa-icon icon="fa-envelope fa-fw fa-3x" label="twitter" />
-                    </h5>
-                    <h6 class="card-subtitle mb-2 text-muted">contact@radiophonix.org</h6>
+        <div class="card" @click="openFeedbackModal" style="cursor:pointer;">
+            <div class="card-body text-center">
+                <h5 class="card-title pb-2">
+                    <fa-icon icon="fa-envelope fa-fw fa-3x" label="suggestion" />
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">Suggestion</h6>
 
-                    <p class="card-text">
-                        Envoyez nous un email !
-                    </p>
-                </div>
-            </a>
+                <p class="card-text">
+                    Envoyez nous un message !
+                </p>
+            </div>
         </div>
     </div>
 </template>
@@ -54,5 +52,12 @@
             FaIcon,
             DiscordInvite,
         },
+
+        methods: {
+            openFeedbackModal() {
+                this.$store.dispatch('ui/setFeedbackModalDefaultType', 'suggestion');
+                this.$bvModal.show('js--modal-feedback');
+            },
+        }
     }
 </script>

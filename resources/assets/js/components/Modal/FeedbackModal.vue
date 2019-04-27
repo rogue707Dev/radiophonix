@@ -1,5 +1,9 @@
 <template>
-    <b-modal id="js--modal-feedback" title="Signaler un bug ou faire une suggestion" :hide-footer="true">
+    <b-modal id="js--modal-feedback" :hide-header="true" :hide-footer="true">
+        <b-button-close @click="hide"></b-button-close>
+
+        <h2 class="text-center display-4 mb-4 mt-4">{{ title }}</h2>
+
         <div class="text-center">
             <div class="btn-group" role="group" aria-label="Bug ou suggestion">
                 <button type="button"
@@ -47,7 +51,7 @@
                       tag="div"
                       auto-label
                       :custom="{ 'async': isDescriptionValid }">
-                <label>Titre</label>
+                <label>Description</label>
                 <textarea v-model.lazy="model.description"
                        name="description"
                        rows="3"
@@ -79,6 +83,7 @@
 </template>
 
 <script>
+    import { mapState } from 'vuex';
     import FaIcon from "~/components/Ui/Icon/FaIcon";
     import flash from "~/lib/services/flash";
     import api from "~/lib/api";
@@ -99,13 +104,35 @@
             },
             formstate: {},
             model: {
-                type: 'bug',
+                type: '',
                 title: '',
                 description: '',
             },
         }),
 
+        computed: {
+            ...mapState('ui', [
+                'feedbackModalDefaultType',
+            ]),
+
+            title() {
+                if (this.model.type === 'bug') {
+                    return 'Signaler un bug';
+                }
+
+                return 'Faire une suggestion';
+            },
+        },
+
         methods: {
+            show() {
+                this.$bvModal.show('js--modal-feedback');
+            },
+
+            hide() {
+                this.$bvModal.hide('js--modal-feedback');
+            },
+
             fieldClassName(field) {
                 if (!field) {
                     return '';
@@ -147,7 +174,7 @@
                     flash.success('', 'C\'est envoyé !');
 
                     setTimeout(() => {
-                        this.$bvModal.hide('js--modal-feedback');
+                        this.hide();
                     }, 150);
                 } catch (e) {
                     flash.error('Une erreur est survenue', 'Oops');
@@ -155,7 +182,7 @@
                     this.isLoading = false;
 
                     setTimeout(() => {
-                        this.model.type = 'bug';
+                        this.model.type = this.feedbackModalDefaultType;
                         this.model.title = '';
                         this.model.description = '';
 
@@ -164,6 +191,14 @@
                     }, 200);
                 }
             }
+        },
+
+        mounted() {
+            this.$root.$on('bv::modal::show', (bvEvent, modalId) => {
+                if (modalId === 'js--modal-feedback') {
+                    this.model.type = this.feedbackModalDefaultType;
+                }
+            });
         },
     }
 </script>

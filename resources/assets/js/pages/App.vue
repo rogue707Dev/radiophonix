@@ -151,6 +151,7 @@
             },
 
             openFeedbackModal() {
+                this.$store.dispatch('ui/setFeedbackModalDefaultType', 'bug');
                 this.$bvModal.show('js--modal-feedback');
             },
         },
