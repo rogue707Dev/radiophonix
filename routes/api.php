@@ -4,6 +4,9 @@ use Radiophonix\Http\Controllers\Api\V1;
 
 Route::post('/search', V1\Search\SearchAllController::class);
 
+// @todo ajouter un throttle
+Route::post('/feedback', V1\Feedback\SaveFeedbackController::class);
+
 Route::get('/sagas', V1\Saga\ListSagasController::class);
 
 //Route::group(['middleware' => 'saga.visible'], function () {

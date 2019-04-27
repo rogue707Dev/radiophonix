@@ -2,6 +2,7 @@
 
 namespace Radiophonix\Providers;
 
+use Gitlab\Client;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
@@ -56,5 +57,16 @@ class AppServiceProvider extends ServiceProvider
         });
 
         $this->app->singleton(BadgeRegistry::class);
+
+        $this->app->singleton(
+            Client::class,
+            function () {
+                return Client::create('https://gitlab.com')
+                    ->authenticate(
+                        config('radiophonix.gitlab.token'),
+                        Client::AUTH_URL_TOKEN
+                    );
+            }
+        );
     }
 }

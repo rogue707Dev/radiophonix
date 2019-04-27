@@ -55,6 +55,14 @@ class Radiophonix {
         };
     }
 
+    get feedback() {
+        return {
+            send: (type, title, description, url) => {
+                return this.axios.post('/feedback', { type, title, description, url });
+            },
+        };
+    }
+
     get config() {
         return {
             onRequest: (success, error) => {

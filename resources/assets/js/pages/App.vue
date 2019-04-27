@@ -24,6 +24,17 @@
             </template>
         </b-modal>
 
+        <feedback-modal></feedback-modal>
+
+        <b-alert show
+                 dismissible
+                 style="position:fixed;bottom: 0;right: 10px;z-index: 10000;"
+                 variant="dark">
+            <span style="cursor: pointer;" @click="openFeedbackModal">
+                <fa-icon icon="fa-bug" label="Signaler un bug"/> Signaler un bug
+            </span>
+        </b-alert>
+
         <router-view></router-view>
     </div>
 </template>
@@ -33,8 +44,15 @@
     import api from "~/lib/api/site";
     import ticks from '~/lib/services/storage/ticks';
     import storage from '~/lib/services/storage';
+    import FeedbackModal from '~/components/Modal/FeedbackModal';
+    import FaIcon from "~/components/Ui/Icon/FaIcon";
 
     export default {
+        components: {
+            FaIcon,
+            FeedbackModal,
+        },
+
         computed: {
             ...mapState('ui', [
                 'pageTitle',
@@ -129,7 +147,11 @@
                     },
                     130
                 );
-            }
+            },
+
+            openFeedbackModal() {
+                this.$bvModal.show('js--modal-feedback');
+            },
         },
 
         watch: {
