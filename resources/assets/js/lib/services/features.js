@@ -4,11 +4,13 @@ const configs = {
     development: {
         login: true,
         algolia: false,
+        feedback: false,
     },
 
     production: {
         login: false,
         algolia: false,
+        feedback: true,
     }
 };
 

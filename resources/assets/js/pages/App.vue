@@ -28,6 +28,7 @@
 
         <b-alert show
                  dismissible
+                 v-feature="'feedback'"
                  style="position:fixed;bottom: 0;right: 10px;z-index: 10000;"
                  variant="dark">
             <span style="cursor: pointer;" @click="openFeedbackModal">
