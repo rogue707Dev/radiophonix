@@ -14,29 +14,28 @@
             <div class="playlist__liste">
                 <template v-for="collection in currentCollections">
                     <!-- Le nom de la saison n'est affiché que s'il y en a plusieurs -->
-                    <div class="row" style="background: #3a4651;padding-top: 5px;padding-bottom: 5px;"
+                    <div class="playlist__grille playlist__saison"
                         v-if="currentSaga.stats.collections > 1">
-                        <div class="col h4">
-                            <text-ellispis :text="collection.name" :size="40" style="color: #fff;"></text-ellispis>
-                        </div>
+                        <div class=""><i aria-hidden="true" class="fa fa-caret-down"></i></div>
+                        <text-ellispis :text="collection.name" :size="40"></text-ellispis>
                     </div>
 
-                    <div class="row playlist__morceau a-curseur"
+                    <div class="playlist__grille playlist__morceau a-curseur"
                          v-for="track in collection.tracks"
                          :key="track.id"
                          :class="{'actif': track.id == currentTrack.id}"
                          @click="play({track, autoStart: true})">
 
-                        <div class="col-1 text-center">
+                        <div>
                             {{ track.number }}
                         </div>
-                        <div class="col">
+                        <div>
                             <text-ellispis :text="track.title" :size="25"></text-ellispis>
                             <p class="h6" v-if="currentCollections.length > 1">
                                 Saison {{ collection.number }} - {{ collection.name }}
                             </p>
                         </div>
-                        <div class="col-auto pr-4">
+                        <div>
                             <i v-if="track.id == currentTrack.id && isLoading"
                                class="fa fa-fw fa-spinner fa-spin"></i>
                             <track-length v-else :seconds="track.seconds" class="h5"></track-length>
