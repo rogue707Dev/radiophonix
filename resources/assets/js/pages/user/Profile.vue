@@ -36,6 +36,7 @@
                                        :title="badge.title"
                                        :content="badge.description"></b-popover>
 
+                            <svg><use xlink:href="#contour-badge"></use></svg>
                             <div class="cover__mask">
                                 <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
                             </div>

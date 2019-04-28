@@ -90,6 +90,7 @@
                 </div>
             </div>
             <div class="cover var--petit var--badge">
+                <svg><use xlink:href="#contour-badge"></use></svg>
                 <div class="cover__mask">
                     <img src="http://facetheforce.today/random/340?r=2">
                 </div>

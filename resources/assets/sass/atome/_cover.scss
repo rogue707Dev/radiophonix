@@ -68,10 +68,10 @@ $ PETIT
     }
     /*---------------------------------*/
     &.var--badge {
-        &:before {
-            @include taille(80px);
-            top: 7px;
-            left: 9px;
+        svg {
+            @include taille(95px);
+            @include pa-centre();
+            stroke-width: 4px;
         }
         img {
             @include taille(80px);
@@ -238,9 +238,9 @@ $couleur-contour: $bleu-350;
     stroke: $couleur-contour;
 }
 
-.cover.var--badge:before {
-    border: 1px solid $couleur-contour;
-    transform: perspective(10px) rotateY(1deg);
+.cover.var--badge svg {
+    fill:none;
+    stroke: $couleur-contour;
 }
 
 /*======================================================================================================================
