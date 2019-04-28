@@ -10,7 +10,7 @@ return [
          * The name of this application. You can use this name to monitor
          * the backups.
          */
-        'name' => env('APP_NAME', 'Radiophonix'),
+        'name' => '',
 
         'source' => [
 
@@ -164,10 +164,9 @@ return [
      */
     'monitor_backups' => [
         [
-            'name' => env('APP_NAME', 'Radiophonix'),
+            'name' => '',
             'disks' => [
-                // @todo issue #127
-//                'backups-dropbox-1',
+                'backups-dropbox-1',
                 'backups-dropbox-2',
             ],
             'health_checks' => [
