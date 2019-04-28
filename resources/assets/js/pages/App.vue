@@ -29,10 +29,10 @@
         <b-alert show
                  dismissible
                  v-feature="'feedback'"
-                 style="position:fixed;bottom: 0;right: 10px;z-index: 10000;"
-                 variant="dark">
-            <span style="cursor: pointer;" @click="openFeedbackModal">
-                <fa-icon icon="fa-bug" label="Signaler un bug"/> Signaler un bug
+                 class="push"
+                 variant="primary">
+            <span class="a-curseur" @click="openFeedbackModal">
+                <fa-icon aria-hidden="true" icon="fa-bug" label="Signaler un bug"/> Signaler un bug
             </span>
         </b-alert>
 
