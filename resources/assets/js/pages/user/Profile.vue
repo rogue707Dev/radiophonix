@@ -21,25 +21,31 @@
 
         <div class="container">
 
-            <h2 class="h1 mb-2">Badge</h2>
+            <div class="row">
+                <div class="col">
+                    <h2 class="h1 mb-2">Badge</h2>
 
-            <div class="layout-badge">
+                    <div class="layout-badge">
 
-                <div class="cover var--petit var--badge layout-badge__item"
-                     v-for="badge in profile.badges"
-                     :id="'badge-popover-' + badge.key">
-                    <b-popover :target="'badge-popover-' + badge.key"
-                               triggers="hover focus"
-                               placement="top"
-                               :title="badge.title"
-                                :content="badge.description"></b-popover>
+                        <div class="cover var--petit var--badge layout-badge__item"
+                             v-for="badge in profile.badges"
+                             :id="'badge-popover-' + badge.key">
+                            <b-popover :target="'badge-popover-' + badge.key"
+                                       triggers="hover focus"
+                                       placement="top"
+                                       :title="badge.title"
+                                       :content="badge.description"></b-popover>
 
-                    <div class="cover__mask">
-                        <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
+                            <div class="cover__mask">
+                                <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-
             </div>
+
+
 
             <nav-list class="mb-2">
                 <nav-item :active="tab === 'ticks'"
