@@ -94,7 +94,8 @@ return [
              */
             'disks' => [
 //                'backups-local',
-                'backups-dropbox',
+                'backups-dropbox-1',
+                'backups-dropbox-2',
             ],
         ],
 
@@ -164,7 +165,11 @@ return [
     'monitor_backups' => [
         [
             'name' => env('APP_NAME', 'Radiophonix'),
-            'disks' => ['backups-dropbox'],
+            'disks' => [
+                // @todo issue #127
+//                'backups-dropbox-1',
+                'backups-dropbox-2',
+            ],
             'health_checks' => [
                 \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumAgeInDays::class => 1,
                 \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumStorageInMegabytes::class => 5000,

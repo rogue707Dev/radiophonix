@@ -75,9 +75,14 @@ return [
             'root' => storage_path('app/backups'),
         ],
 
-        'backups-dropbox' => [
+        'backups-dropbox-1' => [
             'driver' => 'dropbox',
-            'authorizationToken' => env('DROPBOX_AUTHORIZATION_TOKEN', ''),
+            'authorizationToken' => env('DROPBOX_1_AUTHORIZATION_TOKEN', ''),
+        ],
+
+        'backups-dropbox-2' => [
+            'driver' => 'dropbox',
+            'authorizationToken' => env('DROPBOX_2_AUTHORIZATION_TOKEN', ''),
         ],
 
     ],
