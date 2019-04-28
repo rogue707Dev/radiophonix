@@ -110,7 +110,7 @@ $ BOUTON
         transition: box-shadow 0.2s;
 
         @include survol(){
-            box-shadow: 0 0 0 2px $bleu-100, 0 0 0 3px $rouge-400;
+            box-shadow: 0 0 0 2px $bleu-100, 0 0 0 3px $rouge-300;
         }
     }
 

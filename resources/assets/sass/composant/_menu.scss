@@ -1,18 +1,18 @@
 /*======================================================================================================================
 $ COULEUR
 ======================================================================================================================*/
-$fond-large: $bleu-500;
+$menu-fond-large: $bleu-500;
 
-$normal: $bleu-200;
-$normal-fond: $bleu-400;
+$menu-normal: $bleu-200;
+$menu-normal-fond: $bleu-400;
 
-$actif: $blanc;
-$actif-fond: $bleu-400;
+$menu-actif: $blanc;
+$menu-actif-fond: $bleu-400;
 
-$survol: $blanc;
-$survol-bande: linear-gradient(to bottom, $bleu-200 0%, $bleu-100 100%);
+$menu-survol: $blanc;
+$menu-survol-bande: linear-gradient(to bottom, $bleu-200 0%, $bleu-100 100%);
 
-$nouveau: $orange-250;
+$menu-nouveau: $orange-250;
 
 /*======================================================================================================================
 $ CONTENEUR
@@ -23,7 +23,7 @@ $ CONTENEUR
     @include media-breakpoint-down(md) {
         z-index: z-index(100);
         width: 100%;
-        background-color: $normal-fond;
+        background-color: $menu-normal-fond;
     }
 
     @include media-breakpoint-up(lg) {
@@ -53,10 +53,10 @@ $ LIEN NORMAL
 .menu__item {
     display: flex;
     align-items: center;
-    color: $normal;
+    color: $menu-normal;
 
     svg {
-        fill: $normal;
+        fill: $menu-normal;
     }
 
     @include media-breakpoint-down(md) {
@@ -93,8 +93,8 @@ $ LIEN NORMAL
 $ LIEN ACTIF
 -----------------------------------------------------------------------------*/
 .menu__item.actif {
-    background-color: $actif-fond;
-    color: $actif;
+    background-color: $menu-actif-fond;
+    color: $menu-actif;
 
 
     @include menu__bande {
@@ -105,7 +105,7 @@ $ LIEN ACTIF
     }
 
     svg {
-        fill: $actif;
+        fill: $menu-actif;
     }
 
 }
@@ -117,14 +117,14 @@ $ LIEN HOVER
 .menu__item {
 
     @include survol(".actif"){
-        color: $survol;
+        color: $menu-survol;
 
         @include menu__bande {
-            background: $survol-bande;
+            background: $menu-survol-bande;
         }
 
         svg {
-            fill: $survol;
+            fill: $menu-survol;
         }
     }
 }
@@ -138,7 +138,7 @@ $ LIEN AVEC POINT de nouveauté
 
     .fa {
         position: absolute;
-        color: $nouveau;
+        color: $menu-nouveau;
     }
 
     @include media-breakpoint-down(md) {
@@ -177,17 +177,17 @@ $ AVATAR
 .menu__item.var--profil .cover.var--petit:before {
     width: 66px;
     height: 66px;
-    border-color: $normal;
+    border-color: $menu-normal;
 }
 
 /*----- HOVER -----*/
 .menu__item.var--profil:hover .cover.var--auteur:before{
-    border-color: $survol;
+    border-color: $menu-survol;
 }
 
 /*----- ACTIF -----*/
 .menu__item.var--profil.actif .cover.var--petit:before{
-    border-color: $actif;
+    border-color: $menu-actif;
 }
 
 /*----- ACTIF & HOVER -----*/
@@ -218,11 +218,11 @@ $ SOUS MENU
     min-height: $largeur-menu;
     font-size: px2rem(14);
     text-transform: capitalize;
-    color: $normal;
+    color: $menu-normal;
 
     @include media-breakpoint-down(md) {
         display: grid;
-        background-color: $normal-fond;
+        background-color: $menu-normal-fond;
     }
 
     @include media-breakpoint-up(lg) {
@@ -230,13 +230,13 @@ $ SOUS MENU
         position: fixed;
         top:0;
         left: $largeur-menu;
-        background-color: $fond-large;
+        background-color: $menu-fond-large;
     }
 }
 .menu__nivo2 .menu__nivo2__deconnexion {
     background-color: transparent;
     border: 0;
-    color: $normal;
+    color: $menu-normal;
     padding: 0;
 }
 
@@ -244,10 +244,10 @@ $ SOUS MENU
 .menu__nivo2 .menu__nivo2__profil:hover,
 .menu__nivo2 .menu__nivo2__deconnexion:hover,
 .menu__item--profil__avatar:hover + .menu__nivo2 .menu__nivo2__profil{
-    color: $survol;
+    color: $menu-survol;
 }
 
 /*----- ACTIF -----*/
 .menu__item.var--profil.actif .menu__nivo2{
-    background-color: $actif-fond;
+    background-color: $menu-actif-fond;
 }

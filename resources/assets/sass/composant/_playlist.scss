@@ -143,7 +143,7 @@ $ NORMAL
     }
 
     @include media-breakpoint-up(lg) {
-        border-bottom: 1px solid rgba($primary, 0.2);
+        border-bottom: 1px solid rgba($rouge-300, 0.2);
     }
 }
 
@@ -152,6 +152,6 @@ $ NORMAL
 $ ACTIF
 -----------------------------------------------------------------------------*/
 .playlist__morceau.actif {
-    background-color: $primary;
+    background-color: $actif;
     color: $blanc;
 }

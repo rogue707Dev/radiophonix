@@ -21,8 +21,7 @@
 
             <h1 class="display-4 mt-2">$bleu-100: #ebeff4;</h1>
             <div style="background:#ebeff4">
-                <div style="color:#5C6F80">$bleu-350: #5C6F80;</div>
-                <div style="color:#CA342D">$rouge-400: #CA342D;</div>
+                <div style="color:#5C6F80">$bleu-300: #5C6F80;</div>
             </div>
 
             <h1 class="display-4 mt-2">$bleu-400: #3a4651;</h1>

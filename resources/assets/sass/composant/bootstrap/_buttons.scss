@@ -9,6 +9,11 @@ $ SURCHARGE
     font-size: px2rem(14);
 }
 
+.btn-outline-primary {
+    color: $primary-pour-fond-blanc;
+    border-color: $primary-pour-fond-blanc;
+}
+
 
 .input-group .btn-outline-primary {
     color: $body-color;
