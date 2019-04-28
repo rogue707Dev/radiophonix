@@ -5,7 +5,7 @@ $ PUSH
     position:fixed;
     bottom: 0;
     right: 10px;
-    z-index: 10000;
+    z-index: z-index(400);
 }
 
 .push .close {
