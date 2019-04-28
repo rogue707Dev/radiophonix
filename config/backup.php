@@ -21,6 +21,7 @@ return [
                  */
                 'include' => [
                     base_path(),
+                    storage_path('app/public'),
                 ],
 
                 /*
@@ -32,6 +33,10 @@ return [
                     base_path('vendor'),
                     base_path('node_modules'),
                     public_path('vendor'),
+                    base_path('.git'),
+                    base_path('.idea'),
+                    storage_path('app/backups'),
+                    storage_path('app/backup-temp'),
                 ],
 
                 /*
