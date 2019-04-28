@@ -38,11 +38,16 @@
 
                             <svg><use xlink:href="#contour-badge"></use></svg>
                             <div class="cover__mask">
-                                <img src="https://dev.radiophonix.org/storage/1930664737/conversions/zylann-thumb.jpg" alt="Zylann">
+                                <img :src="'/static/badge/' + badge.key + '.svg'" :alt="badge.title">
                             </div>
                         </div>
 
                     </div>
+
+                    <div class="h6 mb-4">
+                        Icon made by Icon Pond from www.flaticon.com
+                    </div>
+
                 </div>
             </div>
 
