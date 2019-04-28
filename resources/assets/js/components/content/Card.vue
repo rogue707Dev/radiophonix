@@ -15,7 +15,6 @@
             </cover>
         </div>
         <div class="card-button">
-            <button aria-hidden="true" class="fa fa-plus"></button>
             <button aria-hidden="true" class="fa fa-heart"></button>
         </div>
         <div class="card-body">

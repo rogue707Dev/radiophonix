@@ -139,7 +139,6 @@
                         </div>
                     </div>
                     <div class="card-button">
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
                         <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
@@ -162,7 +161,6 @@
                         </div>
                     </div>
                     <div class="card-button">
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
                         <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
@@ -186,7 +184,6 @@
                         </div>
                     </div>
                     <div class="card-button">
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
                         <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
@@ -209,7 +206,6 @@
                         </div>
                     </div>
                     <div class="card-button">
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
                         <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actif"></i>
                     </div>
                     <div class="card-body">
@@ -246,7 +242,6 @@
                         </div>
                     </div>
                     <div class="card-button">
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
                         <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
@@ -269,7 +264,6 @@
                         </div>
                     </div>
                     <div class="card-button">
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
                         <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
@@ -293,7 +287,6 @@
                         </div>
                     </div>
                     <div class="card-button">
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
                         <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
@@ -316,7 +309,6 @@
                         </div>
                     </div>
                     <div class="card-button">
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-plus"></i>
                         <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart var--actif"></i>
                     </div>
                     <div class="card-body">

@@ -89,18 +89,14 @@ $ BOUTON
 ======================================================================================================================*/
 .card-button {
     position: absolute;
-    top: 177px;
+    top: $espacement-standard--petit;
     left: 0;
     right: 0;
     padding: 0 8px 5px;
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-between;
+    justify-content: end;
     color: $bleu-350;
-
-    @include deux-cartes-50pct-par-ligne {
-        top: ($largeur-card-sm - 20px);
-    }
 
     .fa {
         width: 14px;
