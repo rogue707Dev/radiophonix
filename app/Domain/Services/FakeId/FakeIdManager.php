@@ -33,7 +33,7 @@ class FakeIdManager
         $name = $this->name($name);
 
         if (!isset($this->connections[$name])) {
-            $config = $this->config->get('fakeid.connections.' . $name);
+            $config = $this->config->get('radiophonix.fakeid.connections.' . $name);
 
             if (null === $config) {
                 throw FakeIdException::invalidConnection($name);
