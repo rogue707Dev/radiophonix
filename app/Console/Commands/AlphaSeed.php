@@ -13,6 +13,7 @@ use Radiophonix\Models\Badge;
 use Radiophonix\Models\Collection;
 use Radiophonix\Models\Genre;
 use Radiophonix\Models\Saga;
+use Radiophonix\Models\SiteInvite;
 use Radiophonix\Models\Team;
 use Radiophonix\Models\Track;
 use Radiophonix\Models\User;
@@ -55,6 +56,9 @@ class AlphaSeed extends Command
         $this->info('');
 
         $this->seedBadges();
+        $this->info('');
+
+        $this->seedSiteInvites();
         $this->info('');
 
         \Eloquent::reguard();
@@ -349,5 +353,18 @@ class AlphaSeed extends Command
         $user->badges()->attach(Badge::all());
 
         $this->output->write('.');
+    }
+
+    private function seedSiteInvites()
+    {
+        $this->output->write('Invitation : ');
+
+        /** @var SiteInvite $invite */
+        $invite = SiteInvite::query()->create([
+            'uuid' => Str::uuid(),
+            'email' => 'jane.doe@radiophonix.org',
+        ]);
+
+        $this->output->write($invite->uuid);
     }
 }

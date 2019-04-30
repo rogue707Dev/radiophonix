@@ -93,6 +93,29 @@
                         </div>
                     </validate>
 
+                    <validate class="form-group"
+                              tag="div"
+                              auto-label
+                              :custom="{ 'async': isInviteValid }">
+                        <label>Code d'invitation</label>
+                        <input v-model.lazy="model.invite"
+                               name="invite"
+                               type="text"
+                               class="form-control"
+                               :class="fieldClassName(formstate.invite)"
+                               :disabled="isLoading"/>
+
+                        <field-messages name="invite"
+                                        auto-label
+                                        show="$touched || $submitted"
+                                        class="invalid-feedback">
+                            <span slot="async">{{ errors.invite }}</span>
+                        </field-messages>
+                        <div class="invalid-feedback" v-if="!isInviteValid && inviteLoadingError">
+                            <span>Ce code n'existe pas</span>
+                        </div>
+                    </validate>
+
                 </div>
             </div>
 
@@ -122,16 +145,20 @@
             isEmailValid: true,
             isUsernameValid: true,
             isPasswordValid: true,
+            isInviteValid: true,
+            inviteLoadingError: false,
             errors: {
                 email: '',
                 username: '',
                 password: '',
+                invite: '',
             },
             formstate: {},
             model: {
                 email: '',
                 username: '',
                 password: '',
+                invite: '',
             },
             passwordPeek: '',
             passwordFieldType: 'password',
@@ -142,10 +169,13 @@
                 this.isEmailValid = true;
                 this.isUsernameValid = true;
                 this.isPasswordValid = true;
+                this.isInviteValid = true;
+                this.inviteLoadingError = false;
 
                 this.errors.email = '';
                 this.errors.username = '';
                 this.errors.password = '';
+                this.errors.invite = '';
             },
 
             fieldClassName(field) {
@@ -157,7 +187,9 @@
                     return 'is-valid';
                 }
 
-                if ((field.$touched || field.$submitted) && field.$invalid) {
+                if (((field.$touched|| field.$submitted) && field.$invalid)
+                    || (field.$name === 'invite' && !this.isInviteValid)
+                ) {
                     return 'is-invalid';
                 }
             },
@@ -167,6 +199,7 @@
                     && (!this.formstate.email.$error.async)
                     && (!this.formstate.username.$error.async)
                     && (!this.formstate.password.$error.async)
+                    && (!this.formstate.invite.$error.async)
                 ) {
                     return;
                 }
@@ -182,10 +215,20 @@
                     email: this.model.email,
                     username: this.model.username,
                     password: this.model.password,
+                    invite: this.model.invite,
                 }).then(() => {
                     flash.success('Inscription validée !');
 
-                    // @todo redirection vers le profil/home ?
+                    // @todo connecter le user
+
+                    this.$router.push(
+                        {
+                            name: 'profile',
+                            params: {
+                                user: this.model.username,
+                            },
+                        },
+                    );
                 }).catch((e) => {
                     let errors = e.response.data.errors;
 
@@ -203,6 +246,14 @@
                         this.isPasswordValid = false;
                         this.errors.password = errors.password.join('\n');
                     }
+
+                    console.log(errors);
+
+                    if (errors.invite) {
+                        this.isInviteValid = false;
+                        this.errors.invite = errors.invite.join('\n');
+                        this.inviteLoadingError = false;
+                    }
                 })
                 .finally(() => {
                     this.isLoading = false;
@@ -219,7 +270,30 @@
 
                 this.passwordPeek = '';
                 this.passwordFieldType = 'password';
+            },
+
+            loadInvite() {
+                this.isLoading = true;
+                this.model.invite = this.$route.query.invite;
+
+                api.invites.site.get(this.$route.query.invite)
+                    .then(res => {
+                        this.model.email = res.data.email;
+                    })
+                    .catch(err => {
+                        this.isInviteValid = false;
+                        this.inviteLoadingError = true;
+                    })
+                    .finally(() => {
+                        this.isLoading = false;
+                    });
             }
         },
+
+        mounted() {
+            if (this.$route.query.invite) {
+                this.loadInvite();
+            }
+        }
     };
 </script>

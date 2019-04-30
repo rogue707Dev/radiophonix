@@ -102,8 +102,8 @@ return [
             'alpha_dash' => 'Le nom d\'utilisateur ne peut contenir que des lettres, chiffres, tirets et underscores',
         ],
         'invite' => [
-            'exists' => 'Ce code d\'invitation n\'existe pas',
-            'uuid' => 'Ce code d\'invitation n\'existe pas',
+            'exists' => 'Ce code n\'existe pas',
+            'uuid' => 'Ce code n\'existe pas',
         ],
     ],
 

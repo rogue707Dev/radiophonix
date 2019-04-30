@@ -41,12 +41,11 @@ Route::post('/auth/register', V1\Auth\RegisterUserController::class);
 Route::post('/auth/login', V1\Auth\LoginUserController::class)->name('login');
 Route::get('/auth/refresh', V1\Auth\RefreshTokenController::class);
 
+// Invitations
+Route::get('/invites/site/{code}', V1\Invite\Site\GetSiteInviteController::class);
+
 ///*
 Route::group(['middleware' => ['jwt.auth']], function () {
-    // Auth
-//    Route::post('/logout', 'AuthController@logout');
-//    Route::post('/refresh', 'AuthController@refresh');
-//
 //    // Current user
 //    Route::get('/me', ShowCurrentUser::class);
 //    Route::get('/notifications', ListUserNotifications::class);
