@@ -48,9 +48,10 @@ class InviteTest extends ApiTestCase
     }
 
     /** @test */
-    public function a_user_cannot_register_with_a_different_email_than_the_invited_one()
+    public function a_user_can_register_with_a_different_email_than_the_invited_one()
     {
         /* *** Initialisation *** */
+        /** @var SiteInvite $invite */
         $invite = factory(SiteInvite::class)->create([
             'email' => 'foo@radiophonix.org',
         ]);
@@ -67,9 +68,11 @@ class InviteTest extends ApiTestCase
             ]
         );
 
+        $invite = $invite->fresh();
+
         /* *** Assertion *** */
-        $response->assertStatus(422);
-        $response->assertJsonValidationErrors('invite');
+        $response->assertStatus(200);
+        $this->assertNotNull($invite->used_at);
     }
 
     /** @test */

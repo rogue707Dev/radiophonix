@@ -141,14 +141,19 @@ class RegistrationTest extends ApiTestCase
         );
 
         $response->assertStatus(200);
-
         $response->assertJsonStructure([
-            'id',
-            'name',
-            'email',
-            'avatar',
-            'created_at',
-            'updated_at',
+            'access_token',
+            'token_type',
+            'expires_in',
+            'user' => [
+                'id',
+                'name',
+                'email',
+                'avatar',
+                'created_at',
+                'updated_at',
+            ],
+            'likes',
         ]);
     }
 }

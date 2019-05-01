@@ -41,20 +41,25 @@ class Radiophonix {
     }
 
     get auth() {
+        let afterAuth = function (res) {
+            store.dispatch('auth/setToken', res.data.access_token);
+            store.dispatch('auth/setUser', res.data.user);
+            store.dispatch('likes/setAll', res.data.likes);
+
+            return res;
+        };
+
         return {
             login: (email, password) => {
                 return this.axios.post('/auth/login', {
                     email: email,
                     password: password
-                }).then((res) => {
-                    store.dispatch('auth/setToken', res.data.access_token);
-                    store.dispatch('auth/setUser', res.data.user);
-                    store.dispatch('likes/setAll', res.data.likes);
-
-                    return res;
-                });
+                }).then(afterAuth);
             },
-            register: (data) => this.axios.post('/auth/register', data),
+            register: (data) => {
+                return this.axios.post('/auth/register', data)
+                    .then(afterAuth);
+            },
             logout: () => this.axios.post('/auth/logout'),
             refreshToken: () => this.axios.get('/auth/refresh'),
         };
