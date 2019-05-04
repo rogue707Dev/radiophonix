@@ -49,6 +49,10 @@ $ BADGE
     margin-top: -6px;
 }
 
+.layout-badge .layout-badge__item:hover {
+    cursor: help;
+}
+
 .layout-badge .layout-badge__item:nth-child(even) {
     transform:scaleX(-1);
     margin-left: -10px;

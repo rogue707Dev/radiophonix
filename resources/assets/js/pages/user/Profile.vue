@@ -25,7 +25,7 @@
                 <div class="col">
                     <h2 class="h1 mb-2">Badge</h2>
 
-                    <div class="layout-badge">
+                    <div class="layout-badge mb-4">
 
                         <div class="cover var--petit var--badge layout-badge__item"
                              v-for="badge in profile.badges"
@@ -38,14 +38,10 @@
 
                             <svg><use xlink:href="#contour-badge"></use></svg>
                             <div class="cover__mask">
-                                <img :src="'/static/badge/' + badge.key + '.svg'" :alt="badge.title">
+                                <img class="var--actif" :src="'/static/badge/' + badge.key + '.svg'" :alt="badge.title">
                             </div>
                         </div>
 
-                    </div>
-
-                    <div class="h6 mb-4">
-                        Icon made by Icon Pond from www.flaticon.com
                     </div>
 
                 </div>

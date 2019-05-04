@@ -76,6 +76,9 @@ $ PETIT
         img {
             @include taille(80px);
         }
+        img:not(.var--actif) {
+            filter: grayscale(100%);
+        }
     }
 }
 
