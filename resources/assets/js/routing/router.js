@@ -29,7 +29,7 @@ router.beforeEach((to, from, next) => {
 });
 
 router.beforeEach((to, from, next) => {
-    if (to.meta.auth && !router.app.$store.getters['auth/isAuthenticated']) {
+    if (to.meta.auth && !store.getters['auth/isAuthenticated']) {
         next({
             path: '/connexion',
             query: {
