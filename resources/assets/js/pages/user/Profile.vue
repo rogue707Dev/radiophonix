@@ -23,7 +23,7 @@
 
             <div class="row">
                 <div class="col">
-                    <h2 class="h1 mb-2">Badge</h2>
+                    <h2 class="h1 mb-2">Badges</h2>
 
                     <div class="layout-badge mb-4">
 
@@ -38,7 +38,9 @@
 
                             <svg><use xlink:href="#contour-badge"></use></svg>
                             <div class="cover__mask">
-                                <img class="var--actif" :src="'/static/badge/' + badge.key + '.svg'" :alt="badge.title">
+                                <img :class="{'var--actif': badge.isOwned}"
+                                     :src="'/static/badge/' + badge.key + '.svg'"
+                                     :alt="badge.title">
                             </div>
                         </div>
 
@@ -202,19 +204,27 @@
             tickCurrentSeconds(tick) {
                 return Math.floor(tick.track.seconds * tick.progress / 100000);
             },
+
+            initComponent() {
+                this.loadProfile();
+                this.loadLikes();
+
+                if (this.isProfileOfCurrentUser) {
+                    this.tab = 'ticks';
+
+                    this.loadTicks();
+                } else {
+                    this.tab = 'favorites';
+                }
+            }
         },
 
         created() {
-            this.loadProfile();
-            this.loadLikes();
-
-            if (this.isProfileOfCurrentUser) {
-                this.tab = 'ticks';
-
-                this.loadTicks();
-            } else {
-                this.tab = 'favorites';
-            }
+            this.initComponent();
         },
+
+        watch: {
+            '$route': 'initComponent',
+        }
     }
 </script>
