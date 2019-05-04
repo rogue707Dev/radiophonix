@@ -15,10 +15,10 @@ a:focus{
 $ SIDEBAR
 ======================================================================================================================*/
 .lien-paragraphe {
-    color: $bleu-500;
+    color: $rouge-300;
 
     @include survol() {
-        color: $bleu-500;
+        color: $rouge-300;
         text-decoration: underline;
     }
 }
