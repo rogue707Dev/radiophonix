@@ -97,7 +97,7 @@
                               tag="div"
                               auto-label
                               :custom="{ 'async': isInviteValid }">
-                        <label>Code d'invitation</label>
+                        <label>Code d'invitation (optionnel)</label>
                         <input v-model.lazy="model.invite"
                                name="invite"
                                type="text"
@@ -183,7 +183,10 @@
                     return '';
                 }
 
-                if ((field.$touched || field.$submitted) && field.$valid) {
+                if ((field.$touched || field.$submitted)
+                    && field.$valid
+                    && (field.$name === 'invite' && this.model.invite.length > 0)
+                ) {
                     return 'is-valid';
                 }
 
