@@ -65,6 +65,17 @@ class Radiophonix {
         };
     }
 
+    get settings() {
+        return {
+            profile: (data) => {
+                return this.axios.patch('/settings/profile', data)
+                    .then(res => {
+                        store.dispatch('auth/setUser', res.data);
+                    });
+            },
+        };
+    }
+
     get feedback() {
         return {
             send: (type, title, description, url) => {

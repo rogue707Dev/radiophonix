@@ -29,6 +29,10 @@ import AuthLayoutView from '~/pages/auth/Layout.vue';
 import LoginView from '~/pages/auth/Login.vue';
 import RegisterView from '~/pages/auth/Register.vue';
 
+// Settings
+import SettingsLayoutView from '~/pages/user/Settings/Layout';
+import SettingsProfileView from '~/pages/user/Settings/Profile';
+
 import UserProfile from '~/pages/user/Profile.vue';
 
 // Publish pages
@@ -168,6 +172,22 @@ const routes = [
                     }
                 ]
             },
+
+            {
+                path: 'settings',
+                component: SettingsLayoutView,
+                name: 'settings',
+                meta: { menu: 'profile', auth: true },
+                children: [
+                    {
+                        path: 'profile',
+                        component: SettingsProfileView,
+                        name: 'settings.profile',
+                        meta: { menu: 'profile', auth: true }
+                    },
+                ]
+            },
+
             {
                 path: '',
                 component: AuthLayoutView,
@@ -287,12 +307,6 @@ const routes = [
                         name: 'listen.genres.show',
                         meta: { menu: 'listen' }
                     },
-
-                    // {
-                    //     path: '/me',
-                    //     component: UserShowView,
-                    //     name: 'listen.authors.show'
-                    // }
                 ]
             },
         ]

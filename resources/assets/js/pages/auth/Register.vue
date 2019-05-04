@@ -250,15 +250,12 @@
                         this.errors.password = errors.password.join('\n');
                     }
 
-                    console.log(errors);
-
                     if (errors.invite) {
                         this.isInviteValid = false;
                         this.errors.invite = errors.invite.join('\n');
                         this.inviteLoadingError = false;
                     }
-                })
-                .finally(() => {
+                }).finally(() => {
                     this.isLoading = false;
                 });
             },

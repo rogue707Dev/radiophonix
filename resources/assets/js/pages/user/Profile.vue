@@ -12,10 +12,10 @@
             </template>
 
             <div class="mt-3" v-if="isProfileOfCurrentUser">
-                <button class="btn btn-outline-secondary btn-sm mb-2">
-                    <i class="fa fa-cog" aria-hidden="true"></i>
+                <router-link class="btn btn-outline-secondary btn-sm mb-2" :to="{ name: 'settings.profile' }">
+                    <fa-icon icon="fa-cog" label="Éditer le profil" />
                     Éditer le profil
-                </button>
+                </router-link>
             </div>
         </banner>
 
@@ -131,6 +131,7 @@
     import NavList from '~/components/Ui/Nav/NavList';
     import NavItem from '~/components/Ui/Nav/NavItem';
     import CardSaga from '~/components/content/Card/CardSaga';
+    import FaIcon from "~/components/Ui/Icon/FaIcon";
 
     export default {
         data: () => ({
@@ -144,6 +145,7 @@
         }),
 
         components: {
+            FaIcon,
             TrackLength,
             Banner,
             Cover,
