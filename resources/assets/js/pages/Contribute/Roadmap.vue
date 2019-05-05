@@ -77,19 +77,19 @@
             <roadmap-task status="done">
                 Pouvoir s'inscrire sur le site
             </roadmap-task>
-            <roadmap-task status="doing">
+            <roadmap-task status="done">
                 Enregistrer l'avancement de la lecture sur le compte
             </roadmap-task>
             <roadmap-task status="doing">
                 Système de "like" pour les sagas, les auteurs, etc.
             </roadmap-task>
-            <roadmap-task status="todo">
+            <roadmap-task status="done">
                 Avoir une page de profil personnalisée
             </roadmap-task>
             <roadmap-task status="todo">
                 Possibilité de s'abonner à une saga
             </roadmap-task>
-            <roadmap-task status="todo">
+            <roadmap-task status="doing">
                 Indicateurs de chargement sur les différentes pages
             </roadmap-task>
         </ul>
