@@ -27,6 +27,11 @@
                         Profil
                     </router-link>
                 </nav-item>
+                <nav-item :active="$route.name === 'settings.password'">
+                    <router-link :to="{ name: 'settings.password' }">
+                        Mot de passe
+                    </router-link>
+                </nav-item>
             </nav-list>
 
             <router-view></router-view>

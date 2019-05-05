@@ -73,6 +73,7 @@ class Radiophonix {
                         store.dispatch('auth/setUser', res.data);
                     });
             },
+            password: (data) => this.axios.patch('/settings/password', data),
         };
     }
 
