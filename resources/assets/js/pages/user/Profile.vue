@@ -25,6 +25,10 @@
                 <div class="col">
                     <h2 class="h1 mb-2">Badges</h2>
 
+                    <div v-if="loading.profile">
+                        <fa-icon icon="fa-spinner fa-spin fa-5x" label="Chargement" />
+                    </div>
+
                     <div class="layout-badge mb-4">
 
                         <div class="cover var--petit var--badge layout-badge__item"
@@ -64,60 +68,67 @@
             </nav-list>
 
             <div v-if="tab === 'ticks' && isProfileOfCurrentUser">
-                <template v-if="ticks.length === 0">
-                    Pas d'écoute en cours
+                <template v-if="loading.ticks">
+                    <fa-icon icon="fa-spinner fa-spin fa-5x" label="Chargement" />
                 </template>
                 <template v-else>
-                    <div class="episode-item var--en-cours" v-for="tick in ticks">
-                        <div class="episode-item__cover">
-                            <div class="cover var--petit var--episode">
-                                <div class="cover__mask">
-                                    <img :src="tick.saga.images.cover.thumb" :alt="tick.saga.name">
+                    <template v-if="ticks.length === 0">
+                        Pas d'écoute en cours
+                    </template>
+                    <template v-else>
+                        <div class="episode-item var--en-cours" v-for="tick in ticks">
+                            <div class="episode-item__cover">
+                                <div class="cover var--petit var--episode">
+                                    <div class="cover__mask">
+                                        <img :src="tick.saga.images.cover.thumb" :alt="tick.saga.name">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="episode-item__content align-content-center h-100 d-grid">
-                            <div>
-                                {{ tick.saga.name }}&nbsp;•&nbsp;<span class="font-weight-bold">{{ tick.track.title }}</span>
-                                <div class="progression text-dark h5 mt-1">
-                                    <track-length :seconds="tickCurrentSeconds(tick)"></track-length>
-                                    <progress :value="tick.progress" max="100000" class="progression__barre"></progress>
-                                    <track-length :seconds="tick.track.seconds" class="text-right"></track-length>
+                            <div class="episode-item__content align-content-center h-100 d-grid">
+                                <div>
+                                    {{ tick.saga.name }}&nbsp;•&nbsp;<span class="font-weight-bold">{{ tick.track.title }}</span>
+                                    <div class="progression text-dark h5 mt-1">
+                                        <track-length :seconds="tickCurrentSeconds(tick)"></track-length>
+                                        <progress :value="tick.progress" max="100000" class="progression__barre"></progress>
+                                        <track-length :seconds="tick.track.seconds" class="text-right"></track-length>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="episode-item__etat-lecture">
+                                <button class="btn btn-sm btn-outline-secondary"
+                                        @click="play({track: tick.track, saga: tick.saga, autoStart: true, seekPercentage: tick.progress / 1000})">
+                                    <i aria-hidden="true" class="fa fa-play pr-1"></i><span>Écouter</span>
+                                </button>
+                            </div>
+                            <div class="episode-item__download">
+                                <a :href="tick.track.file" target="_blank" class="btn btn-outline-secondary btn-sm mr-xl-3">
+                                    <i aria-hidden="true" class="fa fa-download"></i>Télécharger
+                                </a>
+                            </div>
                         </div>
-                        <div class="episode-item__etat-lecture">
-                            <button class="btn btn-sm btn-outline-secondary"
-                                    @click="play({track: tick.track, saga: tick.saga, autoStart: true, seekPercentage: tick.progress / 1000})">
-                                <i aria-hidden="true" class="fa fa-play pr-1"></i><span>Écouter</span>
-                            </button>
-                        </div>
-                        <div class="episode-item__download">
-                            <a :href="tick.track.file" target="_blank" class="btn btn-outline-secondary btn-sm mr-xl-3">
-                                <i aria-hidden="true" class="fa fa-download"></i>Télécharger
-                            </a>
-                        </div>
-                    </div>
+                    </template>
                 </template>
             </div>
 
             <div v-if="tab === 'favorites'">
-                <div v-if="!hasFavorites">
-                    Pas de favoris
-                </div>
-                <div class="list-card-horizontal" v-if="likes">
-                    <template v-if="likes.saga.length > 0">
-                        <card-saga v-for="saga in likes.saga"
-                                   :key="saga.id"
-                                   :saga="saga"
-                                   :badge="true"
-                                   :horizontal="true"
-                                   :with-author="false"></card-saga>
-                    </template>
-                </div>
-                <div v-else>
-                    Pas de favoris
-                </div>
+                <template v-if="loading.likes">
+                    <fa-icon icon="fa-spinner fa-spin fa-5x" label="Chargement" />
+                </template>
+                <template v-else>
+                    <div v-if="!hasFavorites">
+                        Pas de favoris
+                    </div>
+                    <div class="list-card-horizontal" v-if="likes">
+                        <template v-if="likes.saga.length > 0">
+                            <card-saga v-for="saga in likes.saga"
+                                       :key="saga.id"
+                                       :saga="saga"
+                                       :badge="true"
+                                       :horizontal="true"
+                                       :with-author="false"></card-saga>
+                        </template>
+                    </div>
+                </template>
             </div>
 
         </div>
@@ -145,6 +156,11 @@
             ticks: [],
             tab: '',
             likes: null,
+            loading: {
+                profile: false,
+                ticks: false,
+                likes: false,
+            },
         }),
 
         components: {
@@ -198,8 +214,12 @@
 
             async loadProfile() {
                 try {
+                    this.loading.profile = true;
+
                     let result = await api.profile.get(this.$route.params.user);
                     this.profile = result.data;
+
+                    this.loading.profile = false;
                 } catch (e) {
                     this.$router.push({
                         name: '404',
@@ -208,14 +228,22 @@
             },
 
             async loadLikes() {
+                this.loading.likes = true;
+
                 let result = await api.profile.likes(this.$route.params.user);
                 this.likes = result.data;
+
+                this.loading.likes = false;
             },
 
             async loadTicks() {
+                this.loading.ticks = true;
+
                 let result = await api.ticks.all();
 
                 this.ticks = result.data;
+
+                this.loading.ticks = false;
             },
 
             tickCurrentSeconds(tick) {
