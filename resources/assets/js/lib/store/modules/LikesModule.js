@@ -4,7 +4,7 @@ import api from '~/lib/api';
 const getDefaultState = () => {
     return {
         likes: storage.get('user.likes'),
-    }
+    };
 };
 
 const state = getDefaultState();

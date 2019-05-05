@@ -4,7 +4,7 @@ const getDefaultState = () => {
     return {
         token: storage.get('token'),
         user: storage.get('user'),
-    }
+    };
 };
 
 const state = getDefaultState();
