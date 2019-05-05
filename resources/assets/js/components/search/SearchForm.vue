@@ -56,7 +56,10 @@
 
         methods: {
             search() {
-                this.$store.dispatch('search/doSearch', this.query);
+                this.$store.dispatch(
+                    'search/doSearch',
+                    this.$store.state.search.currentQuery
+                );
 
                 if (this.$route.name !== 'search') {
                     this.$router.push({name: 'search'});
