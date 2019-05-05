@@ -102,6 +102,9 @@
             </div>
 
             <div v-if="tab === 'favorites'">
+                <div v-if="!hasFavorites">
+                    Pas de favoris
+                </div>
                 <div class="list-card-horizontal" v-if="likes">
                     <template v-if="likes.saga.length > 0">
                         <card-saga v-for="saga in likes.saga"
@@ -173,6 +176,18 @@
                 }
 
                 return this.$store.state.auth.user.name === this.$route.params.user;
+            },
+
+            hasFavorites() {
+                if (!this.likes) {
+                    return false;
+                }
+
+                if (!this.likes.saga) {
+                    return false;
+                }
+
+                return this.likes.saga.length > 0;
             },
         },
 

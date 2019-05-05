@@ -222,8 +222,6 @@
                 }).then(() => {
                     flash.success('Inscription validée !');
 
-                    // @todo connecter le user
-
                     this.$router.push(
                         {
                             name: 'profile',
