@@ -85,7 +85,13 @@
 
         methods: {
             async loadCurrentTrack() {
-                let currentTick = await ticks.current();
+                let currentTick;
+
+                try {
+                    currentTick = await ticks.current();
+                } catch (e) {
+                    return;
+                }
 
                 if (!currentTick) {
                     return;
