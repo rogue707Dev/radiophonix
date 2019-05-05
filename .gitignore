@@ -1,4 +1,4 @@
-vendor/
+/vendor/
 node_modules/
 bower_components/
 .vagrant/
@@ -11,6 +11,7 @@ public/phpmyadmin
 public/files
 public/static
 public/doc
+public/vendor
 resources/front.html
 public/stats.json
 storage/mocks
