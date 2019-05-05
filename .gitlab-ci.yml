@@ -72,10 +72,10 @@ build:review:
     stage: build
     image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine-lts
     only:
-        - branches
-    except:
-        - master
-        - dev
+        refs:
+            - merge_requests
+        variables:
+            - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "dev"
     environment:
         name: review/$CI_COMMIT_REF_NAME
         url: http://$CI_ENVIRONMENT_SLUG.radiophonix.org
@@ -103,10 +103,10 @@ deploy:review:
     image: edbizarro/gitlab-ci-pipeline-php:7.2
     allow_failure: true
     only:
-        - branches
-    except:
-        - master
-        - dev
+        refs:
+            - merge_requests
+        variables:
+            - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "dev"
     environment:
         name: review/$CI_COMMIT_REF_NAME
         url: http://$CI_ENVIRONMENT_SLUG.radiophonix.org
@@ -133,10 +133,10 @@ stop:review:
     stage: deploy
     when: manual
     only:
-        - branches
-    except:
-        - master
-        - dev
+        refs:
+            - merge_requests
+        variables:
+            - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "dev"
     environment:
         name: review/$CI_COMMIT_REF_NAME
         action: stop
