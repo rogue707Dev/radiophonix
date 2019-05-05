@@ -62,6 +62,8 @@ class Radiophonix {
             },
             logout: () => this.axios.post('/auth/logout'),
             refreshToken: () => this.axios.get('/auth/refresh'),
+            askPasswordReset: (email) => this.axios.post('/auth/password/email', {email}),
+            resetPassword: (data) => this.axios.post('/auth/password/reset', data),
         };
     }
 

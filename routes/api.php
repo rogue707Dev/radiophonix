@@ -35,11 +35,14 @@ Route::get('/teams/{team}/sagas', V1\Team\ListTeamSagasController::class);
 Route::get('/profile/{user}', V1\User\ShowProfileController::class);
 Route::get('/profile/{user}/likes', V1\User\ShowProfileLikesController::class);
 
-// WIP authentification
-
+// Authentification
 Route::post('/auth/register', V1\Auth\RegisterUserController::class);
 Route::post('/auth/login', V1\Auth\LoginUserController::class)->name('login');
 Route::get('/auth/refresh', V1\Auth\RefreshTokenController::class);
+
+// Password reset
+Route::post('/auth/password/email', V1\Auth\ForgotPasswordController::class);
+Route::post('/auth/password/reset', V1\Auth\ResetPasswordController::class);
 
 // Invitations
 Route::get('/invites/site/{code}', V1\Invite\Site\GetSiteInviteController::class);

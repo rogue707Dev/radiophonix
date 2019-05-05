@@ -33,14 +33,9 @@
                               tag="div"
                               auto-label
                               :custom="{ 'async': isPasswordValid }">
-                        <label>Mot de passe</label>
-                        <router-link :to="{ name: 'password.forgot' }"
-                            class="pull-right lien-paragraphe">
-                            Mot de passe oublié ?
-                        </router-link>
+                        <label>Nouveau mot de passe</label>
                         <div class="input-group">
                             <input v-model.lazy="model.password"
-                                   v-show="passwordFieldType === 'password'"
                                    name="password"
                                    type="password"
                                    required
@@ -49,19 +44,6 @@
                                    class="form-control"
                                    :class="fieldClassName(formstate.password)"
                                    :disabled="isLoading"/>
-                            <input class="form-control"
-                                   v-show="passwordFieldType === 'text'"
-                                   type="text"
-                                   :placeholder="passwordPeek"
-                                   readonly>
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-primary"
-                                        type="button"
-                                        @click="peekPassword">
-                                    <fa-icon v-show="passwordFieldType === 'password'" icon="fa-eye" label="Voir" />
-                                    <fa-icon v-show="passwordFieldType === 'text'" icon="fa-eye-slash" label="Masquer" />
-                                </button>
-                            </div>
 
                             <field-messages name="password"
                                             auto-label
@@ -75,14 +57,42 @@
                         </div>
                     </validate>
 
+                    <validate class="form-group"
+                              tag="div"
+                              auto-label
+                              :custom="{ 'async': isPasswordConfirmationValid }">
+                        <label>Confirmer le nouveau mot de passe</label>
+                        <div class="input-group">
+                            <input v-model.lazy="model.passwordConfirmation"
+                                   name="password_confirmation"
+                                   type="password"
+                                   required
+                                   minlength="8"
+                                   maxlength="255"
+                                   class="form-control"
+                                   :class="fieldClassName(formstate.password_confirmation)"
+                                   :disabled="isLoading"/>
+
+                            <field-messages name="password_confirmation"
+                                            auto-label
+                                            show="$touched || $submitted"
+                                            class="invalid-feedback">
+                                <span slot="required">Mot de passe requis</span>
+                                <span slot="minlength">Le mot de passe doit faire au moins 8 caractères</span>
+                                <span slot="maxlength">Le mot de passe doit faire au moins 8 caractères</span>
+                                <span slot="async">{{ errors.passwordConfirmation }}</span>
+                            </field-messages>
+                        </div>
+                    </validate>
+
                 </div>
             </div>
 
             <button type="submit" class="btn btn-primary" :disabled="isLoading">
                 <fa-icon icon="fa-refresh fa-spin fa-fw"
                          label="Chargement"
-                         v-show="isLoading" />
-                Connexion
+                         v-show="isLoading"/>
+                Réinitialiser le mot de passe
             </button>
         </vue-form>
 
@@ -92,36 +102,41 @@
 <script>
     import api from '~/lib/api';
     import FaIcon from '~/components/Ui/Icon/FaIcon.vue';
+    import flash from "~/lib/services/flash";
 
     export default {
         components: {
-            FaIcon
+            FaIcon,
         },
 
         data: () => ({
+            token: null,
             isLoading: false,
             isEmailValid: true,
             isPasswordValid: true,
+            isPasswordConfirmationValid: true,
             errors: {
                 email: '',
                 password: '',
+                passwordConfirmation: '',
             },
             formstate: {},
             model: {
                 email: '',
                 password: '',
+                passwordConfirmation: '',
             },
-            passwordPeek: '',
-            passwordFieldType: 'password',
         }),
 
         methods: {
             resetErrors() {
                 this.isEmailValid = true;
                 this.isPasswordValid = true;
+                this.isPasswordConfirmationValid = true;
 
                 this.errors.email = '';
                 this.errors.password = '';
+                this.errors.passwordConfirmation = '';
             },
 
             fieldClassName(field) {
@@ -132,42 +147,41 @@
                 if ((field.$touched || field.$submitted) && field.$invalid) {
                     return 'is-invalid';
                 }
+
+                if (((field.$touched || field.$submitted) && field.$invalid)) {
+                    return 'is-invalid';
+                }
             },
 
             onSubmit() {
                 if (this.formstate.$invalid
                     && (!this.formstate.email.$error.async)
                     && (!this.formstate.password.$error.async)
+                    && (!this.formstate.password_confirmation.$error.async)
                 ) {
                     return;
                 }
-
-                this.passwordPeek = '';
-                this.passwordFieldType = 'password';
 
                 this.resetErrors();
 
                 this.isLoading = true;
 
-                api.auth.login(
-                    this.model.email,
-                    this.model.password
-                ).then((res) => {
-                    this.$router.push(
-                        {
-                            name: 'profile',
-                            params: {
-                                user: res.data.user.name,
-                            },
-                        },
+                api.auth.resetPassword({
+                    token: this.token,
+                    email: this.model.email,
+                    password: this.model.password,
+                    password_confirmation: this.model.passwordConfirmation,
+                }).then(() => {
+                    flash.success(
+                        'Vous pouvez maintenant vous connecter.',
+                        'Mot de passe modifié !'
                     );
-                }).catch((e) => {
-                    if (!e.response) {
-                        console.log(e);
-                        return;
-                    }
 
-                    let errors = e.response.data.errors || {};
+                    this.$router.push({
+                        name: 'login',
+                    });
+                }).catch((e) => {
+                    let errors = e.response.data.errors;
 
                     if (errors.email) {
                         this.isEmailValid = false;
@@ -178,23 +192,15 @@
                         this.isPasswordValid = false;
                         this.errors.password = errors.password.join('\n');
                     }
-                })
-                .finally(() => {
+                }).finally(() => {
                     this.isLoading = false;
                 });
             },
-
-            peekPassword() {
-                if (this.passwordFieldType === 'password') {
-                    this.passwordPeek = this.model.password;
-                    this.passwordFieldType = 'text';
-
-                    return null;
-                }
-
-                this.passwordPeek = '';
-                this.passwordFieldType = 'password';
-            }
         },
+
+        created() {
+            this.token = this.$route.params.token;
+            this.model.email = this.$route.query.email;
+        }
     };
 </script>

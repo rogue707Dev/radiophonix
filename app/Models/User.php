@@ -5,6 +5,7 @@ namespace Radiophonix\Models;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Collection;
 use Radiophonix\Models\Support\HasFakeId;
 use Tymon\JWTAuth\Contracts\JWTSubject;
@@ -24,6 +25,7 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
 class User extends Authenticatable implements JWTSubject
 {
     use HasFakeId;
+    use Notifiable;
 
     /**
      * The attributes that are mass assignable.

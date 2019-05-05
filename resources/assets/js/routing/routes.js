@@ -29,6 +29,10 @@ import AuthLayoutView from '~/pages/auth/Layout.vue';
 import LoginView from '~/pages/auth/Login.vue';
 import RegisterView from '~/pages/auth/Register.vue';
 
+// Password reset
+import PasswordForgotView from '~/pages/auth/Password/Forgot';
+import PasswordResetView from '~/pages/auth/Password/Reset';
+
 // Settings
 import SettingsLayoutView from '~/pages/user/Settings/Layout';
 import SettingsProfileView from '~/pages/user/Settings/Profile';
@@ -219,6 +223,18 @@ const routes = [
                         component: RegisterView,
                         name: 'register',
                         meta: { menu: 'register' }
+                    },
+                    {
+                        path: 'password-reset',
+                        component: PasswordForgotView,
+                        name: 'password.forgot',
+                        meta: { menu: 'login' }
+                    },
+                    {
+                        path: 'password-reset/:token',
+                        component: PasswordResetView,
+                        name: 'password.reset',
+                        meta: { menu: 'login' }
                     },
                 ]
             },

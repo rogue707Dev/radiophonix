@@ -11,4 +11,7 @@
 |
 */
 
-Route::get('/', \Radiophonix\Http\Controllers\IndexController::class);
+use Radiophonix\Http\Controllers\IndexController;
+
+Route::get('/', IndexController::class);
+Route::get('/password-reset/{token}', IndexController::class)->name('password-reset');
