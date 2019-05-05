@@ -35,6 +35,10 @@ const state = getDefaultState();
 const getters = {};
 
 const actions = {
+    resetState ({ commit }) {
+        commit('resetState');
+    },
+
     async play({ state, commit }, payload) {
         if (payload.track.id === state.currentTrack.id) {
 
@@ -177,6 +181,10 @@ const actions = {
 };
 
 const mutations = {
+    resetState (state) {
+        Object.assign(state, getDefaultState());
+    },
+
     setCurrentTrack(state, track) {
         state.currentTrack = Object.assign({}, track);
     },

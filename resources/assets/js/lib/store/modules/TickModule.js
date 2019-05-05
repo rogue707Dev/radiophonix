@@ -11,6 +11,10 @@ const state = getDefaultState();
 const getters = {};
 
 const actions = {
+    resetState ({ commit }) {
+        commit('resetState');
+    },
+
     async refreshTicks({ commit }) {
         let result = await api.ticks.all();
         let ticks = {};
@@ -26,6 +30,10 @@ const actions = {
 };
 
 const mutations = {
+    resetState (state) {
+        Object.assign(state, getDefaultState());
+    },
+
     setTicks(state, ticks) {
         state.ticks = Object.assign([], ticks);
     },
