@@ -20,4 +20,9 @@ const store = new Vuex.Store({
     }
 });
 
+export function resetStore() {
+    store.dispatch('auth/resetState');
+    store.dispatch('likes/resetState');
+}
+
 export default store;

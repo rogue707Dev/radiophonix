@@ -26,4 +26,8 @@ export default {
     },
 
     remove: key => storage.removeItem(makeKey(key)),
+
+    clear: () => {
+        storage.clear();
+    },
 };

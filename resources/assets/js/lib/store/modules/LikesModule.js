@@ -1,9 +1,13 @@
 import storage from '~/lib/services/storage';
 import api from '~/lib/api';
 
-const state = {
-    likes: storage.get('user.likes'),
+const getDefaultState = () => {
+    return {
+        likes: storage.get('user.likes'),
+    }
 };
+
+const state = getDefaultState();
 
 const getters = {
     isLiked: (state) => (type, id) => {
@@ -20,6 +24,10 @@ const getters = {
 };
 
 const actions = {
+    resetState ({ commit }) {
+        commit('resetState');
+    },
+
     setAll({ commit }, likes) {
         if (!likes) {
             return;
@@ -51,6 +59,10 @@ const actions = {
 };
 
 const mutations = {
+    resetState (state) {
+        Object.assign(state, getDefaultState());
+    },
+
     setAll: (state, likes) => state.likes = Object.assign({}, likes),
 
     add: (state, { type, id }) => {

@@ -32,6 +32,11 @@
                         Mot de passe
                     </router-link>
                 </nav-item>
+                <nav-item :active="$route.name === 'settings.account'">
+                    <router-link :to="{ name: 'settings.account' }">
+                        Compte
+                    </router-link>
+                </nav-item>
             </nav-list>
 
             <router-view></router-view>

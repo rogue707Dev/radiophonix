@@ -1,9 +1,13 @@
 import storage from '~/lib/services/storage';
 
-const state = {
-    token: storage.get('token'),
-    user: storage.get('user'),
+const getDefaultState = () => {
+    return {
+        token: storage.get('token'),
+        user: storage.get('user'),
+    }
 };
+
+const state = getDefaultState();
 
 const getters = {
     isAuthenticated(state) {
@@ -14,6 +18,10 @@ const getters = {
 };
 
 const actions = {
+    resetState ({ commit }) {
+        commit('resetState');
+    },
+
     setToken({ commit }, token) {
         if (!token) {
             return;
@@ -37,6 +45,10 @@ const actions = {
 };
 
 const mutations = {
+    resetState (state) {
+        Object.assign(state, getDefaultState());
+    },
+
     setToken: (state, token) => state.token = token,
     setUser: (state, user) => state.user = user,
 };

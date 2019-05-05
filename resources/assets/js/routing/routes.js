@@ -33,6 +33,7 @@ import RegisterView from '~/pages/auth/Register.vue';
 import SettingsLayoutView from '~/pages/user/Settings/Layout';
 import SettingsProfileView from '~/pages/user/Settings/Profile';
 import SettingsPasswordView from '~/pages/user/Settings/Password';
+import SettingsAccountView from '~/pages/user/Settings/Account';
 
 import UserProfile from '~/pages/user/Profile.vue';
 
@@ -190,6 +191,12 @@ const routes = [
                         path: 'password',
                         component: SettingsPasswordView,
                         name: 'settings.password',
+                        meta: { menu: 'profile', auth: true },
+                    },
+                    {
+                        path: 'account',
+                        component: SettingsAccountView,
+                        name: 'settings.account',
                         meta: { menu: 'profile', auth: true },
                     },
                 ]

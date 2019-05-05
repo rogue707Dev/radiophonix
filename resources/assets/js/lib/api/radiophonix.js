@@ -74,6 +74,7 @@ class Radiophonix {
                     });
             },
             password: (data) => this.axios.patch('/settings/password', data),
+            deleteAccount: () => this.axios.delete('/account'),
         };
     }
 

@@ -50,6 +50,8 @@ Route::group(['middleware' => ['jwt.auth']], function () {
     Route::patch('/settings/profile', V1\User\Profile\UpdateProfileController::class);
     Route::patch('/settings/password', V1\User\Profile\UpdatePasswordController::class);
 
+    Route::delete('/account', V1\User\DeleteAccountController::class);
+
 //    // Current user
 //    Route::get('/me', ShowCurrentUser::class);
 //    Route::get('/notifications', ListUserNotifications::class);
