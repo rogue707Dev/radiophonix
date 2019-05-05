@@ -17,19 +17,28 @@
                 <nav-item :active="menu == 'genres'" @click="switchMenu('genres', 'genres', 'all')">Genres</nav-item>
             </nav-list>
 
-            <saga-list v-show="menu == 'sagas'" :sagas="sagas"></saga-list>
+            <p class="lead text-center mt-md-5 mt-5"
+                v-if="isLoading">
+                <i class="fa fa-spinner fa-spin fa-5x mt-md-5 mb-md-5 mb-4"></i>
+                <br/>
+                Chargement...
+            </p>
 
-            <author-list v-show="menu == 'authors'" :authors="authors"></author-list>
+            <template v-if="!isLoading">
+                <saga-list v-show="menu === 'sagas'" :sagas="sagas"></saga-list>
 
-            <team-list v-show="menu == 'teams'" :teams="teams"></team-list>
+                <author-list v-show="menu === 'authors'" :authors="authors"></author-list>
 
-            <div class="list-card" v-show="menu == 'genres'">
+                <team-list v-show="menu === 'teams'" :teams="teams"></team-list>
 
-                <card-genre v-for="genre in genres"
-                            :key="genre.id"
-                            :genre="genre"></card-genre>
+                <div class="list-card" v-show="menu === 'genres'">
 
-            </div>
+                    <card-genre v-for="genre in genres"
+                                :key="genre.id"
+                                :genre="genre"></card-genre>
+
+                </div>
+            </template>
 
         </div>
     </div>
@@ -67,6 +76,7 @@ export default {
         teams: [],
         genres: [],
         shouldWait: false,
+        isLoading: false,
     }),
 
     methods: {
@@ -77,6 +87,7 @@ export default {
                 return;
             }
 
+            this.isLoading = true;
             this.shouldWait = true;
 
             setTimeout(() => {
@@ -88,6 +99,8 @@ export default {
             let data = await this.fetchResource(type, resource);
 
             this[menu] = this[menu].concat(data);
+
+            this.isLoading = false;
         },
 
         async fetchResource(type, resource) {
