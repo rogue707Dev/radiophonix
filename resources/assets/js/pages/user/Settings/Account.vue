@@ -8,6 +8,8 @@
             </p>
 
             <button class="btn btn-danger mt-4"
+                    v-b-tooltip.right
+                    title="Une confirmation est demandée avant de supprimer le compte"
                     @click="deleteAccount">
                 Supprimer mon compte
             </button>
@@ -24,21 +26,39 @@
     export default {
         methods: {
             async deleteAccount() {
-                let confirmed = await flash.confirm(
-                    'Êtes-vous sûr de vouloir supprimer votre compte ?',
-                    'Cette action n\'est pas réversible'
+                let password = await flash.confirm(
+                    'Entrez votre mot de passe pour confirmer la suppression de votre compte :',
+                    'Cette action n\'est pas réversible',
+                    true
                 );
 
-                if (true !== confirmed) {
+                if (null === password) {
+                    flash.close();
+                    return;
+                }
+
+                if ((password + '').length === 0) {
+                    flash.close();
+                    flash.info('Il faut entrer votre mot de passe pour confirmer la suppression.', 'Compte non supprimé.');
                     return;
                 }
 
                 api.settings
-                    .deleteAccount()
-                    .then(() => {
+                    .deleteAccount(password)
+                    .catch(err => {
+                        flash.error(err.response.data.errors.password.join('\n'));
+                        return false;
+                    })
+                    .then((res) => {
+                        if (res === false) {
+                            return;
+                        }
+
                         storage.clear();
                         resetStore();
                         this.$router.push({name: 'home'});
+
+                        flash.success('Compte supprimé !');
                     })
                     .then(flash.close);
             }

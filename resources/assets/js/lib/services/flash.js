@@ -13,11 +13,12 @@ const flash = window.flash = {
     success: (message, title) => sendFlashMessage('success', message, title),
     warning: (message, title) => sendFlashMessage('warning', message, title),
     error: (message, title) => sendFlashMessage('error', message, title),
-    confirm: (message, title) => {
+    confirm: (message, title, withPasswordInput = false) => {
         return swal({
             title: title,
             text: message,
             icon: 'warning',
+            content: withPasswordInput ? 'input' : '',
             buttons: {
                 cancel: {
                     text: 'Non',
