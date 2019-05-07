@@ -18,6 +18,9 @@
                                    required
                                    minlength="8"
                                    maxlength="255"
+                                   readonly
+                                   style="background-color: inherit;"
+                                   onfocus="this.removeAttribute('readonly');"
                                    class="form-control"
                                    :class="fieldClassName(formstate.old_password)"
                                    :disabled="isLoading"/>
@@ -46,6 +49,9 @@
                                    required
                                    minlength="8"
                                    maxlength="255"
+                                   readonly
+                                   style="background-color: inherit;"
+                                   onfocus="this.removeAttribute('readonly');"
                                    class="form-control"
                                    :class="fieldClassName(formstate.password)"
                                    :disabled="isLoading"/>
@@ -74,6 +80,9 @@
                                    required
                                    minlength="8"
                                    maxlength="255"
+                                   readonly
+                                   style="background-color: inherit;"
+                                   onfocus="this.removeAttribute('readonly');"
                                    class="form-control"
                                    :class="fieldClassName(formstate.password_confirmation)"
                                    :disabled="isLoading"/>
