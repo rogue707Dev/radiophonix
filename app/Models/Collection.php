@@ -65,12 +65,7 @@ class Collection extends Model
         return $this->hasMany(Track::class);
     }
 
-    /**
-     * Setter for the $type attribute.
-     *
-     * @param $value
-     */
-    public function setTypeAttribute($value)
+    public function setTypeAttribute(string $value): void
     {
         if ($value == null) {
             $value = CollectionType::SEASON;
@@ -79,9 +74,6 @@ class Collection extends Model
         $this->attributes['type'] = $value;
     }
 
-    /**
-     * @return int
-     */
     public function getCachedTracksCountAttribute(): int
     {
         return $this->cacheCount('tracks', function () {

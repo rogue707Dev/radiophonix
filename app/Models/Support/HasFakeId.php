@@ -18,26 +18,24 @@ use Radiophonix\Domain\Services\FakeId\FakeIdManager;
 trait HasFakeId
 {
     /**
-     * Get a model instance based on the given fake id.
-     *
-     * @param string $fakeId
+     * @param int $fakeId
      * @return static
      */
-    public static function fromFakeId($fakeId)
+    public static function fromFakeId(int $fakeId)
     {
         $id = app(FakeIdManager::class)
             ->connection((new static)->getTable())
             ->decode($fakeId);
 
-        return static::where('id', $id)->firstOrFail();
+        /** @var static $model */
+        $model = static::query()
+            ->where('id', $id)
+            ->firstOrFail();
+
+        return $model;
     }
 
-    /**
-     * Get a model's instance fake id based on it's id.
-     *
-     * @return string
-     */
-    public function fakeId()
+    public function fakeId(): int
     {
         return app(FakeIdManager::class)
             ->connection($this->getTable())

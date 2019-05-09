@@ -236,7 +236,7 @@ class Saga extends Model implements HasMedia
     /**
      * Setter for the $finished attribute to ensure a boolean.
      *
-     * @param $value
+     * @param mixed|bool $value
      */
     public function setFinishedAttribute($value)
     {

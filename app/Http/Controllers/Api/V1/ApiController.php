@@ -2,12 +2,10 @@
 
 namespace Radiophonix\Http\Controllers\Api\V1;
 
+use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
-use Illuminate\Http\Response;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Route;
 use League\Fractal\Manager;
 use League\Fractal\Pagination\IlluminatePaginatorAdapter;
 use League\Fractal\Resource\Collection as FractalCollection;
@@ -16,7 +14,6 @@ use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Controller;
 use Radiophonix\Http\Transformers\Support\Transformer;
 use Radiophonix\Models\User;
-use Tymon\JWTAuth\JWTAuth;
 
 class ApiController extends Controller
 {
@@ -38,7 +35,7 @@ class ApiController extends Controller
      *
      * $this->item($saga, new SagaTransformer);
      *
-     * @param $item
+     * @param mixed $item
      * @param Transformer $transformer
      * @return ApiResponse
      */
@@ -107,7 +104,7 @@ class ApiController extends Controller
     /**
      * Get the current user
      *
-     * @return \Illuminate\Contracts\Auth\Authenticatable|User
+     * @return Authenticatable&User
      */
     protected function user()
     {

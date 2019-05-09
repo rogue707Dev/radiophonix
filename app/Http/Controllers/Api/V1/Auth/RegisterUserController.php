@@ -25,7 +25,7 @@ class RegisterUserController extends ApiController
     public function __invoke(RegisterUserRequest $request): ApiResponse
     {
         if ($request->hasInvite()) {
-            /** @var SiteInvite $invite */
+            /** @var SiteInvite|null $invite */
             $invite = SiteInvite::query()
                 ->where('uuid', $request->get('invite'))
                 ->orWhere('email', $request->get('email'))

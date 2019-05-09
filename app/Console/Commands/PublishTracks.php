@@ -3,7 +3,7 @@
 namespace Radiophonix\Console\Commands;
 
 use Carbon\Carbon;
-use Illuminate\Events\Dispatcher;
+use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
 use Radiophonix\Events\TrackPublishedEvent;
 use Radiophonix\Jobs\NotifyPublishedTrack;
@@ -32,6 +32,16 @@ class PublishTracks extends Command
     protected $dispatcher;
 
     /**
+     * @param Dispatcher $dispatcher
+     */
+    public function __construct(Dispatcher $dispatcher)
+    {
+        parent::__construct();
+
+        $this->dispatcher = $dispatcher;
+    }
+
+    /**
      * Execute the console command.
      *
      * @return mixed
@@ -56,7 +66,7 @@ class PublishTracks extends Command
                 $track->status = Track::STATUS_PUBLISHED;
                 $track->save();
 
-                $this->dispatcher->fire(new TrackPublishedEvent($track));
+                $this->dispatcher->dispatch(new TrackPublishedEvent($track));
             })
             ->map(function (Track $track) {
                 return $track->collection->saga;

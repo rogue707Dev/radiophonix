@@ -18,6 +18,10 @@ class FakeIdPathGenerator implements PathGenerator
         return $this->getBasePath($media) . '/conversions/';
     }
 
+    /**
+     * @param Media|HasFakeId $media
+     * @return string
+     */
     protected function getBasePath(Media $media): string
     {
         if (in_array(HasFakeId::class, class_uses($media))) {

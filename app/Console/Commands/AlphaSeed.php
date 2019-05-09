@@ -3,9 +3,10 @@
 namespace Radiophonix\Console\Commands;
 
 use Artisan;
-use Carbon\Carbon;
+use Carbon\CarbonInterface;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Radiophonix\Models\Author;
@@ -208,20 +209,16 @@ class AlphaSeed extends Command
         });
     }
 
-    /**
-     * @param $date
-     * @return Carbon
-     */
-    private function parseDate($date)
+    private function parseDate(?string $date): CarbonInterface
     {
         return Carbon::parse($date);
     }
 
     /**
-     * @param $path
+     * @param string $path
      * @return \Illuminate\Support\Collection
      */
-    private function loadJsonFiles($path)
+    private function loadJsonFiles(string $path)
     {
         $data = collect(Storage::disk('alpha')->files('seeds/' . $path))
             ->filter(function ($path) {

@@ -13,20 +13,11 @@ use Illuminate\Support\Facades\Cache;
  */
 trait HasCountCache
 {
-    /**
-     * @param string $id
-     * @param Closure $count
-     * @return mixed
-     */
     private function cacheCount(string $id, Closure $count): int
     {
         return (int)Cache::remember($this->cacheKey($id), now()->addSeconds(15), $count);
     }
 
-    /**
-     * @param string $id
-     * @return string
-     */
     private function cacheKey(string $id): string
     {
         return sprintf(

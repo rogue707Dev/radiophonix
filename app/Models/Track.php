@@ -132,63 +132,39 @@ class Track extends Model
         return $this;
     }
 
-    /**
-     * @return bool
-     */
     public function isDraft(): bool
     {
         return $this->isStatus(self::STATUS_DRAFT);
     }
 
-    /**
-     * @return bool
-     */
     public function isComplete(): bool
     {
         return $this->isStatus(self::STATUS_COMPLETE);
     }
 
-    /**
-     * @return bool
-     */
     public function isPublishing(): bool
     {
         return $this->isStatus(self::STATUS_PUBLISHING);
     }
 
-    /**
-     * @return bool
-     */
     public function isPublished(): bool
     {
         return $this->isStatus(self::STATUS_PUBLISHED);
     }
 
-    /**
-     * @param $status
-     * @return bool
-     */
-    private function isStatus($status): bool
+    private function isStatus(int $status): bool
     {
-        return $this->status == $status;
+        return $this->status === $status;
     }
 
-    /**
-     * The collection in which this track is.
-     *
-     * @return BelongsTo
-     */
     public function collection()
     {
         return $this->belongsTo(Collection::class);
     }
 
-    /**
-     * @param $value
-     */
-    public function setStatusAttribute($value)
+    public function setStatusAttribute(?int $value): void
     {
-        if ($value == null) {
+        if ($value === null) {
             $value = self::STATUS_DRAFT;
         }
 
