@@ -11,20 +11,7 @@ use Radiophonix\Models\Saga;
 
 class ListSagasController extends ApiController
 {
-    /**
-     * List sagas.
-     *
-     * You can filter results using different parameters:
-     *
-     * ### Sorting:
-     *
-     * `?sort=+id,-name`
-     *
-     * @param Request $request
-     *
-     * @return ApiResponse
-     */
-    public function __invoke(Request $request)
+    public function __invoke(Request $request): ApiResponse
     {
         $this->include('team', 'authors');
 
