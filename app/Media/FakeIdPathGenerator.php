@@ -2,36 +2,36 @@
 
 namespace Radiophonix\Media;
 
-use Radiophonix\Models\Support\HasFakeId;
-use Spatie\MediaLibrary\Models\Media;
+use Radiophonix\Models\Media;
+use Spatie\MediaLibrary\Models\Media as BaseMedia;
 use Spatie\MediaLibrary\PathGenerator\PathGenerator;
 
 class FakeIdPathGenerator implements PathGenerator
 {
-    public function getPath(Media $media): string
+    public function getPath(BaseMedia $media): string
     {
         return $this->getBasePath($media) . '/';
     }
 
-    public function getPathForConversions(Media $media): string
+    public function getPathForConversions(BaseMedia $media): string
     {
         return $this->getBasePath($media) . '/conversions/';
     }
 
     /**
-     * @param Media|HasFakeId $media
+     * @param BaseMedia $media
      * @return string
      */
-    protected function getBasePath(Media $media): string
+    protected function getBasePath(BaseMedia $media): string
     {
-        if (in_array(HasFakeId::class, class_uses($media))) {
-            return $media->fakeId();
+        if ($media instanceof Media) {
+            return (string)$media->fakeId();
         }
 
         return $media->getKey();
     }
 
-    public function getPathForResponsiveImages(Media $media): string
+    public function getPathForResponsiveImages(BaseMedia $media): string
     {
         return $this->getBasePath($media) . '/responsives/';
     }

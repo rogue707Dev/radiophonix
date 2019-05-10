@@ -155,7 +155,6 @@ return [
         Radiophonix\Providers\EventServiceProvider::class,
         Radiophonix\Providers\TelescopeServiceProvider::class,
         Radiophonix\Providers\RouteServiceProvider::class,
-        Radiophonix\Providers\S3ServiceProvider::class,
         Radiophonix\Providers\DropboxServiceProvider::class,
 
         /*

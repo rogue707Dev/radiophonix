@@ -19,7 +19,7 @@ class SaveTickController extends ApiController
      */
     public function __invoke(SaveTickRequest $request, Track $track)
     {
-        /** @var Tick $tick */
+        /** @var Tick|null $tick */
         $tick = Tick::query()->where('user_id', '=', $this->user()->id)
             ->where('track_id', $track->id)
             ->first();

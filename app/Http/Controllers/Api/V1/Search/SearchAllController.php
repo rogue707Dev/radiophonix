@@ -20,13 +20,9 @@ use Radiophonix\Models\Track;
 
 class SearchAllController extends ApiController
 {
-    /**
-     * @param SearchRequest $request
-     * @return ApiResponse
-     */
-    public function __invoke(SearchRequest $request)
+    public function __invoke(SearchRequest $request): ApiResponse
     {
-        $query = $request->get('query');
+        $query = (string)$request->get('query');
         $searchResult = new SearchResult;
 
         try {
@@ -68,20 +64,12 @@ class SearchAllController extends ApiController
         return $this->item($searchResult, new SearchTransformer);
     }
 
-    /**
-     * @param $query
-     * @return Collection
-     */
-    private function searchSagas($query): Collection
+    private function searchSagas(string $query): Collection
     {
         return Saga::search($query)->get();
     }
 
-    /**
-     * @param $query
-     * @return Collection
-     */
-    private function searchAuthors($query): Collection
+    private function searchAuthors(string $query): Collection
     {
         $authors = Author::search($query)->get();
 
@@ -90,22 +78,14 @@ class SearchAllController extends ApiController
         return $authors;
     }
 
-    /**
-     * @param $query
-     * @return Collection
-     */
-    private function searchGenres($query): Collection
+    private function searchGenres(string $query): Collection
     {
         $genres = Genre::search($query)->get();
 
         return $genres;
     }
 
-    /**
-     * @param $query
-     * @return Collection
-     */
-    private function searchTracks($query): Collection
+    private function searchTracks(string $query): Collection
     {
         $tracks = Track::search($query)
             // We only want published tracks
