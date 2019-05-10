@@ -54,7 +54,7 @@ class RegisterUserController extends ApiController
         return $this->item(
             new LoginDto(
                 $token,
-                auth()->factory()->getTTL(),
+                $this->auth()->factory()->getTTL(),
                 $user,
                 $this->repository->forUser($user)
             ),

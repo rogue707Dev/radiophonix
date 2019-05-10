@@ -33,7 +33,7 @@ class LoginUserController extends ApiController
         return $this->item(
             new LoginDto(
                 $token,
-                auth()->factory()->getTTL(),
+                $this->auth()->factory()->getTTL(),
                 $this->user(),
                 $this->repository->forUser($this->user())
             ),

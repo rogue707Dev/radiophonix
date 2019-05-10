@@ -57,7 +57,7 @@ class Team extends Model implements HasMedia
      */
     public function addMember(User $user, $owner = false)
     {
-        $this->members()->save($user);
+        $this->authors()->save($user);
 
         if ($owner === true) {
             $this->owner()->associate($user);

@@ -14,6 +14,8 @@ use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Controller;
 use Radiophonix\Http\Transformers\Support\Transformer;
 use Radiophonix\Models\User;
+use Tymon\JWTAuth\JWT;
+use Tymon\JWTAuth\JWTGuard;
 
 class ApiController extends Controller
 {
@@ -109,5 +111,16 @@ class ApiController extends Controller
     protected function user()
     {
         return Auth::user();
+    }
+
+    /**
+     * @return JWT|JWTGuard
+     */
+    protected function auth()
+    {
+        /** @var JWTGuard&JWT $auth */
+        $auth = auth();
+
+        return $auth;
     }
 }
