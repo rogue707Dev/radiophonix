@@ -1,0 +1,9 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+parameters:
+    excludes_analyse:
+        - %rootDir%/../../../app/Repositories/SagaRepository.php
+        - %rootDir%/../../../app/Models/Subscription.php
+        - %rootDir%/../../../app/Http/Controllers/Api/V1/Team/StoreTeamController.php
+        - %rootDir%/../../../app/Http/Controllers/Api/V1/Invite/SendInviteController.php
+        - %rootDir%/../../../app/Events/TrackPublishedEvent.php
