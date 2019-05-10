@@ -51,7 +51,7 @@ test:phpstan:
         - touch storage/database.sqlite
         - php artisan key:generate
         - php artisan jwt:secret --force
-        - php artisan code:analyse --level=5
+        - php artisan code:analyse --no-progress --level=5
 
 test:composer-outdated:
     stage: test
