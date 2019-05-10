@@ -40,6 +40,19 @@ test:unit:
         - php artisan jwt:secret --force
         - vendor/bin/phpunit
 
+test:phpstan:
+    stage: test
+    image: edbizarro/gitlab-ci-pipeline-php:7.2
+    except:
+        - schedules
+    script:
+        - cp .env.testing .env
+        - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-interaction --no-suggest
+        - touch storage/database.sqlite
+        - php artisan key:generate
+        - php artisan jwt:secret --force
+        - php artisan code:analyse --level=5
+
 test:composer-outdated:
     stage: test
     image: edbizarro/gitlab-ci-pipeline-php:7.2
