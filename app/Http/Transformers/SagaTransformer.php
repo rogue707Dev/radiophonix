@@ -32,7 +32,7 @@ class SagaTransformer extends Transformer
             'slug' => $saga->slug,
             'name' => $saga->name,
             'synopsis' => $saga->synopsis,
-            'creation_date' => $this->getFormatedDate($saga->creation_date),
+            'creation_date' => $this->getFormatedDate($saga->creation_date, 'Y-m-d'),
             'licence' => $saga->getLicence()->toArray(),
             'links' => [
                 'netowiki' => $saga->link_netowiki,

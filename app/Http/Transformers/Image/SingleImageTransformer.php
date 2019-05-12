@@ -32,23 +32,18 @@ class SingleImageTransformer extends Transformer
         $this->sizes = $sizes;
     }
 
-    /**
-     * @param HasMedia $modelWithMedia
-     * @return array
-     */
-    public function transform(HasMedia $modelWithMedia)
+    public function transform(HasMedia $modelWithMedia): array
     {
         $image = [];
 
-        if (!$modelWithMedia instanceof HasMediaTrait) {
-            return [];
-        }
+        /** @var HasMediaTrait $model */
+        $model = $modelWithMedia;
 
         foreach ($this->sizes as $size) {
-            $image[$size] = $modelWithMedia->getFirstMediaUrl($this->mediaCollection, $size);
+            $image[$size] = $model->getFirstMediaUrl($this->mediaCollection, $size);
         }
 
-        $media = $modelWithMedia->getFirstMedia($this->mediaCollection);
+        $media = $model->getFirstMedia($this->mediaCollection);
 
         if (null === $media) {
             return $image;

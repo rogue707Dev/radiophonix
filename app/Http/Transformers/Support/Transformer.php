@@ -12,10 +12,10 @@ abstract class Transformer extends TransformerAbstract
     /** @var FakeIdManager */
     private $fakeId;
 
-    protected function getFormatedDate(?DateTimeInterface $date): ?string
+    protected function getFormatedDate(?DateTimeInterface $date, string $format = 'c'): ?string
     {
         if ($date instanceof DateTime) {
-            return $date->format('c');
+            return $date->format($format);
         }
 
         return null;

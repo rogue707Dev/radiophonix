@@ -128,10 +128,7 @@ class AlphaSeed extends Command
                     $filePath = Storage::disk('alpha')->url('images/sagas/' . $image);
 //                    $this->info("\t[MEDIA] Saga::$name ($filePath)");
 
-                    $saga->addMedia($filePath)
-//                        ->withCustomProperties(['colors' => true])
-                        ->preservingOriginal()
-                        ->toMediaCollection($name);
+                    $saga->saveCoverImage($filePath);
 
                 });
 

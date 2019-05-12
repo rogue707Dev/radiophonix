@@ -23,6 +23,7 @@ use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 use Spatie\MediaLibrary\Models\Media;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 /**
  * @property int $id
@@ -291,5 +292,15 @@ class Saga extends Model implements HasMedia
         $like->save();
 
         event(new UserLikedSaga($user, $this));
+    }
+
+    /**
+     * @param string|UploadedFile $file
+     */
+    public function saveCoverImage($file): void
+    {
+        $this->addMedia($file)
+            ->preservingOriginal()
+            ->toMediaCollection('cover');
     }
 }
