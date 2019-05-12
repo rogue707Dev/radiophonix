@@ -8,7 +8,7 @@ const configs = {
     },
 
     production: {
-        login: false,
+        login: true,
         algolia: false,
         feedback: true,
     }
