@@ -95,7 +95,7 @@ class Saga extends Model implements HasMedia
     {
         $mapper = new LicenceMapper();
 
-        return $mapper->map($this);
+        return $mapper->map($this->licence);
     }
 
     /**
