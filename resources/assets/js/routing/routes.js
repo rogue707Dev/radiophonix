@@ -7,6 +7,7 @@ import NotFoundView from '~/pages/errors/404.vue';
 // Root level pages
 import HomeView from '~/pages/Home.vue';
 import HelpView from '~/pages/Help.vue';
+import MentionsLegalesView from '~/pages/Legal/MentionsLegales.vue';
 import SearchView from '~/pages/Search.vue';
 import NewsView from '~/pages/News.vue';
 
@@ -248,6 +249,12 @@ const routes = [
                 path: 'aide',
                 component: HelpView,
                 name: 'help',
+                meta: { menu: 'help' }
+            },
+            {
+                path: 'mentions-legales',
+                component: MentionsLegalesView,
+                name: 'mentions-legales',
                 meta: { menu: 'help' }
             },
             {

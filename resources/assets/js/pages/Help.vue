@@ -22,7 +22,9 @@
                         Ce projet est inspiré par les diverses tentatives de site similaire qui
                         n'ont hélas jamais vu le jour, notamment l'<a title="Lien wiki Agoraphonix" href="https://wiki.netophonix.com/Agoraphonix" class="lien-paragraphe">Agoraphonix</a>.<br/>
                         Le nom du projet est bien évidemment inspiré de
-                        <a title="Lien Netophonix" href="https://netophonix.com/" class="lien-paragraphe">Netophonix</a>.
+                        <a title="Lien Netophonix" href="https://netophonix.com/" class="lien-paragraphe">Netophonix</a>.<br />
+                        <br />
+                        Pour plus d'informations, voir les <router-link :to="{ name: 'mentions-legales' }" class="lien-paragraphe">mentions légales</router-link>.
                     </p>
 
                     <h2 class="h1 mb-2 mt-5">Qui êtes-vous ?</h2>
