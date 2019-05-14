@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "target": "es5",
+        "baseUrl": "resources/assets/js",
+        "paths": {
+            "~*": [
+                "./*"
+            ]
+        }
+    },
+    "include": [
+        "resources/assets/js/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

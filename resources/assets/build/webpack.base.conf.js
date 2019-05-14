@@ -35,7 +35,7 @@ module.exports = {
         filename: '[name].js'
     },
     resolve: {
-        extensions: ['', '.js', '.vue'],
+        extensions: ['', '.ts', '.js', '.vue'],
         fallback: [path.join(__dirname, '../../../node_modules')],
         alias: {
             '~': path.resolve(__dirname, '../js')
@@ -57,6 +57,12 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: 'babel',
+                include: projectRoot,
+                exclude: /node_modules/
+            },
+            {
+                test: /\.ts?$/,
+                loader: 'ts-loader',
                 include: projectRoot,
                 exclude: /node_modules/
             },
