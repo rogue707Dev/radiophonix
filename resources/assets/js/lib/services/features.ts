@@ -1,6 +1,6 @@
 import env from '~/lib/services/env';
 
-const configs = {
+const configs: any = {
     development: {
         login: true,
         algolia: false,
@@ -15,7 +15,7 @@ const configs = {
 };
 
 export default {
-    isActive(feature) {
+    isActive(feature: any) {
         let config = env.get('FEATURES_CONFIG', 'production');
 
         return configs[config][feature] || false;
