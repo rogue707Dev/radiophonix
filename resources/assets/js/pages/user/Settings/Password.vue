@@ -117,6 +117,7 @@
 <script>
     import FaIcon from "~/components/Ui/Icon/FaIcon";
     import api from '~/lib/api';
+    import flash from "~/lib/services/flash";
 
     export default {
         components: {
