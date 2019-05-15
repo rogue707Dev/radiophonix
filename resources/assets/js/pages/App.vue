@@ -44,7 +44,7 @@
     import {mapGetters, mapState} from 'vuex';
     import api from "~/lib/api/site";
     import ticks from '~/lib/services/storage/ticks';
-    import storage from '~/lib/services/storage';
+    import Storage from '~/lib/services/storage';
     import FeedbackModal from '~/components/Modal/FeedbackModal';
     import FaIcon from "~/components/Ui/Icon/FaIcon";
 
@@ -123,7 +123,7 @@
             },
 
             loadLastSearchQueries() {
-                let queries = storage.get('search', []);
+                let queries = Storage.get('search', []);
 
                 if (!queries) {
                     return;

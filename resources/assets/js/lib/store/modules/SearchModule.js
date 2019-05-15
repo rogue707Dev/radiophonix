@@ -1,5 +1,5 @@
 import api from '~/lib/api';
-import storage from '~/lib/services/storage';
+import Storage from '~/lib/services/storage';
 
 const totalResults = (results) => {
     if (!results) {
@@ -96,7 +96,7 @@ const actions = {
         commit('setQueries', []);
         commit('setCurrentQuery', null);
         commit('setLastQuery', null);
-        storage.remove('search');
+        Storage.remove('search');
     }
 };
 
@@ -121,7 +121,7 @@ const mutations = {
 
         state.queries = Object.assign(state.queries.slice(-10));
 
-        storage.set('search', state.queries);
+        Storage.set('search', state.queries);
     },
 
     setResults(state, results) {

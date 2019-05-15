@@ -1,9 +1,9 @@
-import storage from '~/lib/services/storage';
+import Storage from '~/lib/services/storage';
 
 const getDefaultState = () => {
     return {
-        token: storage.get('token'),
-        user: storage.get('user'),
+        token: Storage.get('token'),
+        user: Storage.get('user'),
     };
 };
 
@@ -28,19 +28,19 @@ const actions = {
         }
 
         commit('setToken', token);
-        storage.set('token', token);
+        Storage.set('token', token);
     },
 
     logout({ commit }) {
         commit('setToken', null);
-        storage.remove('token');
-        storage.remove('user');
-        storage.remove('user.likes');
+        Storage.remove('token');
+        Storage.remove('user');
+        Storage.remove('user.likes');
     },
 
     setUser({ commit }, user) {
         commit('setUser', user);
-        storage.set('user', user);
+        Storage.set('user', user);
     },
 };
 

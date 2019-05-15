@@ -1,11 +1,11 @@
-import storage from '~/lib/services/storage';
+import Storage from '~/lib/services/storage';
 import store from '~/lib/store';
 
 const currentNewsId = '4';
 
 export default {
     loadLastRead: () => {
-        let lastNewsId = storage.get('news_id', '');
+        let lastNewsId = Storage.get('news_id', '');
 
         if (!lastNewsId) {
             return;
@@ -20,7 +20,7 @@ export default {
     },
 
     read: () => {
-        storage.set('news_id', currentNewsId);
+        Storage.set('news_id', currentNewsId);
         store.dispatch('ui/masNewsAsRead');
     },
 };

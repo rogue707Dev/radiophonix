@@ -1,9 +1,9 @@
-import storage from '~/lib/services/storage';
+import Storage from '~/lib/services/storage';
 import api from '~/lib/api';
 
 const getDefaultState = () => {
     return {
-        likes: storage.get('user.likes'),
+        likes: Storage.get('user.likes'),
     };
 };
 
@@ -34,11 +34,11 @@ const actions = {
         }
 
         commit('setAll', likes);
-        storage.set('user.likes', likes);
+        Storage.set('user.likes', likes);
     },
 
     persist({ state }) {
-        storage.set('user.likes', state.likes);
+        Storage.set('user.likes', state.likes);
     },
 
     async add({ commit, dispatch }, { type, id }) {
