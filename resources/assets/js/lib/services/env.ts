@@ -1,5 +1,5 @@
 export default {
-    get: (key, defaultValue = null) => {
+    get: (key: string, defaultValue: any = null) => {
         return process.env['RADIOPHONIX_' + key] || defaultValue;
     },
 };
