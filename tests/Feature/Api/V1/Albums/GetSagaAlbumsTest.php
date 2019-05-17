@@ -11,7 +11,7 @@ use Tests\Feature\Api\V1\ApiTestCase;
 class GetSagaAlbumsTest extends ApiTestCase
 {
     /** @test */
-    public function can_get_a_list_of_albums_from_a_saga_fake_id()
+    public function can_get_a_list_of_albums_from_a_saga_uuid()
     {
         /* *** Initialisation *** */
 

@@ -11,7 +11,7 @@ use Tests\Feature\Api\V1\ApiTestCase;
 class GetAlbumTest extends ApiTestCase
 {
     /** @test */
-    public function can_get_album_from_fake_id()
+    public function can_get_album_from_uuid()
     {
         /* *** Initialisation *** */
         /** @var Saga $saga */

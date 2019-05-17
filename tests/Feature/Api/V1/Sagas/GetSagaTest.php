@@ -10,7 +10,7 @@ use Tests\Feature\Api\V1\ApiTestCase;
 class GetSagaTest extends ApiTestCase
 {
     /** @test */
-    public function can_query_a_single_saga_using_the_fake_id()
+    public function can_query_a_single_saga_using_the_uuid()
     {
         /* *** Initialisation *** */
         /** @var Saga $saga */
