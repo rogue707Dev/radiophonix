@@ -8,11 +8,7 @@ use Radiophonix\Models\Track;
 
 class TrackTransformer extends Transformer
 {
-    /**
-     * @param Track $track
-     * @return array
-     */
-    public function transform(Track $track)
+    public function transform(Track $track): array
     {
         return [
             'id' => $track->fakeId(),
@@ -28,12 +24,8 @@ class TrackTransformer extends Transformer
         ];
     }
 
-    /**
-     * @param Track $track
-     * @return Item
-     */
-    public function includeCollection(Track $track)
+    public function includeAlbum(Track $track): Item
     {
-        return $this->item($track->collection, (new CollectionTransformer)->setDefaultIncludes(['saga']));
+        return $this->item($track->album, (new AlbumTransformer)->setDefaultIncludes(['saga']));
     }
 }

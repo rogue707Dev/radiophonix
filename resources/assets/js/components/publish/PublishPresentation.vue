@@ -75,10 +75,10 @@
                 <div class="col-12 col-md-8 col-lg-12 mt-lg-4">
                     <div class="card">
                         <img class="card-img-top"
-                             src="/static/home/publier-mock-collections.png"
-                             alt="Liste des collections (saisons, bonus, making-of, etc.)">
+                             src="/static/home/publier-mock-albums.png"
+                             alt="Liste des albums (saisons, bonus, making-of, etc.)">
                         <div class="card-footer text-muted">
-                            Liste des collections (saisons, bonus, making-of, etc.)
+                            Liste des albums (saisons, bonus, making-of, etc.)
                         </div>
                     </div>
                 </div>

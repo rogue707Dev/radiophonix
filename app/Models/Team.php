@@ -32,8 +32,8 @@ use Spatie\Sluggable\SlugOptions;
  * @property string $link_twitter
  * @property Carbon $created_at
  * @property Carbon $updated_at
- * @property-read Collection|Author[] $authors
- * @property-read Collection|Saga[] $sagas
+ * @property-read Album|Author[] $authors
+ * @property-read Album|Saga[] $sagas
  * @property-read User $owner
  * @property-read int $cached_sagas_count
  */

@@ -20,9 +20,9 @@ use MarcW\RssWriter\Extension\Itunes\ItunesWriter;
 use MarcW\RssWriter\RssWriter;
 use Radiophonix\Domain\Rss\XMLWriter;
 use Radiophonix\Models\Author;
-use Radiophonix\Models\Collection;
+use Radiophonix\Models\Album;
 use Radiophonix\Models\Saga;
-use Radiophonix\Models\Support\CollectionType;
+use Radiophonix\Models\Support\AlbumType;
 use Radiophonix\Models\Track;
 
 class RssResponse implements Responsable
@@ -111,7 +111,7 @@ class RssResponse implements Responsable
         $channel->addExtension($itunesChannel);
         $channel->addExtension($atomLink);
 
-        $seasons = $this->saga->getCollections(CollectionType::SEASON);
+        $seasons = $this->saga->getAlbums(AlbumType::SEASON);
 
         $index = 0;
         foreach ($seasons as $season) {
@@ -131,10 +131,10 @@ class RssResponse implements Responsable
      * @param Track $track
      * @param Image $image
      * @param int $index
-     * @param Collection|null $season
+     * @param Album|null $album
      * @return Item
      */
-    private function buildItem(Track $track, Image $image, int $index, ?Collection $season): Item
+    private function buildItem(Track $track, Image $image, int $index, ?Album $album): Item
     {
         $enclosure = (new Enclosure())
             ->setUrl($track->url)
@@ -147,11 +147,11 @@ class RssResponse implements Responsable
 
         $description = $track->synopsis;
 
-        if ($season) {
+        if ($album) {
             $description .= vsprintf(
                 "\n\n%s - Épisode %s",
                 [
-                    $season->name,
+                    $album->name,
                     $track->number,
                 ]
             );

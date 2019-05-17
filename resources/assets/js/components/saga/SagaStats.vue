@@ -1,8 +1,8 @@
 <template>
     <span>
         <i aria-hidden="true" class="fa fa-music" v-if="withIcon"></i>
-        {{ collections }}
-        <template v-if="collections > 1">Saisons</template>
+        {{ albums }}
+        <template v-if="albums > 1">Saisons</template>
         <template v-else>Saison</template>
         -
         {{ tracks }}
@@ -26,8 +26,8 @@ export default {
     },
 
     computed: {
-        collections() {
-            return this.stats.collections || 0;
+        albums() {
+            return this.stats.albums || 0;
         },
 
         tracks() {

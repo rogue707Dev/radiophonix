@@ -33,14 +33,14 @@
                     <like-button likeable-type="saga"
                                  :likeable-id="saga.id"/>
                 </li>
-                <template v-if="saga.stats.collections == 1">
+                <template v-if="saga.stats.albums == 1">
                     <li class="banniere__contenu__bande__item">
                         {{ saga.stats.tracks }} épisodes
                     </li>
                 </template>
                 <template v-else>
                     <li class="banniere__contenu__bande__item">
-                        {{ saga.stats.collections }} saisons
+                        {{ saga.stats.albums }} saisons
                     </li>
                     <li class="banniere__contenu__bande__item">
                         {{ saga.stats.tracks }} épisodes
@@ -154,12 +154,12 @@
 
             <div class="row mt-4">
                 <div class="col-12">
-                    <nav-list v-if="collections.length > 1">
-                        <nav-item v-for="(collections, type, index) in collectionTypes"
+                    <nav-list v-if="albums.length > 1">
+                        <nav-item v-for="(albums, type, index) in albumTypes"
                                   :key="index"
-                                  :active="currentCollectionType === type"
-                                  @click="currentCollectionType = type">
-                            <collection-type :type="type"/>
+                                  :active="currentAlbumType === type"
+                                  @click="currentAlbumType = type">
+                            <album-type :type="type"/>
                         </nav-item>
                     </nav-list>
                     <nav-list v-else>
@@ -167,15 +167,15 @@
                     </nav-list>
                 </div>
                 <div class="col-12"
-                     v-for="collection in collectionTypes[currentCollectionType]"
-                     :key="collection.id">
+                     v-for="album in albumTypes[currentAlbumType]"
+                     :key="album.id">
                         <h3 class="h3 mb-2 mt-3"
-                            v-if="collections.length > 1">
-                            {{ collection.name }}
+                            v-if="albums.length > 1">
+                            {{ album.name }}
                         </h3>
 
                         <div class="episode-item"
-                             v-for="track in collection.tracks" :key="track.id">
+                             v-for="track in album.tracks" :key="track.id">
                             <div class="ml-xl-3 text-right" v-html="formatTrackNumber(track.number)"></div>
 
                             <div class="episode-item__content">
@@ -229,7 +229,7 @@
     import Banner from '~/components/content/Banner.vue';
     import LicenceLink from '~/components/licence/LicenceLink.vue';
     import TextEllipsis from '~/components/text/TextEllipsis.vue';
-    import CollectionType from '~/components/collection/CollectionType';
+    import AlbumType from '~/components/album/AlbumType';
     import NavList from '~/components/Ui/Nav/NavList';
     import NavItem from '~/components/Ui/Nav/NavItem';
     import Cover from '~/components/content/Cover.vue';
@@ -242,7 +242,7 @@
         Banner,
         LicenceLink,
         TextEllipsis,
-        CollectionType,
+        AlbumType,
         NavList,
         NavItem,
         Cover,
@@ -270,8 +270,8 @@
             },
             genres: [],
         },
-        collections: [],
-        currentCollectionType: null,
+        albums: [],
+        currentAlbumType: null,
         currentTick: null,
         likeButtonLoading: false,
     }),
@@ -294,16 +294,16 @@
             return this.saga.genres[0] || null;
         },
 
-        collectionTypes() {
-            let collections = {};
+        albumTypes() {
+            let albums = {};
 
-            for (const collection of this.collections) {
-                collections[collection.type] = collections[collection.type] || [];
+            for (const album of this.albums) {
+                albums[album.type] = albums[album.type] || [];
 
-                collections[collection.type].push(collection);
+                albums[album.type].push(album);
             }
 
-            return collections;
+            return albums;
         },
 
         likeButtonClass() {
@@ -324,15 +324,15 @@
 
         async fetchData() {
             let sagaResult = api.sagas.get(this.$route.params.idOrSlug);
-            let collectionResult = api.collections.all(this.$route.params.idOrSlug);
+            let albumResult = api.albums.all(this.$route.params.idOrSlug);
 
-            [sagaResult, collectionResult] = [await sagaResult, await collectionResult];
+            [sagaResult, albumResult] = [await sagaResult, await albumResult];
 
             this.saga = sagaResult.data;
-            this.collections = collectionResult.data;
+            this.albums = albumResult.data;
 
-            if (this.collections.length > 0) {
-                this.currentCollectionType = this.collections[0].type;
+            if (this.albums.length > 0) {
+                this.currentAlbumType = this.albums[0].type;
             }
 
             this.currentTick = await ticks.get(this.saga.id);
@@ -344,12 +344,12 @@
             let percentage = 0;
 
             if (tick) {
-                for (const collectionKey in this.collections) {
-                    if (!this.collections.hasOwnProperty(collectionKey)) {
+                for (const albumKey in this.albums) {
+                    if (!this.albums.hasOwnProperty(albumKey)) {
                         continue;
                     }
 
-                    const tracks = this.collections[collectionKey].tracks || [];
+                    const tracks = this.albums[albumKey].tracks || [];
 
                     for (const trackKey in tracks) {
                         if (!tracks.hasOwnProperty(trackKey)) {
@@ -367,7 +367,7 @@
 
                 percentage = tick.percentage;
             } else {
-                track = this.collections[0].tracks[0];
+                track = this.albums[0].tracks[0];
             }
 
             this.play({

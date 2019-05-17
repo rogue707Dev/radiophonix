@@ -52,7 +52,7 @@ class PublishTracks extends Command
 
         // First we list all tracks that can be published
         /** @var Collection $tracksToPublish */
-        $tracksToPublish = Track::with('collection.saga')
+        $tracksToPublish = Track::with('album.saga')
             ->where('status', Track::STATUS_PUBLISHING)
             ->where('published_at', '<=', $now)
             ->get();
@@ -69,7 +69,7 @@ class PublishTracks extends Command
                 $this->dispatcher->dispatch(new TrackPublishedEvent($track));
             })
             ->map(function (Track $track) {
-                return $track->collection->saga;
+                return $track->album->saga;
             })
             ->unique('id')
             ->each(function (Saga $saga) {

@@ -8,7 +8,7 @@ const pageTitle = (saga, track) => track.title + ' ⊙ ' + saga.name;
 const getDefaultState = () => {
     return {
         currentTrack: {},
-        currentCollections: [],
+        currentAlbums: [],
         currentSaga: {
             stats: {},
             links: {},
@@ -20,7 +20,7 @@ const getDefaultState = () => {
                 cover: {}
             }
         },
-        currentCollection: {},
+        currentAlbum: {},
         currentPercentage: 0,
         currentTime: '00:00',
         playlist: [],
@@ -78,29 +78,29 @@ const actions = {
             payload.seekPercentage || 0
         );
 
-        // Collections are fetch every time a track is played to make
+        // Albums are fetch every time a track is played to make
         // sure we are up to date.
-        let result = await api.collections.all(slug);
-        let collections = result.data;
+        let result = await api.albums.all(slug);
+        let albums = result.data;
 
-        commit('setCurrentCollections', collections);
+        commit('setCurrentAlbums', albums);
 
         let playlist = [];
         let indexTrack = 0;
 
-        // We will loop through all collections and all tracks to put
+        // We will loop through all albums and all tracks to put
         // them in an array for easier navigation.
-        for (let iCollection = 0; iCollection < collections.length; iCollection++) {
-            const collection = collections[iCollection];
+        for (let iAlbum = 0; iAlbum < albums.length; iAlbum++) {
+            const album = albums[iAlbum];
 
-            for (let iTrack = 0; iTrack < collection.tracks.length; iTrack++) {
-                const track = collection.tracks[iTrack];
+            for (let iTrack = 0; iTrack < album.tracks.length; iTrack++) {
+                const track = album.tracks[iTrack];
 
                 playlist.push(track);
 
                 if (track.id == payload.track.id) {
                     commit('setIndex', indexTrack);
-                    commit('setCurrentCollection', collection);
+                    commit('setCurrentAlbum', album);
                 }
 
                 indexTrack++;
@@ -189,12 +189,12 @@ const mutations = {
         state.currentTrack = Object.assign({}, track);
     },
 
-    setCurrentCollections(state, collections) {
-        state.currentCollections = Object.assign([], collections);
+    setCurrentAlbums(state, albums) {
+        state.currentAlbums = Object.assign([], albums);
     },
 
-    setCurrentCollection(state, collection) {
-        state.currentCollection = Object.assign({}, collection);
+    setCurrentAlbum(state, album) {
+        state.currentAlbum = Object.assign({}, album);
     },
 
     setCurrentSaga(state, saga) {

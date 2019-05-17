@@ -2,7 +2,7 @@
 
 namespace Radiophonix\Models\Support;
 
-interface CollectionType
+interface AlbumType
 {
     const SEASON = 'season';
     const BLOOPERS = 'bloopers';

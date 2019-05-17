@@ -43,7 +43,7 @@ class TrackPublished extends Notification
     public function toArray($notifiable)
     {
         return [
-            'title' => $this->track->collection->saga->name,
+            'title' => $this->track->album->saga->name,
             'message' => 'Un nouvel épisode est sortit !<br />' . $this->track->title,
             'type' => 'track',
             'type_id' => $this->track->fakeId(),

@@ -53,7 +53,7 @@ import PublishSagaInformationsView from '~/pages/publish/saga/Informations.vue';
 import PublishSagaLinksView from '~/pages/publish/saga/Links.vue';
 import PublishSagaImagesView from '~/pages/publish/saga/Images.vue';
 import PublishSagaAuthorsView from '~/pages/publish/saga/Authors.vue';
-import PublishSagaCollectionsView from '~/pages/publish/saga/Collections.vue';
+import PublishSagaAlbumsView from '~/pages/publish/saga/Albums.vue';
 import PublishSagaSettingsView from '~/pages/publish/saga/Settings.vue';
 
 import PublishTrackDashboardView from '~/pages/publish/track/Dashboard.vue';
@@ -132,9 +132,9 @@ const routes = [
                                 meta: { auth: true }
                             },
                             {
-                                path: 'collections',
-                                name: 'publish.saga.collections',
-                                component: PublishSagaCollectionsView,
+                                path: 'albums',
+                                name: 'publish.saga.albums',
+                                component: PublishSagaAlbumsView,
                                 meta: { auth: true }
                             },
                             {

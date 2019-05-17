@@ -2,7 +2,9 @@
 
 namespace Radiophonix\Http\Requests;
 
-class CreateCollectionRequest extends Request
+use Radiophonix\Http\Requests\Request;
+
+class UpdateAlbumRequest extends Request
 {
     /**
      * Get the validation rules that apply to the request.
@@ -12,7 +14,7 @@ class CreateCollectionRequest extends Request
     public function rules()
     {
         return [
-            'name' => 'required|max:255'
+            //
         ];
     }
 }

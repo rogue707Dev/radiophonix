@@ -55,10 +55,10 @@ class SearchAllController extends ApiController
             $searchResult->addResultSet(
                 'tracks',
                 $tracks,
-                (new TrackTransformer)->setDefaultIncludes(['collection'])
+                (new TrackTransformer)->setDefaultIncludes(['album'])
             );
         } catch (QueryException $e) {
-            \Log::critical('Missing MySQL search index for COLLECTIONS');
+            \Log::critical('Missing MySQL search index for ALBUMS');
         }
 
         return $this->item($searchResult, new SearchTransformer);
@@ -91,9 +91,9 @@ class SearchAllController extends ApiController
             // We only want published tracks
 //            ->where('published_at', '>=', Carbon::now())
             ->get()
-            // Each track's collection and saga will be included in the
+            // Each track's album and saga will be included in the
             // response
-            ->load('collection.saga');
+            ->load('album.saga');
 
         return $tracks;
     }

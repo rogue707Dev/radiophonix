@@ -20,7 +20,7 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read Author $author
- * @property-read Collection|Badge[] $badges
+ * @property-read Album|Badge[] $badges
  */
 class User extends Authenticatable implements JWTSubject
 {

@@ -11,10 +11,10 @@ Route::get('/sagas', V1\Saga\ListSagasController::class);
 
 //Route::group(['middleware' => 'saga.visible'], function () {
     Route::get('/sagas/{saga}', V1\Saga\ShowSagaController::class);
-    Route::get('/sagas/{saga}/collections', V1\Saga\ListSagaCollectionsController::class);
+    Route::get('/sagas/{saga}/albums', V1\Saga\ListSagaAlbumsController::class);
 
-    Route::get('/collections/{collection}', V1\Collection\ShowCollectionController::class);
-    Route::get('/collections/{collection}/tracks', V1\Collection\ListCollectionTracksController::class);
+    Route::get('/albums/{album}', V1\Album\ShowAlbumController::class);
+    Route::get('/albums/{album}/tracks', V1\Album\ListAlbumTracksController::class);
 
     Route::get('/tracks/{track}', V1\Track\ShowTrackController::class);
 //});
@@ -92,14 +92,14 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 //
 //    // Collections
 //    Route::group(['middleware' => ['saga.visible', 'saga.owner']], function () {
-//        Route::post('/sagas/{saga}/collections', StoreCollection::class);
-//        Route::put('/collections/{collection}', UpdateCollection::class);
-//        Route::delete('/collections/{collection}', DestroyCollection::class);
+//        Route::post('/sagas/{saga}/albums', StoreCollection::class);
+//        Route::put('/albums/{album}', UpdateCollection::class);
+//        Route::delete('/albums/{album}', DestroyCollection::class);
 //    });
 //
 //    // Tracks
 //    Route::group(['middleware' => ['saga.owner', 'saga.visible']], function () {
-//        Route::post('/collections/{collection}/tracks', StoreTrack::class);
+//        Route::post('/albums/{album}/tracks', StoreTrack::class);
 //        Route::put('/tracks/{track}', UpdateTrack::class);
 //        Route::delete('/tracks/{track}', DestroyTrack::class);
 //        Route::post('/tracks/{track}/upload', 'UploadController@track');

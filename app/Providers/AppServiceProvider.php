@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider
 
         Relation::morphMap([
             'author' => Models\Author::class,
-            'collection' => Models\Collection::class,
+            'album' => Models\Album::class,
             'genre' => Models\Genre::class,
             'invite' => Models\Invite::class,
             'like' => Models\Like::class,

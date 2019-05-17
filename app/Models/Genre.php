@@ -24,7 +24,7 @@ use Spatie\Sluggable\SlugOptions;
  * @property string $name
  * @property Carbon $created_at
  * @property Carbon $updated_at
- * @property-read Collection|Saga[] $sagas
+ * @property-read Album|Saga[] $sagas
  * @property-read int $cached_sagas_count
  */
 class Genre extends Model implements HasMedia

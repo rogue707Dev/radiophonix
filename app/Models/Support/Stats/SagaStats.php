@@ -3,7 +3,7 @@
 namespace Radiophonix\Models\Support\Stats;
 
 use Illuminate\Contracts\Support\Arrayable;
-use Radiophonix\Models\Collection;
+use Radiophonix\Models\Album;
 use Radiophonix\Models\Saga;
 
 class SagaStats implements Arrayable
@@ -40,9 +40,9 @@ class SagaStats implements Arrayable
     /**
      * @return int
      */
-    public function collections(): int
+    public function albums(): int
     {
-        return (int)$this->saga->cached_collections_count;
+        return (int)$this->saga->cached_albums_count;
     }
 
     /**
@@ -52,7 +52,7 @@ class SagaStats implements Arrayable
     {
         return [
             'likes' => $this->likes(),
-            'collections' => $this->collections(),
+            'albums' => $this->albums(),
             'tracks' => $this->tracks(),
         ];
     }

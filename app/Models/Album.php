@@ -3,10 +3,11 @@
 namespace Radiophonix\Models;
 
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Radiophonix\Models\Support\CollectionType;
+use Radiophonix\Models\Support\AlbumType;
 use Radiophonix\Models\Support\HasCountCache;
 use Radiophonix\Models\Support\HasFakeId;
 
@@ -20,10 +21,10 @@ use Radiophonix\Models\Support\HasFakeId;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read Saga $saga
- * @property-read \Illuminate\Database\Eloquent\Collection|Track[] $tracks
+ * @property-read Collection|Track[] $tracks
  * @property-read int $cached_tracks_count
  */
-class Collection extends Model
+class Album extends Model
 {
     use HasFakeId;
     use HasCountCache;
@@ -45,21 +46,11 @@ class Collection extends Model
         'saga',
     ];
 
-    /**
-     * The saga associated to this collection.
-     *
-     * @return BelongsTo
-     */
     public function saga()
     {
         return $this->belongsTo(Saga::class);
     }
 
-    /**
-     * The list of tracks in this collection.
-     *
-     * @return HasMany
-     */
     public function tracks()
     {
         return $this->hasMany(Track::class);
@@ -68,7 +59,7 @@ class Collection extends Model
     public function setTypeAttribute(string $value): void
     {
         if ($value == null) {
-            $value = CollectionType::SEASON;
+            $value = AlbumType::SEASON;
         }
 
         $this->attributes['type'] = $value;

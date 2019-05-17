@@ -33,8 +33,8 @@ use Spatie\Sluggable\SlugOptions;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read Model|\Eloquent|User $user
- * @property-read Collection|Saga[] $sagas
- * @property-read Collection|Team[] $teams
+ * @property-read Album|Saga[] $sagas
+ * @property-read Album|Team[] $teams
  * @property-read int $cached_sagas_count
  */
 class Author extends Model implements HasMedia

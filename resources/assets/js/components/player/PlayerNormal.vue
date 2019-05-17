@@ -57,8 +57,8 @@
                         </router-link>
                     </p>
                     <p>
-                        <template v-if="currentSaga.stats.collections > 1">
-                            Saison {{ currentCollection.number }} épisode {{ currentTrack.number }}
+                        <template v-if="currentSaga.stats.albums > 1">
+                            Saison {{ currentAlbum.number }} épisode {{ currentTrack.number }}
                         </template>
                         <template v-else>
                             Épisode {{ currentTrack.number }}
@@ -163,8 +163,8 @@ export default {
             'isPlaying',
             'currentTrack',
             'currentSaga',
-            'currentCollection',
-            'currentCollections',
+            'currentAlbum',
+            'currentAlbums',
             'currentPercentage',
             'currentTime',
             'isLoading',

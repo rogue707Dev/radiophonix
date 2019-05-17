@@ -1,8 +1,8 @@
 <template>
     <!-- @todo mettre un lien vers la page d'un épisode quand elle existera -->
     <Card
-        :link="{ name: 'listen.sagas.show', params: { idOrSlug: track.collection.saga.slug } }"
-        :urlImage="track.collection.saga.images.cover.thumb"
+        :link="{ name: 'listen.sagas.show', params: { idOrSlug: track.album.saga.slug } }"
+        :urlImage="track.album.saga.images.cover.thumb"
         :altImage="track.title"
         :title="track.title"
         type="episode"

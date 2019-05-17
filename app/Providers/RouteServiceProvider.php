@@ -7,7 +7,7 @@ use Illuminate\Notifications\DatabaseNotification;
 use Illuminate\Support\Facades\Route;
 use Radiophonix\Http\Controllers\IndexController;
 use Radiophonix\Models\Author;
-use Radiophonix\Models\Collection;
+use Radiophonix\Models\Album;
 use Radiophonix\Models\Genre;
 use Radiophonix\Models\Saga;
 use Radiophonix\Models\Team;
@@ -37,8 +37,8 @@ class RouteServiceProvider extends ServiceProvider
             return Saga::findFromSlugOrFakeId($value);
         });
 
-        Route::bind('collection', function ($value) {
-            return Collection::fromFakeId($value);
+        Route::bind('album', function ($value) {
+            return Album::fromFakeId($value);
         });
 
         Route::bind('track', function ($value) {

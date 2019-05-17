@@ -17,7 +17,7 @@ return [
             'xor' => env('FAKEID_SAGA_XOR', 781211414),
         ],
 
-        'collections' => [
+        'albums' => [
             'prime' => env('FAKEID_COLLECTION_PRIME', 1366053443),
             'inverse' => env('FAKEID_COLLECTION_INVERSE', 1757481579),
             'xor' => env('FAKEID_COLLECTION_XOR', 781211414),

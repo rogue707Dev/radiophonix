@@ -41,7 +41,7 @@ export default {
         ...mapState('player', [
             'isPlaying',
             'currentTrack',
-            'currentCollections',
+            'currentAlbums',
             'currentSaga',
         ]),
 

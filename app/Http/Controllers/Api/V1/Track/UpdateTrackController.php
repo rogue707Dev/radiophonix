@@ -25,7 +25,7 @@ class UpdateTrackController extends ApiController
 
         $track->save();
 
-        $track->collection->saga->refreshLastPublishedAt();
+        $track->album->saga->refreshLastPublishedAt();
 
         return $this->item($track, new TrackTransformer);
     }

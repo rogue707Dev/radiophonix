@@ -12,7 +12,7 @@ use Illuminate\Support\Carbon;
  * @property string $description
  * @property Carbon $created_at
  * @property Carbon $updated_at
- * @property-read Collection|User[] $users
+ * @property-read Album|User[] $users
  */
 class Badge extends Model
 {

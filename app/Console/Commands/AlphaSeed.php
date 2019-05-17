@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Radiophonix\Models\Author;
 use Radiophonix\Models\Badge;
-use Radiophonix\Models\Collection;
+use Radiophonix\Models\Album;
 use Radiophonix\Models\Genre;
 use Radiophonix\Models\Saga;
 use Radiophonix\Models\SiteInvite;
@@ -132,20 +132,16 @@ class AlphaSeed extends Command
 
                 });
 
-            collect($importSaga['collections'])
-                ->each(function ($importCollection) use ($saga) {
-//                    $this->info("\t[COLLECTION] " . $importCollection['name']);
+            collect($importSaga['albums'])
+                ->each(function ($importAlbum) use ($saga) {
+                    $album = new Album();
 
-                    $collection = new Collection();
+                    $album->fill(Arr::only($importAlbum, $album->getFillable()));
+                    $album->saga()->associate($saga);
+                    $album->save();
 
-                    $collection->fill(Arr::only($importCollection, $collection->getFillable()));
-                    $collection->saga()->associate($saga);
-                    $collection->save();
-
-                    collect($importCollection['tracks'])
-                        ->each(function (array $importTrack) use ($collection) {
-//                            $this->info("\t\t[TRACK] " . $importTrack['title'], 'v');
-
+                    collect($importAlbum['tracks'])
+                        ->each(function (array $importTrack) use ($album) {
                             $track = new Track();
 
                             if (substr($importTrack['file'], 0, 4) != 'http') {
@@ -168,7 +164,7 @@ class AlphaSeed extends Command
                             $importTrack['published_at'] = $this->parseDate($importTrack['published_at']);
 
                             $track->fill(Arr::only($importTrack, $track->getFillable()));
-                            $track->collection()->associate($collection);
+                            $track->album()->associate($album);
                             $track->save();
                         });
                 });

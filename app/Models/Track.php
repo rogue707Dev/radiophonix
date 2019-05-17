@@ -11,7 +11,7 @@ use Radiophonix\Models\Support\HasFakeId;
 
 /**
  * @property int $id
- * @property int $collection_id
+ * @property int $album_id
  * @property string $number
  * @property string $title
  * @property string $synopsis
@@ -21,7 +21,7 @@ use Radiophonix\Models\Support\HasFakeId;
  * @property string $url
  * @property Carbon $created_at
  * @property Carbon $updated_at
- * @property-read Collection $collection
+ * @property-read Album $album
  */
 class Track extends Model
 {
@@ -69,7 +69,7 @@ class Track extends Model
      * @var array
      */
     protected $touches = [
-        'collection',
+        'album',
     ];
 
     public function publish()
@@ -157,9 +157,9 @@ class Track extends Model
         return $this->status === $status;
     }
 
-    public function collection()
+    public function album()
     {
-        return $this->belongsTo(Collection::class);
+        return $this->belongsTo(Album::class);
     }
 
     public function setStatusAttribute(?int $value): void

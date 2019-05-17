@@ -7,7 +7,7 @@ class DatabaseSeeder extends Seeder
     protected $tables = [
         'authors',
         'likes',
-        'collections',
+        'albums',
         'genre_saga',
         'genres',
         'invites',
@@ -36,7 +36,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call(UserTableSeeder::class);
         $this->call(SagaTableSeeder::class);
-        $this->call(CollectionTableSeeder::class);
+        $this->call(AlbumTableSeeder::class);
         $this->call(TrackTableSeeder::class);
         $this->call(LikeTableSeeder::class);
 

@@ -1,6 +1,6 @@
 import store from '~/lib/store';
 import AuthorResource from './resources/AuthorResource';
-import CollectionResource from './resources/CollectionResource';
+import AlbumResource from './resources/AlbumResource';
 import GenreResource from './resources/GenreResource';
 import SagaResource from './resources/SagaResource';
 import TrackResource from './resources/TrackResource';
@@ -15,7 +15,7 @@ class Radiophonix {
         this.axios = axios;
 
         this.authors = AuthorResource(axios);
-        this.collections = CollectionResource(axios);
+        this.albums = AlbumResource(axios);
         this.genres = GenreResource(axios);
         this.sagas = SagaResource(axios);
         this.tracks = TrackResource(axios);
@@ -113,7 +113,7 @@ export default Radiophonix;
 //
 // export default {
 //     authors: AuthorResource,
-//     collections: CollectionResource,
+//     albums: AlbumResource,
 //     genres: GenreResource,
 //     sagas: SagaResource,
 //     tracks: TrackResource,

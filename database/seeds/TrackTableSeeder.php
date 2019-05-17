@@ -1,15 +1,15 @@
 <?php
 
-use Radiophonix\Models\Collection;
+use Radiophonix\Models\Album;
 use Radiophonix\Models\Track;
 
 class TrackTableSeeder extends Seeder
 {
     public function run()
     {
-        $collections = Collection::all();
+        $albums = Album::all();
 
-        foreach ($collections as $collection) {
+        foreach ($albums as $album) {
             for ($i = 1; $i < $this->faker->numberBetween(4, 10); $i++) {
                 $track = new Track;
 
@@ -23,7 +23,7 @@ class TrackTableSeeder extends Seeder
                     'length' => $length,
                 ]);
 
-                $track->collection()->associate($collection);
+                $track->album()->associate($album);
                 $track->save();
             }
         }

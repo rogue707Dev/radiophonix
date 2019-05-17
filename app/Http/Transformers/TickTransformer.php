@@ -27,6 +27,6 @@ class TickTransformer extends Transformer
 
     public function includeSaga(Tick $tick): Item
     {
-        return $this->item($tick->track->collection->saga, new SagaTransformer());
+        return $this->item($tick->track->album->saga, new SagaTransformer());
     }
 }

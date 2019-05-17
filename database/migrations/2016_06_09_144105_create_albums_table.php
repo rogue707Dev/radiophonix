@@ -2,9 +2,9 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-use Radiophonix\Models\Collection;
+use Radiophonix\Models\Album;
 
-class CreateCollectionsTable extends Migration
+class CreateAlbumsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateCollectionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('collections', function (Blueprint $table) {
+        Schema::create('albums', function (Blueprint $table) {
             $table->increments('id');
 
             $table->unsignedInteger('saga_id');
@@ -36,6 +36,6 @@ class CreateCollectionsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('collections');
+        Schema::drop('albums');
     }
 }

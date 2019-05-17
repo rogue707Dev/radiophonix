@@ -7,26 +7,26 @@ use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
 use Radiophonix\Http\Requests\CreateTrackRequest;
 use Radiophonix\Http\Transformers\TrackTransformer;
-use Radiophonix\Models\Collection;
+use Radiophonix\Models\Album;
 use Radiophonix\Models\Track;
 
 class StoreTrackController extends ApiController
 {
     /**
      * @param CreateTrackRequest $request
-     * @param Collection $collection
+     * @param Album $album
      * @return ApiResponse
      * @throws AuthorizationException
      */
-    public function __invoke(CreateTrackRequest $request, Collection $collection)
+    public function __invoke(CreateTrackRequest $request, Album $album)
     {
-        $this->authorize('create', [Track::class, $collection]);
+        $this->authorize('create', [Track::class, $album]);
 
         $track = new Track;
 
         $track->fill($request->only($track->getFillable()));
 
-        $track->collection()->associate($collection);
+        $track->album()->associate($album);
 
         $track->save();
 

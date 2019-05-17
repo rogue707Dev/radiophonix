@@ -12,7 +12,7 @@ class SagaTransformer extends Transformer
 {
     protected $availableIncludes = [
         'genres',
-        'collections',
+        'albums',
         'team',
         'authors',
     ];
@@ -75,23 +75,19 @@ class SagaTransformer extends Transformer
         return $this->collection($saga->genres, new GenreTransformer);
     }
 
-    /**
-     * @param Saga $saga
-     * @return Collection
-     */
-    public function includeCollections(Saga $saga)
+    public function includeAlbums(Saga $saga): Collection
     {
         $requestedIncludes = $this->getCurrentScope()
             ->getManager()
             ->getRequestedIncludes();
 
-        if (in_array('collections.tracks', $requestedIncludes)) {
-            $saga->load('collections.tracks');
+        if (in_array('albums.tracks', $requestedIncludes)) {
+            $saga->load('albums.tracks');
         } else {
-            $saga->load('collections');
+            $saga->load('albums');
         }
 
-        return $this->collection($saga->collections, new CollectionTransformer);
+        return $this->collection($saga->albums, new AlbumTransformer);
     }
 
     /**

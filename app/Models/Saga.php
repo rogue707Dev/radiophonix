@@ -5,6 +5,7 @@ namespace Radiophonix\Models;
 use Carbon\Carbon;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -42,11 +43,11 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
  * @property Carbon $updated_at
  * @property-read Author[] $authors
  * @property-read Team $team
- * @property-read \Illuminate\Database\Eloquent\Collection|Like[] $likes
- * @property-read \Illuminate\Database\Eloquent\Collection|Collection[] $collections
- * @property-read \Illuminate\Database\Eloquent\Collection|Genre[] $genres
+ * @property-read Collection|Like[] $likes
+ * @property-read Collection|Album[] $albums
+ * @property-read Collection|Genre[] $genres
  * @property-read int $cached_tracks_count
- * @property-read int $cached_collections_count
+ * @property-read int $cached_albums_count
  * @property-read int $cached_likes_count
  * @method static Builder|Saga filterBy($filters)
  * @method static Builder|Saga paginate()
@@ -107,8 +108,8 @@ class Saga extends Model implements HasMedia
     {
         $track = Track
             ::whereIn(
-                'id_collection',
-                $this->collections()->pluck('id')
+                'id_album',
+                $this->albums()->pluck('id')
             )
             ->orderBy('published_at', 'asc')
             ->first();
@@ -178,14 +179,9 @@ class Saga extends Model implements HasMedia
 //        return $this->belongsToMany(Author::class)->first();
 //    }
 
-    /**
-     * The list of collections in this sagas.
-     *
-     * @return HasMany
-     */
-    public function collections()
+    public function albums()
     {
-        return $this->hasMany(Collection::class);
+        return $this->hasMany(Album::class);
     }
 
     public function likes()
@@ -210,11 +206,11 @@ class Saga extends Model implements HasMedia
 
     /**
      * @param string $type
-     * @return \Illuminate\Database\Eloquent\Collection|Collection[]
+     * @return Collection|Album[]
      */
-    public function getCollections(string $type)
+    public function getAlbums(string $type)
     {
-        return $this->collections()
+        return $this->albums()
             ->with('tracks')
             ->where('type', '=', $type)
             ->get();
@@ -251,10 +247,10 @@ class Saga extends Model implements HasMedia
     /**
      * @return int
      */
-    public function getCachedCollectionsCountAttribute(): int
+    public function getCachedAlbumsCountAttribute(): int
     {
-        return $this->cacheCount('collections', function () {
-            return $this->collections->count();
+        return $this->cacheCount('albums', function () {
+            return $this->albums->count();
         });
     }
 
@@ -264,9 +260,9 @@ class Saga extends Model implements HasMedia
     public function getCachedTracksCountAttribute(): int
     {
         return $this->cacheCount('tracks', function () {
-            return (int)collect($this->collections)
-                ->map(function (Collection $collection) {
-                    return $collection->cached_tracks_count;
+            return (int)collect($this->albums)
+                ->map(function (Album $album) {
+                    return $album->cached_tracks_count;
                 })
                 ->sum();
         });

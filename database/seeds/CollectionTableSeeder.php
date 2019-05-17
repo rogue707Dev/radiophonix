@@ -1,8 +1,8 @@
 <?php
 
-use Radiophonix\Models\Collection;
+use Radiophonix\Models\Album;
 
-class CollectionTableSeeder extends Seeder
+class AlbumTableSeeder extends Seeder
 {
     public function run()
     {
@@ -10,9 +10,9 @@ class CollectionTableSeeder extends Seeder
 
         foreach ($sagas as $saga) {
             for ($i = 1; $i < $this->faker->numberBetween(1, 10); $i++) {
-                $collection = new Collection;
+                $album = new Album;
 
-                $collection->fill([
+                $album->fill([
                     'name' => 'Saison ' . $i,
                     'type' => $this->faker->randomElement([
                         'Bétisier',
@@ -23,9 +23,9 @@ class CollectionTableSeeder extends Seeder
                     ])
                 ]);
 
-                $collection->sort = $i;
-                $collection->saga()->associate($saga);
-                $collection->save();
+                $album->sort = $i;
+                $album->saga()->associate($saga);
+                $album->save();
             }
         }
     }

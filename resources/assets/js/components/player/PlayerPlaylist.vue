@@ -12,16 +12,16 @@
             </div>
 
             <div class="playlist__liste">
-                <template v-for="collection in currentCollections">
+                <template v-for="album in currentAlbums">
                     <!-- Le nom de la saison n'est affiché que s'il y en a plusieurs -->
                     <div class="playlist__grille playlist__saison"
-                        v-if="currentSaga.stats.collections > 1">
+                        v-if="currentSaga.stats.albums > 1">
                         <div class=""><i aria-hidden="true" class="fa fa-caret-down"></i></div>
-                        <text-ellispis :text="collection.name" :size="40"></text-ellispis>
+                        <text-ellispis :text="album.name" :size="40"></text-ellispis>
                     </div>
 
                     <div class="playlist__grille playlist__morceau a-curseur"
-                         v-for="track in collection.tracks"
+                         v-for="track in album.tracks"
                          :key="track.id"
                          :class="{'actif': track.id == currentTrack.id}"
                          @click="play({track, autoStart: true})">
@@ -31,8 +31,8 @@
                         </div>
                         <div>
                             <text-ellispis :text="track.title" :size="25"></text-ellispis>
-                            <p class="h6" v-if="currentCollections.length > 1">
-                                Saison {{ collection.number }} - {{ collection.name }}
+                            <p class="h6" v-if="currentAlbums.length > 1">
+                                Saison {{ album.number }} - {{ album.name }}
                             </p>
                         </div>
                         <div>
@@ -68,7 +68,7 @@ export default {
     computed: mapState('player', [
         'isPlaying',
         'currentTrack',
-        'currentCollections',
+        'currentAlbums',
         'currentSaga',
         'isLoading',
     ]),

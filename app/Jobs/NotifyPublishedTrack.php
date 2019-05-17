@@ -36,7 +36,7 @@ class NotifyPublishedTrack implements ShouldQueue
      */
     public function handle()
     {
-        $saga = $this->track->collection->saga;
+        $saga = $this->track->album->saga;
 
         $notification = new TrackPublished($this->track);
 

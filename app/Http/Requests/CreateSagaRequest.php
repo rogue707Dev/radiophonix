@@ -13,7 +13,7 @@ class CreateSagaRequest extends Request
     {
         return [
             // When creating a saga, only the name is mandatory
-            'name' => 'required|max:255|unique:sagas|not_in:saga,sagas,login,logout,register,collections,author,likes'
+            'name' => 'required|max:255|unique:sagas|not_in:saga,sagas,login,logout,register,albums,author,likes'
         ];
     }
 }

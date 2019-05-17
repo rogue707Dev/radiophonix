@@ -21,7 +21,7 @@ class DestroyTrackController extends ApiController
         $this->authorize('delete', $track);
 
         /** @var Saga $saga */
-        $saga = $track->collection->saga;
+        $saga = $track->album->saga;
 
         $track->delete();
 
