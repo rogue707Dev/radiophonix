@@ -249,7 +249,7 @@ class AlphaSeed extends Command
                 $user = User::create([
                     'name' => 'User_' . $slug,
                     'email' => 'user_' . $slug . '@radiophonix.org',
-                    'password' => bcrypt('password'),
+                    'password' => bcrypt(Str::random()),
                 ]);
 
                 $team = new Team();
@@ -291,7 +291,7 @@ class AlphaSeed extends Command
                 ->firstOrNew([
                     'name' => $authorData['name'],
                     'email' => 'author_' . Str::slug($authorData['name']) . '@radiophonix.org',
-                    'password' => bcrypt('password'),
+                    'password' => bcrypt(Str::random()),
                 ]);
 
             $user->save();
