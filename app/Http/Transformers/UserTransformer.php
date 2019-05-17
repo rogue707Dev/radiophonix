@@ -14,7 +14,7 @@ class UserTransformer extends Transformer
     public function transform(User $user)
     {
         return [
-            'id' => $user->fakeId(),
+            'id' => $user->uuid(),
             'name' => $user->name,
             'email' => $user->email,
             'avatar' => $user->avatar,

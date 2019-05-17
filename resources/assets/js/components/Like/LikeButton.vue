@@ -18,7 +18,7 @@
 
         props: {
             likeableId: {
-                type: Number,
+                type: String,
                 required: true,
             },
             likeableType: {

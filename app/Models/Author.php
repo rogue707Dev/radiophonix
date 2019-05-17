@@ -11,7 +11,7 @@ use Laravel\Scout\Searchable;
 use Radiophonix\Events\Author\AuthorSavingEvent;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasCountCache;
-use Radiophonix\Models\Support\HasFakeId;
+use Radiophonix\Models\Support\GeneratesUuid;
 use Radiophonix\Models\Support\Stats\AuthorStats;
 use Spatie\Image\Exceptions\InvalidManipulation;
 use Spatie\Image\Manipulations;
@@ -39,7 +39,7 @@ use Spatie\Sluggable\SlugOptions;
  */
 class Author extends Model implements HasMedia
 {
-    use HasFakeId;
+    use GeneratesUuid;
     use HasSlug;
     use HasMediaTrait;
     use FindableFromSlug;

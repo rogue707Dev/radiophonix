@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Radiophonix\Models\Support\AlbumType;
 use Radiophonix\Models\Support\HasCountCache;
-use Radiophonix\Models\Support\HasFakeId;
+use Radiophonix\Models\Support\GeneratesUuid;
 
 /**
  * @property int $id
@@ -26,7 +26,7 @@ use Radiophonix\Models\Support\HasFakeId;
  */
 class Album extends Model
 {
-    use HasFakeId;
+    use GeneratesUuid;
     use HasCountCache;
 
     /**

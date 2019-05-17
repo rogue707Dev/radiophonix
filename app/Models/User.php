@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Collection;
-use Radiophonix\Models\Support\HasFakeId;
+use Radiophonix\Models\Support\GeneratesUuid;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
 /**
@@ -24,7 +24,7 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
  */
 class User extends Authenticatable implements JWTSubject
 {
-    use HasFakeId;
+    use GeneratesUuid;
     use Notifiable;
 
     /**
@@ -45,13 +45,11 @@ class User extends Authenticatable implements JWTSubject
         'password', 'remember_token',
     ];
 
-    public static function fromNameOrFakeId($nameOrFakeId)
+    public static function fromNameOrUuid($nameOrUuid)
     {
-        if (is_numeric($nameOrFakeId)) {
-            return static::fromFakeId((int)$nameOrFakeId);
-        }
-
-        return self::where('name', $nameOrFakeId)->first();
+        return self::where('name', $nameOrUuid)
+            ->orWhere('uuid', $nameOrUuid)
+            ->first();
     }
 
     /**

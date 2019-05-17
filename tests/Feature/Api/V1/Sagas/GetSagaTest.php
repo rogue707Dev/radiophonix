@@ -17,7 +17,7 @@ class GetSagaTest extends ApiTestCase
         $saga = factory(Saga::class)->create();
 
         /* *** Process *** */
-        $response = $this->json('GET', '/api/v1/sagas/' . $saga->fakeId());
+        $response = $this->json('GET', '/api/v1/sagas/' . $saga->uuid());
 
         /* *** Assertion *** */
         $response->assertStatus(200);

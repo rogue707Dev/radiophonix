@@ -33,32 +33,31 @@ class RouteServiceProvider extends ServiceProvider
     public function boot()
     {
         Route::bind('saga', function ($value) {
-            // We can query sagas using a slug or an hashid
-            return Saga::findFromSlugOrFakeId($value);
+            return Saga::findFromSlugOrUuid($value);
         });
 
         Route::bind('album', function ($value) {
-            return Album::fromFakeId($value);
+            return Album::fromUuId($value);
         });
 
         Route::bind('track', function ($value) {
-            return Track::fromFakeId($value);
+            return Track::fromUuId($value);
         });
 
         Route::bind('user', function ($value) {
-            return User::fromNameOrFakeId($value);
+            return User::fromNameOrUuid($value);
         });
 
         Route::bind('team', function ($value) {
-            return Team::findFromSlugOrFakeId($value);
+            return Team::findFromSlugOrUuid($value);
         });
 
         Route::bind('genre', function ($value) {
-            return Genre::findFromSlugOrFakeId($value);
+            return Genre::findFromSlugOrUuid($value);
         });
 
         Route::bind('author', function ($value) {
-            return Author::findFromSlugOrFakeId($value);
+            return Author::findFromSlugOrUuid($value);
         });
 
         Route::bind('notification', function ($value) {

@@ -15,6 +15,7 @@ class CreateAlbumsTable extends Migration
     {
         Schema::create('albums', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('uuid')->unique();
 
             $table->unsignedInteger('saga_id');
             $table->foreign('saga_id')->references('id')->on('sagas')->onDelete('cascade');

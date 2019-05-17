@@ -8,12 +8,11 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Laravel\Scout\Searchable;
-use Radiophonix\Events\Like\UserLikedSaga;
 use Radiophonix\Models\Support\FindableFromSlug;
+use Radiophonix\Models\Support\GeneratesUuid;
 use Radiophonix\Models\Support\HasCountCache;
-use Radiophonix\Models\Support\HasFakeId;
+use Radiophonix\Models\Support\HasUuid;
 use Radiophonix\Models\Support\Licence\Licence;
 use Radiophonix\Models\Support\Licence\LicenceMapper;
 use Radiophonix\Models\Support\Stats\SagaStats;
@@ -53,9 +52,9 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
  * @method static Builder|Saga paginate()
  * @method static Builder|Saga sortby($sort)
  */
-class Saga extends Model implements HasMedia
+class Saga extends Model implements HasMedia, HasUuid
 {
-    use HasFakeId;
+    use GeneratesUuid;
     use HasMediaTrait;
     use HasSlug;
     use FindableFromSlug;
@@ -276,18 +275,6 @@ class Saga extends Model implements HasMedia
         return $this->cacheCount('likes', function () {
             return $this->likes->count();
         });
-    }
-
-    public function addLikeFrom(User $user): void
-    {
-        $like = new Like;
-
-        $like->likeable()->associate($this);
-        $like->user()->associate($user);
-
-        $like->save();
-
-        event(new UserLikedSaga($user, $this));
     }
 
     /**

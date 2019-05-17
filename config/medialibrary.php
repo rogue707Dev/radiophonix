@@ -79,7 +79,7 @@ return [
     /*
      * The class that contains the strategy for determining a media file's path.
      */
-    'path_generator' => \Radiophonix\Media\FakeIdPathGenerator::class,
+    'path_generator' => \Radiophonix\Media\UuidPathGenerator::class,
 
     /*
      * Medialibrary will try to optimize all converted images by removing

@@ -11,7 +11,7 @@ class TrackTransformer extends Transformer
     public function transform(Track $track): array
     {
         return [
-            'id' => $track->fakeId(),
+            'id' => $track->uuid(),
             'number' => $track->number,
             'title' => empty($track->title) ? '[Titre inconnu]' : $track->title,
             'synopsis' => $track->synopsis,

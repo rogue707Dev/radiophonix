@@ -21,7 +21,7 @@ class TickWriteTest extends ApiTestCase
             ->actingAs($user)
             ->json(
                 'POST',
-                '/api/v1/ticks/' . $track->fakeId()
+                '/api/v1/ticks/' . $track->uuid()
             );
 
         /* *** Assertion *** */
@@ -45,7 +45,7 @@ class TickWriteTest extends ApiTestCase
             ->actingAs($user)
             ->json(
                 'POST',
-                '/api/v1/ticks/' . $track->fakeId(),
+                '/api/v1/ticks/' . $track->uuid(),
                 [
                     'progress' => $progress,
                 ]
@@ -87,7 +87,7 @@ class TickWriteTest extends ApiTestCase
             ->actingAs($user)
             ->json(
                 'POST',
-                '/api/v1/ticks/' . $track->fakeId(),
+                '/api/v1/ticks/' . $track->uuid(),
                 [
                     'progress' => $progress,
                 ]

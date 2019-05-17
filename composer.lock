@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40b0d23bbd5ac34f517495862beb81bd",
+    "content-hash": "635c311dc70d3ff4eaf2331f7631513c",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -944,63 +944,6 @@
                 "useragent"
             ],
             "time": "2019-01-19T21:32:55+00:00"
-        },
-        {
-            "name": "jenssegers/optimus",
-            "version": "v0.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jenssegers/optimus.git",
-                "reference": "9bb0fcbaa3b7a6a0eb3e6c07e672ce4de42600af"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jenssegers/optimus/zipball/9bb0fcbaa3b7a6a0eb3e6c07e672ce4de42600af",
-                "reference": "9bb0fcbaa3b7a6a0eb3e6c07e672ce4de42600af",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "kherge/box": "^2.7",
-                "phpseclib/phpseclib": "^2.0",
-                "phpunit/phpunit": "^4.0|^5.0",
-                "satooshi/php-coveralls": "^1.0",
-                "symfony/console": "^2.6|^3.0"
-            },
-            "suggest": {
-                "ext-gmp": "Required for 32bit systems"
-            },
-            "bin": [
-                "optimus"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Jenssegers\\Optimus\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jens Segers",
-                    "homepage": "https://jenssegers.com"
-                }
-            ],
-            "description": "Id obfuscation based on Knuth's integer hash method",
-            "homepage": "https://github.com/jenssegers/optimus",
-            "keywords": [
-                "hashids",
-                "id obfuscation",
-                "ids",
-                "obfuscation",
-                "optimus"
-            ],
-            "time": "2017-04-21T10:14:58+00:00"
         },
         {
             "name": "laravel-notification-channels/discord",
@@ -2244,6 +2187,52 @@
                 "random"
             ],
             "time": "2018-07-02T15:55:56+00:00"
+        },
+        {
+            "name": "pascaldevink/shortuuid",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pascaldevink/shortuuid.git",
+                "reference": "1f4aef3d610f6f93c03748b489f12a987a4cbac8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pascaldevink/shortuuid/zipball/1f4aef3d610f6f93c03748b489f12a987a4cbac8",
+                "reference": "1f4aef3d610f6f93c03748b489f12a987a4cbac8",
+                "shasum": ""
+            },
+            "require": {
+                "moontoast/math": "^1.1",
+                "php": "^7.1",
+                "ramsey/uuid": "^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PascalDeVink\\ShortUuid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pascal de Vink",
+                    "email": "pascal@ticketswap.com"
+                }
+            ],
+            "description": "PHP 7.1+ library that generates concise, unambiguous, URL-safe UUIDs",
+            "keywords": [
+                "guid",
+                "identifier",
+                "uuid"
+            ],
+            "time": "2018-08-10T11:17:37+00:00"
         },
         {
             "name": "php-http/client-common",
@@ -4313,7 +4302,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",

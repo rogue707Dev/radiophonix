@@ -252,7 +252,7 @@
 
     data: () => ({
         saga: {
-            id: 0,
+            id: '',
             stats: {
                 likes: 0,
             },

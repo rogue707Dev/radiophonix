@@ -46,7 +46,7 @@ class TrackPublished extends Notification
             'title' => $this->track->album->saga->name,
             'message' => 'Un nouvel épisode est sortit !<br />' . $this->track->title,
             'type' => 'track',
-            'type_id' => $this->track->fakeId(),
+            'type_id' => $this->track->uuid(),
         ];
     }
 }

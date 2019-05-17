@@ -18,6 +18,7 @@ class CreateLikesTable extends Migration
 
             $table->unsignedInteger('likeable_id');
             $table->string('likeable_type');
+            $table->string('likeable_uuid')->nullable(false);
             $table->unsignedInteger('user_id');
 
             $table->timestamps();

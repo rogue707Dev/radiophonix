@@ -28,7 +28,6 @@
         "barryvdh/laravel-cors": "^0.11.2",
         "spatie/laravel-sluggable": "^2.1",
         "spatie/laravel-medialibrary": "^7.0.0",
-        "jenssegers/optimus": "^0.2.3",
         "laravel/scout": "^5.0",
         "yab/laravel-scout-mysql-driver": "^2.0.5",
         "league/color-extractor": "^0.3.2",
@@ -40,7 +39,8 @@
         "laravel-notification-channels/discord": "^1.0",
         "m4tthumphrey/php-gitlab-api": "^9.13",
         "php-http/guzzle6-adapter": "^1.0",
-        "jenssegers/agent": "^2.6"
+        "jenssegers/agent": "^2.6",
+        "pascaldevink/shortuuid": "^2.1"
     },
     "require-dev": {
         "laravel/tinker": "~1.0",

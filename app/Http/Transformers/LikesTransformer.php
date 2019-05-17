@@ -16,13 +16,9 @@ class LikesTransformer extends Transformer
     {
         return Collection::wrap($likes)
             ->map(function (Like $like) {
-                $fakeId = $this->fakeId()
-                    ->connection($like->likeable_type)
-                    ->encode($like->likeable_id);
-
                 return [
                     'type' => $like->likeable_type,
-                    'id' => $fakeId,
+                    'id' => $like->likeable_uuid,
                 ];
             })
             ->groupBy('type')

@@ -6,7 +6,7 @@ use Radiophonix\Models\Media;
 use Spatie\MediaLibrary\Models\Media as BaseMedia;
 use Spatie\MediaLibrary\PathGenerator\PathGenerator;
 
-class FakeIdPathGenerator implements PathGenerator
+class UuidPathGenerator implements PathGenerator
 {
     public function getPath(BaseMedia $media): string
     {
@@ -25,7 +25,7 @@ class FakeIdPathGenerator implements PathGenerator
     protected function getBasePath(BaseMedia $media): string
     {
         if ($media instanceof Media) {
-            return (string)$media->fakeId();
+            return (string)$media->uuid();
         }
 
         return $media->getKey();

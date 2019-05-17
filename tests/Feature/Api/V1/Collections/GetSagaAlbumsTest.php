@@ -34,7 +34,7 @@ class GetSagaAlbumsTest extends ApiTestCase
         /* *** Process *** */
         $response = $this->json(
             'GET',
-            '/api/v1/sagas/' . $sagaA->fakeId() . '/albums'
+            '/api/v1/sagas/' . $sagaA->uuid() . '/albums'
         );
 
         $albumsA = $albumsA->fresh();

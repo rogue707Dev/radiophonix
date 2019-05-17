@@ -28,7 +28,7 @@ class SendInviteController extends ApiController
         }
 
         try {
-            $invitedUser = User::fromFakeId($request->get('invited_id'));
+            $invitedUser = User::fromUuId($request->get('invited_id'));
         } catch (ModelNotFoundException $e) {
             throw new ValidationHttpException('This user does not exist');
         }

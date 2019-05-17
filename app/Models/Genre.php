@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Laravel\Scout\Searchable;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasCountCache;
-use Radiophonix\Models\Support\HasFakeId;
+use Radiophonix\Models\Support\GeneratesUuid;
 use Radiophonix\Models\Support\Stats\GenreStats;
 use Spatie\Image\Manipulations;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
@@ -29,7 +29,7 @@ use Spatie\Sluggable\SlugOptions;
  */
 class Genre extends Model implements HasMedia
 {
-    use HasFakeId;
+    use GeneratesUuid;
     use Searchable;
     use HasMediaTrait;
     use HasSlug;

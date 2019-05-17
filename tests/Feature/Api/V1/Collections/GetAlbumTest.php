@@ -24,7 +24,7 @@ class GetAlbumTest extends ApiTestCase
         /* *** Process *** */
         $response = $this->json(
             'GET',
-            '/api/v1/albums/' . $album->fakeId()
+            '/api/v1/albums/' . $album->uuid()
         );
 
         $album = $album->fresh();

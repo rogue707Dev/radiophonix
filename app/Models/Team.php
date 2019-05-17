@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as IlluminateUser;
 use Radiophonix\Models\Support\FindableFromSlug;
 use Radiophonix\Models\Support\HasCountCache;
-use Radiophonix\Models\Support\HasFakeId;
+use Radiophonix\Models\Support\GeneratesUuid;
 use Radiophonix\Models\Support\Stats\TeamStats;
 use Spatie\Image\Exceptions\InvalidManipulation;
 use Spatie\Image\Manipulations;
@@ -39,7 +39,7 @@ use Spatie\Sluggable\SlugOptions;
  */
 class Team extends Model implements HasMedia
 {
-    use HasFakeId;
+    use GeneratesUuid;
     use HasSlug;
     use FindableFromSlug;
     use HasMediaTrait;

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Laravel\Scout\Searchable;
 use Radiophonix\Exceptions\CannotPublishTrackException;
-use Radiophonix\Models\Support\HasFakeId;
+use Radiophonix\Models\Support\GeneratesUuid;
 
 /**
  * @property int $id
@@ -25,7 +25,7 @@ use Radiophonix\Models\Support\HasFakeId;
  */
 class Track extends Model
 {
-    use HasFakeId;
+    use GeneratesUuid;
     use Searchable;
 
     // When creating an empty Track

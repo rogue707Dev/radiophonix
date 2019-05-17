@@ -15,7 +15,8 @@
             </cover>
         </div>
         <div class="card-button">
-            <button aria-hidden="true" class="fa fa-heart"></button>
+<!--            à remettre une fois l'issue #166 fait-->
+<!--            <button aria-hidden="true" class="fa fa-heart"></button>-->
         </div>
         <div class="card-body">
             <span v-if="badge" class="badge badge-light badge-sm text-capitalize">{{ type }}</span>

@@ -34,7 +34,7 @@ class AuthorTransformer extends Transformer
     public function transform(Author $author)
     {
         return [
-            'id' => $author->fakeId(),
+            'id' => $author->uuid(),
             'slug' => $author->slug,
             'name' => $author->name,
             'bio' => $author->bio,

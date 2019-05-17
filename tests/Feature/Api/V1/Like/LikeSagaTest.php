@@ -3,6 +3,7 @@
 namespace Tests\Feature\Api\V1\Like;
 
 use Illuminate\Support\Collection;
+use Radiophonix\Models\Like;
 use Radiophonix\Models\Saga;
 use Radiophonix\Models\User;
 use Tests\Feature\Api\V1\ApiTestCase;
@@ -22,13 +23,13 @@ class LikeSagaTest extends ApiTestCase
             ->actingAs($user)
             ->json(
                 'POST',
-                '/api/v1/likes/saga/' . $saga->fakeId()
+                '/api/v1/likes/saga/' . $saga->uuid()
             );
 
         /* *** Assertion *** */
         $response->assertStatus(200);
         $response->assertExactJson([
-            'saga' => [$saga->fakeId()],
+            'saga' => [$saga->uuid()],
         ]);
     }
 
@@ -42,14 +43,14 @@ class LikeSagaTest extends ApiTestCase
         /** @var User $user */
         $user = factory(User::class)->create();
 
-        $saga->addLikeFrom($user);
+        Like::createFor($user, $saga);
 
         /* *** Process *** */
         $response = $this
             ->actingAs($user)
             ->json(
                 'DELETE',
-                '/api/v1/likes/saga/' . $saga->fakeId()
+                '/api/v1/likes/saga/' . $saga->uuid()
             );
 
         /* *** Assertion *** */
@@ -70,7 +71,7 @@ class LikeSagaTest extends ApiTestCase
         $user = factory(User::class)->create();
 
         foreach ($sagas as $saga) {
-            $saga->addLikeFrom($user);
+            Like::createFor($user, $saga);
         }
 
         /* *** Process *** */
@@ -83,7 +84,7 @@ class LikeSagaTest extends ApiTestCase
 
         $ids = $sagas
             ->map(function (Saga $saga) {
-                return $saga->fakeId();
+                return $saga->uuid();
             })
             ->sort()
             ->values();
@@ -106,7 +107,7 @@ class LikeSagaTest extends ApiTestCase
         $response = $this
             ->json(
                 'POST',
-                '/api/v1/likes/saga/' . $saga->fakeId()
+                '/api/v1/likes/saga/' . $saga->uuid()
             );
 
         /* *** Assertion *** */
@@ -125,7 +126,7 @@ class LikeSagaTest extends ApiTestCase
             ->actingAsUserWithInvalidToken()
             ->json(
                 'POST',
-                '/api/v1/likes/saga/' . $saga->fakeId()
+                '/api/v1/likes/saga/' . $saga->uuid()
             );
 
         /* *** Assertion *** */

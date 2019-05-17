@@ -15,6 +15,7 @@ class CreateSagasTable extends Migration
     {
         Schema::create('sagas', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('uuid')->unique();
             $table->string('slug')->unique();
 
             $table->integer('team_id')->unsigned()->nullable();

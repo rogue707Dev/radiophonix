@@ -52,7 +52,7 @@ class ProfileTransformer extends Transformer
             ->all();
 
         return [
-            'id' => $user->fakeId(),
+            'id' => $user->uuid(),
             'name' => $user->name,
             'avatar' => $user->avatar,
             'created_at' => $this->getFormatedDate($user->created_at),

@@ -2,21 +2,20 @@
 
 namespace Radiophonix\Models\Support;
 
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Query\Builder;
+
+/**
+ * @mixin Model
+ * @mixin Builder
+ */
 trait FindableFromSlug
 {
-    /**
-     * To query a model by slug or fakeId
-     *
-     * @param string|int $slugOrFakeId
-     * @return null|self
-     */
-    public static function findFromSlugOrFakeId($slugOrFakeId): ?self
+    public static function findFromSlugOrUuid(string $slugOrUuid): ?self
     {
-        if (is_numeric($slugOrFakeId)) {
-            return static::fromFakeId((int)$slugOrFakeId);
-        }
-
-        return static::fromSlug($slugOrFakeId);
+        return static::where('uuid', $slugOrUuid)
+            ->orWhere('slug', $slugOrUuid)
+            ->first();
     }
 
     /**
@@ -25,7 +24,7 @@ trait FindableFromSlug
      * @param string $slug
      * @return self
      */
-    public static function fromSlug(string $slug)
+    public static function fromSlug(string $slug): self
     {
         return self::where('slug', $slug)->first();
     }

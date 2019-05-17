@@ -29,7 +29,7 @@ class GenreTransformer extends Transformer
         }
 
         return [
-            'id' => $genre->fakeId(),
+            'id' => $genre->uuid(),
             'slug' => $genre->slug,
             'name' => $genre->name,
             'stats' => $genre->stats()->toArray(),

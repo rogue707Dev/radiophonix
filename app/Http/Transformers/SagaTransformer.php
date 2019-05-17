@@ -28,7 +28,7 @@ class SagaTransformer extends Transformer
     public function transform(Saga $saga)
     {
         return [
-            'id' => $saga->fakeId(),
+            'id' => $saga->uuid(),
             'slug' => $saga->slug,
             'name' => $saga->name,
             'synopsis' => $saga->synopsis,

@@ -339,7 +339,7 @@ class AlphaSeed extends Command
 
         Artisan::call('badge:sync');
 
-        $user = User::fromNameOrFakeId('John-Smith');
+        $user = User::fromNameOrUuid('John-Smith');
         $user->badges()->attach(Badge::all());
 
         $this->output->write('.');

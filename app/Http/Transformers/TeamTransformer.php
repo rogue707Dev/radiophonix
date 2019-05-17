@@ -22,7 +22,7 @@ class TeamTransformer extends Transformer
     public function transform(Team $team)
     {
         return [
-            'id' => $team->fakeId(),
+            'id' => $team->uuid(),
             'slug' => $team->slug,
             'name' => $team->name,
             'bio' => $team->bio,

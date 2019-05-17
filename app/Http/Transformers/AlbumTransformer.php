@@ -20,7 +20,7 @@ class AlbumTransformer extends Transformer
     public function transform(Album $album)
     {
         return [
-            'id' => $album->fakeId(),
+            'id' => $album->uuid(),
             'number' => $album->number,
             'name' => $album->name,
             'synopsis' => $album->synopsis,
