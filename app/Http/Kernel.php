@@ -57,7 +57,7 @@ class Kernel extends HttpKernel
 
         'api' => [
             Acceptable::class,
-            'throttle:60,1',
+            'throttle:120,1',
         ],
     ];
 
