@@ -328,7 +328,7 @@
 
             [sagaResult, albumResult] = [await sagaResult, await albumResult];
 
-            this.saga = sagaResult.data;
+            this.saga = sagaResult;
             this.albums = albumResult.data;
 
             if (this.albums.length > 0) {

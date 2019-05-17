@@ -15,9 +15,9 @@
         },
 
         beforeRouteEnter (to, from, next) {
-            api.sagas.get(to.params.id).then((res) => {
+            api.sagas.get(to.params.id).then((saga) => {
                 next(vm => {
-                    vm.saga = res.data;
+                    vm.saga = saga;
                     // vm.$store.dispatch('setSaga', res.data);
                 });
             });

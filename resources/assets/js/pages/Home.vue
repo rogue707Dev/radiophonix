@@ -172,7 +172,7 @@ export default {
         async loadSagas() {
             let result = await api.sagas.all({ random: 1 });
 
-            this.sagas = result.data.slice(0, 8);
+            this.sagas = result.slice(0, 8);
         },
 
         async loadGenres() {

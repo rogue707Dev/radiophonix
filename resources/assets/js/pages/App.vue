@@ -115,7 +115,7 @@
                     'player/play',
                     {
                         autoStart: false,
-                        saga: sagaResult.data,
+                        saga: sagaResult,
                         track: trackResult.data,
                         seekPercentage: currentPercentage,
                     }

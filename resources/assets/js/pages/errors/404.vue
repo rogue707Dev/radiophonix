@@ -11,7 +11,14 @@
 
             <h1 class="h1 mb-4">Sagas populaires</h1>
 
-            <saga-list :sagas="popular"></saga-list>
+            <p class="lead text-center mt-md-5 mt-5"
+               v-if="isLoading">
+                <i class="fa fa-spinner fa-spin fa-5x mt-md-5 mb-md-5 mb-4"></i>
+                <br/>
+                Chargement...
+            </p>
+
+            <saga-list v-else :sagas="popular"></saga-list>
 
         </div>
     </root-layout>
@@ -33,13 +40,14 @@
 
         data: () => ({
             popular: [],
+            isLoading: true,
         }),
 
         methods: {
             async fetchPopular() {
-                let result = await api.sagas.popular();
+                this.popular = await api.sagas.all();
 
-                this.popular = result.data;
+                this.isLoading = false;
             }
         },
 

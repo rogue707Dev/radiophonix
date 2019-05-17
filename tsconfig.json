@@ -3,6 +3,7 @@
         "allowJs": true,
         "noImplicitAny": true,
         "sourceMap": true,
+        "strict": true,
         "target": "es5",
         "baseUrl": "resources/assets/js",
         "paths": {

@@ -1,4 +1,4 @@
-type StorageItem = object | string;
+type StorageItem = object | string | undefined;
 
 const ls = window.localStorage;
 const makeKey = (key: string) => 'rdpx__' + key;
@@ -9,7 +9,7 @@ export default class Storage {
             value = JSON.stringify(value);
         }
 
-        ls.setItem(makeKey(key), value);
+        ls.setItem(makeKey(key), <string>value);
     }
 
     static get(key: string, defaultValue?: StorageItem): StorageItem {
@@ -23,7 +23,7 @@ export default class Storage {
             value = JSON.parse(value);
         }
 
-        return value;
+        return <object | string>value;
     }
 
     static remove(key: string): void {

@@ -106,11 +106,11 @@ export default {
         async fetchResource(type, resource) {
             let result = await api[resource][type]();
 
-            if (result.status == 200) {
+            if (result.status && result.status === 200) {
                 return result.data;
             }
 
-            return [];
+            return result || [];
         }
     },
 
