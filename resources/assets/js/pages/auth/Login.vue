@@ -178,6 +178,12 @@
                         this.isPasswordValid = false;
                         this.errors.password = errors.password.join('\n');
                     }
+
+                    if (e.response.data.message) {
+                        this.isEmailValid = false;
+                        this.isPasswordValid = false;
+                        this.errors.password = e.response.data.message;
+                    }
                 })
                 .finally(() => {
                     this.isLoading = false;
