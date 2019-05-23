@@ -119,12 +119,26 @@
                 </div>
             </div>
 
-            <button type="submit" class="btn btn-primary" :disabled="isLoading">
-                <fa-icon icon="fa-refresh fa-spin fa-fw"
-                         label="Chargement"
-                         v-show="isLoading" />
-                Inscription
-            </button>
+            <div class="row">
+                <div class="col-sm-3">
+
+                    <button type="submit" class="btn btn-primary" :disabled="isLoading">
+                        <fa-icon icon="fa-refresh fa-spin fa-fw"
+                                 label="Chargement"
+                                 v-show="isLoading" />
+                        Inscription
+                    </button>
+
+                </div>
+                <div class="col-sm-3 text-right">
+
+                    <router-link :to="{ name: 'mentions-legales' }" class="lien-paragraphe">
+                        Mentions légales
+                    </router-link>
+
+                </div>
+            </div>
+
         </vue-form>
 
     </div>
