@@ -64,7 +64,8 @@
                 'isAuthenticated',
             ]),
         },
-        created: function () {
+
+        created() {
             this.loadCurrentTrack();
             this.loadLastSearchQueries();
 

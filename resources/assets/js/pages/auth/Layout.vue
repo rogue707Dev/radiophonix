@@ -30,6 +30,7 @@
 </template>
 
 <script>
+    import {mapState, mapGetters} from 'vuex';
     import NavList from '~/components/Ui/Nav/NavList';
     import NavItem from '~/components/Ui/Nav/NavItem';
 
@@ -39,10 +40,26 @@
             NavItem,
         },
 
+        computed: {
+            ...mapGetters('auth', [
+                'isAuthenticated',
+            ]),
+
+            ...mapState('auth', [
+                'user',
+            ]),
+        },
+
         methods: {
             isActive(name) {
                 return this.$route.meta.menu === name;
             }
-        }
+        },
+
+        created() {
+            if (this.isAuthenticated) {
+                this.$router.push({ name: 'profile', params: { user: this.user.name } });
+            }
+        },
     }
 </script>
