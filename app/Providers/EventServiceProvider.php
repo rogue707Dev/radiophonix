@@ -3,9 +3,11 @@
 namespace Radiophonix\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
+use Radiophonix\Events\Auth\UserRegisteredEvent;
 use Radiophonix\Events\Author\AuthorSavingEvent;
 use Radiophonix\Events\Like\UserLikedSaga;
 use Radiophonix\Events\Like\UserUnlikedSaga;
+use Radiophonix\Listeners\Auth\AwardRegistrationBadgesListener;
 use Radiophonix\Listeners\Author\SyncNameColumnListener;
 use Radiophonix\Listeners\ImageColorListener;
 use Radiophonix\Listeners\Like\ClearSagaCachedLikedCount;
@@ -30,6 +32,9 @@ class EventServiceProvider extends ServiceProvider
         ],
         UserUnlikedSaga::class => [
             ClearSagaCachedLikedCount::class,
+        ],
+        UserRegisteredEvent::class => [
+            AwardRegistrationBadgesListener::class,
         ],
     ];
 

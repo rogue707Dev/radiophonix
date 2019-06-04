@@ -1,7 +1,5 @@
 <?php
 
-use Radiophonix\Domain\Badge\Badges;
-
 return [
 
     /*
@@ -19,7 +17,6 @@ return [
     'beta-test' => [
         'title' => 'Beta test',
         'description' => "Pour être une des premières personnes à s'inscrire",
-        'class' => Badges\BetaTestBadge::class,
     ],
 
     'altruiste' => [

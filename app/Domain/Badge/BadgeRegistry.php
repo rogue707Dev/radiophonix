@@ -4,6 +4,9 @@ namespace Radiophonix\Domain\Badge;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Support\Collection;
+use Log;
+use Radiophonix\Models\Badge;
+use Radiophonix\Models\User;
 
 class BadgeRegistry
 {
@@ -18,7 +21,7 @@ class BadgeRegistry
     /**
      * @return Collection|BadgeType[]
      */
-    public function all(): Collection
+    public function types(): Collection
     {
         return collect($this->config->get('radiophonix.badges'))
             ->mapWithKeys(function ($data, $key) {
@@ -26,10 +29,23 @@ class BadgeRegistry
                     $key => new BadgeType(
                         $key,
                         $data['title'],
-                        $data['description'],
-                        isset($data['class']) ? app($data['class']) : null
+                        $data['description']
                     )
                 ];
             });
+    }
+
+    public function award(string $key, User $user): void
+    {
+        /** @var Badge|null $badge */
+        $badge = Badge::query()->where('key', $key)->first();
+
+        if (null === $badge) {
+            Log::warning('Assignation d\'un badge inexistant : ' . $key);
+
+            return;
+        }
+
+        $badge->awardTo($user);
     }
 }

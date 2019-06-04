@@ -60,6 +60,8 @@
     /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan alpha:seed
 
     /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan scout:mysql-index
+
+    /RunCloud/Packages/php71rc/bin/php {{ $new_release_dir }}/artisan badge:sync
 @endtask
 
 @task('cleanup', ['on' => 'dev'])

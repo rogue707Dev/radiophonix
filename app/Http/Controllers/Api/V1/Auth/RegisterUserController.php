@@ -4,6 +4,7 @@ namespace Radiophonix\Http\Controllers\Api\V1\Auth;
 
 use Illuminate\Validation\ValidationException;
 use Radiophonix\Domain\Dto\LoginDto;
+use Radiophonix\Events\Auth\UserRegisteredEvent;
 use Radiophonix\Http\ApiResponse;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
 use Radiophonix\Http\Requests\Auth\RegisterUserRequest;
@@ -24,6 +25,8 @@ class RegisterUserController extends ApiController
 
     public function __invoke(RegisterUserRequest $request): ApiResponse
     {
+        $invite = null;
+
         if ($request->hasInvite()) {
             /** @var SiteInvite|null $invite */
             $invite = SiteInvite::query()
@@ -47,7 +50,7 @@ class RegisterUserController extends ApiController
             'password' => bcrypt($request->get('password')),
         ]);
 
-        // @todo émettre event avec $user et $invite
+        event(new UserRegisteredEvent($user, $invite));
 
         $token = auth()->login($user);
 

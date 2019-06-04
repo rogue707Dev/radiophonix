@@ -29,7 +29,7 @@ class SyncCommand extends Command
     {
         $this->info('Synchronisation des badges en base...');
 
-        $badgeTypes = $this->registry->all();
+        $badgeTypes = $this->registry->types();
 
         // Récupération de tous les badges déjà présents en base
         $models = Badge::all()

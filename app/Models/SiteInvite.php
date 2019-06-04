@@ -18,6 +18,8 @@ use Illuminate\Support\Carbon;
  */
 class SiteInvite extends Model
 {
+    public const TYPE_MP3_AT_PARIS_2019 = 'mp3-at-paris-2019';
+
     public function markAsUsed(): void
     {
         $this->used_at = Carbon::now();

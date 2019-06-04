@@ -37,7 +37,7 @@ class ProfileTransformer extends Transformer
         $ownedBadges = $user->badges->pluck('key');
 
         $badges = $this->badgeRegistry
-            ->all()
+            ->types()
             ->map(function (BadgeType $type) use ($ownedBadges) {
                 $isOwned = $ownedBadges->contains($type->key());
 
