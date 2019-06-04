@@ -8,13 +8,49 @@
 
         <div class="container">
 
-            <news-entry date="2 décembre 2018">
+            <news-entry date="30 mai 2019">
+                <h3 class="h2 pl-lg-4 mt-2 mb-1">Lancement publique !</h3>
+
+                <p class="pl-lg-4 mt-2">
+                    Le projet est maintenant ouvert à tout le monde et a été officiellement
+                    présenté à la communauté <a href="https://forum.netophonix.com/ftopic17756.html" class="lien-paragraphe">sur le Netophonix</a>.<br />
+                    Il est désormais possible de
+                    <router-link :to="{ name: 'register' }" class="lien-paragraphe">s'inscrire</router-link>
+                    sur le site afin d'enregistrer son avancement dans les épisodes et de gagner des badges !<br />
+                    N'hésitez pas à
+                    <a href="javascript:void(0);" class="lien-paragraphe" @click="openFeedbackModal('bug')">signaler des bugs</a>
+                    et/ou à
+                    <a href="javascript:void(0);" class="lien-paragraphe" @click="openFeedbackModal('suggestion')">faire des suggestions</a>.
+                </p>
+
+                <h3 class="h2 pl-lg-4 mt-2 mb-1">MP3@Paris 2019</h3>
+
+                <p class="pl-lg-4 mt-2">
+                    Pierre et moi seront présent cette année à l'évènement
+                    <a href="https://mp3aparis.fr/" class="lien-paragraphe">MP3@Paris</a>
+                    du 22 juin !
+                </p>
+
+                <h3 class="h2 pl-lg-4 mt-2 mb-1">Suite des travaux</h3>
+
+                <p class="pl-lg-4 mt-2">
+                    Il reste encore beaucoup à faire sur le site. Il est possible de suivre
+                    l'avancement sur la
+                    <router-link :to="{ name: 'roadmap' }" class="lien-paragraphe">roadmap</router-link>.
+                </p>
+            </news-entry>
+
+            <hr>
+
+            <news-entry date="2 décembre 2018" class="mt-4">
                 <p class="pl-lg-4 mt-2">
                     Le développement de l'alpha est terminé et la beta peut démarrer !<br>
                     Vous pouvez suivre l'avancement du projet sur la
                     <router-link :to="{ name: 'roadmap' }" class="lien-paragraphe">roadmap !</router-link>
                 </p>
             </news-entry>
+
+            <hr>
 
             <news-entry date="20 novembre 2018" class="mt-4">
                 <ul class="mt-2">
@@ -171,5 +207,12 @@
             LienMergeRequest,
             NewsEntry,
         },
+
+        methods: {
+            openFeedbackModal(type) {
+                this.$store.dispatch('ui/setFeedbackModalDefaultType', type);
+                this.$bvModal.show('js--modal-feedback');
+            },
+        }
     }
 </script>
