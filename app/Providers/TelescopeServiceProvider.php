@@ -21,6 +21,9 @@ class TelescopeServiceProvider extends TelescopeApplicationServiceProvider
         $this->hideSensitiveRequestDetails();
 
         Telescope::filter(function (IncomingEntry $entry) {
+            // @todo à supprimer une fois qu'il y a un système de stats en place
+            return true;
+
             if ($this->app->isLocal()) {
                 return true;
             }
