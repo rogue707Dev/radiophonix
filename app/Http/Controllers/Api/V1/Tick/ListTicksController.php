@@ -17,6 +17,8 @@ class ListTicksController extends ApiController
         $ticks = Tick::query()
             ->with('track.album.saga')
             ->where('user_id', '=', $this->user()->id)
+            ->orderBy('updated_at', 'desc')
+            ->groupBy('track_id')
             ->get();
 
         return $this->collection($ticks, new TickTransformer);

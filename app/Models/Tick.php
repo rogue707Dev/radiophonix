@@ -20,6 +20,12 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  */
 class Tick extends Model
 {
+    /**
+     * Indique le pourcentage (sur 100000) à partir duquel on considère qu'un
+     * épisode a été lu entièrement.
+     */
+    public const MIN_PROGRESS_TO_BE_COMPLETE = 99000;
+
     /** @var string */
     protected $primaryKey = 'uuid';
 
