@@ -2,8 +2,9 @@
 
 namespace Radiophonix\Http\Controllers\Api\V1\Tick;
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use Radiophonix\Domain\Metric\Entry\TickEntry;
+use Radiophonix\Domain\Metric\Metrics;
 use Radiophonix\Http\Controllers\Api\V1\ApiController;
 use Radiophonix\Http\Requests\Tick\SaveTickRequest;
 use Radiophonix\Models\Tick;
@@ -12,6 +13,19 @@ use Symfony\Component\HttpFoundation\Response;
 
 class SaveTickController extends ApiController
 {
+    /**
+     * @var Metrics
+     */
+    private $metrics;
+
+    /**
+     * @param Metrics $metrics
+     */
+    public function __construct(Metrics $metrics)
+    {
+        $this->metrics = $metrics;
+    }
+
     /**
      * @param SaveTickRequest $request
      * @param Track $track
@@ -31,11 +45,15 @@ class SaveTickController extends ApiController
             $tick->uuid = Str::orderedUuid();
         }
 
+        $oldProgress = (int)$tick->progress;
+
         $tick->user()->associate($this->user());
         $tick->track()->associate($track);
         $tick->progress = (int)$request->get('progress');
 
         $tick->save();
+
+        $this->metrics->push(new TickEntry($track, $tick, $oldProgress));
 
         return $this->ok();
     }
