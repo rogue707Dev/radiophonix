@@ -53,7 +53,7 @@ class SaveTickController extends ApiController
 
         $tick->save();
 
-        $this->metrics->push(new TickEntry($track, $tick, $oldProgress));
+        $this->metrics->push(new TickEntry($this->user(), $track, $tick, $oldProgress));
 
         return $this->ok();
     }
