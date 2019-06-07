@@ -1,4 +1,5 @@
 import {AxiosInstance, AxiosResponse} from "axios";
+import ApiService from "./ApiService";
 
 interface ResourceMethods {
     all?: string;
@@ -28,13 +29,7 @@ interface Delete {
     (id: number): Promise<any>;
 }
 
-interface Params {
-    [key: string]: any;
-}
-
-class ApiResource<T> {
-    protected axios: AxiosInstance;
-
+class ApiResource<T> extends ApiService {
     all?: All<T>;
     get?: Get<T>;
     create?: Create<T>;
@@ -42,7 +37,7 @@ class ApiResource<T> {
     delete?: Delete;
 
     constructor(axios: AxiosInstance, methods: ResourceMethods) {
-        this.axios = axios;
+        super(axios);
 
         if (typeof methods.all !== 'undefined') {
             this.all = (params?: object): Promise<T[]> => {
@@ -54,7 +49,7 @@ class ApiResource<T> {
 
         if (methods.get) {
             this.get = (id: number, params?: object): Promise<T> => {
-                let url = ApiResource.url(<string>methods.get, {
+                let url = ApiService.url(<string>methods.get, {
                     id: id
                 });
 
@@ -74,7 +69,7 @@ class ApiResource<T> {
 
         if (methods.update) {
             this.update = (id: number, data: object): Promise<T> => {
-                let url = ApiResource.url(<string>methods.update, {
+                let url = ApiService.url(<string>methods.update, {
                     id: id
                 });
 
@@ -86,7 +81,7 @@ class ApiResource<T> {
 
         if (methods.delete) {
             this.delete = (id: number): Promise<T> => {
-                let url = ApiResource.url(<string>methods.delete, {
+                let url = ApiService.url(<string>methods.delete, {
                     id: id
                 });
 
@@ -95,18 +90,6 @@ class ApiResource<T> {
                     .then(res => res.data);
             };
         }
-    }
-
-    static url(url: string, vars: Params): string {
-        for (let key in vars) {
-            if (vars.hasOwnProperty(key)) {
-                let value = vars[key];
-
-                url = url.replace(':' + key, value);
-            }
-        }
-
-        return url;
     }
 }
 
