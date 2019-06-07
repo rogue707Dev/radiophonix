@@ -82,7 +82,7 @@ class User extends Authenticatable implements JWTSubject
 
     public function badges()
     {
-        return $this->belongsToMany(Badge::class, 'user_badges');
+        return $this->belongsToMany(Badge::class, 'user_badges')->withTimestamps();
     }
 
     public function getAvatarAttribute()
