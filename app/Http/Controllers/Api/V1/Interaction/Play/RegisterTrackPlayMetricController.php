@@ -21,7 +21,7 @@ class RegisterTrackPlayMetricController extends ApiController
 
     public function __invoke(Track $track): ApiResponse
     {
-        $this->metrics->push(new TrackPlayEntry($track, $this->user()));
+        $this->metrics->record(new TrackPlayEntry($track));
 
         return $this->ok();
     }
