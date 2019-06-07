@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 import routes from '~/routing/routes';
 import store from '~/lib/store';
 import news from '~/lib/services/storage/news';
+import api from "~/lib/api";
 
 Vue.use(VueRouter);
 
@@ -39,6 +40,15 @@ router.beforeEach((to, from, next) => {
     } else {
         next();
     }
+});
+
+router.beforeEach((to, from, next) => {
+    next();
+
+    api.interactions
+        .pageView(to)
+        // Les erreurs des metrics ne doivent pas être bloquantes
+        .catch(() => {});
 });
 
 export default router;

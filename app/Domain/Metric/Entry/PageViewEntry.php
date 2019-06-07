@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace Radiophonix\Domain\Metric\Entry;
 
 use Illuminate\Http\Request;
+use Jenssegers\Agent\Agent;
 use Radiophonix\Domain\Metric\MetricEntry;
 
 class PageViewEntry implements MetricEntry
@@ -28,14 +29,28 @@ class PageViewEntry implements MetricEntry
 
     public function data(): array
     {
+        $agent = new Agent();
+
+        $withVersion = function($property) use ($agent): array
+        {
+            return [
+                'name' => $property,
+                'version' => $agent->version($property),
+            ];
+        };
+
         return [
-            'url' => $this->request->fullUrl(),
-            'method' => $this->request->method(),
+            'path' => $this->request->post('path'),
             'user_agent' => $this->request->userAgent(),
             'fingerprint' => $this->request->fingerprint(),
             'ip' => $this->request->ip(),
-            'is_ajax' => $this->request->ajax(),
-            'headers' => $this->request->headers->all(),
+            'os' => $withVersion($agent->platform()),
+            'browser' => $withVersion($agent->browser()),
+            'device' => $agent->device(),
+            'is_desktop' => $agent->isDesktop(),
+            'is_phone' => $agent->isPhone(),
+            'is_tablet' => $agent->isTablet(),
+            'robot' => $agent->robot(),
         ];
     }
 }

@@ -1,6 +1,7 @@
 import {AxiosInstance, AxiosPromise} from "axios";
 import ApiService from "./ApiService";
 import {Track} from "~types/Track";
+import {Route} from "vue-router";
 
 class InteractionsService extends ApiService {
     play(track: Track): AxiosPromise {
@@ -11,9 +12,14 @@ class InteractionsService extends ApiService {
         return this.axios.post(url);
     }
 
-    pageView(): AxiosPromise {
-        // @todo envoyer infos sur la page front actuelle
-        return this.axios.post('/interactions/page-view');
+    pageView(route: Route): AxiosPromise {
+        return this.axios
+            .post(
+                '/interactions/page-view',
+                {
+                    path: route.fullPath
+                }
+            );
     }
 
     // @todo déplacer les like/unlike des sagas ici
