@@ -11,6 +11,11 @@ class InteractionsService extends ApiService {
         return this.axios.post(url);
     }
 
+    pageView(): AxiosPromise {
+        // @todo envoyer infos sur la page front actuelle
+        return this.axios.post('/interactions/page-view');
+    }
+
     // @todo déplacer les like/unlike des sagas ici
 }
 
