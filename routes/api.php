@@ -47,6 +47,9 @@ Route::post('/auth/password/reset', V1\Auth\ResetPasswordController::class);
 // Invitations
 Route::get('/invites/site/{code}', V1\Invite\Site\GetSiteInviteController::class);
 
+// Metrics
+Route::post('/interactions/play/{track}', V1\Interaction\Play\RegisterTrackPlayMetricController::class);
+
 ///*
 Route::group(['middleware' => ['jwt.auth']], function () {
 
