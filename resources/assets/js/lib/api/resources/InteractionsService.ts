@@ -3,6 +3,8 @@ import ApiService from "./ApiService";
 import {Track} from "~types/Track";
 import {Route} from "vue-router";
 
+type LikeType = 'saga';
+
 class InteractionsService extends ApiService {
     play(track: Track): AxiosPromise {
         let url = ApiService.url('/interactions/play/:track', {
@@ -22,7 +24,33 @@ class InteractionsService extends ApiService {
             );
     }
 
-    // @todo déplacer les like/unlike des sagas ici
+    likes(): AxiosPromise {
+        return this.axios.get('/likes');
+    }
+
+    like(type: LikeType, id: string): AxiosPromise {
+        return this.axios
+            .post(
+                '/interactions/like',
+                {
+                    type: type,
+                    id: id,
+                }
+            );
+    }
+
+    unlike(type: LikeType, id: string): AxiosPromise {
+        return this.axios
+            .delete(
+                '/interactions/like',
+                {
+                    data: {
+                        type: type,
+                        id: id,
+                    }
+                }
+            );
+    }
 }
 
 export default (axios: AxiosInstance): InteractionsService => {

@@ -42,7 +42,7 @@ const actions = {
     },
 
     async add({ commit, dispatch }, { type, id }) {
-        await api.likes[type].add(id);
+        await api.interactions.like(type, id);
 
         commit('add', { type, id });
 
@@ -50,7 +50,7 @@ const actions = {
     },
 
     async remove({ commit, dispatch }, { type, id }) {
-        await api.likes[type].remove(id);
+        await api.interactions.unlike(type, id);
 
         commit('remove', { type, id });
 

@@ -35,11 +35,8 @@ class Radiophonix {
 
     get likes() {
         return {
+            // @todo grouper avec profile.likes
             all: () => this.axios.get('/likes'),
-            saga: {
-                add: (sagaId) => this.axios.post('/likes/saga/' + sagaId),
-                remove: (sagaId) => this.axios.delete('/likes/saga/' + sagaId),
-            },
         };
     }
 

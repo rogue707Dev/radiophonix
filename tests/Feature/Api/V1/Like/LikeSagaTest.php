@@ -23,7 +23,11 @@ class LikeSagaTest extends ApiTestCase
             ->actingAs($user)
             ->json(
                 'POST',
-                '/api/v1/likes/saga/' . $saga->uuid()
+                '/api/v1/interactions/like',
+                [
+                    'type' => 'saga',
+                    'id' => $saga->uuid(),
+                ]
             );
 
         /* *** Assertion *** */
@@ -50,7 +54,11 @@ class LikeSagaTest extends ApiTestCase
             ->actingAs($user)
             ->json(
                 'DELETE',
-                '/api/v1/likes/saga/' . $saga->uuid()
+                '/api/v1/interactions/like',
+                [
+                    'type' => 'saga',
+                    'id' => $saga->uuid(),
+                ]
             );
 
         /* *** Assertion *** */
@@ -107,7 +115,11 @@ class LikeSagaTest extends ApiTestCase
         $response = $this
             ->json(
                 'POST',
-                '/api/v1/likes/saga/' . $saga->uuid()
+                '/api/v1/interactions/like',
+                [
+                    'type' => 'saga',
+                    'id' => $saga->uuid(),
+                ]
             );
 
         /* *** Assertion *** */
@@ -126,7 +138,11 @@ class LikeSagaTest extends ApiTestCase
             ->actingAsUserWithInvalidToken()
             ->json(
                 'POST',
-                '/api/v1/likes/saga/' . $saga->uuid()
+                '/api/v1/interactions/like',
+                [
+                    'type' => 'saga',
+                    'id' => $saga->uuid(),
+                ]
             );
 
         /* *** Assertion *** */

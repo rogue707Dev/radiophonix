@@ -86,8 +86,8 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 
     // Likes
     Route::get('/likes', V1\Like\ListUserLikesController::class);
-    Route::post('/likes/saga/{saga}', V1\Like\Saga\AddLikeController::class);
-    Route::delete('/likes/saga/{saga}', V1\Like\Saga\RemoveLikeController::class);
+    Route::post('/interactions/like', V1\Interaction\Like\AddController::class);
+    Route::delete('/interactions/like', V1\Interaction\Like\RemoveController::class);
 
 //    // Subscriptions
 //    Route::get('/subscriptions', ListUserSubscriptions::class);
