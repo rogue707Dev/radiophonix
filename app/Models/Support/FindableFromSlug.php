@@ -13,7 +13,8 @@ trait FindableFromSlug
 {
     public static function findFromSlugOrUuid(string $slugOrUuid): ?self
     {
-        return static::where('uuid', $slugOrUuid)
+        return static::query()
+            ->where('uuid', $slugOrUuid)
             ->orWhere('slug', $slugOrUuid)
             ->first();
     }
@@ -26,6 +27,8 @@ trait FindableFromSlug
      */
     public static function fromSlug(string $slug): self
     {
-        return self::where('slug', $slug)->first();
+        return self::query()
+            ->where('slug', $slug)
+            ->first();
     }
 }

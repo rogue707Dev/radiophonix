@@ -47,7 +47,8 @@ class User extends Authenticatable implements JWTSubject
 
     public static function fromNameOrUuid($nameOrUuid)
     {
-        return self::where('name', $nameOrUuid)
+        return self::query()
+            ->where('name', $nameOrUuid)
             ->orWhere('uuid', $nameOrUuid)
             ->first();
     }
