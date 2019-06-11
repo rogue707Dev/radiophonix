@@ -41,9 +41,7 @@ class PageViewEntry implements MetricEntry
 
         return [
             'path' => $this->request->post('path'),
-            'user_agent' => $this->request->userAgent(),
             'fingerprint' => $this->request->fingerprint(),
-            'ip' => $this->request->ip(),
             'os' => $withVersion($agent->platform()),
             'browser' => $withVersion($agent->browser()),
             'device' => $agent->device(),
