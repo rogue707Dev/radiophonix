@@ -12,6 +12,7 @@ Route::get('/sagas', V1\Saga\ListSagasController::class);
 //Route::group(['middleware' => 'saga.visible'], function () {
     Route::get('/sagas/{saga}', V1\Saga\ShowSagaController::class);
     Route::get('/sagas/{saga}/albums', V1\Saga\ListSagaAlbumsController::class);
+    Route::get('/sagas/{saga}/likes', V1\Like\ListSagaLikesController::class);
 
     Route::get('/albums/{album}', V1\Album\ShowAlbumController::class);
     Route::get('/albums/{album}/tracks', V1\Album\ListAlbumTracksController::class);

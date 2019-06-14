@@ -1,9 +1,16 @@
 import ApiResource from './ApiResource';
-import {AxiosInstance} from "axios";
+import {AxiosInstance, AxiosPromise} from "axios";
 import {Saga} from "~types/Saga";
+import ApiService from "./ApiService";
 
 class SagaResource extends ApiResource<Saga> {
+    likes(id: string): AxiosPromise {
+        let url = ApiService.url('/sagas/:id/likes', {
+            id: id,
+        });
 
+        return this.axios.get(url);
+    }
 }
 
 export default (axios: AxiosInstance): SagaResource => {

@@ -28,7 +28,23 @@
             </template>
 
             <ul class="banniere__contenu__bande">
-                <li class="banniere__contenu__bande__item">
+                <b-tooltip target="saga-like-count-button" placement="top">
+                    <div class="text-left">
+                        <div v-if="likes.firstLoad">
+                            Chargement...
+                        </div>
+
+                        <div v-else v-for="name in likes.names">
+                            {{ name }}
+                        </div>
+
+                        <div v-if="likes.more > 0">
+                            et {{ likes.more }} de plus...
+                        </div>
+                    </div>
+                </b-tooltip>
+
+                <li class="banniere__contenu__bande__item" id="saga-like-count-button" @mouseenter="showLikesTooltip">
                     {{ saga.stats.likes }}
                     <like-button likeable-type="saga"
                                  :likeable-id="saga.id"/>
@@ -274,6 +290,12 @@
         currentAlbumType: null,
         currentTick: null,
         likeButtonLoading: false,
+        likes: {
+            firstLoad: true,
+            timeout: null,
+            names: [],
+            more: 0,
+        },
     }),
 
     computed: {
@@ -406,6 +428,28 @@
 
             return false;
         },
+
+        async showLikesTooltip() {
+            if (this.likes.timeout) {
+                return;
+            }
+
+            this.likes.timeout = true;
+
+            let res = await api.sagas.likes(this.saga.id);
+
+            this.saga.stats.likes = res.data.total;
+            this.likes.names = res.data.names;
+            this.likes.more = res.data.more;
+            this.likes.firstLoad = false;
+
+            setTimeout(
+                () => {
+                    this.likes.timeout = false;
+                },
+                2000
+            );
+        }
     },
 
     created: function () {
