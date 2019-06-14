@@ -6,6 +6,7 @@
         "strict": true,
         "target": "es5",
         "baseUrl": "resources/assets/js",
+        "allowSyntheticDefaultImports": true,
         "paths": {
             "~*": [
                 "./*"
