@@ -21,7 +21,6 @@ class SaveFeedbackRequest extends FormRequest
     {
         return [
             'type' => 'required|in:bug,suggestion',
-            'title' => 'required|string|max:255',
             'description' => 'required|string|max:100000',
             'url' => 'required|url',
         ];

@@ -24,10 +24,9 @@ class SaveFeedbackController extends ApiController
     public function __invoke(SaveFeedbackRequest $request): ApiResponse
     {
         $title = vsprintf(
-            '[%s] %s',
+            '[Feedback] %s',
             [
-                strtoupper($request->get('type')),
-                $request->get('title')
+                ucfirst($request->get('type')),
             ]
         );
 
@@ -61,12 +60,18 @@ class SaveFeedbackController extends ApiController
 
         $agent = new Agent();
 
+        $browser = $agent->browser();
+        $browserVersion = $agent->version($browser);
+
+        $os = $agent->platform();
+        $osVersion = $agent->version($os);
+
         return <<<MARKDOWN
-| Info | Valeur |
-|------|--------|
-| URL  | $url   |
-| Navigateur  | `{$agent->browser()}` |
-| OS  | `{$agent->platform()}` |
+| Info       | Valeur |
+|------------|--------|
+| URL        | $url   |
+| Navigateur | `{$browser}` (`{$browserVersion}`) |
+| OS         | `{$os}` (`{$osVersion}`) |
 $user
 
 ## Description

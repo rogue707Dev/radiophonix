@@ -82,8 +82,8 @@ class Radiophonix {
 
     get feedback() {
         return {
-            send: (type, title, description, url) => {
-                return this.axios.post('/feedback', { type, title, description, url });
+            send: (type, description, url) => {
+                return this.axios.post('/feedback', { type, description, url });
             },
         };
     }
