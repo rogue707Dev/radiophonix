@@ -1,7 +1,7 @@
 import Storage from '~/lib/services/storage';
 import store from '~/lib/store';
 
-const currentNewsId = '5';
+const currentNewsId = '6';
 
 export default {
     loadLastRead: () => {

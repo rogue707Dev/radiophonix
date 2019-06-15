@@ -8,6 +8,21 @@
 
         <div class="container">
 
+            <news-entry date="15 juin 2019" class="mt-4">
+                <p class="pl-lg-4 mt-2">
+                    La licence du code source du site a changée.
+                    On est passés de
+                    <a href="https://choosealicense.com/licenses/mit/" class="lien-paragraphe">MIT</a>
+                    à
+                    <a href="https://choosealicense.com/licenses/gpl-3.0/" class="lien-paragraphe">GNU GPLv3</a>.
+                    <br/>
+                    Cette nouvelle licence permet toujours la copie/modification du code mais à condition
+                    qu'il reste open source.
+                </p>
+            </news-entry>
+
+            <hr>
+
             <news-entry date="30 mai 2019">
                 <h3 class="h2 pl-lg-4 mt-2 mb-1">Lancement publique !</h3>
 
