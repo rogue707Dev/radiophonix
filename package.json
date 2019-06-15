@@ -17,7 +17,7 @@
       "url": "https://gitlab.com/AzOoDev"
     }
   ],
-  "licence": "MIT",
+  "licence": "GPL-3.0-only",
   "scripts": {
     "dev": "node resources/assets/build/dev-server.js",
     "build-dev": "node resources/assets/build/build-dev.js",

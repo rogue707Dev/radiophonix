@@ -2,7 +2,7 @@
     "name": "radiophonix/radiophonix",
     "description": "Plate-forme d'écoute et de publication de Sagas MP3",
     "keywords": ["saga", "sagas", "mp3"],
-    "license": "MIT",
+    "license": "GPL-3.0-only",
     "type": "project",
     "authors": [
         {
