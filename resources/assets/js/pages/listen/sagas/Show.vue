@@ -28,7 +28,8 @@
             </template>
 
             <ul class="banniere__contenu__bande">
-                <b-tooltip target="saga-like-count-button" placement="top">
+                <b-tooltip target="saga-like-count-button"
+                           placement="top">
                     <div class="text-left">
                         <div v-if="likes.firstLoad">
                             Chargement...
@@ -37,14 +38,19 @@
                         <div v-else v-for="name in likes.names">
                             {{ name }}
                         </div>
-
                         <div v-if="likes.more > 0">
                             et {{ likes.more }} de plus...
+                        </div>
+
+                        <div v-if="saga.stats.likes === 0 && !likes.firstLoad">
+                            Ajouter aux favoris
                         </div>
                     </div>
                 </b-tooltip>
 
-                <li class="banniere__contenu__bande__item" id="saga-like-count-button" @mouseenter="showLikesTooltip">
+                <li class="banniere__contenu__bande__item"
+                    id="saga-like-count-button"
+                    @mouseenter="showLikesTooltip">
                     {{ saga.stats.likes }}
                     <like-button likeable-type="saga"
                                  :likeable-id="saga.id"/>
@@ -292,7 +298,7 @@
         likeButtonLoading: false,
         likes: {
             firstLoad: true,
-            timeout: null,
+            loading: null,
             names: [],
             more: 0,
         },
@@ -430,11 +436,11 @@
         },
 
         async showLikesTooltip() {
-            if (this.likes.timeout) {
+            if (this.likes.loading) {
                 return;
             }
 
-            this.likes.timeout = true;
+            this.likes.loading = true;
 
             let res = await api.sagas.likes(this.saga.id);
 
@@ -445,11 +451,11 @@
 
             setTimeout(
                 () => {
-                    this.likes.timeout = false;
+                    this.likes.loading = false;
                 },
                 2000
             );
-        }
+        },
     },
 
     created: function () {
