@@ -5,6 +5,7 @@ namespace Radiophonix\Models;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Radiophonix\Models\Scopes\TickCompleteScope;
 
 /**
  * @property string $uuid
@@ -24,7 +25,7 @@ class Tick extends Model
      * Indique le pourcentage (sur 100000) à partir duquel on considère qu'un
      * épisode a été lu entièrement.
      */
-    public const MIN_PROGRESS_TO_BE_COMPLETE = 99000;
+    public const MIN_PROGRESS_TO_BE_COMPLETE = 99500;
 
     /** @var string */
     protected $primaryKey = 'uuid';
@@ -35,17 +36,18 @@ class Tick extends Model
     /** @var bool */
     public $incrementing = false;
 
-    /**
-     * @return BelongsTo
-     */
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::addGlobalScope(new TickCompleteScope());
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);
     }
 
-    /**
-     * @return BelongsTo
-     */
     public function track()
     {
         return $this->belongsTo(Track::class);

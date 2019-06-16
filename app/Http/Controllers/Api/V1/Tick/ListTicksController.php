@@ -19,7 +19,8 @@ class ListTicksController extends ApiController
             ->where('user_id', '=', $this->user()->id)
             ->orderBy('updated_at', 'desc')
             ->groupBy('track_id')
-            ->get();
+            ->get()
+            ->unique('track.album.saga.id');
 
         return $this->collection($ticks, new TickTransformer);
     }

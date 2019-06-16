@@ -36,7 +36,6 @@ class SaveTickController extends ApiController
         /** @var Tick|null $tick */
         $tick = Tick::query()->where('user_id', '=', $this->user()->id)
             ->where('track_id', $track->id)
-            ->where('progress', '<', Tick::MIN_PROGRESS_TO_BE_COMPLETE)
             ->orderBy('updated_at', 'desc')
             ->first();
 
