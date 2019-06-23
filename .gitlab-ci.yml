@@ -12,6 +12,7 @@
 #   variables:
 #   before_script:
 #   script:
+#   after_script:
 #   artifacts:
 
 stages:
@@ -77,6 +78,8 @@ pages:
         - schedules
     script:
         - mkdocs build --site-dir ./public
+    after_script:
+        - rm -rf ./public
     artifacts:
         paths:
             - public
