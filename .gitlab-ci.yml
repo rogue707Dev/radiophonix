@@ -65,7 +65,7 @@ test:composer-outdated:
         - composer show -mlDo --strict
 
 pages:
-    stage: build
+    stage: deploy
     image: cfinfrastructure/mkdocs
     allow_failure: true
     only:
@@ -78,8 +78,6 @@ pages:
         - schedules
     script:
         - mkdocs build --site-dir ./public
-    after_script:
-        - rm -rf ./public
     artifacts:
         paths:
             - public
