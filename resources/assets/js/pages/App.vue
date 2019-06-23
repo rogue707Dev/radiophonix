@@ -31,8 +31,12 @@
                  v-feature="'feedback'"
                  class="push"
                  variant="primary">
-            <span class="a-curseur" @click="openFeedbackModal">
-                <fa-icon aria-hidden="true" icon="fa-bug" label="Signaler un bug"/> Signaler un bug
+            <span class="a-curseur" @click="openFeedbackModal('bug')">
+                Bug
+            </span>
+            /
+            <span class="a-curseur" @click="openFeedbackModal('suggestion')">
+                Suggestion
             </span>
         </b-alert>
 
@@ -157,8 +161,8 @@
                 );
             },
 
-            openFeedbackModal() {
-                this.$store.dispatch('ui/setFeedbackModalDefaultType', 'bug');
+            openFeedbackModal(type) {
+                this.$store.dispatch('ui/setFeedbackModalDefaultType', type);
                 this.$bvModal.show('js--modal-feedback');
             },
         },
