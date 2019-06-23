@@ -81,6 +81,7 @@ pages:
     artifacts:
         paths:
             - public
+        expire_in: 1 hour
 
 build:review:
     dependencies: []
@@ -185,6 +186,7 @@ build:dev:
     before_script:
         - ls -al
         - ls -al ./public
+        - rm -rf ./public
     script:
         - node --version
         - yarn --pure-lockfile --cache-folder .yarn
