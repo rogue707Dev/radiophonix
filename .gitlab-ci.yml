@@ -182,6 +182,9 @@ build:dev:
         - dev
     except:
         - schedules
+    before_script:
+        - ls -al
+        - ls -al ./public
     script:
         - node --version
         - yarn --pure-lockfile --cache-folder .yarn
