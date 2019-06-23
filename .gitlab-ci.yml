@@ -82,6 +82,7 @@ pages:
             - public
 
 build:review:
+    dependencies: []
     stage: build
     image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine-lts
     only:
@@ -112,6 +113,8 @@ build:review:
         expire_in: 1 week
 
 deploy:review:
+    dependencies:
+        - build:review
     stage: deploy
     image: edbizarro/gitlab-ci-pipeline-php:7.2
     allow_failure: true
@@ -143,6 +146,7 @@ deploy:review:
         - ~/.composer/vendor/bin/envoy run deploy --slug=$CI_ENVIRONMENT_SLUG
 
 stop:review:
+    dependencies: []
     stage: deploy
     when: manual
     only:
@@ -170,6 +174,7 @@ stop:review:
         - ssh -p22 runcloud@5.39.88.195 'rm -rf webapps/reviews/"'$foldername'"'
 
 build:dev:
+    dependencies: []
     stage: build
     image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine-lts
     only:
@@ -194,6 +199,8 @@ build:dev:
         expire_in: 1 week
 
 deploy:dev:
+    dependencies:
+        - build:dev
     stage: deploy
     image: edbizarro/gitlab-ci-pipeline-php:7.2
     only:
@@ -221,6 +228,7 @@ deploy:dev:
         - ~/.composer/vendor/bin/envoy run deploy
 
 build:staging:
+    dependencies: []
     stage: build
     image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine-lts
     only:
@@ -270,6 +278,7 @@ deploy:staging:
         - ~/.composer/vendor/bin/envoy run deploy
 
 build:production:
+    dependencies: []
     stage: build
     image: edbizarro/gitlab-ci-pipeline-php:7.2-alpine-lts
     only:
