@@ -44,7 +44,7 @@ class ProfileTransformer extends Transformer
                 return [
                     'key' => $type->key(),
                     'title' => $type->title(),
-                    'description' => $isOwned ? $type->description() : '???',
+                    'description' => $type->description(),
                     'isOwned' => $isOwned,
                 ];
             })
