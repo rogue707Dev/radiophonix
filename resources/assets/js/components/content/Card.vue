@@ -1,11 +1,6 @@
 <template>
 
-    <router-link
-            :to="link"
-            :class="{'var--horizontal': cardHorizontal}"
-            class="card">
-
-
+    <div class="card var--survol" :class="{'var--horizontal': cardHorizontal}">
         <div class="card-cover">
             <cover
                     :size="size"
@@ -15,8 +10,7 @@
             </cover>
         </div>
         <div class="card-button">
-<!--            à remettre une fois l'issue #166 fait-->
-<!--            <button aria-hidden="true" class="fa fa-heart"></button>-->
+            <button aria-hidden="true" class="fa fa-heart"></button>
         </div>
         <div class="card-body">
             <span v-if="badge" class="badge badge-light badge-sm text-capitalize">{{ type }}</span>
@@ -27,8 +21,9 @@
                 <slot name="stats"></slot>
             </p>
             <slot name="content"></slot>
+            <router-link :to="link" class="pa-cover"><span class="sr-only">{{ title }}</span></router-link>
         </div>
-    </router-link>
+    </div>
 
 </template>
 

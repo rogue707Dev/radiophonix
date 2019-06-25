@@ -234,7 +234,7 @@
             <div class="list-card">
 
 
-                <a href="#" class="card">
+                <div class="card var--survol">
                     <div class="card-cover">
                         <div class="cover var--moyen var--episode">
                             <div class="cover__mask">
@@ -253,8 +253,9 @@
                         <p class="text-primary h5">
                             <i aria-hidden="true" class="fa fa-clock-o"></i> 3m, 45s
                         </p>
+                        <a class="pa-cover" href="#"><span class="sr-only">Titre</span></a>
                     </div>
-                </a>
+                </div>
 
                 <a href="#" class="card">
                     <div class="card-cover">

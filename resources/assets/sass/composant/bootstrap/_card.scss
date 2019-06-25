@@ -29,6 +29,7 @@ $ LISTE DE CARTE
 
 .list-card .card {
     width: $largeur-card;
+    z-index: z-index(0);
 
     @include deux-cartes-50pct-par-ligne {
         width: 100%;
@@ -57,7 +58,7 @@ $color-card: $bleu-100;
     position: relative;
 }
 
-a.card {
+.card.var--survol {
     @include survol(){
         border-color: $bleu-300;
     }
@@ -97,19 +98,19 @@ $ BOUTON
     grid-template-columns: auto auto;
     justify-content: end;
     color: $bleu-350;
+    z-index: z-index(1);
+}
 
-    .fa {
-        width: 14px;
-        height: 14px;
-        text-align: center;
-        border-radius: 50%;
-        transition: box-shadow 0.2s;
+.card-button .fa {
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    border-radius: 50%;
+    transition: box-shadow 0.2s;
 
-        @include survol(){
-            box-shadow: 0 0 0 2px $bleu-100, 0 0 0 3px $rouge-300;
-        }
+    @include survol(){
+        box-shadow: 0 0 0 2px $bleu-100, 0 0 0 3px $rouge-300;
     }
-
 }
 
 
