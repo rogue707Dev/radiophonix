@@ -3,6 +3,7 @@
         <div class="input-group">
             <input class="form-control"
                    v-model="query"
+                   required
                    placeholder="Rechercher…"
                    aria-describedby="Rechercher">
             <div class="input-group-append">

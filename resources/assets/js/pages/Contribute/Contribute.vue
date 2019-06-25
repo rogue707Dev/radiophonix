@@ -23,6 +23,23 @@
         <h2 class="h2 mt-5">Le code</h2>
         <hr>
 
+        <div class="card-deck d-block d-sm-none">
+            <div class="card">
+                <a href="https://gitlab.com/Radiophonix/Radiophonix" target="_blank">
+                    <div class="card-body text-center">
+                        <h5 class="card-title pb-2">
+                            <fa-icon icon="fa-gitlab fa-fw fa-3x" label="Gitlab" style="color: #FC6D26;" />
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Gitlab</h6>
+
+                        <p class="card-text">
+                            Venez nous aider à construire le site !
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
         <p class="mt-3">
             Le code source de tout le site est open-source et libre d'accès sur
             <a class="lien-paragraphe" href="https://gitlab.com/Radiophonix/Radiophonix">GitLab</a>.

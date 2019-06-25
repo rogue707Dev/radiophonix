@@ -24,9 +24,10 @@ class SaveFeedbackController extends ApiController
     public function __invoke(SaveFeedbackRequest $request): ApiResponse
     {
         $title = vsprintf(
-            '[Feedback] %s',
+            '[%s] %s',
             [
                 ucfirst($request->get('type')),
+                substr($request->get('description'), 0, 50),
             ]
         );
 
@@ -39,7 +40,6 @@ class SaveFeedbackController extends ApiController
                     'title' => $title,
                     'description' => $this->buildDescription($request),
                     'labels' => [
-                        'feedback',
                         'feedback::' . $request->get('type'),
                     ],
                 ]
