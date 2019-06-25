@@ -17,6 +17,10 @@
         {
             "name": "Quoc-Viet Phan",
             "homepage": "https://gitlab.com/AzOoDev"
+        },
+        {
+            "name": "Romain Canon",
+            "homepage": "https://github.com/Romm"
         }
     ],
     "require": {
