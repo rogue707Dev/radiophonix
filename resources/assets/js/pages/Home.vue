@@ -5,8 +5,8 @@
         <headband urlImage="/static/home/radio.jpg">
             <div class="container container--homepage text-center">
                 <svg class="logo-home">
-                    <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
                     <use class="fill--logo-blanc" xlink:href="#logo-part2of2"></use>
+                    <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
                 </svg>
                 <div class="baseline">
                     Toutes vos sagas au même endroit
