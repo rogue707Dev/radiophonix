@@ -9,6 +9,10 @@
         :size="size"
         :card-horizontal="horizontal">
 
+        <template slot="buttons">
+            <like-button likeable-type="saga"
+                         :likeable-id="saga.id"/>
+        </template>
         <template slot="stats" v-if="withStats">
             <saga-stats
                 :stats="saga.stats"
@@ -35,11 +39,13 @@
 <script>
     import Card from '~/components/content/Card.vue';
     import SagaStats from '~/components/saga/SagaStats.vue';
+    import LikeButton from "~/components/Like/LikeButton";
 
     export default {
         components: {
             Card,
             SagaStats,
+            LikeButton,
         },
 
         computed: {
