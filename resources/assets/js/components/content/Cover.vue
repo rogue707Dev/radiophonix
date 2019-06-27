@@ -4,12 +4,12 @@
         <template v-if="type == 'genre'">
             <svg><use xlink:href="#contour-genre"></use></svg>
             <div class="cover__mask">
-                <img :src="urlImage" :alt="altImage">
+                <img :src="urlImage" :alt="altImage" v-if="urlImage">
             </div>
         </template>
         <template v-else>
             <div class="cover__mask">
-                <img :src="urlImage" :alt="altImage">
+                <img :src="urlImage" :alt="altImage" v-if="urlImage">
             </div>
         </template>
     </div>

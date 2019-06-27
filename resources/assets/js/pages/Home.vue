@@ -109,7 +109,7 @@
             <div class="row mt-5 mb-5">
                 <div class="col-12">
                     <h2 class="h1 mb-2">Quelques exemples de Saga :</h2>
-                    <saga-list :sagas="sagas"></saga-list>
+                    <saga-list :sagas="sagas" :show-more-card="true"></saga-list>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -121,6 +121,13 @@
                         <card-genre v-for="genre in getGenresRow(0)"
                                     :key="genre.id"
                                     :genre="genre"></card-genre>
+
+                        <Card
+                              :link="{ name: 'listen.genres.index' }"
+                              title="En voir plus..."
+                              size="moyen"
+                              type="genre">
+                        </Card>
 
                     </div>
 
@@ -151,9 +158,11 @@ import DiscordInvite from '~/components/Social/Discord/DiscordInvite';
 import SearchForm from '~/components/search/SearchForm';
 import CardGenre from '~/components/content/Card/CardGenre';
 import SocialCards from "~/components/Social/SocialCards";
+import Card from "~/components/content/Card";
 
 export default {
     components: {
+        Card,
         SocialCards,
         SagaList,
         Headband,
@@ -172,7 +181,7 @@ export default {
         async loadSagas() {
             let result = await api.sagas.all({ random: 1 });
 
-            this.sagas = result.slice(0, 8);
+            this.sagas = result.slice(0, 7);
         },
 
         async loadGenres() {
