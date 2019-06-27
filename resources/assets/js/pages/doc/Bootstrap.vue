@@ -392,8 +392,8 @@
             </div>
             <div style="background-color: #262f38">
                 <svg width="280px" height="50px">
-                    <use class="fill--logo-blanc" xlink:href="#logo-part2of2"></use>
                     <use class="fill--logo-orange" xlink:href="#logo-part1of2"></use>
+                    <use class="fill--logo-blanc" xlink:href="#logo-part2of2"></use>
                 </svg>
             </div>
             <hr class="my-5">
