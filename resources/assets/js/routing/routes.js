@@ -18,9 +18,14 @@ import RoadmapView from '~/pages/Contribute/Roadmap.vue';
 
 // Listen pages
 import ListenLayout from '~/pages/listen/Layout.vue';
-import ListenSagaIndexView from '~/pages/listen/sagas/Index.vue';
+
+import ListenIndexLayout from '~/pages/listen/Index/Layout.vue';
+import ListenIndexSagasView from '~/pages/listen/Index/Sagas.vue';
+import ListenIndexAuthorsView from '~/pages/listen/Index/Authors.vue';
+import ListenIndexTeamsView from '~/pages/listen/Index/Teams.vue';
+import ListenIndexGenresView from '~/pages/listen/Index/Genres.vue';
+
 import ListenSagaShowView from '~/pages/listen/sagas/Show.vue';
-import ListenAuthorIndexView from '~/pages/listen/authors/Index.vue';
 import ListenAuthorShowView from '~/pages/listen/authors/Show.vue';
 import ListenTeamShowView from '~/pages/listen/teams/Show.vue';
 import ListenGenreShowView from '~/pages/listen/genres/Show.vue';
@@ -301,28 +306,47 @@ const routes = [
                 children: [
                     {
                         path: '',
-                        component: ListenSagaIndexView,
-                        name: 'listen.home',
-                        meta: { menu: 'listen' }
+                        component: ListenIndexLayout,
+                        name: 'listen.sagas.index',
+                        meta: { menu: 'listen' },
+                        children: [
+                            {
+                                path: '',
+                                component: ListenIndexSagasView,
+                                name: 'listen.home',
+                                meta: { menu: 'listen' }
+                            },
+                            {
+                                path: 'sagas',
+                                component: ListenIndexSagasView,
+                                name: 'listen.sagas.index',
+                                meta: { menu: 'listen' },
+                            },
+                            {
+                                path: 'auteurs',
+                                component: ListenIndexAuthorsView,
+                                name: 'listen.authors.index',
+                                meta: { menu: 'listen' },
+                            },
+                            {
+                                path: 'equipes',
+                                component: ListenIndexTeamsView,
+                                name: 'listen.teams.index',
+                                meta: { menu: 'listen' },
+                            },
+                            {
+                                path: 'genres',
+                                component: ListenIndexGenresView,
+                                name: 'listen.genres.index',
+                                meta: { menu: 'listen' },
+                            },
+                        ],
                     },
 
-                    {
-                        path: 'sagas',
-                        component: ListenSagaIndexView,
-                        name: 'listen.sagas.index',
-                        meta: { menu: 'listen' }
-                    },
                     {
                         path: 'sagas/:idOrSlug',
                         component: ListenSagaShowView,
                         name: 'listen.sagas.show',
-                        meta: { menu: 'listen' }
-                    },
-
-                    {
-                        path: 'auteurs',
-                        component: ListenAuthorIndexView,
-                        name: 'listen.authors.index',
                         meta: { menu: 'listen' }
                     },
                     {
@@ -337,7 +361,6 @@ const routes = [
                         name: 'listen.teams.show',
                         meta: { menu: 'listen' }
                     },
-
                     {
                         path: 'genres/:id',
                         component: ListenGenreShowView,
