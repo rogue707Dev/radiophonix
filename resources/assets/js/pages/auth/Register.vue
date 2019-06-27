@@ -58,7 +58,6 @@
                         <label>Mot de passe</label>
                         <div class="input-group">
                             <input v-model.lazy="model.password"
-                                   v-show="passwordFieldType === 'password'"
                                    name="password"
                                    type="password"
                                    required
@@ -67,19 +66,6 @@
                                    class="form-control"
                                    :class="fieldClassName(formstate.password)"
                                    :disabled="isLoading"/>
-                            <input class="form-control"
-                                   v-show="passwordFieldType === 'text'"
-                                   type="text"
-                                   :placeholder="passwordPeek"
-                                   readonly>
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-primary"
-                                        type="button"
-                                        @click="peekPassword">
-                                    <fa-icon v-show="passwordFieldType === 'password'" icon="fa-eye" label="Voir" />
-                                    <fa-icon v-show="passwordFieldType === 'text'" icon="fa-eye-slash" label="Masquer" />
-                                </button>
-                            </div>
 
                             <field-messages name="password"
                                             auto-label
@@ -174,8 +160,6 @@
                 password: '',
                 invite: '',
             },
-            passwordPeek: '',
-            passwordFieldType: 'password',
         }),
 
         methods: {
@@ -220,9 +204,6 @@
                 ) {
                     return;
                 }
-
-                this.passwordPeek = '';
-                this.passwordFieldType = 'password';
 
                 this.resetErrors();
 
@@ -270,18 +251,6 @@
                 }).finally(() => {
                     this.isLoading = false;
                 });
-            },
-
-            peekPassword() {
-                if (this.passwordFieldType === 'password') {
-                    this.passwordPeek = this.model.password;
-                    this.passwordFieldType = 'text';
-
-                    return null;
-                }
-
-                this.passwordPeek = '';
-                this.passwordFieldType = 'password';
             },
 
             loadInvite() {

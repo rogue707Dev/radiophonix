@@ -44,6 +44,7 @@ class Radiophonix {
         let afterAuth = function (res) {
             store.dispatch('auth/setToken', res.data.access_token);
             store.dispatch('auth/setUser', res.data.user);
+            store.dispatch('auth/stopLoading');
             store.dispatch('likes/setAll', res.data.likes);
 
             return res;

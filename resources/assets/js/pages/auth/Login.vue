@@ -40,7 +40,6 @@
                         </router-link>
                         <div class="input-group">
                             <input v-model.lazy="model.password"
-                                   v-show="passwordFieldType === 'password'"
                                    name="password"
                                    type="password"
                                    required
@@ -49,19 +48,6 @@
                                    class="form-control"
                                    :class="fieldClassName(formstate.password)"
                                    :disabled="isLoading"/>
-                            <input class="form-control"
-                                   v-show="passwordFieldType === 'text'"
-                                   type="text"
-                                   :placeholder="passwordPeek"
-                                   readonly>
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-primary"
-                                        type="button"
-                                        @click="peekPassword">
-                                    <fa-icon v-show="passwordFieldType === 'password'" icon="fa-eye" label="Voir" />
-                                    <fa-icon v-show="passwordFieldType === 'text'" icon="fa-eye-slash" label="Masquer" />
-                                </button>
-                            </div>
 
                             <field-messages name="password"
                                             auto-label
@@ -111,8 +97,6 @@
                 email: '',
                 password: '',
             },
-            passwordPeek: '',
-            passwordFieldType: 'password',
         }),
 
         methods: {
@@ -141,9 +125,6 @@
                 ) {
                     return;
                 }
-
-                this.passwordPeek = '';
-                this.passwordFieldType = 'password';
 
                 this.resetErrors();
 
@@ -189,18 +170,6 @@
                     this.isLoading = false;
                 });
             },
-
-            peekPassword() {
-                if (this.passwordFieldType === 'password') {
-                    this.passwordPeek = this.model.password;
-                    this.passwordFieldType = 'text';
-
-                    return null;
-                }
-
-                this.passwordPeek = '';
-                this.passwordFieldType = 'password';
-            }
         },
     };
 </script>
