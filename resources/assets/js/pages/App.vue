@@ -138,15 +138,14 @@
             },
 
             async loadLikes() {
-                // @todo ajouter un spinner sur l'avatar dans le menu
-                // @todo le temps de charger les likes.
-
                 try {
                     let res = await api.likes.all();
 
                     this.$store.dispatch('likes/setAll', res.data);
                 } catch (e) {
                     this.$store.dispatch('auth/logout');
+                } finally {
+                    this.$store.dispatch('auth/stopLoading');
                 }
             },
 

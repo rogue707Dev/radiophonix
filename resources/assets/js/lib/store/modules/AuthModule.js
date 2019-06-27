@@ -2,6 +2,7 @@ import Storage from '~/lib/services/storage';
 
 const getDefaultState = () => {
     return {
+        isLoading: true,
         token: Storage.get('token'),
         user: Storage.get('user'),
     };
@@ -42,6 +43,10 @@ const actions = {
         commit('setUser', user);
         Storage.set('user', user);
     },
+
+    stopLoading({commit}) {
+        commit('setIsLoading', false);
+    },
 };
 
 const mutations = {
@@ -51,6 +56,7 @@ const mutations = {
 
     setToken: (state, token) => state.token = token,
     setUser: (state, user) => state.user = user,
+    setIsLoading: (state, isLoading) => state.isLoading = isLoading,
 };
 
 export default {

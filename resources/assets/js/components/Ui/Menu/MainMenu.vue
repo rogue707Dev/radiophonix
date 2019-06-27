@@ -7,10 +7,10 @@
                 <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__item--profil__avatar">
                     <div class="cover var--petit var--auteur">
                         <div class="cover__mask">
-                            <div class="pa-center d-none">
+                            <div class="pa-center" :class="{'d-none': !isLoading}">
                                 <i class="fa fa-spinner fa-spin fa-5x"></i>
                             </div>
-                            <img alt="Avatar" :src="user.avatar" />
+                            <img alt="Avatar" :src="user.avatar" v-show="!isLoading" />
                         </div>
                     </div>
                 </router-link>
@@ -85,6 +85,7 @@
 
             ...mapState('auth', [
                 'user',
+                'isLoading',
             ]),
         },
 
