@@ -169,7 +169,8 @@ $ AVATAR
     align-items: flex-end;
 }
 
-.menu__item.var--profil .cover.var--petit{
+.menu__item.var--profil .cover.var--petit,
+.menu__item.var--profil .cover__mask {
     width: $largeur-menu;
     height: ($largeur-menu - $largeur-bande-menu);
 }
