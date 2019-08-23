@@ -1,8 +1,16 @@
 import features from '~/lib/services/features';
 
-export const feature = {
+export const featureOn = {
     bind: function (el, binding) {
         if (features.isActive(binding.value) === false) {
+            el.style.display = 'none';
+        }
+    },
+};
+
+export const featureOff = {
+    bind: function (el, binding) {
+        if (features.isActive(binding.value) === true) {
             el.style.display = 'none';
         }
     },

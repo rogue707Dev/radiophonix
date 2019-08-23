@@ -35,10 +35,10 @@ FEATURES_CONFIG=development
 
 ## Utiliser un flag
 
-Pour utiliser un flag sur le front, il suffit d'utiliser la directive `v-feature` :
+Pour utiliser un flag sur le front, il suffit d'utiliser la directive `v-feature-on` :
 
 ```html
-<div v-feature="'foo'">
+<div v-feature-on="'foo'">
     Ne sera visible que si la feature `foo` est active
 </div>
 ```

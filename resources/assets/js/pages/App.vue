@@ -28,7 +28,7 @@
 
         <b-alert show
                  dismissible
-                 v-feature="'feedback'"
+                 v-feature-on="'feedback'"
                  class="push"
                  variant="primary">
             <span class="a-curseur" @click="openFeedbackModal('bug')">

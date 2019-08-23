@@ -3,7 +3,7 @@
         <template v-if="isAuthenticated && user">
             <li class="menu__item var--profil"
                 :class="{actif: $route.meta.menu === 'profile'}"
-                v-feature="'login'">
+                v-feature-on="'login'">
                 <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__item--profil__avatar">
                     <div class="cover var--petit var--auteur">
                         <div class="cover__mask">
@@ -31,10 +31,10 @@
             <main-menu-item name="home" route="home" icon="maison" class="menu__item">
                 Accueil
             </main-menu-item>
-            <main-menu-item name="login" route="login" class="menu__item var--sans-icon" v-feature="'login'">
+            <main-menu-item name="login" route="login" class="menu__item var--sans-icon" v-feature-on="'login'">
                 Connexion
             </main-menu-item>
-            <main-menu-item name="register" route="register" class="menu__item var--sans-icon" v-feature="'login'">
+            <main-menu-item name="register" route="register" class="menu__item var--sans-icon" v-feature-on="'login'">
                 Inscription
             </main-menu-item>
         </template>

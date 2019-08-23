@@ -13,7 +13,7 @@
                 </button>
             </div>
         </div>
-        <a href="https://www.algolia.com" target="_blank" v-if="algolia" v-feature="'algolia'">
+        <a href="https://www.algolia.com" target="_blank" v-if="algolia" v-feature-on="'algolia'">
             <img :src="algoliaLogo" alt="Algolia" class="mt-2" />
         </a>
     </form>
