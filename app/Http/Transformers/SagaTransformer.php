@@ -37,14 +37,22 @@ class SagaTransformer extends Transformer
             'links' => [
                 'netowiki' => $saga->link_netowiki,
                 'site' => $saga->link_site,
-                'rss' => route('rss.saga', ['saga' => $saga->slug]),
                 'facebook' => $saga->link_facebook,
                 'twitter' => $saga->link_twitter,
             ],
+            'rss' => $this->rss($saga),
             'finished' => $saga->finished,
             'stats' => $saga->stats()->toArray(),
             'created_at' => $this->getFormatedDate($saga->created_at),
             'updated_at' => $this->getFormatedDate($saga->updated_at),
+        ];
+    }
+
+    private function rss(Saga $saga): array
+    {
+        return [
+            'url' => $saga->getRssLink(),
+            'is_custom' => $saga->hasCustomRssLink(),
         ];
     }
 

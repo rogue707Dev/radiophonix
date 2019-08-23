@@ -36,6 +36,7 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
  * @property string $link_site
  * @property string $link_facebook
  * @property string $link_twitter
+ * @property string|null $link_rss
  * @property bool $finished
  * @property Carbon $last_publish_at
  * @property Carbon $created_at
@@ -88,14 +89,25 @@ class Saga extends Model implements HasMedia, HasUuid
      */
     protected $dates = ['created_at', 'updated_at', 'creation_date'];
 
-    /**
-     * @return Licence
-     */
     public function getLicence(): Licence
     {
         $mapper = new LicenceMapper();
 
         return $mapper->map($this->licence);
+    }
+
+    public function hasCustomRssLink(): bool
+    {
+        return $this->link_rss !== null;
+    }
+
+    public function getRssLink(): string
+    {
+        if ($this->hasCustomRssLink()) {
+            return $this->link_rss;
+        }
+
+        return route('rss.saga', ['saga' => $this->slug]);
     }
 
     /**

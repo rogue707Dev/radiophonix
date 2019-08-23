@@ -94,7 +94,7 @@
                 <licence-link :licence="saga.licence"
                               class="btn btn-outline-secondary btn-sm mb-2"
                               v-if="saga.licence" />
-                <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.links.rss" v-if="saga.links.rss">
+                <a class="btn btn-outline-secondary btn-sm mb-2" :href="saga.rss.url" v-if="saga.rss.url">
                     <i aria-hidden="true" class="fa fa-rss"></i>&nbsp;Flux RSS
                 </a>
             </div>
@@ -279,6 +279,7 @@
                 likes: 0,
             },
             links: {},
+            rss: {},
             authors: [
                 {
                     name: '',
