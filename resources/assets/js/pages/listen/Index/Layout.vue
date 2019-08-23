@@ -12,8 +12,8 @@
 
             <nav-list class="mb-4">
 
-                <nav-item :active="$route.name === 'listen.sagas.index' || $route.name === 'listen.home'">
-                    <router-link :to="{ name: 'listen.sagas.index' }">
+                <nav-item :active="$route.name === 'listen.home'">
+                    <router-link :to="{ name: 'listen.home' }">
                         Sagas
                     </router-link>
                 </nav-item>

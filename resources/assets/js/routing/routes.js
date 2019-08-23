@@ -307,7 +307,6 @@ const routes = [
                     {
                         path: '',
                         component: ListenIndexLayout,
-                        name: 'listen.sagas.index',
                         meta: { menu: 'listen' },
                         children: [
                             {
@@ -315,12 +314,6 @@ const routes = [
                                 component: ListenIndexSagasView,
                                 name: 'listen.home',
                                 meta: { menu: 'listen' }
-                            },
-                            {
-                                path: 'sagas',
-                                component: ListenIndexSagasView,
-                                name: 'listen.sagas.index',
-                                meta: { menu: 'listen' },
                             },
                             {
                                 path: 'auteurs',

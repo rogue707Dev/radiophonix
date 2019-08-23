@@ -5,7 +5,7 @@
                    :saga="saga"></card-saga>
 
         <Card v-if="showMoreCard"
-              :link="{ name: 'listen.sagas.index' }"
+              :link="{ name: 'listen.home' }"
               title="En voir plus..."
               size="moyen"
               type="saga">
