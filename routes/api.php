@@ -60,6 +60,10 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 
     Route::delete('/account', V1\User\DeleteAccountController::class);
 
+    Route::prefix('/user')->group(function () {
+        Route::get('/sagas', V1\User\Saga\ListUserSagasController::class);
+    });
+
 //    // Current user
 //    Route::get('/me', ShowCurrentUser::class);
 //    Route::get('/notifications', ListUserNotifications::class);
