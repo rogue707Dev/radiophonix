@@ -1,7 +1,7 @@
 import env from '~/lib/services/env';
 
 type Env = 'development' | 'production';
-type Feature = 'login' | 'algolia' | 'feedback';
+type Feature = 'login' | 'algolia' | 'feedback' | 'publish';
 
 type Config = {
     [key in Feature]: boolean;
@@ -16,12 +16,14 @@ const configs: Configs = {
         login: true,
         algolia: false,
         feedback: true,
+        publish: true,
     },
 
     production: {
         login: true,
         algolia: false,
         feedback: true,
+        publish: false,
     }
 };
 
