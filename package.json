@@ -33,7 +33,7 @@
     "bootstrap-vue": "^2.0.0-rc.19",
     "font-awesome": "^4.7.0",
     "howler": "^2.0.5",
-    "sweetalert": "^2.1.0",
+    "sweetalert2": "^8.16.3",
     "vue": "^2.1.0",
     "vue-form": "^4.10.1",
     "vue-infinite-scroll": "^2.0.2",

@@ -26,20 +26,18 @@
     export default {
         methods: {
             async deleteAccount() {
-                let password = await flash.confirm(
+                const { value: password } = await flash.confirm(
                     'Entrez votre mot de passe pour confirmer la suppression de votre compte :',
                     'Cette action n\'est pas réversible',
                     true
                 );
 
-                if (null === password) {
-                    flash.close();
+                if (typeof password === "undefined") {
                     return;
                 }
 
                 if ((password + '').length === 0) {
-                    flash.close();
-                    flash.info('Il faut entrer votre mot de passe pour confirmer la suppression.', 'Compte non supprimé.');
+                    await flash.info('Il faut entrer votre mot de passe pour confirmer la suppression.', 'Compte non supprimé.');
                     return;
                 }
 
@@ -59,8 +57,7 @@
                         this.$router.push({name: 'home'});
 
                         flash.success('Compte supprimé !');
-                    })
-                    .then(flash.close);
+                    });
             }
         },
     }

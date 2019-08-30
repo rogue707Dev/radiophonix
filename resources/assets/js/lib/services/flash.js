@@ -1,10 +1,10 @@
-import swal from 'sweetalert';
+import Swal from 'sweetalert2';
 
 function sendFlashMessage(type, message, title = null) {
-    return swal({
+    return Swal.fire({
         text: message,
         title: title,
-        icon: type,
+        type: type,
     });
 }
 
@@ -14,31 +14,19 @@ const flash = window.flash = {
     warning: (message, title) => sendFlashMessage('warning', message, title),
     error: (message, title) => sendFlashMessage('error', message, title),
     confirm: (message, title, withPasswordInput = false) => {
-        return swal({
+        return Swal.fire({
             title: title,
             text: message,
-            icon: 'warning',
-            content: withPasswordInput ? 'input' : '',
-            buttons: {
-                cancel: {
-                    text: 'Non',
-                    value: null,
-                    visible: true,
-                    closeModal: true,
-                },
-                confirm: {
-                    text: 'Oui',
-                    value: true,
-                    visible: true,
-                    closeModal: false,
-                }
-            },
-            dangerMode: true,
+            type: 'warning',
+            input: withPasswordInput ? 'password' : '',
+            showConfirmButton: true,
+            confirmButtonText: 'Oui',
+            showCancelButton: true,
+            cancelButtonText: 'Non',
         });
     },
     close: () => {
-        swal.stopLoading();
-        swal.close();
+        Swal.close();
     },
 };
 
