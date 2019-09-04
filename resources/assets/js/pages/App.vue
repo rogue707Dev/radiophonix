@@ -121,7 +121,7 @@
                     {
                         autoStart: false,
                         saga: sagaResult,
-                        track: trackResult.data,
+                        track: trackResult,
                         seekPercentage: currentPercentage,
                     }
                 );
