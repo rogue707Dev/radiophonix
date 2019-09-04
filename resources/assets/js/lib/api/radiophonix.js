@@ -22,7 +22,7 @@ class Radiophonix {
         this.tracks = new TrackResource(axios);
         this.teams = new TeamResource(axios);
 
-        this.profile = ProfileResource(axios);
+        this.profile = new ProfileResource(axios);
         this.badges = BadgeResource(axios);
         this.ticks = new TickResource(axios);
 

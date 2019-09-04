@@ -216,8 +216,7 @@
                 try {
                     this.loading.profile = true;
 
-                    let result = await api.profile.get(this.$route.params.user);
-                    this.profile = result.data;
+                    this.profile = await api.profile.get(this.$route.params.user);
 
                     this.loading.profile = false;
                 } catch (e) {
@@ -230,8 +229,7 @@
             async loadLikes() {
                 this.loading.likes = true;
 
-                let result = await api.profile.likes(this.$route.params.user);
-                this.likes = result.data;
+                this.likes = await api.profile.likes(this.$route.params.user);
 
                 this.loading.likes = false;
             },
