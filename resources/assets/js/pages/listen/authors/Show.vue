@@ -101,9 +101,7 @@ export default {
 
     methods: {
         async loadAuthor() {
-            let result = await api.authors.get(this.$route.params.id);
-
-            this.author = result.data;
+            this.author = await api.authors.get(this.$route.params.id);
         }
     },
 

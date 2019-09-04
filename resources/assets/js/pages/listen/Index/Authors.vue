@@ -27,9 +27,7 @@
             async load() {
                 this.isLoading = true;
 
-                let res = await api.authors.all();
-
-                this.authors = res.data;
+                this.authors = await api.authors.all();
 
                 this.isLoading = false;
             }
