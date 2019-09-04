@@ -20,7 +20,7 @@ class Radiophonix {
         this.genres = new GenreResource(axios);
         this.sagas = new SagaResource(axios);
         this.tracks = new TrackResource(axios);
-        this.teams = TeamResource(axios);
+        this.teams = new TeamResource(axios);
 
         this.profile = ProfileResource(axios);
         this.badges = BadgeResource(axios);

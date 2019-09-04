@@ -100,9 +100,7 @@
 
         methods: {
             async loadTeam() {
-                let result = await api.teams.get(this.$route.params.id);
-
-                this.team = result.data;
+                this.team = await api.teams.get(this.$route.params.id);
             }
         },
 

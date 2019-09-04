@@ -27,9 +27,7 @@
             async load() {
                 this.isLoading = true;
 
-                let res = await api.teams.all();
-
-                this.teams = res.data;
+                this.teams = await api.teams.all();
 
                 this.isLoading = false;
             }
