@@ -24,7 +24,7 @@ class Radiophonix {
 
         this.profile = ProfileResource(axios);
         this.badges = BadgeResource(axios);
-        this.ticks = TickResource(axios);
+        this.ticks = new TickResource(axios);
 
         this.invites = {
             site: SiteInviteResource(axios),

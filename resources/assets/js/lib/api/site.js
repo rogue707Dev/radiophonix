@@ -1,4 +1,4 @@
-import factory from "~/lib/api/factory";
+import factory from "./factory";
 
 let site = factory();
 

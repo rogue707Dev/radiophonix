@@ -13,7 +13,7 @@ const serverTickToFrontTick = function (serverTick) {
 const getCurrentTick = function () {
     if (store.getters['auth/isAuthenticated']) {
         return api.ticks.current()
-            .then(res => res.data.saga.id);
+            .then(res => res.saga.id);
     }
 
     return storage.get('currentTick');
@@ -85,12 +85,12 @@ export default {
                 .then(res => {
                     let ticks = {};
 
-                    for (const key in res.data) {
-                        if (!res.data.hasOwnProperty(key)) {
+                    for (const key in res) {
+                        if (!res.hasOwnProperty(key)) {
                             continue;
                         }
 
-                        ticks[res.data[key].saga.id] = serverTickToFrontTick(res.data[key]);
+                        ticks[res[key].saga.id] = serverTickToFrontTick(res[key]);
                     }
 
                     return ticks;

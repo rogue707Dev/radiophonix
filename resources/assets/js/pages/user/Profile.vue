@@ -137,7 +137,7 @@
 </template>
 
 <script>
-    import { mapGetters, mapActions } from 'vuex';
+    import {mapActions, mapGetters} from 'vuex';
     import api from '~/lib/api';
     import Banner from '~/components/content/Banner.vue';
     import Cover from '~/components/content/Cover.vue';
@@ -239,9 +239,7 @@
             async loadTicks() {
                 this.loading.ticks = true;
 
-                let result = await api.ticks.all();
-
-                this.ticks = result.data;
+                this.ticks = await api.ticks.all();
 
                 this.loading.ticks = false;
             },
