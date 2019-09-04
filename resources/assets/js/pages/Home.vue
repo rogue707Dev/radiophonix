@@ -187,7 +187,7 @@ export default {
         async loadGenres() {
             let results = await api.genres.all();
 
-            this.genres = results.data.slice(0, 7);
+            this.genres = results.slice(0, 7);
         },
 
         getGenresRow(row) {

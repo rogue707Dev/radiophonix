@@ -30,12 +30,12 @@
 </template>
 
 <script>
-import api from '~/lib/api';
-import Banner from '~/components/content/Banner.vue';
-import SagaList from '~/components/saga/SagaList.vue';
-import Cover from '~/components/content/Cover.vue';
+    import api from '~/lib/api';
+    import Banner from '~/components/content/Banner.vue';
+    import SagaList from '~/components/saga/SagaList.vue';
+    import Cover from '~/components/content/Cover.vue';
 
-export default {
+    export default {
     components: {
         Banner,
         SagaList,
@@ -50,9 +50,7 @@ export default {
 
     methods: {
         async fetchGenre() {
-            let result = await api.genres.get(this.$route.params.id);
-
-            this.genre = result.data;
+            this.genre = await api.genres.get(this.$route.params.id);
         },
     },
 

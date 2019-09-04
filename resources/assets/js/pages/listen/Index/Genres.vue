@@ -33,9 +33,7 @@
             async load() {
                 this.isLoading = true;
 
-                let res = await api.genres.all();
-
-                this.genres = res.data;
+                this.genres = await api.genres.all();
 
                 this.isLoading = false;
             }

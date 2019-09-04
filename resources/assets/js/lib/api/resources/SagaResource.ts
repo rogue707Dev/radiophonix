@@ -29,6 +29,4 @@ class SagaResource extends ApiResource<Saga> {
     }
 }
 
-export default (axios: AxiosInstance): SagaResource => {
-    return new SagaResource(axios);
-}
+export default SagaResource;

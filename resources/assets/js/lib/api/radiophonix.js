@@ -17,8 +17,8 @@ class Radiophonix {
 
         this.authors = AuthorResource(axios);
         this.albums = AlbumResource(axios);
-        this.genres = GenreResource(axios);
-        this.sagas = SagaResource(axios);
+        this.genres = new GenreResource(axios);
+        this.sagas = new SagaResource(axios);
         this.tracks = TrackResource(axios);
         this.teams = TeamResource(axios);
 
