@@ -1,6 +1,6 @@
-import Swal, {SweetAlertOptions} from 'sweetalert2';
+import Swal, {SweetAlertOptions, SweetAlertType} from 'sweetalert2';
 
-function sendFlashMessage(type, message, title = null) {
+function sendFlashMessage(type: SweetAlertType, message: string, title?: any) {
     return Swal.fire({
         text: message,
         title: title,
@@ -9,11 +9,11 @@ function sendFlashMessage(type, message, title = null) {
 }
 
 const flash = {
-    info: (message, title) => sendFlashMessage('info', message, title),
-    success: (message, title) => sendFlashMessage('success', message, title),
-    warning: (message, title) => sendFlashMessage('warning', message, title),
-    error: (message, title) => sendFlashMessage('error', message, title),
-    confirm: (message, title, withPasswordInput = false) => {
+    info: (message: string, title: string) => sendFlashMessage('info', message, title),
+    success: (message: string, title: string) => sendFlashMessage('success', message, title),
+    warning: (message: string, title: string) => sendFlashMessage('warning', message, title),
+    error: (message: string, title: string) => sendFlashMessage('error', message, title),
+    confirm: (message: string, title: string, withPasswordInput: boolean = false) => {
         let config: SweetAlertOptions = {
             title: title,
             text: message,
