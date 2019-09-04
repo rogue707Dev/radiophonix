@@ -6,7 +6,7 @@ import SagaResource from './resources/SagaResource';
 import TrackResource from './resources/TrackResource';
 import TeamResource from './resources/TeamResource';
 import ProfileResource from './resources/ProfileResource';
-import TickResource from "~/lib/api/resources/TickResource";
+import TickResource from "./resources/TickResource";
 import SiteInviteResource from "./resources/SiteInviteResource";
 import InteractionsService from "./resources/InteractionsService";
 
@@ -25,7 +25,7 @@ class Radiophonix {
         this.ticks = new TickResource(axios);
 
         this.invites = {
-            site: SiteInviteResource(axios),
+            site: new SiteInviteResource(axios),
         };
 
         this.interactions = InteractionsService(axios);

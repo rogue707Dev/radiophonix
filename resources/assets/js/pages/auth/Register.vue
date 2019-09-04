@@ -259,7 +259,7 @@
 
                 api.invites.site.get(this.$route.query.invite)
                     .then(res => {
-                        this.model.email = res.data.email;
+                        this.model.email = res.email;
                     })
                     .catch(err => {
                         this.isInviteValid = false;
