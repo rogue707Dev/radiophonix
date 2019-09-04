@@ -80,8 +80,7 @@ const actions = {
 
         // Albums are fetch every time a track is played to make
         // sure we are up to date.
-        let result = await api.albums.all(slug);
-        let albums = result.data;
+        let albums = await api.albums.all(slug);
 
         commit('setCurrentAlbums', albums);
 

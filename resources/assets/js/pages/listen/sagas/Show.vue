@@ -358,7 +358,7 @@
             [sagaResult, albumResult] = [await sagaResult, await albumResult];
 
             this.saga = sagaResult;
-            this.albums = albumResult.data;
+            this.albums = albumResult;
 
             if (this.albums.length > 0) {
                 this.currentAlbumType = this.albums[0].type;
