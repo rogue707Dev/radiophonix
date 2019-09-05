@@ -1,4 +1,4 @@
-import {AxiosInstance, AxiosPromise} from "axios";
+import {AxiosPromise} from "axios";
 import ApiService from "./ApiService";
 import {Track} from "~types/Track";
 import {Route} from "vue-router";
@@ -53,6 +53,4 @@ class InteractionsService extends ApiService {
     }
 }
 
-export default (axios: AxiosInstance): InteractionsService => {
-    return new InteractionsService(axios);
-}
+export default InteractionsService;

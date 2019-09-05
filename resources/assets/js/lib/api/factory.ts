@@ -10,7 +10,7 @@ export default () => {
     radiophonix.config.setBaseUrl(env.get('API_URL'));
 
     radiophonix.config.onRequest((config) => {
-        let token = store.state.auth.token;
+        let token = <string>store.state.auth.token;
 
         if (token) {
             // If we have a token, we add it to all requests

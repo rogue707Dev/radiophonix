@@ -1,4 +1,4 @@
-import {AxiosInstance, AxiosResponse} from "axios";
+import {AxiosResponse} from "axios";
 import ApiService from "./ApiService";
 
 export interface All<T> {
