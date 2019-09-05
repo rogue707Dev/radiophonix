@@ -1,7 +1,8 @@
 import factory from './factory';
 import router from '~/routing/router';
+import Radiophonix from "~/lib/api/radiophonix";
 
-let api = factory();
+let api: Radiophonix = factory();
 
 api.config.onResponse((response) => {
     return response;

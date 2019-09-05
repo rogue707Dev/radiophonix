@@ -13,4 +13,5 @@ export interface FrontTick {
     saga: string;
     track: string;
     progress: number;
+    percentage?: number;
 }

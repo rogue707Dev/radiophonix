@@ -3,7 +3,7 @@ import Radiophonix from './radiophonix';
 import store from '~/lib/store';
 import http from "~/lib/api/http";
 
-export default () => {
+export default (): Radiophonix => {
     let axios = http();
     let radiophonix = new Radiophonix(axios);
 

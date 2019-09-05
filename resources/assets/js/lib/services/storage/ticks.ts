@@ -1,8 +1,13 @@
 import storage from '~/lib/services/storage';
 import api from "~/lib/api/site";
 import store from "~/lib/store";
+import {FrontTick, Tick} from "~types/Tick";
 
-const serverTickToFrontTick = function (serverTick) {
+interface HashMap<T = any> {
+    [key: string]: T;
+}
+
+const serverTickToFrontTick = function (serverTick: Tick): FrontTick {
     return {
         saga: serverTick.saga.id,
         track: serverTick.track.id,
@@ -10,42 +15,42 @@ const serverTickToFrontTick = function (serverTick) {
     };
 };
 
-const getCurrentTick = function () {
+const getCurrentTick = function (): Promise<string> {
     if (store.getters['auth/isAuthenticated']) {
         return api.ticks.current()
             .then(res => res.saga.id);
     }
 
-    return storage.get('currentTick');
+    return Promise.resolve(<string>storage.get('currentTick'));
 };
 
 export default {
-    saveTrack: (sagaId, trackId, percentage = 0) => {
+    saveTrack: (sagaId: string, trackId: string, percentage: number = 0) => {
         if (store.getters['auth/isAuthenticated']) {
             return;
         }
 
-        let ticks = storage.get('ticks', {});
+        let ticks = <HashMap>storage.get('ticks', {});
 
         ticks[sagaId] = {
             saga: sagaId + '',
             track: trackId + '',
-            progress: parseInt(percentage * 1000),
+            progress: Math.round(percentage * 1000),
         };
 
         storage.set('ticks', ticks);
         storage.set('currentTick', sagaId);
     },
 
-    savePercentage: (percentage) => {
+    savePercentage: (percentage: number) => {
         if (store.getters['auth/isAuthenticated']) {
             return;
         }
 
-        let ticks = storage.get('ticks');
-        let currentTick = storage.get('currentTick');
+        let ticks = <HashMap>storage.get('ticks', {});
+        let currentTick = <string>storage.get('currentTick');
 
-        ticks[currentTick].progress = parseInt(percentage * 1000);
+        ticks[currentTick].progress = Math.round(percentage * 1000);
 
         storage.set('ticks', ticks);
     },
@@ -65,7 +70,7 @@ export default {
         return Promise.resolve(tick);
     },
 
-    async get(sagaId) {
+    async get(sagaId: string) {
         let ticks = await this.all();
 
         let tick = ticks[sagaId] || null;
@@ -79,11 +84,11 @@ export default {
         return Promise.resolve(tick);
     },
 
-    async all() {
+    async all(): Promise<HashMap<FrontTick>> {
         if (store.getters['auth/isAuthenticated']) {
             return api.ticks.all()
                 .then(res => {
-                    let ticks = {};
+                    let ticks: HashMap<FrontTick> = {};
 
                     for (const key in res) {
                         if (!res.hasOwnProperty(key)) {
@@ -97,7 +102,7 @@ export default {
                 });
         }
 
-        let ticks = storage.get('ticks', {});
+        let ticks = <HashMap<FrontTick>>storage.get('ticks', {});
 
         return Promise.resolve(ticks);
     },
