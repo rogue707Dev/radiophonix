@@ -5,6 +5,7 @@ import routes from '~/routing/routes';
 import store from '~/lib/store';
 import news from '~/lib/services/storage/news';
 import api from "~/lib/api";
+import rss from "~/lib/services/rss";
 
 Vue.use(VueRouter);
 
@@ -25,6 +26,8 @@ router.beforeEach((to, from, next) => {
     }
 
     store.dispatch('ui/closeMenu');
+
+    rss.resetLinkTag();
 
     next();
 });

@@ -257,6 +257,7 @@
     import Cover from '~/components/content/Cover.vue';
     import FaIcon from '~/components/Ui/Icon/FaIcon.vue';
     import LikeButton from '~/components/Like/LikeButton.vue';
+    import rss from '~/lib/services/rss';
 
     export default {
     components: {
@@ -365,6 +366,8 @@
             }
 
             this.currentTick = await ticks.get(this.saga.id);
+
+            rss.setLinkTag(this.saga.rss.url);
         },
 
         async playSaga() {
