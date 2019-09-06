@@ -9,6 +9,7 @@ import ProfileResource from './resources/ProfileResource';
 import TickResource from "./resources/TickResource";
 import SiteInviteResource from "./resources/SiteInviteResource";
 import InteractionsService from "./resources/InteractionsService";
+import UserSagaResource from "./resources/User/UserSagaResource";
 import {AxiosInstance, AxiosResponse} from "axios";
 
 class Radiophonix {
@@ -28,6 +29,10 @@ class Radiophonix {
         site: SiteInviteResource;
     };
 
+    user: {
+        sagas: UserSagaResource;
+    };
+
     constructor(axios: AxiosInstance) {
         this.axios = axios;
 
@@ -37,6 +42,7 @@ class Radiophonix {
         this.sagas = new SagaResource(axios);
         this.tracks = new TrackResource(axios);
         this.teams = new TeamResource(axios);
+        this.interactions = new InteractionsService(axios);
 
         this.profile = new ProfileResource(axios);
         this.ticks = new TickResource(axios);
@@ -45,7 +51,9 @@ class Radiophonix {
             site: new SiteInviteResource(axios),
         };
 
-        this.interactions = new InteractionsService(axios);
+        this.user = {
+            sagas: new UserSagaResource(axios),
+        };
     }
 
     get likes() {

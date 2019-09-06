@@ -103,6 +103,11 @@ class ApiController extends Controller
         return new ApiResponse($data);
     }
 
+    protected function empty(): ApiResponse
+    {
+        return $this->simple([]);
+    }
+
     /**
      * Get the current user
      *

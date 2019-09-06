@@ -13,6 +13,10 @@ class ListUserSagasController extends ApiController
     {
         $user = $this->user();
 
+        if ($user->author === null) {
+            return $this->empty();
+        }
+
         $this->include('team', 'authors');
 
         /** @var Saga|Builder $sagas */
