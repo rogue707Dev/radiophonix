@@ -100,7 +100,7 @@
                     <h1 class="h1 mb-4">Recherches récentes</h1>
 
                     <div class="list-group list-group-flush">
-                        <button class="list-group-item list-group-item-action"
+                        <button type="button" class="list-group-item list-group-item-action"
                                 v-for="(query, index) in queries"
                                 :key="index"
                                 @click="search(query)">
@@ -108,7 +108,7 @@
                         </button>
                     </div>
 
-                    <button class="btn btn-outline-secondary btn-sm mt-4"
+                    <button type="button" class="btn btn-outline-secondary btn-sm mt-4"
                             @click="clearQueries">
                         Effacer les recherches récentes
                     </button>

@@ -12,6 +12,19 @@
         <template v-if="currentSaga.images.cover.main">
 
 
+            <!----------------------------------------
+            Navigation
+            ------------------------------------------>
+            <div class="lecteur__navigation">
+                <button type="button" class="btn btn-theme btn-carre btn-sm lecteur__navigation__fermer-lecteur" @click="togglePlayer">
+                    <i aria-hidden="true" class="fa fa-angle-down text-dark"></i>
+                </button>
+
+                <button type="button" class="btn btn-theme btn-carre btn-sm lecteur__navigation__affichage-playlist" @click="openPlaylist">
+                    <i aria-hidden="true" class="fa fa-list"></i>
+                </button>
+            </div>
+
 
             <!----------------------------------------
             Jaquette et bouton supplémentaire
@@ -25,16 +38,16 @@
                 </div>
 
                 <div class="lecteur__cover__bouton">
-                    <button class="btn btn-outline-theme btn-lecteur btn-sm mb-3 lecteur__bouton-affichage" @click="openPlaylist">
+                    <button type="button" class="btn btn-theme btn-carre btn-sm mb-3 lecteur__cover__bouton__affichage-playlist" @click="openPlaylist">
                         <i aria-hidden="true" class="fa fa-list"></i>
                     </button>
 
-                    <like-button class="btn btn-outline-theme btn-lecteur btn-sm mb-3"
+                    <like-button class="btn btn-theme btn-carre btn-sm mb-3"
                                  likeable-type="saga"
                                  :likeable-id="currentSaga.id"></like-button>
 
                     <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: currentSaga.slug } }"
-                                 class="btn btn-outline-theme btn-lecteur btn-sm mb-3">
+                                 class="btn btn-theme btn-carre btn-sm mb-3">
                         <i aria-hidden="true" class="fa fa-info"></i>
                     </router-link>
                 </div>
@@ -43,6 +56,33 @@
 
 
             <div class="lecteur__contenu">
+
+                <!----------------------------------------
+                Progession
+                ------------------------------------------>
+                <div class="progression text-dark h5 mt-4">
+                    <span class="text-left">{{ currentTime }}</span>
+                    <progress class="progression__barre var--lecteur"
+                              @click="seek"
+                              :value="currentPercentage"
+                              max="100"></progress>
+                    <track-length class="text-right" :seconds="currentTrack.seconds"></track-length>
+                </div>
+
+                <!----------------------------------------
+                Controle
+                ------------------------------------------>
+                <div class="lecteur__controle">
+                    <button type="button" class="btn btn-theme btn-carre" @click="previous">
+                        <i aria-hidden="true" class="fa fa-step-backward"></i>
+                    </button>
+                    <button type="button" class="btn btn-theme btn-carre btn-lg" @click="toggle">
+                        <i aria-hidden="true" class="fa fa-play" :class="{'fa-play': !isPlaying, 'fa-pause': isPlaying}"></i>
+                    </button>
+                    <button type="button" class="btn btn-theme btn-carre" @click="next">
+                        <i aria-hidden="true" class="fa fa-step-forward"></i>
+                    </button>
+                </div>
 
                 <!----------------------------------------
                 Info du morceau
@@ -64,33 +104,6 @@
                             Épisode {{ currentTrack.number }}
                         </template>
                     </p>
-                </div>
-
-                <!----------------------------------------
-                Progession
-                ------------------------------------------>
-                <div class="progression text-dark h5">
-                    <span class="text-left">{{ currentTime }}</span>
-                    <progress class="progression__barre var--lecteur"
-                              @click="seek"
-                              :value="currentPercentage"
-                              max="100"></progress>
-                    <track-length class="text-right" :seconds="currentTrack.seconds"></track-length>
-                </div>
-
-                <!----------------------------------------
-                Controle
-                ------------------------------------------>
-                <div class="lecteur__controle">
-                    <button class="btn btn-outline-theme btn-lecteur" @click="previous">
-                        <i aria-hidden="true" class="fa fa-step-backward"></i>
-                    </button>
-                    <button class="btn btn-outline-theme btn-lecteur btn-lg" @click="toggle">
-                        <i aria-hidden="true" class="fa fa-play" :class="{'fa-play': !isPlaying, 'fa-pause': isPlaying}"></i>
-                    </button>
-                    <button class="btn btn-outline-theme btn-lecteur" @click="next">
-                        <i aria-hidden="true" class="fa fa-step-forward"></i>
-                    </button>
                 </div>
             </div>
 
@@ -128,7 +141,7 @@
             ------------------------------------------>
             <div class="row justify-content-center mb-5">
                 <div class="col-auto">
-                    <router-link :to="{ name: 'search' }" tag="button" class="btn btn-outline-theme btn-lecteur btn-lg">
+                    <router-link :to="{ name: 'search' }" tag="button" class="btn btn-theme btn-carre btn-lg">
                         <i aria-hidden="true" class="fa fa-search"></i>
                     </router-link>
                 </div>
@@ -184,6 +197,7 @@ export default {
 
         ...mapActions('ui', [
             'openPlaylist',
+            'togglePlayer',
         ]),
 
         // Confirmation de fermeture de la page si un épisode est

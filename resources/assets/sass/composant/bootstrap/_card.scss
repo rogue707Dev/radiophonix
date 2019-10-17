@@ -90,27 +90,14 @@ $ BOUTON
 ======================================================================================================================*/
 .card-button {
     position: absolute;
-    top: $espacement-standard--petit;
+    top: 6px;
     left: 0;
     right: 0;
     padding: 0 8px 5px;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: end;
-    color: $bleu-350;
     z-index: z-index(1);
-}
-
-.card-button .fa {
-    width: 14px;
-    height: 14px;
-    text-align: center;
-    border-radius: 50%;
-    transition: box-shadow 0.2s;
-
-    @include survol(){
-        box-shadow: 0 0 0 2px $bleu-100, 0 0 0 3px $rouge-300;
-    }
 }
 
 

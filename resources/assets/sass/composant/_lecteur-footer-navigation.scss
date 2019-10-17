@@ -4,14 +4,14 @@ le header est masquer en large up
 ======================================================================================================================*/
 .lecteur-footer-navigation {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 60px 1fr 60px;
 
     text-align: center;
     align-items: center;
     justify-items: center;
 
-    background-color: $bleu-500;
-    border-top: 1px solid $orange-300;
+    background-color: $orange-200;
+    border-top: 1px solid $bleu-500;
 
     position: fixed;
     bottom: 0;
@@ -21,10 +21,4 @@ le header est masquer en large up
     @include media-breakpoint-up(lg) {
         display: none;
     }
-}
-
-.lecteur-footer-navigation__contenu {
-    text-align: center;
-    color: $white;
-    height: $hauteur-menu-player;
 }

@@ -1,6 +1,7 @@
 <template>
     <div>
 
+
         <div class="jumbotron" id="ancre-radiophonix">
             <h1 class="display-1 text-white">Composent Radiophonix</h1>
             <p>
@@ -129,7 +130,7 @@
 
 
 
-            <h1 class="display-3">Carte Horizontal avec Cover</h1>
+            <h1 class="display-3">Carte Horizontal avec Cover test</h1>
             <div class="list-card-horizontal">
                 <a href="#" class="card var--horizontal">
                     <div class="card-cover">
@@ -140,7 +141,7 @@
                         </div>
                     </div>
                     <div class="card-button">
-                        <i data-v-5f801cbc="" aria-hidden="true" class="fa fa-heart"></i>
+                        <i aria-hidden="true" class="fa fa-heart"></i>
                     </div>
                     <div class="card-body">
                         <p class="h3 text-body">
@@ -741,42 +742,6 @@
 
 
             <a href="http://getbootstrap.com/docs/4.0/components/buttons/#examples" class="display-2">Boutons</a>
-            <div>
-                <h3 class="h1 mt-4">Rond pour icone</h3>
-                <button type="button" class="btn btn-outline-primary btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-secondary btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-success btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-danger btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-warning btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-info btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-light btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <button type="button" class="btn btn-outline-dark btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col-6">
-                        <button type="button" class="btn btn-outline-theme btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                        <br>
-                        .btn-outline-theme
-                    </div>
-                    <div class="col-6">
-                        <button type="button" class="btn btn-outline-primary btn-lecteur btn-sm"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                        <button type="button" class="btn btn-outline-warning btn-lecteur"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                        <button type="button" class="btn btn-outline-theme btn-lecteur btn-lg"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-                        <br>
-                        Existe en petit, normal et grand
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div>
-                <h3 class="h1 mt-4">Avec Icon "Font Awesome"</h3>
-                Fonctionne avec tous les boutons
-                <button type="button" class="btn btn-primary"><i class="fa fa-volume-up" aria-hidden="true"></i>Primary</button>
-                <button type="button" class="btn btn-outline-secondary"><i class="fa fa-volume-up" aria-hidden="true"></i>outline Secondary</button>
-            </div>
 
             <div>
                 <h1 class="h1 mt-4">Grands</h1>
@@ -789,7 +754,6 @@
                 <button type="button" class="btn btn-light btn-lg">Light</button>
                 <button type="button" class="btn btn-dark btn-lg">Dark</button>
                 <button type="button" class="btn btn-link btn-lg">Link</button>
-                <button type="button" class="btn btn-primary btn-lg">Homepage</button>
             </div>
 
             <div>
@@ -832,21 +796,106 @@
                 <button type="button" class="btn btn-outline-dark">Dark</button>
             </div>
 
-            <div>
-                <doc-titre url="/components/buttons/#active-state">
-                    Etat actif
-                </doc-titre>
-                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
-                <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+            <div class="row mt-5">
+                <div class="col-2">
+                    <span class="h1">Normal</span>
+                </div>
+                <div class="col-10">
+                    <button type="button" class="btn btn-primary">btn-primary</button>
+                    <button type="button" class="btn btn-secondary">btn-secondary</button>
+                    <button type="button" class="btn btn-outline-primary">btn-outline-primary</button>
+                    <button type="button" class="btn btn-outline-secondary">btn-outline-secondary</button>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-2">
+                    <doc-titre url="/components/buttons/#active-state" style="margin:0!important">Actif</doc-titre>
+                </div>
+                <div class="col-10">
+                    <button type="button" class="btn btn-primary active">btn-primary</button>
+                    <button type="button" class="btn btn-secondary active">btn-secondary</button>
+                    <button type="button" class="btn btn-outline-primary active">btn-outline-primary</button>
+                    <button type="button" class="btn btn-outline-secondary active">btn-outline-secondary</button>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-2">
+                    <doc-titre url="/components/buttons/#active-state" style="margin:0!important">Désactivé</span></doc-titre>
+                </div>
+                <div class="col-10">
+                    <button type="button" class="btn btn-primary" disabled>btn-primary</button>
+                    <button type="button" class="btn btn-secondary" disabled>btn-secondary</button>
+                    <button type="button" class="btn btn-outline-primary" disabled>btn-outline-primary</button>
+                    <button type="button" class="btn btn-outline-secondary" disabled>btn-outline-secondary</button>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-2">
+                    <doc-titre url="/components/buttons/#active-state" style="margin:0!important">Reset</span></doc-titre>
+                </div>
+                <div class="col-10">
+                    <button type="button" class="btn-reset" disabled>btn-primary</button>
+                </div>
             </div>
 
+
             <div>
-                <doc-titre url="/components/buttons/#active-state">
-                    Etat désactivé
-                </doc-titre>
-                <button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
-                <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+                <div class="row">
+                    <div class="col-7">
+                        <h3 class="h1 mt-4">Carré pour icone</h3>
+                        <button type="button" class="btn btn-outline-primary btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-secondary btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-success btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-danger btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-warning btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-info btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-light btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-dark btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-primary btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-secondary btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-success btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-danger btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-warning btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-info btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-light btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-dark btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-theme btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="h1 mt-4">3 Tailles</h3>
+                        <button type="button" class="btn btn-outline-primary btn-carre btn-sm"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-outline-warning btn-carre"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-theme btn-carre btn-lg"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <br>
+                        petit, normal et grand
+                    </div>
+                </div>
             </div>
+
+
+            <div>
+                <div class="row">
+                    <div class="col-7">
+                        <h3 class="h1 mt-4">Icone seul</h3>
+                        <button type="button" class="btn-picto"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <a href="" class="btn-picto"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <h3 class="h1 mt-4">Favoris</h3>
+            <button type="button" aria-hidden="true" class="btn-reset text-body favoris">
+                <i class="favoris__oui fa fa-heart"></i>
+                <svg class="favoris__non" width="14px" height="14px"><use xlink:href="#heart-broken"></use></svg>
+            </button>
+
+            <button type="button" aria-hidden="true" class="btn-reset text-body favoris var--actif">
+                <i class="favoris__oui fa fa-heart"></i>
+                <svg class="favoris__non" width="14px" height="14px"><use xlink:href="#heart-broken"></use></svg>
+            </button>
 
             <hr class="my-5">
 
@@ -1130,7 +1179,7 @@
                     </div>
                 </div>
 
-                <button class="btn btn-primary" type="submit">Submit form</button>
+                <button type="submit" class="btn btn-primary">Submit form</button>
             </form>
             <hr class="my-5">
 

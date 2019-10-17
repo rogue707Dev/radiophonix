@@ -3,9 +3,14 @@ $ PUSH
 ======================================================================================================================*/
 .push {
     position:fixed;
-    bottom: 0;
+    top: $espacement-standard--petit;
     right: 10px;
     z-index: z-index(400);
+
+    @include media-breakpoint-down(sm) {
+        top: auto;
+        bottom: $hauteur-menu-player;
+    }
 }
 
 .push .close {

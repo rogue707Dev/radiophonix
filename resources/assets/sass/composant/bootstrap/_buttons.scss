@@ -1,23 +1,6 @@
 /*======================================================================================================================
 $ SURCHARGE
 ======================================================================================================================*/
-.btn-primary {
-    @include degrade-vertical--orange-bas;
-    border-color: $orange-250;
-    color: $black;
-    font-weight: 600;
-    font-size: px2rem(14);
-}
-
-.btn-outline-primary {
-    color: $primary-pour-fond-blanc;
-    border-color: $primary-pour-fond-blanc;
-}
-
-
-.input-group .btn-outline-primary {
-    color: $body-color;
-}
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -27,4 +10,25 @@ $ SURCHARGE
     @include degrade-vertical--orange-haut;
     border-color: $orange-300;
     color: $black;
+}
+
+
+.input-group .btn-outline-primary {
+    color: $body-color;
+}
+
+.btn-primary {
+    @include degrade-vertical--orange-bas;
+    border-color: $orange-250;
+    color: $black;
+}
+
+.btn-outline-primary {
+    color: $primary-pour-fond-blanc;
+    border-color: $primary-pour-fond-blanc;
+}
+
+.btn-outline-light {
+    border-color: $bleu-200;
+    color: $bleu-300;
 }

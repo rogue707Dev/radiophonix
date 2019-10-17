@@ -95,7 +95,7 @@
                                 </div>
                             </div>
                             <div class="episode-item__etat-lecture">
-                                <button class="btn btn-sm btn-outline-secondary"
+                                <button type="button" class="btn btn-sm btn-outline-secondary"
                                         @click="play({track: tick.track, saga: tick.saga, autoStart: true, seekPercentage: tick.progress / 1000})">
                                     <i aria-hidden="true" class="fa fa-play pr-1"></i><span>Écouter</span>
                                 </button>
