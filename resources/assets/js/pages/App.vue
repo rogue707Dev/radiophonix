@@ -31,11 +31,11 @@
                  v-feature-on="'feedback'"
                  class="push"
                  variant="primary">
-            <span class="a-curseur" @click="openFeedbackModal('bug')">
+            <span class="alert-link a-curseur" @click="openFeedbackModal('bug')">
                 Bug
             </span>
             /
-            <span class="a-curseur" @click="openFeedbackModal('suggestion')">
+            <span class="alert-link a-curseur" @click="openFeedbackModal('suggestion')">
                 Suggestion
             </span>
         </b-alert>

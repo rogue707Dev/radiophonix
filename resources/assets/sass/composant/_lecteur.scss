@@ -16,7 +16,7 @@ $largeur-cover: 280px;
         @include degrade-vertical--orange-bas;
         position: fixed;
         top: $hauteur-menu-mobile;
-        bottom: $hauteur-menu-player;
+        bottom: 0;
         width: 100%;
         overflow-y: auto;
 
@@ -41,6 +41,29 @@ $largeur-cover: 280px;
         }
     }
 }
+/*======================================================================================================================
+$ NAVIGATION
+======================================================================================================================*/
+.lecteur__navigation {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    width: $largeur-cover;
+    margin: 0 auto $espacement-standard--petit;
+
+    @include media-breakpoint-up(lg) {
+        display: none;
+    }
+}
+
+// masque le bouton en large,
+// .lecteur__cover__bouton__affichage-playlist prend le relais
+@include media-breakpoint-up(lg) {
+    .lecteur__navigation__affichage-playlist {
+        display: none !important;
+    }
+}
+
 /*======================================================================================================================
 $ COVER
 ======================================================================================================================*/
@@ -75,6 +98,16 @@ $ COVER
 
     background: url('/static/dev/images/fond-bouton-cover-lecteur.png') bottom no-repeat;
     padding: 2px;
+}
+
+.lecteur__cover__bouton .btn-theme.btn-icon {
+    border-radius: 2px;
+
+    box-shadow: 1px 1px 0 0 $bleu-300;
+
+    &:active {
+        box-shadow: -1px -1px 0 0 $bleu-300;
+    }
 }
 
 
@@ -112,13 +145,18 @@ $ FILTRE IMAGE PLAYER EN ATTENTE
 
 
 /*======================================================================================================================
-$ BOUTON SUPLEMENTAIRE
+$ BOUTON AFFICHAGE PLAYLIST
 ======================================================================================================================*/
-// bouton s'affiche en small, medium et en large si petite hauteur
-.lecteur__bouton-affichage {
+// bouton s'affiche en large si petite hauteur
+.lecteur__cover__bouton__affichage-playlist {
     @include media-breakpoint-up(lg) {
         @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
             display: none !important;
         }
+    }
+    // masque le bouton en medium down,
+    // .lecteur__navigation__affichage-playlist prend le relais
+    @include media-breakpoint-down(md) {
+        display: none !important;
     }
 }

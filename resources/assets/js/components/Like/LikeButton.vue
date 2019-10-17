@@ -1,13 +1,19 @@
 <template>
-    <button aria-hidden="true"
-            class="fa"
+    <button type="button"
+            aria-hidden="true"
+            class="favoris"
+            :class="activeClass"
             :disabled="isLoading"
             @click="toggleLike">
-        <fa-icon :icon="buttonClass" label="Bouton j'aime" />
+        <fa-icon class="favoris__oui" :icon="buttonClass" label="Bouton j'aime" />
+        <svg class="favoris__non" width="14px" height="14px">
+            <use xlink:href="#heart-broken"></use>
+        </svg>
     </button>
 </template>
 
 <script>
+
     import { mapGetters } from 'vuex';
     import FaIcon from "~/components/Ui/Icon/FaIcon";
 
@@ -40,13 +46,17 @@
                 'isAuthenticated',
             ]),
 
+            activeClass() {
+
+                if (this.isLiked(this.likeableType, this.likeableId)) {
+                    return 'var--actif';
+                }
+
+            },
+
             buttonClass() {
                 if (this.isLoading) {
                     return 'fa-circle-o-notch fa-spin';
-                }
-
-                if (this.isLiked(this.likeableType, this.likeableId)) {
-                    return 'fa-heart var--actif';
                 }
 
                 return 'fa-heart';

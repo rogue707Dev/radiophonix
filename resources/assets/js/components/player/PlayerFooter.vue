@@ -1,25 +1,20 @@
 <template>
-    <div class="lecteur-footer-navigation" v-if="currentSaga.images.cover.main">
+    <div class="lecteur-footer-navigation"
+         :class="{'d-none': isPlayerOpen}"
+         v-if="currentSaga.images.cover.main">
 
-        <button type="button" class="btn-navigation var--player" @click="togglePlayer" :class="{ 'var--actif': isPlayerOpen}">
-            <template v-if="isPlayerOpen">
-                <i aria-hidden="true" class="fa fa-angle-down text-dark"></i>
-            </template>
-            <template v-else>
-                <i aria-hidden="true" class="fa fa-angle-up"></i>
-            </template>
+        <button type="button" class="btn btn-theme btn-carre btn-sm" @click="togglePlayer">
+            <i aria-hidden="true" class="fa fa-angle-up"></i>
         </button>
 
-        <div class="lecteur-footer-navigation__contenu py-2" @click="togglePlayer">
-            <strong>
-                <text-ellispis :text="currentTrack.title" :size="28"></text-ellispis>
-            </strong>
+        <div class="text-dark" @click="togglePlayer">
+            <text-ellispis class="font-weight-bold" :text="currentTrack.title" :size="28"></text-ellispis>
             <router-link :to="{ name: 'listen.sagas.show', params: { idOrSlug: currentSaga.slug } }">
-                - <i>{{ currentSaga.name }}</i>
+                - <text-ellispis class="font-italic" :text="currentSaga.name" :size="15"></text-ellispis>
             </router-link>
         </div>
 
-        <button type="button" class="btn-navigation var--play-pause" @click="toggle">
+        <button type="button" class="btn btn-theme btn-carre btn-sm" @click="toggle">
             <i aria-hidden="true" class="fa fa-play" :class="{'fa-play': !isPlaying, 'fa-pause': isPlaying}"></i>
         </button>
 

@@ -26,6 +26,7 @@ router.beforeEach((to, from, next) => {
     }
 
     store.dispatch('ui/closeMenu');
+    store.dispatch('ui/closePlayer');
 
     rss.resetLinkTag();
 

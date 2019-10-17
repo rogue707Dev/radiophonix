@@ -18,7 +18,7 @@
                     <router-link :to="{ name: 'profile', params: { user: user.name } }" class="menu__nivo2__profil">
                         <i aria-hidden="true" class="fa fa-user"></i> Profil
                     </router-link>
-                    <button @click="logout" class="menu__nivo2__deconnexion">
+                    <button type="button" @click="logout" class="menu__nivo2__deconnexion">
                         <i aria-hidden="true" class="fa fa-lock"></i> Déconnexion
                     </button>
                 </div>

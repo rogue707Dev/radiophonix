@@ -5,9 +5,9 @@
                    v-model="query"
                    required
                    placeholder="Rechercher…"
-                   aria-describedby="Rechercher">
+                   aria-describedby="Rechercher" />
             <div class="input-group-append">
-                <button class="btn btn-primary" type="submit">
+                <button type="submit" class="btn btn-primary">
                     <i class="fa fa-fw fa-spinner fa-spin" v-show="isSearching"></i>
                     <i class="fa fa-fw fa-search" v-show="!isSearching"></i>
                 </button>

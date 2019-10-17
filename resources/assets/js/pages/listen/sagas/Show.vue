@@ -28,32 +28,29 @@
             </template>
 
             <ul class="banniere__contenu__bande">
-                <b-tooltip target="saga-like-count-button"
-                           placement="top">
-                    <div class="text-left">
-                        <div v-if="likes.firstLoad">
-                            Chargement...
-                        </div>
-
-                        <div v-else v-for="name in likes.names">
-                            {{ name }}
-                        </div>
-                        <div v-if="likes.more > 0">
-                            et {{ likes.more }} de plus...
-                        </div>
-
-                        <div v-if="saga.stats.likes === 0 && !likes.firstLoad">
-                            Ajouter aux favoris
-                        </div>
-                    </div>
-                </b-tooltip>
-
-                <li class="banniere__contenu__bande__item"
+                <li class="banniere__contenu__bande__item d-flex"
                     id="saga-like-count-button"
                     @mouseenter="showLikesTooltip">
                     {{ saga.stats.likes }}
-                    <like-button likeable-type="saga"
-                                 :likeable-id="saga.id"/>
+                    <like-button likeable-type="saga" :likeable-id="saga.id" class="btn-reset text-body" />
+                    <b-tooltip target="saga-like-count-button" placement="top">
+                        <div class="text-left">
+                            <div v-if="likes.firstLoad">
+                                Chargement...
+                            </div>
+
+                            <div v-else v-for="name in likes.names">
+                                {{ name }}
+                            </div>
+                            <div v-if="likes.more > 0">
+                                et {{ likes.more }} de plus...
+                            </div>
+
+                            <div v-if="saga.stats.likes === 0 && !likes.firstLoad">
+                                Ajouter aux favoris
+                            </div>
+                        </div>
+                    </b-tooltip>
                 </li>
                 <template v-if="saga.stats.albums == 1">
                     <li class="banniere__contenu__bande__item">
@@ -86,7 +83,7 @@
             </ul>
 
             <div class="mt-3">
-                <button class="btn btn-outline-secondary btn-sm mb-2" @click="playSaga">
+                <button type="button" class="btn btn-outline-secondary btn-sm mb-2" @click="playSaga">
                     <i class="fa fa-play" aria-hidden="true"></i>
                     <span v-if="currentTick">Reprendre la lecture</span>
                     <span v-else>Écouter</span>
@@ -191,9 +188,14 @@
                 <div class="col-12"
                      v-for="album in albumTypes[currentAlbumType]"
                      :key="album.id">
-                        <h3 class="h3 mb-2 mt-3"
-                            v-if="albums.length > 1">
-                            {{ album.name }}
+                        <h3 class="h3 mb-2 mt-3" v-if="albums.length > 1">
+                            <i aria-hidden="true" class="fa fa-book"></i>
+                            <template v-if="'Saison ' + album.number == album.name">
+                                {{ album.name }}
+                            </template>
+                            <template v-else>
+                                Saison {{ album.number }} : {{ album.name }}
+                            </template>
                         </h3>
 
                         <div class="episode-item"
@@ -209,11 +211,9 @@
                             </div>
 
                             <div class="episode-item__etat-lecture">
-                                <span
-                                        v-if="track.id == currentTrack.id"
-                                        class="text-primary border border-primary rounded p-1">
-                                Épisode en cours
-                            </span>
+                                <button disabled v-if="track.id == currentTrack.id" class="btn btn-outline-primary btn-sm text-primary">
+                                    Épisode en cours
+                                </button>
                                 <button
                                         v-else
                                         class="btn btn-sm"

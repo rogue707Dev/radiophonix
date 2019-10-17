@@ -85,6 +85,13 @@ const actions = {
         commit('togglePlayer');
     },
 
+    closePlayer: ({commit}) => {
+        commit('setPlaylistClasses', {actif: false});
+        commit('setPlayerClass', '');
+        commit('setMainClass', '');
+        commit('closePlayer');
+    },
+
     resetPageTitle: ({ commit }) => {
         commit('setPageTitle', buildTitle());
     },

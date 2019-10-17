@@ -11,6 +11,7 @@
 
         <template slot="buttons">
             <like-button likeable-type="saga"
+                         class="btn-reset text-body"
                          :likeable-id="saga.id"/>
         </template>
         <template slot="stats" v-if="withStats">

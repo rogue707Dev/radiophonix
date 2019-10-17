@@ -2,49 +2,11 @@
 $ PLAYLIST
 ======================================================================================================================*/
 .playlist {
-    padding: 0 $padding-sidebar;
-
     @include media-breakpoint-down(md) {
         @include degrade-vertical--orange-bas;
         z-index: 2; // pour passer au dessus de .lecteur-footer-navigation
     }
 }
-
-/*-----------------------------------------------------------------------------
-$ MENU PLAYLIST - retour au player
------------------------------------------------------------------------------*/
-.playlist__menu {
-
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    justify-content: center;
-
-    height: $hauteur-fermer-playlist;
-
-    position: fixed;
-    top: $hauteur-menu-mobile;
-    border-bottom: 1px solid $bleu-400;
-    padding: 0 $padding-sidebar;
-
-    @include media-breakpoint-down(md) {
-        left:0;
-        right: 0;
-    }
-
-    @include media-breakpoint-up(lg) {
-        top: 0;
-        left: $largeur-menu;
-        width: $largeur-sidebar;
-
-        @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
-            display: none;
-        }
-    }
-
-}
-
-
 
 
 /*-----------------------------------------------------------------------------
@@ -52,31 +14,35 @@ $ LISTE DE MORCEAU
 -----------------------------------------------------------------------------*/
 .playlist__liste {
 
+    width: 280px;
+    margin: $espacement-standard 0 $espacement-standard $espacement-standard;
+
     @include media-breakpoint-down(md) {
         position: fixed;
-        top: $hauteur-menu-mobile + $hauteur-fermer-playlist;
+        top: $hauteur-menu-mobile + $hauteur-mini-player;
         left:0;
         right: 0;
         bottom: 0;
 
-        overflow-y: scroll;
+        overflow-y: auto;
         overflow-x: hidden;
 
-        padding: 0 $padding-sidebar;
+        margin: 0 auto;
     }
 
     @include media-breakpoint-up(lg) {
         @media screen and (max-height: $playlist-taille-mini-hauteur-pour-affichage) {
             position: fixed;
-            top: $hauteur-fermer-playlist;
+            top: $hauteur-mini-player--lg;
             bottom: 0;
             left: $largeur-menu;
             width: $largeur-sidebar;
 
-            overflow-y: scroll;
+            overflow-y: auto;
             overflow-x: hidden;
 
             padding: 0 $padding-sidebar;
+            margin: 0;
 
         }
     }
@@ -94,7 +60,6 @@ $ LISTE DE MORCEAU
     left:0;
     right: 0;
     height: $hauteur-menu-mobile;
-    background-color: red;
 
     @include media-breakpoint-up(lg) {
         display: none;
@@ -104,9 +69,6 @@ $ LISTE DE MORCEAU
 $ DISPOSITION
 ======================================================================================================================*/
 .playlist__grille {
-    margin-right: -($grid-gutter-width / 2);
-    margin-left: -($grid-gutter-width / 2);
-    padding: $espacement-standard--petit ($grid-gutter-width / 2);
     display: grid;
     grid-template-columns: 30px 1fr auto;
 }
@@ -114,10 +76,21 @@ $ DISPOSITION
 /*======================================================================================================================
 $ SAISON
 ======================================================================================================================*/
+.playlist__grille.playlist__saison {
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+.playlist__grille.playlist__saison:not(:first-child){
+    margin-top: 40px;
+}
+
+.playlist__grille.playlist__saison .fa{
+    margin-right:10px;
+}
+
 .playlist__saison {
-    background-color: $orange-300;
     color: $bleu-500;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*======================================================================================================================
@@ -127,31 +100,26 @@ $ MORCEAU
 $ NORMAL
 -----------------------------------------------------------------------------*/
 .playlist__morceau {
-    border-bottom: 1px solid rgba($bleu-500, 0.4);
     color: $bleu-500;
-
-    @include media-breakpoint-down(sm) {
-        &:first-child {
-            border-top: 1px solid rgba($bleu-500, 0.4);
-        }
-    }
+    border-radius:2px;
+    padding: 5px 10px;
 
     @include media-breakpoint-down(md) {
+        border-bottom: 1px solid rgba($bleu-400, 0.2);
+
         &:last-child {
             border-bottom-color: transparent;
         }
     }
-
-    @include media-breakpoint-up(lg) {
-        border-bottom: 1px solid rgba($rouge-300, 0.2);
-    }
 }
 
+.playlist__morceau:hover {
+    background: rgba($blanc, 0.5);
+}
 
 /*-----------------------------------------------------------------------------
 $ ACTIF
 -----------------------------------------------------------------------------*/
 .playlist__morceau.actif {
-    background-color: $actif;
-    color: $blanc;
+    background-color: $blanc;
 }

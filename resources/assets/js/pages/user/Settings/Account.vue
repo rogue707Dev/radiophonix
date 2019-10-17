@@ -7,7 +7,7 @@
                 En supprimant votre compte, toutes les informations associées seront supprimées.
             </p>
 
-            <button class="btn btn-danger mt-4"
+            <button type="button" class="btn btn-danger mt-4"
                     v-b-tooltip.right
                     title="Une confirmation est demandée avant de supprimer le compte"
                     @click="deleteAccount">

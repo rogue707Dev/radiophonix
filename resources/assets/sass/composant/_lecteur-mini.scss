@@ -1,0 +1,140 @@
+/*======================================================================================================================
+$ CONTENEUR
+======================================================================================================================*/
+.lecteur-mini {
+    display: grid;
+    grid-template-columns:  auto 1fr 31px;
+    grid-template-rows: repeat(3, auto);
+    column-gap: $espacement-standard--petit;
+
+    width: $largeur-cover;
+    height: $hauteur-mini-player;
+    margin: 0 auto;
+    padding: $espacement-standard 0;
+
+    border-bottom: 1px solid rgba($bleu-500, 0.4);
+
+    @include media-breakpoint-up(lg) {
+
+        grid-template-columns:  auto 1fr auto;
+        height: $hauteur-mini-player--lg;
+
+        @media screen and (min-height: $playlist-taille-mini-hauteur-pour-affichage) {
+            display: none;
+        }
+    }
+
+}
+
+/*======================================================================================================================
+$ NAVIGATION
+======================================================================================================================*/
+.lecteur-mini__navigation {
+    grid-column: 1/4;
+    grid-row: 1;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: $espacement-standard--petit;
+
+    @include media-breakpoint-up(lg) {
+        display: none;
+    }
+}
+
+/*======================================================================================================================
+$ COVER
+======================================================================================================================*/
+.lecteur-mini__cover {
+    grid-column: 1/2;
+    grid-row: 2;
+}
+
+.lecteur-mini__cover__visuel {
+    position: relative;
+}
+
+.lecteur-mini__cover__play {
+    @include pa-centre;
+}
+
+/*======================================================================================================================
+$ INFO DU MORCEAU
+======================================================================================================================*/
+.lecteur-mini__info {
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+/*======================================================================================================================
+$ PROGRESSION
+======================================================================================================================*/
+.lecteur-mini__progression {
+    grid-column: 2/4;
+    grid-row: 3;
+    margin-top: $espacement-standard--petit;
+}
+
+.lecteur-mini__progression .progression {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    height: 100%;
+    align-content: center;
+
+
+
+    *:nth-child(1) {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    *:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+    *:nth-child(3) {
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+}
+
+
+/*======================================================================================================================
+$ BOUTON
+======================================================================================================================*/
+.lecteur-mini__bouton {
+    grid-column: 3/4;
+    grid-row: 2;
+}
+
+.lecteur-mini__bouton__disposition {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+
+
+    @include media-breakpoint-up(lg) {
+        align-content: space-between;
+    }
+}
+
+.lecteur-mini__bouton__fermer {
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
+}
+
+/*======================================================================================================================
+$ CONTROLE
+======================================================================================================================*/
+.lecteur-mini__controle {
+    grid-column: 1/2;
+    grid-row: 3;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: $espacement-standard--petit;
+}
