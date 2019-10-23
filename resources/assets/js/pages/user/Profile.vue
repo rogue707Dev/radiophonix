@@ -37,8 +37,14 @@
                             <b-popover :target="'badge-popover-' + badge.key"
                                        triggers="hover focus"
                                        placement="top"
-                                       :title="badge.title"
-                                       :content="badge.description"></b-popover>
+                                       :title="badge.title">
+                                <template slot="default">
+                                    <template v-if="badge.isOwned">{{badge.description}}</template>
+                                    <template v-else>
+                                        <i>Vous n'avez pas encore obtenu ce badge.</i>
+                                    </template>
+                                </template>
+                            </b-popover>
 
                             <svg><use xlink:href="#contour-badge"></use></svg>
                             <div class="cover__mask">
